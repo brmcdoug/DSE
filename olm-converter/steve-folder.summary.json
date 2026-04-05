@@ -1,0 +1,1889 @@
+{
+  "total_emails": 1509,
+  "date_range": {
+    "earliest": "2020",
+    "latest": "2026"
+  },
+  "emails_by_year": {
+    "2020": 94,
+    "2021": 145,
+    "2022": 227,
+    "2023": 293,
+    "2024": 299,
+    "2025": 370,
+    "2026": 81
+  },
+  "top_senders": {
+    "connected.cisco@globoforce.com": 180,
+    "cipol-noreply@cisco.com": 132,
+    "cfilsfil@cisco.com": 82,
+    "stkmail@cisco.com": 72,
+    "connected.recognition@globoforce.com": 56,
+    "dse@docusign.net": 53,
+    "pcamaril@cisco.com": 31,
+    "crossman@cisco.com": 27,
+    "ntoussai@cisco.com": 25,
+    "vsuazo@cisco.com": 22,
+    "zali@cisco.com": 21,
+    "messenger@webex.com": 21,
+    "gyan.s.mishra@verizon.com": 21,
+    "cisco-enablement@cisco.com": 20,
+    "ahabdels@cisco.com": 17,
+    "Tanner.Mort@leehayes.com": 16,
+    "byzek@cisco.com": 14,
+    "gce-noreply@cisco.com": 14,
+    "robermur@cisco.com": 14,
+    "teamspacenotifications@cisco.com": 13,
+    "brmcdoug@cisco.com": 13,
+    "ansteinh@cisco.com": 13,
+    "moacosta@cisco.com": 12,
+    "pnedeltc@cisco.com": 12,
+    "tynielso@cisco.com": 12,
+    "E-tradeAlerts-DoNotReply@etrade.com": 12,
+    "kheywood@merchantgould.com": 11,
+    "no-reply@cisco.com": 10,
+    "osc-donotreply@cisco.com": 10,
+    "robmgl@cisco.com": 9
+  },
+  "top_recipients": {
+    "brmcdoug@cisco.com": 1279,
+    "pcamaril@cisco.com": 84,
+    "cfilsfil@cisco.com": 75,
+    "byzek@cisco.com": 71,
+    "ahabdels@cisco.com": 65,
+    "jonathh2@cisco.com": 47,
+    "fclad@cisco.com": 43,
+    "robermur@cisco.com": 42,
+    "natal@cisco.com": 41,
+    "saspraha@cisco.com": 40,
+    "crossman@cisco.com": 38,
+    "jmerrill@cisco.com": 36,
+    "fmaino@cisco.com": 34,
+    "vsuazo@cisco.com": 32,
+    "zali@cisco.com": 30,
+    "tynielso@cisco.com": 30,
+    "isemco@cisco.com": 29,
+    "djsmith@cisco.com": 27,
+    "swood1@cisco.com": 26,
+    "jakuhorn@cisco.com": 26
+  },
+  "category_hits": {
+    "innovation_patents": 286,
+    "segment_routing_srv6": 275,
+    "revenue_business_impact": 240,
+    "awards_recognition": 231,
+    "service_provider_telco": 180,
+    "leadership_mentoring": 155,
+    "cisco_live_speaking": 144,
+    "hyperscale_cloud_ai": 138,
+    "sonic_open_source": 135,
+    "jalapeno_programmability": 85,
+    "global_international": 84,
+    "cilium_isovalent": 66,
+    "enterprise_customers": 19
+  },
+  "category_examples": {
+    "global_international": [
+      {
+        "date": "2020-08-03T17:24:54",
+        "from": "Marcus Moffett (mmoffett) <mmoffett@cisco.com>",
+        "subject": "FW: Welcome to FY21!",
+        "snippet": "Bruce, Congrats on your promotion to PA! Well-deserved. Marc From: John Knipp <jknipp@cisco.com> Date: Tuesday, July 28, 2020 at 8:06 PM Subject: Welcome to FY21! Bcc:Americas-SE-All Team – I want to echo Jeff’s sentiment and person",
+        "matched_terms": [
+          "amer"
+        ]
+      },
+      {
+        "date": "2020-11-05T23:36:59",
+        "from": "mustafa hubaishi via Miro <notification@miro.com>",
+        "subject": "mustafa hubaishi has given you access to join a team at Miro",
+        "snippet": "mustafa hubaishi has invited you to join Americas ENG (2300) team Get started What is Miro? Miro is the online collaborative whiteboard where distributed teams get work done. Why am I receiving this email? Cisco has an account with Miro and you have",
+        "matched_terms": [
+          "amer"
+        ]
+      },
+      {
+        "date": "2020-11-06T15:22:45",
+        "from": "Thierry Couture (tcouture) <tcouture@cisco.com>",
+        "subject": "Re: Service Provider SEVT October FY2021",
+        "snippet": "Awesome - our peeps are gentler than Live! scores in EMEA. Hahahahaha. All I want to know is: did we do better than Byzek? :) T. > On Nov 5, 2020, at 21:16, Vaughn Suazo (vsuazo) <vsuazo@cisco.com> wrote: > > Excellent job gentlemen. > > Th",
+        "matched_terms": [
+          "emea"
+        ]
+      },
+      {
+        "date": "2020-11-16T16:23:16",
+        "from": "Patrick Morrissey (pmorriss) <pmorriss@cisco.com>",
+        "subject": "Americas Service Provider Organizational Update",
+        "snippet": "Hi Team, What an earnings call last week! We had another amazing quarter and achieved our goal of delivering the ASP 3PEAT (3 consecutive quarters over plan)! ASP was the top performing theater in the Americas and we had three of our four verticals",
+        "matched_terms": [
+          "amer"
+        ]
+      },
+      {
+        "date": "2020-12-01T20:21:53",
+        "from": "Patrick Morrissey (pmorriss) <pmorriss@cisco.com>",
+        "subject": "Americas SP Components Model Design Wins Bounty",
+        "snippet": "Congratulations! In order to drive Component Models and future revenue, you have been selected to participate in the Americas SP Components Model Design Wins Bounty, running through end of FY22. Please review the attached letter detailing this exciting",
+        "matched_terms": [
+          "amer"
+        ]
+      },
+      {
+        "date": "2021-02-26T02:41:00",
+        "from": "Patrick Morrissey (pmorriss) <pmorriss@cisco.com>",
+        "subject": "Americas SP Components Model Design Wins Bounty",
+        "snippet": "Bruce, Thank you for your continued focus on the Component models. Given AWS’s change in strategy from 25.6T to 12.8T, the steering committee has reviewed and approved to modify this bounty in accordance with that strategy. Attached is the revision t",
+        "matched_terms": [
+          "amer"
+        ]
+      },
+      {
+        "date": "2021-04-05T00:45:33",
+        "from": "Cisco Live Meet the Engineer <ciscolive@ciscoliveevents.com>",
+        "subject": "ACTION REQUIRED: Cisco Live 2021 - Meet the Engineer: Meeting Request (MTE2632)",
+        "snippet": "AMERICAS: March 30 - 31 APJC: March 31 - April 1 EMEAR: March 31 - April 1 Dear Bruce McDougall, A meeting has been requested with you by a Cisco Live attendee. Access the Meeting Host Dashboard to accept the meeting or recommend an alternate h",
+        "matched_terms": [
+          "apjc",
+          "emea",
+          "amer"
+        ]
+      },
+      {
+        "date": "2021-04-05T00:47:08",
+        "from": "Cisco Live Meet the Engineer <ciscolive@ciscoliveevents.com>",
+        "subject": "Cisco Live 2021 - Meet the Engineer: Meeting is Approved (MTE2632)",
+        "snippet": "AMERICAS: March 30 - 31 APJC: March 31 - April 1 EMEAR: March 31 - April 1 Dear Bruce McDougall, The following meeting at Cisco Live is approved. When it's time, please join your meeting by clicking on the Webex button below. If you need to can",
+        "matched_terms": [
+          "apjc",
+          "emea",
+          "amer"
+        ]
+      }
+    ],
+    "segment_routing_srv6": [
+      {
+        "date": "2020-08-07T21:24:40",
+        "from": "Network OS Patent Committee <network-os-cpolreviewers@cisco.com>",
+        "subject": "[CPOL 1028300] \"SRv6 DNS Proxy for Improved Network Quality of Experience\": Has been returned",
+        "snippet": "CPOL #1028300 titled \"SRv6 DNS Proxy for Improved Network Quality of Experience\" has been returned for comments by the Network OS Patent Committee and must now be edited using CPOL before it can continue being reviewed. When editing your submission, pleas",
+        "matched_terms": [
+          "srv6"
+        ]
+      },
+      {
+        "date": "2020-08-18T14:37:47",
+        "from": "Gerri Elliott <ciscoimpact@ciscoevents.com>",
+        "subject": "Congratulations, FY20 Achiever",
+        "snippet": "Congratulations! ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ What an accomplishment to be recognized as an Achiever for FY20! Congratulations! I know it wasn’t easy to get here, especially considering what we faced this year. Thank you for being such an inva",
+        "matched_terms": [
+          "sid"
+        ]
+      },
+      {
+        "date": "2020-08-19T12:06:06",
+        "from": "Jeff Byzek (byzek) <byzek@cisco.com>",
+        "subject": "Re: [CPOL 1028300] \"SRv6 DNS Proxy for Improved Network Quality of Experience\": Awaiting Editing for 10 days!",
+        "snippet": "Yeah, 1006575 is the patent I was referring to with this: “the previous CPOL they cite is really just host-based encap with SR; it’s obviously foundational to this patent but doesn’t incorporate the additional elements of DNS and SLA” “ Multi Path TCP",
+        "matched_terms": [
+          "srv6"
+        ]
+      },
+      {
+        "date": "2020-08-20T13:43:24",
+        "from": "Clarence Filsfils (cfilsfil) <cfilsfil@cisco.com>",
+        "subject": "RE: Discussion of tunnels",
+        "snippet": "Excellent, this is the point. People have been so confused about past complexity that they can no longer accept the evidence of simplicity: an SRv6 tunnel is just an outer IPv6 header with maybe an SRH. Nothing else is needed. Cheers, Clarence",
+        "matched_terms": [
+          "srv6",
+          "srh"
+        ]
+      },
+      {
+        "date": "2020-08-21T17:26:11",
+        "from": "Dave Clough (dclough) <dclough@cisco.com>",
+        "subject": "SR-v6 ucid mobility discussion",
+        "snippet": "Sam and Aeneas- we have submitted a patent for using SRv6 for improved network Quality. https://cpol.cisco.com/cpol/patent.cgi?task=View&id=1028300 This same idea could easily be used for mobility management as well. We would like to set up a call to di",
+        "matched_terms": [
+          "srv6"
+        ]
+      },
+      {
+        "date": "2020-09-14T05:50:04",
+        "from": "Steve Braaten (sbraaten) <sbraaten@cisco.com>",
+        "subject": "RE: SRv6 PPT at ETSI",
+        "snippet": "+Alan From: Bruce McDougall (brmcdoug) <brmcdoug@cisco.com> Sent: Tuesday, September 8, 2020 9:51 AM To: Steve Braaten (sbraaten) <sbraaten@cisco.com>; Jeff Byzek (byzek) <byzek@cisco.com>; Dave Clough (dclough) <dclough@cisco.com> Cc: Brook Cross",
+        "matched_terms": [
+          "srv6"
+        ]
+      },
+      {
+        "date": "2020-10-19T10:16:07",
+        "from": "Network OS Patent Committee <network-os-cpolreviewers@cisco.com>",
+        "subject": "[CPOL 1028300] \"SRv6 DNS Proxy for Improved Network Quality of Experience\": Has been declined",
+        "snippet": "Thank you for your submission \"SRv6 DNS Proxy for Improved Network Quality of Experience\". Cisco has decided not to pursue a patent on your submission at this time. Explanation of decline by the committee Thank you for submitting this CPOL. CP",
+        "matched_terms": [
+          "srv6"
+        ]
+      },
+      {
+        "date": "2020-11-10T08:19:46",
+        "from": "Hinwoto Tjun (htjun) <htjun@cisco.com>",
+        "subject": "RE: Winning Announcement - INDOSAT OOREDOO ASEAN and ME - SRv6 Deployment - 1st in ASEAN region",
+        "snippet": "Thank you, thank you Bruce.. need to learn a lot from you later about SRv6 and stuff Cheers hin Hinwoto Tjun TECHNICAL SOLUTIONS ARCHITECT.SP SALES htjun@cisco.com Tel: +62 21 2754 6448 Cisco Systems, Inc. Perkantoran Hijau Arkadia, Tow",
+        "matched_terms": [
+          "srv6"
+        ]
+      }
+    ],
+    "innovation_patents": [
+      {
+        "date": "2020-08-07T21:24:40",
+        "from": "Network OS Patent Committee <network-os-cpolreviewers@cisco.com>",
+        "subject": "[CPOL 1028300] \"SRv6 DNS Proxy for Improved Network Quality of Experience\": Has been returned",
+        "snippet": "CPOL #1028300 titled \"SRv6 DNS Proxy for Improved Network Quality of Experience\" has been returned for comments by the Network OS Patent Committee and must now be edited using CPOL before it can continue being reviewed. When editing your submission, pleas",
+        "matched_terms": [
+          "patent",
+          "cpol"
+        ]
+      },
+      {
+        "date": "2020-08-19T12:06:06",
+        "from": "Jeff Byzek (byzek) <byzek@cisco.com>",
+        "subject": "Re: [CPOL 1028300] \"SRv6 DNS Proxy for Improved Network Quality of Experience\": Awaiting Editing for 10 days!",
+        "snippet": "Yeah, 1006575 is the patent I was referring to with this: “the previous CPOL they cite is really just host-based encap with SR; it’s obviously foundational to this patent but doesn’t incorporate the additional elements of DNS and SLA” “ Multi Path TCP",
+        "matched_terms": [
+          "patent",
+          "cpol"
+        ]
+      },
+      {
+        "date": "2020-08-21T17:26:11",
+        "from": "Dave Clough (dclough) <dclough@cisco.com>",
+        "subject": "SR-v6 ucid mobility discussion",
+        "snippet": "Sam and Aeneas- we have submitted a patent for using SRv6 for improved network Quality. https://cpol.cisco.com/cpol/patent.cgi?task=View&id=1028300 This same idea could easily be used for mobility management as well. We would like to set up a call to di",
+        "matched_terms": [
+          "patent",
+          "cpol"
+        ]
+      },
+      {
+        "date": "2020-08-24T16:21:41",
+        "from": "Team Space <teamspacenotifications@cisco.com>",
+        "subject": "Steve Commented on Your Check-In",
+        "snippet": "Hi Bruce, Steve just added a comment to your Check-In. \"Kudos on 140. Keep it going! My thoughts about the Jalapeno/Generalized SDN Control System CPOL application - or any patent application - has to do with the red-face test with respect to prior",
+        "matched_terms": [
+          "patent",
+          "cpol"
+        ]
+      },
+      {
+        "date": "2020-08-31T15:14:37",
+        "from": "Clarence Filsfils (cfilsfil) <cfilsfil@cisco.com>",
+        "subject": "RE: 2 questions",
+        "snippet": "I do not have access to that CPOL apparently. Please ping Zafar and he will tell you our process with CPOL. We do not use this tool for editing/review 😉 No issue, you did not know Cheers, Clarence From: Bruce McDougall (brmcdoug) <brmcdoug@ci",
+        "matched_terms": [
+          "cpol"
+        ]
+      },
+      {
+        "date": "2020-09-11T13:41:42",
+        "from": "Network OS Patent Committee <network-os-cpolreviewers@cisco.com>",
+        "subject": "[CPOL 1029329] \"[Simplified 5G Core for enterprise use cases] Cloud-native solution for integrating cloud-native applica",
+        "snippet": "CPOL #1029329 titled \"[Simplified 5G Core for enterprise use cases] Cloud-native solution for integrating cloud-native applications into service provider 5G networks.\" has been returned for comments by the Network OS Patent Committee and must now be edite",
+        "matched_terms": [
+          "patent",
+          "cpol"
+        ]
+      },
+      {
+        "date": "2020-10-06T21:54:18",
+        "from": "Brook Crossman (crossman) <crossman@cisco.com>",
+        "subject": "Re: Bold Bets: You are now a mentor",
+        "snippet": "Love it! ________________________________ From: Bruce McDougall (brmcdoug) <brmcdoug@cisco.com> Sent: Tuesday, October 6, 2020 2:32 PM To: Brook Crossman (crossman) <crossman@cisco.com> Subject: Re: Bold Bets: You are now a mentor Haha, just w",
+        "matched_terms": [
+          "bold bet"
+        ]
+      },
+      {
+        "date": "2020-10-09T23:44:49",
+        "from": "Michael Riskin (mriskin) <mriskin@cisco.com>",
+        "subject": "RE: Contribution Sign-Off: https://github.com/jalapeno-sdn/jalapeno",
+        "snippet": "Hi Bruce, Very exciting to see Jalapeno back on my radar! When we left off with our last conversation you were pursuing the CPOL process, and it sounds like that’s in progress. The other item we discussed is whether this is actually something we wan",
+        "matched_terms": [
+          "cpol"
+        ]
+      }
+    ],
+    "sonic_open_source": [
+      {
+        "date": "2020-08-13T17:12:50",
+        "from": "Cisco via Acclaim <admin@youracclaim.com>",
+        "subject": "Cisco issued you a new badge",
+        "snippet": "Congratulations on your achievement! Cisco has partnered with Acclaim to issue your digital credential. Accept your digital badge now and start sharing online today. Cisco Certified Specialist - Service Provider Core Issuer: Cisco Accept your ba",
+        "matched_terms": [
+          "dent"
+        ]
+      },
+      {
+        "date": "2020-08-14T00:02:45",
+        "from": "Michael Riskin (mriskin) <mriskin@cisco.com>",
+        "subject": "RE: Contribution Sign-Off: https://github.com/jalapeno-sdn/jalapeno",
+        "snippet": "Hi Bruce, This contribution sounds awesome! Yes, let’s find some time to discuss next week, or we can chat tomorrow if that works. My calendar is up to date, so any time that is open would work for me. Thanks! Michael From: Bruce McDougall (",
+        "matched_terms": [
+          "github"
+        ]
+      },
+      {
+        "date": "2020-08-19T23:09:15",
+        "from": "Michael Riskin (mriskin) <mriskin@cisco.com>",
+        "subject": "RE: Contribution Sign-Off: https://github.com/jalapeno-sdn/jalapeno",
+        "snippet": "Hi Bruce, Thanks again for today’s meeting. It was very helpful and super exciting! I’ve connected with Ed Warnicke about it and he’s also very enthusiastic about the project. I look forward to figuring out the best path for Jalapeno. As we discusse",
+        "matched_terms": [
+          "github"
+        ]
+      },
+      {
+        "date": "2020-10-09T23:44:49",
+        "from": "Michael Riskin (mriskin) <mriskin@cisco.com>",
+        "subject": "RE: Contribution Sign-Off: https://github.com/jalapeno-sdn/jalapeno",
+        "snippet": "Hi Bruce, Very exciting to see Jalapeno back on my radar! When we left off with our last conversation you were pursuing the CPOL process, and it sounds like that’s in progress. The other item we discussed is whether this is actually something we wan",
+        "matched_terms": [
+          "github"
+        ]
+      },
+      {
+        "date": "2020-10-13T21:01:22",
+        "from": "Michael Riskin (mriskin) <mriskin@cisco.com>",
+        "subject": "RE: Open sourcing and CPOL'ing",
+        "snippet": "Dale is really the expert on the CPOL and patent thought, but my view is YES we should seek patent protection for our inventions regardless of whether we release the code as open source. There are a number of legal reasons to do this, from defensive paten",
+        "matched_terms": [
+          "open source"
+        ]
+      },
+      {
+        "date": "2020-10-13T21:15:42",
+        "from": "Dale Mohlenhoff (dmohlenh) <dmohlenh@cisco.com>",
+        "subject": "Re: Open sourcing and CPOL'ing",
+        "snippet": "Hi Bruce, Michael is correct. His thoughts below are correct and I would like to add that depending on how the claims work out, they may be applicable beyond the open source application. It is very common for us to get patents on open source. OpenSt",
+        "matched_terms": [
+          "open source"
+        ]
+      },
+      {
+        "date": "2020-12-14T20:43:37",
+        "from": "Michael Riskin (mriskin) <mriskin@cisco.com>",
+        "subject": "RE: Contribution Sign-Off: https://github.com/jalapeno-sdn/jalapeno",
+        "snippet": "Hi Bruce, Thanks for the update! No need to rush on my account, I just didn’t want this to get stuck in limbo. If Liz and team have questions about the open source route that I can assist with, please let me know. If we don’t get an answer before th",
+        "matched_terms": [
+          "open source",
+          "github"
+        ]
+      },
+      {
+        "date": "2021-01-19T14:50:04",
+        "from": "AutoNotification@concursolutions.com <AutoNotification@concursolutions.com>",
+        "subject": "Expense Report Status Change",
+        "snippet": "Expense Report Status Change An expense report you have submitted has changed status:. ________________________________ Changed By Brook Crossman Report Name github Report Date 01/04/2021 Submit Date 01/11/2021",
+        "matched_terms": [
+          "github"
+        ]
+      }
+    ],
+    "service_provider_telco": [
+      {
+        "date": "2020-08-13T17:12:50",
+        "from": "Cisco via Acclaim <admin@youracclaim.com>",
+        "subject": "Cisco issued you a new badge",
+        "snippet": "Congratulations on your achievement! Cisco has partnered with Acclaim to issue your digital credential. Accept your digital badge now and start sharing online today. Cisco Certified Specialist - Service Provider Core Issuer: Cisco Accept your ba",
+        "matched_terms": [
+          "service provider"
+        ]
+      },
+      {
+        "date": "2020-09-11T13:41:42",
+        "from": "Network OS Patent Committee <network-os-cpolreviewers@cisco.com>",
+        "subject": "[CPOL 1029329] \"[Simplified 5G Core for enterprise use cases] Cloud-native solution for integrating cloud-native applica",
+        "snippet": "CPOL #1029329 titled \"[Simplified 5G Core for enterprise use cases] Cloud-native solution for integrating cloud-native applications into service provider 5G networks.\" has been returned for comments by the Network OS Patent Committee and must now be edite",
+        "matched_terms": [
+          "service provider"
+        ]
+      },
+      {
+        "date": "2020-09-25T07:34:19",
+        "from": "Steve Braaten (sbraaten) <sbraaten@cisco.com>",
+        "subject": "RE: Bruce McDougall (brmcdoug) shared \"Jalapeno-ETI-20200915\" with you.",
+        "snippet": "Getting better. There is still a techy tendency. Think of the first “why” slide being easy for Skyler to understand. I would reverse slides 3 and 4. Slide 4 is much closer to your ultimate goal: “Towards a NaaS and FaaS ecosystem.” But we still ne",
+        "matched_terms": [
+          "naas"
+        ]
+      },
+      {
+        "date": "2020-10-08T12:08:06",
+        "from": "Clarence Filsfils (cfilsfil) <cfilsfil@cisco.com>",
+        "subject": "RE: SR App for Bell",
+        "snippet": "Congratulation to all the team! EXCELLENT PPT, demo and verbal presentation! Special thanks to Zeeshan! Cheers, Clarence From: Francois Clad (fclad) <fclad@cisco.com> Sent: Wednesday, October 7, 2020 19:38 To: Clarence Filsfils (cfilsfil) <",
+        "matched_terms": [
+          "bell "
+        ]
+      },
+      {
+        "date": "2020-10-15T15:40:13",
+        "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+        "subject": "Bold Bets: Check out this comment!",
+        "snippet": "Dear Bruce McDougall, Shannon McFarland commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “I have history with this team and this project. Tim ...” Please click here to",
+        "matched_terms": [
+          "network as a service"
+        ]
+      },
+      {
+        "date": "2020-10-15T19:00:31",
+        "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+        "subject": "Bold Bets: Check out this comment!",
+        "snippet": "Dear Bruce McDougall, Dvir Shapira commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “I like the idea, but I feel like the problem ...” Please click here to view and re",
+        "matched_terms": [
+          "network as a service"
+        ]
+      },
+      {
+        "date": "2020-10-15T21:25:45",
+        "from": "Network OS Patent Committee <network-os-cpolreviewers@cisco.com>",
+        "subject": "[CPOL 1029329] \"[Simplified 5G Core for enterprise use cases] Cloud-native solution for integrating cloud-native applica",
+        "snippet": "CPOL #1029329 titled \"[Simplified 5G Core for enterprise use cases] Cloud-native solution for integrating cloud-native applications into service provider 5G networks.\" has been returned for comments by the Network OS Patent Committee and must now be edite",
+        "matched_terms": [
+          "service provider"
+        ]
+      },
+      {
+        "date": "2020-10-19T22:00:10",
+        "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+        "subject": "Bold Bets: Check out this comment!",
+        "snippet": "Dear Bruce McDougall, Thomas Szigeti commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “Interesting idea in a rapidly evolving space. Potential strategic alignment ...”",
+        "matched_terms": [
+          "network as a service"
+        ]
+      }
+    ],
+    "awards_recognition": [
+      {
+        "date": "2020-08-13T17:12:50",
+        "from": "Cisco via Acclaim <admin@youracclaim.com>",
+        "subject": "Cisco issued you a new badge",
+        "snippet": "Congratulations on your achievement! Cisco has partnered with Acclaim to issue your digital credential. Accept your digital badge now and start sharing online today. Cisco Certified Specialist - Service Provider Core Issuer: Cisco Accept your ba",
+        "matched_terms": [
+          "congratulations"
+        ]
+      },
+      {
+        "date": "2020-08-18T14:37:47",
+        "from": "Gerri Elliott <ciscoimpact@ciscoevents.com>",
+        "subject": "Congratulations, FY20 Achiever",
+        "snippet": "Congratulations! ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ What an accomplishment to be recognized as an Achiever for FY20! Congratulations! I know it wasn’t easy to get here, especially considering what we faced this year. Thank you for being such an inva",
+        "matched_terms": [
+          "congratulations"
+        ]
+      },
+      {
+        "date": "2020-08-24T16:21:41",
+        "from": "Team Space <teamspacenotifications@cisco.com>",
+        "subject": "Steve Commented on Your Check-In",
+        "snippet": "Hi Bruce, Steve just added a comment to your Check-In. \"Kudos on 140. Keep it going! My thoughts about the Jalapeno/Generalized SDN Control System CPOL application - or any patent application - has to do with the red-face test with respect to prior",
+        "matched_terms": [
+          "kudos"
+        ]
+      },
+      {
+        "date": "2020-11-06T04:18:18",
+        "from": "Newport Group Support <donotreply@newportgroup.com>",
+        "subject": "Cisco Systems, Inc. 2009 U.S. Deferred Compensation Plan Enrollment Confirmation for Bruce McDougall",
+        "snippet": "Cisco Systems, Inc. 2009 U.S. Deferred Compensation Plan Enrollment Confirmation Congratulations on your decision to contribute to the Cisco Systems, Inc. 2009 U.S. Deferred Compensation Plan (the \"Plan\"). The Plan provides you with the control,",
+        "matched_terms": [
+          "congratulations"
+        ]
+      },
+      {
+        "date": "2020-11-12T19:45:19",
+        "from": "incubator(mailer list) <incubator@cisco.com>",
+        "subject": "Bold Bets – Advancing to Validate Phase",
+        "snippet": "Hello Bruce, Jeff, Serguei, and Ziauddin, Congratulations! Your Bold Bet: Jalapeno - A Lightweight Infrastructure to enable Network as a Service was selected to move forward to the Validate phase. As a result, you will each be awarded $1000 in Connecte",
+        "matched_terms": [
+          "award",
+          "congratulations"
+        ]
+      },
+      {
+        "date": "2020-11-17T16:11:26",
+        "from": "connected.recognition@globoforce.com <connected.recognition@globoforce.com>",
+        "subject": "Your connected.recognition You Amaze 1 Award from Vaughn Suazo",
+        "snippet": "Vaughn Suazo awarded You Connect Everything November 17, 2020 On the Edge of greatness I want to recognize your leadership in making ASP relevant w our most important customers in 2 strategic areas; Cloud and Edge. You have gone",
+        "matched_terms": [
+          "award",
+          "recognition"
+        ]
+      },
+      {
+        "date": "2020-11-18T16:48:45",
+        "from": "connected.recognition@globoforce.com <connected.recognition@globoforce.com>",
+        "subject": "connected.recognition: Award Redemption Confirmation",
+        "snippet": "Dear Bruce, Thank you for your order placed on 18 Nov 2020. Order Reference Number: XX-WQ8JD-BFQ9Z-NWKN7-RYTSJ Order Details: ITEM QUANTITY PRICE TOTAL USD 200 Amazon.com electronic certificate Usually ships within hours.",
+        "matched_terms": [
+          "award",
+          "recognition"
+        ]
+      },
+      {
+        "date": "2020-12-01T20:21:53",
+        "from": "Patrick Morrissey (pmorriss) <pmorriss@cisco.com>",
+        "subject": "Americas SP Components Model Design Wins Bounty",
+        "snippet": "Congratulations! In order to drive Component Models and future revenue, you have been selected to participate in the Americas SP Components Model Design Wins Bounty, running through end of FY22. Please review the attached letter detailing this exciting",
+        "matched_terms": [
+          "congratulations"
+        ]
+      }
+    ],
+    "jalapeno_programmability": [
+      {
+        "date": "2020-08-14T00:02:45",
+        "from": "Michael Riskin (mriskin) <mriskin@cisco.com>",
+        "subject": "RE: Contribution Sign-Off: https://github.com/jalapeno-sdn/jalapeno",
+        "snippet": "Hi Bruce, This contribution sounds awesome! Yes, let’s find some time to discuss next week, or we can chat tomorrow if that works. My calendar is up to date, so any time that is open would work for me. Thanks! Michael From: Bruce McDougall (",
+        "matched_terms": [
+          "jalapeno"
+        ]
+      },
+      {
+        "date": "2020-08-19T23:09:15",
+        "from": "Michael Riskin (mriskin) <mriskin@cisco.com>",
+        "subject": "RE: Contribution Sign-Off: https://github.com/jalapeno-sdn/jalapeno",
+        "snippet": "Hi Bruce, Thanks again for today’s meeting. It was very helpful and super exciting! I’ve connected with Ed Warnicke about it and he’s also very enthusiastic about the project. I look forward to figuring out the best path for Jalapeno. As we discusse",
+        "matched_terms": [
+          "jalapeno"
+        ]
+      },
+      {
+        "date": "2020-08-24T16:21:41",
+        "from": "Team Space <teamspacenotifications@cisco.com>",
+        "subject": "Steve Commented on Your Check-In",
+        "snippet": "Hi Bruce, Steve just added a comment to your Check-In. \"Kudos on 140. Keep it going! My thoughts about the Jalapeno/Generalized SDN Control System CPOL application - or any patent application - has to do with the red-face test with respect to prior",
+        "matched_terms": [
+          "jalapeno"
+        ]
+      },
+      {
+        "date": "2020-09-23T14:32:57",
+        "from": "Jeff Byzek (byzek) <byzek@cisco.com>",
+        "subject": "Re: Bruce McDougall (brmcdoug) shared \"Jalapeno-ETI-20200915\" with you.",
+        "snippet": "1. 1000000% agree with being really clear on “why are we here?” This is a nice set of slides to describe a solution, but why are we having the meeting in the first place? 2. If Vijay is the audience, make sure you have a nod towards function-as-a-s",
+        "matched_terms": [
+          "jalapeno"
+        ]
+      },
+      {
+        "date": "2020-09-24T17:46:04",
+        "from": "Julia Dymtchenko <juliady@videotron.ca>",
+        "subject": "Jalapeno logo",
+        "snippet": "Hello Bruce, Thank you for the opportunity to create a logo for your project, that was fun! Please find attached files: 1. Jalapeno_green.png is for use on the web; 2. Jalapeno_green.jpg is for use on printed documents; 3. Jalapeno_g",
+        "matched_terms": [
+          "jalapeno"
+        ]
+      },
+      {
+        "date": "2020-09-25T07:34:19",
+        "from": "Steve Braaten (sbraaten) <sbraaten@cisco.com>",
+        "subject": "RE: Bruce McDougall (brmcdoug) shared \"Jalapeno-ETI-20200915\" with you.",
+        "snippet": "Getting better. There is still a techy tendency. Think of the first “why” slide being easy for Skyler to understand. I would reverse slides 3 and 4. Slide 4 is much closer to your ultimate goal: “Towards a NaaS and FaaS ecosystem.” But we still ne",
+        "matched_terms": [
+          "jalapeno"
+        ]
+      },
+      {
+        "date": "2020-10-09T23:44:49",
+        "from": "Michael Riskin (mriskin) <mriskin@cisco.com>",
+        "subject": "RE: Contribution Sign-Off: https://github.com/jalapeno-sdn/jalapeno",
+        "snippet": "Hi Bruce, Very exciting to see Jalapeno back on my radar! When we left off with our last conversation you were pursuing the CPOL process, and it sounds like that’s in progress. The other item we discussed is whether this is actually something we wan",
+        "matched_terms": [
+          "jalapeno"
+        ]
+      },
+      {
+        "date": "2020-10-15T15:40:13",
+        "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+        "subject": "Bold Bets: Check out this comment!",
+        "snippet": "Dear Bruce McDougall, Shannon McFarland commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “I have history with this team and this project. Tim ...” Please click here to",
+        "matched_terms": [
+          "jalapeno"
+        ]
+      }
+    ],
+    "cilium_isovalent": [
+      {
+        "date": "2020-08-19T12:06:06",
+        "from": "Jeff Byzek (byzek) <byzek@cisco.com>",
+        "subject": "Re: [CPOL 1028300] \"SRv6 DNS Proxy for Improved Network Quality of Experience\": Awaiting Editing for 10 days!",
+        "snippet": "Yeah, 1006575 is the patent I was referring to with this: “the previous CPOL they cite is really just host-based encap with SR; it’s obviously foundational to this patent but doesn’t incorporate the additional elements of DNS and SLA” “ Multi Path TCP",
+        "matched_terms": [
+          "host-based"
+        ]
+      },
+      {
+        "date": "2020-10-21T16:45:39",
+        "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+        "subject": "Bold Bets: Check out this comment!",
+        "snippet": "Dear Bruce McDougall, Jerome Tollet commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “(3) Platform business is a hard problem. K8s is extremely ...” Please click here",
+        "matched_terms": [
+          "k8s"
+        ]
+      },
+      {
+        "date": "2023-06-13T20:44:03",
+        "from": "Amy Gerrie (agerrie) <agerrie@cisco.com>",
+        "subject": "Discuss Cilium / Isovalent - Webex Implementation",
+        "snippet": "Hi team Thank you for your time today discussing your new broker project and implementation of Cilium. As discussed, Cilium has been used (open source) by the webex team since 2019 and is in ongoing discussions to expand the relationship. As discuss",
+        "matched_terms": [
+          "cilium",
+          "isovalent"
+        ]
+      },
+      {
+        "date": "2023-06-14T21:19:11",
+        "from": "Michael Lipsey (milipsey) <milipsey@cisco.com>",
+        "subject": "Re: STLDP Last Changes and Dry Run for our Presentation",
+        "snippet": "Regarding this call for those who weren’t able to join the Isovalent call today. Mainly Michel, Dan and I are doing much of the presentation. Dan’s slides are good, and his talking points are set so we will make minimal changes there. Michel and I are",
+        "matched_terms": [
+          "isovalent"
+        ]
+      },
+      {
+        "date": "2023-08-16T20:08:37",
+        "from": "Birkner, Matthew <matthew.birkner@intel.com>",
+        "subject": "RE: hello & Kubernetes and SRV6 service chains",
+        "snippet": "Thanks Bruce, I will check it out. I remember I think Phil B did some work on this early on, if I recall. Cheers, /Matt From: Bruce McDougall (brmcdoug) <brmcdoug@cisco.com> Sent: Wednesday, August 16, 2023 8:21 AM To: Birkner, Matthew <matt",
+        "matched_terms": [
+          "kubernetes"
+        ]
+      },
+      {
+        "date": "2023-09-12T03:52:56",
+        "from": "cipol-noreply@cisco.com <cipol-noreply@cisco.com>",
+        "subject": "FY24Q1 Senior Tech Talent Patentathon - BID CIPOL Submission Received – Elastic Network Policy Plane – C/I/1043145/",
+        "snippet": "Patent Harvesting Event: FY24Q1 Senior Tech Talent Patentathon CIPOL #: C/I/1043145/ Title: Elastic Network Policy Plane Patent Committee: To Be Decided Portfolio Manager: TBD PPM, mihodges@cisco.com Submitted By: Bruce McDougall Innovators: Bru",
+        "matched_terms": [
+          "policy plane"
+        ]
+      },
+      {
+        "date": "2023-09-19T22:05:59",
+        "from": "cipol-noreply@cisco.com <cipol-noreply@cisco.com>",
+        "subject": "FY24Q1 Senior Tech Talent Patentathon - BID CIPOL Returned for Comment (RFC) – [Network OS ] Elastic Network Policy Plan",
+        "snippet": "Patent Harvesting Event: FY24Q1 Senior Tech Talent Patentathon CIPOL #: C/I/1043145/ Legacy CPOL #: Title: [Network OS ] Elastic Network Policy Plane Patent Committee: To Be Decided Portfolio Manager: TBD PPM, mihodges@cisco.com Submitted By: Br",
+        "matched_terms": [
+          "policy plane"
+        ]
+      },
+      {
+        "date": "2023-09-26T22:44:08",
+        "from": "cipol-noreply@cisco.com <cipol-noreply@cisco.com>",
+        "subject": "FY24Q1 Senior Tech Talent Patentathon - CIPOL Re-Submission Received (post-RFC) – [Network OS ] Elastic Network Policy P",
+        "snippet": "Patent Harvesting Event: FY24Q1 Senior Tech Talent Patentathon CIPOL #: C/I/1043145/ Legacy CPOL #: Title: [Network OS ] Elastic Network Policy Plane Patent Committee: To Be Decided Portfolio Manager: TBD PPM , mihodges@cisco.com Submitted By: B",
+        "matched_terms": [
+          "policy plane"
+        ]
+      }
+    ],
+    "hyperscale_cloud_ai": [
+      {
+        "date": "2020-09-11T13:41:42",
+        "from": "Network OS Patent Committee <network-os-cpolreviewers@cisco.com>",
+        "subject": "[CPOL 1029329] \"[Simplified 5G Core for enterprise use cases] Cloud-native solution for integrating cloud-native applica",
+        "snippet": "CPOL #1029329 titled \"[Simplified 5G Core for enterprise use cases] Cloud-native solution for integrating cloud-native applications into service provider 5G networks.\" has been returned for comments by the Network OS Patent Committee and must now be edite",
+        "matched_terms": [
+          "cloud-native"
+        ]
+      },
+      {
+        "date": "2020-10-15T21:25:45",
+        "from": "Network OS Patent Committee <network-os-cpolreviewers@cisco.com>",
+        "subject": "[CPOL 1029329] \"[Simplified 5G Core for enterprise use cases] Cloud-native solution for integrating cloud-native applica",
+        "snippet": "CPOL #1029329 titled \"[Simplified 5G Core for enterprise use cases] Cloud-native solution for integrating cloud-native applications into service provider 5G networks.\" has been returned for comments by the Network OS Patent Committee and must now be edite",
+        "matched_terms": [
+          "cloud-native"
+        ]
+      },
+      {
+        "date": "2020-11-18T16:48:40",
+        "from": "connected.recognition@globoforce.com <connected.recognition@globoforce.com>",
+        "subject": "eGift Cards for Amazon.com",
+        "snippet": "Bruce McDougall, You have received 1 eGift Card(s) for Amazon.com worth USD 200.00. Your eGift Card(s) are listed below. Item Expiry Value U75M-YMQ7HE-ZVAZ NONE USD 200.00 Total Amount USD 200.00 Please no",
+        "matched_terms": [
+          "amazon"
+        ]
+      },
+      {
+        "date": "2020-11-18T16:48:45",
+        "from": "connected.recognition@globoforce.com <connected.recognition@globoforce.com>",
+        "subject": "connected.recognition: Award Redemption Confirmation",
+        "snippet": "Dear Bruce, Thank you for your order placed on 18 Nov 2020. Order Reference Number: XX-WQ8JD-BFQ9Z-NWKN7-RYTSJ Order Details: ITEM QUANTITY PRICE TOTAL USD 200 Amazon.com electronic certificate Usually ships within hours.",
+        "matched_terms": [
+          "amazon"
+        ]
+      },
+      {
+        "date": "2020-11-18T16:48:46",
+        "from": "connected.recognition@globoforce.com <connected.recognition@globoforce.com>",
+        "subject": "eGift Cards for Amazon.com",
+        "snippet": "Bruce McDougall, You have received 1 eGift Card(s) for Amazon.com worth USD 50.00. Your eGift Card(s) are listed below. Item Expiry Value THT8-LGAJA7-3RAW NONE USD 50.00 Total Amount USD 50.00 Please note",
+        "matched_terms": [
+          "amazon"
+        ]
+      },
+      {
+        "date": "2020-12-05T04:20:12",
+        "from": "connected.recognition@globoforce.com <connected.recognition@globoforce.com>",
+        "subject": "eGift Cards for Amazon.com",
+        "snippet": "Bruce McDougall, You have received 2 eGift Card(s) for Amazon.com worth USD 1000.00. Your eGift Card(s) are listed below. Item Expiry Value 1 4GK6-BU2AGQ-UJAM NONE USD 500.00 2 KTAZ-G3GDKU-7CAT NON",
+        "matched_terms": [
+          "amazon"
+        ]
+      },
+      {
+        "date": "2020-12-05T04:20:10",
+        "from": "connected.recognition@globoforce.com <connected.recognition@globoforce.com>",
+        "subject": "connected.recognition: Award Redemption Confirmation",
+        "snippet": "Dear Bruce, Thank you for your order placed on 05 Dec 2020. Order Reference Number: XX-TQZNM-FX9NR-YKDC2-4YYZ5 Order Details: ITEM QUANTITY PRICE TOTAL USD 500 Amazon.com electronic certificate Usually ships within hours.",
+        "matched_terms": [
+          "amazon"
+        ]
+      },
+      {
+        "date": "2020-12-16T02:04:02",
+        "from": "Patrick Morrissey (pmorriss) <pmorriss@cisco.com>",
+        "subject": "FW: Congratulations to our Q1 FY21 Stronger Together Award Winners!",
+        "snippet": "Team, Forwarding Gerri’s message with a shout out to the Microsoft team for bringing home a Q1 Stronger Together Award for its Cisco 8800 win! The Cisco Stronger Together awards recognize excellence in winning new business, working together as a tea",
+        "matched_terms": [
+          "microsoft"
+        ]
+      }
+    ],
+    "revenue_business_impact": [
+      {
+        "date": "2020-09-24T17:46:04",
+        "from": "Julia Dymtchenko <juliady@videotron.ca>",
+        "subject": "Jalapeno logo",
+        "snippet": "Hello Bruce, Thank you for the opportunity to create a logo for your project, that was fun! Please find attached files: 1. Jalapeno_green.png is for use on the web; 2. Jalapeno_green.jpg is for use on printed documents; 3. Jalapeno_g",
+        "matched_terms": [
+          "opportunity"
+        ]
+      },
+      {
+        "date": "2020-10-15T15:40:13",
+        "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+        "subject": "Bold Bets: Check out this comment!",
+        "snippet": "Dear Bruce McDougall, Shannon McFarland commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “I have history with this team and this project. Tim ...” Please click here to",
+        "matched_terms": [
+          "win"
+        ]
+      },
+      {
+        "date": "2020-10-15T19:00:31",
+        "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+        "subject": "Bold Bets: Check out this comment!",
+        "snippet": "Dear Bruce McDougall, Dvir Shapira commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “I like the idea, but I feel like the problem ...” Please click here to view and re",
+        "matched_terms": [
+          "win"
+        ]
+      },
+      {
+        "date": "2020-10-19T22:00:10",
+        "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+        "subject": "Bold Bets: Check out this comment!",
+        "snippet": "Dear Bruce McDougall, Thomas Szigeti commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “Interesting idea in a rapidly evolving space. Potential strategic alignment ...”",
+        "matched_terms": [
+          "win"
+        ]
+      },
+      {
+        "date": "2020-10-20T13:25:29",
+        "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+        "subject": "Bold Bets: Check out this comment!",
+        "snippet": "Dear Bruce McDougall, Serguei Bezverkhi commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “Reply to (1) This solution is not unique to Service Provider ...” Please clic",
+        "matched_terms": [
+          "win"
+        ]
+      },
+      {
+        "date": "2020-10-21T16:40:23",
+        "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+        "subject": "Bold Bets: Check out this comment!",
+        "snippet": "Dear Bruce McDougall, Jerome Tollet commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “(2) Project description is not super rich in terms of technical ...” Please click",
+        "matched_terms": [
+          "win"
+        ]
+      },
+      {
+        "date": "2020-10-21T16:40:22",
+        "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+        "subject": "Bold Bets: Check out this comment!",
+        "snippet": "Dear Bruce McDougall, Jerome Tollet commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “(1) There are definitely interesting foundations in this project: importance of ...”",
+        "matched_terms": [
+          "win"
+        ]
+      },
+      {
+        "date": "2020-10-21T16:45:39",
+        "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+        "subject": "Bold Bets: Check out this comment!",
+        "snippet": "Dear Bruce McDougall, Jerome Tollet commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “(3) Platform business is a hard problem. K8s is extremely ...” Please click here",
+        "matched_terms": [
+          "win"
+        ]
+      }
+    ],
+    "leadership_mentoring": [
+      {
+        "date": "2020-10-06T21:54:18",
+        "from": "Brook Crossman (crossman) <crossman@cisco.com>",
+        "subject": "Re: Bold Bets: You are now a mentor",
+        "snippet": "Love it! ________________________________ From: Bruce McDougall (brmcdoug) <brmcdoug@cisco.com> Sent: Tuesday, October 6, 2020 2:32 PM To: Brook Crossman (crossman) <crossman@cisco.com> Subject: Re: Bold Bets: You are now a mentor Haha, just w",
+        "matched_terms": [
+          "mentor"
+        ]
+      },
+      {
+        "date": "2020-11-05T10:12:50",
+        "from": "Prasanna Urunkar -X (purunkar - ZENSAR TECHNOLOGIES INC at Cisco) <purunkar@cisc",
+        "subject": "Service Provider SEVT October FY2021",
+        "snippet": "Dear All, Thank you for your presentation at the recent VT Event. Your participation is critical to the success of the VT Program. The final survey score is available in the attached document. We appreciate your commitment and the delivery of your V",
+        "matched_terms": [
+          "sevt"
+        ]
+      },
+      {
+        "date": "2020-11-06T02:16:27",
+        "from": "Vaughn Suazo (vsuazo) <vsuazo@cisco.com>",
+        "subject": "Re: Service Provider SEVT October FY2021",
+        "snippet": "Excellent job gentlemen. Thank you! Sent from mobile mail Vaughn Suazo, DSE Cisco Systems On Nov 5, 2020, at 12:26 PM, Bruce McDougall (brmcdoug) <brmcdoug@cisco.com> wrote: Man, pretty nice score! From: \"Prasanna Urunkar -X (purunkar",
+        "matched_terms": [
+          "sevt"
+        ]
+      },
+      {
+        "date": "2020-11-06T15:22:45",
+        "from": "Thierry Couture (tcouture) <tcouture@cisco.com>",
+        "subject": "Re: Service Provider SEVT October FY2021",
+        "snippet": "Awesome - our peeps are gentler than Live! scores in EMEA. Hahahahaha. All I want to know is: did we do better than Byzek? :) T. > On Nov 5, 2020, at 21:16, Vaughn Suazo (vsuazo) <vsuazo@cisco.com> wrote: > > Excellent job gentlemen. > > Th",
+        "matched_terms": [
+          "sevt"
+        ]
+      },
+      {
+        "date": "2020-12-16T20:51:17",
+        "from": "Ilona Serrao (ilserrao) <ilserrao@cisco.com>",
+        "subject": "Presenter update and request for the SP DCN Champions Bootcamp II",
+        "snippet": "HI All, Thank you for participating as presenters in the second annual SP DCN Champions Bootcamp! We are getting close to the event start which is Jan 4 through 14. Following are some requests we have in prep for the live show: * Please use",
+        "matched_terms": [
+          "bootcamp"
+        ]
+      },
+      {
+        "date": "2021-01-29T22:20:51",
+        "from": "connected.recognition@globoforce.com <connected.recognition@globoforce.com>",
+        "subject": "Your connected.recognition You Amaze 2 Award from Sara Stuart",
+        "snippet": "Sara Stuart awarded You Benefit Everyone January 29, 2021 DCN Champions Bootcamp II Presenter Thank you for presenting at our DCN Champions Bootcamp II. Your dedication to understanding your audience and pulling together the rele",
+        "matched_terms": [
+          "bootcamp"
+        ]
+      },
+      {
+        "date": "2021-02-16T22:33:10",
+        "from": "Sarah McCall (szumaris) <szumaris@cisco.com>",
+        "subject": "ACTION: Talent Review Enablement",
+        "snippet": "Hi Everyone, Have you wanted to learn best practices on running a Talent Review for your organization? Are you thinking about this right now in preparation to roll up for our ASP Talent Review next month? Please utilize the resources below to prepare",
+        "matched_terms": [
+          "enablement"
+        ]
+      },
+      {
+        "date": "2021-02-20T22:25:28",
+        "from": "Jason Houx (jahoux) <jahoux@cisco.com>",
+        "subject": "Re: SEVT Apr 13-15",
+        "snippet": "Its really bad timing - FNA is pretty boring to be honest and we can't talk about the DC F16 disaggregation that we are doing publicly and we are not ready to talk about what we are doing on their edge - so it's premature at best. Ping me next time it co",
+        "matched_terms": [
+          "sevt"
+        ]
+      }
+    ],
+    "cisco_live_speaking": [
+      {
+        "date": "2020-10-08T12:08:06",
+        "from": "Clarence Filsfils (cfilsfil) <cfilsfil@cisco.com>",
+        "subject": "RE: SR App for Bell",
+        "snippet": "Congratulation to all the team! EXCELLENT PPT, demo and verbal presentation! Special thanks to Zeeshan! Cheers, Clarence From: Francois Clad (fclad) <fclad@cisco.com> Sent: Wednesday, October 7, 2020 19:38 To: Clarence Filsfils (cfilsfil) <",
+        "matched_terms": [
+          "presentation"
+        ]
+      },
+      {
+        "date": "2020-11-05T10:12:50",
+        "from": "Prasanna Urunkar -X (purunkar - ZENSAR TECHNOLOGIES INC at Cisco) <purunkar@cisc",
+        "subject": "Service Provider SEVT October FY2021",
+        "snippet": "Dear All, Thank you for your presentation at the recent VT Event. Your participation is critical to the success of the VT Program. The final survey score is available in the attached document. We appreciate your commitment and the delivery of your V",
+        "matched_terms": [
+          "presentation",
+          "vt "
+        ]
+      },
+      {
+        "date": "2020-11-06T02:16:27",
+        "from": "Vaughn Suazo (vsuazo) <vsuazo@cisco.com>",
+        "subject": "Re: Service Provider SEVT October FY2021",
+        "snippet": "Excellent job gentlemen. Thank you! Sent from mobile mail Vaughn Suazo, DSE Cisco Systems On Nov 5, 2020, at 12:26 PM, Bruce McDougall (brmcdoug) <brmcdoug@cisco.com> wrote: Man, pretty nice score! From: \"Prasanna Urunkar -X (purunkar",
+        "matched_terms": [
+          "vt "
+        ]
+      },
+      {
+        "date": "2020-11-06T15:22:45",
+        "from": "Thierry Couture (tcouture) <tcouture@cisco.com>",
+        "subject": "Re: Service Provider SEVT October FY2021",
+        "snippet": "Awesome - our peeps are gentler than Live! scores in EMEA. Hahahahaha. All I want to know is: did we do better than Byzek? :) T. > On Nov 5, 2020, at 21:16, Vaughn Suazo (vsuazo) <vsuazo@cisco.com> wrote: > > Excellent job gentlemen. > > Th",
+        "matched_terms": [
+          "vt "
+        ]
+      },
+      {
+        "date": "2021-02-20T22:25:28",
+        "from": "Jason Houx (jahoux) <jahoux@cisco.com>",
+        "subject": "Re: SEVT Apr 13-15",
+        "snippet": "Its really bad timing - FNA is pretty boring to be honest and we can't talk about the DC F16 disaggregation that we are doing publicly and we are not ready to talk about what we are doing on their edge - so it's premature at best. Ping me next time it co",
+        "matched_terms": [
+          "vt "
+        ]
+      },
+      {
+        "date": "2021-03-30T16:31:05",
+        "from": "gce-noreply@cisco.com <gce-noreply@cisco.com>",
+        "subject": "COMPLETION: FY21 - Building Skills for a Conscious Culture: U.S. Managers and Supervisors Roles (except New York and Con",
+        "snippet": "Dear Bruce McDougall, Thank you for your commitment in creating a culture where everyone takes responsibility for fostering an inclusive, collaborative, and respectful environment. You are now marked complete for the Building Skills for a Consci",
+        "matched_terms": [
+          "clus"
+        ]
+      },
+      {
+        "date": "2021-04-05T00:45:33",
+        "from": "Cisco Live Meet the Engineer <ciscolive@ciscoliveevents.com>",
+        "subject": "ACTION REQUIRED: Cisco Live 2021 - Meet the Engineer: Meeting Request (MTE2632)",
+        "snippet": "AMERICAS: March 30 - 31 APJC: March 31 - April 1 EMEAR: March 31 - April 1 Dear Bruce McDougall, A meeting has been requested with you by a Cisco Live attendee. Access the Meeting Host Dashboard to accept the meeting or recommend an alternate h",
+        "matched_terms": [
+          "cisco live"
+        ]
+      },
+      {
+        "date": "2021-04-05T00:47:08",
+        "from": "Cisco Live Meet the Engineer <ciscolive@ciscoliveevents.com>",
+        "subject": "Cisco Live 2021 - Meet the Engineer: Meeting is Approved (MTE2632)",
+        "snippet": "AMERICAS: March 30 - 31 APJC: March 31 - April 1 EMEAR: March 31 - April 1 Dear Bruce McDougall, The following meeting at Cisco Live is approved. When it's time, please join your meeting by clicking on the Webex button below. If you need to can",
+        "matched_terms": [
+          "cisco live"
+        ]
+      }
+    ],
+    "enterprise_customers": [
+      {
+        "date": "2020-12-17T21:28:45",
+        "from": "connected.recognition@globoforce.com <connected.recognition@globoforce.com>",
+        "subject": "Your connected.recognition You Inspire 3 Award from Sean Daugherty",
+        "snippet": "Sean Daugherty awarded You Innovate Everywhere December 17, 2020 SRTE Core at Equinix Equinix has a knack for creating tough networking requirements and thank you Bruce for coming up with creative solutions. Based on your work an",
+        "matched_terms": [
+          "equinix"
+        ]
+      },
+      {
+        "date": "2023-03-14T21:11:39",
+        "from": "Niall Masterson (nimaster) <nimaster@cisco.com>",
+        "subject": "Re: Twitch Video Replication - Internal Sync",
+        "snippet": "Hi Anbu Here’s the slides: Video Replication Solution v01.pptx Yes, a cpol sounds like a good idea. We’ll chat with the other web teams to see if we can build up some interest in this solution on other accounts. Thanks Niall From: Anbu",
+        "matched_terms": [
+          "twitch"
+        ]
+      },
+      {
+        "date": "2023-07-06T17:41:39",
+        "from": "Niall Masterson (nimaster) <nimaster@cisco.com>",
+        "subject": "Re: New CIPOL Submission Received – Controlled Unicast Replication using BGP (CURB) – C/I/1041019/",
+        "snippet": "Hi Anbu, Anup and Bruce I submitted a patent application for the solution we discussed a while back for Twitch’s video replication. I put you guys down as innovators. It has kinda gone quiet on Twitch’s side regarding this solution but I put the pate",
+        "matched_terms": [
+          "twitch"
+        ]
+      },
+      {
+        "date": "2024-03-20T20:42:31",
+        "from": "Brett Bartow <brett.bartow@pearson.com>",
+        "subject": "RE: FW: June 2024 Scheduling- Round 2",
+        "snippet": "Contract has been routed via AdobeSign. Let me know if you have any questions. Note we changed the title to \"Build Your Own Networking Lab.\" This aligns to another training we did with Omar Santos, \"Build Your Own Cybersecurity Lab.\" We are using t",
+        "matched_terms": [
+          "adobe"
+        ]
+      },
+      {
+        "date": "2024-04-09T20:46:58",
+        "from": "Mani Veerachamy (mveerach) <mveerach@cisco.com>",
+        "subject": "Re: <Internal only> Geico SONiC questions.",
+        "snippet": "Hi Nathan, We will enable this from engineering side, please make sure this is a winnable business from Cisco commercial side. Cheers, Mani From: Nathan Loop (nloop) <nloop@cisco.com> Date: Tuesday, April 9, 2024 at 1:26 PM To: Mani Veeracham",
+        "matched_terms": [
+          "geico"
+        ]
+      },
+      {
+        "date": "2024-04-23T19:42:50",
+        "from": "James Lopez (jameslo) <jameslo@cisco.com>",
+        "subject": "Re: SR-OSPF features",
+        "snippet": "Great news ! Thanks Bruce, looking forward to a chat with Honeywell next week. JL From: Bruce McDougall (brmcdoug) <brmcdoug@cisco.com> Date: Thursday, April 18, 2024 at 9:12 AM To: James Lopez (jameslo) <jameslo@cisco.com> Subject: SR-OSPF fe",
+        "matched_terms": [
+          "honeywell"
+        ]
+      },
+      {
+        "date": "2024-05-10T00:06:36",
+        "from": "Rekha Rawat (rrawat) <rrawat@cisco.com>",
+        "subject": "Fwd: Texas Instruments SR/MPLS WAN Proje",
+        "snippet": "________________________________ From: Danny Ochoa (daochoa) <daochoa@cisco.com> Sent: Tuesday, May 7, 2024 1:14 PM To: Mike McGee (mamcgee) <mamcgee@cisco.com> Cc: Rekha Rawat (rrawat) <rrawat@cisco.com> Subject: Texas Instruments SR/MPLS WAN Proj",
+        "matched_terms": [
+          "texas instruments"
+        ]
+      },
+      {
+        "date": "2024-07-29T17:37:48",
+        "from": "uspc.com <noreply@uspc.com>",
+        "subject": "Your Order from USPC.com",
+        "snippet": "Serving the Inventor Community Since 1983 Toll Free: 800-622-0677 Order Details Company Name: Contact Name: Bruce McDougall Phone: 3035515554 Order Date: 07.29.2024 Credit Card Number: ************3326 Card Type: visa Expiration Date: 10.2028 Na",
+        "matched_terms": [
+          "visa"
+        ]
+      }
+    ]
+  },
+  "key_people_mentions": {
+    "nico": 19,
+    "nacho": 15,
+    "adobe": 11,
+    "microsoft": 10,
+    "bell": 8,
+    "oracle": 8,
+    "john dorval": 3,
+    "rakuten": 2,
+    "dan stacks": 2,
+    "geico": 1,
+    "christopher luciano": 1
+  },
+  "revenue_signals": [
+    {
+      "date": "2020-10-15T15:40:13",
+      "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+      "subject": "Bold Bets: Check out this comment!",
+      "snippet": "Dear Bruce McDougall, Shannon McFarland commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “I have history with this team and this project. Tim ...” Please click here to"
+    },
+    {
+      "date": "2020-10-15T19:00:31",
+      "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+      "subject": "Bold Bets: Check out this comment!",
+      "snippet": "Dear Bruce McDougall, Dvir Shapira commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “I like the idea, but I feel like the problem ...” Please click here to view and re"
+    },
+    {
+      "date": "2020-10-19T22:00:10",
+      "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+      "subject": "Bold Bets: Check out this comment!",
+      "snippet": "Dear Bruce McDougall, Thomas Szigeti commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “Interesting idea in a rapidly evolving space. Potential strategic alignment ...”"
+    },
+    {
+      "date": "2020-10-20T13:25:29",
+      "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+      "subject": "Bold Bets: Check out this comment!",
+      "snippet": "Dear Bruce McDougall, Serguei Bezverkhi commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “Reply to (1) This solution is not unique to Service Provider ...” Please clic"
+    },
+    {
+      "date": "2020-10-21T16:40:23",
+      "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+      "subject": "Bold Bets: Check out this comment!",
+      "snippet": "Dear Bruce McDougall, Jerome Tollet commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “(2) Project description is not super rich in terms of technical ...” Please click"
+    },
+    {
+      "date": "2020-10-21T16:40:22",
+      "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+      "subject": "Bold Bets: Check out this comment!",
+      "snippet": "Dear Bruce McDougall, Jerome Tollet commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “(1) There are definitely interesting foundations in this project: importance of ...”"
+    },
+    {
+      "date": "2020-10-21T16:45:39",
+      "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+      "subject": "Bold Bets: Check out this comment!",
+      "snippet": "Dear Bruce McDougall, Jerome Tollet commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “(3) Platform business is a hard problem. K8s is extremely ...” Please click here"
+    },
+    {
+      "date": "2020-10-21T19:35:14",
+      "from": "ITONICS - Cisco Innovation Hub <innovation-hub@cisco.com>",
+      "subject": "Bold Bets: Check out this comment!",
+      "snippet": "Dear Bruce McDougall, Dvir Shapira commented on the idea \"Jalapeno - A Lightweight Infrastructure to enable Network as a Service” which you are following: “Thanks for addressing my question, Bruce! I agree with the ...” Please click here"
+    },
+    {
+      "date": "2020-11-10T08:19:46",
+      "from": "Hinwoto Tjun (htjun) <htjun@cisco.com>",
+      "subject": "RE: Winning Announcement - INDOSAT OOREDOO ASEAN and ME - SRv6 Deployment - 1st in ASEAN region",
+      "snippet": "Thank you, thank you Bruce.. need to learn a lot from you later about SRv6 and stuff Cheers hin Hinwoto Tjun TECHNICAL SOLUTIONS ARCHITECT.SP SALES htjun@cisco.com Tel: +62 21 2754 6448 Cisco Systems, Inc. Perkantoran Hijau Arkadia, Tow"
+    },
+    {
+      "date": "2020-11-12T19:45:19",
+      "from": "incubator(mailer list) <incubator@cisco.com>",
+      "subject": "Bold Bets – Advancing to Validate Phase",
+      "snippet": "Hello Bruce, Jeff, Serguei, and Ziauddin, Congratulations! Your Bold Bet: Jalapeno - A Lightweight Infrastructure to enable Network as a Service was selected to move forward to the Validate phase. As a result, you will each be awarded $1000 in Connecte"
+    },
+    {
+      "date": "2020-11-18T17:50:18",
+      "from": "Brook Crossman (crossman) <crossman@cisco.com>",
+      "subject": "HQ Architecture team",
+      "snippet": "Team, I'm sure you have read the org announcements. I'm super excited to be bringing the best of ASP together in one place. We have an exciting opportunity in front of us. Not only are customers looking to invest, but they are looking to partner. And t"
+    },
+    {
+      "date": "2020-12-01T20:21:53",
+      "from": "Patrick Morrissey (pmorriss) <pmorriss@cisco.com>",
+      "subject": "Americas SP Components Model Design Wins Bounty",
+      "snippet": "Congratulations! In order to drive Component Models and future revenue, you have been selected to participate in the Americas SP Components Model Design Wins Bounty, running through end of FY22. Please review the attached letter detailing this exciting"
+    },
+    {
+      "date": "2020-12-16T02:04:02",
+      "from": "Patrick Morrissey (pmorriss) <pmorriss@cisco.com>",
+      "subject": "FW: Congratulations to our Q1 FY21 Stronger Together Award Winners!",
+      "snippet": "Team, Forwarding Gerri’s message with a shout out to the Microsoft team for bringing home a Q1 Stronger Together Award for its Cisco 8800 win! The Cisco Stronger Together awards recognize excellence in winning new business, working together as a tea"
+    },
+    {
+      "date": "2020-12-16T20:51:17",
+      "from": "Ilona Serrao (ilserrao) <ilserrao@cisco.com>",
+      "subject": "Presenter update and request for the SP DCN Champions Bootcamp II",
+      "snippet": "HI All, Thank you for participating as presenters in the second annual SP DCN Champions Bootcamp! We are getting close to the event start which is Jan 4 through 14. Following are some requests we have in prep for the live show: * Please use"
+    },
+    {
+      "date": "2021-02-26T02:41:00",
+      "from": "Patrick Morrissey (pmorriss) <pmorriss@cisco.com>",
+      "subject": "Americas SP Components Model Design Wins Bounty",
+      "snippet": "Bruce, Thank you for your continued focus on the Component models. Given AWS’s change in strategy from 25.6T to 12.8T, the steering committee has reviewed and approved to modify this bounty in accordance with that strategy. Attached is the revision t"
+    },
+    {
+      "date": "2021-04-20T18:04:39",
+      "from": "Monica Acosta via Smartsheet <user@app.smartsheet.com>",
+      "subject": "Monica Acosta invited you to edit the ASP Ligtening Talks Call of Proposals sheet",
+      "snippet": "Monica Acosta has invited you to edit the following sheet: ASP Ligtening Talks Call of Proposals Open in Smartsheet This notification was sent to brmcdoug@cisco.com, jmullool@cisco.com. ________________________________ Sent by moa"
+    },
+    {
+      "date": "2021-06-25T18:31:32",
+      "from": "Laurent Metzger <laurent.metzger@ost.ch>",
+      "subject": "Laurent Metzger hat \"Bachelor thesis SR-App Service programming_ final presentation\" mit Ihnen geteilt.",
+      "snippet": "Laurent Metzger hat eine Datei mit Ihnen geteilt. Dear all, You are now authorized to watch the following recording: Final presentation of the Bachelor thesis SR-App Segment Routing Service Programming Best Regards Eastern Switzerland Universit"
+    },
+    {
+      "date": "2021-07-21T19:56:13",
+      "from": "Zafar Ali (zali) <zali@cisco.com>",
+      "subject": "Re: Winter-IPR status",
+      "snippet": "Bruce On CPOL 14 Machine Learning for ACP and SA.docx Looks like your name got missed in the list of inventor provided Let’s get this fixed On Reserved (SRv6 for Cloud Containers) I am not sure if external counsel deprioritize and dropped it"
+    },
+    {
+      "date": "2021-08-05T14:31:09",
+      "from": "David Jansen (dajansen) <dajansen@cisco.com>",
+      "subject": "FW: ET&I Bold Bets Town Hall | Wednesday, August 24th 10 am PST",
+      "snippet": "Hey bud Did you see this? It has been awesome to partner with you on this… JALAPEÑO is a platform which enables rapid development of Network Service Applications (NaaS) with the potential to open up many new sources of revenue for Cisco. We are loo"
+    },
+    {
+      "date": "2022-04-20T15:14:16",
+      "from": "blog-accept@cisco.com <blog-accept@cisco.com>",
+      "subject": "Global Social Media Policy Agreement",
+      "snippet": "Hello , You have successfully agreed to the following \"Cisco Global Social Media Policy\". You may access the agreement anytime at the URL below https://tools.cisco.com/legal/cna/CNARTRequest?type=BATCH&cnatoken=1542893093082204200809 For que"
+    },
+    {
+      "date": "2022-05-21T17:15:03",
+      "from": "Bright Funds <support@brightfunds.org>",
+      "subject": "We've received your match request",
+      "snippet": "Your donation receipt has been recorded ________________________________ May 20, 2022 Leukemia & Lymphoma Society $100.00 View your dashboard Questions? Email support@brightfunds.org Sent with love by Bright Funds, Inc. PO B"
+    },
+    {
+      "date": "2022-05-24T14:04:43",
+      "from": "Bright Funds <support@brightfunds.org>",
+      "subject": "It's a match!",
+      "snippet": "This will brighten your day Cisco will be matching your donation. ________________________________ Matched Donation Leukemia & Lymphoma Society $100.00 For information on the disbursement timeline for your match, please visit our Help Cente"
+    },
+    {
+      "date": "2022-07-08T19:52:02",
+      "from": "Urmil Dave <urdave@cisco.com>",
+      "subject": "[CPOL 1035601-US.01] \"SP Underlay Services for SD-WAN\": Case Assignment",
+      "snippet": "PRIVILEGED AND CONFIDENTIAL - ATTORNEY/CLIENT COMMUNICATION The following patent case has been assigned to your firm for drafting and filing with the US Patent Office. Cisco Docket #: 1035601-US.01 Title: SP Underlay Services for SD-WAN Firm:"
+    },
+    {
+      "date": "2022-09-14T20:23:36",
+      "from": "Bright Funds <support@brightfunds.org>",
+      "subject": "We've received your match request",
+      "snippet": "Your donation receipt has been recorded ________________________________ Sep 14, 2022 American Heart Association Inc, National Center $154.65 View your dashboard Questions? Email support@brightfunds.org Sent with love by Bright Fun"
+    },
+    {
+      "date": "2022-09-14T20:47:06",
+      "from": "Bright Funds <support@brightfunds.org>",
+      "subject": "It's a match!",
+      "snippet": "This will brighten your day Cisco will be matching your donation. ________________________________ Matched Donation American Heart Association Inc, National Center $154.65 For information on the disbursement timeline for your match, please visi"
+    },
+    {
+      "date": "2022-10-20T13:10:58",
+      "from": "Clarence Filsfils (cfilsfil) <cfilsfil@cisco.com>",
+      "subject": "Cisco Confidential",
+      "snippet": "Excellent !!! This seems a great opportunity for partnership in general, but as well to “awake” the US SP market. Cheers, Clarence From: Bruce McDougall (brmcdoug) <brmcdoug@cisco.com> Sent: Saturday, October 8, 2022 20:56 To: Clarence Filsfils ("
+    },
+    {
+      "date": "2022-11-23T17:37:46",
+      "from": "connected.cisco@globoforce.com <connected.cisco@globoforce.com>",
+      "subject": "Connected Cisco: You’ve Nominated Someone for an Award Today!",
+      "snippet": "Dear Bruce, Thank you for recognizing: Rodney Moodley, Masiuddin Mohammed, Vijaya Laxmi The You Inspire 3 award for Living Cisco's Principles has been submitted for approval with the following message to approver(s): “ASP Lightning Talks"
+    },
+    {
+      "date": "2022-12-19T19:43:26",
+      "from": "connected.cisco@globoforce.com <connected.cisco@globoforce.com>",
+      "subject": "Your Connected Cisco You Inspire 5 Celebration from John Dorval",
+      "snippet": "John Dorval celebrated You Getting to the Finish Line December 19, 2022 Q1FY23 ASP The Next Wave Award Congratulations team Amazon on winning ASP's \"The Next Wave\" award for Q1FY23! After three years in the making and nine months"
+    },
+    {
+      "date": "2023-02-15T20:28:32",
+      "from": "Cisco Live Content Team <Cisco_Live_US@ciscoliveevents.com>",
+      "subject": "Cisco Live 2023 - Session Approved",
+      "snippet": "Welcome to Cisco Live 2023 Las Vegas! Dear Bruce, Congratulations, you have been approved for the following session(s) at Cisco Live 2023 Las Vegas. Your approved session(s) are as follows: Session ID: LTRSPG-2212 Session Title: SRv6 and Cloud-N"
+    },
+    {
+      "date": "2023-04-23T01:35:33",
+      "from": "SocialTalent <hello@socialtalent.com>",
+      "subject": "Your SocialTalent badge for the mission 'COLT - Cisco Certified Interviewer Training' has arrived",
+      "snippet": "Congratulations Bruce! You just completed the mission: COLT - CISCO CERTIFIED INTERVIEWER TRAINING Make sure to download your badge and store it in a safe place. Keep developing your skills on the SocialTalent platform, where you can check"
+    }
+  ],
+  "global_engagements": [
+    {
+      "date": "2020-08-03T17:24:54",
+      "from": "Marcus Moffett (mmoffett) <mmoffett@cisco.com>",
+      "subject": "FW: Welcome to FY21!",
+      "snippet": "Bruce, Congrats on your promotion to PA! Well-deserved. Marc From: John Knipp <jknipp@cisco.com> Date: Tuesday, July 28, 2020 at 8:06 PM Subject: Welcome to FY21! Bcc:Americas-SE-All Team – I want to echo Jeff’s sentiment and person"
+    },
+    {
+      "date": "2020-11-05T23:36:59",
+      "from": "mustafa hubaishi via Miro <notification@miro.com>",
+      "subject": "mustafa hubaishi has given you access to join a team at Miro",
+      "snippet": "mustafa hubaishi has invited you to join Americas ENG (2300) team Get started What is Miro? Miro is the online collaborative whiteboard where distributed teams get work done. Why am I receiving this email? Cisco has an account with Miro and you have"
+    },
+    {
+      "date": "2020-11-06T15:22:45",
+      "from": "Thierry Couture (tcouture) <tcouture@cisco.com>",
+      "subject": "Re: Service Provider SEVT October FY2021",
+      "snippet": "Awesome - our peeps are gentler than Live! scores in EMEA. Hahahahaha. All I want to know is: did we do better than Byzek? :) T. > On Nov 5, 2020, at 21:16, Vaughn Suazo (vsuazo) <vsuazo@cisco.com> wrote: > > Excellent job gentlemen. > > Th"
+    },
+    {
+      "date": "2020-11-16T16:23:16",
+      "from": "Patrick Morrissey (pmorriss) <pmorriss@cisco.com>",
+      "subject": "Americas Service Provider Organizational Update",
+      "snippet": "Hi Team, What an earnings call last week! We had another amazing quarter and achieved our goal of delivering the ASP 3PEAT (3 consecutive quarters over plan)! ASP was the top performing theater in the Americas and we had three of our four verticals"
+    },
+    {
+      "date": "2020-12-01T20:21:53",
+      "from": "Patrick Morrissey (pmorriss) <pmorriss@cisco.com>",
+      "subject": "Americas SP Components Model Design Wins Bounty",
+      "snippet": "Congratulations! In order to drive Component Models and future revenue, you have been selected to participate in the Americas SP Components Model Design Wins Bounty, running through end of FY22. Please review the attached letter detailing this exciting"
+    },
+    {
+      "date": "2021-02-26T02:41:00",
+      "from": "Patrick Morrissey (pmorriss) <pmorriss@cisco.com>",
+      "subject": "Americas SP Components Model Design Wins Bounty",
+      "snippet": "Bruce, Thank you for your continued focus on the Component models. Given AWS’s change in strategy from 25.6T to 12.8T, the steering committee has reviewed and approved to modify this bounty in accordance with that strategy. Attached is the revision t"
+    },
+    {
+      "date": "2021-04-05T00:45:33",
+      "from": "Cisco Live Meet the Engineer <ciscolive@ciscoliveevents.com>",
+      "subject": "ACTION REQUIRED: Cisco Live 2021 - Meet the Engineer: Meeting Request (MTE2632)",
+      "snippet": "AMERICAS: March 30 - 31 APJC: March 31 - April 1 EMEAR: March 31 - April 1 Dear Bruce McDougall, A meeting has been requested with you by a Cisco Live attendee. Access the Meeting Host Dashboard to accept the meeting or recommend an alternate h"
+    },
+    {
+      "date": "2021-04-05T00:47:08",
+      "from": "Cisco Live Meet the Engineer <ciscolive@ciscoliveevents.com>",
+      "subject": "Cisco Live 2021 - Meet the Engineer: Meeting is Approved (MTE2632)",
+      "snippet": "AMERICAS: March 30 - 31 APJC: March 31 - April 1 EMEAR: March 31 - April 1 Dear Bruce McDougall, The following meeting at Cisco Live is approved. When it's time, please join your meeting by clicking on the Webex button below. If you need to can"
+    },
+    {
+      "date": "2021-04-05T02:58:47",
+      "from": "Cisco Live Meet the Engineer <ciscolive@ciscoliveevents.com>",
+      "subject": "Cisco Live 2021 - Meet the Engineer: Meeting is Approved (MTE2632)",
+      "snippet": "AMERICAS: March 30 - 31 APJC: March 31 - April 1 EMEAR: March 31 - April 1 Dear Bruce McDougall, The following meeting at Cisco Live is approved. When it's time, please join your meeting by clicking on the Webex button below. If you need to can"
+    },
+    {
+      "date": "2021-05-12T15:35:53",
+      "from": "gce-noreply@cisco.com <gce-noreply@cisco.com>",
+      "subject": "COMPLETION - Compliance: FY21 Anti-Corruption and Bribery Training",
+      "snippet": "Dear Bruce McDougall, Thank you for your commitment to Compliance and Ethics at Cisco. You are now marked complete for the Compliance: FY21 Anti-Corruption and Bribery Training. If you need to refer the Global Anti-Corruption and Bribery poli"
+    },
+    {
+      "date": "2021-05-12T15:36:00",
+      "from": "gce-noreply@cisco.com <gce-noreply@cisco.com>",
+      "subject": "COMPLETION - Compliance: FY21 Anti-Corruption and Bribery Training",
+      "snippet": "Dear Bruce McDougall, Thank you for your commitment to Compliance and Ethics at Cisco. You are now marked complete for the Compliance: FY21 Anti-Corruption and Bribery Training. If you need to refer the Global Anti-Corruption and Bribery"
+    },
+    {
+      "date": "2022-03-23T02:36:02",
+      "from": "Vaughn Suazo (vsuazo) <vsuazo@cisco.com>",
+      "subject": "Re: EMEAR Top Initiatives - Edge Cloud",
+      "snippet": "Brook, Adding Bruce and Jeff to the CC list. Response to Brian – Situation – Shared by our peers in Global Enterprise, they have customers driving edge strategies and require connectivity aligned to a multi-cloud experience. On the cloud side we se"
+    },
+    {
+      "date": "2022-04-20T15:14:16",
+      "from": "blog-accept@cisco.com <blog-accept@cisco.com>",
+      "subject": "Global Social Media Policy Agreement",
+      "snippet": "Hello , You have successfully agreed to the following \"Cisco Global Social Media Policy\". You may access the agreement anytime at the URL below https://tools.cisco.com/legal/cna/CNARTRequest?type=BATCH&cnatoken=1542893093082204200809 For que"
+    },
+    {
+      "date": "2022-04-25T05:46:50",
+      "from": "Ajay Lingadahalli Manjunath (alingada) <alingada@cisco.com>",
+      "subject": "402317171 - Software",
+      "snippet": "Hi Bruce, I am from Global Expense Management Team and this is regarding your expense report “Github and cloud”. As per Global Expense/Procurement Policy, software purchases should only be made using official Cisco procurement tools, such as Ariba S"
+    },
+    {
+      "date": "2022-05-31T22:57:14",
+      "from": "colt-reports@cisco.com <colt-reports@cisco.com>",
+      "subject": "COLT Score Report",
+      "snippet": "Cisco On-Line Test Hi Bruce McDougall, Here is your On-line Score Report Master Assessment: IPP Policy Compliance Global Training COLT Test Attempt Number: 6 Assessment On-Line Score Report: https://www.cisco.com/pcgi-bin/colt/ColtScoreReport.pl?T"
+    },
+    {
+      "date": "2022-09-14T19:08:39",
+      "from": "American Heart Association - Matching Gifts Team <matchinggifts@heart.org>",
+      "subject": "Please submit a matching gift request",
+      "snippet": "Dear Bruce, Your donation of $154.65 on Sep 14, 2022 is eligible for a matching gift from Cisco Systems, Inc.! Refer to the instructions below for you to complete and submit your matching gift request. Please note that multiple gifts to the American H"
+    },
+    {
+      "date": "2022-09-14T20:23:36",
+      "from": "Bright Funds <support@brightfunds.org>",
+      "subject": "We've received your match request",
+      "snippet": "Your donation receipt has been recorded ________________________________ Sep 14, 2022 American Heart Association Inc, National Center $154.65 View your dashboard Questions? Email support@brightfunds.org Sent with love by Bright Fun"
+    },
+    {
+      "date": "2022-09-14T20:47:06",
+      "from": "Bright Funds <support@brightfunds.org>",
+      "subject": "It's a match!",
+      "snippet": "This will brighten your day Cisco will be matching your donation. ________________________________ Matched Donation American Heart Association Inc, National Center $154.65 For information on the disbursement timeline for your match, please visi"
+    },
+    {
+      "date": "2022-10-04T01:31:11",
+      "from": "Vaughn Suazo (vsuazo) <vsuazo@cisco.com>",
+      "subject": "Re: Nominate yourselves for the Americas Advisory Council!",
+      "snippet": "If you decide to do it, I will write you a letter of recommendation 👍 Sent from mobile mail Vaughn Suazo, DSE Cisco Systems On Oct 3, 2022, at 8:20 PM, Vaughn Suazo (vsuazo) <vsuazo@cisco.com> wrote: It can’t hurt. Show you know how to scale"
+    },
+    {
+      "date": "2022-11-04T20:11:43",
+      "from": "Iftach Socher (isocher) <isocher@cisco.com>",
+      "subject": "SE Central Page - PA DA Nomination Process",
+      "snippet": "BCC: Geo and Architecture Leaders & Nomination Process Leaders, known candidates and their teams, direct leaders of PAs, PA & DA Community, Global SE program team. Hi All, As promised, I am sending you a quick note to let you know of a new dedicated"
+    }
+  ],
+  "high_signal_subjects": [
+    {
+      "date": "2025-08-21T18:02:51",
+      "subject": "Re: Congratulations on your Pinnacle Award win!",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "service_provider_telco",
+        "global_international",
+        "revenue_business_impact",
+        "awards_recognition"
+      ]
+    },
+    {
+      "date": "2020-10-21T16:45:39",
+      "subject": "Bold Bets: Check out this comment!",
+      "categories": [
+        "cilium_isovalent",
+        "jalapeno_programmability",
+        "service_provider_telco",
+        "innovation_patents",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2020-11-12T19:45:19",
+      "subject": "Bold Bets – Advancing to Validate Phase",
+      "categories": [
+        "jalapeno_programmability",
+        "service_provider_telco",
+        "innovation_patents",
+        "revenue_business_impact",
+        "awards_recognition"
+      ]
+    },
+    {
+      "date": "2024-10-26T01:00:06",
+      "subject": "Webex webinar invitation: Cilium and SRv6: a Pathway to Cloud Native SP Network Services",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "cilium_isovalent",
+        "service_provider_telco",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2020-10-15T15:40:13",
+      "subject": "Bold Bets: Check out this comment!",
+      "categories": [
+        "jalapeno_programmability",
+        "service_provider_telco",
+        "innovation_patents",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2020-10-15T19:00:31",
+      "subject": "Bold Bets: Check out this comment!",
+      "categories": [
+        "jalapeno_programmability",
+        "service_provider_telco",
+        "innovation_patents",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2020-10-19T22:00:10",
+      "subject": "Bold Bets: Check out this comment!",
+      "categories": [
+        "jalapeno_programmability",
+        "service_provider_telco",
+        "innovation_patents",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2020-10-20T13:25:29",
+      "subject": "Bold Bets: Check out this comment!",
+      "categories": [
+        "jalapeno_programmability",
+        "service_provider_telco",
+        "innovation_patents",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2020-10-21T16:40:23",
+      "subject": "Bold Bets: Check out this comment!",
+      "categories": [
+        "jalapeno_programmability",
+        "service_provider_telco",
+        "innovation_patents",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2020-10-21T16:40:22",
+      "subject": "Bold Bets: Check out this comment!",
+      "categories": [
+        "jalapeno_programmability",
+        "service_provider_telco",
+        "innovation_patents",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2020-10-21T19:35:14",
+      "subject": "Bold Bets: Check out this comment!",
+      "categories": [
+        "jalapeno_programmability",
+        "service_provider_telco",
+        "innovation_patents",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2020-11-06T15:22:45",
+      "subject": "Re: Service Provider SEVT October FY2021",
+      "categories": [
+        "service_provider_telco",
+        "cisco_live_speaking",
+        "leadership_mentoring",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2020-12-01T20:21:53",
+      "subject": "Americas SP Components Model Design Wins Bounty",
+      "categories": [
+        "service_provider_telco",
+        "global_international",
+        "revenue_business_impact",
+        "awards_recognition"
+      ]
+    },
+    {
+      "date": "2020-12-16T20:51:17",
+      "subject": "Presenter update and request for the SP DCN Champions Bootcamp II",
+      "categories": [
+        "service_provider_telco",
+        "leadership_mentoring",
+        "revenue_business_impact",
+        "awards_recognition"
+      ]
+    },
+    {
+      "date": "2021-02-26T02:41:00",
+      "subject": "Americas SP Components Model Design Wins Bounty",
+      "categories": [
+        "hyperscale_cloud_ai",
+        "service_provider_telco",
+        "global_international",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2021-08-05T14:31:09",
+      "subject": "FW: ET&I Bold Bets Town Hall | Wednesday, August 24th 10 am PST",
+      "categories": [
+        "jalapeno_programmability",
+        "service_provider_telco",
+        "innovation_patents",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2022-07-08T19:52:02",
+      "subject": "[CPOL 1035601-US.01] \"SP Underlay Services for SD-WAN\": Case Assignment",
+      "categories": [
+        "sonic_open_source",
+        "service_provider_telco",
+        "innovation_patents",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2022-11-06T20:33:06",
+      "subject": "Re: C237-0511US / CPOL1035601-US.01 / First Draft of Patent Application (\"SP Underlay Services for SD-WAN\") *PRIVILEGED ",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "service_provider_telco",
+        "innovation_patents"
+      ]
+    },
+    {
+      "date": "2022-11-06T23:56:40",
+      "subject": "Re: C237-0511US / CPOL1035601-US.01 / First Draft of Patent Application (\"SP Underlay Services for SD-WAN\") *PRIVILEGED ",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "service_provider_telco",
+        "innovation_patents"
+      ]
+    },
+    {
+      "date": "2022-11-23T17:37:46",
+      "subject": "Connected Cisco: You’ve Nominated Someone for an Award Today!",
+      "categories": [
+        "service_provider_telco",
+        "leadership_mentoring",
+        "revenue_business_impact",
+        "awards_recognition"
+      ]
+    },
+    {
+      "date": "2022-12-12T21:59:46",
+      "subject": "Re: SP SEVT Learning Intensive Poll Results",
+      "categories": [
+        "service_provider_telco",
+        "cisco_live_speaking",
+        "leadership_mentoring",
+        "awards_recognition"
+      ]
+    },
+    {
+      "date": "2022-12-19T19:43:26",
+      "subject": "Your Connected Cisco You Inspire 5 Celebration from John Dorval",
+      "categories": [
+        "hyperscale_cloud_ai",
+        "service_provider_telco",
+        "revenue_business_impact",
+        "awards_recognition"
+      ]
+    },
+    {
+      "date": "2023-02-15T20:28:32",
+      "subject": "Cisco Live 2023 - Session Approved",
+      "categories": [
+        "segment_routing_srv6",
+        "cisco_live_speaking",
+        "revenue_business_impact",
+        "awards_recognition"
+      ]
+    },
+    {
+      "date": "2023-02-23T16:12:15",
+      "subject": "Cisco Live 2023 Amsterdam - You are a Distinguished Speaker!",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "cisco_live_speaking",
+        "awards_recognition"
+      ]
+    },
+    {
+      "date": "2023-04-23T01:35:33",
+      "subject": "Your SocialTalent badge for the mission 'COLT - Cisco Certified Interviewer Training' has arrived",
+      "categories": [
+        "hyperscale_cloud_ai",
+        "leadership_mentoring",
+        "revenue_business_impact",
+        "awards_recognition"
+      ]
+    },
+    {
+      "date": "2023-05-10T00:32:02",
+      "subject": "Cisco Live 2023: Session Canceled LTRSPG-2212",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "cisco_live_speaking",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2023-06-14T21:19:11",
+      "subject": "Re: STLDP Last Changes and Dry Run for our Presentation",
+      "categories": [
+        "cilium_isovalent",
+        "service_provider_telco",
+        "innovation_patents",
+        "cisco_live_speaking"
+      ]
+    },
+    {
+      "date": "2023-06-30T20:15:57",
+      "subject": "Your Employee was Awarded the Innovation Award for STLDP",
+      "categories": [
+        "jalapeno_programmability",
+        "service_provider_telco",
+        "innovation_patents",
+        "awards_recognition"
+      ]
+    },
+    {
+      "date": "2023-11-14T16:16:59",
+      "subject": "FW: SDWAN over SR use cases for AT&T",
+      "categories": [
+        "segment_routing_srv6",
+        "jalapeno_programmability",
+        "service_provider_telco",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2023-11-16T18:57:52",
+      "subject": "Intro / Jalapeño show and tell",
+      "categories": [
+        "segment_routing_srv6",
+        "jalapeno_programmability",
+        "service_provider_telco",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2023-12-22T21:36:11",
+      "subject": "Re: Alignment Meeting Regarding Isovalent Acquisition - A STLDP Study",
+      "categories": [
+        "sonic_open_source",
+        "cilium_isovalent",
+        "service_provider_telco",
+        "innovation_patents"
+      ]
+    },
+    {
+      "date": "2024-02-16T21:33:16",
+      "subject": "Cisco Live 2024 - Session Approved",
+      "categories": [
+        "segment_routing_srv6",
+        "cisco_live_speaking",
+        "revenue_business_impact",
+        "awards_recognition"
+      ]
+    },
+    {
+      "date": "2024-04-09T20:46:58",
+      "subject": "Re: <Internal only> Geico SONiC questions.",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "enterprise_customers",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2024-04-18T12:22:17",
+      "subject": "[Request to Present] SP DCN Champions FY24 Boot Camp",
+      "categories": [
+        "sonic_open_source",
+        "service_provider_telco",
+        "leadership_mentoring",
+        "awards_recognition"
+      ]
+    },
+    {
+      "date": "2024-04-26T13:13:50",
+      "subject": "SP DCN Champions FY24 Boot Camp Speaker Update",
+      "categories": [
+        "service_provider_telco",
+        "cisco_live_speaking",
+        "leadership_mentoring",
+        "awards_recognition"
+      ]
+    },
+    {
+      "date": "2024-04-26T17:22:27",
+      "subject": "Thank You to our Future of Enterprise Global SE SWAT Team",
+      "categories": [
+        "sonic_open_source",
+        "leadership_mentoring",
+        "global_international",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2024-07-26T10:08:16",
+      "subject": "Re: Cilium SRv6 blog?",
+      "categories": [
+        "segment_routing_srv6",
+        "cilium_isovalent",
+        "innovation_patents",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2024-09-06T16:03:34",
+      "subject": "SRv6 brand recognition",
+      "categories": [
+        "segment_routing_srv6",
+        "service_provider_telco",
+        "global_international",
+        "awards_recognition"
+      ]
+    },
+    {
+      "date": "2024-10-29T23:42:02",
+      "subject": "Re: Cilium Enterprise case study: Adobe",
+      "categories": [
+        "cilium_isovalent",
+        "enterprise_customers",
+        "cisco_live_speaking",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2024-10-30T00:05:49",
+      "subject": "RE: Cilium Enterprise case study: Adobe",
+      "categories": [
+        "hyperscale_cloud_ai",
+        "cilium_isovalent",
+        "enterprise_customers",
+        "cisco_live_speaking"
+      ]
+    },
+    {
+      "date": "2024-11-14T13:01:46",
+      "subject": "Upcoming SEVT Isovalent/Cilium Lab",
+      "categories": [
+        "cilium_isovalent",
+        "cisco_live_speaking",
+        "leadership_mentoring",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2024-11-19T18:04:00",
+      "subject": "RE: Webinar: Cilium and SRv6: a Pathway to Cloud Native SP Network Services",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "cilium_isovalent",
+        "service_provider_telco"
+      ]
+    },
+    {
+      "date": "2024-11-20T21:24:05",
+      "subject": "Cisco dCloud: Event Request Received For Demo: Intro to Cilium SRv6",
+      "categories": [
+        "segment_routing_srv6",
+        "cilium_isovalent",
+        "service_provider_telco",
+        "leadership_mentoring"
+      ]
+    },
+    {
+      "date": "2024-11-21T02:08:28",
+      "subject": "SEVT: Cilium SRv6 Lab on 21-Nov",
+      "categories": [
+        "segment_routing_srv6",
+        "cilium_isovalent",
+        "cisco_live_speaking",
+        "leadership_mentoring"
+      ]
+    },
+    {
+      "date": "2025-02-27T17:25:49",
+      "subject": "FW: Your Submission is Accepted for the SONiC Demos 2025 @ OCP EMEA Summit",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2025-03-21T15:54:08",
+      "subject": "Segment Routing for AI Backend FY25 - Full CIPOL Submission Received – SRv6 uSID Carrier with Embedded Security Group Ta",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "innovation_patents",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2025-03-21T18:31:20",
+      "subject": "Segment Routing for AI Backend FY25 - CIPOL Submission Forwarded to Patent Committee – SRv6 uSID Carrier with Embedded S",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "innovation_patents",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2025-03-24T09:07:57",
+      "subject": "RE: FIRST DRAFT: CPOL 1065313 - SRv6 uSID Carrier with Embedded Security Group Tag (SGT) to Identify AI Request (our 603",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "innovation_patents",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2025-03-23T22:58:05",
+      "subject": "FIRST DRAFT: CPOL 1065313 - SRv6 uSID Carrier with Embedded Security Group Tag (SGT) to Identify AI Request (our 60374.2",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "innovation_patents",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2025-03-26T15:38:05",
+      "subject": "Patent Application Filed – SRv6 uSID Carrier with Embedded Security Group Tag (SGT) to Identify AI Request – C/P/1065313",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "innovation_patents",
+        "revenue_business_impact"
+      ]
+    }
+  ]
+}
