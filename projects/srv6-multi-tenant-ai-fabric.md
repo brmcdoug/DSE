@@ -103,13 +103,14 @@ SRv6 uSID traffic engineering resolves the core weakness of flow-level ECMP with
 
 This determinism enables the per-tenant and per-job spine isolation described in Sections 6 and 7: the controller partitions the spine tier among tenants and jobs by programming non-overlapping uA SID sets, ensuring that training jobs never collide on shared spine capacity. The plane boundary is enforced by the NIC egress port choice; the uA SID enforces the intra-plane path. Together they provide end-to-end deterministic forwarding from source NIC to destination NIC.
 
-Feature	Packet Spraying	Flow-Level ECMP	SRv6 Path Pinning
-Out-of-order risk	High — requires NIC resequencing	Zero — single path per flow	Zero — single path per flow
-Collision risk	None — spread across all paths	High — hash collisions on busy spines	None — controller assigns non-overlapping paths
-Hardware required	Spectrum-X / UEC NIC + adaptive switches	Standard Clos	Standard Clos + SDN controller
-Bandwidth per flow	Full multi-plane aggregate	Single plane	Single plane
-Multi-tenancy	Harder — traffic crosses all planes	Statistical — collisions possible	Strong — non-overlapping spine allocation
-Maturity	Emerging	Production standard	Production with SDN controller
+| Feature | Packet Spraying | Flow-Level ECMP | SRv6 Path Pinning |
+| --- | --- | --- | --- |
+| Out-of-order risk | High — requires NIC resequencing | Zero — single path per flow | Zero — single path per flow |
+| Collision risk | None — spread across all paths | High — hash collisions on busy spines | None — controller assigns non-overlapping paths |
+| Hardware required | Spectrum-X / UEC NIC + adaptive switches | Standard Clos | Standard Clos + SDN controller |
+| Bandwidth per flow | Full multi-plane aggregate | Single plane | Single plane |
+| Multi-tenancy | Harder — traffic crosses all planes | Statistical — collisions possible | Strong — non-overlapping spine allocation |
+| Maturity | Emerging | Production standard | Production with SDN controller |
 
 ### 2.7 Collective Operations and Full Bandwidth Utilization
 
@@ -117,18 +118,18 @@ The 800G aggregate bandwidth per GPU is virtually never achieved via a single GP
 
 During an All-Reduce operation — the most common collective in distributed AI training — a GPU sends different chunks of gradient data to multiple peers simultaneously. Each peer flow uses one plane uplink, so a GPU engaged in All-Reduce may use all four plane uplinks at once, but each uplink carries a different flow to a different destination. The 800G aggregate emerges from four independent 200G (or 100G) flows in parallel, not from a single bonded 800G pipe to one destination. This is the fundamental design insight of the planar architecture: the four planes provide four independent communication lanes, enabling the GPU to participate in cluster-wide collective operations in parallel without any single lane becoming a bottleneck.
 
-3.8 Latency Properties and Hop Count Consistency
+### 2.8 Latency Properties and Hop Count Consistency
 
 Every GPU-to-GPU flow within a plane traverses exactly three hops regardless of cluster size: source leaf to spine, spine to destination leaf. This flat, deterministic latency profile is critical for collective operations such as All-Reduce, where the slowest participant determines the completion time of the entire operation. Full detail is provided in Appendix D.
 
 [ Diagram placeholder: four-plane fabric topology — planes, leaves, spines, NVL72 chassis connectivity ]
 
  
-1. SRv6 uSID Framework
+## 3. SRv6 uSID Framework
 
-This section describes the SRv6 micro-SID (uSID) framework as it applies to the hyperscale AI factory fabric. It covers the F3216 uSID carrier format, locator allocation strategy, the Global and Local ID Block (GIB/LIB) design, the fundamental principle of identity versus path separation, the two addressing models available for GPU NIC endpoints, and the SDN control plane model that ties the framework together. The multi-tenancy encapsulation options that build on this framework are addressed in Section 5.
+This section describes the SRv6 micro-SID (uSID) framework as it applies to the hyperscale AI factory fabric. It covers the F3216 uSID carrier format, locator allocation strategy, the Global and Local ID Block (GIB/LIB) design, the fundamental principle of identity versus path separation, the two addressing models available for GPU NIC endpoints, and the SDN control plane model that ties the framework together. The multi-tenancy encapsulation options that build on this framework are addressed in Section 4.
 
-4.1 SRv6 uSID and the F3216 Carrier Format
+### 3.1 SRv6 uSID and the F3216 Carrier Format
 
 SRv6 Segment Routing encodes a sequence of forwarding instructions — Segment Identifiers (SIDs) — in the destination address field of a standard IPv6 header. Each SID identifies an instruction to be executed by the node that processes it: forward out a specific interface (uA — micro-Adjacency), forward to a specific next node via ECMP (uN — micro-Node), decapsulate and perform a VRF lookup (uDT — micro-Decapsulation and Table lookup), or other endpoint behaviors.
 
@@ -136,90 +137,101 @@ The micro-SID (uSID) encoding compresses multiple SIDs into a single 128-bit IPv
 
 This paper uses the F3216 uSID carrier format exclusively. F3216 allocates the 128-bit IPv6 destination address as follows:
 
-Field	Bits	Position	Purpose
-uSID Block (Cluster ID)	32	bits 0–31	Identifies the AI factory cluster; fixed per fabric deployment
-uSID Slot 1	16	bits 32–47	First steering or endpoint uSID (uA, uN, Locator, or Function)
-uSID Slot 2	16	bits 48–63	Second steering or endpoint uSID
-uSID Slot 3	16	bits 64–79	Third steering or endpoint uSID
-uSID Slot 4	16	bits 80–95	Fourth steering or endpoint uSID
-uSID Slot 5	16	bits 96–111	Fifth steering or endpoint uSID
-uSID Slot 6	16	bits 112–127	Sixth steering or endpoint uSID (Locator or Function in base case)
+| Field | Bits | Position | Purpose |
+| --- | --- | --- | --- |
+| uSID Block (Cluster ID) | 32 | bits 0–31 | Identifies the AI factory cluster; fixed per fabric deployment |
+| uSID Slot 1 | 16 | bits 32–47 | First steering or endpoint uSID (uA, uN, Locator, or Function) |
+| uSID Slot 2 | 16 | bits 48–63 | Second steering or endpoint uSID |
+| uSID Slot 3 | 16 | bits 64–79 | Third steering or endpoint uSID |
+| uSID Slot 4 | 16 | bits 80–95 | Fourth steering or endpoint uSID |
+| uSID Slot 5 | 16 | bits 96–111 | Fifth steering or endpoint uSID |
+| uSID Slot 6 | 16 | bits 112–127 | Sixth steering or endpoint uSID (Locator or Function in base case) |
 
 In the base multi-tenancy case with no traffic engineering, the carrier encodes: uSID Block | Locator (host or chassis identifier) | Function (Tenant-ID or GPU-ID). The remaining four 16-bit slots are available for steering uSIDs. In a two-tier fabric with traffic engineering, two steering uSIDs are consumed (leaf-to-spine uA and spine-to-leaf uA), leaving two slots unused. In a three-tier fabric, four steering uSIDs are consumed, filling all available slots. This slot budget is a central design constraint examined throughout the multi-tenancy sections.
 
 Note: The paper uses SRv6 uSID exclusively. Full SRH-based SRv6 could become relevant in future scale-across scenarios connecting multiple AI factories over WAN or metro fabrics but is outside the scope of this document.
 
-4.2 Locator Allocation and GIB/LIB Design
+### 3.2 Locator Allocation and GIB/LIB Design
 
 SRv6 uSID locators are allocated from a structured namespace divided into a Global ID Block (GIB) — containing locator values assigned to fabric nodes and GPU chassis — and a Local ID Block (LIB) — containing locally significant function values such as uA adjacency SIDs, uDT tenant VRF identifiers, and other per-node behaviors. Locators are assigned as globally unique values within each AI factory, ensuring that WAN and scale-across scenarios can be accommodated without address collision. Per-plane locator reuse is noted as an option in Section 4.3.
 
 Single-Cluster Fabric Node Locators (2-tier, 4 planes)
 
-Fabric Tier	Nodes per Plane	Planes	Locators Required
-Spine	512	4	2,048
-Leaf	256	4	1024
-Total (2-tier)			3072
+| Fabric Tier | Nodes per Plane | Planes | Locators Required |
+| --- | --- | --- | --- |
+| Spine | 512 | 4 | 2,048 |
+| Leaf | 256 | 4 | 1024 |
+| Total (2-tier) | | | 3072 |
 
 Four-Cluster Fabric Node Locators (3-tier, 4 planes)
 
-Fabric Tier	Nodes per Plane	Clusters	Locators Required
-Super-spine	1,024	1 (shared)	4,096
-Spine	512	4	8,192
-Leaf	512	4	8,192
-Total (3-tier)			20,480
+| Fabric Tier | Nodes per Plane | Clusters | Locators Required |
+| --- | --- | --- | --- |
+| Super-spine | 1,024 | 1 (shared) | 4,096 |
+| Spine | 512 | 4 | 8,192 |
+| Leaf | 512 | 4 | 8,192 |
+| Total (3-tier) | | | 20,480 |
 
-GPU Chassis Locators
+**GPU Chassis Locators**
+
 Chassis-level locators are recommended — one locator per NVL72 chassis. Intra-chassis GPU addressing is handled by the inner IPv6 destination address after uSID processing, making per-GPU locators unnecessary. The locator counts across scales are:
 
 •	Single cluster (Config B, ~1,820 NVL72 racks x 1 plane locator each): 1,820 chassis locators
 •	Four clusters (~7,280 NVL72 racks total): 7,280 chassis locators
 
-Proposed uSID Block Allocation
+**Proposed uSID Block Allocation**
+
 With a 32-bit uSID block, a single /32 prefix provides 65,536 possible 16-bit uSID values (0x0000 through 0xFFFF). The value 0x0000 is the end-of-carrier marker and is not available for allocation. The following allocation is proposed, incorporating a WAN/Scale-Across reservation at the low end of the GIB to support future multi-factory connectivity:
 
-Category	Range	Quantity	Purpose
-End of Carrier	0x0000	1	Non-functional; marks end of active uSID list
-GIB: Reserved WAN/Scale-Across	0x0001–0x0FFF	4,095	Locators reserved for WAN/inter-factory scale-across nodes
-GIB: 4-Cluster Fabric Locators	0x1000–0x5FFF	20,480	Super-spine, spine, and leaf locators across 4 clusters and 4 planes
-GIB: Host/GPU Chassis Locators	0x6000–0x7C6F	7,280	NVL72 chassis locators across up to 4 clusters (1,820 per cluster x 4)
-LIB: Dynamic Functions	N/A	0	No dynamic LIB allocation; all functions are explicit
-GIB: Reserved (future expansion)	0x7C70–0xCFFF	21,392	Reserved for additional clusters, WAN scale-across, or future GPU generations
-LIB: Explicit Tenant-ID (uDT)	0xD000–0xEFFF	8,192	Tenant VRF identifiers for uDT decapsulation lookups
-LIB: Explicit uA Forwarding	0xF000–0xFFFF	4,096	uA adjacency SIDs for fabric steering (covers 1,024-port next-gen switches)
-Total		65,535	
+| Category | Range | Quantity | Purpose |
+| --- | --- | --- | --- |
+| End of Carrier | 0x0000 | 1 | Non-functional; marks end of active uSID list |
+| GIB: Reserved WAN/Scale-Across | 0x0001–0x0FFF | 4,095 | Locators reserved for WAN/inter-factory scale-across nodes |
+| GIB: 4-Cluster Fabric Locators | 0x1000–0x5FFF | 20,480 | Super-spine, spine, and leaf locators across 4 clusters and 4 planes |
+| GIB: Host/GPU Chassis Locators | 0x6000–0x7C6F | 7,280 | NVL72 chassis locators across up to 4 clusters (1,820 per cluster x 4) |
+| LIB: Dynamic Functions | N/A | 0 | No dynamic LIB allocation; all functions are explicit |
+| GIB: Reserved (future expansion) | 0x7C70–0xCFFF | 21,392 | Reserved for additional clusters, WAN scale-across, or future GPU generations |
+| LIB: Explicit Tenant-ID (uDT) | 0xD000–0xEFFF | 8,192 | Tenant VRF identifiers for uDT decapsulation lookups |
+| LIB: Explicit uA Forwarding | 0xF000–0xFFFF | 4,096 | uA adjacency SIDs for fabric steering (covers 1,024-port next-gen switches) |
+| Total | | 65,535 | |
 
 The WAN/Scale-Across reservation (0x0001–0x0FFF) ensures that future multi-factory or metro/WAN connectivity can be accommodated without namespace redesign. A substantial GIB reserve (0x7C70–0xCFFF, 21,392 values) is available for additional cluster growth, future GPU generations, or expanded WAN connectivity. The uA LIB is allocated 4,096 values (0xF000–0xFFFF) to leave plenty of room for next-generation switches without further reallocation.
 
-4.3 Identity Versus Path: The Core Design Principle
+### 3.3 Identity Versus Path: The Core Design Principle
 
 A fundamental principle of the SRv6 uSID design for the planar AI fabric is the clean separation between GPU identity and packet path. This separation is what makes the architecture both scalable and operationally flexible:
 
-•	The Locator is the Identity: a locator such as Loc:Chassis-42 represents the entity "NVL72 chassis 42" (or a specific GPU within it, depending on locator granularity). It is stable across plane failover events, traffic engineering changes, and fabric maintenance operations. The locator never encodes which physical plane the traffic will traverse.
-•	The Plane is the Path: when the SDN controller steers a packet toward Loc:Chassis-42, it selects the physical plane uplink on the source NIC as part of the egress port choice, and optionally encodes uA steering SIDs in the uSID carrier to pin the path through specific spine nodes within the chosen plane. The locator itself is unchanged regardless of which plane carries the traffic.
-•	Deterministic Arrival: because each plane is a physically independent fabric, a packet for Loc:Chassis-42 traveling over Plane-2 arrives exclusively at Chassis-42's Plane-2 NIC interface. There is no cross-plane leakage or ambiguity.
+•	**The Locator is the Identity:** a locator such as Loc:Chassis-42 represents the entity "NVL72 chassis 42" (or a specific GPU within it, depending on locator granularity). It is stable across plane failover events, traffic engineering changes, and fabric maintenance operations. The locator never encodes which physical plane the traffic will traverse.
+
+•	**The Plane Plus the Path:** when the SDN controller steers a packet toward Loc:Chassis-42, it selects the physical plane uplink on the source NIC as part of the egress port choice, and optionally encodes uA steering SIDs in the uSID carrier to pin the path through specific spine nodes within the chosen plane. The locator itself is unchanged regardless of which plane carries the traffic.
+
+•	**Deterministic Arrival:** because each plane is a physically independent fabric, a packet for Loc:Chassis-42 traveling over Plane-2 arrives exclusively at Chassis-42's Plane-2 NIC interface. There is no cross-plane leakage or ambiguity.
 
 This means plane selection and GPU/chassis addressing are orthogonal controls. The SDN controller can change plane assignments, re-pin flows after failures, or rebalance load across planes without renumbering or re-advertising any GPU or chassis locators. The locator space is stable; only the uSID steering stack changes.
 
-Note on per-plane locator reuse: Because the four fabric planes never intersect, it is technically possible to assign identical locator values to corresponding nodes across all four planes (e.g., the first spine in each plane shares the same locator). This conserves locator namespace and may simplify addressing in isolated deployments. However, for deployments that anticipate multi-factory or WAN/scale-across connectivity — where a WAN segment may not operate across all four independent planes — globally unique locators as described in Section 4.2 are recommended to preserve per-plane steering determinism.
+Note on per-plane locator reuse: Because the four fabric planes never intersect, it is technically possible to assign identical locator values to corresponding nodes across all four planes (e.g., the first spine in each plane shares the same locator). This conserves locator namespace and may simplify addressing in isolated deployments. However, for deployments that anticipate multi-factory or WAN/scale-across connectivity — where a WAN segment may not operate across all four independent planes — globally unique locators as described in Section 3.2 are recommended to preserve per-plane steering determinism.
 
-4.4 Addressing Options for GPU NIC Endpoints
+### 3.4 Addressing Options for GPU NIC Endpoints
 
-Two addressing models are available for GPU NIC endpoints, corresponding to the two sub-options in the Host-Based multi-tenancy design (Section 5). Both models are valid; the choice depends on the chosen encapsulation/decapsulation option and operational preferences.
+Two addressing models are available for GPU NIC endpoints, corresponding to the two sub-options in the Host-Based multi-tenancy design (Section 4). Both models are valid; the choice depends on the chosen encapsulation/decapsulation option and operational preferences.
 
-Option A: IPv6-in-IPv6 Encapsulation with Explicit Locator
+**Option A: IPv6-in-IPv6 Encapsulation with Explicit Locator**
+
 In the standard SRv6 forwarding model, the outer IPv6 header carries the uSID carrier as the destination address, and the inner IPv6 header carries the GPU application addresses. The GPU NIC's real IPv6 address (its application-layer identity) appears in the inner header and is delivered to the workload after decapsulation at the destination NIC or egress leaf.
 
 Example flow — GPU-A to GPU-B via Plane-0, Leaf-7, Spine-43, Leaf-255:
 
-Header Field	Value	Notes
-Outer Source	FC00:0:3001::	Source chassis/NIC locator
-Outer Destination	FC00:0:FE07:FE2B:3042:E001::	uSID carrier: uA(leaf-to-spine) | uA(spine-to-leaf) | Locator | Tenant-ID
-Inner Source	2001:DB8:GPU-A::1	GPU-A application IPv6 address
-Inner Destination	2001:DB8:GPU-B::1	GPU-B application IPv6 address
+| Header Field | Value | Notes |
+| --- | --- | --- |
+| Outer Source | FC00:0:3001:: | Source chassis/NIC locator |
+| Outer Destination | FC00:0:FE07:FE2B:3042:E001:: | uSID carrier: uA(leaf-to-spine) \| uA(spine-to-leaf) \| Locator \| Tenant-ID |
+| Inner Source | 2001:DB8:GPU-A::1 | GPU-A application IPv6 address |
+| Inner Destination | 2001:DB8:GPU-B::1 | GPU-B application IPv6 address |
 
 After Shift-and-Forward processing removes the two steering uSIDs at the intermediate leaf and spine nodes, the outer destination resolves to FC00:0:3042:E001:: — the destination chassis locator with Tenant-ID function — which the egress leaf or destination NIC decapsulates and resolves via VRF lookup.
 
-Option B: Engineered Destination Address (No Inner Header)
+**Option B: Engineered Destination Address (No Inner Header)**
+
 An innovative alternative eliminates the inner IPv6 header entirely. The GPU NIC's actual IPv6 address is engineered to coincide with the residual value of the uSID carrier after all steering uSIDs have been shifted off by fabric nodes. The transmitting NIC constructs the destination address with the steering uSIDs prepended; by the time the packet arrives at the destination NIC, Shift-and-Forward has consumed all steering uSIDs, leaving only the destination GPU's true IPv6 address in the destination field.
 
 This approach eliminates the 40-byte inner IPv6 header overhead on every packet — significant for RDMA workloads where header efficiency directly affects effective bandwidth — and avoids the need for NIC-based decapsulation logic. The GPU NIC receives a standard IPv6 packet addressed to its own address with no encapsulation to remove.
@@ -227,46 +239,49 @@ This approach eliminates the 40-byte inner IPv6 header overhead on every packet 
 The critical design constraint for Option B is that the GPU NIC must be assigned the all-zeros (::0) host address in its /48 or /64 subnet, since that is the value remaining in the destination field after uSID processing completes. The upstream leaf switch uses the ::1 address in the same subnet. The NIC's locator value and its interface address are unified — the locator prefix IS the NIC's IPv6 address.
 
 Example — GPU-A to GPU-B, engineered destination, no inner header:
-Header Field	Value	Notes
-Source	FC00:0:3001::	Source chassis locator (also NIC IPv6 address)
-Destination	FC00:0:FE07:FE2B:3042::	uSID carrier: uA | uA | Dest Locator — no inner header
+| Header Field | Value | Notes |
+| --- | --- | --- |
+| Source | FC00:0:3001:: | Source chassis locator (also NIC IPv6 address) |
+| Destination | FC00:0:FE07:FE2B:3042:: | uSID carrier: uA \| uA \| Dest Locator — no inner header |
 
 After Shift-and-Forward removes FE07 (leaf-to-spine uA) and FE2B (spine-to-leaf uA), the destination address resolves to FC00:0:3042:: — which is both the destination chassis' locator and its NIC IPv6 address. The packet is delivered as a standard IPv6 packet requiring no decapsulation.
 
-Security note: Option B eliminates the encapsulation trust boundary between the application layer and the infrastructure owner. In single-tenant clusters or clusters where the operator controls all NIC programming, this is acceptable. In multi-tenant environments it is generally unsuitable, as there is no outer header under operator control to enforce tenant isolation. The multi-tenancy and security implications are discussed in detail in Sections 5 and 8.
+**Security note:** Option B eliminates the encapsulation trust boundary between the application layer and the infrastructure owner. In single-tenant clusters or clusters where the operator controls all NIC programming, this is acceptable. In multi-tenant environments it is generally unsuitable, as there is no outer header under operator control to enforce tenant isolation. The multi-tenancy and security implications are discussed in detail in Sections 5 and 8.
 
-4.5 uA SID Design for Planar Fabric Steering
+### 3.5 uA SID Design for Planar Fabric Steering
 
 Micro-Adjacency (uA) SIDs encode specific physical link adjacencies at each transit node. In the planar AI fabric, uA SIDs are used to pin traffic to specific spine nodes within a plane, providing deterministic path selection beyond what ECMP hash-based forwarding can guarantee.
 
 In the two-tier fabric, a steered path requires two uA SIDs:
 
 •	Leaf-to-Spine uA: instructs the ingress leaf to forward the packet out the specific port connected to the target spine node. This determines which of the 256 spine nodes in the plane the flow traverses.
+
 •	Spine-to-Leaf uA: instructs the spine node to forward the packet out the specific port connected to the destination leaf. Since each spine connects to all 512 leaves in the plane, this uA identifies the correct egress leaf.
 
-With 512x100G leaf uplinks and 512x100G spine downlinks, up to 512 uA SID values are needed per node for full adjacency coverage. The proposed LIB allocation of 2,048 uA SIDs (0xF800–0xFFFF) comfortably covers this, with room for the anticipated 1,024-port switches of the next switch generation.
+With 512x100G leaf uplinks and 512x100G spine downlinks, up to 512 uA SID values are needed per node for full adjacency coverage. The proposed LIB allocation of 4,096 uA SIDs (0xF000–0xFFFF) comfortably covers this, with room for future high radix switch generations.
 
 Note that either uA or uN steering is viable in the base deployment. Because each leaf already has exactly one uplink to each spine node, uN-based forwarding within the plane can achieve per-flow path pinning in the same manner as explicit uA as ECMP will have a single path/link to choose from.
 
-4.6 SDN Control Plane Model
+### 3.6 SDN Control Plane Model
 
 The AI factory fabric operates under a centralized SDN control model. There is no assumption of BGP peering between fabric tiers for base operation, and no distributed routing protocol floods individual GPU or chassis locators through the fabric. Instead, a Fabric Controller — operating in close coordination with the AI workload scheduler — computes paths, manages tenant/SID mappings, and programs forwarding entries on leaf switches and GPU NICs.
 
 The SDN controller maintains a mapping table of the form:
 
-Key	Value
-Chassis-ID	NVL72 rack identifier
-Rack-Leaf-Map	For each plane: which leaf switch serves this chassis, which port
-uSID-Locator	The /48 locator prefix assigned to this chassis
-Tenant-Map	Which GPU NICs are assigned to which tenant, with corresponding uDT function SIDs
-Path-Map	Active uA steering SIDs for current flow placements
+| Key | Value |
+| --- | --- |
+| Chassis-ID | NVL72 rack identifier |
+| Rack-Leaf-Map | For each plane: which leaf switch serves this chassis, which port |
+| uSID-Locator | The /48 locator prefix assigned to this chassis |
+| Tenant-Map | Which GPU NICs are assigned to which tenant, with corresponding uDT function SIDs |
+| Path-Map | Active uA steering SIDs for current flow placements |
 
 This architecture enables adaptive routing at the source without any fabric reconvergence. If the controller detects congestion on a specific spine node or plane, it rewrites the uA steering SIDs in the affected source NIC's forwarding entries to redirect subsequent flows. The spine and leaf tiers require zero state change — all path intelligence is encoded in the uSID header applied at the source edge. Plane failover (for example, following a spine node failure) triggers a uSID rewrite at the source edge only, completing in the time it takes the controller to push the updated forwarding entry to the affected NICs or ingress leaves.
 
 BGP peering between fabric tiers may become beneficial in scenarios beyond the scope of this paper's base design: clusters exceeding three tiers, inter-datacenter or metro scale-across connectivity, or environments where the SDN controller cannot guarantee fast enough convergence on failure events. In those scenarios, BGP can carry locator summary routes between tiers, reducing the controller's convergence responsibility while maintaining the overall SRv6 forwarding model.
 
  
-5. Multi-Tenant Encapsulation Design Options
+## 4. Multi-Tenant Encapsulation Design Options
 
 This section describes the three SRv6 multi-tenancy design options introduced in the Executive Summary, examining each in detail with respect to control plane requirements, addressing implications, hardware dependencies, operational tradeoffs, and the uSID carrier structure produced. The three options represent a spectrum from fully network-controlled to fully host-controlled encapsulation, with a practical hybrid in between.
 
