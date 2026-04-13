@@ -1,10 +1,12 @@
 
-# Multi-Tenant Design for Hyperscale AI Factories
+# SRv6 Multi-Tenant Design for Hyperscale AI Factories
 
 ## SRv6 uSID Segmentation and Traffic Engineering Design Options
 
 Bruce McDougall
+
 April 2026
+
 CONFIDENTIAL
  
 ## 1. Executive Summary
@@ -15,9 +17,9 @@ The document is organized around two interrelated themes. The first is the physi
 
 The analysis covers three SRv6 multi-tenancy design options differentiated by the location of SRv6 encapsulation and decapsulation:
 
-•	**Option 1** — Network-Based: ingress and egress leaf switches perform SRv6 encapsulation and decapsulation, with VRF-based tenant isolation at the leaf layer. This is the most operationally familiar model, directly analogous to MPLS L3VPN in service provider networks.
+•	**Option 1** — Network-Based SRv6: ingress and egress leaf switches perform SRv6 encapsulation and decapsulation, with VRF-based tenant isolation at the leaf layer. This is the most operationally familiar model, directly analogous to MPLS L3VPN in service provider networks.
 
-•	**Option 2** — Host-Based: the GPU NIC performs SRv6 encapsulation and decapsulation, with two sub-variants — (2a) a uA-based model where the egress leaf steers the packet to the correct NIC port, and (2b) an anycast-style model where the NIC's IPv6 address is the all-zeros host in a /48 subnet, enabling address reuse across all NICs in an NVL72 chassis.
+•	**Option 2** — Host-Based SRv6: the GPU NIC performs SRv6 encapsulation and decapsulation. In this scenario the egress leaf performs a uA shift-and-forward and steers the packet to the correct NIC port. In turn the destination NIC has a local uDT entry and performs the decapsulation and VRF lookup.
 
 •	**Option 3** — Hybrid: the transmitting NIC performs SRv6 encapsulation and the egress leaf performs decapsulation and VRF lookup, combining the traffic engineering flexibility of host-based encapsulation with the hardware-accelerated decapsulation of the network-based model.
 
@@ -370,11 +372,9 @@ In a three-tier fabric with inter-cluster traffic, four steering uSIDs are requi
 
 In the Host-Based SRv6 design, the GPU NIC performs SRv6 encapsulation on outbound traffic and SRv6 decapsulation on inbound traffic. The leaf switches perform only standard IPv6 forwarding and uA (or uN) Shift-and-Forward operations — they carry no per-tenant VRF state. This model offers the highest traffic engineering flexibility and scale, and the lowest leaf state overhead, at the cost of requiring SRv6 encapsulation and decapsulation capability on the GPU NIC.
 
-Two sub-variants exist, differentiated by how the destination GPU NIC is addressed after the uSID carrier has been processed by the fabric:
+**uA-Based Last-Hop Delivery, uDT Host/NIC Entry**
 
-**Option 2a: uA-Based Last-Hop Delivery**
-
-In Option 2a, the uSID carrier includes a uA SID instructing the egress leaf to forward the packet out the specific port connected to the destination GPU NIC. The NIC processes the received packet, performs decapsulation, and looks up the trailing uDT/Tenant-ID function in its local SID table. No explicit chassis or GPU locator needs to be assigned — the uA SID at the egress leaf uniquely identifies the destination port.
+In this scenario the uSID carrier includes a uA SID instructing the egress leaf to forward the packet out the specific port connected to the destination GPU NIC. The NIC processes the received packet, performs decapsulation, and looks up the trailing uDT/Tenant-ID function in its local SID table. No explicit host or GPU locator needs to be assigned — the uA SID at the egress leaf uniquely identifies the destination port.
 
 Linux iproute2 example of NIC-side encapsulation (source NIC) and decapsulation (destination NIC):
 
@@ -382,50 +382,34 @@ Linux iproute2 example of NIC-side encapsulation (source NIC) and decapsulation 
 ! Source NIC: encapsulate outbound flow with uA steering and Tenant-ID
 ip -6 route add 2001:DB8:A001:200::/64 \
   encap seg6 mode encap.red \
-  segs FC00:0:FE07:FE2B:FEC8:D002:: dev eth0
+  segs FC00:0:FE07:FE2B:FEC8:E002:: dev eth0
 ```
 ```yaml
 ! Destination NIC: decapsulate and lookup in tenant routing table
-ip -6 route add FC00:0:D002::/48 dev eth1 \
+ip -6 route add FC00:0:E002::/48 dev eth1 \
   encap seg6local action End.DT6 table 1
 ```
 
-In this example, FE07 and FE2B are the leaf-to-spine and spine-to-leaf uA SIDs respectively, FEC8 is the egress-leaf-to-NIC uA SID instructing the egress leaf to forward to the specific NIC port, and D002 is the uDT Tenant-ID function processed by the destination NIC. The uSID carrier structure is:
+In this example, FE07 and FE2B are the leaf-to-spine and spine-to-leaf uA SIDs respectively, FEC8 is the egress-leaf-to-NIC uA SID instructing the egress leaf to forward to the specific NIC port, and E002 is the uDT Tenant-ID function processed by the destination NIC. The uSID carrier structure is:
 
 | Bits 0–31 | Bits 32–47 | Bits 48–63 | Bits 64–79 | Bits 80–95 |
 | --- | --- | --- | --- | --- |
-| FC00:0 (uSID Block) | FE07 (Leaf→Spine uA) | FE2B (Spine→Leaf uA) | FEC8 (Leaf→NIC uA) | E001 (uDT Tenant-ID) |
+| FC00:0 (uSID Block) | FE07 (Leaf→Spine uA) | FE2B (Spine→Leaf uA) | FEC8 (Leaf→NIC uA) | E002 (uDT Tenant-ID) |
 
-With Host-Based SRv6 we’ve increased the diameter of the steering domain by a single hop, however, Option 2a does not actually consume more uSID slots than Network-Based Option 1. The Leaf-to-NIC uA in slot 5 replaces the Destination Leaf Locator that Option 1 uses in the same slot — the uA itself identifies both the leaf and the specific egress port, making a separate Locator redundant. This option is fully compatible with both two-tier and three-tier fabrics within a single F3216 carrier.
+With Host-Based SRv6 we’ve increased the diameter of the steering domain by a single hop, however, the solution does not actually consume more uSID slots than Network-Based Option 1. The Leaf-to-NIC uA in slot 5 replaces the Destination Leaf Locator that Option 1 uses in the same slot — the uA itself identifies both the leaf and the specific egress port, making a separate Locator redundant. This option is fully compatible with both two-tier and three-tier fabrics within a single F3216 carrier.
 
-**Option 2b: NIC Addressing with ::0/48 “Anycast” Value**
-
-Option 2b eliminates the need for a leaf-to-NIC uA SID by engineering the NIC's IPv6 address to be the ::0 (all-zeros host) value of a /48 subnet shared between the leaf and the NIC. The leaf uses the ::1 address in the same /48. When the uSID carrier's Locator resolves to the leaf's prefix after Shift-and-Forward, the leaf performs a standard IPv6 longest-prefix-match lookup and forwards the packet to the NIC via the directly connected /48 subnet — no uA SID required.
-
-With Option 2b the packet arrives at the destination NIC, which sees its “Locator” (the ::0/48 value), followed by a 16-bit uDT function. The NIC processes the received packet, performs decapsulation, and looks up the trailing uDT/Tenant-ID function in its local SID table and passes the inner packet to the GPU workload.
-
-This approach assigns a locator value to each GPU NIC (or NVL72 chassis), but these locator values can be reused across all NICs on the same chassis. Because each NIC in the NVL72 chassis uplinks to a different leaf switch, and each leaf has exactly one port toward that chassis, there is no ambiguity: traffic arriving at Leaf-N destined for the ::0/48 address can only egress toward one physical port — the port connected to the NIC served by that leaf. There is zero possibility of the packet reaching the wrong NIC.
-
-This is analogous to anycast addressing — same address, multiple instances, disambiguation enforced by topology — except the disambiguation is physically enforced by the fabric rather than by routing. Intra-chassis GPU-to-GPU traffic traverses NVLink exclusively and never enters the Ethernet fabric, so the ::0/48 address reuse creates no intra-chassis ambiguity either.
-
-The uSID carrier structure for Option 2b in a two-tier fabric is:
-
-| Bits 0–31 | Bits 32–47 | Bits 48–63 | Bits 64–79 | Bits 80–95 |
-| --- | --- | --- | --- | --- |
-| FC00:0 (uSID Block) | FE07 (Leaf→Spine uA) | FE2B (Spine→Leaf uA) | 3042 (Chassis Locator) | E001 (uDT Tenant-ID) |
-
-Option 2b has the same uSID slot budget as Option 1 — two or four steering uSIDs plus Locator plus Function — making it fully compatible with both two-tier and three-tier fabrics within the F3216 carrier.
+An alternative addressing model was evaluated in which the GPU NIC's IPv6 address coincides with the residual uSID carrier value after all Shift-and-Forward operations complete, eliminating the need for an inner IPv6 header. This approach is not viable for two reasons: first, the all-zeros host address within a subnet is reserved as the subnet-router anycast address per RFC 4291 and cannot be reliably assigned to a NIC endpoint; second, the post-shift destination address includes trailing uSID slot values (such as the Tenant-ID function) that are not part of the NIC's assignable address space, making the residual address unreachable via standard subnet forwarding. This option idea has not been pursued further.
 
 **Host-Based Option Comparison**
 
-| Aspect | Option 2a (uA Last-Hop) | Option 2b (::0/48 Anycast) |
-| --- | --- | --- |
-| Chassis/GPU locator required | No | Yes (chassis-level, reusable per NIC) |
-| uSID slots consumed (2-tier) | 4 (2x uA + leaf-to-NIC uA + uDT) | 4 (2x uA + Locator + uDT) |
-| uSID slots consumed (3-tier) | 6 (4x uA + leaf-to-NIC uA + uDT) | 6 (4x uA + Host Locator + uDT) |
-| NIC address complexity | Standard unique IPv6 per NIC | ::0/48 per NIC; topology-disambiguated |
-| Leaf state | uA SID per NIC-facing port | Directly connected /48 — zero explicit route state |
-| SDN controller mapping | uA SID → port → NIC | Locator → chassis → leaf → port |
+| Aspect | Option 2a (uA Last-Hop) |
+| --- | --- |
+| Chassis/GPU locator required | No |
+| uSID slots consumed (2-tier) | 4 (2x uA + leaf-to-NIC uA + uDT) |
+| uSID slots consumed (3-tier) | 6 (4x uA + leaf-to-NIC uA + uDT) |
+| NIC address complexity | Standard unique IPv6 per NIC |
+| Leaf state | uA SID per NIC-facing port |
+| SDN controller mapping | uA SID → port → NIC |
 
 ### 4.3 Option 3: Hybrid (Host Encapsulation, Leaf Decapsulation)
 
