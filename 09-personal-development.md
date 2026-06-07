@@ -51,3 +51,14 @@ Deliver a Cloud-Native SRv6/SDN/Jalapeno session at a non-Cisco Live conference	
 
 Potential Risks: Cisco’s ability to execute on software and hardware roadmaps
 Resources: DSE Mentor – Vaughn Suazo, Unofficial Mentors: Matt Gillies, David Jansen
+
+Constantly pushing myself and evolving my technical skills and network within Cisco
+
+- After PSE promotion (and in response to the committee's feedback) I expanded my network and span of influence outside of Web/SP: Enterprise/SDWAN, FE-Segmentation tiger team, co-founder multi-disciplinary single-OS working group, Thousand Eyes, SSE, Public Sector teams and SONiC/Hyperscale design, Isovalent Engineering and security sales, deepened relationships with peers in EMEA, CX and SL-OnDemand tiger team, collaboration with OST university in Zurich
+- K8s and Cilium expertise
+- Containerlab early adopter
+- Github early adopter
+- Developed SONiC technical expertise before it gained large market traction
+- Cursor early adopter
+- Agentic coding
+- 

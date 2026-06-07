@@ -7,7 +7,6 @@ The data shows you are the primary technical lead for the "Tier 2" AI Cloud mark
 Below is the Deep Dive: AI & Hyperscale Architectural Leadership section for your DSE package.
 
 
-
 Deep Dive: AI & Hyperscale Architectural Leadership
 
 "Bruce McDougall is architecting the network that makes AI possible. He has moved beyond traditional packet forwarding to solve the most complex challenge in the modern data center: coupling AI workload scheduling with deterministic network performance."

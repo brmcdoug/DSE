@@ -1,0 +1,1791 @@
+{
+  "total_emails": 756,
+  "date_range": {
+    "earliest": "2024",
+    "latest": "2026"
+  },
+  "emails_by_year": {
+    "2024": 266,
+    "2025": 371,
+    "2026": 119
+  },
+  "top_senders": {
+    "pcamaril@cisco.com": 60,
+    "bgisiger@cisco.com": 43,
+    "cfilsfil@cisco.com": 43,
+    "pbhagwat@cisco.com": 29,
+    "ahabdels@cisco.com": 26,
+    "vadusumi@cisco.com": 20,
+    "mohannanduri@microsoft.com": 20,
+    "robermur@cisco.com": 16,
+    "laurenjo@cisco.com": 15,
+    "kevdento@cisco.com": 15,
+    "asdesara@cisco.com": 14,
+    "christian.j.martin@oracle.com": 13,
+    "kritkris@cisco.com": 13,
+    "jakuhorn@cisco.com": 11,
+    "David.Clough@wwt.com": 10,
+    "sunruh@cisco.com": 10,
+    "srehling@cisco.com": 10,
+    "cwhyte1@cisco.com": 10,
+    "abderrahman.jouhari@oracle.com": 10,
+    "jodahl@cisco.com": 9,
+    "npopgeor@cisco.com": 9,
+    "jorockwe@cisco.com": 9,
+    "davbrunn@cisco.com": 9,
+    "mayre@groq.com": 9,
+    "memcginn@cisco.com": 9,
+    "vsuazo@cisco.com": 8,
+    "jmoschne@cisco.com": 8,
+    "tsumanam@cisco.com": 7,
+    "pbrisset@cisco.com": 7,
+    "mkapturs@cisco.com": 7
+  },
+  "top_recipients": {
+    "brmcdoug@cisco.com": 458,
+    "pcamaril@cisco.com": 116,
+    "kritkris@cisco.com": 111,
+    "robermur@cisco.com": 106,
+    "pbhagwat@cisco.com": 73,
+    "jorockwe@cisco.com": 73,
+    "ahabdels@cisco.com": 72,
+    "bgisiger@cisco.com": 61,
+    "kritsrin@cisco.com": 61,
+    "mveerach@cisco.com": 61,
+    "gurprgil@cisco.com": 59,
+    "davbrunn@cisco.com": 55,
+    "sunrusta@cisco.com": 55,
+    "ansi@cisco.com": 51,
+    "cfilsfil@cisco.com": 48,
+    "vtapaska@cisco.com": 47,
+    "suresh.duraisamy@oracle.com": 47,
+    "manmukhe@cisco.com": 44,
+    "vadusumi@cisco.com": 40,
+    "jodama@cisco.com": 39
+  },
+  "category_hits": {
+    "hyperscale_cloud_ai": 318,
+    "segment_routing_srv6": 266,
+    "sonic_open_source": 222,
+    "cisco_live_speaking": 107,
+    "revenue_business_impact": 88,
+    "service_provider_telco": 50,
+    "leadership_mentoring": 24,
+    "global_international": 24,
+    "cilium_isovalent": 21,
+    "enterprise_customers": 10,
+    "jalapeno_programmability": 8,
+    "awards_recognition": 7,
+    "innovation_patents": 3
+  },
+  "category_examples": {
+    "leadership_mentoring": [
+      {
+        "date": "2024-03-08T19:08:12",
+        "from": "Bob Gisiger (bgisiger) <bgisiger@cisco.com>",
+        "subject": "Re: Voltage Park / Drew Pletcher notes",
+        "snippet": "Thanks Bruce! Appreciate the info. Super helpful. From: Bruce McDougall <brmcdoug@cisco.com> Date: Thursday, March 7, 2024 at 10:10 AM To: Vahini Adusumilli <vadusumi@cisco.com>, \"Bob Gisiger (bgisiger)\" <bgisiger@cisco.com> Cc: \"Rob Murphy (robermu",
+        "matched_terms": [
+          "rob murphy"
+        ]
+      },
+      {
+        "date": "2024-03-25T20:17:51",
+        "from": "Rob Murphy (robermur) <robermur@cisco.com>",
+        "subject": "Rob Murphy (robermur) shared \"AI for Tier-2 GTM Strategy\" with you",
+        "snippet": "Rob Murphy (robermur) invited you to access a file Here's the document that Rob Murphy (robermur) shared with you. AI for Tier-2 GTM Strategy This invite will only work for you and people with existing access. Open Share",
+        "matched_terms": [
+          "rob murphy"
+        ]
+      },
+      {
+        "date": "2024-03-29T14:32:21",
+        "from": "Rob Murphy (robermur) <robermur@cisco.com>",
+        "subject": "Re: Rob Murphy (robermur) shared \"AI for Tier-2 GTM Strategy\" with you",
+        "snippet": "Bruce some great feedback. I need to noodle on how to message the controller need. I saw its only a subset need a controller. The telemetry piece I feel there is no added value in our streaming telemetry. I mean if we don’t have that we shouldn’t be ev",
+        "matched_terms": [
+          "rob murphy"
+        ]
+      },
+      {
+        "date": "2024-04-10T18:13:34",
+        "from": "Lauren Johnson (laurenjo) <laurenjo@cisco.com>",
+        "subject": "Introduction to AI team",
+        "snippet": "Hi John, It was great to see you on Friday. Meet Bruce McDougall and Rob Murphy are our principle engineers and resident AI experts that are helping support customers in our AI discussions. Our account team will not support Lambda until the new year, b",
+        "matched_terms": [
+          "rob murphy"
+        ]
+      },
+      {
+        "date": "2024-04-17T23:25:16",
+        "from": "Tejesh Sumanam (tsumanam) <tsumanam@cisco.com>",
+        "subject": "Re: Introduction to AI team",
+        "snippet": "Hi @Bruce McDougall (brmcdoug)@Rob Murphy (robermur)<mailto:robermur@cisco.com>,",
+        "matched_terms": [
+          "rob murphy"
+        ]
+      },
+      {
+        "date": "2024-04-18T18:46:03",
+        "from": "Satish Surapaneni (sasurapa) <sasurapa@cisco.com>",
+        "subject": "Re: evroc - Directional Decision needed",
+        "snippet": "SONiC SRv6 that Alibaba is using is in their WAN Core… so got to be careful here with DC. Satish From: Rob Murphy (robermur) <robermur@cisco.com> Date: Thursday, April 18, 2024 at 11:40 AM To: Johan Gustawsson (jgustaws) <jgustaws@cisco.com>, Sco",
+        "matched_terms": [
+          "rob murphy"
+        ]
+      },
+      {
+        "date": "2024-04-29T23:14:42",
+        "from": "Vahini Adusumilli (vadusumi) <vadusumi@cisco.com>",
+        "subject": "Vahini Adusumilli (vadusumi) shared \"Home\" with you",
+        "snippet": "Vahini Adusumilli (vadusumi) invited you to edit a page I created a sharepoint to track our AI progress, share trainings, etc with our team and beyond. I have assigned a section to each of the team members. Feel free to hit me up with feedback!",
+        "matched_terms": [
+          "training"
+        ]
+      },
+      {
+        "date": "2024-06-12T12:20:15",
+        "from": "Praveen Bhagwatula (pbhagwat) <pbhagwat@cisco.com>",
+        "subject": "Re: Rob Murphy (robermur) shared \"Labmda_Labs_June_2024\" with you",
+        "snippet": "Thanks Rob. Few comments: * On slide 2, while we currently don’t productize SONiC on P-series, is there value in calling it out as futures (for DSF) ? * Slide 14 – current DSF (Q200 based) doesn’t support 800G ports. This is only enabled wit",
+        "matched_terms": [
+          "rob murphy"
+        ]
+      }
+    ],
+    "segment_routing_srv6": [
+      {
+        "date": "2024-03-11T18:41:50",
+        "from": "Ryan Houska (ryhouska) <ryhouska@cisco.com>",
+        "subject": "Re: [EXTERNAL] Equinix / Cisco Follow-Up re: Nvidia Partnerships",
+        "snippet": "Nicolas, looking forward to our Thursday discussion with your team. To prepare for a larger audience, let's align our expectations and consider key questions for a more productive call. Objective: Mutually explore our AI partnership developments with N",
+        "matched_terms": [
+          "sid"
+        ]
+      },
+      {
+        "date": "2024-03-11T20:41:34",
+        "from": "Nicolas Guilbaud <Nicolas.Guilbaud@eu.equinix.com>",
+        "subject": "Re: [EXTERNAL] Equinix / Cisco Follow-Up re: Nvidia Partnerships",
+        "snippet": "Hi Ryan, Thanks, I am looking forward to our conversation as well. Indeed, it is a good idea to align expectations and yes the audience is growing on our side. On the Equinix side, there is a technical interest as well. What are the main trends for",
+        "matched_terms": [
+          "sid"
+        ]
+      },
+      {
+        "date": "2024-04-10T18:13:34",
+        "from": "Lauren Johnson (laurenjo) <laurenjo@cisco.com>",
+        "subject": "Introduction to AI team",
+        "snippet": "Hi John, It was great to see you on Friday. Meet Bruce McDougall and Rob Murphy are our principle engineers and resident AI experts that are helping support customers in our AI discussions. Our account team will not support Lambda until the new year, b",
+        "matched_terms": [
+          "sid"
+        ]
+      },
+      {
+        "date": "2024-04-18T18:40:21",
+        "from": "Rob Murphy (robermur) <robermur@cisco.com>",
+        "subject": "Re: evroc - Directional Decision needed",
+        "snippet": "Adding on Bruce McDougall to the thread. On the SRv6 + SONiC front Bruce and I have been tracking the work Clarence’s team has been doing with Alibaba. We have been planning on developing a SONiC SRv6 lab in the next few months. Bruce and I already hav",
+        "matched_terms": [
+          "srv6"
+        ]
+      },
+      {
+        "date": "2024-04-18T18:46:03",
+        "from": "Satish Surapaneni (sasurapa) <sasurapa@cisco.com>",
+        "subject": "Re: evroc - Directional Decision needed",
+        "snippet": "SONiC SRv6 that Alibaba is using is in their WAN Core… so got to be careful here with DC. Satish From: Rob Murphy (robermur) <robermur@cisco.com> Date: Thursday, April 18, 2024 at 11:40 AM To: Johan Gustawsson (jgustaws) <jgustaws@cisco.com>, Sco",
+        "matched_terms": [
+          "srv6"
+        ]
+      },
+      {
+        "date": "2024-04-18T20:34:19",
+        "from": "Praveen Bhagwatula (pbhagwat) <pbhagwat@cisco.com>",
+        "subject": "Re: evroc - Directional Decision needed",
+        "snippet": "Thanks for the note Johan. A few points: * We need to clearly demarcate what use case are we discussing here. An AI back-end network vs an AI front-end / general purpose DC network has very different semantics * Regarding VXLAN vs SRv6 -> BF3",
+        "matched_terms": [
+          "srv6"
+        ]
+      },
+      {
+        "date": "2024-06-12T16:24:10",
+        "from": "Luke Morrel (lmorrel) <lmorrel@cisco.com>",
+        "subject": "Re: Roblox - AI/ML related questions",
+        "snippet": "Hey Nemanja – I don’t believe these are related to the EFT; it seems that most are geared toward AI/ML, aside from maybe the DLB question?! Let me know thoughts Luke Morrel Cisco Sales Account Manager lmorrel@cisco.com M: 919-368-4843 From: Ne",
+        "matched_terms": [
+          "sid"
+        ]
+      },
+      {
+        "date": "2024-07-09T22:22:55",
+        "from": "Vaughn Suazo (vsuazo) <vsuazo@cisco.com>",
+        "subject": "Re: Roblox - AI/ML related questions",
+        "snippet": "Paresh, Since Nik is OOO Backend network for up 1024 GPUs, Nvidia H100. We don’t have a lot details on the use cases. Vishal leads the networking side for Roblox, so he does not have all the AI related details, except he needs to figure out the netwo",
+        "matched_terms": [
+          "sid"
+        ]
+      }
+    ],
+    "enterprise_customers": [
+      {
+        "date": "2024-03-11T18:41:50",
+        "from": "Ryan Houska (ryhouska) <ryhouska@cisco.com>",
+        "subject": "Re: [EXTERNAL] Equinix / Cisco Follow-Up re: Nvidia Partnerships",
+        "snippet": "Nicolas, looking forward to our Thursday discussion with your team. To prepare for a larger audience, let's align our expectations and consider key questions for a more productive call. Objective: Mutually explore our AI partnership developments with N",
+        "matched_terms": [
+          "equinix"
+        ]
+      },
+      {
+        "date": "2024-03-11T20:41:34",
+        "from": "Nicolas Guilbaud <Nicolas.Guilbaud@eu.equinix.com>",
+        "subject": "Re: [EXTERNAL] Equinix / Cisco Follow-Up re: Nvidia Partnerships",
+        "snippet": "Hi Ryan, Thanks, I am looking forward to our conversation as well. Indeed, it is a good idea to align expectations and yes the audience is growing on our side. On the Equinix side, there is a technical interest as well. What are the main trends for",
+        "matched_terms": [
+          "equinix"
+        ]
+      },
+      {
+        "date": "2024-03-12T00:33:20",
+        "from": "Ryan Houska (ryhouska) <ryhouska@cisco.com>",
+        "subject": "Re: [EXTERNAL] Equinix / Cisco Follow-Up re: Nvidia Partnerships",
+        "snippet": "Appreciate the additional detaio as we prep. How does the below look that we can share as an agenda? 1. Welcome and Opening Remarks (5 minutes) 2. Partnership Overviews and Technical Interests (15 minutes) * Both teams present an overv",
+        "matched_terms": [
+          "equinix"
+        ]
+      },
+      {
+        "date": "2024-03-14T14:29:51",
+        "from": "Josh Dahl (jodahl) <jodahl@cisco.com>",
+        "subject": "<Equinix>FW: Catch up with Cisco Team",
+        "snippet": "Hey Bruce, Looks like Nicolas is having some influence at Equinix, Aaron is asking about PINS. Is this something you could help out with, or is there someone else or group we should work with in the BU? I’m going to ask Jason Bos to help with his fi",
+        "matched_terms": [
+          "equinix"
+        ]
+      },
+      {
+        "date": "2024-03-14T18:46:40",
+        "from": "Josh Dahl (jodahl) <jodahl@cisco.com>",
+        "subject": "Equinix - S1 P4 Architecture and SONiC PINS",
+        "snippet": "Hi Jason, We recently met with Aaron Glenn from Equinix. He was in our EBC meeting this past November and his focus is exploring building their own NOS. He has inquired about the following SDK/P4 S1 topics below. Is this something you and team can a",
+        "matched_terms": [
+          "equinix"
+        ]
+      },
+      {
+        "date": "2024-03-14T18:54:42",
+        "from": "Josh Dahl (jodahl) <jodahl@cisco.com>",
+        "subject": "Re: Catch up with Cisco Team",
+        "snippet": "Thanks Aaron, tracking this down with our SDK team and will get back to you shortly. Josh From: Aaron Glenn <aaglenn@equinix.com> Date: Thursday, March 14, 2024 at 12:52 AM To: Josh Dahl (jodahl) <jodahl@cisco.com>, Zack Haven (zhaven) <zhaven@cis",
+        "matched_terms": [
+          "equinix"
+        ]
+      },
+      {
+        "date": "2024-03-29T18:39:21",
+        "from": "Josh Dahl (jodahl) <jodahl@cisco.com>",
+        "subject": "Re: Equinix - S1 P4 Architecture and SONiC PINS",
+        "snippet": "Hi Jason, Thank you for your feedback, much appreciated. They are early in their journey and in the exploration phase of what is possible and we definitely want to make sure we are guiding them down a feasible and supportable path. Would you be open",
+        "matched_terms": [
+          "equinix"
+        ]
+      },
+      {
+        "date": "2025-03-03T16:21:37",
+        "from": "Abhishek Sharma (abhshar3) <abhshar3@cisco.com>",
+        "subject": "Re: 8K SONiC opportunities and requirements NeoClouds + R&E",
+        "snippet": "Hi Bruce, The calendars are looking quite challenging. Are you able to kindly make it at 9:30am PT? Since you have been closely engaged with the universities in SLED on the DCI use case requiring SONiC switches with HBM, would be good to provide",
+        "matched_terms": [
+          "neocloud"
+        ]
+      }
+    ],
+    "revenue_business_impact": [
+      {
+        "date": "2024-03-11T20:41:34",
+        "from": "Nicolas Guilbaud <Nicolas.Guilbaud@eu.equinix.com>",
+        "subject": "Re: [EXTERNAL] Equinix / Cisco Follow-Up re: Nvidia Partnerships",
+        "snippet": "Hi Ryan, Thanks, I am looking forward to our conversation as well. Indeed, it is a good idea to align expectations and yes the audience is growing on our side. On the Equinix side, there is a technical interest as well. What are the main trends for",
+        "matched_terms": [
+          "win"
+        ]
+      },
+      {
+        "date": "2024-03-14T18:46:40",
+        "from": "Josh Dahl (jodahl) <jodahl@cisco.com>",
+        "subject": "Equinix - S1 P4 Architecture and SONiC PINS",
+        "snippet": "Hi Jason, We recently met with Aaron Glenn from Equinix. He was in our EBC meeting this past November and his focus is exploring building their own NOS. He has inquired about the following SDK/P4 S1 topics below. Is this something you and team can a",
+        "matched_terms": [
+          "win"
+        ]
+      },
+      {
+        "date": "2024-04-19T00:04:48",
+        "from": "Tejesh Sumanam (tsumanam) <tsumanam@cisco.com>",
+        "subject": "Re: Introduction to AI team",
+        "snippet": "Thank you for responding on UEC Rob. I came up with the following questions that we would like to know from John about Lambda Labs. I plan to send these by EoD tomorrow, feel free to add or edit the questions and reply here before 5PM PST. Questions",
+        "matched_terms": [
+          "win"
+        ]
+      },
+      {
+        "date": "2024-05-29T17:53:12",
+        "from": "Chuck Coreil (chcoreil) <chcoreil@cisco.com>",
+        "subject": "FW: IRB: Friday – May 24, 2024",
+        "snippet": "From: Eric Yu (ericyu2) <ericyu2@cisco.com> Sent: Friday, May 24, 2024 9:51 AM To: Sami Badri (sambadri) <sambadri@cisco.com> Subject: IRB: Friday – May 24, 2024 Cisco – Investor Relations Briefing – May 24, 2024 CSCO +$0.01/+0.02% to $46.61 | Na",
+        "matched_terms": [
+          "\\$\\d"
+        ]
+      },
+      {
+        "date": "2024-06-17T17:33:37",
+        "from": "Vaughn Suazo (vsuazo) <vsuazo@cisco.com>",
+        "subject": "Re: Roblox - AI/ML related questions",
+        "snippet": "Nik, I suggest either of the following. 1. respond we have a turnkey solution for monitoring an AI Fabric using Nexus Dashboard Insights. We can bring in Carlos Campos or someone from his team to demo the capabilities of monitoring PFC and ECN pa",
+        "matched_terms": [
+          "win"
+        ]
+      },
+      {
+        "date": "2024-06-26T15:25:10",
+        "from": "van Schaik, Justin <Justin.vanSchaik@wwt.com>",
+        "subject": "Re: [EXTERNAL] Re: Silicon One  for WWT ATC InfiniBand to Rocev2 Ethernet testing.",
+        "snippet": "+Craig (who’s also working on SONiC material) The more the better! We’d love access to both, and then ideally push it out to our extended team. Time to build the skills 😁 Justin van Schaik | CCIE #8639 | ACE:L5 | MBA TSA – AI & High Performa",
+        "matched_terms": [
+          "deal"
+        ]
+      },
+      {
+        "date": "2024-06-26T02:28:16",
+        "from": "van Schaik, Justin <Justin.vanSchaik@wwt.com>",
+        "subject": "Re: Silicon One  for WWT ATC InfiniBand to Rocev2 Ethernet testing.",
+        "snippet": "Those are the open questions, Matt. My $0.02 is that the 9332’s are placeholders, and even if Cisco decides to go down the full Nexus path, we’re going to want to get fluent in the S1 8K’s and (when the AI features come out) the 6K’s on both NXOS and S",
+        "matched_terms": [
+          "\\$\\d"
+        ]
+      },
+      {
+        "date": "2024-06-27T15:24:28",
+        "from": "Vladimirs Sazonovs (vsazonov) <vsazonov@cisco.com>",
+        "subject": "Re: Re: Investments in AI infrastructure",
+        "snippet": "Lauren, Bruce, Bob, Thank you for the insightful conversation yesterday. It was very interesting to learn your view on the Cisco opportunity in AI Infrastructure in the web platforms segment. Here are my takeaways: * Investment challenges",
+        "matched_terms": [
+          "opportunity"
+        ]
+      }
+    ],
+    "sonic_open_source": [
+      {
+        "date": "2024-03-14T18:46:40",
+        "from": "Josh Dahl (jodahl) <jodahl@cisco.com>",
+        "subject": "Equinix - S1 P4 Architecture and SONiC PINS",
+        "snippet": "Hi Jason, We recently met with Aaron Glenn from Equinix. He was in our EBC meeting this past November and his focus is exploring building their own NOS. He has inquired about the following SDK/P4 S1 topics below. Is this something you and team can a",
+        "matched_terms": [
+          "sonic"
+        ]
+      },
+      {
+        "date": "2024-03-29T18:39:21",
+        "from": "Josh Dahl (jodahl) <jodahl@cisco.com>",
+        "subject": "Re: Equinix - S1 P4 Architecture and SONiC PINS",
+        "snippet": "Hi Jason, Thank you for your feedback, much appreciated. They are early in their journey and in the exploration phase of what is possible and we definitely want to make sure we are guiding them down a feasible and supportable path. Would you be open",
+        "matched_terms": [
+          "sonic"
+        ]
+      },
+      {
+        "date": "2024-04-04T19:10:22",
+        "from": "Masiuddin Mohammed (mamohamm) <mamohamm@cisco.com>",
+        "subject": "Masiuddin Mohammed (mamohamm) shared \"AI-requirements-XR-NX-SONiC\" with you",
+        "snippet": "Masiuddin Mohammed (mamohamm) invited you to access a file Here's the document that Masiuddin Mohammed (mamohamm) shared with you. AI-requirements-XR-NX-SONiC This invite will only work for you and people with existing access. Open",
+        "matched_terms": [
+          "sonic"
+        ]
+      },
+      {
+        "date": "2024-04-10T18:13:34",
+        "from": "Lauren Johnson (laurenjo) <laurenjo@cisco.com>",
+        "subject": "Introduction to AI team",
+        "snippet": "Hi John, It was great to see you on Friday. Meet Bruce McDougall and Rob Murphy are our principle engineers and resident AI experts that are helping support customers in our AI discussions. Our account team will not support Lambda until the new year, b",
+        "matched_terms": [
+          "dent"
+        ]
+      },
+      {
+        "date": "2024-04-12T21:52:53",
+        "from": "Clough, David <David.Clough@wwt.com>",
+        "subject": "Here is the Ultra Ethernet discussion",
+        "snippet": "Ethernet Optimized for AI – Cisco and Sonic on White Box Course name - Enabling Enterprise Generative AI with Optimized Ethernet AI Networking S62521 Dave Clough Director Architectures and Solutions World Wide Technology dave.clough@wwt.com CCIE",
+        "matched_terms": [
+          "sonic"
+        ]
+      },
+      {
+        "date": "2024-04-18T18:40:21",
+        "from": "Rob Murphy (robermur) <robermur@cisco.com>",
+        "subject": "Re: evroc - Directional Decision needed",
+        "snippet": "Adding on Bruce McDougall to the thread. On the SRv6 + SONiC front Bruce and I have been tracking the work Clarence’s team has been doing with Alibaba. We have been planning on developing a SONiC SRv6 lab in the next few months. Bruce and I already hav",
+        "matched_terms": [
+          "sonic"
+        ]
+      },
+      {
+        "date": "2024-04-18T18:46:03",
+        "from": "Satish Surapaneni (sasurapa) <sasurapa@cisco.com>",
+        "subject": "Re: evroc - Directional Decision needed",
+        "snippet": "SONiC SRv6 that Alibaba is using is in their WAN Core… so got to be careful here with DC. Satish From: Rob Murphy (robermur) <robermur@cisco.com> Date: Thursday, April 18, 2024 at 11:40 AM To: Johan Gustawsson (jgustaws) <jgustaws@cisco.com>, Sco",
+        "matched_terms": [
+          "sonic"
+        ]
+      },
+      {
+        "date": "2024-06-06T14:28:28",
+        "from": "Maxx Garrison <maxx@lambdal.com>",
+        "subject": "Re: Cisco ML Roadmap and UEC - Alignment",
+        "snippet": "Hi all, Here are the follow-ups: The networking team is exploring OpenStack Neutron to unify the platform we use across networking. There is hesitancy to use SONiC because it is viewed as too MSFT/Azure centric, but if that's a misconception, and it",
+        "matched_terms": [
+          "sonic"
+        ]
+      }
+    ],
+    "cisco_live_speaking": [
+      {
+        "date": "2024-03-14T18:46:40",
+        "from": "Josh Dahl (jodahl) <jodahl@cisco.com>",
+        "subject": "Equinix - S1 P4 Architecture and SONiC PINS",
+        "snippet": "Hi Jason, We recently met with Aaron Glenn from Equinix. He was in our EBC meeting this past November and his focus is exploring building their own NOS. He has inquired about the following SDK/P4 S1 topics below. Is this something you and team can a",
+        "matched_terms": [
+          "ebc"
+        ]
+      },
+      {
+        "date": "2024-03-20T16:19:24",
+        "from": "Meghan McGinn via monday.com <notifications@monday.com>",
+        "subject": "[You're assigned] Large cluster design",
+        "snippet": "Meghan McGinn assigned you to Large cluster design Solution Definition Tier 2 Needs Solutions to break into AI View Item Not interested in receiving email notifications when someone assigns you or your team to an Item? Unsubscribe You can also manag",
+        "matched_terms": [
+          "clus"
+        ]
+      },
+      {
+        "date": "2024-03-20T16:17:58",
+        "from": "Meghan McGinn via monday.com <notifications@monday.com>",
+        "subject": "[You're assigned] Medium cluster design",
+        "snippet": "Meghan McGinn assigned you to Medium cluster design Solution Definition Tier 2 Needs Solutions to break into AI View Item Not interested in receiving email notifications when someone assigns you or your team to an Item? Unsubscribe You can also mana",
+        "matched_terms": [
+          "clus"
+        ]
+      },
+      {
+        "date": "2024-04-09T16:21:58",
+        "from": "Luke Morrel (lmorrel) <lmorrel@cisco.com>",
+        "subject": "Re: Roblox/Cisco - AI discussion with Vaughn S",
+        "snippet": "Roblox team – AI presentation and resource links from yesterday. Please let us know what follow-up questions you have. * WebEx recording: Roblox/Cisco - AI discussion with Vaughn S - April 2024 * Password: 3GpmVbaw Additional links:",
+        "matched_terms": [
+          "presentation"
+        ]
+      },
+      {
+        "date": "2024-04-11T13:40:05",
+        "from": "Clough, David <David.Clough@wwt.com>",
+        "subject": "Re: [EXTERNAL] AI Proving Ground",
+        "snippet": "So would like to chat with you on ai transport as well as edge hawk DDoS Sent from my iPhone On Apr 10, 2024, at 3:07 PM, Bruce McDougall (brmcdoug) <brmcdoug@cisco.com> wrote: Dave! How are you man? Any plans to go to Cisco Live again this yea",
+        "matched_terms": [
+          "cisco live"
+        ]
+      },
+      {
+        "date": "2024-04-17T23:25:16",
+        "from": "Tejesh Sumanam (tsumanam) <tsumanam@cisco.com>",
+        "subject": "Re: Introduction to AI team",
+        "snippet": "Hi @Bruce McDougall (brmcdoug)@Rob Murphy (robermur)<mailto:robermur@cisco.com>,",
+        "matched_terms": [
+          "ilt"
+        ]
+      },
+      {
+        "date": "2024-04-19T21:43:41",
+        "from": "Clough, David <David.Clough@wwt.com>",
+        "subject": "Cisco and WWT Ultra Ethernet for AI",
+        "snippet": "Cameron, Great chatting with you today. Great we could connect. At the Cisco EBC Kevin Wollenweber indicated interest in an AI Ultra Ethernet test bed at WWT – we took an “AI” to follow up on. Brook Crossman also indicated interest in a Ultra Ethernet pr",
+        "matched_terms": [
+          "ebc"
+        ]
+      },
+      {
+        "date": "2024-04-26T23:00:47",
+        "from": "Lauren Johnson (laurenjo) <laurenjo@cisco.com>",
+        "subject": "RE: Lambda",
+        "snippet": "Hi John, Thank you again for your time today. Hopefully, you had an easy drive home. Here are the next steps from our call: * Roadmap to be scheduled in May – Cisco confirming speakers * Whiteboarding session at Cisco Live – Bruce and Ro",
+        "matched_terms": [
+          "cisco live",
+          "speaker"
+        ]
+      }
+    ],
+    "service_provider_telco": [
+      {
+        "date": "2024-03-25T20:02:31",
+        "from": "David Jansen (dajansen) <dajansen@cisco.com>",
+        "subject": "Re: Cisco portfolio consumption of SP-NaaS",
+        "snippet": "https://thecuberesearch.com/breaking-analysis-nvidia-broadcom-and-the-expanding-breadth-of-ai-momentum/ David Jansen - CCIE #5952 Distinguished, Solutions Engineer Global Solutions Engineering (GSE) Cell/Mobile: +1.586.291.4666 Single Number Reac",
+        "matched_terms": [
+          "naas"
+        ]
+      },
+      {
+        "date": "2024-05-07T18:44:51",
+        "from": "Monica Acosta Briseño (moacosta) <moacosta@cisco.com>",
+        "subject": "FW: New AI Resources Hub and more!",
+        "snippet": "Sorry if it’s duplicate Monica Acosta :: Sr. SP&O :: ASP :: +525552673132 :: moacosta@cisco.com ..ılı…ılı.. Mexico From: Cisco DevNet <updates@devrelnews.cisco.com> Date: Tuesday, 7 May 2024 at 8:02 a.m. To: Monica Acosta Briseño (moacosta) <",
+        "matched_terms": [
+          "sp "
+        ]
+      },
+      {
+        "date": "2024-05-08T19:15:31",
+        "from": "Monica Acosta Briseño <messenger@webex.com>",
+        "subject": "Monica Acosta Briseño shared Webex meeting content with you: ASP AI CoE session: Project Traiage: Exploring New Approach",
+        "snippet": "Monica Acosta Briseño shared Webex meeting content with you. ASP AI CoE session: Project Traiage: Exploring New Approaches to Cross-Domain Insights Using AI Host: Monica Acosta Briseño Wednesday, May 8, 2024 9:56 AM | (UTC-07:00) Pac",
+        "matched_terms": [
+          "sp "
+        ]
+      },
+      {
+        "date": "2024-05-09T20:13:58",
+        "from": "Monica Acosta Briseño (moacosta) <moacosta@cisco.com>",
+        "subject": "Re: ASP AI CoE session: Project Traiage: Exploring New Approaches to Cross-Domain Insights Using AI",
+        "snippet": "Thanks Frank and Josh for this session. Here is the Sharepoint link with the recording and slide deck. Also, you can review our previews sessions Stay tuned for the next session. From: moacosta@cisco.com When: 11:00 a.m. - 12:00 p.m. 8 Ma",
+        "matched_terms": [
+          "sp "
+        ]
+      },
+      {
+        "date": "2024-05-31T13:26:25",
+        "from": "Clough, David <David.Clough@wwt.com>",
+        "subject": "Re: Ultra Ethernet Testing - ROCEv2 to start compare to InfiniBand",
+        "snippet": "Thanks for a good kick off meeting yesterday – Few things to work on 1. Make sure we have the right support from Cisco. Bruce and Matt please help us out with this. Kevin Wollenweber and Brooke Crossman as well as Rob Bardani have indicated that th",
+        "matched_terms": [
+          "att "
+        ]
+      },
+      {
+        "date": "2024-06-12T23:43:22",
+        "from": "Lauren Johnson (laurenjo) <laurenjo@cisco.com>",
+        "subject": "RE: Lambda Cisco Roadmap Session",
+        "snippet": "Hi Alexey, David and Maxx, Thank you for your time today. Matt – Best of luck with jury duty. Here are the action items from our discussion: * Attached slides. * Lambda to discuss with AI team potential use cases to test in our environme",
+        "matched_terms": [
+          "att "
+        ]
+      },
+      {
+        "date": "2024-06-24T14:57:30",
+        "from": "Clough, David <David.Clough@wwt.com>",
+        "subject": "Silicon One  for WWT ATC InfiniBand to Rocev2 Ethernet testing.",
+        "snippet": "Hi All – On our WWT GSP / Cisco call on Friday there was as ask from Rob Bardani around Ethernet Testing comparing InfiniBand to ROCEv2 Ethernet in the ATC. Rob wanted to see what the status was on equipment for the ATC. Just to make sure – I do not thin",
+        "matched_terms": [
+          "sp "
+        ]
+      },
+      {
+        "date": "2024-06-24T15:10:52",
+        "from": "van Schaik, Justin <Justin.vanSchaik@wwt.com>",
+        "subject": "Re: Silicon One  for WWT ATC InfiniBand to Rocev2 Ethernet testing.",
+        "snippet": "+Halcomb Matt H. has been having conversations around getting SiliconOne hardware into the AIPG for some time. Looping him in to avoid duplication of effort. /Justin Justin van Schaik | CCIE #8639 | ACE:L5 | MBA TSA – AI & High Performance",
+        "matched_terms": [
+          "att "
+        ]
+      }
+    ],
+    "global_international": [
+      {
+        "date": "2024-03-25T20:02:31",
+        "from": "David Jansen (dajansen) <dajansen@cisco.com>",
+        "subject": "Re: Cisco portfolio consumption of SP-NaaS",
+        "snippet": "https://thecuberesearch.com/breaking-analysis-nvidia-broadcom-and-the-expanding-breadth-of-ai-momentum/ David Jansen - CCIE #5952 Distinguished, Solutions Engineer Global Solutions Engineering (GSE) Cell/Mobile: +1.586.291.4666 Single Number Reac",
+        "matched_terms": [
+          "global"
+        ]
+      },
+      {
+        "date": "2024-04-19T21:43:41",
+        "from": "Clough, David <David.Clough@wwt.com>",
+        "subject": "Cisco and WWT Ultra Ethernet for AI",
+        "snippet": "Cameron, Great chatting with you today. Great we could connect. At the Cisco EBC Kevin Wollenweber indicated interest in an AI Ultra Ethernet test bed at WWT – we took an “AI” to follow up on. Brook Crossman also indicated interest in a Ultra Ethernet pr",
+        "matched_terms": [
+          "amer"
+        ]
+      },
+      {
+        "date": "2024-09-13T20:57:14",
+        "from": "Vahini Adusumilli (vadusumi) <vadusumi@cisco.com>",
+        "subject": "Re: SONiC - OCP Post Event @ Cisco",
+        "snippet": "Team, Here are the details for SONiC workshop on 15th & 18th Oct: Overview of SONiC workshop on OCP page : https://www.opencompute.org/summit/global-summit/co-located-events Two Workshops: https://sonicfoundation.dev/event/sonic-workshop-co-located",
+        "matched_terms": [
+          "global"
+        ]
+      },
+      {
+        "date": "2025-02-10T14:50:06",
+        "from": "Abhishek Sharma (abhshar3) <abhshar3@cisco.com>",
+        "subject": "US universities R&E AI connectivity DCI use case with SONiC",
+        "snippet": "Hello Emerson and Virginia, Here is another AI connectivity (DCI) use case outside the Data Center from the Americas, this time with SONiC. I have attached the CRD that the AT and Bruce (copied) have created for your reference. Like the hyper-sca",
+        "matched_terms": [
+          "amer"
+        ]
+      },
+      {
+        "date": "2025-05-26T15:18:58",
+        "from": "Ahmed Abdelsalam (ahabdels) <ahabdels@cisco.com>",
+        "subject": "Building Source Routed AI Backend Network with SRv6.",
+        "snippet": "OCP EMEA 2025: Guohan Lu from Microsoft explained how they build Source Routed AI Backend Network with SRv6. He highlighted the benefits of SRv6 in the AI Backend to provide optimized load-balancing, fined-grained network control, and quick reroute upo",
+        "matched_terms": [
+          "emea"
+        ]
+      },
+      {
+        "date": "2025-06-27T13:52:32",
+        "from": "Yue Gao (yuega2) <yuega2@cisco.com>",
+        "subject": "Re: SONiC VPP Image for Bell Canada",
+        "snippet": "Good to know. Vpp is part of SONiC nightly build. They can download from here: https://dev.azure.com/mssonic/build/_build?definitionId=2818&_a=summary. It lags behind the latest code because vpp sai code is in sonic-sairedis, which is a sub module of soni",
+        "matched_terms": [
+          "canada"
+        ]
+      },
+      {
+        "date": "2025-07-25T17:25:14",
+        "from": "Jakub Horn (jakuhorn) <jakuhorn@cisco.com>",
+        "subject": "Re: SRv6 encap of BGP global IPv6 prefixes",
+        "snippet": "Actually that option without RR would be quite stupid why would you send prefixes which are supposed to be encapsulated hop-by-hop!!!!!! 😉 Cheers -j From: Jakub Horn (jakuhorn) <jakuhorn@cisco.com> Date: Friday, July 25, 2025 at 7:18 PM To: B",
+        "matched_terms": [
+          "global"
+        ]
+      },
+      {
+        "date": "2025-07-25T17:18:26",
+        "from": "Jakub Horn (jakuhorn) <jakuhorn@cisco.com>",
+        "subject": "Re: SRv6 encap of BGP global IPv6 prefixes",
+        "snippet": "Hi Bruce, It should work! Well I would assume you are using same BGP session to advertise locators and global prefixes? Obviously you need to send locators without SIDs!!!! Basically trick is that underlay BGP is interface to interface and that does",
+        "matched_terms": [
+          "global"
+        ]
+      }
+    ],
+    "hyperscale_cloud_ai": [
+      {
+        "date": "2024-04-12T21:52:53",
+        "from": "Clough, David <David.Clough@wwt.com>",
+        "subject": "Here is the Ultra Ethernet discussion",
+        "snippet": "Ethernet Optimized for AI – Cisco and Sonic on White Box Course name - Enabling Enterprise Generative AI with Optimized Ethernet AI Networking S62521 Dave Clough Director Architectures and Solutions World Wide Technology dave.clough@wwt.com CCIE",
+        "matched_terms": [
+          "ai network"
+        ]
+      },
+      {
+        "date": "2024-04-18T17:24:30",
+        "from": "Nik Popgeorgiev (npopgeor) <npopgeor@cisco.com>",
+        "subject": "AI/ML Load Balancing enhancements?",
+        "snippet": "Hello Vaughn, Bruce, As additional follow up with Roblox on the AI/ML meeting we had, they are highly interested in exploring more on the topic. Right now, we are discussing if the two products we gave them to play with * 32X400G: N9K-C9332",
+        "matched_terms": [
+          "ai/ml",
+          "400g"
+        ]
+      },
+      {
+        "date": "2024-04-18T18:46:03",
+        "from": "Satish Surapaneni (sasurapa) <sasurapa@cisco.com>",
+        "subject": "Re: evroc - Directional Decision needed",
+        "snippet": "SONiC SRv6 that Alibaba is using is in their WAN Core… so got to be careful here with DC. Satish From: Rob Murphy (robermur) <robermur@cisco.com> Date: Thursday, April 18, 2024 at 11:40 AM To: Johan Gustawsson (jgustaws) <jgustaws@cisco.com>, Sco",
+        "matched_terms": [
+          "aws"
+        ]
+      },
+      {
+        "date": "2024-04-18T22:35:03",
+        "from": "Vaughn Suazo (vsuazo) <vsuazo@cisco.com>",
+        "subject": "Re: AI/ML Load Balancing enhancements?",
+        "snippet": "Nik, For the platforms below, this summer in NX-OS 10.5(1) support for Dynamic Load-Balancing: Congestion aware, flow-based/flowlet based. This will be more intelligent than UDF ECMP. Different flowlets are load-balanced over different links w/o re-",
+        "matched_terms": [
+          "ai/ml"
+        ]
+      },
+      {
+        "date": "2024-04-19T00:04:48",
+        "from": "Tejesh Sumanam (tsumanam) <tsumanam@cisco.com>",
+        "subject": "Re: Introduction to AI team",
+        "snippet": "Thank you for responding on UEC Rob. I came up with the following questions that we would like to know from John about Lambda Labs. I plan to send these by EoD tomorrow, feel free to add or edit the questions and reply here before 5PM PST. Questions",
+        "matched_terms": [
+          "lambda labs"
+        ]
+      },
+      {
+        "date": "2024-05-01T02:47:23",
+        "from": "Rob Murphy (robermur) <robermur@cisco.com>",
+        "subject": "Lambda Labs Engagement",
+        "snippet": "Good Evening Praveen, We have started engaging with Lambda Labs (link here) which is a newer AI hosting service company. Lamda Labs is now starting the evaluation process of their next AI build out. As such they have asked Cisco to meet with them in t",
+        "matched_terms": [
+          "lambda labs"
+        ]
+      },
+      {
+        "date": "2024-05-01T06:32:27",
+        "from": "Tejesh Sumanam (tsumanam) <tsumanam@cisco.com>",
+        "subject": "Re: Lambda Labs Engagement",
+        "snippet": "Thanks Rob! Few more data points for you Praveen: 1. Lambda is looking to understand the roadmap for 400G and 800G systems. They currently deploy FX3 and GX switches and are looking to move to 800G as soon as platforms and NICs are ready 2",
+        "matched_terms": [
+          "lambda labs",
+          "400g",
+          "800g"
+        ]
+      },
+      {
+        "date": "2024-06-03T20:01:47",
+        "from": "Nik Popgeorgiev (npopgeor) <npopgeor@cisco.com>",
+        "subject": "Re: Monitoring and Telemetry for AI/ML",
+        "snippet": "Hello Bruce, Vaughn, Would you be available this week for a short call with Roblox to continue our talks about AI/ML and PFC/ECN. Regards, Nik From: Vishal Sakpal <vsakpal@roblox.com> Date: Monday, June 3, 2024 at 12:42 PM To: Nik Popgeorgie",
+        "matched_terms": [
+          "ai/ml"
+        ]
+      }
+    ],
+    "cilium_isovalent": [
+      {
+        "date": "2024-04-19T09:32:22",
+        "from": "Jiri Chaloupka (jichalou) <jichalou@cisco.com>",
+        "subject": "Re: evroc - Directional Decision needed",
+        "snippet": "Few points which are just complement to what Praveen mentioned: - I would like to see detailed usecases with type of services, L2/L3 and where exactly they will start: Leaf, Cilium, combination of both etc. - Scale is important here, if they will depl",
+        "matched_terms": [
+          "cilium"
+        ]
+      },
+      {
+        "date": "2024-09-12T18:06:56",
+        "from": "Lauren Johnson (laurenjo) <laurenjo@cisco.com>",
+        "subject": "Web AI Isovalent Overview",
+        "snippet": "Hi Jamison and Jared, Thank you again for helping our team ramp on Isovalent. The individuals above are who I currently have on the invite from you. Attached is our account list for you to adjust for any customer specific examples relevant to our space",
+        "matched_terms": [
+          "isovalent"
+        ]
+      },
+      {
+        "date": "2024-09-16T21:43:55",
+        "from": "Vahini Adusumilli (vadusumi) <vadusumi@cisco.com>",
+        "subject": "Isovalent Use-Cases for AI env",
+        "snippet": "Hey Guys, I had a great chat with Nico this morning about leveraging isovalent for AI front-end networks. Here is some content from the Isovalent team that might be helpful : 1. Isovalent for AI environments* : https://isovalent.com/blog/post/c",
+        "matched_terms": [
+          "isovalent"
+        ]
+      },
+      {
+        "date": "2024-09-16T23:44:17",
+        "from": "Tejesh Sumanam (tsumanam) <tsumanam@cisco.com>",
+        "subject": "Re: Isovalent Use-Cases for AI env",
+        "snippet": "Thanks for tying the solutions to it’s use cases, very helpful. Thanks Vahini! Thanks, .:|:.:|:. CISCO | Tejesh Sumanam | Leader, Solutions Engineering |Cell: +1 316-258-7513 | tsumanam@cisco.com From: Vahini Adusumilli (vadusumi) <vadusum",
+        "matched_terms": [
+          "isovalent"
+        ]
+      },
+      {
+        "date": "2024-11-23T08:31:41",
+        "from": "Bruce McDougall <bmcdougall@gmail.com>",
+        "subject": "",
+        "snippet": "https://pages.run.ai/hubfs/PDFs/Kubernetes-for-MLOps-Engineers.pdf?__hstc=216237577.d51bc5045639c179243db17c53149987.1732317648301.1732317648301.1732323227586.2&__hssc=216237577.1.1732323227586&__hsfp=147230213 Sent from my iPhone",
+        "matched_terms": [
+          "kubernetes"
+        ]
+      },
+      {
+        "date": "2025-03-24T18:53:15",
+        "from": "Sam Rehling (srehling) <srehling@cisco.com>",
+        "subject": "Can we enforce the VRF at a Physical layer and through Cilium",
+        "snippet": "We are struggling to understand how we can enforce physically and logically. I know this is a bit amateur, and I apologize in advance if I am misrepresenting some of this as I learn the Cilium technology. For our customer, the key question is going to",
+        "matched_terms": [
+          "cilium"
+        ]
+      },
+      {
+        "date": "2025-03-25T13:39:33",
+        "from": "Sam Rehling (srehling) <srehling@cisco.com>",
+        "subject": "Re: Federal SRv6 - Cilium",
+        "snippet": "Bruce has my email on as does Jamison (Sent Yesterday), who is coordinating the Thomas call. If you want me to send those emails to Thomas Graf I am fine with that. We have a number of challenges if we use SRv6, because we may need the physical networ",
+        "matched_terms": [
+          "cilium"
+        ]
+      },
+      {
+        "date": "2025-03-25T16:00:56",
+        "from": "Sam Rehling (srehling) <srehling@cisco.com>",
+        "subject": "Re: Federal SRv6 - Cilium",
+        "snippet": "From my standpoint, I don't think we resolve this until we talk to the customer tomorrow. I got to get their take on it. But if I had to bet we're dedicating the NIC Sent from my Verizon, Samsung Galaxy smartphone Get Outlook for Android ____________",
+        "matched_terms": [
+          "cilium"
+        ]
+      }
+    ],
+    "innovation_patents": [
+      {
+        "date": "2024-06-28T14:04:25",
+        "from": "Rob Murphy (robermur) <robermur@cisco.com>",
+        "subject": "Rob Murphy (robermur) shared the folder \"Patent - AI Graph Matrix\" with you",
+        "snippet": "Rob Murphy (robermur) invited you to edit a folder Sharepoint to use for our patent work Patent - AI Graph Matrix This invite will only work for you and people with existing access. Open Share Privacy Statement",
+        "matched_terms": [
+          "patent"
+        ]
+      },
+      {
+        "date": "2026-03-13T09:55:18",
+        "from": "Francois Clad (fclad) <fclad@cisco.com>",
+        "subject": "Re: Deep-Dive / Synch-up for Patrice",
+        "snippet": "Hi Praveen, Patrice, All relevant information for the DSDN project is consolidated in this wiki: https://ciscoteams.atlassian.net/wiki/x/D6YwO I recommend starting with the DSDN architecture white paper (disclaimer: still work in progress) to famili",
+        "matched_terms": [
+          "white paper"
+        ]
+      },
+      {
+        "date": "2026-02-20T18:36:28",
+        "from": "Marcin Kapturski (mkapturs) <mkapturs@cisco.com>",
+        "subject": "Re: Intros and D-SDN",
+        "snippet": "Hi Francois, Thank you for sharing. This is the best thing after invention of sliced bread. If I was still a customer I would have jumped on this immediately. I hope it’s available for installation in the lab in the near feature. First question: I",
+        "matched_terms": [
+          "invention"
+        ]
+      }
+    ],
+    "awards_recognition": [
+      {
+        "date": "2024-09-05T20:35:55",
+        "from": "Vahini Adusumilli (vadusumi) <vadusumi@cisco.com>",
+        "subject": "SONiC - OCP Post Event @ Cisco",
+        "snippet": "Team, Cisco has been awarded the option to host a SONiC symposium post OCP (15-17thOct) for customers in San Jose – great news as it positions Cisco as a SONiC leader in the industry. This event will benefit our customers attending OCP or interested in",
+        "matched_terms": [
+          "award"
+        ]
+      },
+      {
+        "date": "2025-03-13T21:58:20",
+        "from": "Joshua Merrill (jmerrill) <jmerrill@cisco.com>",
+        "subject": "Agntcy",
+        "snippet": "Guillaume – We saw the announcement on AGNTCY. Congratulations, it seems very useful and timely based on roadblocks we’re seeing to deployment. I wanted to connect as we’re doing some research with customers around optimization of Agentic apps over n",
+        "matched_terms": [
+          "congratulations"
+        ]
+      },
+      {
+        "date": "2025-06-01T16:43:47",
+        "from": "Clarence Filsfils (cfilsfil) <cfilsfil@cisco.com>",
+        "subject": "RE: SRv6 requirements on G200 based Cisco 8K + SONiC confirmed by Oracle",
+        "snippet": "Congratulations to Jisu who got uN supported on G200 over the WE! Cheers, Clarence From: Clarence Filsfils (cfilsfil) Sent: Sunday, June 1, 2025 2:31 PM To: Praveen Bhagwatula (pbhagwat) <pbhagwat@cisco.com>; Bruce McDougall (brmcdoug) <brmcdoug@",
+        "matched_terms": [
+          "congratulations"
+        ]
+      },
+      {
+        "date": "2025-08-18T20:12:04",
+        "from": "Omid Sadraei (omsadrae) <omsadrae@cisco.com>",
+        "subject": "Re: Intros / AI Canvas champion",
+        "snippet": "Bruce, Thank you for the introductions. Hi Lila and Bryn, Sure thing, I can find a time on Wednesday for an internal call. Thank you for your support. .:I:..:I:. Omid Sadraei | Cisco Systems Inc From: Lila Rousseaux (lroussea) <lroussea@",
+        "matched_terms": [
+          "champion"
+        ]
+      },
+      {
+        "date": "2025-09-08T14:01:44",
+        "from": "Alex Daltrini (adaltrin) <adaltrin@cisco.com>",
+        "subject": "FW: AI Canvas Sales Champions team",
+        "snippet": "Hi there Bruce, Mike mentioned you are the “nominated” SE resource for ASP on the AI Canvas Sales Champions team. I am very interested in AI Canvas and we would like to know if there are any ways to contribute. Please let me know of your plans to “shar",
+        "matched_terms": [
+          "champion"
+        ]
+      },
+      {
+        "date": "2025-09-11T19:22:05",
+        "from": "Frederic Cuiller (fcuiller) <fcuiller@cisco.com>",
+        "subject": "vxr8000 access for Groq",
+        "snippet": "Hi Anoosh Was great to catch up last month. Congrats again for your pioneer award and kudos to your team for all the work you do. We have a new opportunity at Groq, the AI inference company. We’re working to sell them a couple of Atlas. They are asking",
+        "matched_terms": [
+          "award",
+          "pioneer award",
+          "kudos"
+        ]
+      },
+      {
+        "date": "2026-02-03T09:35:16",
+        "from": "Chris Whyte (cwhyte1) <cwhyte1@cisco.com>",
+        "subject": "Re: AI WAN and MRC",
+        "snippet": "My pleasure! Obviously, feel free to reach out to Sujal to get more detail and updated on the latest. He’s trying to champion this effort but I believe he’s getting some resistance from the execs on prioritizing it. Thanks, Chris From: Clarence F",
+        "matched_terms": [
+          "champion"
+        ]
+      }
+    ],
+    "jalapeno_programmability": [
+      {
+        "date": "2025-02-12T19:24:30",
+        "from": "Joshua Merrill (jmerrill) <jmerrill@cisco.com>",
+        "subject": "AI networking thought",
+        "snippet": "Rob – For the AI fabric (and other use cases) we’d have the fabric implemented with SRV6, but the rest of the network will/may not be SRV6 yet. I think there is a function – config of the gear, ideally some automation, to map the SRV6 segmentation to",
+        "matched_terms": [
+          "automation"
+        ]
+      },
+      {
+        "date": "2025-03-25T17:30:23",
+        "from": "Sam Rehling (srehling) <srehling@cisco.com>",
+        "subject": "Re: Federal SRv6 - Cilium",
+        "snippet": "I should add for everyone else, that ACI was what the customer actually wanted on the network, but because of the ROCEv2 traffic, we felt NXOS was better for that traffic. They like the automation capabilities of ACI better as well. Sent from my Verizo",
+        "matched_terms": [
+          "automation"
+        ]
+      },
+      {
+        "date": "2026-02-23T19:21:49",
+        "from": "Bob Gisiger (bgisiger) <bgisiger@cisco.com>",
+        "subject": "Re: Prep for CoreWeave On-Site: Design Whiteboarding, Solution Testing, Performance Testing - Back-End, tooling, Observa",
+        "snippet": "Hi Praveen, Answers inline below. Thanks, Bob From: Praveen Bhagwatula (pbhagwat) <pbhagwat@cisco.com> Date: Sunday, February 22, 2026 at 5:31 PM To: Zack Haven (zhaven) <zhaven@cisco.com>, Mohtashim Mahboob (momahboo) <momahboo@cisco.com>, Ra",
+        "matched_terms": [
+          "automation"
+        ]
+      },
+      {
+        "date": "2026-02-23T17:50:15",
+        "from": "Bob Gisiger (bgisiger) <bgisiger@cisco.com>",
+        "subject": "Re: Prep for CoreWeave On-Site: Design Whiteboarding, Solution Testing, Performance Testing - Back-End, tooling, Observa",
+        "snippet": "Hi Rakesh, Understood. Multi-planar is a topic of discussion, they are aware we have not tested this yet. The idea is to fully understand what they plan to use and if/how we can validate it and when. Thanks, Bob On Feb 23, 2026, at 9:45 AM, Rake",
+        "matched_terms": [
+          "automation"
+        ]
+      },
+      {
+        "date": "2026-02-23T17:45:52",
+        "from": "Rakesh Kumar (rakkumar) <rakkumar@cisco.com>",
+        "subject": "Re: Prep for CoreWeave On-Site: Design Whiteboarding, Solution Testing, Performance Testing - Back-End, tooling, Observa",
+        "snippet": "Team, I see Multi-planar design topic in my session. As I have explained in the past that we haven’t done performance benchmarking in multi-planar fabric yet. We plan to do at some point but need to work with Nvidia/CX8 for that. Based on our discus",
+        "matched_terms": [
+          "automation"
+        ]
+      },
+      {
+        "date": "2026-02-23T01:31:37",
+        "from": "Praveen Bhagwatula (pbhagwat) <pbhagwat@cisco.com>",
+        "subject": "Re: Prep for CoreWeave On-Site: Design Whiteboarding, Solution Testing, Performance Testing - Back-End, tooling, Observa",
+        "snippet": "Hi All, Is there an internal webex to discuss the backend aspects of the EBC? If not can we start one? Few Qs based on the Sharepoint material: * CW network diagram shows servers connected to two T0s which are then connected to 4 T1. But the co",
+        "matched_terms": [
+          "automation"
+        ]
+      },
+      {
+        "date": "2026-02-09T04:38:33",
+        "from": "David Smith (djsmith) <djsmith@cisco.com>",
+        "subject": "Re: TE Auto-BW for SRv6 @ CoreWeave SJ tech review (Feb 26)",
+        "snippet": "Thanks Clarence. We’ll gladly collaborate with the teams listed below to ensure full alignment and readiness for the EBC on Feb. 26. Thanks again for your, the SR team and the automation/analytics team’s support. Regards /dave From: Clarence Filsfils",
+        "matched_terms": [
+          "automation"
+        ]
+      },
+      {
+        "date": "2026-01-15T21:14:02",
+        "from": "Kevin Denton (kevdento) <kevdento@cisco.com>",
+        "subject": "Cisco/Oracle Presentation:  S1-CLI Presentation Recording",
+        "snippet": "Oracle/Cisco Team, Thank you to everyone who attended today’s S1-CLI presentation/discussion. Special thanks to Gagan Singh and Shivu Vibhuti for leading the session on the interface’s structure, integration with network operating systems, automation c",
+        "matched_terms": [
+          "automation"
+        ]
+      }
+    ]
+  },
+  "key_people_mentions": {
+    "oracle": 105,
+    "microsoft": 26,
+    "nico": 3,
+    "thomas graf": 3,
+    "dan stacks": 2,
+    "tj ": 2,
+    "bell": 1,
+    "vanessa": 1
+  },
+  "revenue_signals": [
+    {
+      "date": "2024-03-11T20:41:34",
+      "from": "Nicolas Guilbaud <Nicolas.Guilbaud@eu.equinix.com>",
+      "subject": "Re: [EXTERNAL] Equinix / Cisco Follow-Up re: Nvidia Partnerships",
+      "snippet": "Hi Ryan, Thanks, I am looking forward to our conversation as well. Indeed, it is a good idea to align expectations and yes the audience is growing on our side. On the Equinix side, there is a technical interest as well. What are the main trends for"
+    },
+    {
+      "date": "2024-03-14T18:46:40",
+      "from": "Josh Dahl (jodahl) <jodahl@cisco.com>",
+      "subject": "Equinix - S1 P4 Architecture and SONiC PINS",
+      "snippet": "Hi Jason, We recently met with Aaron Glenn from Equinix. He was in our EBC meeting this past November and his focus is exploring building their own NOS. He has inquired about the following SDK/P4 S1 topics below. Is this something you and team can a"
+    },
+    {
+      "date": "2024-04-19T00:04:48",
+      "from": "Tejesh Sumanam (tsumanam) <tsumanam@cisco.com>",
+      "subject": "Re: Introduction to AI team",
+      "snippet": "Thank you for responding on UEC Rob. I came up with the following questions that we would like to know from John about Lambda Labs. I plan to send these by EoD tomorrow, feel free to add or edit the questions and reply here before 5PM PST. Questions"
+    },
+    {
+      "date": "2024-06-17T17:33:37",
+      "from": "Vaughn Suazo (vsuazo) <vsuazo@cisco.com>",
+      "subject": "Re: Roblox - AI/ML related questions",
+      "snippet": "Nik, I suggest either of the following. 1. respond we have a turnkey solution for monitoring an AI Fabric using Nexus Dashboard Insights. We can bring in Carlos Campos or someone from his team to demo the capabilities of monitoring PFC and ECN pa"
+    },
+    {
+      "date": "2024-07-09T18:29:48",
+      "from": "Vishal Sakpal <vsakpal@roblox.com>",
+      "subject": "Re: Monitoring and Telemetry for AI/ML",
+      "snippet": "Hi Nik & Shangxin, We are looking to evaluate Cisco gear as part of our GPC-PoC. We do not plan to use Nexus Dashboard insights but rely and build our internal tooling pipeline to provide telemetry/monitoring capabilities. Regarding the questions belo"
+    },
+    {
+      "date": "2024-07-09T20:53:17",
+      "from": "Luke Morrel (lmorrel) <lmorrel@cisco.com>",
+      "subject": "Re: Roblox - AI/ML related questions",
+      "snippet": "Shangxin/DC team – received the following request from Roblox this week. With Nik OOO, I’m requesting your assistance: “We are looking to evaluate Cisco gear as part of our GPC-PoC. We do not plan to use Nexus Dashboard insights but rely and build our"
+    },
+    {
+      "date": "2024-07-09T23:38:06",
+      "from": "Paresh Gupta (paregupt) <paregupt@cisco.com>",
+      "subject": "Re: Roblox - AI/ML related questions",
+      "snippet": "Hi All We are monitoring the following to get meaningful insights into a backend network. 1. Bytes_in and bytes_out. This gives interface utilization in Gbps and %. Granularity: Lower the better. I was using 1-second using GNMI (path: /interfaces"
+    },
+    {
+      "date": "2024-07-10T18:31:11",
+      "from": "Luke Morrel (lmorrel) <lmorrel@cisco.com>",
+      "subject": "Re: Monitoring and Telemetry for AI/ML",
+      "snippet": "Vishal – the BU is monitoring the following to get meaningful insights into a backend network: 1. Bytes_in and bytes_out. This gives interface utilization in Gbps and %. Granularity: Lower the better. I was using 1-second using GNMI (path: /interf"
+    },
+    {
+      "date": "2024-07-22T17:44:47",
+      "from": "Vishal Sakpal <vsakpal@roblox.com>",
+      "subject": "Re: Monitoring and Telemetry for AI/ML",
+      "snippet": "Hi Luke, Thank you for the update. We will review this internally and get back to you. Vishal On Wed, Jul 10, 2024 at 11:31 AM Luke Morrel (lmorrel) <lmorrel@cisco.com> wrote: Vishal – the BU is monitoring the following to get meaningful insights"
+    },
+    {
+      "date": "2024-10-18T21:28:42",
+      "from": "Josh Dahl (jodahl) <jodahl@cisco.com>",
+      "subject": "Re: [EXTERNAL] Quick follow up call with Cisco engineers",
+      "snippet": "Hey Ivan, I was not able to pull your CCO ID in our internal systems. If you can, try creating a cisco account with the following link: https://www.cisco.com/c/en/us/about/help/login-account-help.html#~login Alternatively, we can get you VPN access"
+    },
+    {
+      "date": "2024-11-20T17:37:26",
+      "from": "Pablo Camarillo (pcamaril) <pcamaril@cisco.com>",
+      "subject": "RE: Microsoft | SRv6 POC for backend",
+      "snippet": "Hi Mauricio, Many thanks. Adding to the thread Clarence, Bruce, and Ianik for visibility. I’ve added couple of lines to the notes below. Will follow up with Satish. Cheers, and safe travels back to CA, Pablo. From: Mauricio Cruz Covarrubias (ma"
+    },
+    {
+      "date": "2025-01-07T22:31:24",
+      "from": "Bob Gisiger (bgisiger) <bgisiger@cisco.com>",
+      "subject": "CoreWeave Opportunity: COE",
+      "snippet": "Hi Lim Fung, Happy New Year! Hope you are doing well. It has been a while since we last worked together, but I wanted to reach out to you with a recently uncovered opportunity with our new Web customer CoreWeave. CoreWeave is one of the leading GPUa"
+    },
+    {
+      "date": "2025-01-08T12:45:38",
+      "from": "Fung Lim (flim) <flim@cisco.com>",
+      "subject": "Re: CoreWeave Opportunity: COE",
+      "snippet": "hi Bob, Happy New Year to you too, and wishing you Blessings for 2025 :=) Thank you for reaching out and for providing an overview of the opportunity. I do have a couple of questions though, - May I check what does the existing infrastructure l"
+    },
+    {
+      "date": "2025-01-08T18:51:55",
+      "from": "Bob Gisiger (bgisiger) <bgisiger@cisco.com>",
+      "subject": "Re: CoreWeave Opportunity: COE",
+      "snippet": "Hi Lim Fung and Bruce, Sorry for the delayed response. Yes, Bruce your understanding is exactly the same as mine. We will need to discuss the requirements more with Nik, right now I just have his emailed bullet points from his meeting with Ryan H in Au"
+    },
+    {
+      "date": "2025-01-09T03:25:03",
+      "from": "Fung Lim (flim) <flim@cisco.com>",
+      "subject": "Re: CoreWeave Opportunity: COE",
+      "snippet": "hi Bob, Bruce and Team, Thank you very much for the answers :=) Nokia was verified for both PCC and PCE-init during EANTC 2024, interoperating with CNC 6.0 and SR-PCE without any issues. At that time, Nokia was non-compliant with the SR Policy IE"
+    },
+    {
+      "date": "2025-01-09T20:27:44",
+      "from": "Julia Palomino (jpalomin) <jpalomin@cisco.com>",
+      "subject": "Re: CoreWeave Opportunity: COE",
+      "snippet": "Hi All, Good day On regards to the interop testing with Nokia at EANTC 2024, what Lim mentioned below is correct. For the baseline SRTE over SR-MPLS tests, the way the tests were executed was a follows: * PCE-init: SR policies provisioned from"
+    },
+    {
+      "date": "2025-01-09T21:54:47",
+      "from": "Bob Gisiger (bgisiger) <bgisiger@cisco.com>",
+      "subject": "Re: CoreWeave Opportunity: COE",
+      "snippet": "Hi Lim Fung and Julia, Thanks for the detailed info, it is super helpful. I will read up more on the links shared and we will certainly involve you in the customer conversation once we get it set up. Thanks! Bob From: Julia Palomino (jpalomin) <"
+    },
+    {
+      "date": "2025-02-12T19:24:30",
+      "from": "Joshua Merrill (jmerrill) <jmerrill@cisco.com>",
+      "subject": "AI networking thought",
+      "snippet": "Rob – For the AI fabric (and other use cases) we’d have the fabric implemented with SRV6, but the rest of the network will/may not be SRV6 yet. I think there is a function – config of the gear, ideally some automation, to map the SRV6 segmentation to"
+    },
+    {
+      "date": "2025-03-07T17:02:48",
+      "from": "Mauricio Cruz Covarrubias (maucruz) <maucruz@cisco.com>",
+      "subject": "Re: AI/ML EBC for eBay – Speaker Invitation for March 19th",
+      "snippet": "Hi Ken and team, In general March-19 is not a great time, many folks will be attending GTC (March 17-21). Moving this to another week would be ideal. Platform (roadmap, software, SONiC): adding @Satish Surapaneni (sasurapa) between him and I will f"
+    },
+    {
+      "date": "2025-03-10T16:51:41",
+      "from": "Patrice Brissette (pbrisset) <pbrisset@cisco.com>",
+      "subject": "Bandwidth Management and Congestion Avoidance in AI DC by Coupling AI Workload Scheduling and SRv6 uSID",
+      "snippet": "Hi Zafar and Bruce, I’m reviewing your idea (as a mentor ;) ). First, let’s look at the problem statement. * Congestion management with backpressure is a complex problem IMO, that is not a proper statement / problem. And we cannot say u-sid"
+    },
+    {
+      "date": "2025-03-17T19:15:46",
+      "from": "Pablo Camarillo (pcamaril) <pcamaril@cisco.com>",
+      "subject": "RE: SRv6 SONiC continuation",
+      "snippet": "Krithika, Thank you for the discussion today. Ahmed will share the slides. As next-steps I believe we need to document the following: 1.- Track all the currently supported SRv6/IPM features in Cisco routers. 2.- Track all the requirements of the c"
+    },
+    {
+      "date": "2025-03-26T22:09:48",
+      "from": "Bob Gisiger (bgisiger) <bgisiger@cisco.com>",
+      "subject": "Re: CoreWeave Opportunity: COE",
+      "snippet": "Hi team, Hope you are all doing well. We have recently restarted our routing conversation with CoreWeave. At this point our opportunity has shifted a bit from Jan. Nokia NSP is well entrenched as their SDN controller of choice, but they want to test Ci"
+    },
+    {
+      "date": "2025-04-04T19:17:33",
+      "from": "Pan Chou (pchou) <pchou@cisco.com>",
+      "subject": "Re: Cisco SRv6 Lunch and Learn",
+      "snippet": "Hi Scott, team, Bruce and I appreciate the opportunity to engage with you and the team during yesterday's SRv6 lunch and learn. We appreciated the lively engagement and questions from MSFT during the session and have taken note of questions around a r"
+    },
+    {
+      "date": "2025-04-05T00:06:02",
+      "from": "Eddie Ruan <eddie.ruan@alibaba-inc.com>",
+      "subject": "回复：回复：SRv6 workshop at Cisco",
+      "snippet": "Thanks. We will arrive before 11 then. Pablo, would Ahmed be there next week. Joy will bring the book for authors' signature. She will get at least Clarence and yours. :) Eddie -------------------------------------------------------------"
+    },
+    {
+      "date": "2025-04-26T01:18:53",
+      "from": "Jeremy Moschner (jmoschne) <jmoschne@cisco.com>",
+      "subject": "[MSFT] Luke Melton Nvidia 3rd Party Discussion (4/25/2025)",
+      "snippet": "Hi All Just got off the phone with Luke Melton about how he sees the third-party opportunity shaping up. @Praveen Bhagwatula (pbhagwat), @Pablo Camarillo (pcamaril), @Bruce McDougall (brmcdoug) – including you with respect to SRv6 aspects @Jake Kat"
+    },
+    {
+      "date": "2025-05-02T19:02:41",
+      "from": "Joe Rockwell (jorockwe) <jorockwe@cisco.com>",
+      "subject": "Re: Dates Seattle workshop",
+      "snippet": "Hey Pablo, Following up on this. Please feel free to work with Ivan & team on scheduling the SRv6 session in June. We will be having our in person roadmap meeting in May. Thanks! Joe From: Pablo Camarillo (pcamaril) <pcamaril@cisco.com> Da"
+    },
+    {
+      "date": "2025-05-12T17:54:16",
+      "from": "Bob Gisiger (bgisiger) <bgisiger@cisco.com>",
+      "subject": "Re: CoreWeave Opportunity: COE",
+      "snippet": "Hi Julia and team, Sorry for the long email last time. We are now on the cusp of CoreWeave beginning to test our 8212 routers in their lab along with NSP. We hope they can quickly determine that these devices will meet their needs for the BR role and t"
+    },
+    {
+      "date": "2025-05-23T23:51:34",
+      "from": "Asoka De Saram (asdesara) <asdesara@cisco.com>",
+      "subject": "Re: Cisco - Oracle SONiC Meeting",
+      "snippet": "Hi Parveen, I think Krithika is going to talk about the detail road map for SONiC on Cisco platforms. Bruce has a SRv6 demo using SONiC that he wants to present. May be you can help with the following items: Showcase our partnership with other ven"
+    },
+    {
+      "date": "2025-05-28T20:43:33",
+      "from": "Praveen Bhagwatula (pbhagwat) <pbhagwat@cisco.com>",
+      "subject": "Re: SRv6 requirements on G200 based Cisco 8K + SONiC confirmed by Oracle",
+      "snippet": "Asoka, reading thru the CRD, I see the following SRv6 related requirements stated: * SRv6 uSID * SRv6 policies: 4000 * IPM sessions: 4000 Does this imply the OCI use case is one where the switch needs to encapsulate the incoming IP t"
+    },
+    {
+      "date": "2025-06-06T18:03:12",
+      "from": "Pablo Camarillo (pcamaril) <pcamaril@cisco.com>",
+      "subject": "MSFT DCIX SRv6",
+      "snippet": "Kris, Kamran, Jakub, I’ve started documenting the DCIX SRv6 opportunity at MSFT. At some point we will review this with Clarence and do proper brainstorming. Before I send the document to him, can you do one first pass and let me know what is unclear/"
+    }
+  ],
+  "global_engagements": [
+    {
+      "date": "2024-03-25T20:02:31",
+      "from": "David Jansen (dajansen) <dajansen@cisco.com>",
+      "subject": "Re: Cisco portfolio consumption of SP-NaaS",
+      "snippet": "https://thecuberesearch.com/breaking-analysis-nvidia-broadcom-and-the-expanding-breadth-of-ai-momentum/ David Jansen - CCIE #5952 Distinguished, Solutions Engineer Global Solutions Engineering (GSE) Cell/Mobile: +1.586.291.4666 Single Number Reac"
+    },
+    {
+      "date": "2024-04-19T21:43:41",
+      "from": "Clough, David <David.Clough@wwt.com>",
+      "subject": "Cisco and WWT Ultra Ethernet for AI",
+      "snippet": "Cameron, Great chatting with you today. Great we could connect. At the Cisco EBC Kevin Wollenweber indicated interest in an AI Ultra Ethernet test bed at WWT – we took an “AI” to follow up on. Brook Crossman also indicated interest in a Ultra Ethernet pr"
+    },
+    {
+      "date": "2024-09-13T20:57:14",
+      "from": "Vahini Adusumilli (vadusumi) <vadusumi@cisco.com>",
+      "subject": "Re: SONiC - OCP Post Event @ Cisco",
+      "snippet": "Team, Here are the details for SONiC workshop on 15th & 18th Oct: Overview of SONiC workshop on OCP page : https://www.opencompute.org/summit/global-summit/co-located-events Two Workshops: https://sonicfoundation.dev/event/sonic-workshop-co-located"
+    },
+    {
+      "date": "2025-02-10T14:50:06",
+      "from": "Abhishek Sharma (abhshar3) <abhshar3@cisco.com>",
+      "subject": "US universities R&E AI connectivity DCI use case with SONiC",
+      "snippet": "Hello Emerson and Virginia, Here is another AI connectivity (DCI) use case outside the Data Center from the Americas, this time with SONiC. I have attached the CRD that the AT and Bruce (copied) have created for your reference. Like the hyper-sca"
+    },
+    {
+      "date": "2025-05-26T15:18:58",
+      "from": "Ahmed Abdelsalam (ahabdels) <ahabdels@cisco.com>",
+      "subject": "Building Source Routed AI Backend Network with SRv6.",
+      "snippet": "OCP EMEA 2025: Guohan Lu from Microsoft explained how they build Source Routed AI Backend Network with SRv6. He highlighted the benefits of SRv6 in the AI Backend to provide optimized load-balancing, fined-grained network control, and quick reroute upo"
+    },
+    {
+      "date": "2025-06-27T13:52:32",
+      "from": "Yue Gao (yuega2) <yuega2@cisco.com>",
+      "subject": "Re: SONiC VPP Image for Bell Canada",
+      "snippet": "Good to know. Vpp is part of SONiC nightly build. They can download from here: https://dev.azure.com/mssonic/build/_build?definitionId=2818&_a=summary. It lags behind the latest code because vpp sai code is in sonic-sairedis, which is a sub module of soni"
+    },
+    {
+      "date": "2025-07-25T17:25:14",
+      "from": "Jakub Horn (jakuhorn) <jakuhorn@cisco.com>",
+      "subject": "Re: SRv6 encap of BGP global IPv6 prefixes",
+      "snippet": "Actually that option without RR would be quite stupid why would you send prefixes which are supposed to be encapsulated hop-by-hop!!!!!! 😉 Cheers -j From: Jakub Horn (jakuhorn) <jakuhorn@cisco.com> Date: Friday, July 25, 2025 at 7:18 PM To: B"
+    },
+    {
+      "date": "2025-07-25T17:18:26",
+      "from": "Jakub Horn (jakuhorn) <jakuhorn@cisco.com>",
+      "subject": "Re: SRv6 encap of BGP global IPv6 prefixes",
+      "snippet": "Hi Bruce, It should work! Well I would assume you are using same BGP session to advertise locators and global prefixes? Obviously you need to send locators without SIDs!!!! Basically trick is that underlay BGP is interface to interface and that does"
+    },
+    {
+      "date": "2025-07-25T21:12:42",
+      "from": "Jakub Horn (jakuhorn) <jakuhorn@cisco.com>",
+      "subject": "Re: SRv6 encap of BGP global IPv6 prefixes",
+      "snippet": "Hi Bruce, That’s is not very nice design…. But I think we need that option anyways. Can you live with two BGP session design for now? I will start discussion with BGP team what is necessary.. Cheers -j From: Bruce McDougall (brmcdoug) <brm"
+    },
+    {
+      "date": "2025-07-28T08:07:01",
+      "from": "Pablo Camarillo (pcamaril) <pcamaril@cisco.com>",
+      "subject": "RE: SRv6 encap of BGP global IPv6 prefixes",
+      "snippet": "Bruce, If we tunnel v4, don’t we bring a scale problem to these devices? What is the gain? Thanks! From: Bruce McDougall (brmcdoug) <brmcdoug@cisco.com> Sent: Friday, July 25, 2025 6:39 PM To: Jose Liste (jliste) <jliste@cisco.com>; Jakub Horn"
+    },
+    {
+      "date": "2025-07-29T06:41:11",
+      "from": "Pablo Camarillo (pcamaril) <pcamaril@cisco.com>",
+      "subject": "RE: SRv6 encap of BGP global IPv6 prefixes",
+      "snippet": "> This scenario would propagate the BGP v4 prefixes throughout the fabric, however, the midpoint nodes would not install the entries in FIB. But that makes the problem worse, no? The midpoint devices (T2, DCI) have larger FIB scale than the T0s or T1s"
+    },
+    {
+      "date": "2025-07-29T07:41:43",
+      "from": "Jakub Horn (jakuhorn) <jakuhorn@cisco.com>",
+      "subject": "Re: SRv6 encap of BGP global IPv6 prefixes",
+      "snippet": "I will even improve it here: R1---------R2 BGP session 1 is interface to interface – carrying locators BGP session 2 is loopback to loopback with Srv6 encap – carrying all other v6 prefixes. Does it make sense? Cheers -j From: Bruce McD"
+    },
+    {
+      "date": "2025-07-31T06:33:16",
+      "from": "Jakub Horn (jakuhorn) <jakuhorn@cisco.com>",
+      "subject": "Re: SRv6 encap of BGP global IPv6 prefixes",
+      "snippet": "Obviously Lo-Lo If-if is to allow transport. Still do not like the design RR would be much better 😉 Cheers -j From: Bruce McDougall (brmcdoug) <brmcdoug@cisco.com> Date: Wednesday, July 30, 2025 at 5:21 PM To: Jakub Horn (jakuhorn) <jakuho"
+    },
+    {
+      "date": "2025-08-01T07:50:01",
+      "from": "Pablo Camarillo (pcamaril) <pcamaril@cisco.com>",
+      "subject": "Workshop Redmond - Week of Sept 15th",
+      "snippet": "Hi Joe, As I was mentioning the other day, we have the possibility to bring the key SRv6 team members to Redmond the week of September 15th. I, Jakub (TME who has overseen all deployments worldwide) and Kamran (DE, lead for all SRv6 XR software) can t"
+    },
+    {
+      "date": "2025-08-12T22:28:29",
+      "from": "Bob Gisiger (bgisiger) <bgisiger@cisco.com>",
+      "subject": "FW: Fw: Capturing key asks from Groq",
+      "snippet": "FYI.. Bruce, I think you will be coming up from SJ. Fred, I will pick you up at SFO12 and we can go together. I looked up Playground Global. Looks like a VC with co-working office spaces. 380 Portage Ave, Palo Alto, CA 94306 Will double confirm t"
+    },
+    {
+      "date": "2025-08-19T17:24:02",
+      "from": "Ahmed Abdelsalam (ahabdels) <ahabdels@cisco.com>",
+      "subject": "IP uSID in SONiC - Support for Static uDT in Global Routing Table",
+      "snippet": "Asoka, Bruce, As promised, we added the support of Static uDT in Global Routing Table (GRT). i.e., Decapsulation and lookup in GRT. The Static uDT/GRT enables us to demo the GRT feature to MSFT and OCI. Currently all uSID config are done via Stati"
+    },
+    {
+      "date": "2025-08-19T17:48:50",
+      "from": "Asoka De Saram (asdesara) <asdesara@cisco.com>",
+      "subject": "Re: IP uSID in SONiC - Support for Static uDT in Global Routing Table",
+      "snippet": "Thanks for the update Ahmed. Appreciate all the hard work. Thanks Asoka De Saram Systems Architect Mobile: 650-380-8119 Email: asdesara@cisco.com From: Ahmed Abdelsalam (ahabdels) <ahabdels@cisco.com> Date: Tuesday, August 19,"
+    },
+    {
+      "date": "2025-08-20T08:32:59",
+      "from": "Clarence Filsfils (cfilsfil) <cfilsfil@cisco.com>",
+      "subject": "RE: IP uSID in SONiC - Support for Static uDT in Global Routing Table",
+      "snippet": "Asoka, > Appreciate all the hard work. We also much appreciate your hard work and genuine energy. I have been introducing new technology for 30 years and please remember that your eyes and ears are our best way to capture a requirement that was"
+    },
+    {
+      "date": "2025-09-03T20:19:27",
+      "from": "Ahmed Abdelsalam (ahabdels) <ahabdels@cisco.com>",
+      "subject": "FRR mainline - SRv6 Decapsulation \"uDT46\" in default VRF",
+      "snippet": "Hi Team, During some of our previous discussions, one of the requests was to add support for SRv6 uSID Decapsulation (uDT46) in the Default VRF (Global Routing Table). We would like to share an update on this: * We’ve added support for Static"
+    },
+    {
+      "date": "2026-03-30T15:35:37",
+      "from": "Ahmed Abdelsalam (ahabdels) <ahabdels@cisco.com>",
+      "subject": "Re: Competitive Risk: Nexthop AI",
+      "snippet": "FYI. They will be presenting at OCP EMEA with Microsoft. From: Praveen Bhagwatula (pbhagwat) <pbhagwat@cisco.com> Date: Monday, 30 March 2026 at 16:50 To: Ahmed Abdelsalam (ahabdels) <ahabdels@cisco.com>, Joe Rockwell (jorockwe) <jorockwe@cisco.com>,"
+    }
+  ],
+  "high_signal_subjects": [
+    {
+      "date": "2026-03-13T13:20:34",
+      "subject": "Re: Azure dRH SONiC SRv6 vs EVPN VXLAN",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "service_provider_telco",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2024-03-14T18:46:40",
+      "subject": "Equinix - S1 P4 Architecture and SONiC PINS",
+      "categories": [
+        "sonic_open_source",
+        "enterprise_customers",
+        "cisco_live_speaking",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2024-04-18T18:46:03",
+      "subject": "Re: evroc - Directional Decision needed",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "leadership_mentoring"
+      ]
+    },
+    {
+      "date": "2024-11-06T17:52:08",
+      "subject": "RE: Oracle - Static uSID",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "cisco_live_speaking",
+        "leadership_mentoring"
+      ]
+    },
+    {
+      "date": "2025-01-09T20:27:44",
+      "subject": "Re: CoreWeave Opportunity: COE",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "service_provider_telco",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2025-02-12T19:24:30",
+      "subject": "AI networking thought",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "jalapeno_programmability",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2025-03-07T17:02:48",
+      "subject": "Re: AI/ML EBC for eBay – Speaker Invitation for March 19th",
+      "categories": [
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "cisco_live_speaking",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2025-03-26T01:38:25",
+      "subject": "Re: Cisco-MSFT - Discuss support of uSid and SRv6 static config for G200",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "service_provider_telco"
+      ]
+    },
+    {
+      "date": "2025-05-23T23:51:34",
+      "subject": "Re: Cisco - Oracle SONiC Meeting",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2025-05-28T20:43:33",
+      "subject": "Re: SRv6 requirements on G200 based Cisco 8K + SONiC confirmed by Oracle",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2025-06-01T12:31:33",
+      "subject": "RE: SRv6 requirements on G200 based Cisco 8K + SONiC confirmed by Oracle",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "cisco_live_speaking"
+      ]
+    },
+    {
+      "date": "2025-06-01T16:43:47",
+      "subject": "RE: SRv6 requirements on G200 based Cisco 8K + SONiC confirmed by Oracle",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "awards_recognition"
+      ]
+    },
+    {
+      "date": "2025-06-27T13:52:32",
+      "subject": "Re: SONiC VPP Image for Bell Canada",
+      "categories": [
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "service_provider_telco",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2025-08-04T19:17:21",
+      "subject": "Re: Internal sync - Oracle AI cluster workshop",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "cisco_live_speaking",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2025-08-19T17:24:02",
+      "subject": "IP uSID in SONiC - Support for Static uDT in Global Routing Table",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2025-09-08T17:19:30",
+      "subject": "Re: [External] : Invitation: SRv6 uSID Operators Event. Sept 23-24. Nice, France.",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "service_provider_telco"
+      ]
+    },
+    {
+      "date": "2025-09-22T20:25:37",
+      "subject": "RE: Internal Discussion: Oracle AI Cluster Opp Alignment",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "cisco_live_speaking"
+      ]
+    },
+    {
+      "date": "2026-03-24T17:29:10",
+      "subject": "Re: Azure dRH SONiC SRv6 vs EVPN VXLAN",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "service_provider_telco"
+      ]
+    },
+    {
+      "date": "2026-03-13T14:43:50",
+      "subject": "Re: Azure dRH SONiC SRv6 vs EVPN VXLAN",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "service_provider_telco"
+      ]
+    },
+    {
+      "date": "2026-03-13T11:14:39",
+      "subject": "Re: Azure dRH SONiC SRv6 vs EVPN VXLAN",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "service_provider_telco"
+      ]
+    },
+    {
+      "date": "2026-03-13T10:47:56",
+      "subject": "Re: Azure dRH SONiC SRv6 vs EVPN VXLAN",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "service_provider_telco"
+      ]
+    },
+    {
+      "date": "2026-02-27T16:16:43",
+      "subject": "Re: [External] : Re: SRv6 multi-tenancy Git Repo Access",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2026-02-26T21:19:02",
+      "subject": "SRv6 multi-tenancy Git Repo Access",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2026-02-09T04:38:33",
+      "subject": "Re: TE Auto-BW for SRv6 @ CoreWeave SJ tech review (Feb 26)",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "jalapeno_programmability",
+        "cisco_live_speaking"
+      ]
+    },
+    {
+      "date": "2026-02-05T20:30:21",
+      "subject": "TE Auto-BW for SRv6 @ CoreWeave SJ tech review (Feb 26)",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "enterprise_customers"
+      ]
+    },
+    {
+      "date": "2025-11-18T18:00:38",
+      "subject": "Re: Oracle/Cisco AI Cluster Opportunity Sync",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "cisco_live_speaking",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2025-10-27T17:23:06",
+      "subject": "Re: [External] : Re: Help with XRd images",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2024-03-11T20:41:34",
+      "subject": "Re: [EXTERNAL] Equinix / Cisco Follow-Up re: Nvidia Partnerships",
+      "categories": [
+        "segment_routing_srv6",
+        "enterprise_customers",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2024-04-10T18:13:34",
+      "subject": "Introduction to AI team",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "leadership_mentoring"
+      ]
+    },
+    {
+      "date": "2024-06-12T12:20:15",
+      "subject": "Re: Rob Murphy (robermur) shared \"Labmda_Labs_June_2024\" with you",
+      "categories": [
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "leadership_mentoring"
+      ]
+    },
+    {
+      "date": "2024-07-09T23:38:06",
+      "subject": "Re: Roblox - AI/ML related questions",
+      "categories": [
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2024-07-10T18:31:11",
+      "subject": "Re: Monitoring and Telemetry for AI/ML",
+      "categories": [
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2024-11-01T14:59:17",
+      "subject": "FW: Replay is available for AI Networking Summit - New York",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source"
+      ]
+    },
+    {
+      "date": "2024-11-04T21:22:44",
+      "subject": "Re: SONiC Lab: SRv6 for AI backend network",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source"
+      ]
+    },
+    {
+      "date": "2024-11-05T18:02:40",
+      "subject": "Re: SONiC Lab: SRv6 for AI backend network",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source"
+      ]
+    },
+    {
+      "date": "2024-11-13T20:57:39",
+      "subject": "SRv6 for RDMA",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source"
+      ]
+    },
+    {
+      "date": "2024-11-13T21:02:36",
+      "subject": "FW: Next Step - SRv6 in AI Cluster",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "cisco_live_speaking"
+      ]
+    },
+    {
+      "date": "2024-11-14T18:57:00",
+      "subject": "FW: SONiC SRv6 AI Fabric Project Involvement",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source"
+      ]
+    },
+    {
+      "date": "2024-11-15T16:11:22",
+      "subject": "RE: SONiC SRv6 AI Fabric Project Involvement",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source"
+      ]
+    },
+    {
+      "date": "2024-11-20T17:15:29",
+      "subject": "Re: [External] : RE: SRv6 for RDMA",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source"
+      ]
+    },
+    {
+      "date": "2024-11-20T17:37:26",
+      "subject": "RE: Microsoft | SRv6 POC for backend",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2024-11-22T12:33:12",
+      "subject": "Re: [External] : RE: SRv6 for RDMA",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source"
+      ]
+    },
+    {
+      "date": "2024-11-26T11:36:47",
+      "subject": "RE: SONiC-VPP",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source"
+      ]
+    },
+    {
+      "date": "2025-01-09T03:25:03",
+      "subject": "Re: CoreWeave Opportunity: COE",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2025-01-10T18:14:10",
+      "subject": "Re: SONiC SRv6 and Graphene?",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "leadership_mentoring"
+      ]
+    },
+    {
+      "date": "2025-01-15T10:46:48",
+      "subject": "RE: SONiC SRv6 and Graphene?",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source"
+      ]
+    },
+    {
+      "date": "2025-02-07T07:42:53",
+      "subject": "RE: SONiC SRv6 and Graphene?",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source"
+      ]
+    },
+    {
+      "date": "2025-02-10T14:50:06",
+      "subject": "US universities R&E AI connectivity DCI use case with SONiC",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2025-03-10T16:51:41",
+      "subject": "Bandwidth Management and Congestion Avoidance in AI DC by Coupling AI Workload Scheduling and SRv6 uSID",
+      "categories": [
+        "segment_routing_srv6",
+        "leadership_mentoring",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2025-03-17T19:15:46",
+      "subject": "RE: SRv6 SONiC continuation",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "revenue_business_impact"
+      ]
+    }
+  ]
+}

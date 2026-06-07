@@ -1,0 +1,1827 @@
+{
+  "total_emails": 1870,
+  "date_range": {
+    "earliest": "2020",
+    "latest": "2026"
+  },
+  "emails_by_year": {
+    "2020": 122,
+    "2021": 220,
+    "2022": 377,
+    "2023": 488,
+    "2024": 380,
+    "2025": 241,
+    "2026": 42
+  },
+  "top_senders": {
+    "hayabusagsm@gmail.com": 71,
+    "gyan.s.mishra@verizon.com": 68,
+    "nobody@cisco.com": 61,
+    "ahabdels@cisco.com": 57,
+    "billing@he.net": 51,
+    "notifications@github.com": 49,
+    "sbezverk@cisco.com": 47,
+    "asdesara@cisco.com": 44,
+    "knutini@cisco.com": 41,
+    "skorka@cisco.com": 36,
+    "bgisiger@cisco.com": 31,
+    "noreply@github.com": 30,
+    "robermur@cisco.com": 23,
+    "support@isovalent.com": 23,
+    "jakuhorn@cisco.com": 20,
+    "severin.dellsperger@ost.ch": 20,
+    "donotreply-toolbox@cisco.com": 20,
+    "christian.j.martin@oracle.com": 18,
+    "jwhistan@cisco.com": 16,
+    "xthuijs@cisco.com": 15,
+    "jmoon@cisco.com": 15,
+    "tkamata@cisco.com": 15,
+    "kmichiel@cisco.com": 15,
+    "doewald@cisco.com": 15,
+    "jmullool@cisco.com": 14,
+    "riperret@cisco.com": 14,
+    "pcamaril@cisco.com": 14,
+    "jiaminli@cisco.com": 14,
+    "noreply@cisco.com": 12,
+    "rfulneck@cisco.com": 12
+  },
+  "top_recipients": {
+    "brmcdoug@cisco.com": 1356,
+    "billing@he.net": 86,
+    "ahabdels@cisco.com": 86,
+    "jakuhorn@cisco.com": 70,
+    "asdesara@cisco.com": 68,
+    "bgisiger@cisco.com": 49,
+    "robermur@cisco.com": 46,
+    "pcamaril@cisco.com": 43,
+    "sbezverk@cisco.com": 37,
+    "knutini@cisco.com": 36,
+    "fcuiller@cisco.com": 30,
+    "isemco@cisco.com": 28,
+    "jmerrill@cisco.com": 26,
+    "djsmith@cisco.com": 24,
+    "daniel.bernier@bell.ca": 24,
+    "cfilsfil@cisco.com": 23,
+    "byzek@cisco.com": 21,
+    "hayabusagsm@gmail.com": 21,
+    "skraza@cisco.com": 21,
+    "gyan.s.mishra@verizon.com": 20
+  },
+  "category_hits": {
+    "segment_routing_srv6": 502,
+    "sonic_open_source": 400,
+    "service_provider_telco": 238,
+    "revenue_business_impact": 230,
+    "jalapeno_programmability": 193,
+    "cisco_live_speaking": 192,
+    "hyperscale_cloud_ai": 177,
+    "cilium_isovalent": 135,
+    "global_international": 77,
+    "leadership_mentoring": 71,
+    "enterprise_customers": 36,
+    "innovation_patents": 5,
+    "awards_recognition": 3
+  },
+  "category_examples": {
+    "service_provider_telco": [
+      {
+        "date": "2020-08-04T18:35:43",
+        "from": "Asoka De Saram (asdesara) <asdesara@cisco.com>",
+        "subject": "NCS POC Questions",
+        "snippet": "Hi Anton and Manuel, Regarding these test cases – what are the expectations on your end since these are all local functions not interoperability protcols like BGP, IS-IS, MPLS etc. 5.8 Cisco NCS 5502-SE -Juniper CBF Interoperability Verification Res",
+        "matched_terms": [
+          "mpls"
+        ]
+      },
+      {
+        "date": "2020-08-07T00:37:31",
+        "from": "Asoka De Saram (asdesara) <asdesara@cisco.com>",
+        "subject": "Re: Troubleshoot NCS5502 prefix programming after CBF",
+        "snippet": "Hi Anup, Here is the access server. VPN to:- dcloud-sjc-anyconnect.cisco.com user: v1228user2 password: 5763c0 Bruce McDougall 2:13 PM Jump Box:- ubuntu server: ssh cisco@198.18.67.37 pw = C1sco12345 then 5502-1 ssh cisco@198.18.66.200 pw = c",
+        "matched_terms": [
+          "vpn"
+        ]
+      },
+      {
+        "date": "2020-08-07T03:00:25",
+        "from": "Steve Braaten (sbraaten) <sbraaten@cisco.com>",
+        "subject": "RE: HE Colo gear",
+        "snippet": "Kevin – Attached is an inventory that Karthik ran recently. We have plenty of power, as far as I know. Please update the ppt once you determine what all will be installed in there. If we have room, we may add one of the CSP devices eventually…",
+        "matched_terms": [
+          "sp "
+        ]
+      },
+      {
+        "date": "2020-08-07T15:02:20",
+        "from": "Xander Thuijs (xthuijs) <xthuijs@cisco.com>",
+        "subject": "Re: Twitter NCS POC Findings",
+        "snippet": "oh sorry, forgot to mention asoka, the rib has route is on 711. it would be available at the redistribution attachpoint, hence that loopback trick mentioned!! the other thing I wanted to share is the ECN on mpls encap is a nogo… hw doesn’t support it",
+        "matched_terms": [
+          "mpls"
+        ]
+      },
+      {
+        "date": "2020-08-07T15:11:49",
+        "from": "Xander Thuijs (xthuijs) <xthuijs@cisco.com>",
+        "subject": "Re: Twitter NCS POC Findings",
+        "snippet": "yeah on p routers seeing mpls, you’d have to remap ECN to EXP at the impostion node. xander From: \"Asoka De Saram (asdesara)\" <asdesara@cisco.com> Date: Friday, August 7, 2020 at 11:06 AM To: \"Xander Thuijs (xthuijs)\" <xthuijs@cisco.com>, \"Tyler Nie",
+        "matched_terms": [
+          "mpls"
+        ]
+      },
+      {
+        "date": "2020-08-07T20:32:51",
+        "from": "Karthik Kumaravel (kkumara3) <kkumara3@cisco.com>",
+        "subject": "Re: HE Colo gear",
+        "snippet": "Hi Kevin, We do not pay for the paid tracking by watt feature. We only pay for a line drop of certain amperage and a power strip connected to the power plug. Thanks, -Karthik From: \"Kevin Laureano (klaurean)\" <klaurean@cisco.com> Date: Friday,",
+        "matched_terms": [
+          "att "
+        ]
+      },
+      {
+        "date": "2020-08-13T17:57:01",
+        "from": "Zayo Global NCC <ncc@zayo.com>",
+        "subject": "There has been an update to your case - TTN-0004332412 [ ref:_00D6079Qk._5000z1Snpzh:ref ]",
+        "snippet": "There has been an update to your case GENERAL INFORMATION Case Number: TTN-0004332412 Customer Ticket Number: Customer Circuit Id: Location A: 48233 Warm Springs Blvd/Fl-1/Rm-Telco Fremont CA Location Z: 1735 Lundy Ave/Fl-1/Cage-78 Sa",
+        "matched_terms": [
+          "telco"
+        ]
+      },
+      {
+        "date": "2020-08-14T18:11:15",
+        "from": "Zayo Global NCC <ncc@zayo.com>",
+        "subject": "There has been an update to your case - TTN-0004332412 [ ref:_00D6079Qk._5000z1Snpzh:ref ]",
+        "snippet": "There has been an update to your case GENERAL INFORMATION Case Number: TTN-0004332412 Customer Ticket Number: Customer Circuit Id: Location A: 48233 Warm Springs Blvd/Fl-1/Rm-Telco Fremont CA Location Z: 1735 Lundy Ave/Fl-1/Cage-78 Sa",
+        "matched_terms": [
+          "telco"
+        ]
+      }
+    ],
+    "cisco_live_speaking": [
+      {
+        "date": "2020-08-06T18:27:54",
+        "from": "Bob Gisiger (bgisiger) <bgisiger@cisco.com>",
+        "subject": "SFDC BBR JunOS config",
+        "snippet": "Hey team, Here is a gzip of a sample SFDC BBR role config. A nice 500K lines after extraction. I will start going through it, taking notes and converting over some sample sections. Asoka – I will probably ask you for some advice on the filters se",
+        "matched_terms": [
+          "ilt"
+        ]
+      },
+      {
+        "date": "2020-08-15T17:20:01",
+        "from": "Suresh Basavarajappa (sureshb) <sureshb@cisco.com>",
+        "subject": "RE: Twitter POC : RIB-HAS-ROUTE RPL",
+        "snippet": "Team, Sorry for the delayed response. The object-tracking feature in BGP was supported only in 7.2.1 which shipped couple of days ago. The current changes to enable rib-has-route async and object tracking are built on 7.2.1 code base and may not p",
+        "matched_terms": [
+          "ilt"
+        ]
+      },
+      {
+        "date": "2020-08-16T06:51:17",
+        "from": "Suresh Basavarajappa (sureshb) <sureshb@cisco.com>",
+        "subject": "RE: Twitter POC : RIB-HAS-ROUTE RPL",
+        "snippet": "Hi Asoka, I have built a private image for asr9k-px and NCS5500 and copied below. Xander is going to use this image for validation. Once I have SMU diffs for 7.2.1. I will provide the Engg SMUs for 7.2.1. sjc-ads-5360:/users/sureshb> ls -l /ws/s",
+        "matched_terms": [
+          "ilt"
+        ]
+      },
+      {
+        "date": "2020-08-22T11:27:43",
+        "from": "Xander Thuijs (xthuijs) <xthuijs@cisco.com>",
+        "subject": "Re: Twitter POC : RIB-HAS-ROUTE RPL",
+        "snippet": "ohhey asoka, for isis, remember that we spoke the trick on using the redistribute (connected) where it can be applied. we’d do a redistribute connected with a filter prefix list to only adbetise the head/tail. (and then conditionally) if the head/tail",
+        "matched_terms": [
+          "ilt"
+        ]
+      },
+      {
+        "date": "2020-08-23T12:33:17",
+        "from": "Xander Thuijs (xthuijs) <xthuijs@cisco.com>",
+        "subject": "Re: Twitter POC : RIB-HAS-ROUTE RPL",
+        "snippet": "cool cool the construct for the rsvp piece is first having a strict path or whatever is needed LSP/TE tunnel between Left (say head) and Right (say Tail) router, built over the loopbacks (or a new loopback). Tail 71 or 72 xr release, no special smu neede",
+        "matched_terms": [
+          "ilt"
+        ]
+      },
+      {
+        "date": "2020-09-02T17:49:04",
+        "from": "Scott Tapley <sctapley@cisco.com>",
+        "subject": "Registration Confirmation:  Service Provider SEVT Labs FY21 on Thursday, October 8, 2020",
+        "snippet": "Dear Bruce, Registrant: Bruce McDougall You are registered for SP LAB: SRv6 uSID. Please see below for the Webex information needed to join this session. Webex Information: LAB: SRv6 uSID: This lab provides hands-on experience with SRv6",
+        "matched_terms": [
+          "vt "
+        ]
+      },
+      {
+        "date": "2021-06-16T18:47:58",
+        "from": "Kishore Karthikeyan (kiskarth) <kiskarth@cisco.com>",
+        "subject": "Re: Crosswork data gateway unknown operational state",
+        "snippet": "I see the service and connection are working fine within the Crosswork Cluster. How is CDG connecting to the Crosswork cluster? Is it within the 10.62.9.194 network or outside? If outside, I see 22 and 30603 ports are exposed as 22022 and 22603 respect",
+        "matched_terms": [
+          "clus"
+        ]
+      },
+      {
+        "date": "2021-07-20T17:41:45",
+        "from": "Michel Bongard <michel.bongard@ost.ch>",
+        "subject": "SR-App Link Saturation",
+        "snippet": "Hi Bruce, You can download the recording of the presentation of our bachelor thesis (18. January 2021) here: https://www.swisstransfer.com/d/de53f9f7-3a81-4d9f-857e-5679c065a136 The demonstration starts at the timestamp 28:53. The demo app is ru",
+        "matched_terms": [
+          "presentation"
+        ]
+      }
+    ],
+    "hyperscale_cloud_ai": [
+      {
+        "date": "2020-08-08T11:47:00",
+        "from": "Xander Thuijs (xthuijs) <xthuijs@cisco.com>",
+        "subject": "Re: NCS Gaps / Outstanding Questions",
+        "snippet": "did you test it right asoka? we just concluded a whole sequence/cycle of this for Microsoft demonstrating this ability ☺ you need a setup of a triangle, call them Top (T), Bottom left (BL) and bottom right (BR). orchestrate traffic flow BL-BR with met",
+        "matched_terms": [
+          "microsoft"
+        ]
+      },
+      {
+        "date": "2020-08-08T18:43:33",
+        "from": "Asoka De Saram (asdesara) <asdesara@cisco.com>",
+        "subject": "Re: NCS Gaps / Outstanding Questions",
+        "snippet": "Hi Xander, I was focusing on the *specific* ask – not the Microsoft use case. Here is the use case the customer is looking for. The customer is looking for a hold down time after the last route from the rib is received from a BGP neighbor before adver",
+        "matched_terms": [
+          "microsoft"
+        ]
+      },
+      {
+        "date": "2020-08-14T21:45:11",
+        "from": "Manuel Cabalquinto <mcabalquinto@twitter.com>",
+        "subject": "Re: Final BackBone POC Review",
+        "snippet": "Hi Asoka, Thank you for sharing the link. Thanks, Manuel On Thu, Aug 13, 2020 at 9:39 PM Asoka De Saram (asdesara) <asdesara@cisco.com> wrote: Hi Anton and Manuel, Here are the final POC deliverables in a google folder. Please follow this link",
+        "matched_terms": [
+          "google"
+        ]
+      },
+      {
+        "date": "2020-08-19T04:23:30",
+        "from": "Asoka De Saram (asdesara) <asdesara@cisco.com>",
+        "subject": "Re: Final BackBone POC Review",
+        "snippet": "Hi Anton, 1. We found the additional documents (Thanks Bruce). I created another zip file and uploaded it to Gdrive. Please take a look at it now. Link: https://drive.google.com/drive/folders/1mqe9mzKpspia3f2sBCeZjqkVpU98HACM?usp=sharing 2. The",
+        "matched_terms": [
+          "google"
+        ]
+      },
+      {
+        "date": "2020-08-21T03:40:47",
+        "from": "Bruce McDougall <bmcdougall@gmail.com>",
+        "subject": "Fwd: SFDC To Do List - Invitation to edit",
+        "snippet": "---------- Forwarded message --------- From: Bob Gisiger (via Google Sheets) <bob.gisiger@gmail.com> Date: Mon, Aug 17, 2020 at 2:24 PM Subject: SFDC To Do List - Invitation to edit To: <bmcdougall@gmail.com> bob.gisiger@gmail.com has invited",
+        "matched_terms": [
+          "google"
+        ]
+      },
+      {
+        "date": "2020-08-21T03:42:43",
+        "from": "Bruce McDougall <bmcdougall@gmail.com>",
+        "subject": "Fwd: Twitter BB POC - Invitation to collaborate",
+        "snippet": "---------- Forwarded message --------- From: Asoka De Saram (via Google Drive) <asoka.desaram@gmail.com> Date: Thu, Aug 13, 2020 at 9:29 PM Subject: Twitter BB POC - Invitation to collaborate To: <bmcdougall@gmail.com> Cc: <ayurchenko@twitter.com",
+        "matched_terms": [
+          "google"
+        ]
+      },
+      {
+        "date": "2020-08-22T01:28:01",
+        "from": "Asoka De Saram (asdesara) <asdesara@cisco.com>",
+        "subject": "Re: Final BackBone POC Review",
+        "snippet": "Hi Anton, I have completed the testing and documented item 2 (section 3.15 in the POC document). Please review and let me know if you have questions. Link to the updated google document: https://drive.google.com/file/d/1j4j6b72ZUw6hkmogBxZR0Oq2i8atapL",
+        "matched_terms": [
+          "google"
+        ]
+      },
+      {
+        "date": "2020-09-01T19:05:13",
+        "from": "Brandon Him (brhim) <brhim@cisco.com>",
+        "subject": "Re: Final BackBone POC Review",
+        "snippet": "Hey Anton, I can share over a private GitHub repository with the latest code with additional directions – I just need your associated GitHub email to provide access. However, it does sound like additional operational overhead, which was my mistake a",
+        "matched_terms": [
+          "oci"
+        ]
+      }
+    ],
+    "global_international": [
+      {
+        "date": "2020-08-13T16:50:01",
+        "from": "Dana Durant <dana.durant@zayo.com>",
+        "subject": "Re: Zayo Service Completion Notice - Service Order 1216006",
+        "snippet": "Hey Bruce sorry to hear this. Call the Zayo NCC at Post Install Technical Support For activation assistance, please contact 866-236-2824, Options 1-7-1-3 Dana Durant Service Delivery Coordinator | Zayo Group Zayo | Our Fiber Fuels Global Innovati",
+        "matched_terms": [
+          "global"
+        ]
+      },
+      {
+        "date": "2021-06-08T20:05:30",
+        "from": "Melissa Harrison <billing@he.net>",
+        "subject": "[HE#4843559] Re: FW: 485th Day Reminder - Additional PO needed to PO # TUS202425911 for Supplier HURRICANE ELECTRIC LLC",
+        "snippet": "Hello Bruce, The prepayment ran out at the end of January, so when the payment was made on 1/31/21, for $400, it paid for February. After the prepayment, there was a small balance of $6.13, but this was paid with an American Express card on 2/19/20, w",
+        "matched_terms": [
+          "amer"
+        ]
+      },
+      {
+        "date": "2021-08-06T20:13:54",
+        "from": "Alan Ball (alaball) <alaball@cisco.com>",
+        "subject": "RE: Zayo - Acct 031746 - Annual Billing DIA IN FREMONT",
+        "snippet": "Hi Michele, you can let Zayo know that we want to cancel the DIA circuit. Alan Ball From: Michele DeVisser -X (mdevisse - CAMEO GLOBAL INC at Cisco) <mdevisse@cisco.com> Sent: Friday, August 6, 2021 11:18 AM To: Alan Ball (alaball) <alaball@cisco.",
+        "matched_terms": [
+          "global"
+        ]
+      },
+      {
+        "date": "2021-08-09T14:00:10",
+        "from": "Michele DeVisser -X (mdevisse - CAMEO GLOBAL INC at Cisco) <mdevisse@cisco.com>",
+        "subject": "DISCO - Zayo - Acct 031746 - Annual Billing DIA IN FREMONT",
+        "snippet": "Hi Alan, Thank you for the status. I will let them know and put an order through. Thank you. Michele From: Alan Ball (alaball) <alaball@cisco.com> Sent: Friday, August 6, 2021 4:14 PM To: Michele DeVisser -X (mdevisse - CAMEO GLOBAL INC at Cisco)",
+        "matched_terms": [
+          "global"
+        ]
+      },
+      {
+        "date": "2021-09-01T06:06:49",
+        "from": "Teppei Kamata (tkamata) <tkamata@cisco.com>",
+        "subject": "Re: Quick syncup for Jalapeno in Japan lab",
+        "snippet": "Hi Bruce-san, Thank you for great update in Impact! Yes, VM info is important. I tried to create a QCOW2 image from cloud image, but I don't think I can use it as it is, so I was just about to ask a question. And SRv6/VPP is also excellent work!",
+        "matched_terms": [
+          "japan"
+        ]
+      },
+      {
+        "date": "2021-09-03T15:12:01",
+        "from": "Teppei Kamata (tkamata) <tkamata@cisco.com>",
+        "subject": "Re: Quick syncup for Jalapeno in Japan lab",
+        "snippet": "Hi Bruce-san, Sorry for the delayed update. I had stacked SRv6 MUP related works... I checked your script and I have one question on this. in the startup.sh, ubuntu-cdn-vm.xml is commented out ubuntu-k8s-node.xml is used in your script as below.",
+        "matched_terms": [
+          "japan"
+        ]
+      },
+      {
+        "date": "2021-09-05T12:29:36",
+        "from": "Teppei Kamata (tkamata) <tkamata@cisco.com>",
+        "subject": "Re: Quick syncup for Jalapeno in Japan lab",
+        "snippet": "Hi Bruce-san, Thank you for update! I forgot to check the iptables. Here is the output of iptables command and routing table. tkamata@tkamata:~$ sudo iptables -t nat --list | grep 8099 DNAT tcp -- anywhere anywhere",
+        "matched_terms": [
+          "japan"
+        ]
+      },
+      {
+        "date": "2021-09-08T15:13:12",
+        "from": "Smartsheet Forms <forms@app.smartsheet.com>",
+        "subject": "Confirmation - Global Mass PO Closure Tracking Sheet",
+        "snippet": "Thank you for submitting your entry. A copy is included below for your records. Global Mass PO Closure Tracking Sheet Please input Your CEC ID brmcdoug Please input requestor ID of PO brmcdoug Input PO Number USA000EP185381 Supplier Name",
+        "matched_terms": [
+          "global"
+        ]
+      }
+    ],
+    "awards_recognition": [
+      {
+        "date": "2020-08-22T18:38:35",
+        "from": "Asoka De Saram (asdesara) <asdesara@cisco.com>",
+        "subject": "Re: Twitter POC : RIB-HAS-ROUTE RPL",
+        "snippet": "Thanks Xander. BTW I tested the BGP route delay and the conditional statements – good news it all worked as expected. Major kudos to Suresh and the engineering team. I already shared my results with Twitter and I am hoping that it alone will be enough to",
+        "matched_terms": [
+          "kudos"
+        ]
+      },
+      {
+        "date": "2021-08-01T04:02:32",
+        "from": "donotreply@cisco.com <donotreply@cisco.com>",
+        "subject": "Request Approved",
+        "snippet": "Dear Bruce McDougall Congratulations! Your claim has been approved by Content Development on 31-Jul-2021. Credits have been added to your account. You can verify your updated status by logging into your account at https://ce.cisco.com. Below are the",
+        "matched_terms": [
+          "congratulations"
+        ]
+      },
+      {
+        "date": "2021-08-02T17:04:53",
+        "from": "donotreply@cisco.com <donotreply@cisco.com>",
+        "subject": "Request Approved",
+        "snippet": "Dear Bruce McDougall Congratulations! Your claim has been approved by Content Development on 02-Aug-2021. Credits have been added to your account. You can verify your updated status by logging into your account at https://ce.cisco.com. Below are the",
+        "matched_terms": [
+          "congratulations"
+        ]
+      }
+    ],
+    "jalapeno_programmability": [
+      {
+        "date": "2020-08-24T17:48:08",
+        "from": "Manuel Cabalquinto <mcabalquinto@twitter.com>",
+        "subject": "Re: Final BackBone POC Review",
+        "snippet": "Hi Asoka, Does Cisco have this https://www.juniper.net/documentation/en_US/junos/topics/concept/junos-script-automation-event-script-overview.html feature? If yes how do you implement this in the router? Is it possible to include this feature in our P",
+        "matched_terms": [
+          "automation"
+        ]
+      },
+      {
+        "date": "2020-10-07T03:47:04",
+        "from": "GitHub <noreply@github.com>",
+        "subject": "[GitHub] A new public key was added to your account",
+        "snippet": "The following SSH key was added to your account: jalapeno SHA256:ZlsgET2W2GeKcpU7+0ZTrm+QqEGaGiAbqh47vPIBqS4 If you believe this key was added in error, you can remove the key and disable access at the following location: https://github.com/set",
+        "matched_terms": [
+          "jalapeno"
+        ]
+      },
+      {
+        "date": "2020-11-10T01:01:42",
+        "from": "Sanket Gohil (sgohil) <sgohil@cisco.com>",
+        "subject": "Re: <Smaller Group > Re: Code Drop #6 for MSFT CBF ( Final Code Drop )",
+        "snippet": "Hi Peter, Will let Sapna/Anup comment as well, but given that no form of DT (automated or manual) has happened for CBF on any 7.2.x branch, I’d be more comfortable with at least an automation run once all code is in. Thanks Sanket From: \"Peter",
+        "matched_terms": [
+          "automation"
+        ]
+      },
+      {
+        "date": "2021-02-12T16:08:29",
+        "from": "Alberto Donzelli (adonzell) <adonzell@cisco.com>",
+        "subject": "Re: VM setup for Jalapeno",
+        "snippet": "Hi Serguei, I have installed a VM 8cpu 32G ram 10.58.244.219 aldo/aldo123 Can you check if it is ok? Do you need additional IP addresses to be reserved Cheers Alberto > On 8 Feb 2021, at 13:27, Serguei Bezverkhi (sbezverk) <sbezv",
+        "matched_terms": [
+          "jalapeno"
+        ]
+      },
+      {
+        "date": "2021-02-15T10:38:24",
+        "from": "Alberto Donzelli (adonzell) <adonzell@cisco.com>",
+        "subject": "Re: VM setup for Jalapeno",
+        "snippet": "Hi Serguei, aldo is superuser (and only user) For the moment we have only ipv4. We are currently restructuring our LAB LAN infra and we could get IPv6 is few weeks. Cheers Alberto > On 12 Feb 2021, at 17:14, Serguei Bezverkhi (sbezverk) <sbezver",
+        "matched_terms": [
+          "jalapeno"
+        ]
+      },
+      {
+        "date": "2021-02-17T20:37:40",
+        "from": "Voyer, Daniel <daniel.voyer@bell.ca>",
+        "subject": "Re: FW: Jalapeño-lab: telemetry and Grafana",
+        "snippet": "info From: brmcdoug@cisco.com When: 3:00 PM - 4:00 PM February 17, 2021 Subject: FW: Jalapeño-lab: telemetry and Grafana Location: Https://acecloud.webex.com/meet/brmcdoug From: brmcdoug@cisco.com When: 3:00 PM - 4:00 PM February 17, 2021 Sub",
+        "matched_terms": [
+          "jalapeño"
+        ]
+      },
+      {
+        "date": "2021-02-22T14:10:55",
+        "from": "Alberto Donzelli (adonzell) <adonzell@cisco.com>",
+        "subject": "Re: VM setup for Jalapeno",
+        "snippet": "My fault Serguei, didn’t know about it. Alberto Sent from mobile > On 22 Feb 2021, at 1:42 PM, Loic Roque (loiroque) <loiroque@cisco.com> wrote: > > Hi Bruce, > > I saw that proxy.esl.cisco.com is configured on the VM, I had issue in th",
+        "matched_terms": [
+          "jalapeno"
+        ]
+      },
+      {
+        "date": "2021-02-22T17:08:42",
+        "from": "Loic Roque (loiroque) <loiroque@cisco.com>",
+        "subject": "Re: VM setup for Jalapeno",
+        "snippet": "Hi Bruce, Docker require specific configuration for the proxy: https://docs.docker.com/config/daemon/systemd/#httphttps-proxy I added it, now it's working: aldo@jalapeno:~$ sudo docker pull alpine Using default tag: latest latest: Pulling from li",
+        "matched_terms": [
+          "jalapeno"
+        ]
+      }
+    ],
+    "revenue_business_impact": [
+      {
+        "date": "2020-08-25T16:31:47",
+        "from": "Janine Malcolm <jmalcolm@salesforce.com>",
+        "subject": "Re: Dates in Lab for ASR9K CPOC",
+        "snippet": "Bob, It is not ideal, but it should be possible for us to make an educated recommendation for FY22. Thank you, Janine On Mon, Aug 24, 2020 at 3:19 PM Bob Gisiger (bgisiger) <bgisiger@cisco.com> wrote: Ok thank you Janine. Does this impact y",
+        "matched_terms": [
+          "deal"
+        ]
+      },
+      {
+        "date": "2020-08-31T19:05:36",
+        "from": "Bob Gisiger (bgisiger) <bgisiger@cisco.com>",
+        "subject": "Re: TME for quick assist during SFDC CPOC?",
+        "snippet": "Hi Thomas, We have a proto of Rev B FLEX2T card borrowed from the BU that Rishi arranged, so we are good on the hw. We need to use this build as per some of the DE’s on Daxesh’s team. I was able to rm all the files on disk from bash to clear up spac",
+        "matched_terms": [
+          "arr"
+        ]
+      },
+      {
+        "date": "2020-09-01T05:47:20",
+        "from": "Asoka De Saram (asdesara) <asdesara@cisco.com>",
+        "subject": "Re: Final BackBone POC Review",
+        "snippet": "Hi Manuel, Following up on this. We found a native python script running as a docker container is best to check routes and withdraw advertisements. One of our systems engineers, Brandon Him, wrote this script that put IS-IS in to overload when one or mor",
+        "matched_terms": [
+          "win"
+        ]
+      },
+      {
+        "date": "2020-10-05T21:41:48",
+        "from": "Iqbal Syed (isyed) <isyed@cisco.com>",
+        "subject": "Re: Twitter CPOC",
+        "snippet": "Hi Bruce Hope all is well ! We are way past the time for this now…can we have this unit back now ..we need to give it ti one other customer for upcominf opportunity. Iqbal Iqbal Syed Senior Product Manager Direct : +1-408-894-2027 Cell : +1-40",
+        "matched_terms": [
+          "opportunity"
+        ]
+      },
+      {
+        "date": "2020-10-07T03:47:04",
+        "from": "GitHub <noreply@github.com>",
+        "subject": "[GitHub] A new public key was added to your account",
+        "snippet": "The following SSH key was added to your account: jalapeno SHA256:ZlsgET2W2GeKcpU7+0ZTrm+QqEGaGiAbqh47vPIBqS4 If you believe this key was added in error, you can remove the key and disable access at the following location: https://github.com/set",
+        "matched_terms": [
+          "win"
+        ]
+      },
+      {
+        "date": "2020-11-05T23:15:15",
+        "from": "Abdeli- Abdelouahed Brimelli (abrimell) <abrimell@cisco.com>",
+        "subject": "Re: <Smaller Group > Re: Code Drop #6 for MSFT CBF ( Final Code Drop )",
+        "snippet": "Hi Anup, You are correct, regarding code parity in r72x for r663x content. I have been following up on it out and find out two DDTS CSCvr33800 and CSCvr10132, to increase the stats scale to 20K, are not yet in r72x. I’m double committing them to r72x.",
+        "matched_terms": [
+          "win"
+        ]
+      },
+      {
+        "date": "2020-11-05T23:16:44",
+        "from": "Abdeli- Abdelouahed Brimelli (abrimell) <abrimell@cisco.com>",
+        "subject": "Re: <Smaller Group > Re: Code Drop #6 for MSFT CBF ( Final Code Drop )",
+        "snippet": "Hi Anup, You are correct, regarding code parity in r72x for r663x content. I have been following up on it and find out two DDTSs CSCvr33800 and CSCvr10132, to increase the stats scale to 20K, are not yet in r72x. I’m double committing them to r72x. Pl",
+        "matched_terms": [
+          "win"
+        ]
+      },
+      {
+        "date": "2020-11-06T19:46:35",
+        "from": "shubgup2@cisco.com <shubgup2@cisco.com>",
+        "subject": "SUCCESS: CSCuv93809 xrv9k INTERNAL ENGINEERING SMU Build for 7.3.1.19I.DT_IMAGE (xr-dev EFR-00000408193)",
+        "snippet": "*********************************************************************************************** ** For Support : http://wwwin-swx.cisco.com/toolshelp/ ** *************************************************************",
+        "matched_terms": [
+          "win"
+        ]
+      }
+    ],
+    "sonic_open_source": [
+      {
+        "date": "2020-09-01T19:05:13",
+        "from": "Brandon Him (brhim) <brhim@cisco.com>",
+        "subject": "Re: Final BackBone POC Review",
+        "snippet": "Hey Anton, I can share over a private GitHub repository with the latest code with additional directions – I just need your associated GitHub email to provide access. However, it does sound like additional operational overhead, which was my mistake a",
+        "matched_terms": [
+          "github"
+        ]
+      },
+      {
+        "date": "2020-09-01T20:12:52",
+        "from": "Anton Yurchenko <ayurchenko@twitter.com>",
+        "subject": "Re: Final BackBone POC Review",
+        "snippet": "Hi Brandon, Email for my github is ayurchenko@gmail.com, user phila6. About overhead, can you also please share: - the steps to setup container on IOS-XR, trying to understand level of effort, - do you need to re-provision it after OS upgrade, - ho",
+        "matched_terms": [
+          "github"
+        ]
+      },
+      {
+        "date": "2020-10-07T03:47:04",
+        "from": "GitHub <noreply@github.com>",
+        "subject": "[GitHub] A new public key was added to your account",
+        "snippet": "The following SSH key was added to your account: jalapeno SHA256:ZlsgET2W2GeKcpU7+0ZTrm+QqEGaGiAbqh47vPIBqS4 If you believe this key was added in error, you can remove the key and disable access at the following location: https://github.com/set",
+        "matched_terms": [
+          "github"
+        ]
+      },
+      {
+        "date": "2021-01-12T19:20:26",
+        "from": "Enterprise Service Platform Notification <it-esp@cisco.com>",
+        "subject": "ESP: Request Item RITM1068523 comments added -- User Name: brmcdoug Project URL or Name: https://wwwin-github.cisco.com/",
+        "snippet": "Request Item RITM1068523 comments added -- User Name: brmcdoug Project URL or Name: https://wwwin-github.cisco.com/MsftSwan/SwanAgent Request: Hi, my account used to have access to this Github project, but I'm now getting a message that my acc Short",
+        "matched_terms": [
+          "github"
+        ]
+      },
+      {
+        "date": "2021-01-12T19:43:45",
+        "from": "Enterprise Service Platform Notification <it-esp@cisco.com>",
+        "subject": "Request: REQ0930612 - comments updated",
+        "snippet": "RITM1068523 raised by you has been updated. Hello Bruce McDougall (brmcdoug), RITM1068523 raised by you has been updated. Request/Order SLA/Service Level: SR - 2 Days Summary: User Name: brmcdougProject URL or Name: https://wwwin-github.cisco.",
+        "matched_terms": [
+          "github"
+        ]
+      },
+      {
+        "date": "2021-01-12T19:44:03",
+        "from": "Enterprise Service Platform Notification <it-esp@cisco.com>",
+        "subject": "ESP: Request Item RITM1068523 comments added -- User Name: brmcdougProject URL or Name: https://wwwin-github.cisco.com/M",
+        "snippet": "Request Item RITM1068523 comments added -- User Name: brmcdougProject URL or Name: https://wwwin-github.cisco.com/MsftSwan/SwanAgentRequest: Hi, my account used to have access to this Github project, but I'm now getting a message that my acc Short desc",
+        "matched_terms": [
+          "github"
+        ]
+      },
+      {
+        "date": "2021-01-13T00:19:43",
+        "from": "Enterprise Service Platform Notification <it-esp@cisco.com>",
+        "subject": "ESP: Request Item RITM1068523 comments added -- User Name: brmcdougProject URL or Name: https://wwwin-github.cisco.com/M",
+        "snippet": "Request Item RITM1068523 comments added -- User Name: brmcdougProject URL or Name: https://wwwin-github.cisco.com/MsftSwan/SwanAgentRequest: Hi, my account used to have access to this Github project, but I'm now getting a message that my acc Short desc",
+        "matched_terms": [
+          "github"
+        ]
+      },
+      {
+        "date": "2021-01-13T00:19:41",
+        "from": "Enterprise Service Platform Notification <it-esp@cisco.com>",
+        "subject": "Request: REQ0930612 - comments updated",
+        "snippet": "RITM1068523 raised by you has been updated. Hello Bruce McDougall (brmcdoug), RITM1068523 raised by you has been updated. Request/Order SLA/Service Level: SR - 2 Days Summary: User Name: brmcdougProject URL or Name: https://wwwin-github.cisco.",
+        "matched_terms": [
+          "github"
+        ]
+      }
+    ],
+    "segment_routing_srv6": [
+      {
+        "date": "2020-09-02T17:49:04",
+        "from": "Scott Tapley <sctapley@cisco.com>",
+        "subject": "Registration Confirmation:  Service Provider SEVT Labs FY21 on Thursday, October 8, 2020",
+        "snippet": "Dear Bruce, Registrant: Bruce McDougall You are registered for SP LAB: SRv6 uSID. Please see below for the Webex information needed to join this session. Webex Information: LAB: SRv6 uSID: This lab provides hands-on experience with SRv6",
+        "matched_terms": [
+          "srv6",
+          "sid"
+        ]
+      },
+      {
+        "date": "2020-12-17T07:36:59",
+        "from": "Peter Psenak <ppsenak@cisco.com>",
+        "subject": "Re: Flex-Algo link and prefix attributes - TE project",
+        "snippet": "Miro, On 16/12/2020 21:05, Miroslav Los -X (mirlos - PANTHEON TECHNOLOGIES at Cisco) wrote: > Hi Serguei, > > the attribute is an extension of the admin_group attribute, TLV 1088, so > it should be treated similarly. well 1173 can be of any",
+        "matched_terms": [
+          "flex-algo"
+        ]
+      },
+      {
+        "date": "2021-02-25T14:32:55",
+        "from": "Zeeshan Ahmed (zeahmed) <zeahmed@cisco.com>",
+        "subject": "RE: VM setup for Jalapeno - Cisco Milan lab",
+        "snippet": "Hi all, @Bruce Thanks Bruce for adding me. @Alberto There are two dependencies of SRv6 ISIS health app: i) Jalapeno ii) NSO. As Jalapeno is already installed in the lab, we just need to install NSO. It would be great if the version of NSO is 5.3",
+        "matched_terms": [
+          "srv6"
+        ]
+      },
+      {
+        "date": "2021-03-09T16:33:08",
+        "from": "Loic Roque (loiroque) <loiroque@cisco.com>",
+        "subject": "Re: VM setup for Jalapeno - Cisco Milan lab",
+        "snippet": "Hi Bruce, Hi Zeeshan, You can use the following user to access the devices: jalapeno / 20Jala21 Management addresses are 10.58.244.<device-id> considering that device hostname is <device-name>-<device-id> You can get all devices’ name from our demo",
+        "matched_terms": [
+          "sid"
+        ]
+      },
+      {
+        "date": "2021-03-30T18:28:56",
+        "from": "Vibov Bhan (vbhan) <vbhan@cisco.com>",
+        "subject": "Re: Srv6 srte hidden cli",
+        "snippet": "Hi Bruce, I have uploaded 732-14I + SMU’s on Bell setup. You can use the same image 14I Image: /auto/prod_weekly_archive2/bin/7.3.2.14I.DT_IMAGE/ncs5500/ncs5500-goldenk9-x-7.3.2.14I-PROD_BUILD_7_3_2_14I_DT_IMAGE.iso SMU: /auto/eng_smu_",
+        "matched_terms": [
+          "srv6",
+          "srte"
+        ]
+      },
+      {
+        "date": "2021-05-11T18:18:31",
+        "from": "Chris Barwick (chbarwic) <chbarwic@cisco.com>",
+        "subject": "Re: IPv4 space",
+        "snippet": "Hi Bruce, Unfortunately, that space was traded to another BU who returned a /24 within a AS109 supernet. We currently do not have any subnets outside of AS109 available. Open IPv4 space is hard to come by now! Thanks From: Bruce McDougall (brmc",
+        "matched_terms": [
+          "sid"
+        ]
+      },
+      {
+        "date": "2021-06-08T20:20:42",
+        "from": "Melissa Harrison <billing@he.net>",
+        "subject": "[HE#4843559] Re: FW: 485th Day Reminder - Additional PO needed to PO # TUS202425911 for Supplier HURRICANE ELECTRIC LLC",
+        "snippet": "Hi Bruce, It was under TUS202425911. This was the last invoice under that PO and the last payment that was made as well, besides the $6.13 balance, that was paid with a card. I will email all invoices to you momentarily as well. I really appreciat",
+        "matched_terms": [
+          "sid"
+        ]
+      },
+      {
+        "date": "2021-06-16T04:51:38",
+        "from": "Renuka Marichannappa (pmaricha) <pmaricha@cisco.com>",
+        "subject": "RE: Crosswork data gateway unknown operational state",
+        "snippet": "+Basheer Basheer, From controller gateway logs I see below. Can you take a look. CDG Showtech is available on CW at /home/cw-admin/DG-2.0.0-dgwsrte-2021-06-16--04-41-19/cdg/logs/components/ Thanks Renuka 2021-06-16T04:39:54.848 INFO - start",
+        "matched_terms": [
+          "srte"
+        ]
+      }
+    ],
+    "leadership_mentoring": [
+      {
+        "date": "2020-09-02T17:49:04",
+        "from": "Scott Tapley <sctapley@cisco.com>",
+        "subject": "Registration Confirmation:  Service Provider SEVT Labs FY21 on Thursday, October 8, 2020",
+        "snippet": "Dear Bruce, Registrant: Bruce McDougall You are registered for SP LAB: SRv6 uSID. Please see below for the Webex information needed to join this session. Webex Information: LAB: SRv6 uSID: This lab provides hands-on experience with SRv6",
+        "matched_terms": [
+          "sevt"
+        ]
+      },
+      {
+        "date": "2022-09-22T16:46:19",
+        "from": "Jose Liste (jliste) <jliste@cisco.com>",
+        "subject": "RE: [E] Re: A variety of SR/SRv6 config examples",
+        "snippet": "Hello Gyan, I would like to offer you access to our SRv6 uSID training materials where we cover the concepts you inquire below. I will be ready to share them next MON Would this be of interest to you? Thanks, Jose From: Gyan Mishra <hayabu",
+        "matched_terms": [
+          "training"
+        ]
+      },
+      {
+        "date": "2022-11-03T19:47:10",
+        "from": "Rob Murphy (robermur) <robermur@cisco.com>",
+        "subject": "Rob Murphy (robermur) shared the folder \"CLEUR 2023\" with you.",
+        "snippet": "Rob Murphy (robermur) shared a folder with you Here's the folder that Rob Murphy (robermur) shared with you. CLEUR 2023 This link only works for the direct recipients of this message. Open Privacy Statement",
+        "matched_terms": [
+          "rob murphy"
+        ]
+      },
+      {
+        "date": "2022-11-03T19:49:02",
+        "from": "Rob Murphy (robermur) <robermur@cisco.com>",
+        "subject": "Rob Murphy (robermur) shared \"CLEUR 2023\" with you.",
+        "snippet": "Rob Murphy (robermur) shared a file with you Here's the document that Rob Murphy (robermur) shared with you. CLEUR 2023 This link only works for the direct recipients of this message. Open Privacy Statement",
+        "matched_terms": [
+          "rob murphy"
+        ]
+      },
+      {
+        "date": "2022-11-16T23:36:33",
+        "from": "Cisco dCloud <nobody@cisco.com>",
+        "subject": "Cisco dCloud: Rob Murphy shared a session with you",
+        "snippet": "A session is shared with you. Rob Murphy shared the session CLEUR SRv6 Master with you. Start: 22-11-17 00:30 (UTC) End: 22-11-17 06:30 (UTC) Data Center: RTP To access this session, go to the RTP data center and log in with your Cisco.com",
+        "matched_terms": [
+          "rob murphy"
+        ]
+      },
+      {
+        "date": "2022-11-18T16:38:48",
+        "from": "Cisco dCloud <nobody@cisco.com>",
+        "subject": "Cisco dCloud: Rob Murphy shared a session with you",
+        "snippet": "A session is shared with you. Rob Murphy shared the session CLEUR SRv6 Master with you. Start: 22-11-18 16:36 (UTC) End: 22-11-19 04:45 (UTC) Data Center: RTP To access this session, go to the RTP data center and log in with your Cisco.com",
+        "matched_terms": [
+          "rob murphy"
+        ]
+      },
+      {
+        "date": "2022-11-18T17:33:57",
+        "from": "Cisco dCloud <nobody@cisco.com>",
+        "subject": "Cisco dCloud: Rob Murphy shared a session with you",
+        "snippet": "A session is shared with you. Rob Murphy shared the session CLEUR SRv6 Master v2 with you. Start: 22-11-18 17:45 (UTC) End: 22-11-19 05:45 (UTC) Data Center: RTP To access this session, go to the RTP data center and log in with your Cisco.c",
+        "matched_terms": [
+          "rob murphy"
+        ]
+      },
+      {
+        "date": "2022-11-22T16:09:12",
+        "from": "Cisco dCloud <nobody@cisco.com>",
+        "subject": "Cisco dCloud: Rob Murphy shared a session with you",
+        "snippet": "A session is shared with you. Rob Murphy shared the session CLEUR SRv6 Master v4 with you. Start: 22-11-22 16:08 (UTC) End: 22-11-23 05:15 (UTC) Data Center: RTP To access this session, go to the RTP data center and log in with your Cisco.c",
+        "matched_terms": [
+          "rob murphy"
+        ]
+      }
+    ],
+    "enterprise_customers": [
+      {
+        "date": "2021-06-21T21:04:58",
+        "from": "Jose Liste (jliste) <jliste@cisco.com>",
+        "subject": "RE: Twitch-Cisco - Segment Routing Discussion",
+        "snippet": "Hi Bruce, I will review your comments later – thanks ! Nothing especial at the VRE position – IOS-XR, GoBGP, etc. Jose From: Bruce McDougall (brmcdoug) <brmcdoug@cisco.com> Sent: Monday, June 21, 2021 2:04 PM To: Jose Liste (jliste) <jliste@cisc",
+        "matched_terms": [
+          "twitch"
+        ]
+      },
+      {
+        "date": "2021-06-23T06:50:00",
+        "from": "Niall Masterson (nimaster) <nimaster@cisco.com>",
+        "subject": "Re: Jose Liste (jliste) replied to a comment in \"cisco_twitch_epe-review_20210617_rev1a\"",
+        "snippet": "Hi Bruce As discussed, here’s a topology with ip-addressing that we could use for the lab setup: https://cisco-my.sharepoint.com/:p:/r/personal/nimaster_cisco_com/Documents/Twitch%20SR%20EPE%20BGP-LU/Twitch%20-%20SR%20EPE%20BGP-LU%20Lab.pptx?d=w8c7465",
+        "matched_terms": [
+          "twitch"
+        ]
+      },
+      {
+        "date": "2021-06-23T21:57:55",
+        "from": "Jose Liste (jliste) <jliste@cisco.com>",
+        "subject": "RE: Jose Liste (jliste) replied to a comment in \"cisco_twitch_epe-review_20210617_rev1a\"",
+        "snippet": "Bruce, I heard of the same complain regarding people.cisco.com; sure will help you out Satya, Sundaram, I assume that the code (epe to lu) is present in 7.3.3 branch However, I could not locate weekly 7.3.3 images in the engineering servers that I f",
+        "matched_terms": [
+          "twitch"
+        ]
+      },
+      {
+        "date": "2021-06-25T17:57:39",
+        "from": "Jose Liste (jliste) <jliste@cisco.com>",
+        "subject": "RE: Twitch-Cisco - Segment Routing Discussion",
+        "snippet": "Bruce, Niall, I have placed the latest weekly 7.3.2 image (7.3.2.29I) in one of my servers (see below) Let me know if you have any problems downloading the image Jose ============= SCP server name: nastix credentials: webguest / cisco123 [jli",
+        "matched_terms": [
+          "twitch"
+        ]
+      },
+      {
+        "date": "2021-10-26T08:41:12",
+        "from": "Niall Masterson (nimaster) <nimaster@cisco.com>",
+        "subject": "Re: Twitch SR EPE",
+        "snippet": "Hi Bruce Yes, that would be great. I upgraded one of the XRv9ks to the 7.3.2 CCO image. I see the “advertise epe-bgp labeled-unicast” command is there, so I’ll give the use-case option B a try. Thanks Niall From: Bruce McDougall (brmcdoug) <b",
+        "matched_terms": [
+          "twitch"
+        ]
+      },
+      {
+        "date": "2022-01-10T23:29:58",
+        "from": "Carolynn Vogt (cavogt) <cavogt@cisco.com>",
+        "subject": "Re: [HE#4863639] Re: FW: Hurricane Electric POs and unpaid invoices - USA000EP185381",
+        "snippet": "Hi Bruce, We can help you with different options. Can you give me some background on the type of services needed? If Colo is preferred, what geography are you looking for? We have preferred suppliers like Equinix and NTT that cover most geographies and",
+        "matched_terms": [
+          "equinix"
+        ]
+      },
+      {
+        "date": "2023-07-18T20:29:58",
+        "from": "Jiri Chaloupka (jichalou) <jichalou@cisco.com>",
+        "subject": "Re: Twitch / MIG conversation",
+        "snippet": "Image + config guide https://cisco.box.com/s/fgeio57ha4y3xdqawsu9j49trdwpj3ba enjoy Jiri From: pbrisset@cisco.com When: 1:00 PM - 1:30 PM July 18, 2023 Subject: Twitch / MIG conversation Location: https://cisco.webex.com/cisco/j.php?MTID=",
+        "matched_terms": [
+          "twitch"
+        ]
+      },
+      {
+        "date": "2023-10-06T17:44:31",
+        "from": "Josh Dahl (jodahl) <jodahl@cisco.com>",
+        "subject": "Re: Sync with Cisco on Test Plan",
+        "snippet": "That’s great, let us know if you need any help. Josh From: Tim Jackson <tjackson@equinix.com> Date: Friday, October 6, 2023 at 6:34 AM To: Josh Dahl (jodahl) <jodahl@cisco.com>, Don Ewald (doewald) <doewald@cisco.com>, Zack Haven (zhaven) <zhaven@",
+        "matched_terms": [
+          "equinix"
+        ]
+      }
+    ],
+    "cilium_isovalent": [
+      {
+        "date": "2021-09-03T09:13:31",
+        "from": "onong <notifications@github.com>",
+        "subject": "Re: [projectcalico/vpp-dataplane] calico-vpp containers won't come - k8s cluster on ubuntu 20.04 VM (#222)",
+        "snippet": "Also, I can see that you are using the \"prerelease\" tag in the yaml. I would suggest to use the latest 0.16.0 release tag. Here's the yaml location: https://raw.githubusercontent.com/projectcalico/vpp-dataplane/release/v0.16.0-calicov3.20.0/yaml/genera",
+        "matched_terms": [
+          "k8s"
+        ]
+      },
+      {
+        "date": "2021-09-03T15:12:01",
+        "from": "Teppei Kamata (tkamata) <tkamata@cisco.com>",
+        "subject": "Re: Quick syncup for Jalapeno in Japan lab",
+        "snippet": "Hi Bruce-san, Sorry for the delayed update. I had stacked SRv6 MUP related works... I checked your script and I have one question on this. in the startup.sh, ubuntu-cdn-vm.xml is commented out ubuntu-k8s-node.xml is used in your script as below.",
+        "matched_terms": [
+          "k8s"
+        ]
+      },
+      {
+        "date": "2021-09-21T15:43:25",
+        "from": "Onong Tayeng (otayeng) <otayeng@cisco.com>",
+        "subject": "Re: Help with Calico-VPP?",
+        "snippet": "No tweaking ought to be necessary other than what’s in https://docs.projectcalico.org/getting-started/kubernetes/vpp/getting-started Could you gather the logs so we can take a look? calivppctl export -- Onong From: \"Bruce McDougall (brmcdo",
+        "matched_terms": [
+          "kubernetes"
+        ]
+      },
+      {
+        "date": "2021-10-14T15:15:05",
+        "from": "Teppei Kamata (tkamata) <tkamata@cisco.com>",
+        "subject": "Re: Quick syncup for Jalapeno in Japan lab",
+        "snippet": "Hi Bruce-san, Thank you for your advice!! Today, Japan is already 0:00 AM so I can’t check it today.. you can access on my environment. Access is here. ssh tkamata@10.71.134.249 tkamata@10.71.134.249's password:cisco Kubernetes is running on this",
+        "matched_terms": [
+          "kubernetes"
+        ]
+      },
+      {
+        "date": "2022-04-26T18:58:27",
+        "from": "Francesco Lombardo <franclombardo@gmail.com>",
+        "subject": "Re: K8s on Vagrant VM",
+        "snippet": "Honestly it wasn't my choice, the guys at calicovpp suddenly decided to use it instead of docker then I followed that path to be fully compliant, but I don't think it's a problem to deploy a docker based cluster. regards, Francesco Lombardo Il gi",
+        "matched_terms": [
+          "k8s"
+        ]
+      },
+      {
+        "date": "2022-04-27T07:09:08",
+        "from": "Francesco Lombardo <franclombardo@gmail.com>",
+        "subject": "Re: K8s on Vagrant VM",
+        "snippet": "Yes it works, if you want we can execute the whole process on my environment during a call and compare it. Regards, Francesco Lombardo Il giorno mar 26 apr 2022 alle ore 21:26 Bruce McDougall (brmcdoug) <brmcdoug@cisco.com> ha scritto: Interesti",
+        "matched_terms": [
+          "k8s"
+        ]
+      },
+      {
+        "date": "2022-08-25T20:08:05",
+        "from": "Pablo Mestre (pmestre) <pmestre@cisco.com>",
+        "subject": "dCloud SP Beta Invite :: Cisco VNF + CNF Automation with NSO, ESC, Openstack and Kubernetes v1",
+        "snippet": "For us to provide the best content possible we would like to ask for your time in helping us with the QA the following lab. We have a new Lab called Cisco VNF + CNF Automation with NSO, ESC, Openstack and Kubernetes v1 that we would like your time",
+        "matched_terms": [
+          "kubernetes"
+        ]
+      },
+      {
+        "date": "2022-09-06T16:41:40",
+        "from": "Cisco dCloud <nobody@cisco.com>",
+        "subject": "Cisco dCloud: Pablo Mestre shared custom content with you",
+        "snippet": "Custom Content is shared with you. Pablo Mestre shared the custom content Cisco VNF + CNF Automation with NSO, ESC, Openstack and Kubernetes v1 - SPQA - 20220825 with you. Data Center: RTP To access this content, go to the RTP data center and",
+        "matched_terms": [
+          "kubernetes"
+        ]
+      }
+    ],
+    "innovation_patents": [
+      {
+        "date": "2022-09-23T20:04:44",
+        "from": "Mishra, Gyan S <gyan.s.mishra@verizon.com>",
+        "subject": "Re: [E] Re: A variety of SR/SRv6 config examples",
+        "snippet": "Hi Jose Thank you for chiming in. I saw on segment-routing.net the SRv6 ultra scale 26 uSID at line rate link below. I wanted to do a similar test in my lab. https://www.segment-routing.net/demos/26-usid-push-linerate/ In the policy it show",
+        "matched_terms": [
+          "segment-routing.net"
+        ]
+      },
+      {
+        "date": "2023-04-13T20:33:29",
+        "from": "Darren Dukes (ddukes) <ddukes@cisco.com>",
+        "subject": "Re: GitHub org for SRv6 labs, demos, etc.?",
+        "snippet": "Using Kubernetes as an example, I would say only use and promote github.com/segmentrouting. Single org, consistent control, consistent publishing to segment-routing.net, as well as any lab or demos. See: https://github.com/kubernetes/org#readme http",
+        "matched_terms": [
+          "segment-routing.net"
+        ]
+      },
+      {
+        "date": "2023-09-13T14:11:04",
+        "from": "Ahmed Abdelsalam (ahabdels) <ahabdels@cisco.com>",
+        "subject": "Re: SRv6 uSID IS-IS/Merged in FRR",
+        "snippet": "Hi Bruce, Indeed, another blog post on SRv6 uSID fabric with IS-IS and BGP will be interesting. We will build a SONiC image for you once we close few upcoming SONiC deadlines. Cheers, Ahmed From: Bruce McDougall (brmcdoug) <brmcdoug@cisco.com",
+        "matched_terms": [
+          "blog post"
+        ]
+      },
+      {
+        "date": "2025-09-19T06:51:41",
+        "from": "Александр Чурсин <achursin1986@gmail.com>",
+        "subject": "Re: SR Sonic example",
+        "snippet": "Hi Bruce, I showed outputs the patched Sonic you shared . Will be trying the newest FRR . FRR 10.4 has static option, but it seems a newer Linux kernel is required as well … I am wondering how they do steering : https://www.segment-routing.net/co",
+        "matched_terms": [
+          "segment-routing.net"
+        ]
+      },
+      {
+        "date": "2026-03-25T15:00:43",
+        "from": "Brent Foster (brfoster) <brfoster@cisco.com>",
+        "subject": "Re: Digital Twin",
+        "snippet": "++Roque, Vijay, Javier, Dan Hi Team, I discussed this today with Roque and he pointed me to this Outshift whitepaper: https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/Swisscom%20Whitepaper.pdf This lays out a vision for network oper",
+        "matched_terms": [
+          "whitepaper"
+        ]
+      }
+    ]
+  },
+  "key_people_mentions": {
+    "bell": 55,
+    "oracle": 54,
+    "adobe": 15,
+    "geico": 11,
+    "microsoft": 9,
+    "nico": 9,
+    "dan stacks": 2,
+    "john dorval": 1,
+    "rakuten": 1,
+    "nacho": 1
+  },
+  "revenue_signals": [
+    {
+      "date": "2020-11-05T23:15:15",
+      "from": "Abdeli- Abdelouahed Brimelli (abrimell) <abrimell@cisco.com>",
+      "subject": "Re: <Smaller Group > Re: Code Drop #6 for MSFT CBF ( Final Code Drop )",
+      "snippet": "Hi Anup, You are correct, regarding code parity in r72x for r663x content. I have been following up on it out and find out two DDTS CSCvr33800 and CSCvr10132, to increase the stats scale to 20K, are not yet in r72x. I’m double committing them to r72x."
+    },
+    {
+      "date": "2020-11-05T23:16:44",
+      "from": "Abdeli- Abdelouahed Brimelli (abrimell) <abrimell@cisco.com>",
+      "subject": "Re: <Smaller Group > Re: Code Drop #6 for MSFT CBF ( Final Code Drop )",
+      "snippet": "Hi Anup, You are correct, regarding code parity in r72x for r663x content. I have been following up on it and find out two DDTSs CSCvr33800 and CSCvr10132, to increase the stats scale to 20K, are not yet in r72x. I’m double committing them to r72x. Pl"
+    },
+    {
+      "date": "2021-01-12T19:20:26",
+      "from": "Enterprise Service Platform Notification <it-esp@cisco.com>",
+      "subject": "ESP: Request Item RITM1068523 comments added -- User Name: brmcdoug Project URL or Name: https://wwwin-github.cisco.com/",
+      "snippet": "Request Item RITM1068523 comments added -- User Name: brmcdoug Project URL or Name: https://wwwin-github.cisco.com/MsftSwan/SwanAgent Request: Hi, my account used to have access to this Github project, but I'm now getting a message that my acc Short"
+    },
+    {
+      "date": "2021-01-12T19:44:03",
+      "from": "Enterprise Service Platform Notification <it-esp@cisco.com>",
+      "subject": "ESP: Request Item RITM1068523 comments added -- User Name: brmcdougProject URL or Name: https://wwwin-github.cisco.com/M",
+      "snippet": "Request Item RITM1068523 comments added -- User Name: brmcdougProject URL or Name: https://wwwin-github.cisco.com/MsftSwan/SwanAgentRequest: Hi, my account used to have access to this Github project, but I'm now getting a message that my acc Short desc"
+    },
+    {
+      "date": "2021-01-13T00:19:43",
+      "from": "Enterprise Service Platform Notification <it-esp@cisco.com>",
+      "subject": "ESP: Request Item RITM1068523 comments added -- User Name: brmcdougProject URL or Name: https://wwwin-github.cisco.com/M",
+      "snippet": "Request Item RITM1068523 comments added -- User Name: brmcdougProject URL or Name: https://wwwin-github.cisco.com/MsftSwan/SwanAgentRequest: Hi, my account used to have access to this Github project, but I'm now getting a message that my acc Short desc"
+    },
+    {
+      "date": "2021-03-09T16:33:08",
+      "from": "Loic Roque (loiroque) <loiroque@cisco.com>",
+      "subject": "Re: VM setup for Jalapeno - Cisco Milan lab",
+      "snippet": "Hi Bruce, Hi Zeeshan, You can use the following user to access the devices: jalapeno / 20Jala21 Management addresses are 10.58.244.<device-id> considering that device hostname is <device-name>-<device-id> You can get all devices’ name from our demo"
+    },
+    {
+      "date": "2021-06-08T20:20:42",
+      "from": "Melissa Harrison <billing@he.net>",
+      "subject": "[HE#4843559] Re: FW: 485th Day Reminder - Additional PO needed to PO # TUS202425911 for Supplier HURRICANE ELECTRIC LLC",
+      "snippet": "Hi Bruce, It was under TUS202425911. This was the last invoice under that PO and the last payment that was made as well, besides the $6.13 balance, that was paid with a card. I will email all invoices to you momentarily as well. I really appreciat"
+    },
+    {
+      "date": "2021-06-25T16:35:39",
+      "from": "Kim Nutini (knutini) <knutini@cisco.com>",
+      "subject": "RE: Hurricane Electric POs and unpaid invoices",
+      "snippet": "Hi Bruce, Just need them to confirm if both invoices 98332198IN and 98329329IN billed at $400.00 are apart of the prepayment, if so we need credits to clear invoice 98332198IN and overpayment of invoice 98329329IN. If they are billing on their side to"
+    },
+    {
+      "date": "2021-07-13T21:05:45",
+      "from": "Kim Nutini (knutini) <knutini@cisco.com>",
+      "subject": "RE: [HE#4863639] Re: FW: Hurricane Electric POs and unpaid invoices - PO USA000EP87633",
+      "snippet": "Hi Bruce, Removing Supplier… The previous PO was issued from iProc (Oracle) those invoices were sent to our alias (invoice@cisco.com) and processed. Ariba requirements are that the Supplier submits their invoices thru Ariba. That should have bee"
+    },
+    {
+      "date": "2021-08-09T08:58:30",
+      "from": "Ketan Talaulikar (ketant) <ketant@cisco.com>",
+      "subject": "BGP EPE SIDs configured as index not absolute labels (was RE: CSCvz24737 Peer SID TLV flag issue)",
+      "snippet": "Thanks Serguei for catching this. Hi Satya, The bigger issue behind this is that it looks like we are allowing config of BGP EPE SIDs using index instead of only allowing absolute values (preferably operators pick this from SRLB). Was this requireme"
+    },
+    {
+      "date": "2022-04-18T18:58:44",
+      "from": "Melissa Harrison <billing@he.net>",
+      "subject": "[HE#4882391] Re: FW: FW: Transactions from Hurricane Electric LLC",
+      "snippet": "Hello, Please find the enclosed reconciliation on our side, for your account. Please review and advise if you are missing any invoices, if any payments are to be re-applied, etc. Regards, Melissa Harrison 510-580-4184 direct Hurricane Electric A"
+    },
+    {
+      "date": "2022-05-26T14:46:46",
+      "from": "Melissa Harrison <billing@he.net>",
+      "subject": "[HE#5203771] Re: Transactions from Hurricane Electric LLC",
+      "snippet": "Hello Richard, All invoices have already been provided, as the account is now closed and we are just awaiting final payment. There will be no further invoices billed or emailed on the account. Please advise what you will need me to do on my side."
+    },
+    {
+      "date": "2022-07-13T23:11:41",
+      "from": "Kamran Raza (skraza) <skraza@cisco.com>",
+      "subject": "Re: Difference in Ultimate Segment Decap behavior between XR 7.4.x and 7.7.x",
+      "snippet": "Bruce, In our initial support, USD was always supposed to carry Ipv6 (given IGP could only apply SRv6 Encap for ipv6 prefixes, and TE remote steering was not supported). So there was always an assumption of doing lookup on ipv6 table for inner pkt afte"
+    },
+    {
+      "date": "2022-07-21T14:48:59",
+      "from": "Manasa Bai -X (mabai - ACCENTURE SOLUTIONS PRIVATE LIMITED at Cisco) <mabai@cisc",
+      "subject": "RE: [HE#4882391] Re: FW: FW: Transactions from Hurricane Electric LLC",
+      "snippet": "Hi Kim, As per the email, all invoices are processed manually in Oracle except the invoice 98349815IN (URN-993548552) due to insufficient funds. Invoice 03/01/2020 98335061IN 400.00 URN 993548558/PO USA000EP87633, rejected do to Ariba PO need to be"
+    },
+    {
+      "date": "2022-08-25T20:08:05",
+      "from": "Pablo Mestre (pmestre) <pmestre@cisco.com>",
+      "subject": "dCloud SP Beta Invite :: Cisco VNF + CNF Automation with NSO, ESC, Openstack and Kubernetes v1",
+      "snippet": "For us to provide the best content possible we would like to ask for your time in helping us with the QA the following lab. We have a new Lab called Cisco VNF + CNF Automation with NSO, ESC, Openstack and Kubernetes v1 that we would like your time"
+    },
+    {
+      "date": "2022-09-20T01:27:43",
+      "from": "Patrick Finnegan (pfinnega) <pfinnega@cisco.com>",
+      "subject": "Re: Sample CML topology YAML files",
+      "snippet": "To be completely transparent – I have never worked with CML. Quick google and found this repo that looks to have some example https://github.com/CiscoDevNet/cml-community Go Eagles ! .:|:.:|:. CISCO ▪ Patrick Finnegan Join the NSO Digital Ecosys"
+    },
+    {
+      "date": "2022-09-22T15:01:02",
+      "from": "Darren Dukes (ddukes) <ddukes@cisco.com>",
+      "subject": "EN hackathon: SDWAN SRv6 underlay steering",
+      "snippet": "Notes: BMP for XE- double check Jean-Marc B – validate hierarchical sdwan idea Darren to recruit more coders. From: brmcdoug@cisco.com When: 10:30 AM - 11:00 AM September 22, 2022 Subject: EN hackathon: SDWAN SRv6 underlay steering Location:"
+    },
+    {
+      "date": "2022-09-22T18:55:32",
+      "from": "Darren Dukes (ddukes) <ddukes@cisco.com>",
+      "subject": "Re: EN hackathon: SDWAN SRv6 underlay steering",
+      "snippet": "I have my own UCS I could carve up, but I’ve not done much with traffic sources on that box – just some trex flows and getting stateful flows wasn’t possible for me. Do you have more realistic traffic sources? Darren On 2022-09-22, 1:55 PM,"
+    },
+    {
+      "date": "2022-09-27T22:59:40",
+      "from": "Mishra, Gyan S <gyan.s.mishra@verizon.com>",
+      "subject": "Re: [E] RE: SR-MPLS versus SRv6 ?",
+      "snippet": "Hi Clarence / All In my email I had typo related to mass scale tests of XRd. The FD.IO / VPP related tests are just for K8 compute node container networking replacement of CNI with VPP for better performance which I plan to test using similar to w"
+    },
+    {
+      "date": "2022-09-29T14:29:28",
+      "from": "Mishra, Gyan S <gyan.s.mishra@verizon.com>",
+      "subject": "Re: [E] Re: A variety of SR/SRv6 config examples",
+      "snippet": "Hi Jacob Following up on our discussion last week. 1 local calculation 2 static configuration 3 provided by SR-PCE #1 Local policy -Used by lab 1 & 2 Local calculation means, that ingress PE will calculate path based on the constrains For"
+    },
+    {
+      "date": "2022-09-29T23:37:08",
+      "from": "Mishra, Gyan S <gyan.s.mishra@verizon.com>",
+      "subject": "Re: [E] Large scale XRd topology",
+      "snippet": "Hi Bruce I think this topology looks perfect showing what it’s trying to emulate which is DC K8 compute nodes micro services over an SRv6 uSID core disjoint FA topologies FA 128 and 129 network slices low ultra low latency path across the latency FA an"
+    },
+    {
+      "date": "2022-10-06T20:28:38",
+      "from": "Darren Dukes (ddukes) <ddukes@cisco.com>",
+      "subject": "Hackathon SRv6 SDWAN",
+      "snippet": "Notes from today: 1 – we need a topo + setup. We are thinking two CEDGES (C8kv) connected to a diamond topo of IOS XR SRv6 virtual machines (bruce can we use ENXR or vXR for the core diamond topo? We know jalapeno works with that) 1.5 – we need an SDWAN"
+    },
+    {
+      "date": "2022-10-06T21:04:47",
+      "from": "Bruce McDougall (brmcdoug) <brmcdoug@cisco.com>",
+      "subject": "Re: Hackathon SRv6 SDWAN",
+      "snippet": "Hi guys, Sorry I wasn’t able to make the call today. Thanks for the notes! Comments inline: -Bruce From: \"Darren Dukes (ddukes)\" <ddukes@cisco.com> Date: Thursday, October 6, 2022 at 1:28 PM To: \"Jaganbabu Rajamanickam (jrajaman)\" <jrajaman@cisco.c"
+    },
+    {
+      "date": "2022-10-07T17:38:35",
+      "from": "Darren Dukes (ddukes) <ddukes@cisco.com>",
+      "subject": "Re: Hackathon SRv6 SDWAN",
+      "snippet": "We have one problem with adding people to the hackathon project – they have a formal limit of 6 people per team. I count 7 on this list. If we have someone who doesn’t mind being an informal participants (if we win something we would only be able to ment"
+    },
+    {
+      "date": "2022-10-10T22:44:58",
+      "from": "Darren Dukes (ddukes) <ddukes@cisco.com>",
+      "subject": "Re: Hackathon SRv6 SDWAN",
+      "snippet": "Thanks Bruce! I’ll log in tonight :) ________________________________ From: Bruce McDougall (brmcdoug) <brmcdoug@cisco.com> Sent: Sunday, October 9, 2022 11:24:01 PM To: Darren Dukes (ddukes) <ddukes@cisco.com>; Jaganbabu Rajamanickam (jrajaman) <jra"
+    },
+    {
+      "date": "2022-10-15T20:29:45",
+      "from": "Gyan Mishra <hayabusagsm@gmail.com>",
+      "subject": "Re: SRv6 DC use case",
+      "snippet": "Bruce In our XRd lab setup I wonder if we can build a XRd container VM that has P4 PIM instance pipeline programming for SRv6 Proxy and we can do it in software SRv6 PGM endpoint flavor and see if proxy functionality we can get it to work in the lab"
+    },
+    {
+      "date": "2022-12-08T00:06:52",
+      "from": "Angie Yamanaka -X (ayamanak - CRAWFORD COMMUNICATIONS GROUP at Cisco) <ayamanak@",
+      "subject": "Cisco Live EMEA 2023 - Meet the Engineer (Segment Routing)",
+      "snippet": "Hi all Hope everyone is doing well. We received an email from an attendee asking to meet with an engineer with specific questions. Based on your MTE topics, it looks like this may fall under your expertise. Can you please review the following and let me"
+    },
+    {
+      "date": "2023-02-21T22:50:02",
+      "from": "Bill Stephens <notifications@github.com>",
+      "subject": "[sbezverk/gobmp] Link LS bandwidth values (Issue #213)",
+      "snippet": "I discovered that I was getting nonsensical values in the 'max_link_bw'. Upon investigation my 10G and beyond link BW values were overflowing the uint32 type for this value set at bps. I have updated my local code to set this at mbps inside the uint32 typ"
+    },
+    {
+      "date": "2023-04-03T06:46:35",
+      "from": "Gyan Mishra <hayabusagsm@gmail.com>",
+      "subject": "Re: MPLS WC 2023",
+      "snippet": "Hi Jakub We noticed an error in the config typo had BGP-LU accidentally and we removed it though that maybe the culprit but we still see the VPN overlay recursive drop issue. The locators are all learned directly via eBGP peering on the inter as t"
+    },
+    {
+      "date": "2023-04-06T12:30:33",
+      "from": "Matt Schmitz (mattsc) <mattsc@cisco.com>",
+      "subject": "RE: ASP Jalapeño Programmability Project",
+      "snippet": "Hi Bruce – Let me know if you can access this: https://wwwin-github.cisco.com/gve/jalapeno-api-gateway Matt From: Bruce McDougall (brmcdoug) <brmcdoug@cisco.com> Sent: Wednesday, April 5, 2023 6:26 PM To: Matt Schmitz (mattsc) <mattsc@cisco.c"
+    }
+  ],
+  "global_engagements": [
+    {
+      "date": "2020-08-13T16:50:01",
+      "from": "Dana Durant <dana.durant@zayo.com>",
+      "subject": "Re: Zayo Service Completion Notice - Service Order 1216006",
+      "snippet": "Hey Bruce sorry to hear this. Call the Zayo NCC at Post Install Technical Support For activation assistance, please contact 866-236-2824, Options 1-7-1-3 Dana Durant Service Delivery Coordinator | Zayo Group Zayo | Our Fiber Fuels Global Innovati"
+    },
+    {
+      "date": "2021-06-08T20:05:30",
+      "from": "Melissa Harrison <billing@he.net>",
+      "subject": "[HE#4843559] Re: FW: 485th Day Reminder - Additional PO needed to PO # TUS202425911 for Supplier HURRICANE ELECTRIC LLC",
+      "snippet": "Hello Bruce, The prepayment ran out at the end of January, so when the payment was made on 1/31/21, for $400, it paid for February. After the prepayment, there was a small balance of $6.13, but this was paid with an American Express card on 2/19/20, w"
+    },
+    {
+      "date": "2021-08-06T20:13:54",
+      "from": "Alan Ball (alaball) <alaball@cisco.com>",
+      "subject": "RE: Zayo - Acct 031746 - Annual Billing DIA IN FREMONT",
+      "snippet": "Hi Michele, you can let Zayo know that we want to cancel the DIA circuit. Alan Ball From: Michele DeVisser -X (mdevisse - CAMEO GLOBAL INC at Cisco) <mdevisse@cisco.com> Sent: Friday, August 6, 2021 11:18 AM To: Alan Ball (alaball) <alaball@cisco."
+    },
+    {
+      "date": "2021-08-09T14:00:10",
+      "from": "Michele DeVisser -X (mdevisse - CAMEO GLOBAL INC at Cisco) <mdevisse@cisco.com>",
+      "subject": "DISCO - Zayo - Acct 031746 - Annual Billing DIA IN FREMONT",
+      "snippet": "Hi Alan, Thank you for the status. I will let them know and put an order through. Thank you. Michele From: Alan Ball (alaball) <alaball@cisco.com> Sent: Friday, August 6, 2021 4:14 PM To: Michele DeVisser -X (mdevisse - CAMEO GLOBAL INC at Cisco)"
+    },
+    {
+      "date": "2021-09-01T06:06:49",
+      "from": "Teppei Kamata (tkamata) <tkamata@cisco.com>",
+      "subject": "Re: Quick syncup for Jalapeno in Japan lab",
+      "snippet": "Hi Bruce-san, Thank you for great update in Impact! Yes, VM info is important. I tried to create a QCOW2 image from cloud image, but I don't think I can use it as it is, so I was just about to ask a question. And SRv6/VPP is also excellent work!"
+    },
+    {
+      "date": "2021-09-03T15:12:01",
+      "from": "Teppei Kamata (tkamata) <tkamata@cisco.com>",
+      "subject": "Re: Quick syncup for Jalapeno in Japan lab",
+      "snippet": "Hi Bruce-san, Sorry for the delayed update. I had stacked SRv6 MUP related works... I checked your script and I have one question on this. in the startup.sh, ubuntu-cdn-vm.xml is commented out ubuntu-k8s-node.xml is used in your script as below."
+    },
+    {
+      "date": "2021-09-05T12:29:36",
+      "from": "Teppei Kamata (tkamata) <tkamata@cisco.com>",
+      "subject": "Re: Quick syncup for Jalapeno in Japan lab",
+      "snippet": "Hi Bruce-san, Thank you for update! I forgot to check the iptables. Here is the output of iptables command and routing table. tkamata@tkamata:~$ sudo iptables -t nat --list | grep 8099 DNAT tcp -- anywhere anywhere"
+    },
+    {
+      "date": "2021-09-08T15:13:12",
+      "from": "Smartsheet Forms <forms@app.smartsheet.com>",
+      "subject": "Confirmation - Global Mass PO Closure Tracking Sheet",
+      "snippet": "Thank you for submitting your entry. A copy is included below for your records. Global Mass PO Closure Tracking Sheet Please input Your CEC ID brmcdoug Please input requestor ID of PO brmcdoug Input PO Number USA000EP185381 Supplier Name"
+    },
+    {
+      "date": "2021-10-11T06:28:07",
+      "from": "Teppei Kamata (tkamata) <tkamata@cisco.com>",
+      "subject": "Re: Quick syncup for Jalapeno in Japan lab",
+      "snippet": "Hi Bruce-san, Sorry for my long silence. I prepared BM server for nested environment was not stable… Currently, Jalapeno and lab is working stable on the BM server. In your xml file, cdn-ubuntu is connecting to R01 via tag1011, but R01 doesn’t h"
+    },
+    {
+      "date": "2021-10-13T03:05:13",
+      "from": "Teppei Kamata (tkamata) <tkamata@cisco.com>",
+      "subject": "Re: Quick syncup for Jalapeno in Japan lab",
+      "snippet": "Hi Bruce-san, Thank you for reply! I know you’re super busy! Are you working for C-SID adoption call? My customer softbank also support the adoption. I tried sudo as below but it’s still not working. cisco@ubuntu-cdn:~/epe-ns/epe$ sudo python3 ep"
+    },
+    {
+      "date": "2021-10-14T07:04:01",
+      "from": "Teppei Kamata (tkamata) <tkamata@cisco.com>",
+      "subject": "Re: Quick syncup for Jalapeno in Japan lab",
+      "snippet": "Hi Bruce-san, Sorry for rushing you, my ArangoDB’s EPElink collection is brank status. http://10.71.134.249:30852/_db/jalapeno/_admin/aardvark/index.html#collection/EPELink/documents/1 My python failure is related epeLink, so I’m guessing on this…"
+    },
+    {
+      "date": "2021-10-14T15:15:05",
+      "from": "Teppei Kamata (tkamata) <tkamata@cisco.com>",
+      "subject": "Re: Quick syncup for Jalapeno in Japan lab",
+      "snippet": "Hi Bruce-san, Thank you for your advice!! Today, Japan is already 0:00 AM so I can’t check it today.. you can access on my environment. Access is here. ssh tkamata@10.71.134.249 tkamata@10.71.134.249's password:cisco Kubernetes is running on this"
+    },
+    {
+      "date": "2021-10-16T04:25:30",
+      "from": "Teppei Kamata (tkamata) <tkamata@cisco.com>",
+      "subject": "Re: Quick syncup for Jalapeno in Japan lab",
+      "snippet": "Hi Bruce-san, I checked influx is receiving the data or not, and looks it’s receiving the data. I login to Pod and check the influx data series, and it’s working. Also I create the Grafana’s dashboard. I can see the output of MDT data via influx. ht"
+    },
+    {
+      "date": "2021-10-20T21:46:21",
+      "from": "Teppei Kamata (tkamata) <tkamata@cisco.com>",
+      "subject": "Re: Quick syncup for Jalapeno in Japan lab",
+      "snippet": "Hi Bruce-san, Thanks for your support! It looks epe route was missing, so I added egress-engineering command on R03 and R04. After that, Arango can collect EPELink and python is running. But there is one more issue, I'm working on it. After runn"
+    },
+    {
+      "date": "2021-11-01T11:02:34",
+      "from": "American Registry for Internet Numbers <hostmaster@arin.net>",
+      "subject": "Verify Your ARIN Contact Information: MCDOU25-ARIN",
+      "snippet": "Hello, The American Registry for Internet Numbers (ARIN) is a non-profit Internet number registry for the U.S., Canada, and parts of the Caribbean. You are receiving this message for one of these reasons: * Your Internet service provider has regi"
+    },
+    {
+      "date": "2022-05-30T15:48:20",
+      "from": "James Whistance-Smith (jwhistan) <jwhistan@cisco.com>",
+      "subject": "RE: Customer access to XRd CCO image",
+      "snippet": "Hi Bruce, Just to confirm, I’ll wait to hear back from you that none of the issues that Jon has mentioned is a blocking issue to sharing the image with Bell Canada before I go ahead and send the transmittal letter. Thanks, James From: Jon Moon ("
+    },
+    {
+      "date": "2022-09-15T16:18:12",
+      "from": "Bernier, Daniel <daniel.bernier@bell.ca>",
+      "subject": "RE:  Cisco/Google/Bell Canada KNE Introduction",
+      "snippet": "Hi Marcus, Sorry for late reply, was rushing through finishing some work for IETF and now Kubecon 😉 Basically what I am trying to build is a topology similar to this in KNE. Do you see big “challenges” ? 1. Emulated network topology that in"
+    },
+    {
+      "date": "2022-11-21T15:53:37",
+      "from": "John Delaney (jodelane) <jodelane@cisco.com>",
+      "subject": "RE: Cisco Live EU attendance?",
+      "snippet": "Hi Bruce, yes same as, for Apple and Microsoft EMEA/India Although travel bans are hitting them hard at the moment but we are still hopeful. Internally they are interested its just around budget and travel approvals. Once they get approval to register th"
+    },
+    {
+      "date": "2022-11-23T15:49:20",
+      "from": "Laurent Metzger <laurent.metzger@ost.ch>",
+      "subject": "Jalapeno Open Source: Slack group",
+      "snippet": "Hi Daniel As discussed at the IETF in London, it would be a great idea to create a slack group between my research engineers/students, Bruce/Cisco and Bell Canada engineers working on the Jalapeno open source, the Jalapeno API gateway and the related a"
+    },
+    {
+      "date": "2022-12-08T00:06:52",
+      "from": "Angie Yamanaka -X (ayamanak - CRAWFORD COMMUNICATIONS GROUP at Cisco) <ayamanak@",
+      "subject": "Cisco Live EMEA 2023 - Meet the Engineer (Segment Routing)",
+      "snippet": "Hi all Hope everyone is doing well. We received an email from an attendee asking to meet with an engineer with specific questions. Based on your MTE topics, it looks like this may fall under your expertise. Can you please review the following and let me"
+    }
+  ],
+  "high_signal_subjects": [
+    {
+      "date": "2023-06-16T15:48:26",
+      "subject": "RE:   Jalapeno SRv6 dCloud lab trial",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "jalapeno_programmability",
+        "service_provider_telco",
+        "cisco_live_speaking"
+      ]
+    },
+    {
+      "date": "2024-07-26T11:53:07",
+      "subject": "RE: Cilium SRv6 Containerlab demo",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "cilium_isovalent",
+        "service_provider_telco",
+        "global_international",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2024-11-14T10:15:31",
+      "subject": "REGISTER NOW! IMI SEVT virtual Lab - Cilium SRv6: a Pathway to Cloud Native SP Network Services",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "cilium_isovalent",
+        "service_provider_telco",
+        "cisco_live_speaking",
+        "leadership_mentoring"
+      ]
+    },
+    {
+      "date": "2024-11-20T21:17:54",
+      "subject": "Learners detailed report of Module - IMI SEVT vLab. Cilium SRv6: a Pathway to Cloud Native SP Network Services",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "cilium_isovalent",
+        "service_provider_telco",
+        "cisco_live_speaking",
+        "leadership_mentoring"
+      ]
+    },
+    {
+      "date": "2025-07-02T22:11:34",
+      "subject": "**DRAFT SRv6 LAB SRF",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "cilium_isovalent",
+        "service_provider_telco",
+        "cisco_live_speaking",
+        "leadership_mentoring"
+      ]
+    },
+    {
+      "date": "2025-07-09T15:23:59",
+      "subject": "Cisco dCloud: Event Owner Changes",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "cilium_isovalent",
+        "service_provider_telco",
+        "leadership_mentoring"
+      ]
+    },
+    {
+      "date": "2025-07-09T15:24:53",
+      "subject": "Cisco dCloud: Event Owner Changes",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "cilium_isovalent",
+        "service_provider_telco",
+        "leadership_mentoring"
+      ]
+    },
+    {
+      "date": "2025-07-09T15:25:24",
+      "subject": "Cisco dCloud: Event Owner Changes",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "cilium_isovalent",
+        "service_provider_telco",
+        "leadership_mentoring"
+      ]
+    },
+    {
+      "date": "2025-07-09T15:25:39",
+      "subject": "Cisco dCloud: Event Owner Changes",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "cilium_isovalent",
+        "service_provider_telco",
+        "leadership_mentoring"
+      ]
+    },
+    {
+      "date": "2022-11-23T15:49:20",
+      "subject": "Jalapeno Open Source: Slack group",
+      "categories": [
+        "sonic_open_source",
+        "jalapeno_programmability",
+        "service_provider_telco",
+        "cisco_live_speaking",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2023-02-04T18:21:58",
+      "subject": "Cisco dCloud: Event Owner Changes",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "cisco_live_speaking",
+        "leadership_mentoring",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2023-02-27T17:27:43",
+      "subject": "Question regarding SRv6_dCloud_Lab",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "jalapeno_programmability",
+        "cisco_live_speaking",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2023-11-03T08:24:28",
+      "subject": "SRv6 SONiC image for Bell Canada",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "service_provider_telco",
+        "cisco_live_speaking",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2024-01-10T23:01:54",
+      "subject": "Cisco dCloud: Event Owner Changes",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "cisco_live_speaking",
+        "leadership_mentoring",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2024-01-10T23:36:11",
+      "subject": "Cisco dCloud: Event Owner Changes",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "cisco_live_speaking",
+        "leadership_mentoring",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2024-09-05T16:52:58",
+      "subject": "Re: Cisco/Isovalent/Adobe - POC Discussion Continued",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "cilium_isovalent",
+        "enterprise_customers",
+        "cisco_live_speaking"
+      ]
+    },
+    {
+      "date": "2024-10-11T10:50:30",
+      "subject": "Re: SP SEVT and Isovalent/Cilium",
+      "categories": [
+        "cilium_isovalent",
+        "service_provider_telco",
+        "cisco_live_speaking",
+        "leadership_mentoring",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2024-12-12T17:30:54",
+      "subject": "Re: [E] Re: [EXTERNAL] eBPF/Cilium Enterprise license for host SRv6 uSID Full Stack",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "cilium_isovalent",
+        "service_provider_telco",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2025-01-26T00:52:26",
+      "subject": "Cisco dCloud: Event Owner Changes",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "cisco_live_speaking",
+        "leadership_mentoring",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2025-05-15T13:03:04",
+      "subject": "Cisco Live 2025 - PPT Review Complete",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "cilium_isovalent",
+        "cisco_live_speaking"
+      ]
+    },
+    {
+      "date": "2026-03-11T02:57:27",
+      "subject": "FW: EVENTS-518 LTRMSI-3000 Modern AI networks: IOS-XR, SRv6, Cilium, and SONiC",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "cilium_isovalent",
+        "leadership_mentoring"
+      ]
+    },
+    {
+      "date": "2020-09-02T17:49:04",
+      "subject": "Registration Confirmation:  Service Provider SEVT Labs FY21 on Thursday, October 8, 2020",
+      "categories": [
+        "segment_routing_srv6",
+        "service_provider_telco",
+        "cisco_live_speaking",
+        "leadership_mentoring"
+      ]
+    },
+    {
+      "date": "2021-09-03T15:12:01",
+      "subject": "Re: Quick syncup for Jalapeno in Japan lab",
+      "categories": [
+        "segment_routing_srv6",
+        "cilium_isovalent",
+        "jalapeno_programmability",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2021-10-13T03:05:13",
+      "subject": "Re: Quick syncup for Jalapeno in Japan lab",
+      "categories": [
+        "segment_routing_srv6",
+        "jalapeno_programmability",
+        "service_provider_telco",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2022-04-22T08:20:09",
+      "subject": "Jalapeno SR-MPLS Node-SID",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "jalapeno_programmability",
+        "service_provider_telco"
+      ]
+    },
+    {
+      "date": "2022-08-25T20:08:05",
+      "subject": "dCloud SP Beta Invite :: Cisco VNF + CNF Automation with NSO, ESC, Openstack and Kubernetes v1",
+      "categories": [
+        "cilium_isovalent",
+        "jalapeno_programmability",
+        "service_provider_telco",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2022-09-06T22:51:00",
+      "subject": "Re: dCloud SP Beta Invite :: Cisco VNF + CNF Automation with NSO, ESC, Openstack and Kubernetes v1",
+      "categories": [
+        "segment_routing_srv6",
+        "cilium_isovalent",
+        "jalapeno_programmability",
+        "service_provider_telco"
+      ]
+    },
+    {
+      "date": "2022-09-15T16:18:12",
+      "subject": "RE:  Cisco/Google/Bell Canada KNE Introduction",
+      "categories": [
+        "hyperscale_cloud_ai",
+        "service_provider_telco",
+        "cisco_live_speaking",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2022-12-08T00:06:52",
+      "subject": "Cisco Live EMEA 2023 - Meet the Engineer (Segment Routing)",
+      "categories": [
+        "segment_routing_srv6",
+        "cisco_live_speaking",
+        "global_international",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2023-01-22T23:16:15",
+      "subject": "Cisco dCloud: Event Owner Changes",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "cisco_live_speaking",
+        "leadership_mentoring"
+      ]
+    },
+    {
+      "date": "2023-04-03T06:46:35",
+      "subject": "Re: MPLS WC 2023",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "service_provider_telco",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2023-04-06T12:30:33",
+      "subject": "RE: ASP Jalapeño Programmability Project",
+      "categories": [
+        "sonic_open_source",
+        "jalapeno_programmability",
+        "service_provider_telco",
+        "revenue_business_impact"
+      ]
+    },
+    {
+      "date": "2023-04-13T20:33:29",
+      "subject": "Re: GitHub org for SRv6 labs, demos, etc.?",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "cilium_isovalent",
+        "innovation_patents"
+      ]
+    },
+    {
+      "date": "2023-04-27T06:56:40",
+      "subject": "RE: SRv6 uSID Image for sonic KVM (.img)",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "service_provider_telco"
+      ]
+    },
+    {
+      "date": "2023-05-19T04:14:45",
+      "subject": "Re: NYC lead ops meeting",
+      "categories": [
+        "segment_routing_srv6",
+        "service_provider_telco",
+        "cisco_live_speaking",
+        "leadership_mentoring"
+      ]
+    },
+    {
+      "date": "2023-06-21T16:38:05",
+      "subject": "Re: Jalapeño",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "jalapeno_programmability"
+      ]
+    },
+    {
+      "date": "2023-07-19T14:00:16",
+      "subject": "Re: Sonic/FRR SRv6 L3VPN routes?",
+      "categories": [
+        "segment_routing_srv6",
+        "hyperscale_cloud_ai",
+        "sonic_open_source",
+        "service_provider_telco"
+      ]
+    },
+    {
+      "date": "2023-07-29T03:44:34",
+      "subject": "Fwd: [Placeholder] - SRv6 Lead Operators Meeting",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "cilium_isovalent",
+        "service_provider_telco"
+      ]
+    },
+    {
+      "date": "2023-09-29T14:29:39",
+      "subject": "Re: K8s-SRv6 concept diagram for Qwilt",
+      "categories": [
+        "segment_routing_srv6",
+        "cilium_isovalent",
+        "jalapeno_programmability",
+        "cisco_live_speaking"
+      ]
+    },
+    {
+      "date": "2023-11-06T02:53:48",
+      "subject": "SRv6 SONiC image for Bell Canada",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "service_provider_telco",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2023-11-06T12:37:39",
+      "subject": "Re: SRv6 SONiC image for Bell Canada",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "service_provider_telco",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2023-11-06T17:45:16",
+      "subject": "Re: SRv6 SONiC image for Bell Canada",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "service_provider_telco",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2023-11-06T18:26:28",
+      "subject": "Re: SRv6 SONiC image for Bell Canada",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "service_provider_telco",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2023-11-07T03:12:47",
+      "subject": "SRv6 SONiC image for Bell Canada",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "service_provider_telco",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2023-11-09T12:15:42",
+      "subject": "SRv6 SONiC image for Bell Canada",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "service_provider_telco",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2023-12-05T06:39:20",
+      "subject": "SRv6 SONiC image for Bell Canada",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "service_provider_telco",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2023-12-13T02:06:29",
+      "subject": "SRv6 SONiC image for Bell Canada",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "service_provider_telco",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2023-12-15T01:02:38",
+      "subject": "SRv6 SONiC image for Bell Canada",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "service_provider_telco",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2023-12-25T05:33:46",
+      "subject": "SRv6 SONiC image for Bell Canada",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "service_provider_telco",
+        "global_international"
+      ]
+    },
+    {
+      "date": "2024-01-23T06:31:25",
+      "subject": "SRv6 SONiC image for Bell Canada",
+      "categories": [
+        "segment_routing_srv6",
+        "sonic_open_source",
+        "service_provider_telco",
+        "global_international"
+      ]
+    }
+  ]
+}

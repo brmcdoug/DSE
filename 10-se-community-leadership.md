@@ -44,6 +44,14 @@ ASP Cilium Lab
 Dec 2024 – BYO-dCloud for stay ready friday 
 Dec 2024 – cisco patent process 
 
+## Demos Published on dCloud
+
+**Cilium SRv6**
+https://dcloud2-rtp.cisco.com/content/demo/1113062?returnPathTitleKey=content-view
+
+**Intro to SONiC**
+https://dcloud2-sjc.cisco.com/content/demo/357554?returnPathTitleKey=content-view
+
 
 Lightning Talks
 Blogs
