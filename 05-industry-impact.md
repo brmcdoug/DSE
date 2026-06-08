@@ -101,9 +101,21 @@ Bruce contributed to industry narrative for **multi-vendor SRv6 uSID on SONiC** 
 
 ---
 
-### MPLS World Congress — Operator Community — 2023
+### SRv6 uSID on SONiC — First Publication — May 2023
 
-Bruce participated in **MPLS World Congress 2023**—keynote/operator-track visibility; background collaborator on **customer presentations** (Verizon, Bell, Rakuten cited in development notes). CLEU 2025 diary: SR engineering encouraged Bruce to join **lead operators workshop** at MPLS-WC with Microsoft/OCI peers.
+Bruce authored the **[segment-routing.net SRv6 SONiC blog](https://www.segment-routing.net/)** and developed a demo using a **custom SONiC image** from Clarence Filsfils’ team—**first publication and demo of SRv6 for DC using SONiC**. Precursor to Phoenix Wing multi-vendor narrative.
+
+---
+
+### draft-srv6ops-addressing-guidelines — Jun 2025
+
+Bruce served as **editor** on **draft-srv6ops-addressing-guidelines**—standards-adjacent SRv6 operations addressing work for operator community.
+
+---
+
+### MPLS World Congress — Operator Community — 2023–2024
+
+Bruce participated in **MPLS World Congress 2023**—keynote/operator-track visibility; background collaborator on **customer presentations** (Verizon, Bell, Rakuten cited in development notes). **Apr 2023:** Bruce’s **IPR appeared in presentations** from Verizon, Bell, and Rakuten. **Apr 2024:** **Verizon presentation** at MPLS-WC **leveraged srv6-labs** work. CLEU 2025 diary: SR engineering encouraged Bruce to join **lead operators workshop** at MPLS-WC with Microsoft/OCI peers.
 
 **Vault:** `dse/05-Industry-Impact-MOC.md`, `dse/DSE General MOC.md` (Apr 2023 MPLS-WC; Apr 2024 VZ presentation)
 
@@ -136,7 +148,7 @@ Bruce participated in **MPLS World Congress 2023**—keynote/operator-track visi
 
 - **IETF Vancouver 2024:** “2030 guys” recognition (Semko)—host-based SRv6, endpoint service consumption
 - **IETF SRv6-Ops:** Verizon Nick presenting host-based SRv6 requirements (Bruce collaboration thread, Oct 2025 vault)
-- **Editor/contributor:** SRv6 book — **four chapters edited** (Clarence Filsfils and team; 2HFY24 Talent Assessment); topics include Service Programming, SR-Aware/Unaware Services (Dec 2023 notes)—industry education artifact
+- **Editor/contributor:** SRv6 book — chapters **12 (Service Programming), 13 (SR-Aware Services), 14 (SR-Unaware Services)**, plus **Verizon SRv6 DC case study** (Dec 2023; acknowledgements in published volume); four-chapter editor role also cited in 2HFY24 Talent Assessment
 - **CNRS / SR-Apps:** Field lead for university partnerships (OST Zurich, etc.)—pipeline of operator-relevant research
 
 **Pre–Aug 2020 (exec thru-line only):** NANOG first public **uSID** presentation (2020)—do not expand as body case study.
@@ -166,7 +178,9 @@ Bruce coined and evangelized **“host networking air-gap”** and **host-based 
 | [segment-routing.net SONiC uSID blog](https://www.segment-routing.net/blogs/srv6-usid-on-sonic/) | Publication | Multi-vendor SONiC narrative |
 | [cisco-open/jalapeno](https://github.com/cisco-open/jalapeno) | Open source | Automation landscape listings |
 | [srv6-mrc-emulator](https://github.com/segmentrouting/srv6-mrc-emulator) | Open source | MRC+SRv6 teaching |
-| MPLS-WC 2023 | Conference | Operator + SP community |
+| MPLS-WC 2023–2024 | Conference | Operator + SP community; VZ srv6-labs leverage |
+| segment-routing.net SONiC SRv6 blog (May 2023) | Publication | First SRv6-for-DC-on-SONiC demo narrative |
+| draft-srv6ops-addressing-guidelines (Jun 2025) | Standards-adjacent | SRv6 ops addressing editor |
 | OCP 2026 (planned) | Conference | Hyperscale AI fabric audience |
 | CLEU/CLUS panels & breakouts | Conference | Practitioner scores 4.64–5.0 |
 | MRC / Acceleron public docs | Industry spec | Tier-1 AI infrastructure |

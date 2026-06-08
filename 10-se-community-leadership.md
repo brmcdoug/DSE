@@ -42,18 +42,26 @@ Bruce’s enablement pattern: build **GitHub/Containerlab/dCloud** assets on hor
 
 | Program | Period | Activity | Impact |
 | :--- | :--- | :--- | :--- |
+| **Web/Hyperscale TAM** | **Aug 2025, Apr 2026** | Owned Web/Hyperscale TAM asks for **FY26 Global Sales Technical Roadmap** + **BE Interlock Process** | Field-wide technical priority setting → **04-span-of-influence.md** |
+| **Tech Elevate** | Mar 2026+ | SRv6 lab sessions (Mar 2026 ~**25** morning attendees); *collect full session list, dates, scores* | Hands-on SRv6 for field |
+| **SRv6 DC/AI Workshop** | **Dec 2025** | **Organizer, scheduler, MC** — Sales + BU workshop; SRv6 engineering guests; Bruce presented **host-based SRv6/Cilium** | **40+ BU**, **20+ SE/sales** attendees |
+| **SRv6 AI Workshop** | **Apr 2025** | Same format (`20250311-ai-workshop-rev1a`); guests incl. **Microsoft, Alibaba**; organizer/MC + host-based SRv6/Cilium preso | **40+ BU**, **20+ SE/sales** attendees |
 | **Stay Ready Friday** | 2024–2026 | Web CiPOL; CLEU lab prep; **ASP Cilium lab**; BYO-dCloud (Dec 2024); Cisco patent process session (Dec 2024); **SRv6 Part 1 (Cilium) + Part 2 (SONiC/PyTorch)** — well received (1HFY26) | Keeps Web/SP SEs current on Cilium, SRv6, dCloud self-service |
+| **SEVT — Containerlab** | **Jan 2025** | Ask-the-expert + demo | **5.0** presenter and content scores |
+| **Isovalent enablement** | **Nov 2024** | DCN Champions overview; **Isovalent SEVT lab**; presented to **Cisco AI tiger team** | See **Kaliwoda multiplier** row below |
 | **BE / Sales SRv6 Workshop** | Apr 2025 | Bruce **owned scheduling and logistics** for cross-BU SRv6 workshop | Field + sales alignment on SRv6 (2HFY25 TA) |
 | **Oracle onsite SRv6 tutorial** | 2025 | **3-hour** SRv6 tutorial/workshop delivered onsite | Hyperscaler SE/customer enablement |
 | **Isovalent Overview** | 2024 | Delivered to **global PSE/DSE**, Web team, **SP DCN Champions** | Cloud-native security baseline for field (2HFY24 TA) |
 | **Containerlab / dCloud / Cilium sessions** | 2025 | Pair of sessions for **SRF** and **CAI VT** | Reproducible lab methodology for SE community |
-| **Tech Elevate** | Mar 2026 | SRv6 lab — ~**25** morning attendees | Hands-on SRv6 for field |
+| **NYC SRv6 Workshop** | **Jun 2023** | **Co-organizer**; coordinated **Bell Canada** customer presentation on SRv6-to-host/Cilium | Operator + field enablement |
+| **CLUS 2023** | Jun 2023 | **BRKSP-2133** (w/ Josh Merrill); SP panel | Industry cross-ref **05-industry-impact.md** |
 | **TMC Innovation Hours** | Sept–Oct 2025 | SRv6 session; **combatting disagg** (requested repeat) | SP technical community |
 | **Web SONiC training** | Apr 2026 | Web-wide SONiC enablement | Supports hyperscaler co-dev SE bench |
 | **SRv6 Roadshow** | Dec 2025 | Pinnacle-aligned **SE enablement workshop** (platforms, gaps, objections) | Multi-segment SE audience w/ Kevin W, customer guests |
 | **MIG Specialists walkthrough** | Dec 2023 | SRv6 lab presentation for MIG specialists (w/ Rob Murphy) | Engineering↔field alignment |
 | **ASP 8K enablement series** | 2022–2024 | Use cases & migration strategies | SP sales enablement |
 | **DCN Champions / SEVT** | 2020–2023 | SP bootcamp & SEVT panels (DC virtualization, UFP, evolved connectivity) | SP360 blog companion content |
+| **ASP Lightning talks** | 2021 - Ongoing | Co-developed with DSE John Mullooly, a quarterly program giving SE's (and later CX engineers/architects) a forum for presenting quick talks on interesting projects they're working on. The next Lightning Talk with be our 25th! |
 
 **Vault:** `10-se-community-leadership.md` (candidate notes), `customers/SRv6 Roadshow Dec 2025.md`, `dse/DSE General MOC.md`
 
@@ -63,8 +71,10 @@ Bruce’s enablement pattern: build **GitHub/Containerlab/dCloud** assets on hor
 
 | Demo | Link | Purpose |
 | :--- | :--- | :--- |
-| **Cilium SRv6** | [dCloud 1113062](https://dcloud2-rtp.cisco.com/content/demo/1113062) | SE/customer hands-on Cilium SRv6 |
-| **Intro to SONiC** | [dCloud 357554](https://dcloud2-sjc.cisco.com/content/demo/357554) | SONiC 101 — published with Rob Murphy (Dec 2023) |
+| **Cilium SRv6** | [dCloud 1113062](https://dcloud2-rtp.cisco.com/content/demo/1113062) | SE/customer hands-on Cilium SRv6 — **Aug 2024** publication inspired **Arkadiusz Kaliwoda** (EMEA DC SE) |
+| **Intro to SONiC** | [dCloud 357554](https://dcloud2-sjc.cisco.com/content/demo/357554) | SONiC 101 — published with Rob Murphy (**Dec 2023**) |
+
+**Field multiplier — Kaliwoda (Nov 2024 → 2025):** Bruce’s **Nov 2024 DCN Champions Isovalent overview** prompted EMEA DC SE **Arkadiusz Kaliwoda** to build a Cilium SRv6 demo (Cilium dCloud lab, Aug 2024, was catalyst). Demo reached **Cisco booth at MPLS World Congress (Mar 2025)**; Kaliwoda since contributed **production code to Cilium** and became **lead EMEA advocate** for the product.
 
 **Vault:** `dse/DSE General MOC.md`, `10-se-community-leadership.md`
 
@@ -97,11 +107,14 @@ Bruce’s enablement pattern: build **GitHub/Containerlab/dCloud** assets on hor
 | **Rob Murphy** | 2023–2026 | SONiC dCloud, SOSIE, CL labs | Co-author enablement assets |
 | **Rodney, Bob, Kartik, Masi** | Various | Account SE support; Meta BBF; technical interviews | Meta VXR lab; Web production SE interviews |
 | **Andrew Benhase** | — | Master PSE assessment support | `dse/Mentees and SE help.md` |
+| **Aavrinder Singh, Keith Baldwin** | **Jan 2024** | PSE package review | PSE committee cycle support |
+| **Amy Gerrie / Isovalent** | **Jun–Jul 2023** | Isovalent discussion for **STLDP** track | Host-networking → security BU bridge |
+| **Arkadiusz Kaliwoda** | **2024–2025** | Inspired via DCN Champions + dCloud Cilium lab | EMEA Cilium SRv6 demo → MPLS-WC booth; **Cilium code contributions** |
 | **Federico Zilotto** | — | PSE assessment | |
 | **Hiroyuki Sugano** | 2025 | NTT East / APJC SRv6-Cilium intros | APJC customer enablement |
 | **STLDP Innovation Award team** | **2023** | Mentor/technical lead — **Cilium/Jalapeno** integration | **Won STLDP Innovation Award** |
 
-**PSE committee:** 3 years voting member — documented under **Span of Influence**; outcome here = **promotion bar** for next-gen PSEs.
+**PSE committee:** 3 years voting member (**Mar–May 2024** cycle w/ **Mike McPhee**) — documented under **Span of Influence**; outcome here = **promotion bar** for next-gen PSEs.
 
 **Vault:** `mentor/Nacho.md`, `mentor/Satoshi Yamashita – STLDP.md`, `mentor/Ignacio Committee Review Analysis.md`, `dse/Mentees and SE help.md`, `dse/09-Personal-Development-MOC.md`
 
@@ -115,7 +128,7 @@ Bruce’s enablement pattern: build **GitHub/Containerlab/dCloud** assets on hor
 | **SP360 / SP blogs** | 2022–2024 | Evolved connectivity; ML/AI in SP — enablement reading |
 | **Vidcast training series** | 2026 | Jenelle Lee: *“AMAZED… I want to send them to everyone”* (Apr 2026) |
 | **SONiC Nuggets SharePoint + vidcasts** | 2025–2026 | Phase-1 Web enablement hub |
-| **Lightning talks** | Ongoing | DCN champions, security/SRv6 pointers to srv6-labs |
+
 
 **Quote:** Jenelle Lee, Apr 23, 2026 — vidcast quality for broad SE distribution (`evidence-summaries/quotes.md`).
 
@@ -147,7 +160,9 @@ Bruce’s enablement pattern: build **GitHub/Containerlab/dCloud** assets on hor
 | VXR / SRv6 labs for Meta SEs | Meta BBF **$17M** booking — **06-business-impact.md** |
 | SL-API training pattern | Meta RBB/SRv6 adoption — **06-business-impact.md** |
 | CLEU MTE James Munroe (NB) | SRv6 migration decision — Global/Industry `[confirm]` |
-| Cilium lab + Nico | Adobe/TMo/Akamai threads — **03-global-impact.md** / Business |
+| Cilium dCloud + DCN Champions | Adobe/TMo/Akamai + **Kaliwoda → MPLS-WC booth** | **03-global-impact.md** / Business |
+| Dec 2025 / Apr 2025 SRv6 workshops | 40+ BU + 20+ SE each — cross-BU SRv6/AI alignment | **04-span-of-influence.md** |
+| Carnegie Mellon SONiC session (Dec 2024) | Education-sector SONiC baseline | **03-global-impact.md** |
 | Nacho mentoring | Optical SE multiplier in Web — career path |
 | dCloud SONiC + Cilium | Field self-sufficiency on neo-cloud architectures |
 
@@ -182,8 +197,7 @@ Bruce’s enablement pattern: build **GitHub/Containerlab/dCloud** assets on hor
 **Also read:** All `conferences/CLEU*.md`, `CLUS 2025–2026`, `mentor/Nacho.md`, `mentor/Satoshi Yamashita – STLDP.md`, `dse/Mentees and SE help.md`, `dse/DSE General MOC.md`, `customers/SRv6 Roadshow Dec 2025.md`, `evidence-summaries/quotes.md`, `customers/SONiC Nuggets.md`
 
 **Gaps / Bruce to complete:**
-- [ ] SGM: count of ILTs using GitHub lab model
-- [ ] Stay Ready Friday / Tech Elevate — complete session list + attendance
+- [ ] **Tech Elevate** — full session list, dates, scores, attendee counts *(partial: Mar 2026 ~25)*
 - [ ] James Munroe SRv6 migration email for CLEU 2026 MTE
 - [ ] Pearson book publication date/ISBN
 - [ ] P5G SDWAN and SL-OnDemand tiger team outcomes

@@ -15,7 +15,7 @@
 | **2020–2023** | Enterprise cloud-native + education | Adobe Cilium threads; NYU HSRN SONiC advisory |
 | **2024** | Americas enterprise SONiC/SR depth | Geico Colorado DC; Honeywell backbone; Texas Instruments global POP; The Trade Desk SONiC evaluation |
 | **2025** | APJC/EMEA operators + media enterprise | Rakuten SRv6-SDWAN HLD; Evroc colo-2 architecture; Disney DGN/SR-MPLS; NTT East CLIVE/Cilium introductions |
-| **2026** | Financial services SRv6 + field enablement | Fiserv SRv6 TOI; NSight Cilium/container security; MTN Nigeria / DU UAE topology outcomes `[verify pipeline $]` |
+| **2025–2026** | Financial services, colo, neo-cloud, field enablement | Fiserv SRv6 TOI; **Digital Realty** SRv6 POC; **Applied Digital**; NSight; MTN/DU enablement `[verify $]` |
 
 **Through-line:** Bruce repeatedly applies the same horizon-2 patterns developed on ASP+Web accounts—SONiC, SRv6, Cilium/eBPF, cloud-native stitching removal—to **customers outside his assignment**, often with no dedicated account team in the Americas enterprise theater.
 
@@ -24,6 +24,62 @@
 ## Global Impact — Draft Package Body
 
 *Dollar figures marked **[verify]** unless finance-approved.*
+
+---
+
+### Digital Realty — SRv6 POC — Oct 2025
+
+Bruce engaged on a **Digital Realty** proof-of-concept exploring **SRv6** in colo/interconnect context—with potential to **displace Arista** in the design `[verify revenue and assignment: colo provider may be Global Impact]`.
+
+**Impact:** Major colo operator; SRv6 positioning outside tier-1 ASP account list.
+
+**Vault:** `[add customer note path]`
+
+---
+
+### Applied Digital — AI Fabric Architecture — Sept 2024
+
+Bruce contributed **rail diagrams and AI calculator** artifacts that helped the account team **paint the solution picture and spec the design** for Applied Digital’s AI infrastructure engagement.
+
+**Placeholder revenue:** ~**$30M** `[verify assignment and finance]`
+
+**Vault:** `[add customer note path]`
+
+---
+
+### Morgan Stanley — SRv6 Presentation — Jun 2023
+
+Bruce delivered an **SRv6 architecture presentation** to Morgan Stanley—financial-services operator audience outside ASP+Web assignment.
+
+**Vault:** `[add customer note path]`
+
+---
+
+### Carnegie Mellon University — SONiC Education — Dec 2024
+
+Bruce delivered a **SONiC education session** for Carnegie Mellon—extending open-NOS enablement into **higher education** (not ASP+Web).
+
+**Cross-ref:** SE Leadership enablement pattern → **10-se-community-leadership.md**
+
+---
+
+### Hughes — SR/SRv6 Architecture — 2023
+
+Bruce engaged on **SR/SRv6 architecture** for Hughes (satellite/SP operator)—architecture SME outside core Web assignment `[verify ongoing outcome]`.
+
+**Vault:** `[add customer note path]`
+
+---
+
+### Rackspace — ExBroker / Jalapeno — Mar 2023
+
+Bruce presented **ExBroker/Jalapeno** to Rackspace—early field validation of network-service-broker concept with a global hosting operator. Innovation artifact → **07-innovation.md**.
+
+---
+
+### Qwilt (CDN) — ExBroker / Jalapeno — Jan 2023
+
+Bruce presented **ExBroker/Jalapeno** to **Qwilt** (CDN provider)—operator-facing programmable services narrative predating open-source Jalapeno release.
 
 ---
 
@@ -69,7 +125,7 @@ Bruce supported APJC on a high-level design for enhancing Rakuten’s SD-WAN und
 
 ### Adobe — Cilium Egress/Ingress Gateway & Cloud-Native SRv6 — 2024–2025
 
-Bruce was a core technical SME on Adobe’s **Cilium** POC (egress gateway, ingress VIP/HA, overlapping RFC1918, multihop BGP reachability) with Brenden Buresh and Dan Stacks—supporting Adobe Ethos (vanilla K8s) migration of Adobe-to-Adobe traffic off the public Internet. Separately, Bruce reviewed the **Cloud-Native SRv6** concept deck (Feb 2025): SRv6 L3VPN from CNI-to-CNI, elimination of VXLAN/MPLS stitching at ToR and DCI/PE boundaries, eBPF visibility, and TGW cost reduction.
+Bruce was a core technical SME on Adobe’s **Cilium** POC (egress gateway, ingress VIP/HA, overlapping RFC1918, multihop BGP reachability) with Brenden Buresh and Dan Stacks—supporting Adobe Ethos (vanilla K8s) migration of Adobe-to-Adobe traffic off the public Internet. **July 2024** marked intensified **Adobe Cilium SRv6** thread. Separately, Bruce reviewed the **Cloud-Native SRv6** concept deck (Feb 2025): SRv6 L3VPN from CNI-to-CNI, elimination of VXLAN/MPLS stitching at ToR and DCI/PE boundaries, eBPF visibility, and TGW cost reduction.
 
 **Impact:** Global enterprise with multi-cloud footprint; pull-through for Nexus and cloud-native security—**not** an ASP+Web account.
 
@@ -87,9 +143,9 @@ Bruce advised Evroc (Europe’s neo-cloud/hyperscaler ambition) on colo-2 produc
 
 ---
 
-### The Trade Desk — SONiC + XR Diversity — Oct 2024
+### The Trade Desk — SONiC + XR Diversity — Oct–Nov 2024
 
-Bruce supported a SONiC/XR positioning session for The Trade Desk (digital ad-tech, long-time Cumulus shop evaluating alternatives). Design context: 240-rack DC buildouts, 400G ToR, heavy open-source culture, BGP L3 fabric, IPv6 rollout plans—Cisco story centered on ASIC diversity, SONiC commitment, XR for heavy routing, and SRv6/uSID roadmap on SONiC.
+Bruce supported a SONiC/XR positioning session for The Trade Desk (digital ad-tech, long-time Cumulus shop evaluating alternatives). Design context: 240-rack DC buildouts, 400G ToR, heavy open-source culture, BGP L3 fabric, IPv6 rollout plans—Cisco story centered on ASIC diversity, SONiC commitment, XR for heavy routing, and SRv6/uSID roadmap on SONiC. **Nov 2024:** follow-on **SONiC education session**.
 
 **Impact:** Americas enterprise neo-cloud-scale DC; SONiC mindshare outside Web assignment.
 
@@ -165,12 +221,17 @@ Bruce supported APJC account team (Asahi Kawabata, Hiroyuki Sugano) for NTT East
 | Customer | Theater | Segment | Bruce’s role (summary) | Revenue / outcome |
 | :--- | :--- | :--- | :--- | :--- |
 | Fiserv | Americas | Financial | SRv6 TOI; WAN→DC; Isovalent assessment | Pipeline `[verify]` |
+| Applied Digital | Americas | Neo-cloud / AI | Rail diagrams; AI calculator; solution spec | ~$30M cited `[verify]` |
+| Digital Realty | Global | Colo | SRv6 POC; Arista displacement thread | `[verify]` |
 | Geico | Americas | Insurance | SONiC DC fabric SME | ~$1.6M cited `[verify]` |
 | Adobe | Global ent. | Technology | Cilium POC; Cloud-Native SRv6 concept | Pull-through `[verify]` |
 | Honeywell | Global ent. | Industrial | Backbone / Flex-Algo | Architecture `[verify]` |
 | Texas Instruments | Global ent. | Manufacturing | POP/SRv6 roadmap | Architecture `[verify]` |
 | Disney | Americas | Media | DGN / SR-MPLS | Collab `[verify]` |
-| The Trade Desk | Americas | Ad-tech | SONiC + XR evaluation | Mindshare `[verify]` |
+| The Trade Desk | Americas | Ad-tech | SONiC + XR evaluation; Nov 2024 education | Mindshare `[verify]` |
+| Morgan Stanley | Americas | Financial | SRv6 presentation (Jun 2023) | Architecture `[verify]` |
+| Carnegie Mellon | Americas | Education | SONiC education session (Dec 2024) | Enablement |
+| Hughes | Americas | SP/satellite | SR/SRv6 architecture (2023) | `[verify]` |
 | NYU | Americas | Education | HSRN SONiC advisory | Research net `[verify]` |
 | NSight | Americas | Regional SP | Cilium / K8s security | Early AI services `[verify]` |
 | Rakuten | APJC | Mobile/cloud SP | SRv6-SDWAN HLD | HLD `[verify]` |

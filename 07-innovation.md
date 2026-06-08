@@ -77,7 +77,7 @@ Bruce was an **early advocate** for Cisco acquisition of **Isovalent** and **SRv
 
 ### SGT in uSID — End-to-End Identity in SRv6 Program — Jan 2024–2025
 
-Bruce developed architecture to embed **16-bit Security Group Tags** in uSID function arguments—unifying enterprise identity (ISE/SD-WAN SGT carry) with hyperscale SRv6 transport. Working sessions with Darren Miller, Pablo, Josh (ISE modernization). CPOL merged: *SRv6 uSID Carrier with Embedded Security Group Tag*.
+Bruce developed architecture to embed **16-bit Security Group Tags** in uSID function arguments—unifying enterprise identity (ISE/SD-WAN SGT carry) with hyperscale SRv6 transport. **First documented Jan 2024**; co-invented **SRv6-SGT** concept and served as wingman on multi-BU **Yukon++** (“Cisco Powered Part 2”) with Josh Merrill. Working sessions with Darren Miller, Pablo, Josh (ISE modernization). CPOL merged: *SRv6 uSID Carrier with Embedded Security Group Tag*.
 
 **Impact:** Closes policy gap between enterprise segmentation and SP/hyperscale forwarding—FE Segmentation tiger team handoff.
 
@@ -87,7 +87,7 @@ Bruce developed architecture to embed **16-bit Security Group Tags** in uSID fun
 
 ### Policy Plane & Yukon++ — 2023–2025
 
-Bruce’s **Policy Plane** concept—TEyes topology visibility + ISE/SGT identity + SRv6 transport as three “glue layers”—is gaining **MIG traction** per development-discussion notes. Related **Yukon++** / service-chain / NaaS threads document SP underlay exposing services to SD-WAN and cloud-like consumption.
+Bruce’s **Policy Plane** concept—TEyes topology visibility + ISE/SGT identity + SRv6 transport as three “glue layers”—is gaining **MIG traction** per development-discussion notes. Related **Yukon++** / **Project Yukon** (Jan 2024) / service-chain / NaaS threads document SP underlay exposing services to SD-WAN and cloud-like consumption for **Verizon and AT&T**.
 
 **Status:** `[verify PM attribution]` — Carlos Pereira / OTel visibility platform influence noted as open question in vault.
 
@@ -99,7 +99,9 @@ Bruce’s **Policy Plane** concept—TEyes topology visibility + ISE/SGT identit
 
 **Jalapeno Network Service Broker:** Bruce led the **only field-submitted Bold Bets** project to advance past the first evaluation round—programmable multi-domain network services, graph-DB reachability, K8s integration. Successfully open-sourced via Cisco Legal: **[cisco-open/jalapeno](https://github.com/cisco-open/jalapeno)**.
 
-**`srctl` CLI (2025):** Bruce built the **`srctl`** command-line tool for Jalapeno—used in the **May 22, 2025 Akamai demo** (Talent Assessment 2HFY25). Extended Jalapeno with **API, UI, and initial code** for the **AI load-balancing** use case.
+**Early field validation (pre-OSS):** **ExBroker/Jalapeno** presented to **Qwilt** (CDN, Jan 2023) and **Rackspace** (Mar 2023); **Cross-Domain Broker** exec readout (Oct 2023) → **04-span-of-influence.md**.
+
+**`srctl` CLI (2025):** Bruce built the **`srctl`** command-line tool for Jalapeno—used in the **May 22, 2025 Akamai demo** (Talent Assessment 2HFY25). Extended Jalapeno with **API, UI, and initial code** for the **AI load-balancing** use case. **Oct 2023:** **FRR SRv6 L3VPN image and lab** for Russ White (**Akamai**)—operator prototype path.
 
 **Themes:** Network service brokerage, programmable underlays, cloud-native control plane—precursor to homegrown hyperscaler controllers and AI-backend TE.
 
@@ -127,6 +129,12 @@ Bruce **gathered and compiled account data worldwide** to build the business cas
 Low-diameter, high-radix fabric design applying **Hoffman–Singleton graph theory**—co-developed with Oracle engagement for AI backend topology options (slimfly/dragonfly class). Employee reflection (2HFY24) cites **~50% savings on fabric nodes vs. comparable CLOS** for hyperscale DC design. CPOL submissions include declined *Virtualized Rail Architecture for AIML Ethernet fabrics* and related AI scale-up pod designs.
 
 **Vault:** `innovation/Hoffman-Singleton-Fabric-Design.md`, `customers/Oracle-SRv6.md`
+
+---
+
+### IOS-XR Hyperscale uSID — 256 Blocks per Node — Oct 2023
+
+Bruce drove internal confirmation of **IOS-XR support for 256 uSID blocks per node**—productizing hyperscale SRv6 locator scale required for Web/SP AI and WAN designs. Span handoff → **04-span-of-influence.md**.
 
 ---
 

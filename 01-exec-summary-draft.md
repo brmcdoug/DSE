@@ -10,9 +10,9 @@
 | Role / Title | Dates | Notes |
 | :--- | :--- | :--- |
 | Network Engineer, Expedia | 2004 – 2007 | Large-scale DC networking; early hyperscale-style thinking (MPLS in the DC) |
-| Systems Engineer, Cisco (Enterprise / SP) | ~2008 – 2014 | *[Confirm dates]* Foundation in routing, WAN, and data center |
-| Systems Engineer, Cisco Web / Hyperscale | ~2015 – 2020 | Cloud-native and host-networking focus before Web was a formal selling motion |
-| Principal Systems Engineer (PSE) | Aug 2020 – Present | Americas ASP + Web (Web/hyperscale + tier-1 SP); cross-theater enterprise/APJC enablement |
+| Systems Engineer, Consulting Systems Engineer, Cisco (Service Provider) | ~2008 – 2014 | Foundation in SP routing, WAN, and data center |
+| Consulting Systems Engineer, Cisco Web / Hyperscale | ~2015 – 2020 | Lead strategic production network routing and data center engagements across Hyperscale/Web accounts |
+| Principal Systems Engineer (PSE) | Aug 2020 – Present | Americas ASP + Web (Web/hyperscale + tier-1 SP) |
 | Distinguished Systems Engineer (candidate) | 2026 | |
 
 **Certifications:** CCIE Service Provider #35169 (2012)
@@ -35,7 +35,7 @@ At each stage of his career Bruce has expanded his span of influence from region
 
 Since **August 2020**, Bruce’s customer impact has expanded **beyond his ASP + Web assignment**—not only into APJC and EMEA, but also into **Americas enterprise, financial services, education, and regional operators** that are outside Web/hyperscale and assigned SP accounts.
 
-**Americas enterprise and financial services (not ASP+Web).** Bruce has served as architecture SME for **Geico** (SONiC leaf/spine DC in Colorado), **Fiserv** (SRv6 TOI across WAN and DC, Jan 2026), **Adobe** (Cilium egress/ingress gateway POC and Cloud-Native SRv6 concept), **Honeywell** (NCS5501 backbone and Flex-Algo direction), **Texas Instruments** (global POP ring and SRv6 roadmap), **Disney** (DGN / SR-MPLS foundation), **The Trade Desk** (SONiC evaluation at ad-tech scale), and **NYU** (HSRN research-network SONiC advisory)—demonstrating repeatable transfer of cloud-native, SONiC, and SRv6 patterns outside his home theater segment.
+**Americas enterprise and financial services (not ASP+Web).** Bruce has served as architecture SME for **Geico** (SONiC leaf/spine DC in Colorado), **Fiserv** (SRv6 TOI across WAN and DC, Jan 2026), **Adobe** (Cilium egress/ingress gateway POC and Cloud-Native SRv6 concept), **Honeywell** (NCS5501 backbone and Flex-Algo direction), **Texas Instruments** (global POP ring and SRv6 roadmap), **Disney** (DGN / SR-MPLS foundation), **The Trade Desk** (SONiC evaluation at ad-tech scale), **Morgan Stanley** (SRv6 presentation, Jun 2023), **Applied Digital** (AI fabric architecture support, ~$30M cited `[verify]`), **Digital Realty** (SRv6 POC, Oct 2025), and **NYU** (HSRN research-network SONiC advisory)—demonstrating repeatable transfer of cloud-native, SONiC, and SRv6 patterns outside his home theater segment.
 
 **APJC and EMEA operators (not ASP+Web).** Bruce supported **Rakuten** on SRv6-SDWAN underlay HLD (Jul 2025), **Evroc** on EMEA neo-cloud colo-2 architecture (SONiC/Cilium direction), and **NTT East** via APJC account team (SRv6 research and Cilium introductions, 2025). Field enablement for **MTN Nigeria** and **DU UAE** through APJC SE Sanjay Nanda produced documented topology outcomes (~$85K lab savings; 2,300-node SRv6 POC) `[verify]`.
 
@@ -158,7 +158,7 @@ Bruce invests in capabilities that **directly enable** DSE-level impact—not cr
 Bruce is a **force multiplier** for the SE community through mentorship, reusable enablement assets, and programs that outlive individual engagements.
 
 - **Cisco Live:** ILT scores including CLEU23 **5.0/5.0** (Distinguished Speaker); CLEU24 **4.88/4.94**; CLEU25 **4.72/4.94**; CLEU26 **4.94/4.94**; CLUS25 panel **5.0/5.0**; CLUS26 panel **5.0**; 2026 “Beyond the Switchport” session (w/ Chris Lapp)
-- **Internal enablement:** Stay Ready Friday (CiPOL, Cilium, BYO-dCloud); Tech Elevate SRv6 lab (~25 attendees, Mar 2026); TMC Innovation Hours (SRv6, disaggregation, 2025); Web SONiC training (Apr 2026); SRv6 Pinnacle SE workshop (Dec 2025)
+- **Internal enablement:** Stay Ready Friday; **Apr/Dec 2025 SRv6 DC/AI workshops** (40+ BU, 20+ SE each); Tech Elevate; Web SONiC training (Apr 2026); SRv6 Pinnacle SE workshop (Dec 2025); **SEVT Containerlab 5.0** (Jan 2025); **Kaliwoda → MPLS-WC Cilium demo** multiplier
 - **dCloud:** [Cilium SRv6](https://dcloud2-rtp.cisco.com/content/demo/1113062) and [Intro to SONiC](https://dcloud2-sjc.cisco.com/content/demo/357554) demos for field self-service
 - **Mentoring:** Nacho (PSE candidate), Christopher Luciano, Dan Stacks (STLDP/Cilium), Satoshi Yamashita (STLDP), Nico Michel, Rodney, Bob, Kartik, Rob Murphy; **STLDP Innovation Award coach (2023)**
 - **Committee / hiring:** PSE review subcommittee voting member (3 years); technical interviewer for Web production-network SE roles

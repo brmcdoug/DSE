@@ -24,6 +24,46 @@
 
 ---
 
+### Web / Hyperscale TAM — FY26 Global Sales Roadmap — Aug 2025 & Apr 2026
+
+Bruce **owned Web/Hyperscale Technical Account Manager (TAM) responsibilities** for **FY26 Global Sales Technical Roadmap Requirements** and the **BE Interlock Process**—setting technical asks that flow into global sales planning (Aug 2025 and Apr 2026 cycles). Span outcome: field voice for AI/SRv6/SONiC priorities at **sales-org** altitude, not only account teams.
+
+---
+
+### Project Yukon — NaaS Architecture — Jan 2024
+
+Bruce contributed to **Project Yukon** — **NaaS architecture** for **Verizon and AT&T** that heavily leverages **SRv6 extended to CPE/service nodes** (service-chain / underlay exposure to SD-WAN). Handoff to Business Impact for operator revenue threads; internal span = cross-BU NaaS framing beyond MIG transport.
+
+**Vault:** `innovation/yukon-glue.md`, `customers/Verizon.md`
+
+---
+
+### SP NaaS Initiative — EU Advisor — Q2–Q3 2023
+
+Bruce served as **EU advisor** on the **SP NaaS initiative**—extending network-as-a-service consumption models from Americas SP/Web context into EMEA planning.
+
+---
+
+### Cross-Domain Broker — Oct 2023
+
+Bruce presented **Cross-Domain Broker** (Jalapeno / ExBroker lineage) to **Beesely, Mohit Lad, Eric Knipp**—executive-level internal advocacy for programmable multi-domain services.
+
+**Cross-ref:** Innovation (Jalapeno); Industry (operator NaaS narrative).
+
+---
+
+### IOS-XR uSID Scale — 256 Blocks per Node — Oct 2023
+
+Bruce confirmed **IOS-XR support for 256 uSID blocks per node**—unblocking hyperscale SRv6 designs he had been advocating internally. Product feedback loop (field → engineering), not a customer booking.
+
+---
+
+### Web Encapsulations CRD — Mid 2023
+
+Bruce asked **Bob Gisiger** to compile **Web/encapsulations CRD** requirements—connecting hyperscaler host-networking needs to engineering backlog.
+
+---
+
 ### AI Factory & Cross-BU Alignment — 2024–2026
 
 Bruce bridges **Silicon One / Cisco 8000**, **SONiC**, and **AI backend** engineering—translating hyperscaler co-development (Microsoft, Oracle, CoreWeave) into an internal narrative MIG and IMI can execute. He drove the internal conviction case that **SRv6-for-AI** (MRC, multi-tenancy, static pinning) was production-real—culminating in product direction others implement; customer revenue is documented under Business Impact, but the **internal** outcome was cross-BU prioritization of SONiC SRv6 and AI-fabric specs.
@@ -55,6 +95,7 @@ Bruce put **host-based networking** and **host-based SRv6** on Cisco’s interna
 
 **Internal outcomes:**
 - Security, DC, and SP teams now share a **common host-networking** vocabulary (air-gap, egress gateway, SRv6-in-Cilium roadmap)
+- **Nov 2024:** Presented Isovalent to **Cisco AI tiger team**; developed **Isovalent SEVT lab** — field enablement → **10-se-community-leadership.md**
 - **SD-WAN** and **SSE** engineering teams cite SRv6 as a **development differentiator** when requesting resources *(field observation, 2024–2025)*
 
 **Cross-ref:** Innovation (Cilium SRv6 CRD, Thomas Graf LoR); Business (Bell host-based); Global (Adobe POC).
@@ -105,7 +146,7 @@ Bruce served as **editor for four chapters** of the upcoming SRv6 book (Clarence
 
 ### PSE Review Committee — 2021–2024
 
-Bruce served **three years** as PSE review subcommittee / **voting member**— shaping promotion standards for the next generation of technical sellers. Detailed mentoring outcomes → **SE Community Leadership**; committee service is **organizational span** here.
+Bruce served **three years** as PSE review subcommittee / **voting member**— shaping promotion standards for the next generation of technical sellers. **Mar–May 2024** cycle with **Mike McPhee**. Detailed mentoring outcomes → **SE Community Leadership**; committee service is **organizational span** here.
 
 **Vault:** `dse/DSE General MOC.md` (Mar–May 2024 PSE committee sessions)
 
