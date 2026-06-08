@@ -17,3 +17,18 @@ CLEU23 lab: session 5.0, speaker 5.0
 
 Connected Recognitions:
 
+## Talent Assessments *(manager: Brook Crossman)*
+
+PDFs in `./talent-assessment/`; text extracts in `./talent-assessment/extracted/`. Integrated into package **June 7, 2026**.
+
+| Assessment | Period | Manager comments | Integrated into |
+| :--- | :--- | :--- | :--- |
+| 1HFY24 | May–Nov 2023 | Yes | [02-direct-leader-recommendation.md](./02-direct-leader-recommendation.md), [10-se-community-leadership.md](./10-se-community-leadership.md) |
+| 2HFY24 | Feb–Jul 2024 | Yes | [02](./02-direct-leader-recommendation.md), [03-global-impact.md](./03-global-impact.md), [07-innovation.md](./07-innovation.md), [09-personal-development.md](./09-personal-development.md) |
+| 1HFY25 | Jul 2024–Jan 2025 | Yes | [02](./02-direct-leader-recommendation.md), [09-personal-development.md](./09-personal-development.md), [10-se-community-leadership.md](./10-se-community-leadership.md) |
+| 2HFY25 | Feb–Jul 2025 | Yes | [02](./02-direct-leader-recommendation.md), [07-innovation.md](./07-innovation.md), [09](./09-personal-development.md), [10](./10-se-community-leadership.md) |
+| 1HFY26 | Jul 2025–Jan 2026 | Yes | [01-exec-summary-draft.md](./01-exec-summary-draft.md), [02](./02-direct-leader-recommendation.md), [04-span-of-influence.md](./04-span-of-influence.md), [07-innovation.md](./07-innovation.md) |
+| 2HFY26 | Jan–Jul 2026 | **Pending** | Employee sections empty in export; await Brook |
+
+**Not duplicated here:** Full employee self-assessment text lives in PDFs; package files cite outcomes only.
+

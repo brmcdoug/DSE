@@ -1,151 +1,173 @@
-## span of influence section
+## Span of Influence
 
+> **Scope ([AGENTS.md](./AGENTS.md)):** Impact **internal to Cisco** since **August 1, 2020**—expanding beyond the **ASP + Web + MIG** orbit (IOS-XR, NCS 5k, Cisco 8000, SONiC-as-MIG-platform, Silicon One transport).  
+> **This is not a customer/revenue section.** Account outcomes → **[06-business-impact.md](./06-business-impact.md)** / **[03-global-impact.md](./03-global-impact.md)**. External NANOG/GitHub reach → **[05-industry-impact.md](./05-industry-impact.md)**. Patent detail → **[07-innovation.md](./07-innovation.md)**.
 
-### Package criteria / section description:
+**Suggested package length:** 2–3 pages (body). Third-person narratives below, most-recent-first.
 
-Span of Influence
-Suggested length: 2-3 pages 
+---
 
-•	Provide a high-level summary of how your span of influence has expanded, using a bulleted list or a table to show the transition. A detailed version of the span of influence can be added to the appropriate section of the package (business impact, innovation, SE leadership, etc.).
-•	Chronological format with the most recent span of influence first.
-•	See slides 24-25 in the Nomination Kit for a detailed overview of the criteria.
+## Span Expansion Summary
 
-•	Interact and impact at higher levels internally in Cisco and externally with customers and partners.
-•	Specialization & Focus (see PSE criteria) for at least two technology domains/architectures etc., 
-•	The impact is more strategic and focuses on horizon 2-3
-
-
-### Body of work:
-
-Explain the impact
-Web, hyperscale, SRv6 for AI, SONiC and SR in GES, Yukon++, SP-NaaS-cloud-like consumption, host-based SRv6, SR-Apps, SL-OnDemand, FE-Segmentation, EMEA NetCo/ServCo, programmability SME,  (Skylight & YANG), Isovalent acquisition
-
-I put host-based networking and host-based SR/SRv6 on the map
-* Isovalent acquisition - began advocating for Cisco to have a host-networking strategy and solution circa 2014-2015, really focused after PSE promotion on K8s/cloud-native aspect. Saw Cilium and their use of eBPF as a strategic gamechanger and began advocating for acquisition as early as 2021. Isovalent may become one of our most impactful acquisitions in a decade as the underlying eBPF technology will play a huge role in not only networking and segmentation, but also security in the AI era - runtime security, the Live Protect product in all route/switch products
-* SONiC in general and SONiC SRv6 in particular - see MSFT/Oracle/OpenAI/Coreweave efforts and MRC architecture/innovation
-* Single OS working gtroup - with DSEs Brenden Buresh, Craig Hill, Virginia Teixeira, and PSE Rob Murphy; produced and presented a recommendation to senior leadership which articulated the market share risks and dynamics tied to Cisco's dated multi-OS product siloes. Recommended a multi-year project where we collapse down to a single NOS based on SONiC or an open-source sonic-like solution
-  * With the advent of Mythos and truly advanced AI security challenges the single-OS working group will reform and push very hard on security and patching as a key driver for collapsing/reducing our NOS', which will enormously reduce our vulnerability surface.
-* Future Enterprise Segmentation working group - led findings and advocacy for reduction in the number of segmentation technologies (VXLAN, SRv6) and to use SGTs as a common micro-segmentation technology end-to-end. Led to my realization that SGTs and uSIDs are the same 16-bit length and could be combined to form new end-to-end services that cross domains (enterprise/SP) all while carrying and maintainning identity and microsegmentation capability 
-* PSE committee - served three years as subcommittee / voting member
-
-This is not necessarily a CL outcome, but both the SDWAN and SSE engineering teams have started talking about SRv6 support as a key differentiator for them as they justify development resources
-The future - the OS will be linux, routing and other packet processing services will be hardware accelerated apps. they may be decoupled, underlay control plane is still a routing protocol, but service control plane could be Cilium
-
-### MOC notes
-## Summary
-Evidence of strategic influence expanding from regional technical SME to global cross-functional leadership. Impact spans Cisco Engineering (Business Units), Product Management, and CXO-level customer engagements, focusing on Horizon 2-3 architectures.
-
-## span of influence section
-
-
-### Package criteria / section description:
-
-Span of Influence
-Suggested length: 2-3 pages 
-
-•	Provide a high-level summary of how your span of influence has expanded, using a bulleted list or a table to show the transition. A detailed version of the span of influence can be added to the appropriate section of the package (business impact, innovation, SE leadership, etc.).
-•	Chronological format with the most recent span of influence first.
-•	See slides 24-25 in the Nomination Kit for a detailed overview of the criteria.
-
-•	Interact and impact at higher levels internally in Cisco and externally with customers and partners.
-•	Specialization & Focus (see PSE criteria) for at least two technology domains/architectures etc., 
-•	The impact is more strategic and focuses on horizon 2-3
-
-
-### Body of work:
-
-### Explain the impact
-
-My span of influence: i'm a trusted advisor to customers and Cisco account teams covering Web, hyperscale, Cloud, service provider, Enterprise, and Public Sector. I am often called upon to discuss or consult on leading edge products and architectures, or when the goal is to demonstrate Cisco's thought leadership and ability to be visionary. I am the sought after horizon 2-3 guy, the "2030 guy"
-
-My span of influence with Cisco product engineering includes IMI BU (Cisco 8000 and predecessor platforms), SRv6 for AI, SONiC, SR and SRv6 in Enterprise focused platforms like SDWAN, IOS-XE, NXOS, Cisco Secure Access, and Isovalent/Cililum. 
-
-in GES, Yukon++, SP-NaaS-cloud-like consumption, host-based SRv6, SR-Apps, SL-OnDemand, FE-Segmentation, EMEA NetCo/ServCo, programmability SME,  (Skylight & YANG), Isovalent acquisition
-
-### Span of Influence Transitions
-
-| Level of Influence | From (Principal SME - Horizon 1) | To (Distinguished Leader - Horizon 2/3) |
+| Dimension | Horizon 1 (early PSE) | Horizon 2–3 (current) |
 | :--- | :--- | :--- |
-| **Cisco Engineering & Product** | Technical SME for individual SRv6 features and protocol testing. | **Strategic Advisor to IMI (Cisco 8000), SDWAN, and Security BUs.** Driving the adoption of SRv6 uSID as a unified "Network API" across all OS platforms (IOS-XE, NXOS, SONiC). |
-| **Customer & Partner Architecture** | Delivering regional SRv6 pilots and design validation (e.g., Bell Canada). | **The "2030 Guy" for Global Hyperscalers.** Architecting 1B-scale AI Fabrics and cloud-native service brokerage for Web, SP, and Enterprise giants globally. |
-| **Strategic Innovation** | Prototyping individual apps in labs. | **Visionary for Host-Based Networking.** Provided the architectural validation for host-based SRv6 that informed the Isovalent acquisition and the "Single OS" (SOSIE) vision. |
+| **Engineering orbit** | SRv6 feature SME within MIG / Web transport | Cross-BU advisor: **Cilium/Isovalent**, **SD-WAN**, **SSE/Cisco Secure Access**, **Nexus/DC**, **Future Enterprise Segmentation**, **Single OS (SOSIE)** |
+| **Organizational level** | Theater SRv6 pilots, account-team consultant | **VP/exec** relationships (Knipp, Dorval, Morrissey); **PSE committee**; DSE peer working groups (Buresh, Hill, Teixeira, Murphy) |
+| **Strategic framing** | “SR features for SP/Web” | **“2030 guy”**—host networking air-gap, network-as-API, Linux NOS + hardware-accelerated apps, SRv6 uSID as unified programming model |
+| **Innovation handoff** | Individual lab prototypes | Advocacy → **Isovalent acquisition**, **SONiC SRv6 investment**, **SD-WAN/SSE roadmap** commitments → see Innovation section |
 
-### My Most Important Contributions and Their Impact
+**Technology domains (≥2):** (1) **Cloud-native / host networking** (eBPF, Cilium, K8s CNI); (2) **Programmable transport** (SRv6 uSID end-to-end); (3) **Open NOS strategy** (SONiC, SOSIE); (4) **Enterprise security integration** (SGT, segmentation, Policy Plane).
 
-#### 1. Host-Based Networking 
-*   **The Vision:** I was an early visionary identifying that the center of gravity for network services was shifting to the host. My advocacy for host-based SR/SRv6 effectively put this architecture on the Cisco map.
-*   **The Impact:** My technical validation of eBPF/Cilium integration with SRv6 preceded and informed the **Isovalent acquisition**, bridging the gap between Cloud-Native (K8s) and SP Transport.
-*   **Links:** [[07-Innovation-MOC]], [[06-Business-Impact-MOC]], [[04-Span-of-Influence-MOC]], [[05-Industry-Impact-MOC]], [[03-Global-Impact-MOC]]
+---
 
-- CIPOL 2013, 2015
-- First CL host-based SRv6 lab: 2023
+## Span of Influence — Draft Package Body
 
- - **MRC** & SRv6 - validation of host-networking from industry titans OpenAI, Microsoft, Nvidia, AMD, BRCM: https://cdn.openai.com/pdf/resilient-ai-supercomputer-networking-using-mrc-and-srv6.pdf
- 
- - **Empowering applications**: "A core principle of SRv6 is to give applications control over their network experience" - nearly word-for-word my framing since 2020. See CF LinkedIn/blog post: https://blogs.cisco.com/datacenter/mrc-and-srv6-how-foundational-networking-innovations-are-enabling-the-next-generation-of-ai-supercomputers
+---
 
-#### 2. SONiC SRv6 & AI Backend Strategy
-*   **The Contribution:** Crucial contributor to the development of SONiC support for SRv6. While the "Phoenix Wing" effort (Alibaba-led) focuses on DCI/Metro, I am driving the **AI Backend and DC frontend** use cases.
-*   **The Impact:** Securing Cisco's relevance in the open-source NOS market for Tier-1 Hyperscalers.
-*   **Links:** [[07-Innovation-MOC]], [[06-Business-Impact-MOC]], [[05-Industry-Impact-MOC]]
+### AI Factory & Cross-BU Alignment — 2024–2026
 
-#### 3. Cross-Domain "Network as an API" (SDWAN & SSE)
-*   **The Contribution:** Driving SRv6 beyond traditional SP/Hyperscale boundaries into Enterprise platforms like SDWAN and Cisco Secure Access (SSE).
-*   **The Impact:** Influencing SDWAN and SSE engineering teams to adopt SRv6 as a **key differentiator** for multi-domain policy enforcement and service steering.
-*   **Links:** [[07-Innovation-MOC]]
+Bruce bridges **Silicon One / Cisco 8000**, **SONiC**, and **AI backend** engineering—translating hyperscaler co-development (Microsoft, Oracle, CoreWeave) into an internal narrative MIG and IMI can execute. He drove the internal conviction case that **SRv6-for-AI** (MRC, multi-tenancy, static pinning) was production-real—culminating in product direction others implement; customer revenue is documented under Business Impact, but the **internal** outcome was cross-BU prioritization of SONiC SRv6 and AI-fabric specs.
 
-#### 4. End-to-End Identity: SGT in uSID
-*   **The Innovation:** Developed the architecture for populating Security Group Tags (SGT) in a uSID slot, carrying identity and micro-segmentation truly end-to-end within the SRv6 network program.
-*   **The Impact:** Solved the "policy gap" between Enterprise identity and Hyperscale transport.
-*   **Links:** [[07-Innovation-MOC]], [[03-Global-Impact-MOC]]
+**Internal influence:**
+- Field lead with **Clarence Filsfils** SR organization on company-wide SRv6 strategy (“network as IPv6 header,” application-controlled paths)—not single-feature testing
+- **Phoenix Wing:** aligned Cisco engineering with multi-vendor SONiC uSID narrative (Alibaba, Microsoft)—internal open-NOS strategy shift
+- Referenced at **IETF Vancouver 2024** as *“the 2030 guys”* (Ianik Semko, re: Bruce and Dan B.)—internal/external validation of horizon-3 positioning
 
-#### 5. Future Network OS (SOSIE) & Enterprise Segmentation
-*   **The Vision:** Leading the **Single OS (SOSIE)** working group, envisioning a future where the NOS is Linux, with hardware-accelerated packet processing apps and a Cilium-based service control plane.
-*   **The Impact:** Shaping the long-term (Horizon 3) strategy for how Cisco builds and sells networking software.
-*   **Links:** [[07-Innovation-MOC]]
+**Vault:** `dse/04-Span-of-Influence-MOC.md`, `AI-Factory-Hub.md`, `Silicon-Hardware-Hub.md`
 
-#### 6. SE Community & Talent Development
-*   **The Contribution:** Active member of the **PSE Committee**, driving the standards for the next generation of technical talent within Cisco.
-*   **Links:** [[10-SE-Leadership-MOC]]
+---
 
+### Single OS (SOSIE) Working Group — 2024–2026
 
+Bruce **co-founded SOSIE** with DSE peers **Brenden Buresh**, **Craig Hill**, **Virginia Teixeira**, and PSE **Rob Murphy**. The group produced recommendations to senior leadership on **multi-OS fragmentation risk**—Silicon One hardware convergence vs. divergent NX/XR/IOS-XE software stacks—and advocated a multi-year path toward a **Linux-based NOS** with hardware-accelerated packet apps and Cilium-class service control plane.
 
+**Oct 2024 session** (Brendan, Dave, Chuck, Bruce): documented $500M Edgecore leakage, Aviz/OEM gaps, Hyperfabric strategy questions, and actions to obtain **Will Etherton OS-convergence report** and clarify SONiC ownership with Amy Gerrie.
 
-### Engineering & BU Partnership (The "Field-to-BU" Bridge)
-- **Collaboration with SR Inventor (Clarence Filsfils)**: Direct architectural exchange on SRv6 simplicity and "Network as an IPv6 Header" concepts (2020-2026).
-- **Influence on Silicon Strategy**: Tracked and influenced AWS silicon strategy shifts (25.6T to 12.8T) at the steering committee level (2021).
-- **Bold Bets Leadership**: Led the **only field-submitted project (Jalapeno)** to advance to the Validate phase in Cisco’s Bold Bets program.
+**Forward look:** SOSIE reform driven by **Mythos/AI security patching** and vulnerability-surface reduction—Span story continues into 2026.
 
-### Executive & Global Influence
-- **VP-Level Recognition**: Documented impact by VPs Eric Knipp, John Dorval, and Patrick Morrissey, citing over **$1B in influence** and "foundational silicon deals" (Amazon Q1FY23).
-- **Global Theater Support**: Provided technical architecture for the first SRv6 deployment in ASEAN (Indosat Ooredoo) and global Cisco Live events.
+**Vault:** `innovation/SOSIE.md`, `dse/DSE General MOC.md` (co-founder note)
 
-## Strategic Transitions (Chronological)
+---
 
-### 2024 - 2026: Holistic Multi-Domain Leadership (Horizon 3)
-- **Initiative: AI Factory & Hyperscale Strategy**
-    - **Influence:** Driving the intersection of [[Silicon-Hardware-Hub|Silicon (G800)]], [[SONiC-Hub|SONiC]], and [[AI-Factory-Hub|AI Backends]].
-    - **Cross-Domain:** Bridging Hardware (ASIC) and Software (SONiC) teams to deliver a unified AI infrastructure narrative.
-- **Initiative: Phoenix Wing (Global Standards)**
-    - **Influence:** External partnership with Alibaba and Microsoft; Internal alignment with Cisco Engineering to open-source SRv6 uSID for SONiC.
-    - **Impact:** Strategic shift toward open-source NOS in the Tier-1 Hyperscale market.
+### Isovalent / Cilium — Host-Networking Strategy — 2021–2026
 
-### 2022 - 2024: Cross-Architecture Integration (Horizon 2)
-- **Initiative: SRv6 Everywhere (Host to DC to WAN)**
-    - **[[SRv6-Master-Hub|SRv6 in the DC]]**: Influencing Nexus/Data Center BU to adopt SRv6 uSID.
-    - **[[Isovalent-Cilium-Hub|Cilium & eBPF Integration]]**: Strategic partnership with Isovalent (pre-acquisition) to drive SRv6 into the host/K8s layer.
-    - **SRv6 for SDWAN**: Bridging the gap between Enterprise SDWAN and SP Core transport.
-- **Project: [[Jalapeno|Jalapeno Network Service Broker]]**
-    - **Influence:** Leading cross-functional teams (Eng, PM, Sales) to build a programmable network services platform.
+Bruce put **host-based networking** and **host-based SRv6** on Cisco’s internal map—advocacy from 2014–2015 CIPOLs intensified post-PSE on K8s/eBPF. He identified **Cilium** as a strategic inflection (2021+) and advocated **Isovalent acquisition** before it closed (2023)—bridging cloud-native CNI with SP-grade SRv6 transport for engineering and security BUs.
 
-### 2021: Regional to Theater SME (Horizon 1)
-- **Initiative: SR-Apps & Programmability Roadshows**
-    - **Influence:** Driving architectural adoption of SR-PCE and Segment Routing across the North American SP theater.
-    - **Impact:** Established as the primary SME for Hyperscale network architecture.
+**Internal outcomes:**
+- Security, DC, and SP teams now share a **common host-networking** vocabulary (air-gap, egress gateway, SRv6-in-Cilium roadmap)
+- **SD-WAN** and **SSE** engineering teams cite SRv6 as a **development differentiator** when requesting resources *(field observation, 2024–2025)*
 
-## Holistic Technology Connections
-- [[AI-Factory-Hub]]
-- [[SONiC-Hub]]
-- [[SRv6-Master-Hub]]
-- [[Isovalent-Cilium-Hub]]
-- [[Linux-Labs-Jalapeno-Hub]]
+**Cross-ref:** Innovation (Cilium SRv6 CRD, Thomas Graf LoR); Business (Bell host-based); Global (Adobe POC).
+
+**Vault:** `04-span-of-influence.md` (candidate notes), `Isovalent-Cilium-Hub.md`, `technologies/Isovalent Runtime Security.md`
+
+---
+
+### Future Enterprise Segmentation Tiger Team — 2023–2024
+
+Bruce participated in **Carnes/Gillies-sponsored Future Enterprise Segmentation** working group—Sprint 3 recommendations on reducing segmentation protocol sprawl (VXLAN vs. SRv6) and using **SGT as a normalized identity gate** across enterprise and cloud attributes (ABAC alignment).
+
+**Span outcome:** Connected enterprise segmentation discourse to **SRv6 uSID + SGT** unified programming (16-bit alignment)—handoff to Innovation (CPOL) and cross-domain NaaS/Policy Plane discussions in MIG.
+
+**Vault:** `technologies/fe-segmentation.md`, `innovation/SGT, SRv6, NaaS Notes.md`
+
+---
+
+### SD-WAN & SSE — SRv6 Beyond MIG — 2022–2026
+
+Bruce extended SRv6 advocacy from SP/hyperscale into **Enterprise BE platforms**: SD-WAN and **Cisco Secure Access (SSE)** teams treat SRv6 as a roadmap differentiator for multi-domain policy and service steering—extending his Web/SP architecture into **non-MIG product lines**.
+
+**Vault:** `04-Span-of-Influence-MOC.md` (candidate notes); patent thread: *SP Underlay Services for SDWAN* → Innovation
+
+---
+
+### SR Brain Trust — Clarence Filsfils & SR Engineering — 2020–2026
+
+Bruce operates as a **field lead and innovation partner** to the SR organization—company-wide SRv6 direction, uSID simplification, and “applications control network experience” framing (echoed in Clarence’s 2024–2025 MRC+SRv6 public narrative). This is **internal strategy influence**, distinct from any single account win.
+
+**Thru-line (exec overview only):** Relationship deepened pre-2020; **post–Aug 2020 impact** is PSE-era field leadership and product feedback loops.
+
+---
+
+### End-to-End SRv6 Platform Momentum — 2025–2026
+
+After years of internal evangelization, Bruce’s Talent Assessment reflection (1HFY26) documents **company-wide investment momentum** for end-to-end SRv6 (including SRv6 + SGT): Cisco is investing or near-investing across **ISE, IOS-XE/Catalyst, Nexus, SONiC, SD-WAN, SASE, and Cilium**. This is **Span of Influence** outcome—BU prioritization aligned to field architecture—not a single account booking.
+
+**Cilium-SP business case:** Bruce compiled worldwide account data estimating **~$34M Isovalent** and **~$323M MIG pullthrough** for Cilium-SP feature development `[verify]` → detail in **07-innovation.md**.
+
+---
+
+### SRv6 Book & External Publications — 2024
+
+Bruce served as **editor for four chapters** of the upcoming SRv6 book (Clarence Filsfils and team) — 2HFY24 employee reflection. Industry-facing publication thread → **05-industry-impact.md**.
+
+---
+
+### PSE Review Committee — 2021–2024
+
+Bruce served **three years** as PSE review subcommittee / **voting member**— shaping promotion standards for the next generation of technical sellers. Detailed mentoring outcomes → **SE Community Leadership**; committee service is **organizational span** here.
+
+**Vault:** `dse/DSE General MOC.md` (Mar–May 2024 PSE committee sessions)
+
+---
+
+### Executive & Silicon Strategy Relationships — 2021–2023
+
+Documented **VP-level recognition** (Eric Knipp, John Dorval, Patrick Morrissey) citing **>$1B influence** and foundational **Amazon Silicon One** engagement (Q1FY23 steering-committee context)—internal credibility for field-led horizon-3 bets.
+
+**AWS silicon strategy:** Tracked and influenced generational TAM shifts (12.8T ↔ 25.6T) at steering level—Span (internal), revenue detail in Business Impact.
+
+**Vault:** `dse/04-Span-of-Influence-MOC.md`
+
+---
+
+### Cross-Org Peer Network
+
+Regular collaborators outside ASP+Web assignment orbit:
+
+| Peer | Domain |
+| :--- | :--- |
+| **Brenden Buresh** | Cloud-native SRv6, Adobe/Cilium, SOSIE |
+| **Craig Hill** | Routing, FE Segmentation, SOSIE |
+| **David Jansen** | `[extend]` |
+| **Brian Meaney** | `[extend]` |
+| **Virginia Teixeira** | SOSIE, enterprise |
+| **Mike McPhee** | PSE committee, STLDP |
+| **Rob Murphy** | SONiC labs, SRv6 enablement, SOSIE |
+| **Dan B.** | Host-based SRv6, “2030” architecture |
+
+---
+
+## Signature Internal Influence Themes
+
+1. **Host networking air-gap** — control point moved to host; Cisco must participate in Linux/eBPF or cede policy/overlay to competitors.
+2. **SRv6 uSID as network API** — one programming model across IOS-XE, NX-OS, SONiC, SD-WAN, host CNI.
+3. **Open NOS / SONiC** — internal investment case for hyperscaler relevance (distinct from Phoenix Wing industry story).
+4. **Policy Plane** — identity (SGT) + transport (SRv6) + observability (TEyes/OTel) as glue across BUs; gaining MIG traction per candidate notes `[verify with PM]`.
+5. **Linux future NOS** — routing as hardware-accelerated apps; Cilium-class service control plane (SOSIE vision).
+
+---
+
+## Explicitly Excluded from This Section
+
+| Item | Route to |
+| :--- | :--- |
+| Revenue tables, $17M Meta booking, Bell 500-unit order | **06-business-impact.md** |
+| Geico, Adobe, Rakuten customer narratives | **03-global-impact.md** |
+| srv6-labs, NANOG uSID, MPLS-WC (external visibility) | **05-industry-impact.md** |
+| CPOL titles, patent counts, MRC emulator repo detail | **07-innovation.md** |
+| CLEU lab scores, Nacho mentoring | **10-se-community-leadership.md** |
+| IMI/MIG feature testing without cross-BU angle | Omit or one-line only |
+
+---
+
+## Vault Harvest Log — June 7, 2026
+
+**Entry:** `dse/04-Span-of-Influence-MOC.md`  
+**Also read:** `innovation/SOSIE.md`, `technologies/fe-segmentation.md`, `Isovalent-Cilium-Hub.md`, `dse/DSE General MOC.md`, `dse/09-Personal-Development-MOC.md`, candidate notes in prior `04-span-of-influence.md`
+
+**Gaps / Bruce to add:**
+- [ ] Named quotes or emails from SD-WAN/SSE PMs on SRv6 roadmap commitment
+- [ ] Will Etherton report outcome (if shareable)
+- [ ] Extend peer table (Jansen, Meaney, Gillies/Carnes cadence)
+- [ ] Confirm Policy Plane traction with MIG PM (Carlos Pereira / OTel platform)
