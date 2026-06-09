@@ -12,4 +12,7 @@ No page limit
 •	Note: This can include ex-Cisco leaders
 
 
-### Body of work:
+### Body of work
+
+**LoR guidance (Jun 2026):** Sponsor letter is generally the **same as the direct-leader recommendation**, or **co-authored** by direct leader + their manager (**John Dorval** for Brook Crossman; **Tim Carnes** for Matt Gillies). Bruce may submit input from **both** Brook (ASP/Web, through Jun 2026) and **Matt Gillies** (Global, from Jun 2026).
+

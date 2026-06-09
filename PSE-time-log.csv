@@ -1,0 +1,367 @@
+Date,Description, Impact,DSE criteria (in order of impact),source material,Notes
+2020,scaling the cloud to a billion servers,high,"Innov, Span, Industry",,"thought experiment presentation for an early Cisco internal SRv6 workshop.  It was way ahead of its time and blew the audience away, but also led to Clarence pulling me aside and emphasizing that we (with me as expected lead) must crack the hyperscale market with SRv6...we did in 2025!"
+Jul-20,"Microsoft SWAN Agent - nearing production deployment, SL-API PBTS feature set",high,"Biz, Innov",,Check on revenue impact
+Jul-20,"Bell Canada custom SW development (Jalapeno NSE, LLDP SRv6), ongoing decade-plus friendship and collaboration with Bell Architect Daniel Bernier",medium,"Innov, Biz",,Check on revenue impact
+Jul-20,Twitter SRTE POC,medium,Biz,,Check on revenue impact
+Jul-20,First facebook SRv6 conversation,medium,Biz,,deployment expected in 2026
+Jul-20,"SR-Apps - starts to really gain momentum (tech fund (SR-TE, ACP), identified Apps, path tracing - which became IPM, etc.)…ongoing collaboration with SR Eng and MIG eng, field lead, trusted advisor, co-developer, essentially an extension of the Eng/architecture org. SR-Apps effort went thru several iterations/name-changes, etc. over the course of 3-4 years. Ultimately did not productize apps, but greatly influenced SRv6 architecture and technology direction as pertains to scale (IPM, path tracing) and extensibility (NaaS, host-based/cloud-native SRv6), etc.",high,"Innov, Span, Biz",,
+Jul-20,"Oracle account team turnover - renewed energy, eventual success years later",medium,Biz,,
+Aug-20,SD-Overlay with David Jansen,medium,"Innov, Span",,early collaboration with Global Enterprise DSE Jansen on host-based SRv6
+Aug-20,Began Jalapeno open-source process,medium,"Innov, Indust",,I know of no other project that originated in Cisco Sales to have become legally open-sourced by Cisco
+Aug-20,"IOS-XR North Star operations improvements project, 3rd party Apps",medium,"Biz, Indust",,
+Aug-20,"NSM/NSE collaboration with ET&I Tim Swanson, John Joyce, Shannon McFarland, Giles Heron, Jan Medved, Ed Warnicke. A range of topics, including SDWAN+Jalapeno-SDN(SRv6-TE)",medium,"Innov, Span",,
+,,,,,
+Sep-20,"SFDC A9K POC - leveraged previous relationship and mindshare building, co-led POC development and execution w/Asoka",high,Biz,,
+Sep-20,Netflix early Silicon-1 400G discussions,medium,Biz,,
+Sep-20,"CNWAN (Alberto Rodriguez) team heard about my host/cloud-native work and reached out. Turned into a multi-year friendship and collaboration, multiple CIPOLs, influence on SDWAN product direction, and eventual tie-in to Enterprise Tiger Team work and SRv6 SGT innovation",high,"Innov, Span",,Check on productization and revenue impact
+Sep-20,"SRv6 for K8s using VPP - early evangelization w/Clarence & team and DSE David Jansen led to larger internal engagement. Agreement that a host-based SRv6 solution is needed, focus on VPP at the time",high,"Innov, Span",,
+Sep-20,Early ET&I Bold Bets?,,,,Get letter of rec from Carlos Pereira
+,,,,,
+Oct-20,"Collaboration with OST university in Zurich Switzerland - in 2021 produced an open sourced a Jalapeno API-GW, and a SRv6 service chaining demo in 2022. Severin went on to develop Hawkv6 which was later noticed by Bart and Andreas who saw wanted to use it as a distributed controller-app where endpoints in the field would be SRv6 service consumers",medium,"Innov, Span, Indust, Lead, Personal",,
+Oct-20,SEVT presentation - customer success story: Bell Canada SRv6 end-to-end (to the host),medium,"Lead, Span",,need attendee count and survey scores
+Oct-20,Twitch SR-TE architecture discussions,medium,Biz,,
+,,,,,
+Nov-20,"SRv6 service chaining at Telstra, SRv6 at Indosat, SR-Apps BGP controller consulting w/China CX team - pulled in as an advisor ",medium,Global,,Xi Zhang (xizha2) <xizha2@cisco.com>; Xun Wang (wangxun) <wangxun@cisco.com>; Lin Shi (shlin2) <shlin2@cisco.com>; Serguei Bezverkhi (sbezverk) <sbezverk@cisco.com>
+Nov-20,"Bold Bets: Congratulations on the advancement of your Bold Bet idea.
+During this time we will review feedback on your idea, along with outline expectations and deliverables for the Validate phase.",high,"Innov, Glob",,
+,,,,,
+Dec-20,"Began assisting AWS acct team in company's first Silicon-1 component sales engagement. My role was to be the technical advisor between Cisco Eng and the Sales team. I developed a multi-year/mult-architecture (12.8T, 25.6T, 51.2T) TAM analysis based on AWS AZ/region growth trends, which showed enormous revenue numbers",high,"Biz, Innov",,Upload TAM XLS to package sharepoint
+Dec-20,Collab/Advise Apoorva Karan & team (Rohit Bahl) on scaled NG Observability/management/monitoring platform - NGDevX,medium,"Innov, Span",,
+Dec-20,SR-Apps per-flow steering into BSID - precursor to DSDN,high,"Innov, Span, Industry",SRv6-Apps-Per-Flow-Steering-into-BSID-v1a.pptx,
+Dec-20,Mentoring Kevin Echols,,,,followup with Kevin on impact
+,,,,,
+Jan-21,"DCN Champions Bootcamp: Cloud Networking 101 - deepen Cisco SE's and Cisco overall understanding of hyperscale/cloud architecture, and operational philosophy, and mindset",high,"Lead, Biz, Span",,need attendee count and survey scores
+Jan-21,"Demo Jalapeno/SR-Apps to XR-Eng: Robert Sawaya: ""Bruce agreed to present and demo the Jalapeno infrastructure to our team (thx Bruce). I believe this is very interesting for our team. This will help up stay up-to-date and will help generate innovative ideas.""",medium,"Lead, Innov, Span",,
+Jan-21,"First SONiC SR/SRv6 discussions (Praveen, CF), and SRv6 SDK support on Silicon-1",high,"Innov, Span",,"Given the timing, this was not very impactful in 2021, but became huge in 2025 and 2026"
+Jan-21,"Journey to PSE presentation for the Web SE org - high impact, inspired some SE's, but the honesty and candor of the session led to some unintended consequences (some strong SE's chose to alter their career plans and pursue SE management path)",high,Lead,,
+,,,,,
+Feb-21,"BART SR discussion, Craig Hill, did anything come of it?",low,"Biz, Span",,
+Feb-21,"SRv6 DC in Asia - Alibaba, SONiC",medium,Global,,
+Feb-21,SRv6-host: calico-vpp investigation with Jerome Tollet and Aloys Augistin,medium,"Innov, Industry",,
+Feb-21,Early adopter - began looking into VXR simulator tool for 8000 virtual network simulations,high,,,
+,,,,,
+Mar-21,"Cloud-Native PE - Riggs Goodman, AT&T team",medium,Innov,,
+Mar-21,Twitter SR engagement (Asoka),,,,followup w/Asoka
+Mar-21,Bell-Pensando SRv6 net program,high,"innov, industry",,check w/Dan if anything came of it. Did the SRv6 implementation become part of AMD/Pensando's MRC support?
+Apr-21,Google SRTE ongoing support 1H 2021,high,biz,,check w/Kartik on impact
+Apr-21,K8s & SRv6 recurring discussions with SR Eng team,medium,"innov, span",,"early days, not much traction"
+Apr-21,Beginning of ASP Lightning talks,high,lead,,
+Apr-21,SR at Hughes,,,,Check with Todd Philippi
+Apr-21,OST Bachelor Thesis presentations and Master's thesis topics brainstorm w/Laurent,medium,"industry, lead",,had built relationships with OST university in Zurich and advised on research projects and bachelor's and master's thesis of several students
+May-21,"SR-Apps, SRPM at microsoft, SR at Twitter, SRv6 FB discussions, SRv6 internal meetings around product and design",medium,"innov, span",,"SR-Apps did not get productized, but lead to significant re-thinking of how we develop software/controller products around our hardware/infrastructure products"
+May-21,SDWAN SP-API advisor to SDWAN TMEs - advocated direct BSID approach as an alternative to the proposed DSCP mapping to SP SR-policy: better service scale and DSCP matching is a 20 year old technique and not a differentiator,medium,"Innov, Span",,solution later confirmed in BU product plans in 2026-2027
+May-21,"Beginning of SP Edge tiger team - co-lead with Vaughn and Byzek, Craig Hill, Errol Roberts, David Jansen",medium,span,,
+May-21,"Jalapeno preso for Goldman Sachs, June Jalapeno for Wells Fargo, August Jalapeno in Teppei's lab in Japan, September Telstra and AU SE team",medium,"Innov, Span, Global",,mindshare
+,,,,,
+Jun-21,PlayZ working group - got pulled in to collaborate/advise on more than one bold bet project,low,"Innov, Span",,relationships built and came into play later at DLR POC engagement
+Jun-21,Twitch SR EPE,,,,Check w/AWS team
+Jun-21,"MPLSoUDP at AWS - drive features into 8000, evolved into Hyperscale-tunneling architecture whitepaper with Bob G",med,"Innov, Span",,Check w/AWS/OCI on impact
+Jun-21,Rodney Moodley mentorship,,Lead,,Check w/Rodney on impact
+,,,,,
+Jul-21,"Future of SP Networking kickoff - HQ team recognizing the rapidly changing SP world, take a step back and brainstorm among some of the smartest, most experienced technical experts in the industry. I emerged as the visionary of the group advocating for a new model of ""cloud-like consumption of network services"". Later published a pair of blogs (find links and stats). The concepts and ideas pre-dated the SP-NaaS movement by a couple years",high,"Innov, Biz, Industry, Lead",,"led to development of a blog series ( I authored 2), and cisco live panel repeated multiple times"
+Jul-21,ASP 8K workstream - field developed training materials for field SE consumption to help drive adoption of Cisco 8000 - what session did I lead? Recorded video Feb 2022,high,"Biz, Lead",,"Check w/Jag on impact, 8000 fastest revenue ramp of any platform"
+,,,,,
+Aug-21,Google Edge Compute SRv6 w/Bell ,low,"industry, innov",,low impact but excellent example of cross org and even company collaboration
+,,,,,
+Sep-21,"Cisco 8000 at AWS - DX use case, drive the need for increased service scale for Web Edge use cases",high,"Biz, Innov",,
+Sep-21,Bob mentoring/regular cadence/sync,high,lead,,Bob is now essentially SE CTO for Web platforms and Neocloud customers
+,,,,,
+Oct-21,"TMo ""DC 2025"" project",,,,check w/Vaughn on impact
+Oct-21,"Cloud-Native SRv6 kickoff - I chaired a discussion among CF, Brook, etc. Oct 20, 2021",medium,"innov, span",,Cloud-Native-SRv6-Services-sum-v1.docx
+Oct-21,"SEVT panelist: SP-DC october 28, 2021",medium,lead,,check on score/impact
+,,,,,
+Nov-21,"Experience Broker - a lot of conversations, including with AT&T, VZ, OCI, Qwilt, Dish, Rackspace etc.",medium,"innov, span",,check w/Vaughn on impact. Good mindshare effort with large customers
+2021,"Summary of 2021 - Web sales was early in the transition from NCS to 8000, so activity was low. I basically spent a lot of time on innovation projects both as field lead/partner to SR Eng, and as project lead for Jalapeno Bold Bet - the only BB submission from the sales org to be promoted through the process right up until to funding ask, when the program was dropped",,"innov, span, biz",,summary of 2021
+,,,,,
+Jan-22,Kartik Subramanian mentorship/check-ins,,lead,,check w/Kartik on impact
+Jan-22,Open-sourced Jalapeno,,"Innov, Global, Industry",,"Jalapeno has been used by BellC, Rakuten, Swisscom?"
+Jan-22,"Initial advocacy for acquiring Isovalent; floated the idea by Bernier, who didn't like it",high,"Innov, Span, Industry, Global, Biz",,Isovalent was acquired in April 2024
+,,,,,
+Feb-22,"SmartNICs and Appnetworking with Vaughn, Jansen, Errol, Craig",medium,"Innov, Span",,I began advocating cisco invest in smartNIC as early as 2015. the strategic importance of smartNIC was validated in 2026 with the MRC announcement
+Feb-22,Twitter RSVP-TE POC,medium,biz,,check on revenue
+Feb-22,"AquarianSpace consulting - over the years Brook has frequently utilized me as his ""creative dive into something no one else is working on"" guy. Dug in researching Delay Tolerant Networking and how Jalapeno-SDN principles could apply and solve for the kinds of challenges deep-space Internet might face. Determined that Cisco was not going to invest in developing a product, but I did get a patent pending application (Scheduled FIB) out of it: ""SCHEDULED FIB TO ACCOUNT FOR INTERMITTENT CONNECTIVITY DUE TO ORBITAL DYNAMICS"" (US12494999)",medium,"Innov, Span",,see also sonic-CSW for creative projects from Brook
+,,,,,
+Mar-22,"Thousand-Eyes SRv6 use case/architecture - led to a patent ""SYNTHETIC PATH TRACING OF SEGMENT ROUTED NETWORKS"" (US12289210)",medium,"Innov, Span",,https://patentsgazette.uspto.gov/week17/OG/html/1533-5/US12289210-20250429.html
+Mar-22,"Embedding Services in the Network (Josh Merrill), Service SID w/John Mullooly, Kamran Raza",high,"Innov, Span, global",,beginning of the Naas/SRv6/SGT/policy-identity architectural work with Josh and multiple Bus
+Mar-22,First SRv6 security use cases discussions with Darren Dukes,medium,"Innov, Span, global",,see later SGT and cilium work
+Mar-22,Cisco Cloud Interconnect effort w/AT&T - Tyler Gipson. Did this become a precusor to SDWAN Direct Connect or NaaS?,,biz,,Did anything come of it?
+,,,,,
+Apr-22,SPVT panel discussion - SP Multi-cloud Journey and How we can Lead,,Lead,,"Check w/Vaughn on impact, attendee count, score"
+Apr-22,SRv6 for QUIC use case - developed into further collaboration with Bart Van De Velde and Andreas Enotiadis,medium,"Innov, Span",,
+Apr-22,Cisco 8000 for OCI Edge - early stage of multi-year sales effort,medium,biz,,check on revenue
+,,,,,
+May-22,"Microsoft: Issue to update object group on a few Cisco Routers, Richard Li, Jenny Zhang",,,,
+May-22,"Investigation of Jalapeno plus ET&I Unified Data Platform (Carlos Perreira, Vaughn, Gerhardt, etc) - demonstrates the broad interest and applicability Jalapeno had generated throughout the company. Ultimately UDP was shelved after the Splunk acquisition",medium,"Innov, Span",,check w/Carlos
+May-22,Cisco 8000 ASP Sales enablement presenter,,"Lead, Biz",,
+May-22,"Cisco ""tunnel-sec"" with Craig Hill, Anbu Gunalan, possible Google use case",,,,
+May-22,"Rob Murphy PSE candidacy - advisor, emphasized Rob's unique differentiation as truly understanding the scale of Hyperscale",High,Lead,,Rob was promoted to PSE in Aug 2022
+May-22,Guest on the first episode of Pour-Man's Networking podcase,,Industry,,Check w/Monica/Vaughn on impact
+May-22,Began mentoring Ignacio Sanchez in 2022. One of the first actions was for him to author and SP360 blog,,"Span, Industry",,Find blog
+,,,,,
+Jun-22,"Worked with google team throughout 2022 on SR, SRv6, and Google Edge compute efforts",,,,check w/Mohit on impact
+Jun-22,Became part of Masi's PSE mentor team,High,Lead,,Ultimately his leader (Byzek) and I made the executive decision to defer his candidacy for a year rather than submit. The following year he changed mentors and developed a much stronger package and ability to present his case and was successful in gaining PSE promotion
+Jun-22, consulted with Naver (APJC) on Webscale experience/architecture,,,,what was the impact?
+Jun-22,Colt Green VPN SR-App - Steven Barth,,,,what was the impact?
+Jun-22,"SR/SR-Apps Brussels workshop - presented SR-Apps and host-based SRv6, the only invitee from sales",High,"Span, Global, Innov, Biz",,
+Jun-22,Megaport SRv6 discussion - Darren Ward,medium,"Global, Span, Innov, Biz",,what was the impact?
+Jun-22,SRv6 for K8s regular meeting with Ahmed and Francois,medium,"innov, span",,"how has all of my workshop, discussion, brainstorming participation influenced product and feature decisions and development?"
+,,,,,
+Jul-22,SP Underlay services patent w/ SDWAN team ,medium,"innov, span, global",,"partnership with SDWAN engineers (span), should see productization in 2027. find CIPOL number"
+Jul-22,Extending SP transport into the cloud - invited to present to Waris and Johan's architecture team,medium,span,,attendee count?
+Jul-22,Oracle fast connect engagement (cisco 8000),medium,biz,,
+,,,,,
+Aug-22,"Megaport EBC: ""Brief overview and discussion with GSP Solutions Architect Bruce McDougall on developments around SDN enabled application efforts and SRv6.""",medium,"Global, Biz, Innov",,Darren impact?
+Aug-22,Route-Recorder - ongoing collab with Serguei Bezverkhi - trusted advisor/tester/etc.,,"Span, Innov, Global",,"Serguei is an engineer in cisco CX org (span), we've collaborated on many development projects including GoBMP, Jalapeno, and others"
+,,,,,
+Sep-22,EN Hackathon - winner!,high,"Innov, Span, global",,"proof point for SRv6-SDWAN (see cipol, and later SRv6-SGT-work)"
+Sep-22,"Built Jalapeno SR-App on AWS Lambda, demoed for Dan @Bell",low,Innov,,low impact but awesome proof point of dis-aggregated SDN concept behind Jalapeno
+,,,,,
+Oct-22,Began collaboration with Verizon Assoc Fellow Gyan Mishra,medium,"Innov, Industry",,"see later MPLS-WC presentations, srv6-labs"
+Oct-22,SEVT panel - future of SP networking,medium,lead,,later developed into cisco live panel
+Oct-22,"Netflix CPOC, RSVP-TE",medium,Biz,,"check with Asoka on impact, revenue"
+Oct-22,"STLDP kickoff - coach and architect advisor - team won the innovation award, lasting relationships with Dan Stacks, etc.",high,"Lead, Innov",,
+,,,,,
+Dec-22,Cilium cloud-native - did I advocate with Errol that we acquire Isovalent?,high,"innov, span",,"meeting with Errol, check if I advocated acquisition this early"
+Dec-22,"Edge, cloud native, smartNIC w/Waris Sagheer",low,"innov, span",,"check with Waris on impact - I didn't convince the BU, but I was validated in the long run by MRC"
+Dec-22,"Future Enterprise SWAT - Network Segmentation workstream, lasting friendship with Marina, Errol, Steven Chimes, Steven moore, Tjerk",High,"Span, Biz, Global, Lead",,led to cisco standardizing on SGT for micro-segmentation and later SRv6-SGT innovation
+,,,,,
+Jan-23,"End.USD - found broken behavior in XR, worked directly with Kamran on the fix",high,"innov, span",,confirm w/Kamran
+Jan-23,Early adoptor of Containerlab - started immediate work with 8000 emulator team to dockerize an option for clab,high,"innov, span, industry",,"led to development of srv6-labs, pearson collaboration with Russ W, cisco live labs, MRC emulator, and many other innovation projects"
+,,,,,
+Feb-23," CLEU 2023: SRv6 Lab, distinguished speaker, FOSPN panel. Pioneered the use of github for lab guides and  code and config repository",High,"Global, Span, Innov, industry",,Get scores
+Feb-23,Andrea Chiarato mentorship,,Lead,,check w/Andrea on impact
+Feb-23,"MCNS, Service Exchange, NaaS, and NetCo/ServCo collab with Brian Meaney, Virginia Teixeira, Allessandro Breccia, Magdy Louis, Alberto Donzelli",High,"Global, Span, Innov",,"See also NaaS, Josh/SRv6-SGT work"
+,,,,,
+Mar-23,Invited to SRv6 DC discussion and advocacy that HyperFabric adopt SRv6,medium,Span,,"early product scoping discussion between cisco fellows and a few chosen SMEs. Ultimately Hyperfabric chose VXLAN over SRv6, but also chose IPM for monitoring, which was originally an SRv6 feature"
+,,,,,
+Apr-23,"SONiC dCloud lab - with Rob, began building a field/SE training lab on SONiC, lab used VXR and was published to dCloud catalog. Developed ansible scripts for provisioning, etc.",High,"Lead, Biz, Global",,find lab stats
+Apr-23,"MPLS WC - my IPR/slides/diagrams featured on Bell, VZ, and Rakuten presentations",high,industry,,hundreds of attendees at globally recognized conference
+Apr-23,"Began developing SRv6 SONiC lab - first ever - blog entry, etc.",High,,,Did the lab and/or blog contribute anything to MSFT's or openai's interest?
+Apr-23,Hyperscale tunneling architecture - mentor project for Bob G,High,"Lead, Biz",,check w/Bob on impact
+Apr-23,LinkedIn edge stamp architecture,,biz,,check w/Andrey on impact
+Apr-23,Apple XRd config scripts,,biz,,check w/Lokesh on impact
+,,,,,
+May-23,Mia Lynch consultation,,global,,check w/Mia on whether Teyes expanded product or market impact
+May-23,started formal AI brainstorming sessions with Rob and Byzek (post chapGPT Nov 2022 announcement),high,"Innov, Span",,https://www.wsj.com/articles/the-ai-boom-is-here-the-cloud-may-not-be-ready-1a51724d
+May-23,"started deep diving on AI - @scale sessions, etc.",high,personal development,,
+May-23,"SRv6 roadshow in NYC - host-based SRv6 firmly on the map, consulted with Akamai (Leddy), Google, etc.",medium,"span, biz, global, industry",,
+May-23,OST master's thesis brainstorm with Professor and computer science department head Laurent Metzger,medium,"Lead, Innov, global",,
+May-23,"First discussion of possible SRv6 uSID testing for AI workloads (Pablo, Praveen) - May 31, 2023",high,"Innov, Span, industry",,later validated by MSFT at 2024/2025 OCP and then MRC announcment in 2026
+,,,,,
+Jun-23,"CLUS: Lab, Panel, NetCo/ServCo w/Josh (BRKSP-2133)",medium,"industry, global",,"get attendee count, scores"
+Jun-23,Invited by CL Melbourne SGM to produce a host-based SRv6 breakout session and demo,medium,"Global, Span",,Personally contacted by Australia based session manager and asked to develop a new custom session on host-based SRv6
+Jun-23,SRv6 Calico lab for TPG POC,low,"Global, Span",,"Evan Rose, John Francis"
+Jun-23,STLDP final pitch - recommend acquiring Isovalent…which happened 6 months later,high,"Lead, Span, Innov, Biz",,huge impact if this pitch influenced purchase decision
+Jun-23,"TMo presentation on hyperscaler architecture, ops, philosohpy",,,,Check w/Pavlos on impact
+,,,,,
+Jul-23,"SRv6 for AI/ML Labs, blogs, and CIPOLs discussion with Pablo",high,innov,,multiple cipols/patents came from this brainstorm
+Jul-23,"recognized globally as a SONiC SME, briefing for Craig Hill",high,"global, biz, span",,numerous sonic presentations outside of ASP/Web
+Jul-23,Dropbox and Rackspace - did anything come of it? ,,,,Check w/Zach Webb and Kasey Chun
+,,,,,
+Aug-23,Matt Birkner (Intel) SRv6 sync,high,Industry,,collaboration and idea sharing with Matt who worked at Intel at the time
+,,,,,
+Sep-23,"SLA-ON-DEMAND tiger team (only member from sales on a CX tiger team): James Israel connected me with DE Subha: ""Subha Dhesikan has been charged by James Israel to look at how we can expand services to Webscalers "" - beginning of a very enjoyable collaboration and friendship. Further recognition of my reputation as an innovator and expert in hyperscale",medium,"Global, Span, Innov",,Check with Subha on impact
+Sep-23,"Nicolas Michel mentorship began roughly over summer/fall of 2023. He has been very self driven - clab, cilium/cloud-native preso, etc.",high,lead,,"check w/Nico, achieved grade 12? Fast track to PSE?"
+Sep-23,Began collaboration with Russ White on SRv6 for FRR,high,"Industry, Innov, Biz",,
+Sep-23,"Sonic at Ebay, source class usage at AWS",medium,"biz, innov",,check with Ken Truong and Nico on impact
+Sep-23,Qwilt host-based SRv6 lab/POC,medium,"innov, biz",,check with chris olson on impact
+,,,,,
+Oct-23,Allianz Jalapeno meeting,medium,"Global, Span, Innov",,check with Tjerk on impact
+Oct-23,"Began SRv6 collaboration with Christian Martin at Oracle - Peterson Graph, etc.",medium,innov,,"led to several research projects - hoffman singleton, polarfly, etc."
+Oct-23,"SFDC SR/SRv6 engagement - no SR deployed, but mindshare and purchases",high,biz,,check w/Bob on impact
+,,,,,
+Nov-23,Equinix whitebox,medium,biz,,check w/Zack Haven on impact
+Nov-23,Informal PSE mentorship for Marina Ferreira - she got promoted,high,lead,,check w/Marina on impact
+Nov-23,SONiC for Amex - one of several sonic presentations I delivered to customers/accounts in GES and public sector,medium,"global, span",,check w/William Nellis on impact
+Nov-23,developed sonic-101 dCloud lab with Rob Murphy. First sonic lab published to dcloud catalog,high,lead,,Find stats
+,,,,,
+Dec-23,"Led America's PA/DA discussion on SONiC: Hi folks,
+Per the recent email thread on the topic we felt it would be a good idea to gather on the topic of SONiC.
+Some discussion points:
+ 
+How is SONiC trending in each of Cloud, SP, Ent, Public Sector?
+What's the feedback on Tortugas?
+Develop America's DA/PA summary viewpoint on SONiC (horizon 1, 2, and 3)
+ 
+Updated Webex link
+ 
+Bruce McDougall's Personal Room
+https://cisco.webex.com/meet/brmcdoug ",high,span,,"Brendan, Cesar, Vaughn, Jansen, Hill, Rob, Duffy"
+Dec-23,podcast guest: SONiC,medium,industry,,check w/Vaughn
+Dec-23,Built a Jalapeno API and UI using Cursor,medium,"innov, personal development",,my first real vibe-coding project
+Jan-24,Isovalent acquisition,,,,check w/Amy Gerrie on my impact
+Jan-24,SRv6 for DC at Voltage Park,medium,biz,,"presentation at EBC. Lead architect Drew Pletcher was interested for DC frontend, but did not follow through"
+Jan-24,"SRv6 for SASE, SRv6 & ISE - really started to pursue SRv6 as a end-to-end solution with Josh Merrill",high,"innov, span",,pulled in Darrin Miller (ISE DE) to include identity services in the architecture
+Jan-24,"MSFT 1.6T WAN/protocol design, SRv6, multi-plane ISIS, etc.",High,Biz,,check w/Pan on impact
+Feb-24,SONiC presentation for Arista tiger team,High,"span, lead",,building sonic knowledge across cisco's SE org
+Feb-24,"CLEU LTRSPG-2212 - year 2, FOSPN panel",High,"industry, lead",,
+Feb-24,"Led MSFT multi-plane WAN rearchitecture discussions - SR, SRv6, multiple ISIS planes",High,biz,,multiple training & whiteboarding/workshop sessions
+Feb-24,"""Open Source Labbing"" collaboration with Russ White of Akamai (and industry famous) - early containerlab adoptors, FR/SRv6",,,,
+Feb-24,CIPOL: C/P/1035600/US/ORG/1: TITLE: CORE NETWORK SUPPORT FOR APPLICATION REQUESTED NETWORK SERVICE LEVEL OBJECTIVES - collab with SDWAN engineering,High,"Innov, Span",,patent with SDWAN engineering team
+Feb-24,"Akamai SRv6 use cases w/Leddy, Russ",,,,
+Feb-24,"PA candidatacy consulting Masi, Allessandro",High,Lead,,Reviewed documents and advised both candidates on strengths and constructive ways to improve. Both were successful in attaining promotion to PSE
+Mar-24,SL On Demand presentation to CX execs,High,"Span, Innov, global",,Check with Subha D on impact
+Mar-24,"Continued engagement with google team of GDCE, PF, etc.",Medium,biz,Mohit,Check with Kartik S on impact
+Mar-24,"NaaS has become a common term and goal for SPs - Bell, Project Yukon (ATT, VZ), NetCo/ServCo",High,"span, industry",,"A concept I first blogged about in future of SP networking, ""cloud-like consumption of network services"" became known in the industry as NaaS"
+Mar-24,"PSE Subcommittee for Aavrinder Singh, Mike McPhee",High,lead,,PSE review subcommittee for both candidates. Mike McPhee was promoted
+Mar-24,"Geico sonic on 8000 - Dallas Hite, Eric Feschi",High,"Span, Global, Biz",,Led sonic data center architectural engagement. Convinced BU to support a pricing model more akin to cloud/hyperscale as Geico infrastructure team was preparing to become a shared resource for all Berkshire Hathaway companies
+Mar-24,Editor/Advisor to VZ SRv6 presentation at MPLS-WC,High,industry,,Having a Tier-1 operator like Verizon give essentially My presentation is much more impactful at a venue like MPLS World Congress
+Apr-24,Cilium preso for ASP/Web w/Nico (april 26),High,"lead, span",,collaboration with mentee Nicolas Michel on a presentation for entire ASP/Web org. Great exposure for Nicolas
+Apr-24,Began Adobe/Cilium engagement,High,"global, span",,"Dan Stacks, SE on Adobe, knew me from my STLDP leadership. His Cilium engagement was in trouble and he asked my help. I jumped in, built a model of Adobe's setup in my lab and was able to resolve all config/deployment issues and get the engagement back on track. Note, i had never worked with Isovalent Egress Gateway or load balancer products prior to the engagement, i simply taught myself as I went"
+Apr-24,Honeywell SR consulting,High,"global, span",James Lopez,revenue impact?
+Apr-24,Meta EBB - check w/Rodney on impact,High,Biz,,beginning of two year sales cycle
+May-24,GDCE onsite - SRv6 design,Medium,biz,,check with Kartik S
+May-24,Pourman's networking guest with Nico,,,,
+May-24,TX Instruments SR network design consulting in Dallas - they wanted to hire me :),High,biz,Rekha,check on revenue impact
+May-24,Viasat SRv6 SFC design consulting,,,Don Ewald,
+Jun-24,Web AI Fabrics design calculator and rail architectures,High,biz,,used by Web SE's for two years as a fabric design/scoping tool
+Jun-24,Static uSID for Akamai,,,Kamran,
+Jun-24,"AI Tier-2 Investments consulting - Vladimirs Sazonovs, Lauren Johnson, Ryan Houska",High,span,,technical consultant for discussion around how Cisco should prioritize equity investment in Neoclouds
+Jun-24,CIPOL: C/P/1035601/US/ORG/1: TITLE: UNDERLAY NETWORK TRAFFIC STEERING - w/SDWAN team,High,innov,,
+Jun-24,Hoffman Singleton lab and design doc w/Chris Martin at Oracle,,,,
+Jul-24,"IETF Vancouver - Bernier (you guys are my 2030 guys), Luay @VZ",,,,
+Jul-24,NYU HSRN sonic consulting,Medium,global,,check on revenue impact
+Jul-24,Viasat Slicing/Service Chain SRv6 demo w/Chris Olson - was this also Qwilt?,,,,
+Aug-24,"Arkadius Cilium projects, MPLS-WC 2025, features developed, etc. (direct result from DC Champions preso in spring)",High,"Biz, Span, Global, lead",,
+Aug-24,"OCI fast connect, MPLSoUDP",,,,
+Aug-24,"pitched Cilium for SRv6 Svc Chain control plane - CF, Thomas Graf, etc.",High,"Innov, Span, Global",,Architectural agreement but no near term revenue pipeline so project was deferred
+Aug-24,"SRv6 for SSE - Rupak Chandra, archictural agreement, CIPOL",High,"Innov, Span, Global",,early meetings which led to eventual addition of SRv6 support in Cisco's SASE/SSE product
+Aug-24,"Founding member SOSIE Project - a collaboration of DSEs and PSEs from GES, Public Sector, and ASP",High,"Span, Global, Innov, Lead",,
+Sep-24,Bell NaaS,,,,
+Sep-24,SP DC Tiger Team - advisor,,,,
+Sep-24,"SR expansion into the Cloud - consulted with APJ / Rakuten (and other?) effort (Brendon Mifsud, Cris He)",High,"Global, Innov",,check on impact
+Oct-24,"Evroc, Applied Digital, Lambda Labs - check w/accounts on impact",Medium,,"Johan, Josh Dahl, Bob G",check on impact
+Oct-24,The Trade Desk sonic consulting,Medium,,Jorge Calixto,check on impact
+Oct-24,Ongoing collab with Joel Roberts - what was the impact,Medium,Global,,get LOR; check on impact
+Oct-24,Viasat EBC - open source controller project,Medium,"biz, innov",,check on impact
+Oct-24,"OCP conference - Oracle, MSFT, Voltage Park, Bell, Cloudflare - SRv6 for AI backend kickoff in earnest",High,"Global, Industry, Span, Biz, Innov, Lead",,first public discussion with customers around SRv6 for AI backend
+Oct-24,Jalapeno collab with Splunk James Schneider - did anything come of it?,,,,
+Oct-24,Guest speaker presenting Isovalent to AI Compute SWAT team,High,span,,generate Isovalent internal knowledge and mindshare amongst a group of global thought leaders within cisco SE org
+Oct-24,Adobe EGW POC rescue,High,"global, span",,
+Nov-24,Single OS findings/presentation document co-author,,,,
+Nov-24,Web Stay ready Friday - Rob and I presented LTRSPG-2212 and led the Web Ses thru the lab,High,lead,,
+Nov-24,TMo Overlay RFP,medium,biz,,check on impact
+Nov-24,MSFT SRv6 for AI onsite workshop,high,"biz, innov, industry",,
+Nov-24,OCI SRv6 for AI - began engagement,high,"biz, innov, industry",,
+Nov-24,Eng hackathon with Zafar,medium,"innov, span",,invited by Zafar Ali to partner on an AI themed hackathon. Produced an early version of the Jalapeno RPO SDN app
+Nov-24,IMI VT speaker/lab: Cilium and SRv6: a Pathway to Cloud Native SP Network Services,,"Global, Lead",,Check with Alex Lanin
+Nov-24,"Built first SRv6 for AI elephant flows demo - Brook, Josh, HQ team",High,innov,,"2nd version of RPO app, which would later be used in VZ, AT&T and DLR engagements"
+Nov-24,"Close coordination with SRv6 Eng team on sonic feature development - uSID forwarding, static uSIDs, BGP GRT, sonic-vpp, sonic-vs for testing, etc. This was a battle with MIG Eng from the start as they didn't believe the customer use case for several weeks if not months. I was instrumental in helping convince the BU that the use case was real, that openai was driving MSFT and OCI to invest in it, and that we needed to act now or fall further behind.",High,"Innov, Span, Biz, Industry",,
+Dec-24,Led OCI SRv6 workshop,High,biz,,OCI was running SRv6 in limited production by end of 2025
+Dec-24,Carnegie Mellon/PSC sonic HSRN consulting,High,global,Sarah Unruh,check on impact
+Dec-24,NYU sonic,High,global,Saul Adler,check on impact
+Dec-24,Open source labbing part 2 with Russ White,High,Industry,,2nd live delivery of the pearson training with Russ
+Dec-24,Began Christopher Luciano PSE mentoring,High,Lead,,Isovalent/Security SE
+Dec-24,"Cross Architecture friends - partnership, collaboration with Brian, John Cuneo, etc. Presented Cilium/Isovalent, solidified relationships and collab for years to come",High,"Global, Span, Lead",,check on impact - Cigna AI factories in 2026?
+Jan-25,Polarfly project with Chris Martin of OCI,,,,
+Jan-25,CIPOL: C/P/1039921/US/ORG/1 TITLE: SYNTHETIC PATH TRACING OF SEGMENT ROUTED NETWORKS - collab with 1000Eyes Hans Ashlock,High,innov,Hans Ashlock,collaboration with ThousandEyes Hans Ashlock
+Jan-25,Presented SONiC to VZ fellows Luay Jalil and Nick Morris,Medium,"Biz, Span, industry",Brad Ankenman,
+Jan-25,Presented on the Cisco CIPOL process to all of ASP - did anyone file a patent b/c of it?,,"Lead, Span",,check on impact
+Jan-25,"consulted with Steve Wood (and Errol Roberts back in Nov/Dec) on Cilium and K8s - cloud-native SME that BU technical leaders reach out to when they want to get smarter on k8s, cilium, ebpf, etc.",High,Span,,
+Jan-25,Began discussions ArangoDB Jalapeno network graph Josh,High,Innov,,
+Jan-25,"BYO lab - containerlab, vxr, etc. SEVT presentation/panel with Marty and Brent - sponsor Emerson, highest rated sessions of the entire SEVT",High,"Lead, Span","Emerson, Alex Lanin",
+Jan-25,SRv6 AI backend demo for OCI - uA on XRd,High,biz,Jag Brar,see OCI SRv6
+Jan-25,SRv6 SDWAN sync amongst america's DSEs/PSEs,,,Buresh,
+Feb-25,SGT end-to-end with steven moore,,"Innov, Span",,
+Feb-25,CLEU LTRSPG-2212 year 3,,"industry, lead",,
+Feb-25,"DRIL - cilium/srv6 consulting with the team, assisted Pradeek Malik on cilium lab install",High,"Innov, Span, Biz",,
+Mar-25,"Ebay EBC, sonic engagement",High,biz,Ken Truong,check on impact
+Mar-25,"PSE subcommittee member: Fausto V, Patrick LeMaistre,",,,,
+Mar-25,Collab with Alberto Donzelli and Roque Gagliano on SRv6 Business Case for Jason Teller,High,"Span, global",,check on impact
+Mar-25,Akamai static uSID POC,Medium,Innov,Leddy,check on impact
+Mar-25,Assisted/consulted Marina w/her Cilium/k8s/containerlab auto-bgp lab for CLUS,High,"Span, global",,check on impact
+Mar-25,"MSFT SRv6 for frontend DC engagement begins - Mohan, Rockwell",High,"Biz, Innov",,"Multiple labs, multiple use cases, I used AI tools to rapidly generate lab scenarios with configs, topologies, docs, etc."
+Mar-25,SRv6 cilium for pub sector - Sam Rehling,,global,,check on impact
+Mar-25,"MPLS-WC and public presentation of SRv6 for AI backend - Rita Hui, also Kali's demo, Srv6 consulting with KPN, etc.",High,"Global, Industry, Lead, Innov",,
+Apr-25,"Hosted and led SRv6 for DC internal cisco workshop April 8 - sales and BU leaders, guest speakers (MSFT, Alibaba), speaker lineup, presented cilium srv6, also post-workshop meetings onsite at MSFT, develop relationships with key engineers under rita like Abhishek Dosi",High,"Global, Span, Industry, Lead, Innov",,
+Apr-25,SRv6 lunch n learn with MSFT WAN team,,Biz,,check on impact
+Apr-25,Josh and I presented SRv6 + SGT + ISE/SSE/SDWAN to Gillies - what was the impact?,,"span, innov",,check on impact
+Apr-25,Marina SEVT CAI containerlab/cilium session,,lead,,check on impact
+Apr-25,Oracle EBC consulting sonic/solar-os team,,,,
+Apr-25,Briefed Praveen B on srv6 for G200,,"Innov, Span, Biz",,
+May-25,Technical interview for open SE position on GCE - Furong Gisiger got it. I very often am called upon to perform or participate as an interviewer for open Web SE positions,High,Lead,,
+May-25,MSFT SRv6 WAN lunch n learn part 2,,biz,,check on impact
+May-25,CAI VT presenter: Move Faster Than Your Competition: Validate Customer Scenarios in Minutes and NOT Weeks,,Lead,,"containerlab, byo-lab, AI tools, etc."
+May-25,Co-lead panel interview for Patrick L PSE,High,lead,,Patrick successfully achieved PSE promotion
+May-25,"MSFT SRv6 dc frontend workshop - lead 1/2 workshop on tech, use cases, etc.",High,biz,,
+Jun-25,"CLUS LTRMSI-3000, FSPN panel, NTT meetings, Isovalent party and Boost connections - gave Boost access to CL SRv6 lab after the fact where they POC'd SRv6 and determined it was to be there solution of the future. Coded a demo SRv6 pytorch plugin",High,"industry, global, biz",,
+Jun-25,Akamai PLX over ADC lab/demo/POC,Medium,innov,,
+Jun-25,"Digital Realty onsite workshop, presented Jalapeno",High,"innov, biz",,DLR said a couple years ago they would've paid millions for something like Jalapeno
+Jun-25,Adobe onsite Cilium workshop - proved out EGW and LB functionality and performance requirements,High,"Biz, Span, Lead",Dan Stacks,check on revnue impact
+Jun-25,Assisted Asoka with SONiC 8122 lab configurations for Oracle,High,biz,,"ongoing project, 2026-2028 revenue projection?"
+Jul-25,Lambda Labs Isovalent Egress Transit GW concept and opportunity,,,,
+Jul-25,consulted with account team for Lummi Nation possible FTTH ISP,,,Ryan Hand,
+Jul-25,SRF LTRMSI part 1,,Lead,,
+Jul-25,"BE Interlock - responsible for IMI Web top asks, TAM, etc.",,"Lead, Span",,
+Aug-25,OCI 1000 GPU POC project kicks off - I consult some on sonic and later take ownership of SRv6 engagement,High,biz,,
+Aug-25,"SRv6 dc frontend POC development - 4PE, DCIX, mix of xr and sonic, demonstrated feasibilty for both prefix hiding/scale and SRv6-TE for inter-dc traffic",High,biz,,more msft frontend DC SRv6 work
+Aug-25,Co-hosted 2nd annual US/China Web/Hyperscalers lunch at GSX,High,"Global, Lead, Span",,relationship building with our Hyperscale peers in China
+Sep-25,"AT&T RPO POC planning, VZ A3PO and RPO POC planning",,Innov,,
+Sep-25,"Hawkv6 collab with Andreas, Bart V, and Severin",Medium,"Innov, industry",,collaboration between EU SE's and OST university professor Severin Dellsberger on SRv6 innovation projects for critical infrastructure
+Sep-25,Boost Isovalent SRv6 continued engagement,,,,
+Sep-25,CIPOL: C/P/1038927/US/ORG/1: TITLE: SCHEDULED FIB TO ACCOUNT FOR INTERMITTENT CONNECTIVITY DUE TO ORBITAL DYNAMICS,Medium,Innov,,longer term applicability
+Sep-25,Combatting Disagg with Network service innovation (SRv6) - set of presentations with BU for ASP audience,High,"Biz, Span, Lead",,presentation to the full ASP team
+Sep-25,"Collab with EU DSE Virginia Teixeria: DCN+transport integration scenarios driven by AI; SRv6 from inside the DC; Cilium readiness, controller scale, DCN BU pushback on SRv6 inside DC",High,"Global, Biz, Lead",,check on impact
+Sep-25,"Groq SRTE POC - flex-algo, data sovereignty",Medium,biz,,"successful POC, but Groq got acquired by NVDA"
+Sep-25,Consult w/Disney architects on SR/SRTE design,,"biz, global","Marcin, Previn Wong",check on impact
+Oct-25,"Collab with enterprise DSE Brian Shlisky on innovation projects - digital twin, graphs, etc.",,"innov, span",,"ongoing collaboration, including Live Protect on SONiC"
+Oct-25,"As SRv6 gained momentum throughout 2025 I brokered many introductions between field SE's and Clarence Filsfils and the SR Eng team - Bob G, Marcin, Chris Olson, Mohit Vashisht, Nick Sischo, Joe Rockwell, Lokesh Khanna, etc.",High,Lead,,connector of SE's to distinguished and fellows
+Oct-25,L4S/SRv6 collab with Humberto LaRoche and NYU,,"Innov, Industry, Span",,check on impact
+Oct-25,SONiC at VZ,,biz,,check with Jas
+Oct-25,"OCP - Web Ses dinner, meetings with MSFT SONiC/SRv6 team",,lead,,
+Oct-25,Consulted with Visa on SR//SRv6 possibilities - RPO demo,,"global, span, innov",,check with Dan Stacks
+Oct-25,VZ SRv6 to the Host,,,,
+Oct-25,TMC Innovation hour - SRv6 network service innovation - followup session,High,"biz, lead",,"followup, full ASP presentation"
+Nov-25,IETF - SRv6 host w/Nick Morris of Verizon,,,,mindshare building
+Nov-25,BGP NFT/Ethereum CPOL filing,medium,innov,,"collaboration with CAI SE John Cuneo, Ent DSE Brian Shlisky. CIPOL/Patent was denied."
+Nov-25,SRF LTRMSI 3000 part 2 - Bob loved the pytorch plugin,High,"lead, biz",,"delivered Cisco live lab training to Web SE team - continued development of SRv6, cloud native, sonic, and AI knowledge within the SE community"
+Nov-25,Isovalent and Telcos - Cilium SP business case/opportunity tracker,High,"biz, span, global",,Cilium-SP use cases and opportunity/TAM tracker capturing opportunities from around the globe
+Dec-25,ISE fully on board with SRv6 SGT and unified policy model,High,"Innov, Span, Global, Biz",,
+Dec-25,Pinnacle Award!,High,"Innov, Span, Global, Biz",,
+Dec-25,SRv6 DC workshop - hosted and organized workshop for bay area SEs and BU - followup from April with latest updates (80 attendees),High,"Span, Biz",,
+Dec-25,STDLP - Satoshi Yamashita - my capstone project introduction,High,Lead,,mentor Satoshi through STLDP program
+Dec-25,DC/Campus end-to-end EVPN tiger team,,,,
+Dec-25,"SONIC Cisco Secure Workload POC - developed/collab with Jason Maynard, Chris Crider, etc., Proved out CSW as a viable product to secure sonic infrastrcuture",High,"Innov, Span, Global, Biz",,successful POC and collaboration with security SE specialist team of CSW as a form of Live Protect for SONiC
+Dec-25,IMI VT building your own lab part 2 w/Marty,High,"Lead, Span",,Marty and I were asked back to the VT for another 'build your own lab' session; check with Alex on score
+Jan-26,Boost SRv6/Cloud Native workshop - led solution discussion,High,biz,,onsite 2 day workshop
+Jan-26,Began mentoring Hiroyuki Sugano,High,"Lead, Global",,IM&I SE specialist based in Japan
+Jan-26,Practical SONiC nuggets with Santosh and John McCleod,High,"Lead, Span, Biz",,"Santosh's idea, I helped him develop it and recruit co-presenters, very successful series of short sonic training videos"
+Jan-26,Nutty Idea - Wanna share and get your thoughts - Don Ewald,medium,innov,,"SDN/SmartSwitch brainstorm with Don E, SE on microsoft team"
+Jan-26,CHCN - with Riccardo,medium,innov,,"SDN/full-NG architecture proposal - at this point I'm so well known for innovation across the company I get solicited by folks with new ideas, or folks with new ideas are referred to me for further brainstorming and development of their ideas. Riccardo's CHCN is very ambitious, i advised to scale back, use SRv6 uSID. he is currently developing a rich demo"
+Jan-26,SRv6 Roadshow planning team,,,,
+Jan-26,MSFT dRH engagement,High,biz,,disaggregation of chassis-based T2 nodes into upper and lower pizzabox clos. All part of MSFT frontend DC re-architecture with SRv6
+Feb-26,"Nacho PSE submission - two major rewrites, sought reviews from outside experts - Vaughn, Marina, McPhee",High,lead,,I used my relationships across the company to get outside reviewers to review and provide comment/feedback
+Feb-26,Dave Clough of WWT ongoing collab - what has been the impact and can I get a LOR,,"Global, Span, Biz",,
+Feb-26,Lightning talks episode 23 - perhaps the best one yet - what has been the impact,,lead,,
+Feb-26,"CLEU w/Nico - really high scores, Nico got Distinguished, MTE with New Brunswick, convinced them to accelerate transition to SRv6, introduced to Ianik and other resources",High,"industry, lead",,"cisco live EU, Nico got distinguished speaker!"
+Feb-26,"Fiserv DC overlay and SRv6 presentation, consulting - Mahendra Singh",,"Global, Biz",,check on impact
+Feb-26,"SRv6 for Videotron - consulting with AT, lab for Phillippe",,"biz, lead",,new SE Philippe Vaillancourt - gave him access to my CL SRv6 lab so he could train himself and drive the videotron workshop
+Feb-26,"SRv6 end-to-end DC/NXOS tiger team w/Buresh, Marina, Varun, etc.",medium,"Span, Innov",,collaboration with enterprise DSEs on scoping SRv6 customer user cases and TAM for Nexus platforms
+Feb-26,"Portfolio Innovation Areas SP/MIG - Craig Connors, Mike Lake, Errol, Vaugh, Marty",,"Span, Innov",,"Security BU leaders asked Vaughn, Marty, and myself to consult and brainstorm on possible innovation projects that would fit ASP/Web market"
+Feb-26,Coreweave EBC - VXR/Containerlab/SONiC lead,,,,
+Feb-26,Nsight Isovalent presentation,medium,biz,,mindshare building
+Feb-26,Comcast LB $5M consultation,,biz,Jenelle,check on impact
+Mar-26,Cloudflare BMP - enhancements made it into 26.4.x?,,,,
+Mar-26,"SRv6 at OCI (and MSFT) - use cases, capabilities briefing for Anand Sridharan (ansi); Jason Bos (jbos); Sajay Vijayadharan (svijayad)",high,span,,briefing for MIG and silicon-1 engineering leadership on SRv6 use cases at MSFT and Oracle
+Mar-26,Tech Elevate - SRv6 and cloud native - presented at both NA/EMEA and APJC timeslots,high,"span, global",,delivered Cisco live SRv6 lab for SE's in EMEA and APJC across two sessions (get attendee counts)
+Mar-26,SONiC field training workshop kickoff,,,,
+Mar-26,"SRv6 for Google AI Backend - intros, kickoff (Nick, Pablo, CF)",medium,"biz, lead",,"brokered introductions, however, Nick changed accounts. Followup with Kartik on next steps. MEMS?"
+Mar-26,dRH SRv6 vs. VXLAN and sonic GRT image/lab setup/POC for both Abhishek and Mohan,high,biz,,collaborated with Eng teams on presentation delivered to MSFT engineers on architectural options (SRv6 vs. VXLAN) for dRH architecture
+Mar-26,"Meta BBF lab - needed a VXR 8223 - not available yet, leveraged relationships with VXR team to get patch and install for Meta team",high,biz,"Asoka, Leif",key enabler to help the SE team close the major deal
+Mar-26,Developed containerlab and VXR lab setups and docs for Coreweave NetDev Eng - opportunity grew to 10k-12k switches,medium,biz,,check on impact
+Mar-26,Cilium SP CRD document with progressive use cases from L3VPN to EGW to TGW,high,"span, innov",,authored CRD document capturing use cases from across geos and lines of business
+Mar-26,CLUS host networking collab with Chris Lapp,high,"industry, lead",,"co-developed a new cisco live breakout session on host-networking with fellow enthusiast Chris Lapp, a promising SE who is on PSE track - I'm not his official mentor, but I'm on his development team"
+Mar-26,Oracle SRv6 tutorial session part 1,high,biz,,SRv6 training for Oracle engineering teams
+Apr-26,Oracle SRv6 tutorial session part 2,high,biz,,SRv6 training for Oracle engineering teams
+Apr-26,Sonic nuggets go live,,"lead, biz",,
+Apr-26,Dan Stacks AI tool presented to HQ Arch staff meeting,,,,"I often look for exposure opportunities for SE's who are doing great work. Their ideas roll up to the ASP/Web DSE/PSE group who are great at connecting them with other people, force multiplier"
+Apr-26,Kubecon CFP with Jesus Guzman Farjado,high,"industry, lead",,awaiting word on whether our session proposal was selected
+May-26,SRv6 multi-tenant design completed and reviewed with MSFT and Oracle,high,"innov, biz, industry",,"Lokesh Khanna, John McLeod, Joe Rockwell"
+May-26,Mock interviewer for PSE candidates from Security Sales,high,lead,,partnered with Mike McPhee (security PSE) to help develop both of our PSE mentees toward successful promotion
+May-26,"SRv6 MRC announced. I developed a PPT and emulator project, shared with MSFT and Oracle",high,"innov, biz, industry",,
+May-26,Ignacio PSE panel interview,high,lead,,went very well. Notification day is June 11
+May-26,GSX IMI design clinic planning,high,"span, lead",,co-leading design clinic training for SE's at upcoming GSX conference
+Jun-26,Transitioned to Matt Gillies' Global Solutions Engineering team,high,"span, global, lead",,I am lead Cloud-SP architect on the global team
+Jun-26,"Cisco Live US - panel, lab, host-based networking breakout session",high,"industry, lead",,
+Jun-26,STLDP mentee Satoshi turned in his pitch video,high,"lead, span",,reviewed and provided feedback on video
+Jun-26,"EVPN Least Complexity project - began in Jan or Feb, multi-disciplinary tiger team of DSEs and PSEs examine enterprise DC, campus, and security for how we might offer a complete end-to-end solution with the least complexity. Readout to execs, include Jeetu Patel CPO that its basically impossible - firewalls do not support VXLAN-EVPN",high,"span, lead",,my role: participant and lab validator that siloed management platforms add too much complexity

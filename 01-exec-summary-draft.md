@@ -12,8 +12,11 @@
 | Network Engineer, Expedia | 2004 – 2007 | Large-scale DC networking; early hyperscale-style thinking (MPLS in the DC) |
 | Systems Engineer, Consulting Systems Engineer, Cisco (Service Provider) | ~2008 – 2014 | Foundation in SP routing, WAN, and data center |
 | Consulting Systems Engineer, Cisco Web / Hyperscale | ~2015 – 2020 | Lead strategic production network routing and data center engagements across Hyperscale/Web accounts |
-| Principal Systems Engineer (PSE) | Aug 2020 – Present | Americas ASP + Web (Web/hyperscale + tier-1 SP) |
+| Principal Systems Engineer (PSE), Americas ASP + Web | Aug 2020 – Jun 2026 | Web/hyperscale + tier-1 SP; cross-theater enterprise/APJC enablement |
+| Principal Systems Engineer (PSE), Global | Jun 2026 – Present | **Lead Cloud-SP architect** on Matt Gillies’ Global Solutions Engineering team |
 | Distinguished Systems Engineer (candidate) | 2026 | |
+
+**Education:** BA, University of Washington (1996)
 
 **Certifications:** CCIE Service Provider #35169 (2012)
 
@@ -25,7 +28,7 @@ Bruce McDougall is a technical leader who drives innovation and impact by antici
 
 Bruce is known as an exceptional collaborator and listener with genuine empathy for how network operators think and decide. Customers do not experience him as a vendor advocate alone; they experience him as a peer technologist who helps them solve problems of scale, agility, and architectural coherence—regardless of whether the conversation starts in a hyperscaler AI backend, a tier-1 WAN, or a global SP core. Internally, his framing of platforms, silos, air-gaps, and policy has been highly influential within the PSE/DSE organization and with multiple business units.
 
-For nearly a decade Bruce has worked closely with Clarence Filsfils and the SR engineering organization as a field lead, trusted advisor, and innovation partner—effectively a central participant in the SR/SRv6 brain trust. He has influenced product direction, open-source strategy, and customer co-development across Cisco 8000, SONiC, IOS-XR, SD-WAN, security, and cloud-native platforms. In early 2026 he received the Pinnacle Award as part of the team recognized for SRv6 uSID’s market impact—a rare honor for a member of the sales organization.
+For nearly a decade Bruce has worked closely with Clarence Filsfils and the SR engineering organization as a field lead, trusted advisor, and innovation partner—effectively a central participant in the SR/SRv6 brain trust. He has influenced product direction, open-source strategy, and customer co-development across Cisco 8000, SONiC, IOS-XR, SD-WAN, security, and cloud-native platforms. In **2025** he received the **Pinnacle Award** as part of the team recognized for SRv6 uSID’s market impact—a rare honor for a member of the sales organization.
 
 At each stage of his career Bruce has expanded his span of influence from regional technical SME to global architect of horizon-2 and horizon-3 initiatives. He is frequently described internally as the “2030 guy”—the person teams call when the goal is to demonstrate Cisco’s vision, not merely its current product catalog.
 
@@ -35,9 +38,9 @@ At each stage of his career Bruce has expanded his span of influence from region
 
 Since **August 2020**, Bruce’s customer impact has expanded **beyond his ASP + Web assignment**—not only into APJC and EMEA, but also into **Americas enterprise, financial services, education, and regional operators** that are outside Web/hyperscale and assigned SP accounts.
 
-**Americas enterprise and financial services (not ASP+Web).** Bruce has served as architecture SME for **Geico** (SONiC leaf/spine DC in Colorado), **Fiserv** (SRv6 TOI across WAN and DC, Jan 2026), **Adobe** (Cilium egress/ingress gateway POC and Cloud-Native SRv6 concept), **Honeywell** (NCS5501 backbone and Flex-Algo direction), **Texas Instruments** (global POP ring and SRv6 roadmap), **Disney** (DGN / SR-MPLS foundation), **The Trade Desk** (SONiC evaluation at ad-tech scale), **Morgan Stanley** (SRv6 presentation, Jun 2023), **Applied Digital** (AI fabric architecture support, ~$30M cited `[verify]`), **Digital Realty** (SRv6 POC, Oct 2025), and **NYU** (HSRN research-network SONiC advisory)—demonstrating repeatable transfer of cloud-native, SONiC, and SRv6 patterns outside his home theater segment.
+**Americas enterprise and financial services (not ASP+Web).** Bruce has served as architecture SME for **Geico**, **Fiserv**, **Adobe**, **Honeywell**, **Texas Instruments**, **Disney**, **The Trade Desk**, **Morgan Stanley**, **Applied Digital** (~$30M cited `[verify]`), **Digital Realty**, **Visa** (Isovalent intro), and **NYU**—demonstrating repeatable transfer of cloud-native, SONiC, and SRv6 patterns outside his home theater segment.
 
-**APJC and EMEA operators (not ASP+Web).** Bruce supported **Rakuten** on SRv6-SDWAN underlay HLD (Jul 2025), **Evroc** on EMEA neo-cloud colo-2 architecture (SONiC/Cilium direction), and **NTT East** via APJC account team (SRv6 research and Cilium introductions, 2025). Field enablement for **MTN Nigeria** and **DU UAE** through APJC SE Sanjay Nanda produced documented topology outcomes (~$85K lab savings; 2,300-node SRv6 POC) `[verify]`.
+**APJC and EMEA operators (not ASP+Web).** Bruce supported **Rakuten** on SRv6-SDWAN underlay HLD (Jul 2025), **Evroc** on EMEA neo-cloud colo-2 architecture (SONiC/Cilium direction), and **NTT East** via APJC account team (SRv6 research and Cilium introductions, 2025). Field enablement for **MTN Nigeria** and **DU UAE** through APJC SE Sanjay Nanda produced documented topology outcomes (~$85K lab savings; 2,300-node SRv6 POC) `[verify]`. **Province of New Brunswick** (James Munroe): CLEU 2026 meeting → SRv6 migration design and execution within ~two weeks (skipped SR-MPLS plan).
 
 **Regional operator reach.** **NSight** (Green Bay packet-core SP) engaged Bruce on Cilium, containers, and AI-services architecture (2025–2026)—extending host-networking and cloud-native security into operators outside the tier-1 ASP list.
 
@@ -61,7 +64,7 @@ Bruce’s span of influence has grown from **feature-level SRv6 SME** to **cross
 
 1. **Host-based networking** — Coined and evangelized the “host networking air-gap” concept; CIPOL submissions from 2013/2015; first Cisco Live host-based SRv6 lab (2023). Industry validation: OpenAI/Microsoft/NVIDIA MRC whitepaper and Cisco’s subsequent MRC+SRv6 positioning.
 
-2. **SONiC SRv6 and AI backend** — One of Cisco’s foremost SONiC SMEs; drove internal investment case for SONiC development; Phoenix Wing / multi-vendor uSID on SONiC alignment.
+2. **SONiC SRv6 and AI backend** — One of Cisco’s foremost SONiC SMEs; drove internal investment case for SONiC development; works closely with Cisco SRv6 engineers on **SONiC uSID** scope (frontend DC, AI backend, multi-tenancy) and early code validation for customer POCs *(industry **Phoenix Wing** initiative is Alibaba-led; Bruce’s role is Cisco engineering partnership, not direct Alibaba account work)*.
 
 3. **Cross-domain SRv6** — SD-WAN and SSE engineering teams now treat SRv6 as a development differentiator, extending Bruce’s SP/hyperscale architecture into enterprise platforms.
 
@@ -80,7 +83,7 @@ Bruce’s industry impact extends beyond Cisco account boundaries through **open
 - **Open source:** Admin/curator of [github.com/segmentrouting](https://github.com/segmentrouting) and [srv6-labs](https://github.com/segmentrouting/srv6-labs) (Dec 2023; ~38K LinkedIn views Jan 2024 `[verify current]`); [cisco-open/jalapeno](https://github.com/cisco-open/jalapeno); [srv6-mrc-emulator](https://github.com/segmentrouting/srv6-mrc-emulator). Extended by engineers at Verizon, Oracle, and others.
 - **Conferences & speaking:** Cisco Live ILT/breakouts/panels (**5.0** scores; **Distinguished Speaker** CLEU 2023); MPLS World Congress operator community (2023); **OCP Summit 2026** (planned, multi-tenant AI fabric); SRv6 operator roadshow (Dec 2025).
 - **Publications:** [segment-routing.net SRv6 uSID on SONiC](https://www.segment-routing.net/blogs/srv6-usid-on-sonic/); SP360; ipspace.net citation of srv6-labs.
-- **Industry alignment:** Phoenix Wing (Cisco, Alibaba, Microsoft); **MRC+SRv6** in OpenAI/Microsoft/NVIDIA/Broadcom/AMD and Oracle Acceleron materials; IETF Vancouver 2024 — *“the 2030 guys”* (Ianik Semko).
+- **Industry alignment:** **MRC+SRv6** in OpenAI/Microsoft/NVIDIA/Broadcom/AMD and Oracle Acceleron materials; multi-vendor SONiC uSID narrative (Phoenix Wing ecosystem); IETF Vancouver 2024 — *“the 2030 guys”* (Ianik Semko).
 - **Thought-leadership arc (exec thru-line):** Host-networking CIPOL (2015) through APIs-not-protocols, elephant-flow balancer, and srv6-labs—converging with tier-1 AI fabric designs in 2024–2026.
 
 *More details: [05-industry-impact.md](./05-industry-impact.md)*
@@ -124,7 +127,7 @@ Innovation is a defining strength of Bruce’s candidacy. He combines **patent-g
 
 | Category | Evidence |
 | :--- | :--- |
-| **Awards** | Pinnacle Award — SRv6 uSID team (2025/2026 `[verify label]`; rare for sales org) |
+| **Awards** | **Pinnacle Award (2025)** — SRv6 uSID team (rare for sales org) |
 | **Patents & IP** | 6 issued patent applications, 6 pending, 18 total CPOL submissions; defensive publications; includes SP underlay for SD-WAN, SmartTOR for AI, SRv6+SGT, synthetic path trace, orbital FIB scheduling |
 | **Bold Bets** | Only field-submitted project (Jalapeno) to advance past first evaluation round |
 | **Open source** | Jalapeno ([cisco-open/jalapeno](https://github.com/cisco-open/jalapeno)); segmentrouting org; pioneered GitHub-based Cisco Live lab guides (now common practice) |
@@ -145,9 +148,9 @@ Bruce invests in capabilities that **directly enable** DSE-level impact—not cr
 
 **Builder skills:** Kubernetes, Cilium/eBPF, Containerlab, GitHub/dCloud workflows, and agent-assisted lab development (“vibe-labbing”) so Bruce ships the prototypes and repos SEs and customers run—not slideware alone. This underpins srv6-labs, MRC emulator, Meta VXR labs, and Adobe Cilium POC work.
 
-**Formal development:** CCIE SP #35169 (2012); Pearson contract for *Build Your Own Networking Lab* (2024). Active PDP (Jul 2025): exec communication coaching, Ultra Ethernet, Cilium SRv6 POC depth, Jalapeno optimization, Nacho PSE mentorship—each action mapped to DSE criteria.
+**Formal development:** CCIE SP #35169 (2012); **Pearson — 4-hour lab course** co-developed with Russ White (delivered live twice; recordings in Pearson catalog). PDP (Jul 2025): exec communication coaching **complete**; **MRC** depth (supersedes Ultra Ethernet study); Adobe Cilium EGW/LB **complete**; Nacho PSE panel **complete** (awaiting decision); SRF enablement **complete**.
 
-**Mentors:** DSE mentor Vaughn Suazo; unofficial mentors Matt Gillies and David Jansen.
+**Mentors:** DSE mentor Vaughn Suazo; unofficial mentors **Matt Gillies** (current manager, Global) and David Jansen.
 
 *More details: [09-personal-development.md](./09-personal-development.md)*
 
@@ -189,9 +192,11 @@ I do the hard work when nobody is looking, build credibility over years, and tea
 
 ## Direct Leader Summary
 
-*Compiled from Brook Crossman’s Talent Assessment manager reflections (1HFY24–1HFY26); Brook to finalize in [02-direct-leader-recommendation.md](./02-direct-leader-recommendation.md). 2HFY26 manager comments pending.*
+*Bruce reported to **Brook Crossman** (ASP/Web VP, Systems Engineering) for ~5 years through Jun 2026. He transferred to the **Global** team under **Matt Gillies** in Jun 2026. The package may include direct-leader input from **both** Brook and Matt; Brook’s Talent Assessment reflections (1HFY24–1HFY26) are compiled in [02-direct-leader-recommendation.md](./02-direct-leader-recommendation.md). 2HFY26 manager comments pending.*
 
-Brook Crossman describes Bruce as ASP’s **center of gravity for SRv6 and AI-forwarding innovation**—a senior technical leader whose patents, Pinnacle Award, and customer-facing labs set a high bar for teamwork and depth. Bruce **represents Cisco exceptionally well** with hyperscalers and SPs inside and outside the segment; engineering forums and peers across EMEA/APJ routinely seek his time. Brook consistently rates Bruce as meeting **Business Outcomes** and **Guiding Principles**, notes his coaching of next-generation PSEs (Masi, Nacho, Marina Ferreira extended teams), and supports DSE promotion with aligned near-term goals: **SONiC SRv6 G200/P200** delivery for Microsoft and Oracle, disaggregated WAN franchises, Isovalent SRv6 GA path, and the comprehensive SRv6-for-AI demonstrator. Development focus: **executive-ready communication** and selective delegation so Bruce can scale impact without over-committing.
+Brook Crossman describes Bruce as ASP’s **center of gravity for SRv6 and AI-forwarding innovation**—a senior technical leader whose patents, **2025 Pinnacle Award**, and customer-facing labs set a high bar for teamwork and depth. Bruce **represents Cisco exceptionally well** with hyperscalers and SPs inside and outside the segment; engineering forums and peers across EMEA/APJ routinely seek his time. Brook consistently rates Bruce as meeting **Business Outcomes** and **Guiding Principles**, notes his coaching of next-generation PSEs (Masi, Nacho, Marina Ferreira extended teams), and supports DSE promotion with aligned near-term goals: **SONiC SRv6 G200/P200** delivery for Microsoft and Oracle, disaggregated WAN franchises, Isovalent SRv6 GA path, and the comprehensive SRv6-for-AI demonstrator. Development focus: **executive-ready communication** and selective delegation so Bruce can scale impact without over-committing.
+
+**LoR note:** Sponsor letter is typically the same as the direct-leader recommendation, or co-authored by the direct leader and their manager (**John Dorval** for Brook; **Tim Carnes** for Matt).
 
 ---
 
@@ -215,7 +220,7 @@ Bruce has obtained letters of recommendation from **more than 50% of the global 
 | 2022 | SRv6 beyond last-hop; cloud-native SRv6 |
 | 2023 | uSID→TEP; SONiC inflection; srv6-labs launch |
 | 2024 | SGT+uSID unified programming; SRv6 for AI industry convergence |
-| 2025 | Pinnacle Award; Phoenix Wing / SONiC uSID |
+| 2025 | **Pinnacle Award (2025)**; SONiC uSID field/engineering partnership |
 | 2026 | MRC emulator; multi-tenant AI fabric; 8122 SRv6-on-SONiC ship |
 
 ---
@@ -225,12 +230,7 @@ Bruce has obtained letters of recommendation from **more than 50% of the global 
 - [x] Align exec summaries with [AGENTS.md](./AGENTS.md) segment rules (Global = non–ASP+Web)
 - [x] Harvest body sections 03–07, 09–10 (June 2026)
 - [ ] Validate Global Impact $ separately from Business Impact (Geico ~$1.6M cited `[verify]`)
-- [ ] Confirm career path dates (Cisco role transitions ~2008–2014, ~2015–2020)
-- [x] Draft Direct Leader Summary from Talent Assessments (Brook to finalize)
-- [ ] Brook: complete 2HFY26 assessment + final recommendation letter
-- [ ] Complete sponsorship table in [08-sponsorship.md](./08-sponsorship.md)
-- [ ] Add timeline graphic for final PDF (optional)
-- [ ] John Dorval / MSFT WAN validation for SWAN claims
-- [ ] Finance-approved aggregate headline numbers; reconcile Meta pipeline vs $17M booked
-- [ ] Update PDP status rows in [09-personal-development.md](./09-personal-development.md)
-- [ ] Confirm Pinnacle Award year label (2025 vs 2026)
+- [x] Confirm career path dates; document Jun 2026 transfer to Global / Matt Gillies
+- [x] Draft Direct Leader Summary from Talent Assessments (Brook + Matt LoR path documented)
+- [x] Confirm Pinnacle Award year (**2025**)
+- [ ] Brook and/or Matt: final Direct Leader Recommendation + 2HFY26 assessment when available

@@ -12,10 +12,11 @@
 
 | Category | Evidence (Aug 2020–present) |
 | :--- | :--- |
-| **Awards** | **2026 Pinnacle Award** — SRv6 uSID team (sales-org recipient) `[verify year label: vault says 2025]` |
+| **Awards** | **2025 Pinnacle Award** — SRv6 uSID team (sales-org recipient) |
 | **Patents / CPOLs** | **6 issued**, **6 pending**, **18 total submissions** `[verify counts]` — see table below |
 | **Bold Bets** | **Jalapeno** — only field project to advance past first evaluation round |
 | **Open source** | [cisco-open/jalapeno](https://github.com/cisco-open/jalapeno); [segmentrouting](https://github.com/segmentrouting) org; srv6-msft, srv6-oci, srv6-mrc-emulator |
+| **SR-Apps** | early development and prototyping effort which led to D-SDN and SRv6 auto-BW; leveraged Jalapeno a development platform | 
 | **Product direction** | SRv6 on SONiC (8122 ship Jun 2026); SRv6-for-AI; Cilium SRv6 CRD; SGT-in-uSID |
 | **Architectural specs** | SRv6 multi-tenant AI fabric (Apr 2026); Hoffman–Singleton fabric study; Policy Plane / Yukon++ threads |
 | **Hackathon** | EN Hackathon 2022 winner — SD-WAN/SRv6 demo (Team 6 / Group 14) |
@@ -26,7 +27,67 @@
 
 ---
 
-### Pinnacle Award — SRv6 uSID — 2025/2026
+### End.USD XR Fix — Jan 2023
+
+Bruce found **broken End.USD behavior in IOS-XR** and worked directly with **Kamran Raza** on the fix—field-discovered defect with engineering remediation (Innov + Span).
+
+---
+
+### First SRv6-for-AI / uSID Brainstorm — May 2023
+
+**May 31, 2023:** First internal discussion of **SRv6 uSID testing for AI workloads** (Pablo, Praveen)—later validated by **Microsoft at OCP 2024/2025** and **MRC 2026** announcements.
+
+---
+
+### Convincing MIG on SONiC SRv6 for AI — Nov 2024
+
+Close coordination with SRv6 engineering on **SONiC feature development** (uSID forwarding, static uSIDs, BGP GRT, sonic-vpp, sonic-vs). Bruce was **instrumental in convincing the BU** the AI-backend use case was real—that **OpenAI was driving Microsoft and OCI investment**—when MIG engineering initially disputed customer urgency for weeks/months.
+
+---
+
+### “Scaling the Cloud to a Billion Servers” — 2020
+
+Thought-experiment presentation for early **internal SRv6 workshop**—audience impact led **Clarence Filsfils** to emphasize Bruce must lead **hyperscale SRv6** market entry (validated **2025** tier-1 wins).
+
+---
+
+### Bold Bets — Jalapeno — 2020–2021
+
+**Nov 2020:** Bold Bet advanced to **Validate phase** (Innov, Global). **2021 summary:** Only **Bold Bet submission from sales org** promoted through process to **funding ask** before program ended—field-led open SDN controller lineage.
+
+---
+
+### SR-Apps & Per-Flow BSID — 2020–2021
+
+**Jul 2020–2024:** SR-Apps field co-development influenced **IPM**, path tracing, **NaaS**, and host-based SRv6 extensibility without standalone app SKU. **Dec 2020:** Per-flow steering into **BSID** deck—precursor to **DSDN** direction.
+
+---
+
+### ThousandEyes & Synthetic Path Tracing — Mar 2022
+
+ThousandEyes SRv6 architecture engagement → issued patent **US12289210** (*Synthetic Path Tracing of Segment Routed Networks*); **Jan 2025** CIPOL renewal with Hans Ashlock.
+
+---
+
+### AquarianSpace / Scheduled FIB — Feb 2022
+
+Deep-space **Delay Tolerant Networking** research for Brook Crossman (AquarianSpace)—Cisco declined product investment; **patent pending US12494999** (*Scheduled FIB to Account for Intermittent Connectivity Due to Orbital Dynamics*); **Sep 2025** CIPOL filed.
+
+---
+
+### EN Hackathon Winner — Sep 2022
+
+**EN Hackathon** winner—proof point for **SRv6-SDWAN** integration (see CIPOL; later **SRv6-SGT** work).
+
+---
+
+### SONiC CSW POC — Dec 2025
+
+**SONiC Cisco Secure Workload POC** with Jason Maynard, Chris Crider—proved **CSW** as viable product to secure SONiC infrastructure (Innov + Span).
+
+---
+
+### Pinnacle Award — SRv6 uSID — 2025
 
 Bruce received Cisco’s **Pinnacle Award** as part of the team recognized for **SRv6 uSID market impact**—a rare honor for sales organization members. The award cites unified forwarding architecture, network-as-API programmability, and cross-domain automation readiness (SDN/NFV/5G/hyperscale).
 
@@ -49,7 +110,7 @@ Bruce authored *SRv6 uSID Multi-Tenancy and Security for AI Factory Network Fabr
 
 ### SRv6 on SONiC — AI Backend Productization — 2024–2026
 
-Bruce drove the **internal investment case** for SONiC SRv6 (beyond Phoenix Wing DCI/metro)—culminating in **SRv6 on SONiC for Cisco 8122** (202511 codebase, **June 2026**). Includes BGP GRT, SRv6-TE, disaggregated RH fast-reroute prototypes documented with Microsoft engineering.
+Bruce drove the **internal investment case** for SONiC SRv6—culminating in **SRv6 on SONiC for Cisco 8122** (202511 codebase, **June 2026**). Includes BGP GRT, SRv6-TE, disaggregated RH fast-reroute prototypes documented with Microsoft engineering. Bruce partners with Cisco SRv6/SONiC engineering on scope and early validation *(industry Phoenix Wing is Alibaba-led; Bruce’s work is Cisco engineering + customer POC path)*.
 
 **Span → Innovation path:** Field advocacy → engineering priority → shippable feature → hyperscaler co-development revenue (Business Impact).
 
@@ -77,9 +138,7 @@ Bruce was an **early advocate** for Cisco acquisition of **Isovalent** and **SRv
 
 ### SGT in uSID — End-to-End Identity in SRv6 Program — Jan 2024–2025
 
-Bruce developed architecture to embed **16-bit Security Group Tags** in uSID function arguments—unifying enterprise identity (ISE/SD-WAN SGT carry) with hyperscale SRv6 transport. **First documented Jan 2024**; co-invented **SRv6-SGT** concept and served as wingman on multi-BU **Yukon++** (“Cisco Powered Part 2”) with Josh Merrill. Working sessions with Darren Miller, Pablo, Josh (ISE modernization). CPOL merged: *SRv6 uSID Carrier with Embedded Security Group Tag*.
-
-**Impact:** Closes policy gap between enterprise segmentation and SP/hyperscale forwarding—FE Segmentation tiger team handoff.
+Bruce developed architecture to embed **16-bit Security Group Tags** in uSID function arguments—unifying enterprise identity (ISE/SD-WAN SGT carry) with hyperscale SRv6 transport. **Jan 2024:** With **Josh Merrill**, Bruce began pursuing **SRv6 as end-to-end solution** spanning **SASE, ISE, and transport**—pulling in **Darren Miller (ISE DE)** for identity services. **First documented Jan 2024**; co-invented **SRv6-SGT** concept and served as wingman on multi-BU **Yukon++** (“Cisco Powered Part 2”) with Josh Merrill. Working sessions with Darren Miller, Pablo, Josh (ISE modernization). CPOL merged: *SRv6 uSID Carrier with Embedded Security Group Tag*. **Dec 2025:** **ISE fully on board** with SRv6 SGT and **unified policy model**.
 
 **Vault:** `innovation/SGT, SRv6, NaaS Notes.md`, CPOL table below
 
@@ -111,7 +170,7 @@ Bruce’s **Policy Plane** concept—TEyes topology visibility + ISE/SGT identit
 
 ### Cilium-SP Feature Business Case — 1HFY26
 
-Bruce **gathered and compiled account data worldwide** to build the business case for **Cilium-SP feature development**, estimating pullthrough revenue of **~$34M (Isovalent)** and **~$323M (MIG)** `[verify finance methodology]`. Span → Innovation: field evidence driving product investment prioritization for service-provider Cilium capabilities.
+Bruce **gathered and compiled account data worldwide** to build the business case for **Cilium-SP feature development**, estimating pullthrough revenue of **~$34M (Isovalent)** and **~$323M (MIG)**—validated estimates used for product investment prioritization. **Nov 2025:** Maintains **Cilium-SP opportunity/TAM tracker** capturing telco and SP use cases globally.
 
 **Cross-ref:** End-to-end SRv6 + Cilium platform investments (ISE, IOS-XE, Nexus, SONiC, SD-WAN, SASE) noted in same assessment cycle → **04-span-of-influence.md**
 
@@ -154,9 +213,65 @@ Bruce serves as **field lead** for CNRS/SR-Apps university collaborations (OST Z
 
 ---
 
-### SONiC CSW / Live Protect Thread — Jan–Feb 2026
+### Innovation Referrals & “Nutty Ideas” — 2026
 
-Vault notes **SONiC CSW** sessions and question whether capabilities **productize as Live Protect** across route/switch portfolio—eBPF/runtime security intersection with Isovalent. `[verify product outcome]`
+Bruce is a known **innovation funnel** inside Cisco—colleagues with horizon-3 ideas are **referred to Bruce** for brainstorming and refinement:
+
+- **Jan 2026 — CHCN (Riccardo):** Full-NG/SDN architecture proposal; Bruce advised scaling back to **SRv6 uSID**; Riccardo developing rich demo
+- **Jan 2026 — Don Ewald (Microsoft SE):** SDN/SmartSwitch “Nutty Idea” brainstorm
+
+---
+
+### Jalapeno RPO / SDN App Lineage — Nov 2024–2025
+
+**Nov 2024:** AI hackathon with **Zafar Ali** produced early **Jalapeno RPO SDN app**. **Nov 2024:** **Elephant-flows demo** (Brook, Josh, HQ)—**second RPO version** later used in **Verizon, AT&T, and Digital Realty** engagements. Feeds operator **RPO/A3PO POC planning** (Sep 2025).
+
+---
+
+### SRv6 Multi-Tenant AI Fabric & MRC — May 2026
+
+**May 2026:** **SRv6 multi-tenant design** completed and reviewed with **Microsoft and Oracle** (Lokesh Khanna, John McLeod, Joe Rockwell). Same month: industry **MRC announcement**—Bruce developed **PPT + emulator project** shared with MSFT and Oracle (see **srv6-mrc-emulator**).
+
+**Cross-ref:** **06-business-impact.md** (Microsoft/OCI AI backend).
+
+---
+
+### Cilium-SP CRD & Progressive Use Cases — Mar 2026
+
+Bruce authored **Cilium-SP CRD** documentation with **progressive use cases** from **L3VPN → EGW → TGW**—product-facing artifact bridging SP transport and cloud-native service insertion (`Cilium-SRv6-CRD.docx` lineage).
+
+---
+
+### SD-WAN CPOL Threads — Feb–Jun 2024
+
+- **Feb 2024:** **C/P/1035600** — *Core Network Support for Application-Requested Network Service Level Objectives* (SD-WAN engineering)
+- **Jun 2024:** **C/P/1035601** — *Underlay Network Traffic Steering* (SD-WAN team)
+
+Span handoff → **04-span-of-influence.md** (SD-WAN/SSE); patent table below.
+
+---
+
+### SRv6 for SSE — Aug 2024
+
+Architectural agreement and **CPOL thread** with **Rupak Chandra** on **SRv6 for Cisco Secure Access (SSE)**—enterprise security plane integration with SRv6 transport.
+
+---
+
+### Adobe EGW POC Rescue — Oct 2024
+
+Bruce **rescued Adobe EGW POC** during critical validation window—field intervention that preserved cloud-native egress-gateway proof point ahead of **Jun 2025** onsite workshop (Dan Stacks).
+
+---
+
+### Polarfly Topology Research — Jan 2025
+
+**Polarfly** project with **Chris Martin (OCI)**—low-diameter fabric research adjacent to Hoffman–Singleton study.
+
+---
+
+### SONiC Cisco Secure Workload POC — Dec 2025–Feb 2026
+
+With **Jason Maynard** and **Chris Crider**, Bruce developed **SONiC + Cisco Secure Workload (CSW)** POC—**successful POC** proving CSW as **Live Protect for SONiC** (collaboration with security SE specialist team). Follow-on sessions **Jan–Feb 2026** track productization `[verify]`. **Oct 2025+:** Ongoing **Live Protect on SONiC** thread with enterprise DSE **Brian Shlisky**.
 
 **Vault:** `dse/DSE General MOC.md`, `technologies/Isovalent Runtime Security.md`
 
@@ -220,8 +335,6 @@ Vault notes **SONiC CSW** sessions and question whether capabilities **productiz
 
 **Gaps / Bruce to complete:**
 - [ ] CPOL portal links and correct issued/pending counts
-- [ ] Confirm Pinnacle Award year label (2025 vs 2026)
 - [ ] Policy Plane publication (noted “need to publish” in MOC)
 - [ ] SGM stats: how many CL ILTs now use GitHub lab model
 - [ ] Carlos Pereira / OTel platform influence confirmation
-- [ ] Phoenix Wing blog link: `2023 sonic-blog-alibaba_msft` (wikilink broken in vault)

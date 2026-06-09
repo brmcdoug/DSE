@@ -19,7 +19,7 @@ Bruce’s enablement pattern: build **GitHub/Containerlab/dCloud** assets on hor
 | Date | Event | Session | Attendees | Session score | Personal score | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **2026** | CLEU | LTRSPG-2212 (SRv6 lab) | 18/26 responses | **4.94** | **4.94** | Nico Michel **5.0**, Distinguished Speaker |
-| **2026** | CLEU | MTE — Province of NB / James Munroe | — | — | — | Inspired SRv6 migration ~2 weeks post-CLEU `[verify email]` |
+| **2026** | CLEU | MTE — Province of NB / James Munroe | — | — | — | Customer outcome → **03-global-impact.md** (SRv6 migration ~2 weeks post-CLEU) |
 | **2026** | CLUS | SRv6 lab | 16 | 4.7 | 4.8 preso/SME | |
 | **2026** | CLUS | BTSP panel | 44 | 4.64 | 4.68 preso, 4.73 SME | GPU economy, SP security |
 | **2026** | CLUS | Panel (Vaughn, Rob, Nico, Masi, Chris Lapp) | 10 | **5.0** | **5.0** | |
@@ -43,16 +43,31 @@ Bruce’s enablement pattern: build **GitHub/Containerlab/dCloud** assets on hor
 | Program | Period | Activity | Impact |
 | :--- | :--- | :--- | :--- |
 | **Web/Hyperscale TAM** | **Aug 2025, Apr 2026** | Owned Web/Hyperscale TAM asks for **FY26 Global Sales Technical Roadmap** + **BE Interlock Process** | Field-wide technical priority setting → **04-span-of-influence.md** |
-| **Tech Elevate** | Mar 2026+ | SRv6 lab sessions (Mar 2026 ~**25** morning attendees); *collect full session list, dates, scores* | Hands-on SRv6 for field |
-| **SRv6 DC/AI Workshop** | **Dec 2025** | **Organizer, scheduler, MC** — Sales + BU workshop; SRv6 engineering guests; Bruce presented **host-based SRv6/Cilium** | **40+ BU**, **20+ SE/sales** attendees |
+| **Tech Elevate** | Mar 2026+ | **SRv6 and cloud native** — presented **NA, EMEA, and APJC** timeslots; SRv6 lab Mar 2026 ~**25** morning attendees | Hands-on SRv6 for field |
+| **SRv6 DC/AI Workshop** | **Dec 2025** | **Organizer, scheduler, MC** — Sales + BU workshop; SRv6 engineering guests; Bruce presented **host-based SRv6/Cilium** | **~80 attendees** (PSE time log); follow-up to Apr 2025 workshop |
 | **SRv6 AI Workshop** | **Apr 2025** | Same format (`20250311-ai-workshop-rev1a`); guests incl. **Microsoft, Alibaba**; organizer/MC + host-based SRv6/Cilium preso | **40+ BU**, **20+ SE/sales** attendees |
 | **Stay Ready Friday** | 2024–2026 | Web CiPOL; CLEU lab prep; **ASP Cilium lab**; BYO-dCloud (Dec 2024); Cisco patent process session (Dec 2024); **SRv6 Part 1 (Cilium) + Part 2 (SONiC/PyTorch)** — well received (1HFY26) | Keeps Web/SP SEs current on Cilium, SRv6, dCloud self-service |
+| **SEVT — BYO Lab / Containerlab** | **Jan 2025** | Panel with Marty Fierbaugh and Brent; sponsor Emerson | **Highest-rated sessions of entire SEVT** (PSE time log) |
 | **SEVT — Containerlab** | **Jan 2025** | Ask-the-expert + demo | **5.0** presenter and content scores |
 | **Isovalent enablement** | **Nov 2024** | DCN Champions overview; **Isovalent SEVT lab**; presented to **Cisco AI tiger team** | See **Kaliwoda multiplier** row below |
 | **BE / Sales SRv6 Workshop** | Apr 2025 | Bruce **owned scheduling and logistics** for cross-BU SRv6 workshop | Field + sales alignment on SRv6 (2HFY25 TA) |
-| **Oracle onsite SRv6 tutorial** | 2025 | **3-hour** SRv6 tutorial/workshop delivered onsite | Hyperscaler SE/customer enablement |
+| **Practical SONiC Nuggets** | **Jan 2026** | **Santosh’s idea**—Bruce helped develop format and recruit co-presenters (**John McCleod**); successful short-video training series | Lead + Span + Biz |
+| **SONiC Nuggets go-live** | **Apr 2026** | SharePoint/vidcast hub published | See Publications table |
+| **Tech Elevate** | **Mar 2026** | Delivered **Cisco Live SRv6 lab** content to **EMEA and APJC** SEs (two sessions); NA slot also | `[attendee counts]` |
+| **CLUS 2026 host networking** | **Jun 2026** | Co-developed **host-networking breakout** with **Chris Lapp** (PSE-track SE on Bruce’s development team) | Industry + Lead |
+| **EVPN Least Complexity tiger team** | **Jan–Jun 2026** | Multi-DSE/PSE readout to execs incl. **Jeetu Patel (CPO)**—validated that siloed mgmt platforms add complexity; firewalls lack VXLAN-EVPN | Span + Lead |
+| **GSX IMI Design Clinic** | **May 2026** | Co-leading **design clinic** training for SEs at GSX | Span + Lead |
+| **Dan Stacks AI tool exposure** | **Apr 2026** | Presented mentee’s AI tool to **HQ Arch Staff**—force-multiplier for ASP/Web DSE/PSE network | Lead |
+| **Kubecon CFP** | **Apr 2026** | Session proposal with **Jesus Guzman Farjado** | `[awaiting selection]` |
+| **CIPOL process for ASP** | **Jan 2025** | Presented Cisco **CIPOL/patent process** to all of **ASP** — raised field IPR filing literacy | Lead + Span |
+| **US/China Web/Hyperscalers lunch** | **Aug 2025** | **Co-hosted 2nd annual** lunch at **GSX** with global Web leadership | Global + Lead |
+| **Eng hackathon** | **Nov 2024** | Hackathon with **Zafar** — engineering↔field innovation bridge | `[extend outcome]` |
+| **Oracle onsite SRv6 tutorial** | **2025–2026** | **3-hour** onsite tutorial (**2025**); **two-part** tutorial series **Mar–Apr 2026** | Hyperscaler SE/customer enablement |
 | **Isovalent Overview** | 2024 | Delivered to **global PSE/DSE**, Web team, **SP DCN Champions** | Cloud-native security baseline for field (2HFY24 TA) |
-| **Containerlab / dCloud / Cilium sessions** | 2025 | Pair of sessions for **SRF** and **CAI VT** | Reproducible lab methodology for SE community |
+| **Containerlab / dCloud / Cilium sessions** | 2025 | Pair of sessions for **SRF** and **CAI VT** | Reproducible lab methodology (see SRF + IMI VT rows below) |
+| **SRF (Stay Ready Friday)** | **Jul + Nov 2025** | **Cisco Live SRv6 lab** — 2 sessions for SE enablement program | PDP complete |
+| **IMI VT — Cilium SRv6 lab** | **Nov 2024** | Global SE audience — K8s, Cilium, SRv6 hands-on | Cross-theater enablement |
+| **IMI VT — BYO Lab part 2** | **Dec 2025** | With **Marty Fierbaugh** — building your own lab methodology | `[scores — Alex Lanin]` |
 | **NYC SRv6 Workshop** | **Jun 2023** | **Co-organizer**; coordinated **Bell Canada** customer presentation on SRv6-to-host/Cilium | Operator + field enablement |
 | **CLUS 2023** | Jun 2023 | **BRKSP-2133** (w/ Josh Merrill); SP panel | Industry cross-ref **05-industry-impact.md** |
 | **TMC Innovation Hours** | Sept–Oct 2025 | SRv6 session; **combatting disagg** (requested repeat) | SP technical community |
@@ -60,8 +75,10 @@ Bruce’s enablement pattern: build **GitHub/Containerlab/dCloud** assets on hor
 | **SRv6 Roadshow** | Dec 2025 | Pinnacle-aligned **SE enablement workshop** (platforms, gaps, objections) | Multi-segment SE audience w/ Kevin W, customer guests |
 | **MIG Specialists walkthrough** | Dec 2023 | SRv6 lab presentation for MIG specialists (w/ Rob Murphy) | Engineering↔field alignment |
 | **ASP 8K enablement series** | 2022–2024 | Use cases & migration strategies | SP sales enablement |
-| **DCN Champions / SEVT** | 2020–2023 | SP bootcamp & SEVT panels (DC virtualization, UFP, evolved connectivity) | SP360 blog companion content |
-| **ASP Lightning talks** | 2021 - Ongoing | Co-developed with DSE John Mullooly, a quarterly program giving SE's (and later CX engineers/architects) a forum for presenting quick talks on interesting projects they're working on. The next Lightning Talk with be our 25th! |
+| **DCN Champions Bootcamp** | **Jan 2021** | **Cloud Networking 101** — hyperscale/cloud architecture, ops philosophy, mindset for Cisco SEs | High impact (Lead, Biz, Span); `[attendee count / scores]` |
+| **Journey to PSE** | **Jan 2021** | Presentation for Web SE org — candor inspired SE career paths (some toward management) | High **Lead** impact |
+| **DCN Champions / SEVT** | 2020–2023 | SP bootcamp & SEVT panels (DC virtualization, UFP, evolved connectivity); **Bell Canada SRv6 end-to-end SEVT success story (Oct 2020)** | SP360 blog companion content |
+| **ASP Lightning talks** | 2021 - Ongoing | Co-developed with DSE John Mullooly, a quarterly program giving SE's (and later CX engineers/architects) a forum for presenting quick talks on interesting projects they're working on. **Episode 23 (Feb 2026)** cited as among the best sessions. |
 
 **Vault:** `10-se-community-leadership.md` (candidate notes), `customers/SRv6 Roadshow Dec 2025.md`, `dse/DSE General MOC.md`
 
@@ -97,12 +114,14 @@ Bruce’s enablement pattern: build **GitHub/Containerlab/dCloud** assets on hor
 
 | Mentee / program | Period | Bruce’s role | Outcome / status |
 | :--- | :--- | :--- | :--- |
-| **Ignacio (“Nacho”) Toussaint** | 2025–2026 | **Official PSE mentor** (1HFY25 TA); mock panel prep | PSE candidate — optical/AI TAM; prepping for panel (1HFY26 work goal) |
+| **Ignacio (“Nacho”) Toussaint** | 2025–2026 | **Official PSE mentor**; mock panel prep | **May 2026 panel** went very well (notification **Jun 11**); Feb 2026 package with **two rewrites**, outside reviews (**Vaughn, Marina, McPhee**) |
 | **Masiuddin Mohammed (“Masi”)** | 2022–2024 | PSE promotion coaching; HQ Arch Staff feedback | **Successful PSE** — Brook cited Bruce mentoring Senior SE to PSE (1HFY24) |
+| **Alessandro Breccia & Masi** | **Feb 2024** | **PA/PSE candidacy consulting** — document review for both | **Both promoted to PSE** after Bruce’s feedback |
 | **Marina Ferreira** | 2023–2025 | Extended team for **successful PSE candidacy** | FE Segmentation / SONiC lab collaborator (1HFY25 TA) |
-| **Christopher Luciano** | 2024–2026 | PSE candidate; Isovalent/XDP-Proxy thread | Host-networking code contribution path w/ Chris Lapp |
-| **Dan Stacks** | 2023–2026 | STLDP; Adobe Cilium POC; Isovalent | STLDP innovation track; customer technical wins |
-| **Satoshi Yamashita** | 2023–2025 | STLDP coach | Capstone video coaching (KDDI/SP security narrative) |
+| **Christopher Luciano** | **Dec 2024–2026** | PSE mentoring began **Dec 2024**; Isovalent/Security SE | Host-networking path; security SE specialization |
+| **Patrick LeMaistre** | **Mar–May 2025** | **PSE subcommittee** (with **Fausto V.**); **co-lead panel interview** | **Promoted to PSE** |
+| **Dan Stacks** | 2023–2026 | STLDP; Adobe Cilium POC; Isovalent | STLDP innovation track; **Apr 2026** AI tool presented to HQ Arch Staff |
+| **Satoshi Yamashita** | 2023–2026 | STLDP coach / capstone | **Jun 2026** pitch video reviewed; capstone intro **Dec 2025** |
 | **Nico Michel** | 2024–2026 | Technical collaboration; CL co-delivery | CLEU 2026 **5.0** + Distinguished Speaker |
 | **Rob Murphy** | 2023–2026 | SONiC dCloud, SOSIE, CL labs | Co-author enablement assets |
 | **Rodney, Bob, Kartik, Masi** | Various | Account SE support; Meta BBF; technical interviews | Meta VXR lab; Web production SE interviews |
@@ -111,7 +130,7 @@ Bruce’s enablement pattern: build **GitHub/Containerlab/dCloud** assets on hor
 | **Amy Gerrie / Isovalent** | **Jun–Jul 2023** | Isovalent discussion for **STLDP** track | Host-networking → security BU bridge |
 | **Arkadiusz Kaliwoda** | **2024–2025** | Inspired via DCN Champions + dCloud Cilium lab | EMEA Cilium SRv6 demo → MPLS-WC booth; **Cilium code contributions** |
 | **Federico Zilotto** | — | PSE assessment | |
-| **Hiroyuki Sugano** | 2025 | NTT East / APJC SRv6-Cilium intros | APJC customer enablement |
+| **Hiroyuki Sugano** | **Jan 2026–** | Formal mentoring begins; prior NTT East/APJC SRv6-Cilium intros | Global + Lead enablement |
 | **STLDP Innovation Award team** | **2023** | Mentor/technical lead — **Cilium/Jalapeno** integration | **Won STLDP Innovation Award** |
 
 **PSE committee:** 3 years voting member (**Mar–May 2024** cycle w/ **Mike McPhee**) — documented under **Span of Influence**; outcome here = **promotion bar** for next-gen PSEs.
@@ -124,7 +143,7 @@ Bruce’s enablement pattern: build **GitHub/Containerlab/dCloud** assets on hor
 
 | Asset | Date | SE leadership angle |
 | :--- | :--- | :--- |
-| **Pearson — *Build Your Own Networking Lab*** | 2024 contract | Field labbing standard for SEs `[verify pub status]` |
+| **Pearson lab course** (w/ **Russ White**) | 2024–2025 | **4-hour course**; 2 live deliveries; recordings in Pearson catalog |
 | **SP360 / SP blogs** | 2022–2024 | Evolved connectivity; ML/AI in SP — enablement reading |
 | **Vidcast training series** | 2026 | Jenelle Lee: *“AMAZED… I want to send them to everyone”* (Apr 2026) |
 | **SONiC Nuggets SharePoint + vidcasts** | 2025–2026 | Phase-1 Web enablement hub |
@@ -145,7 +164,7 @@ Bruce’s enablement pattern: build **GitHub/Containerlab/dCloud** assets on hor
 | Program | Role | SE leadership outcome |
 | :--- | :--- | :--- |
 | **Future Enterprise Segmentation** | Sprint contributor | Segmentation recommendations reused in SE/customer conversations → Span detail |
-| **SL-OnDemand tiger team** | Member (Subha Dhesikan) | `[extend impact]` |
+| **SL-OnDemand tiger team** | Member (Subha Dhesikan); **Mar 2024** CX exec presentation | Expanding Webscaler services narrative |
 | **P5G SDWAN** | Contributor | `[extend per Bruce]` |
 | **Web production network SE technical interviewer** | Interviewer | Kartik, Bob, Rodney, Jeremy, Furong — raised hiring bar for grade-12 Web SEs |
 
@@ -159,9 +178,9 @@ Bruce’s enablement pattern: build **GitHub/Containerlab/dCloud** assets on hor
 | :--- | :--- |
 | VXR / SRv6 labs for Meta SEs | Meta BBF **$17M** booking — **06-business-impact.md** |
 | SL-API training pattern | Meta RBB/SRv6 adoption — **06-business-impact.md** |
-| CLEU MTE James Munroe (NB) | SRv6 migration decision — Global/Industry `[confirm]` |
+| CLEU MTE James Munroe (NB) | Province of NB SRv6 migration — **03-global-impact.md** |
 | Cilium dCloud + DCN Champions | Adobe/TMo/Akamai + **Kaliwoda → MPLS-WC booth** | **03-global-impact.md** / Business |
-| Dec 2025 / Apr 2025 SRv6 workshops | 40+ BU + 20+ SE each — cross-BU SRv6/AI alignment | **04-span-of-influence.md** |
+| Dec 2025 / Apr 2025 SRv6 workshops | **~80 attendees** (Dec 2025 Bay Area follow-up to Apr workshop) — cross-BU SRv6/AI alignment | **04-span-of-influence.md** |
 | Carnegie Mellon SONiC session (Dec 2024) | Education-sector SONiC baseline | **03-global-impact.md** |
 | Nacho mentoring | Optical SE multiplier in Web — career path |
 | dCloud SONiC + Cilium | Field self-sufficiency on neo-cloud architectures |
@@ -197,8 +216,5 @@ Bruce’s enablement pattern: build **GitHub/Containerlab/dCloud** assets on hor
 **Also read:** All `conferences/CLEU*.md`, `CLUS 2025–2026`, `mentor/Nacho.md`, `mentor/Satoshi Yamashita – STLDP.md`, `dse/Mentees and SE help.md`, `dse/DSE General MOC.md`, `customers/SRv6 Roadshow Dec 2025.md`, `evidence-summaries/quotes.md`, `customers/SONiC Nuggets.md`
 
 **Gaps / Bruce to complete:**
-- [ ] **Tech Elevate** — full session list, dates, scores, attendee counts *(partial: Mar 2026 ~25)*
-- [ ] James Munroe SRv6 migration email for CLEU 2026 MTE
-- [ ] Pearson book publication date/ISBN
-- [ ] P5G SDWAN and SL-OnDemand tiger team outcomes
-- [ ] Christopher Luciano / Dan Stacks promotion or account outcomes
+- [ ] **Tech Elevate** — full session list, dates, scores, attendee counts
+- [ ] Pearson course — catalog link/title for package citation

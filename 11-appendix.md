@@ -17,6 +17,19 @@ CLEU23 lab: session 5.0, speaker 5.0
 
 Connected Recognitions:
 
+*Track overflow material here for optional appendix inclusion (page budget ~50 pages).*
+
+| Item | Candidate for appendix |
+| :--- | :--- |
+| Full CLEU score history (2023–2026) | Yes — partial scores in body |
+| ASP Lightning Talks program (25th session upcoming) | Yes |
+| Detailed timeline archive (`todo.md`) | Reference only |
+| **PSE time log** (`PSE-time-log.csv`) | Primary harvest source 2020–2023 detail; 2024+ rows in progress |
+| Full CPOL/patent list | Primary in **07-innovation.md**; overflow here if needed |
+| Talent Assessment PDF extracts | Source in `./talent-assessment/` |
+
+---
+
 ## Talent Assessments *(manager: Brook Crossman)*
 
 PDFs in `./talent-assessment/`; text extracts in `./talent-assessment/extracted/`. Integrated into package **June 7, 2026**.

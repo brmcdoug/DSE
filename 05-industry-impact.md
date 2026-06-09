@@ -15,7 +15,7 @@ Bruce’s industry impact is less a single deliverable than a ** sustained advoc
 | :--- | :--- | :--- |
 | **2020–2022** | SRv6 uSID simplification; programmability as API | IETF/community recognition; SR-Apps field lead |
 | **2023** | Open, reproducible SRv6 labs; SONiC uSID narrative | **srv6-labs** launch; segment-routing.net; MPLS-WC |
-| **2024–2025** | Host networking + eBPF; multi-vendor SONiC | Phoenix Wing alignment; CLEU/CLUS breakouts & panels |
+| **2024–2025** | Host networking + eBPF; SONiC uSID (Cisco engineering) | CLEU/CLUS breakouts & panels; MRC industry alignment |
 | **2025–2026** | SRv6 for AI; MRC; multi-tenant fabrics | OCP abstract; operator roadshow; MRC industry papers |
 
 *Optional package graphic:* timeline from “host-networking CIPOL (2015, exec thru-line only)” → MRC whitepaper (2024–2026 industry validation).
@@ -23,6 +23,62 @@ Bruce’s industry impact is less a single deliverable than a ** sustained advoc
 ---
 
 ## Industry Impact — Draft Package Body
+
+---
+
+### Future of SP Networking — SP360 Blogs — Jul 2021
+
+HQ **Future of SP Networking** kickoff—Bruce advocated **“cloud-like consumption of network services”** predating mainstream SP-NaaS. Authored **two SP360 blog posts**; concepts reused in **Cisco Live panels** (Industry + Span cross-ref).
+
+---
+
+### Pour-Man's Networking Podcast — May 2022
+
+Guest on **first episode** of Pour-Man's Networking podcast (Industry visibility; `[verify reach with Monica/Vaughn]`).
+
+---
+
+### OST Zurich University — Oct 2020–2022
+
+Collaboration with **OST (Zurich)**—2021 **open-sourced Jalapeno API-GW**; 2022 **SRv6 service chaining demo**. Student **Severin** → **Hawkv6** (later distributed controller-app interest from Bart/Andreas). Master's thesis advising with Prof. **Laurent Metzger**.
+
+---
+
+### MPLS World Congress — Apr 2023
+
+Bruce's **IPR/slides/diagrams featured** on **Bell, Verizon, and Rakuten** presentations—hundreds of attendees at globally recognized operator conference.
+
+---
+
+### Open Source Labbing with Russ White — 2024–2025
+
+**Feb 2024 / Dec 2024:** **“Open Source Labbing”** collaboration with **Russ White (Akamai)**—Containerlab, FR/SRv6; industry-famous peer validation of field lab methodology.
+
+---
+
+### OCP Summit — SRv6 for AI Backend Kickoff — Oct 2024
+
+**OCP conference** sessions with **Oracle, Microsoft, Voltage Park, Bell, Cloudflare**—industry-wide **SRv6-for-AI-backend** kickoff in earnest; Bruce participated across operator and hyperscaler cohort. Feeds **2025–2026** MRC/uSID public narrative and customer POC acceleration.
+
+**Cross-ref:** **06-business-impact.md** (Microsoft, OCI, Voltage Park); **07-innovation.md** (multi-tenant spec).
+
+---
+
+### MPLS World Congress — Verizon SRv6 — Mar 2024
+
+Bruce served as **editor/advisor** for **Verizon’s MPLS-WC SRv6 presentation**—having a tier-1 operator deliver essentially **Bruce’s architecture** at MPLS World Congress is higher-impact industry validation than a vendor session alone.
+
+---
+
+### MPLS World Congress — SRv6 for AI Backend — Mar 2025
+
+Bruce delivered **public presentation** on **SRv6 for AI backend** (**Rita Hui** thread); **Arkadiusz Kaliwoda** booth demo; **KPN** SRv6 consulting—global operator visibility at MPLS-WC.
+
+---
+
+### Cisco Live — Boost SRv6 & PyTorch Plugin — Jun 2025
+
+At **CLUS 2025:** **LTRMSI-3000**, **FSPN panel**, **NTT** meetings; post-event **Boost** received access to CL SRv6 lab and **POC’d SRv6** as future solution direction. Bruce coded **demo SRv6 PyTorch plugin**—**Bob Gisiger** highlighted it in **SRF LTRMSI 3000 part 2 (Nov 2025)**.
 
 ---
 
@@ -90,14 +146,15 @@ Bruce is **admin/curator** of [github.com/segmentrouting](https://github.com/seg
 
 ### Phoenix Wing & SRv6 uSID on SONiC — 2023–2025
 
-Bruce contributed to industry narrative for **multi-vendor SRv6 uSID on SONiC** (Cisco, Alibaba, Microsoft—**Phoenix Wing**). Public write-up:
+**Phoenix Wing** is an **Alibaba-led** industry initiative for multi-vendor SRv6 uSID on SONiC (Alibaba, Microsoft, and partners). Bruce is **not** directly engaged with Alibaba account teams; his role is **Cisco-side**: partnering with SRv6/SONiC engineers to scope use cases (frontend DC, AI backend, multi-tenancy), define features, and test **early code drops** in customer POCs.
 
-- [segment-routing.net — SRv6 uSID on SONiC](https://www.segment-routing.net/blogs/srv6-usid-on-sonic/)
-- Pablo Camarillo LinkedIn amplification (vault reference)
+Related public narrative:
+
+- [segment-routing.net — SRv6 uSID on SONiC](https://www.segment-routing.net/blogs/srv6-usid-on-sonic/) (May 2023 — first SRv6-for-DC-on-SONiC demo)
 
 **Industry impact:** Positions open NOS + uSID as cross-vendor pattern—not Cisco-proprietary MPLS/SR-MPLS alone.
 
-**Vault:** `dse/05-Industry-Impact-MOC.md` (wikilink `2023 sonic-blog-alibaba_msft` — **broken in vault; restore link**)
+**Vault:** `dse/05-Industry-Impact-MOC.md`
 
 ---
 

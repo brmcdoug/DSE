@@ -1,8 +1,8 @@
 ## Direct Leader Recommendation
 
-**Direct leader:** Brook Crossman — VP, Americas Service Provider – Web Sales Engineering  
-**Candidate:** Bruce McDougall — Principal Solutions Engineer  
-**Draft status:** Body below is **compiled from Brook Crossman’s manager reflections** in Cisco Talent Assessments (1HFY24–1HFY26). Brook should edit into final 1–2 page submission for the DSE panel. **2HFY26 (Jan–Jul 2026) has no manager comments yet.**
+**Direct leaders (DSE package):** **Brook Crossman** — VP, Americas ASP/Web Systems Engineering (~5 years through Jun 2026). **Matt Gillies** — Global team manager (from Jun 2026). Panel may receive recommendations from **both**. Sponsor LoR is typically the direct-leader letter or co-authored with the leader’s manager (**John Dorval** / Brook; **Tim Carnes** / Matt).
+
+**Primary source (Brook):** Talent Assessment manager reflections (1HFY24–1HFY26), compiled below. **2HFY26 (Jan–Jul 2026) has no manager comments yet.**
 
 ---
 
@@ -14,7 +14,7 @@ Suggested length: 1–2 pages
 - The direct leader should present the case for the candidate, covering items such as a summary of the candidate’s performance, achievements, and progressive improvement in areas of development while being transparent on areas of improvement and the actions taken to improve since their PSE promotion.
 - Include a future role and plan for the candidate in the organization if they were to be promoted to a DSE role.
 - Past managers’ input and any leaders’ input in the reporting chain are optional.
-- The direct leader does not need to submit a separate/additional LoR. However, as part of the Sales LoRs, if the candidate's sponsor is different from the direct leader, the sponsor LoR can be submitted.
+- The direct leader does not need to submit a separate/additional LoR. However, as part of the Sales LoRs, if the candidate's sponsor is different from the direct leader, the sponsor LoR can be submitted. **For Bruce:** sponsor letter is generally the same as the direct-leader recommendation, or co-authored by direct leader + their manager (John Dorval / Tim Carnes).
 
 ---
 
@@ -77,8 +77,7 @@ Across six Talent Assessment cycles (May 2023–January 2026), Brook has consist
 
 ## Open Items
 
-- [ ] Brook: edit draft into final 1–2 page Direct Leader Recommendation for panel
-- [ ] Brook: complete **2HFY26** manager assessment when cycle closes
+- [ ] Brook and/or Matt: edit draft into final 1–2 page Direct Leader Recommendation(s) for panel
 - [ ] Bruce: reconcile Talent Assessment patent counts with [07-innovation.md](./07-innovation.md) CPOL table
 - [ ] Confirm whether formal LoR is required separately from this section per current DSE program rules
 

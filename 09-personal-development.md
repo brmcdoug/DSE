@@ -9,11 +9,11 @@
 
 ## Development Narrative — PSE to DSE
 
-After PSE promotion—and in direct response to **PSE committee feedback** to expand beyond Web/SP comfort zone—Bruce deliberately grew capabilities and relationships **outside the ASP+Web + MIG orbit**: Enterprise SD-WAN and SSE, Future Enterprise Segmentation tiger team, **Single OS (SOSIE)** co-founder role, Isovalent/security engineering, ThousandEyes, EMEA peer network, CX, SL-OnDemand tiger team, and **OST Zurich** university collaboration.
+After PSE promotion—and in direct response to **PSE committee feedback** to expand beyond Web/SP comfort zone—Bruce deliberately grew capabilities and relationships **outside the ASP+Web + MIG orbit**: Enterprise SD-WAN and SSE, Future Enterprise Segmentation tiger team, **Single OS (SOSIE)** co-founder role, Isovalent/security engineering, ThousandEyes, EMEA peer network, CX, SL-OnDemand tiger team, and **OST Zurich** university collaboration. In **Jun 2026** Bruce transferred from ASP/Web (manager **Brook Crossman**, ~5 years) to **Matt Gillies’ Global Solutions Engineering** team as **lead Cloud-SP architect**—same horizon-2/3 mission at global scope. **May 2026:** Partnered with **Mike McPhee** as mock interviewer for **Security Sales PSE** candidates; **Jun 2026** reviewed **Satoshi Yamashita** STLDP pitch video.
 
 Rather than remaining a routing-protocol SME who describes slides, Bruce invested in **production-grade builder skills**—Kubernetes, Cilium/eBPF, Containerlab, GitHub workflows, dCloud publishing, and agent-assisted development (“vibe-labbing”)—so he could ship the labs, emulators, and POC repos account teams and SEs reuse. That choice directly enabled outcomes documented in **Innovation**, **Industry Impact**, **SE Community Leadership**, and **Business/Global Impact**.
 
-**DSE mentor:** **Vaughn Suazo** — formally selected **2HFY25** (bi-weekly meetings, deliverable-driven). **Unofficial mentors:** Matt Gillies, David Jansen (per development plan).
+**DSE mentor:** **Vaughn Suazo** — formally selected **2HFY25** (bi-weekly meetings, deliverable-driven). **Managers:** Brook Crossman (ASP/Web, through Jun 2026); **Matt Gillies** (Global, from Jun 2026). **Unofficial mentor:** David Jansen.
 
 ---
 
@@ -26,7 +26,7 @@ Cisco Talent Assessments capture Bruce’s performance and development prioritie
 | **2HFY24** | Geico first SONiC/C8000 order (~$1.6M); SRv6-SGT / Yukon++ with Josh; Isovalent overview to global PSE/DSE; AI/SONiC learning | Working toward next step; need **foundational DSE-linked project** with business metrics |
 | **1HFY25** | Top 3–4 SONiC/Cilium SME; AI/ML fabric + K8s/CNI depth; BridgeIT/Cursor productivity; Enterprise+SP SRv6+SGT; Nacho PSE mentor; Marina Ferreira + Masi candidacy support | **Adopt longer-term mentees** on road to DSE; self-study best for technical depth |
 | **2HFY25** | Vaughn Suazo DSE mentor; Adobe Cilium EGW POC rescue; April BE/Sales SRv6 workshop owner; srctl/Jalapeno AI LB tooling; 3 patents approved + 1 issued | **Executive communications** + more live SE engagements; coach upleveled messaging |
-| **1HFY26** | Pinnacle Award; Cilium-SP business case ($34M Isovalent / $323M MIG pullthrough `[verify]`); MIG G200 SRv6 Q1’26 commit; AI tools as “brain-extender” | Aligned on goals; **help filter inbound requests**; delegate projects for others’ visibility |
+| **1HFY26** | Pinnacle Award (2025); Cilium-SP business case ($34M Isovalent / $323M MIG pullthrough); MIG G200 SRv6 Q1’26 commit; AI tools as “brain-extender” | Aligned on goals; **help filter inbound requests**; delegate projects for others’ visibility |
 | **2HFY26** | *(Employee sections empty in PDF as of export)* | *Manager comments not yet submitted* |
 
 **Source:** `./talent-assessment/` PDFs; extracts in `./talent-assessment/extracted/`
@@ -37,10 +37,9 @@ Cisco Talent Assessments capture Bruce’s performance and development prioritie
 
 | Credential | Date | Relevance / application |
 | :--- | :--- | :--- |
+| **BA**, University of Washington | 1996 | Undergraduate foundation |
 | **CCIE Service Provider** #35169 | 2012 | Foundation for SR/SRv6 field leadership; credibility with SP and hyperscaler operators |
-| **Pearson Education — *Build Your Own Networking Lab*** (contracted author) | 2024 | Codifies Containerlab/GitHub lab methodology for field SEs `[verify publication status/ISBN]` |
-
-*Bruce to add:* prior degree(s), other Cisco/industry certs if applicable.
+| **Pearson — lab course** (co-developed w/ **Russ White**) | 2024–2025 | **4-hour course**; delivered live **twice**; both sessions recorded in **Pearson training catalog** for subscribers—Containerlab/GitHub lab methodology for field SEs |
 
 ---
 
@@ -48,10 +47,9 @@ Cisco Talent Assessments capture Bruce’s performance and development prioritie
 
 | Period | Development | Application → impact |
 | :--- | :--- | :--- |
-| **2026** | Agent-assisted coding (Cursor); multi-tenant AI fabric spec authoring; OCP session prep | Faster POC iteration; [srv6-msft](https://github.com/segmentrouting/srv6-msft) / MRC emulator; planned industry presentation → **Innovation** / **Industry** |
-| **2025–2026** | Deepening **Cilium/eBPF** (Adobe egress gateway POC, Boost SRv6 CRD threads) | **Global Impact** (Adobe); **Span** (host-networking across BUs) |
-| **2025** | **Ultra Ethernet** study (planned); **Conversational Intelligence** (exec communication) | AI fabric customer conversations (Verizon, CoreWeave); exec readiness `[PDP status: verify completion]` |
-| **2025** | **DSE mentor Vaughn Suazo** (formal, bi-weekly); **exec communication** priority (Brook 2HFY25); Adobe Cilium EGW self-study | Panel-ready narrative; Adobe POC recovery → **03-global-impact** |
+| **2026** | Agent-assisted coding (Cursor); **MRC** presentations, lab, emulator, SE enablement (supersedes Ultra Ethernet study); OCP session prep | Faster POC iteration; srv6-msft / MRC emulator → **Innovation** / **Industry** |
+| **2025–2026** | Deepening **Cilium/eBPF** (Adobe egress gateway POC **complete**) | **Global Impact** (Adobe); **Span** (host-networking across BUs) |
+| **2025** | **Conversational Intelligence** + exec coach (**complete**); **DSE mentor Vaughn Suazo**; Adobe Cilium EGW self-study | Panel-ready narrative; Adobe POC → **03-global-impact** |
 | **2024–2025** | **SONiC** depth before mainstream field adoption; dCloud lab publication; **BridgeIT/Cursor** (1HFY25) → synthesis into deliverables (1HFY26 goal) | SONiC SME on CoreWeave, Geico, MSFT; **06-business-impact** |
 | **2023–2024** | **Containerlab** early adopter; GitHub-first CL lab guides | **srv6-labs** launch; CLEU **5.0** Distinguished Speaker → **10-se-community-leadership** |
 | **2021–2023** | **Kubernetes** + cloud-native stack; Jalapeno OSS maintenance | Bold Bets / open source; EN Hackathon win → **07-innovation** |
@@ -67,10 +65,10 @@ Cisco Talent Assessments capture Bruce’s performance and development prioritie
 
 | Action | Due | DSE criteria | Status / outcome |
 | :--- | :--- | :--- | :--- |
-| Engage exec conversation coach/mentor | Mar 2026 | Personal Development | **In progress** — Brook 2HFY25–1HFY26: exec comm coaching on upleveled messaging |
-| Fork Cilium; POC SRv6 feature | Oct 2025 | Innovation, Industry, Global, PD | In progress via Adobe/Boost CRD work |
-| Ultra Ethernet study | Aug 2025 | Business, PD | `[verify]` |
-| Read *Conversational Intelligence* | Jul 2025 | PD | `[verify]` |
+| Engage exec conversation coach/mentor | Mar 2026 | Personal Development | **Complete** |
+| Fork Cilium; POC SRv6 feature | Oct 2025 | Innovation, Industry, Global, PD | **Complete** (Adobe EGW/LB POC) |
+| MRC study & customer enablement (replaces Ultra Ethernet) | Aug 2025 | Business, Innovation, Industry | **Complete** — MRC PPT, lab, emulator, SE/customer work |
+| Read *Conversational Intelligence* | Jul 2025 | PD | **Complete** |
 | Optimize Jalapeno codebase | Jul 2026 | Innovation, Industry, Global | In progress |
 
 ### Exposure
@@ -78,16 +76,16 @@ Cisco Talent Assessments capture Bruce’s performance and development prioritie
 | Action | Due | DSE criteria | Status / outcome |
 | :--- | :--- | :--- | :--- |
 | Non–Cisco Live session (SRv6/Jalapeno/cloud-native) | Jan 2026+ | Business, Innovation, Industry, Global | MPLS-WC / operator workshops; OCP 2026 planned |
-| Deliver 2 SRF sessions | Sep 2025 | Leadership, Span | `[verify count]` |
-| Mentor **Nacho** (PSE) | Jul 2026 | Business, Span, PD, Leadership | **In progress** — mock panel, optical/AI TAM |
-| Jalapeno deployment at DLR or Akamai | Dec 2025 | Business, Innovation, Industry | `[verify]` |
+| Deliver 2 SRF sessions | Sep 2025 | Leadership, Span | **Complete** — Cisco Live SRv6 lab over **2 SRF sessions (Jul + Nov 2025)**; plus **Nov 2024 IMI VT** Cilium SRv6 lab (global SE audience) |
+| Mentor **Nacho** (PSE) | Jul 2026 | Business, Span, PD, Leadership | **Complete through panel interview** — awaiting panel decision |
+| Digital Realty Cilium/SRv6 + Akamai SRv6 controller POC | Dec 2025 | Business, Innovation, Industry | **Partial complete** — assisted **DLR** Cilium/SRv6 POC lab stand-up; built **Akamai** demo SDN controller (SRv6 L3VPN redirect-to-scrubber on custom Linux forwarder). Follow up on Akamai status |
 
 ### Experience
 
 | Action | Due | DSE criteria | Status / outcome |
 | :--- | :--- | :--- | :--- |
-| SRv6 deployment at hyperscaler | Jul 2026 | Business, Innovation, Global, Span, Industry | **In progress** — MSFT 8122 SONiC SRv6 ship (Jun 2026); OCI/CoreWeave AI paths |
-| Cilium EGW/LB at Adobe | Oct 2025 | Span, Business (Global account) | **In progress** — POC artifacts through 2025 |
+| SRv6 deployment at hyperscaler | Jul 2026 | Business, Innovation, Global, Span, Industry | **In progress** — **Microsoft and OCI have initial deployments on competitor hardware** (validates architecture; Cisco late to market). MSFT 8122 SONiC SRv6 ship (Jun 2026); project **FY2027 TAM** `[pending finance]` |
+| Cilium EGW/LB at Adobe | Oct 2025 | Span, Business (Global account) | **Complete** — testimonial from Adobe/Dan Stacks pending |
 | Non-CL conference delivery | Jul 2026 | Global, Industry | OCP 2026 track |
 
 **Risk noted in plan:** Cisco execution on software/hardware roadmaps—mitigated by open-source lab strategy and direct customer co-development.
@@ -108,7 +106,7 @@ Bruce describes his current development model as **vibe-labbing / vibe-coding**:
 | :--- | :--- |
 | **Global Impact** | EMEA peer relationships; enterprise/SD-WAN skills for Geico, Adobe, Fiserv-class accounts |
 | **Span of Influence** | SOSIE, FE Segmentation, Isovalent engineering literacy, PSE committee |
-| **Industry Impact** | GitHub OSS curation; conference speaking; Pearson lab book |
+| **Industry Impact** | GitHub OSS curation; conference speaking; Pearson/Russ White lab course |
 | **Business Impact** | SONiC + SRv6 builder skills on MSFT/Meta/OCI/CoreWeave |
 | **Innovation** | Cilium fork/POC path; Jalapeno; CPOL pipeline |
 | **SE Leadership** | dCloud + CL lab authorship; Nacho/STLDP mentoring |
@@ -133,8 +131,7 @@ Bruce describes his current development model as **vibe-labbing / vibe-coding**:
 **Cross-ref:** `dse/DSE General MOC.md` (Vaughn mentoring themes), `10-SE-Leadership-MOC.md` (Pearson book)
 
 **Gaps / Bruce to update:**
-- [ ] PDP status columns (Ultra Ethernet, Conversational Intelligence)
-- [ ] Education row (university degree if desired)
-- [ ] Jalapeno DLR/Akamai deployment outcome
-- [ ] SRF session delivery count
-- [ ] Brook: complete 2HFY26 Talent Assessment manager section
+- [ ] Akamai SRv6 controller POC — current status with account team
+- [ ] Adobe / Dan Stacks testimonial
+- [ ] Nacho — panel decision outcome
+- [ ] Brook/Matt: complete 2HFY26 Talent Assessment manager section when available

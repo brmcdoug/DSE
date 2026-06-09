@@ -22,9 +22,8 @@ This repo is the **publication layer** for a ~50-page Distinguished Systems Engi
 | **Name** | Bruce McDougall |
 | **Current role** | Principal Systems Engineer (PSE) |
 | **Target** | Distinguished Systems Engineer (DSE) |
-| **Assignment** | **Americas Service Provider and Web (ASP + Web)** |
-| **Geography of assignment** | North America and South America |
-| **Manager** | Brook Crossman |
+| **Manager (DSE period)** | Brook Crossman (ASP/Web VP, Systems Engineering, ~5 years through Jun 2026); **Matt Gillies** (Global team, from Jun 2026) |
+| **Assignment** | **Americas Service Provider and Web (ASP + Web)** through Jun 2026; **Global** PSE from Jun 2026 |
 | **DSE mentor** | Vaughn Suazo |
 | **PSE start date (package time scope)** | **August 1, 2020** |
 | **Voice** | Third person throughout the package, except **“Becoming a DSE”** candidate statement (first person allowed) |
@@ -407,37 +406,37 @@ Embed in relevant sections, not a standalone section:
 
 ## ASP + Web — assigned customers (in-scope for Business Impact)
 
-*Bruce to complete, correct, and remove “(confirm)” entries. Agents: do **not** treat this list as exhaustive; ask before adding customers not listed.*
+*Bruce confirmed Jun 2026: **Akamai, Equinix, Salesforce, Lambda Labs, Groq, Roblox, Netflix, eBay, ServiceNow, Riot Games, Viasat, Comcast** are ASP/Web accounts. Agents: do **not** treat this list as exhaustive.*
 
 ### Web / Hyperscale / Neo-cloud (Americas)
 
-- [ ] **Microsoft** (Azure, SWAN, AI backend, SONiC, PhyNet/dRH)
-- [ ] **Meta** (WAN, EBB, RBB, BBF, SL-API)
-- [ ] **Amazon Web Services (AWS)** (Silicon One, Direct Connect)
-- [ ] **Google** (GDC, B4 SR-MPLS, Alphanet / SL-API)
-- [ ] **Oracle Cloud Infrastructure (OCI)** (AI backend, Acceleron, SRv6)
-- [ ] **CoreWeave**
-- [ ] **Lambda Labs** *(confirm assignment)*
-- [ ] **Groq** *(confirm assignment)*
-- [ ] **Roblox** *(confirm assignment)*
-- [ ] **Netflix** *(confirm assignment)*
-- [ ] **eBay** *(confirm assignment)*
-- [ ] **Salesforce** *(confirm assignment)*
-- [ ] **ServiceNow** *(confirm assignment)*
+- [x] **Microsoft** (Azure, SWAN, AI backend, SONiC, PhyNet/dRH)
+- [x] **Meta** (WAN, EBB, RBB, BBF, SL-API)
+- [x] **Amazon Web Services (AWS)** (Silicon One, Direct Connect)
+- [x] **Google** (GDC, B4 SR-MPLS, Alphanet / SL-API)
+- [x] **Oracle Cloud Infrastructure (OCI)** (AI backend, Acceleron, SRv6)
+- [x] **CoreWeave**
+- [x] **Lambda Labs**
+- [x] **Groq**
+- [x] **Roblox**
+- [x] **Netflix**
+- [x] **eBay**
+- [x] **Salesforce**
+- [x] **ServiceNow**
 
 ### Service Provider — Americas
 
-- [ ] **AT&T**
-- [ ] **Verizon**
-- [ ] **T-Mobile**
-- [ ] **Bell Canada**
-- [ ] **Videotron**
-- [ ] **Dish / Boost Mobile**
-- [ ] **Viasat**
-- [ ] **Riot Games** *(confirm SP vs Web classification)*
-- [ ] **Akamai** *(confirm — global CDN, US HQ)*
-- [ ] **Equinix** *(confirm — often multi-theater; may split Global vs Business)*
-- [ ] **Comcast** *(confirm — noted in vault)*
+- [x] **AT&T**
+- [x] **Verizon**
+- [x] **T-Mobile**
+- [x] **Bell Canada**
+- [x] **Videotron**
+- [x] **Dish / Boost Mobile**
+- [x] **Viasat**
+- [x] **Riot Games**
+- [x] **Akamai**
+- [x] **Equinix**
+- [x] **Comcast**
 - [ ] **Lumen / CenturyLink** *(add if applicable)*
 - [ ] **Charter / Spectrum** *(add if applicable)*
 
@@ -458,7 +457,7 @@ Embed in relevant sections, not a standalone section:
 - [ ] **NYU** — HSRN SONiC research net
 - [ ] **The Trade Desk** — SONiC evaluation
 - [ ] **NSight** — Cilium/AI services (regional SP, Green Bay)
-- [ ] **Visa** — Isovalent intro via Dan Stacks (Oct 2025) `[verify assignment]`
+- [ ] **Visa** — Isovalent intro (Oct 2025); **Global Impact**
 
 ### APJC
 
@@ -505,6 +504,7 @@ Embed in relevant sections, not a standalone section:
 | `09-personal-development.md` | Certs, training, growth |
 | `10-se-community-leadership.md` | Mentoring, enablement, CL |
 | `11-appendix.md` | CL scores, Connected Recognition |
+| `PSE-time-log.csv` | **Chronological activity log** (2020–present); route by DSE criteria column → section files |
 | `reference/` | Brenden package PDF + template outline |
 | `projects/` | Deep-dive project write-ups (MRC, SRv6 AI fabric) |
 
@@ -515,13 +515,14 @@ Embed in relevant sections, not a standalone section:
 ### Harvest pass (Obsidian → repo)
 
 1. Read this `AGENTS.md` for section scope and **Aug 2020 floor date**.
-2. Start from vault `dse/<Section>-MOC.md` and follow `[[wikilinks]]`.
-3. **Tag each finding:** `Business (ASP+Web)` | `Global (customer $)` | `Span (internal)` | `Industry` | `Innovation` | `SE Leadership` | `Personal Dev`.
-4. **Filter pre-2020** unless drafting exec overview thru-narrative.
-5. Write polished third-person narratives into the matching repo file.
-6. Append **open items** and **vault source paths** at bottom of section file.
-7. **Global Impact** = non-assigned customers with revenue/pipeline story only.
-8. **Span** = non-MIG / cross-BU / cross-peer influence inside Cisco.
+2. **Also harvest** `PSE-time-log.csv` — map **DSE criteria** column to sections: `biz` → 06 (if ASP+Web account); `global`/`glob` → 03; `span` → 04; `innov` → 07; `industry`/`indust` → 05; `lead` → 10; `personal`/`pd` → 09. One story = one primary home.
+3. Start from vault `dse/<Section>-MOC.md` and follow `[[wikilinks]]`.
+4. **Tag each finding:** `Business (ASP+Web)` | `Global (customer $)` | `Span (internal)` | `Industry` | `Innovation` | `SE Leadership` | `Personal Dev`.
+5. **Filter pre-2020** unless drafting exec overview thru-narrative.
+6. Write polished third-person narratives into the matching repo file.
+7. Append **open items** and **vault source paths** at bottom of section file.
+8. **Global Impact** = non-assigned customers with revenue/pipeline story only.
+9. **Span** = non-MIG / cross-BU / cross-peer influence inside Cisco.
 
 ### Section routing quick check
 
@@ -539,6 +540,7 @@ Embed in relevant sections, not a standalone section:
 ### Writing conventions
 
 - Third person: “Bruce led…”, “McDougall authored…”
+- **Tone (final PDF):** Friendly, collaborative—pioneering thought leader who is also exceptional to work with (not stiff corporate prose)
 - **Date floor:** Aug 1, 2020 except exec thru-narrative
 - Active verbs; separate **financial / competitive / strategic / customer** impact where possible
 - Mark unverified claims: `[verify]` or `[pending finance validation]`
@@ -551,7 +553,7 @@ Embed in relevant sections, not a standalone section:
 - Complete ASP+Web customer list (this file)
 - Re-filter `03-global-impact.md` for **customer/revenue-only, non-ASP+Web**
 - Re-filter `01-exec-summary-draft.md` for pre-2020 content outside thru-narrative
-- Career path dates; Brook direct leader letter
+- Career path dates; direct leader letters (Brook Crossman + Matt Gillies)
 - Broken vault wikilinks (`2023 sonic-blog-alibaba_msft`, etc.)
 - Confirm Virginia Teixeira spelling; extend cross-org peer list
 

@@ -29,9 +29,10 @@ Bruce’s ASP+Web business impact follows a repeatable pattern: **train SE teams
 | **Amazon** | Silicon One, Direct Connect | ~$20M | Silicon TAM modeling; feature development program management |
 | **Google** | GDC, B4 SR-MPLS | ~$20M | SRv6 proposal and training; interim lead SE during account transition |
 | **Oracle (OCI)** | Frontend + backend DC / AI | ~$20M | Lead architect SRv6 for AI; MRC and multi-tenancy; Hoffman-Singleton study |
-| **CoreWeave** | DC + WAN / AI | ~$20M FY26; ~$250M proj. FY27 | SONiC SME; lead SRv6-for-AI architect |
+| **CoreWeave** | DC + WAN / AI | ~$20M FY26; FY27 estimates $150M DC switching, $245M optics, FY28-29 estimates $400M/year DC switching, $600+/year optics [source](https://cisco-my.sharepoint.com/:w:/r/personal/bgisiger_cisco_com/Documents/Desktop/Old%20Desktop/Web%20Operation%20Accounts/Big%20Projects/AI%20start-ups/CoreWeave/DC%20Switching/Back-end/CRD/CoreWeave%20DC%20Back-End%20Switching%20-%20Customer%20Requirements%20Document%20(CRD)%20v1.docx?d=w302ef71e18cc47529beaeb9e213af6a1&csf=1&web=1&e=mO6m5O) | SONiC SME; lead SRv6-for-AI architect |
 | **Applied Digital** | AI infrastructure | ~$30M `[verify]` | Rail diagrams + AI calculator; solution spec |
-| **Salesforce** | NG DC / SR | `[verify]` | SR customer presentation (Oct 2023) |
+| **Salesforce** | NG DC / SR | `[verify]` | **Sep 2020:** A9K POC co-led w/ Asoka; SR/SRv6 mindshare (Oct 2023 exec preso) |
+| **Comcast** | LB architecture | **~$5M** `[verify]` | Feb 2026 LB consultation |
 | **Americas SP** | Bell, Verizon, Dish/Boost, Videotron, Riot | ~$90M+ partial | SR/SRv6, host-based Cilium, NaaS architecture |
 
 **Aggregate placeholder (ASP+Web only):** Multiple **billions** in hyperscaler and tier-1 SP pipeline and booked revenue (Aug 2020–present). *Final figures require finance validation.*
@@ -44,7 +45,7 @@ Bruce’s ASP+Web business impact follows a repeatable pattern: **train SE teams
 
 ### Meta — Backbone Fabric (BBF) Production Win — Feb 2026
 
-After a multi-year co-development effort, Meta booked a **$17M** first production order for P200 on the **Backbone Fabric (BBF)** architecture—Cisco beating Arista (and Broadcom Q4D) for strategic P200 insertion into Meta’s backbone. Account leadership cited rebuilding credibility after years outside Meta’s backbone environment. Bruce developed **VXR-based POC labs** for SE co-validation; Asoka: *“Thank you for helping us with the VXR setup. That was huge!!”* Wilson Le framed the win as a *“landmark win”* and landmark for re-entering Meta’s backbone.
+After a multi-year co-development effort, Meta booked a **$17M** first production order for P200 on the **Backbone Fabric (BBF)** architecture—Cisco beating Arista (and Broadcom Q4D) for strategic P200 insertion into Meta’s backbone. **Apr 2024:** Beginning of **~two-year EBB/BBF sales cycle**. Bruce developed **VXR-based POC labs** for SE co-validation; **Mar 2026:** Bruce leveraged **VXR team relationships** to obtain **8223 patch** when hardware was not yet GA—**key enabler** for Asoka/Leif and the production win (Asoka: *“Thank you for helping us with the VXR setup. That was huge!!”*).
 
 **Strategic context:** BBF is part of EBB; estimate **~$300M over two years** for BBF; RBB pipeline cited at **~$350M/year** with **SL-API** as key to the win. Feb/Mar 2026: Meta **RBB moving to SRv6**, leveraging SL-API work Bruce pioneered in the Microsoft SWAN context.
 
@@ -61,13 +62,13 @@ After a multi-year co-development effort, Meta booked a **$17M** first productio
 
 ### Digital Realty — SRv6 POC — Oct 2025
 
-Bruce supported a **Digital Realty** SRv6 POC thread exploring colo fabric options and potential **Arista displacement** with SRv6 `[verify $]`. *Primary narrative may also appear in **03-global-impact.md** if classified outside ASP+Web.*
+Bruce supported a **Digital Realty** SRv6 POC thread exploring colo fabric options and potential **Arista displacement** with SRv6 `[verify $]`. Assisted **DLR team** in standing up **Cilium/SRv6 deployment** in their POC lab (PDP Dec 2025). *Primary narrative may also appear in **03-global-impact.md**.*
 
 ---
 
 ### Microsoft — SRv6 AI Backend & SONiC 8122 — 2024–2026
 
-Bruce evangelized inside Cisco that **SRv6 for AI backend** (MRC, multi-tenancy, static pinning) was production-real—culminating in **SRv6 on SONiC for Cisco 8122** (202511 codebase, **June 2026**). He authored the **SRv6 multi-tenant AI fabric** spec and POC repos ([srv6-msft](https://github.com/segmentrouting/srv6-msft), [srv6-mrc-emulator](https://github.com/segmentrouting/srv6-mrc-emulator)) used by Microsoft engineers in executive presentations; planned **OCP Summit 2026** co-presentation.
+Bruce evangelized inside Cisco that **SRv6 for AI backend** (MRC, multi-tenancy, static pinning) was production-real—culminating in **SRv6 on SONiC for Cisco 8122** (202511 codebase, **June 2026**). **Microsoft and Oracle have initial SRv6-for-AI deployments on competitor hardware**—strong validation of the architecture Bruce championed, even where Cisco was late to market; **FY2027 TAM projection pending finance validation**. He authored the **SRv6 multi-tenant AI fabric** spec and POC repos ([srv6-msft](https://github.com/segmentrouting/srv6-msft), [srv6-mrc-emulator](https://github.com/segmentrouting/srv6-mrc-emulator)) used by Microsoft engineers in executive presentations; planned **OCP Summit 2026** co-presentation.
 
 **Customer context:** AI super-factory WAN (120k+ fiber miles), MRC on hosts, scale-up/scale-out segmentation—aligned with vault AI-backend notes.
 
@@ -76,8 +77,13 @@ Bruce evangelized inside Cisco that **SRv6 for AI backend** (MRC, multi-tenancy,
 - Convinced skeptical engineering to invest in SRv6-for-AI on SONiC
 - Multi-tenant architecture, whitepaper, customer/SE labs
 - **SRv6 DC-Frontend POC (1HFY26):** two key use cases; **Mohan** installed setup in personal lab and demoed internally
+- **Mar 2025:** **SRv6 frontend DC** engagement begins (**Mohan**, **Joe Rockwell**); Bruce used **AI tools** to rapidly generate lab scenarios (configs, topologies, docs); **May 2025** onsite workshop—Bruce **led half** on technology and use cases
+- **Jan 2026:** **dRH**—disaggregation of chassis T2 into upper/lower **pizza-box Clos** (MSFT frontend DC re-architecture with SRv6)
+- **Aug 2025:** **SRv6 DC-frontend POC**—4PE, DCIX, mix of XR and SONiC; demonstrated **prefix-hiding/scale** and **SRv6-TE for inter-DC** traffic
+- **Mar 2026:** **dRH SRv6 vs. VXLAN** presentation + **SONiC GRT** lab/POC for **Abhishek Dosi** and **Mohan** (with engineering)
 - **MIG commitment:** SRv6 on SONiC **G200** in **Q1 FY26** for Microsoft and Oracle testing paths (Talent Assessment 1HFY26)
 - Disaggregated RH/T2 SRv6 tunnel mesh, Ti-LFA, anchor-route scale/convergence work (ongoing with Mohan/Joe)
+- **Nov 2024:** Built **first SRv6-for-AI elephant-flows demo** with Brook, Josh, HQ team—internal proof point before customer-scale POCs
 
 **Vault:** `customers/Microsoft AI-Backend.md`, `customers/Microsoft  SRv6.md`, `customers/MSFT octans-drh.md`, `innovation/SRv6-MultiTenant-Design-rev3.md`
 
@@ -89,6 +95,7 @@ Bruce is a primary SME on Microsoft’s **Regional Network Gateway / PhyNet** pr
 
 **Bruce’s actions:**
 - Architecture working sessions (Mohan dRH, Chris Whyte G400/MRC, Pan WAN lunch-and-learn)
+- **Apr–May 2025:** Two **SRv6 WAN lunch-and-learn** sessions with Microsoft WAN team (PSE time log)
 - SONiC/FRR prototypes: BGP GRT, SRv6-TE, BGP fast reroute on disagg RH
 - Shared “Billion Servers” / scale framing with Microsoft engineering leadership
 
@@ -110,17 +117,29 @@ Bruce developed POC labs and training for **1.6T backbone** redesign: scaling fr
 
 Neo-cloud AI provider (OpenAI compute partner): Bruce serves as **SONiC SME** and **lead SRv6-for-AI architect**—backend adaptive routing/ECN, MRC/SRv6 metrics, Vera Rubin Ultra path analysis. **WAN backbone** design (Apr 2026 deck): ~196 edge routers, 42 TLRs, DSR stitching for AI-DC fabrics, 32 D-pops for DC interconnect.
 
+**Mar 2026 (PSE time log):** Developed **Containerlab + VXR** lab setups and documentation for CoreWeave NetDev engineering; opportunity scope grew to **~10k–12k switches**. **Feb 2026:** CoreWeave EBC—VXR/Containerlab/SONiC technical lead.
+
 **Placeholder revenue:** ~**$20M FY26**; ~**$250M projected FY27** `[verify]`.
 
 **Vault:** `customers/Coreweave DC.md`, `customers/Coreweave backbone.md`, `customers/Coreweave lab.md`
 
 ---
 
+### Comcast — Load Balancing Consultation — Feb 2026
+
+Bruce consulted on **Comcast load-balancing** architecture engagement—**~$5M** opportunity scope per PSE time log `[verify with Jenelle/account team]`.
+
+**Vault:** `[add customer note path]`
+
+---
+
 ### Oracle Cloud Infrastructure — SRv6 for AI (Acceleron / MRC) — 2023–2026
 
-Bruce is **lead architect** for Cisco/OCI **SRv6 for AI**: aligned with Oracle **Acceleron** multiplanar networking (SRv6 source routing from NIC, N-diverse paths, MRC on Stargate/Abilene). Delivered SRv6 CRD, VXR lab, SRv6 SONiC image, SRv6 GRT work; **Hoffman–Singleton** low-diameter topology study. Oracle public blog (2026) cites SRv6 static routing for MRC—same industry pattern Bruce drove on Microsoft.
+Bruce is **lead architect** for Cisco/OCI **SRv6 for AI**: aligned with Oracle **Acceleron** multiplanar networking (SRv6 source routing from NIC, N-diverse paths, MRC on Stargate/Abilene). Delivered SRv6 CRD, VXR lab, SRv6 SONiC image, SRv6 GRT work; **Hoffman–Singleton** low-diameter topology study (**Jun 2024** lab and design doc with **Chris Martin**). Oracle public blog (2026) cites SRv6 static routing for MRC—same industry pattern Bruce drove on Microsoft.
 
-**Also:** Consultant/SW advisor on Oracle **ONOS / Cloud OS** strategy alignment.
+**2024–2026 timeline (PSE time log):** **Oct 2024** SRv6-for-AI kickoff at **OCP** (first public customer discussions); **Nov 2024** onsite AI workshop; **Dec 2024** Bruce **led OCI SRv6 workshop**—**OCI running SRv6 in limited production by end of 2025**; **Aug 2025** **1,000-GPU POC** (SONiC advisory, later **SRv6 ownership**); **Jan 2025** **Polarfly** + **uA-on-XRd AI-backend demo** (Jag Brar); **Mar–Apr 2026** two-part **Oracle SRv6 tutorial** for Oracle engineering; **Jun 2025** assisted Asoka on **SONiC 8122** lab configs (`2026–2028` revenue projection `[verify]`).
+
+**Also:** Consultant/SW advisor on Oracle **ONOS / Cloud OS** strategy alignment (**Apr 2025** EBC with sonic/solar-os team).
 
 **Placeholder revenue:** ~**$20M** `[verify]`.
 
@@ -142,7 +161,7 @@ Bruce is **lead architect** for Cisco/OCI **SRv6 for AI**: aligned with Oracle *
 
 ### Videotron — SRv6 Regional Backhaul — Feb–Apr 2026
 
-Canadian cable operator (Quebec; Freedom Mobile integration): building **SRv6 backhaul** to interconnect four MPLS-LDP regions over IPv6 core with SRv6 gateways. Bruce supported SE Philippe Vaillancourt—reshaped a CX-driven agenda, coordinated Ianik/Jakub/Dan Voyer, onsite SRv6 update; customer wants management buy-in for brownfield migration. Interests: workload-to-cloud IPv6, **Cilium** policy/Hubble.
+Canadian cable operator (Quebec; Freedom Mobile integration): building **SRv6 backhaul** to interconnect four MPLS-LDP regions over IPv6 core with SRv6 gateways. Bruce supported SE **Philippe Vaillancourt**—gave him access to Bruce’s **Containerlab SRv6 lab** to self-train ahead of customer workshop; coordinated Ianik/Jakub/Dan Voyer for onsite SRv6 update.
 
 **Placeholder revenue:** ~**$25M** `[verify]`.
 
@@ -164,7 +183,7 @@ Tier-1 assigned SP: Bruce engaged on **enterprise-wide SRv6 roadmap** (wireless 
 
 ### Akamai — Backbone SR/SRv6 Transition — 2023–2025
 
-Americas HQ CDN/SP (assignment **`[confirm]`** in AGENTS checklist): Bruce engaged on **800G deployment**, RSVP→SR momentum on backbone, **SRv6-TE** honesty on Silicon One strengths/weaknesses, Linode/Prolexic SR path (John Leddy/Russ White). **Jul 2023:** **H.Insert.Preserve** thread with **J. Leddy**. **Oct 2023:** **FRR SRv6 L3VPN image and lab** for Russ White. **May 2025:** **`srctl`/Jalapeno** demo (Talent Assessment). Akamai SRv6 notes: SONiC + Silicon One for high-capacity probe generation.
+Americas HQ CDN/SP (**ASP+Web**): Bruce engaged on **800G deployment**, RSVP→SR momentum on backbone, **SRv6-TE** honesty on Silicon One strengths/weaknesses, Linode/Prolexic SR path (John Leddy/Russ White). **Jul 2023:** **H.Insert.Preserve** thread with **J. Leddy**. **Oct 2023:** **FRR SRv6 L3VPN image and lab** for Russ White. **Feb 2024:** SRv6 use-case workshops with **Leddy** and **Russ White**. **Mar 2025:** **Static uSID POC** (Leddy). **May 2025:** **`srctl`/Jalapeno** demo (Talent Assessment). **Jun 2025:** **PLX over ADC** lab/demo/POC. **2025 PDP:** built demo **SDN controller** programming **SRv6 L3VPN** routes on custom Linux forwarder for **redirect-to-scrubber** use case — follow up on production status with account team.
 
 **Vault:** `customers/Akamai.md`, `customers/Akamai SRv6.md`, `customers/Akamai-Prolexic SRv6.md`
 
@@ -172,7 +191,7 @@ Americas HQ CDN/SP (assignment **`[confirm]`** in AGENTS checklist): Bruce engag
 
 ### T-Mobile — Magenta Cloud Segmentation & Cilium — 2024–2025
 
-Assigned SP: Bruce contributed to **macro/micro/nano segmentation** narrative (Cilium policy, ZBF, eBPF/Tetragon, ACI vs. Cilium positioning). **Dec 2024:** **Magenta Cloud RFP** support. Greenfield DC opportunities (Polaris, Tortugas timeline); Openshift-everywhere direction; v6-only underlay discussions; **Hypershield/Cilium** progress in MagentaCloud; slicing/Webex first-app use cases (historical CTO engagement).
+Assigned SP: Bruce contributed to **macro/micro/nano segmentation** narrative (Cilium policy, ZBF, eBPF/Tetragon, ACI vs. Cilium positioning). **Nov 2024:** **Overlay RFP** support. **Dec 2024:** **Magenta Cloud RFP** support. Greenfield DC opportunities (Polaris, Tortugas timeline); Openshift-everywhere direction; v6-only underlay discussions; **Hypershield/Cilium** progress in MagentaCloud; slicing/Webex first-app use cases (historical CTO engagement).
 
 **Vault:** `customers/T-Mobile.md`
 
@@ -196,7 +215,7 @@ Assigned SP (Boost): **SRv6 L3VPN overlays on AWS underlay** to replace GRE tunn
 
 ### Applied Digital — AI Infrastructure — Sept 2024
 
-Neo-cloud / AI infrastructure provider: Bruce’s **rail diagrams and AI calculator** helped the account team articulate and **size the solution** for the customer engagement.
+Neo-cloud / AI infrastructure provider: Bruce’s **Web AI Fabrics calculator and rail architectures** (**Jun 2024**) became a **two-year scoping tool** for Web SEs; same artifacts helped size the **Applied Digital** engagement.
 
 **Placeholder revenue:** ~**$30M** `[verify]`
 
@@ -204,11 +223,59 @@ Neo-cloud / AI infrastructure provider: Bruce’s **rail diagrams and AI calcula
 
 ---
 
+### Voltage Park — SRv6 for DC — Jan 2024
+
+Neo-cloud GPU provider: **EBC presentation**—lead architect **Drew Pletcher** interested in **DC frontend SRv6**; thread did not follow through to deployment `[verify with Drew]`. Appeared in **Oct 2024 OCP** SRv6-for-AI-backend cohort.
+
+**Vault:** `[add customer note path]`
+
+---
+
+### Viasat — SRv6 Service Chaining & Slicing — 2024
+
+Satellite/SP (**ASP+Web**): Bruce consulted on **SRv6 SFC design** (**May 2024**, Don Ewald); **Jul 2024** **slicing/service-chain SRv6 demo** with **Chris Olson**; **Oct 2024** **EBC** thread on **open-source controller** project.
+
+**Vault:** `[add customer note path]`
+
+---
+
+### Groq — SR-TE POC — Sep 2025
+
+AI inference silicon customer: Bruce supported **SR-TE POC** exploring **Flex-Algo** and **data-sovereignty** steering—**successful POC**; Groq subsequently **acquired by NVIDIA** (Sep 2025).
+
+**Vault:** `[add customer note path]`
+
+---
+
+### eBay — SONiC EBC — Mar 2025
+
+Bruce engaged on **SONiC EBC** with account team (**Ken Truong**)—Web-scale operator open-NOS evaluation.
+
+**Vault:** `[add customer note path]`
+
+---
+
+### Voltage Park — SRv6 for DC — Jan 2024
+
+Neo-cloud GPU provider: early **SRv6 for data center** architecture thread at **OCP 2024** kickoff cohort (with Microsoft, Oracle, Bell, Cloudflare). `[verify ongoing pipeline with Drew/account team]`
+
+**Vault:** `[add customer note path]`
+
+---
+
+### Cloudflare — BMP Enhancements — Mar 2026
+
+Bruce consulted on **BMP (BGP Monitoring Protocol)** enhancement path—features targeted for **26.4.x** release per engineering thread.
+
+**Vault:** `[add customer note path]`
+
+---
+
 ### Lambda Labs — Executive Briefing — Jul 2024
 
-Bruce presented **host-based SRv6** and consulted on **DC design** at a **Lambda Labs EBC**—Web/neo-cloud GPU cloud engagement.
+Bruce presented **host-based SRv6** and consulted on **DC design** at a **Lambda Labs EBC**—Web/neo-cloud GPU cloud engagement. **Jul 2025:** Consulted on **Isovalent Egress Transit Gateway** concept and opportunity.
 
-**Assignment `[confirm]`** — listed in AGENTS Web seed list.
+**ASP+Web** account (confirmed Jun 2026).
 
 **Vault:** `[add customer note path]`
 
@@ -216,7 +283,7 @@ Bruce presented **host-based SRv6** and consulted on **DC design** at a **Lambda
 
 ### Google — GDC & B4 — 2021–2024
 
-Bruce served as strategy consultant; developed **end-to-end SRv6 proposal** and training for **Google Distributed Cloud (GDC)**; interim **lead SE** on **B4 SR-MPLS** during account SE leave. **SL-API for Alphanet** noted in vault hub.
+Bruce served as strategy consultant; developed **end-to-end SRv6 proposal** and training for **Google Distributed Cloud (GDC)**; interim **lead SE** on **B4 SR-MPLS** during account SE leave. **May 2024:** **GDCE onsite** SRv6 design. **Mar 2026:** **SRv6 for Google AI Backend**—intros and kickoff with **Nick Sischo**, **Pablo Camarillo**, **Clarence Filsfils**. **SL-API for Alphanet** noted in vault hub.
 
 **Placeholder revenue:** ~**$20M** `[verify]`.
 
@@ -234,15 +301,17 @@ Bruce supported **Silicon One** strategy: internal consultant; **12.8T→25.6T�
 
 ---
 
-### Salesforce — SR for NG DC — Oct 2023
+### Salesforce — SR / A9K — Sep 2020 & Oct 2023
 
-Bruce delivered **SR customer presentation** for **Salesforce (SFDC)** NG DC positioning—Web/enterprise-adjacent account **`[confirm ASP assignment]`**.
+**Sep 2020 (PSE time log):** **SFDC A9K POC**—leveraged prior relationship and mindshare; **co-led POC development and execution** with Asoka (high Biz impact).
+
+**Oct 2023:** SR customer presentation for **Salesforce (SFDC)** NG DC positioning.
 
 **Vault:** `[add customer note path]`
 
 ---
 
-### Equinix — NGN / Disaggregation / SRv6 — 2023–2026 `[confirm ASP assignment]`
+### Equinix — NGN / Disaggregation / SRv6 — 2023–2026
 
 Interconnect/hyperscale-adjacent: Bruce engaged on **universal packet fabric** evolution (SR→SRv6, disaggregation, SONiC/PINS POCs), AI/ML reference architecture with Nvidia, telemetry/SAI, Alibaba SRv6 interest. **Nov 2023 EBC:** **SL-API** as **bridge to disaggregation** narrative.
 
@@ -272,6 +341,10 @@ Interconnect/hyperscale-adjacent: Bruce engaged on **universal packet fabric** e
 | AT&T | SP | 2025 | Inference pod POC | NaaS/AI pod framing |
 | Boost/Dish | SP | 2025–2026 | SRv6 on AWS + Cilium | SRv6 L3VPN overlay design |
 | Google | Web | 2021–2024 | GDC SRv6; B4 SR-MPLS | Strategy; interim lead SE |
+| Viasat | SP | 2024 | SRv6 SFC/slicing | Design + demo consulting |
+| Groq | Web/AI | 2025 | SR-TE POC | Flex-Algo / data sovereignty |
+| eBay | Web | 2025 | SONiC EBC | SONiC evaluation |
+| Cloudflare | Web | 2026 | BMP enhancements | Engineering consultation |
 | AWS | Web | 2021–2024 | Silicon One TAM/features | TAM model; PM tracking |
 
 ---
@@ -282,7 +355,7 @@ Interconnect/hyperscale-adjacent: Bruce engaged on **universal packet fabric** e
 | :--- | :--- |
 | Geico, Fiserv, Adobe, Honeywell, TI, Disney, NYU, TTD, NSight | **03-global-impact.md** |
 | Rakuten, Evroc, NTT East, MTN/DU | **03-global-impact.md** |
-| James Munroe / Province of NB (CLEU lab outcome) | **Global Impact** or **Industry** `[confirm]` |
+| James Munroe / Province of NB (CLEU lab outcome) | **03-global-impact.md** |
 | Patents, Bold Bets, srv6-labs LinkedIn stats | **07-innovation.md** / **05-industry-impact.md** |
 | CLEU/Stay Ready Friday (generic SE training) | **10-se-community-leadership.md** |
 | Isovalent acquisition advocacy | **04-span-of-influence.md** / **07-innovation.md** |
@@ -296,6 +369,8 @@ Interconnect/hyperscale-adjacent: Bruce engaged on **universal packet fabric** e
 **Hubs:** `Hyperscale-Customers-Hub.md`, `SP-Customers-Hub.md`, `AI-Factory-Hub.md`, `SONiC-Hub.md`, `SRv6-Master-Hub.md`  
 **Customer notes read:** Microsoft (SRv6, AI-Backend, WAN, octans-drh), Meta, Oracle-SRv6, Coreweave (DC, backbone, lab), Bell Canada, Videotron SRv6, Verizon, Akamai (+ SRv6, Prolexic), T-Mobile, AT&T NaaS, Boost SRv6, Google, Equinix, cilium-srv6  
 **Revenue placeholders:** `01-exec-summary.md`, `01-exec-summary-draft.md` (all **`[verify]`**)
+
+**Vault harvest log — PSE time log (2024–2026, full Notes):** Third pass Jun 7 2026 — Adobe rescue story, Geico Berkshire pricing, Meta 8223/VXR, MSFT AI-lab generation + dRH, OCI production by end-2025, Jalapeno RPO lineage, May–Jun 2026 MRC/multi-tenant/global transition.
 
 **Gaps / Bruce to complete:**
 - [ ] Finance-validated $ for all rows; reconcile Meta $2B vs $17M booked vs BBF $300M estimate
