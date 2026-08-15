@@ -39,6 +39,16 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 - [ ] **New account rows** — Apple (~$30M), Nvidia (~$30M), Netflix (~$30M) all `[verify]`; each needs a short-form entry in the body or should stay table-only
 - [ ] **OCP 2026 session was declined** — removed from Business Impact; confirm nothing else in the package still implies it was delivered
 
+### New accounts to capture — Apple, OpenAI, Anthropic, Google SRv6-for-AI
+Bruce is running the same force-multiplier motion (equip the account team; they carry it to the customer) at **Google (SRv6 for AI)**, **Apple**, **OpenAI**, and **Anthropic**. Apple currently appears only as a revenue-table row; **OpenAI and Anthropic appear nowhere in the package**. Both are in the ASP+Web account list in AGENTS.md, and both are principals in the MRC specification this package builds on — engagements there materially strengthen Business Impact and Industry Impact.
+
+To draft entries, need from Bruce:
+- [ ] **Apple** — start date; what the Frontend DC / SONiC-on-8000 engagement covers; who on the account team he equips; status of the ~$30M `[verify]`
+- [ ] **OpenAI** — start date; scope (MRC? SRv6? SONiC?); who he works through; any booked or pipeline revenue; is the engagement nameable in the package?
+- [ ] **Anthropic** — same questions
+- [ ] **Google SRv6-for-AI** — already a short bullet in the Google entry (Mar 2026 kickoff with Sischo, Camarillo, Filsfils); does the force-multiplier framing apply, and has it advanced?
+- [ ] Confirm whether any of these are under NDA constraints that limit what the package can say
+
 ### From Bruce's second review pass (Aug 15, 2026)
 - [ ] **Exec Overview — force multiplier framing:** a significant share of Business Impact revenue was earned without Bruce in the room. He equips account SEs and AMs with strategy, education, repositories, code, and labs, and they run it with their customers. **Meta ($17M backbone re-entry) is the proof — he never presented to Meta.** Now stated at the top of Business Impact and in Span of Influence; carry it into the Executive Overview
 - [ ] **Exec Overview framing (Bruce's words):** five years ago SP and hyperscale operators largely dismissed SRv6 as not ready; today SPs almost universally name it their strategic direction, and most hyperscalers agree. Bruce has been at the centre of that conversation since day one — **use this as the opening move of the Executive Overview**

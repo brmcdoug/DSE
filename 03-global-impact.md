@@ -12,7 +12,7 @@
 
 Bruce's assignment through June 2026 was Americas Service Provider and Web — tier-1 hyperscalers and named SP accounts. Everything in this section happened outside that assignment, on customers where Bruce had no quota, no account responsibility, and no obligation to engage.
 
-The pattern is consistent: field teams, APJC and EMEA peers, and enterprise theaters request him by name for SONiC, SRv6, Cilium/eBPF, and cloud-scale architecture, because the expertise does not exist in their own organizations. What he transfers is not product knowledge but the horizon-2 architecture patterns developed on hyperscale accounts — open network operating systems, host-based networking, stitching elimination, and cloud-style consumption models — applied to insurers, banks, manufacturers, universities, provincial governments, and operators in three theaters.
+The pattern is consistent: field teams, APJC and EMEA peers, and enterprise theaters request him by name for SONiC, SRv6, Cilium/eBPF, and cloud-scale architecture, because the expertise does not exist in their own organizations. As in Business Impact, much of this work is delivered **through other engineers rather than in front of customers** — Bruce supplies the architecture, the designs, and the labs, and the local team runs the engagement. Two national operators on two continents advanced their SRv6 programs this way without Bruce ever meeting them. What he transfers is not product knowledge but the horizon-2 architecture patterns developed on hyperscale accounts — open network operating systems, host-based networking, stitching elimination, and cloud-style consumption models — applied to insurers, banks, manufacturers, universities, provincial governments, and operators in three theaters.
 
 | Period | Expansion | Representative accounts |
 | :--- | :--- | :--- |
@@ -59,7 +59,7 @@ Honeywell is a Fortune 100 industrial conglomerate operating a global network sp
 **Segment Routing backbone architecture:** Honeywell needed path preference from SD-WAN into the private backbone, an assessment of Flex-Algo for IGP-based path selection without a controller, and an SR/SRv6 roadmap. Bruce served as architecture subject-matter expert on the backbone design, SD-WAN integration options, and Flex-Algo use cases (Apr 2024), and consulted on future IoT transport segmentation and internal chargeback models.
 
 **Financial impact:** ~$2M Segment Routing / Cisco 8000 win `[verify finance]`.
-**Competitive impact:** Held the backbone franchise against Arista.
+**Competitive impact:** Held the backbone franchise against Arista. `[verify — confirm Arista was actively competing and displaced]`
 **Strategic impact:** Demonstrated that MIG transport expertise transfers directly to industrial enterprise backbones outside the SP segment.
 **Overall customer impact:** A controller-free path selection architecture aligned to Honeywell's global colocation footprint.
 
@@ -87,7 +87,7 @@ The proof of concept completed in October 2025.
 
 **Financial impact:** Nexus and cloud-native security pull-through `[verify finance]`.
 **Competitive impact:** Preserved a Cilium proof point that was failing and would otherwise have closed the opportunity.
-**Strategic impact:** Validated the post-acquisition Isovalent product path in a live enterprise engagement, and the Cloud-Native SRv6 concept reviewed here is the same architecture later deployed at Boost Mobile and Digital Realty.
+**Strategic impact:** Validated the post-acquisition Isovalent product path in a live enterprise engagement. The Cloud-Native SRv6 concept reviewed here is the same architecture later deployed at Boost Mobile and Digital Realty, and fed the multi-use-case Cilium customer requirements document Cisco engineering has since accepted — detailed in the Innovation section of this document.
 **Overall customer impact:** A working egress and load-balancing architecture that moves Adobe-to-Adobe traffic off the public internet.
 
 **Evidence:** Vault `customers/Adobe Cilium.md`, `customers/Adobe CN-SRv6.md`. `[Adobe / Dan Stacks testimonial pending]`
@@ -106,11 +106,12 @@ Fiserv is one of the largest financial technology providers in the world, operat
 **SRv6 WAN and data center architecture:** Fiserv runs a Juniper RSVP-TE WAN overlay with VXLAN EVPN in the data center, and needed a credible path to extend a Segment Routing overlay end to end, simplify WAN-to-DC stitching, and evaluate geo-fencing and data-sovereignty steering — the same patterns Bruce had developed in hyperscaler SWAN work — without a rip-and-replace program. Bruce delivered the SRv6 transfer of information to Fiserv's banking infrastructure team (Jan 2026), framed the WAN-to-DC extension with SD-WAN-to-SR anchor points and slice/shard/pinning in the data center, assessed Isovalent and Cilium relevance for the wireless private access context, and positioned SRv6 for AI backends for roadmap alignment.
 
 **Financial impact:** Pipeline `[verify finance]`.
-**Competitive impact:** Established an SRv6 displacement path against an incumbent Juniper RSVP-TE overlay.
+**Competitive impact:** Opened an SRv6 displacement conversation against an incumbent Juniper RSVP-TE overlay. `[early — verify whether Fiserv has committed to a direction]`
 **Strategic impact:** Demonstrated that hyperscaler WAN patterns transfer to tier-1 financial services infrastructure.
 **Overall customer impact:** A staged simplification path from RSVP-TE to end-to-end Segment Routing without a forklift program.
 
 **Evidence:** Vault `customers/Fiserv SRv6.md`.
+// Fiserv: was this a single TOI session, or has it continued into 2026? If it has continued, the entry can claim more than it currently does.
 
 **Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
 
@@ -125,7 +126,7 @@ Fiserv is one of the largest financial technology providers in the world, operat
 | **Texas Instruments** | 2024 | Global POP and SRv6 roadmap architecture | Manufacturing WAN; Arista competitive framing |
 | **The Trade Desk** | 2024 | SONiC and IOS-XR platform diversity evaluation | Ad-tech data center at neo-cloud scale |
 | **Morgan Stanley** | 2023 | SRv6 architecture presentation | Financial services enablement |
-| **NSight** | 2025–2026 | Cilium, Kubernetes, and AI-services architecture for the packet core team | Regional service provider (Green Bay) |
+| **NSight** | 2025–2026 | Cilium, Kubernetes, and AI-services architecture for the packet core team; same host-networking policy model as the Cilium CRD | Regional service provider (Green Bay) |
 | **Applied Digital** | 2024 | AI rail architecture diagrams and fabric calculator | ~$30M cited `[verify]` — *see Business Impact for account treatment* |
 
 ---
@@ -151,7 +152,8 @@ The Cisco Live session itself is detailed in the SE Community Leadership section
 
 ### NYU and Carnegie Mellon, 2024
 
-Bruce advised **New York University** on the HSRN SONiC research network (Aug 2024) and delivered a SONiC education session to **Carnegie Mellon**. Research and higher-education networks are early adopters of disaggregated platforms and function as a credibility channel into the operator community — the engineers running them frequently move into industry roles carrying their platform preferences with them.
+Bruce advised **New York University** on the HSRN SONiC research network (Aug 2024) and delivered a SONiC education session to **Carnegie Mellon**.
+// NYU/CMU: is there any documented outcome — a deployment, a paper, students who went on to operator roles? Without one this stays a two-line entry. Research and higher-education networks are early adopters of disaggregated platforms and function as a credibility channel into the operator community — the engineers running them frequently move into industry roles carrying their platform preferences with them.
 
 ---
 
@@ -166,6 +168,7 @@ Evroc is a European sovereign-cloud provider building hyperscale capacity in the
 Bruce serves as architecture advisor on colocation-2 readiness, covering SONiC spine and leaf design with 8201 border routers, host multi-homing, Kubernetes-centric segmentation across Cilium and Calico, and inter-site design without Layer 2 stretch. He framed the tradeoff between short-term EVPN-to-host and long-term pure IP with VPC-in-host, and drove WAN, frontend data center, SRv6, and host-overlay direction.
 
 **Strategic impact:** Reuses the CoreWeave and Microsoft-class architecture patterns in the EMEA theater, on an account with no Americas relationship. Evroc engagement originated from Cisco Live Europe.
+// Evroc: any revenue or committed pipeline yet? This is the one EMEA account that could carry a number.
 **Overall customer impact:** A production-grade multi-site fabric design an early-stage engineering team can actually execute.
 
 **Evidence:** Vault `customers/Evroc.md`.
