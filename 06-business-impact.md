@@ -186,21 +186,24 @@ The multi-tenant specification and the flat-topology studies are detailed in the
 
 **Revenue Impact:** ~$20M FY26. Projected FY27 — $150M DC switching, $245M optics. Projected FY28–29 — $400M/year DC switching, $600M+/year optics `[verify]`
 
-CoreWeave is the largest of the neo-cloud AI providers and a primary compute partner to OpenAI, building GPU capacity at a pace that compresses normal infrastructure planning cycles into months. The account had no established Cisco data center franchise and CoreWeave's engineering team evaluates open-NOS options by default. Bruce serves as Cisco's SONiC SME and lead SRv6-for-AI architect on the account.
+CoreWeave is the largest of the neo-cloud AI providers and a primary compute partner to OpenAI, building GPU capacity at a pace that compresses normal infrastructure planning cycles into months. The account had no established Cisco data center or WAN franchise and CoreWeave's engineering team evaluates open-NOS options by default. Bruce serves as Cisco's SONiC SME and lead SRv6-for-AI architect on the account.
 
 **AI backend and global WAN architecture:** CoreWeave needed a backend fabric design that handled adaptive routing and ECN at GPU scale, and a global WAN capable of stitching AI data center fabrics across regions. Bruce's involvement and accomplishments include:
 
 - Led the backend fabric architecture covering adaptive routing, ECN behavior, and MRC/SRv6 path metrics, including Vera Rubin Ultra path analysis
-- Designed the WAN backbone architecture (Apr 2026) — ~196 edge routers, 42 TLRs, DSR stitching for AI-DC fabrics, and 32 D-pops for data center interconnect
+- Advisor and reviewer of the WAN backbone architecture — DSE David Smith was assigned as lead architect (Apr 2026) — ~196 edge routers, 42 TLRs, DSR stitching for AI-DC fabrics, and 32 D-pops for data center interconnect
 - Built Containerlab and VXR lab environments with documentation for CoreWeave's NetDev engineering team (Mar 2026), giving the customer a self-service evaluation path
-- Served as technical lead for VXR, Containerlab, and SONiC at the CoreWeave EBC (Feb 2026)
+// these included options to run either virtual Cisco 8000 routers running either IOS-XR or SONiC
+- Served as technical lead for backend data center, SONiC, and simulation environments (VXR, Containerlab) at the CoreWeave EBC (Feb 2026)
+- Bruce demonstrated his SRv6-MRC-Emulator tool to CoreWeave VP Shiv Patel. He emphasized the tool being open-source and Shiv has encouraged his internal team to use it
+// srv6-mrc-emulator definitely needs mentioning in Innovation if not already there. I've also demo'd it internally to both account teams and Cisco product engineering teams who find it very useful as a learning tool for MRC architecture, multi-planar fabric design, host-encap options, and SRv6 numbering scheme
 
-Following the lab enablement, the opportunity scope expanded to **~10,000–12,000 switches**.
+Following the lab enablement, EBCs, and mindshare-building, the opportunity scope expanded to **~10,000–12,000 switches**.
 
 **Financial impact:** ~$20M FY26, with FY27 projected at $150M DC switching and $245M optics, and FY28–29 at $400M/year DC switching and $600M+/year optics `[verify]`.
-**Competitive impact:** Established Cisco as a credible open-NOS supplier in an account that defaults to disaggregated white-box evaluation.
-**Strategic impact:** Reused the multi-tenant AI fabric specification authored for Microsoft, demonstrating that the reference architecture transfers to neo-cloud operators; the Containerlab/VXR enablement pattern is now standard across Web AI accounts.
-**Overall customer impact:** A backend and WAN architecture sized for GPU-scale growth, with a self-service lab that lets CoreWeave engineering validate on their own schedule.
+**Competitive impact:** Established Cisco as a credible open-NOS supplier and alternative to Nvidia Spectrum-X.
+**Strategic impact:** Reused the SRv6 multi-tenant AI fabric specification authored for Microsoft, demonstrating that the reference architecture transfers to neo-cloud operators; the Containerlab/VXR enablement pattern is now standard across Web AI accounts.
+**Overall customer impact:** A backend and WAN architecture sized for hyperscale AI factory growth, an MRC design template CoreWeave can leverage with their largest customer (OpenAI), and a self-service lab setup that lets CoreWeave engineering validate on their own schedule.
 
 **Evidence:** [CoreWeave DC Back-End Switching CRD v1](https://cisco-my.sharepoint.com/:w:/r/personal/bgisiger_cisco_com/Documents/Desktop/Old%20Desktop/Web%20Operation%20Accounts/Big%20Projects/AI%20start-ups/CoreWeave/DC%20Switching/Back-end/CRD/CoreWeave%20DC%20Back-End%20Switching%20-%20Customer%20Requirements%20Document%20(CRD)%20v1.docx?d=w302ef71e18cc47529beaeb9e213af6a1&csf=1&web=1&e=mO6m5O); vault `customers/Coreweave DC.md`, `customers/Coreweave backbone.md`, `customers/Coreweave lab.md`; PSE time log Mar 2026.
 
