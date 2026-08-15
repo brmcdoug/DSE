@@ -93,7 +93,7 @@ The proof of concept completed in October 2025.
 **Evidence:** Vault `customers/Adobe Cilium.md`, `customers/Adobe CN-SRv6.md`. `[Adobe / Dan Stacks testimonial pending]`
 
 **Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
-**Cross-reference:** Cilium SRv6 product path is detailed in the Innovation section; Dan Stacks mentoring in SE Community Leadership.
+The Cilium SRv6 product path is detailed in the Innovation section of this document. Bruce's mentoring of Dan Stacks is detailed in SE Community Leadership.
 
 ---
 
@@ -145,7 +145,7 @@ Bruce spent a single architecture conversation with him at a Meet-the-Expert ses
 **Strategic impact:** This is the clearest single measure of Bruce's reach as a field multiplier — no account assignment, no follow-on engagement, no proposal. One conversation.
 **Overall customer impact:** **James Munroe abandoned the planned SR-MPLS migration, authored a complete SRv6 design document within approximately two weeks of the conference, and began the migration** — an unusually fast operator decision from a single conference conversation.
 
-**Cross-reference:** Session detail is located in the SE Community Leadership section; Cisco Live industry visibility in the Industry Impact section.
+The Cisco Live session itself is detailed in the SE Community Leadership section of this document, and its industry visibility in Industry Impact.
 
 ---
 
