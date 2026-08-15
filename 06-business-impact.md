@@ -114,25 +114,29 @@ The productization of SRv6-on-SONiC and the multi-tenant specification are detai
 ### Meta, 2021 – Present
 
 **Revenue Impact:** Americas Web/Hyperscale segment bookings — $277M FY22, $367M FY23, $54M FY24, $510M FY25, $1.91B FY26. **Total segment bookings — $3.11B.** First BBF production order — **$17M booked, Feb 2026** `[verify]`
+// should this be made into a short table for readability?
 
-Meta operates one of the largest private backbones in the world, connecting a global data center estate that serves more than three billion daily users. Cisco had been displaced from Meta's backbone and was competing to re-enter against Arista and Broadcom Q4D silicon. Bruce served as internal strategy consultant on Meta positioning from 2021 and as the architect of the technical enablement that returned Cisco to the backbone.
+Meta operates one of the largest private backbones in the world, connecting a global data center estate that serves more than three billion daily users. Cisco had been displaced from Meta's backbone and was competing to re-enter against Arista and Broadcom Jericho silicon. Bruce served as internal strategy consultant on Meta positioning from 2021 and as the architect of the technical enablement that returned Cisco to the backbone.
 
 **Backbone Fabric (BBF) re-entry:** In April 2024 Meta opened what became a roughly two-year Express Backbone / Backbone Fabric evaluation cycle. Cisco needed to prove P200 silicon in an account where Arista was incumbent and where the customer validates independently rather than accepting vendor test results. Bruce's involvement and accomplishments include:
 
+- Account strategy and architecture consultant since 2021
 - Pioneered the SL-API technique in the Microsoft SWAN co-development context and transferred it to Meta, where it became the key technical differentiator in the backbone win
 - Delivered SL-API, SDN, and Segment Routing enablement sessions to the Meta account team and customer engineers, modeled on the Microsoft SWAN engagement (2022–2024)
 - Built VXR-based POC labs that allowed Cisco SEs and Meta engineers to co-validate the EBB, BBF, and RBB architectures before hardware was available
-- Obtained an 8223 patch through his VXR team relationships in March 2026 when the hardware was not yet GA, unblocking Asoka and Leif at the decisive point in the evaluation
-- Extended the same VXR lab pattern to enable the Web-wide AI hackathon (May 2026)
+- Obtained an 8223 patch through his VXR team relationships in March 2026 when the hardware was not yet GA, unblocking account SEs Asoka DeSaram and Leif Berntsson at a critical point in the evaluation
+- Asoka and Leif reused the VXR lab pattern in their participation in the Web-wide AI hackathon (May 2026)
 
 Asoka on the March 2026 lab support: *"Thank you for helping us with the VXR setup. That was huge!!"*
 
-Meta booked a **$17M** first production order for P200 on the BBF architecture in February 2026. BBF is estimated at **~$300M over two years**, with the RBB pipeline cited at **~$350M/year** `[verify]`. In February and March 2026 Meta committed RBB to SRv6, building on the same SL-API foundation.
+Meta booked a **$17M** first production order for Cisco 8223-64EH (P200) on the BBF architecture in February 2026. BBF is estimated at **~$300M over two years**, with the RBB pipeline cited at **~$350M/year** `[verify]`. In February and March 2026 Meta committed RBB to SRv6, building on the same SL-API foundation.
 
 **Financial impact:** $17M first production order booked Feb 2026; BBF estimated at ~$300M over two years and RBB pipeline at ~$350M/year `[verify]`; $3.11B in total segment bookings 2022–2026, including $1.91B in FY26.
-**Competitive impact:** Displaced Arista and blocked Broadcom Q4D from strategic P200 insertion, returning Cisco to a backbone franchise it had previously lost.
+**Competitive impact:** Displaced Arista from strategic P200 insertion, returning Cisco to a backbone franchise it had previously lost.
+// need to verify 'displaced' vs. countered Arista's dominance and became equal/credible second vendor in multi-vendor global deployment
 **Strategic impact:** Proved that a technique developed at one hyperscaler (SL-API at Microsoft) transfers directly to another, and established the VXR co-validation lab as a repeatable pre-GA sales motion now reused across the Web segment.
-**Overall customer impact:** A validated backbone fabric architecture and a committed SRv6 path for RBB, with pre-GA access that let Meta's engineers evaluate on their own terms rather than on vendor timelines.
+// also proved that multi-year internal architectural consultancy, education, and advocacy on topics like SRv6 and SL-API will eventually bear massive fruit
+**Overall customer impact:** A validated backbone fabric architecture and a committed SRv6 path for RBB, with pre-GA access that let account SEs and Meta's engineers evaluate on their own terms rather than on vendor timelines.
 
 **Evidence:** [ASP Web FY20-26 Product Bookings](https://cisco.sharepoint.com/:x:/r/sites/GSPWEB-SalesandFinance/Shared%20Documents/ASP%20Web%20Finance/Adhoc/Q4%2726/ASP%20Web%20FY20-26%20Product%20Bookings.xlsx?d=wf735385979d541b6bdda11cfd8c7993f&csf=1&web=1&e=LUS3pf); vault `customers/Meta.md`; DSE General MOC (Mar 2026 Asoka 8223 thread); SWAN architecture reference — [ACM 10.1145/3603269.3604860](https://dl.acm.org/doi/pdf/10.1145/3603269.3604860).
 
@@ -146,30 +150,35 @@ The origination of the SL-API technique is detailed in the Innovation section of
 ### Oracle Cloud Infrastructure, 2023 – Present
 
 **Revenue Impact:** Americas Web/Hyperscale segment bookings — $4M FY22, $45M FY23, $230M FY24, $146M FY25, $21M FY26. **Total segment bookings — $446M.** Bruce-attributed scope: ~$20M `[verify]`; 2026–2028 projection `[verify]`
+// same table comment
 
-Oracle Cloud Infrastructure is the fastest-growing of the major public clouds and has committed to one of the industry's largest AI training buildouts. Its Acceleron program re-architects the AI fabric around multiplanar networking with source routing originating at the NIC — an approach that requires exactly the host-based SRv6 model Bruce had been advocating inside Cisco since before the Isovalent acquisition. Bruce is Cisco's lead architect for SRv6 for AI at OCI.
+Oracle Cloud Infrastructure is the fastest-growing of the major public clouds and has committed to one of the industry's largest AI training buildouts. Its Acceleron program re-architects the AI fabric around multiplanar fabrics with source routing originating at the NIC — an approach that requires exactly the host-based SRv6 model Bruce had been advocating inside Cisco since before the Isovalent acquisition. Bruce is Cisco's lead architect for SRv6 for AI at OCI.
+// what is stronger, since before the Isovalent acquisition, or since the advent of SRv6 uSID in 2019?
 
-**SRv6 for AI — Acceleron and MRC:** Oracle needed N-diverse path selection with multipath reliable connection (MRC) running on Stargate and Abilene hosts, with source routing pushed to the NIC rather than computed in the fabric. Bruce's involvement and accomplishments include:
+**SRv6 for AI — Acceleron and MRC:** Oracle needed N-diverse path selection with multipath reliable connection (MRC) running on GPU hosts in their Stargate and Abilene DCs, with source routing pushed to the NIC rather than computed in the fabric. Bruce's involvement and accomplishments include:
 
 - Led the Cisco/OCI SRv6-for-AI program from kickoff at OCP in October 2024 — the first public customer discussions of the architecture — through the December 2024 OCI SRv6 workshop he led
+// is there a simpler way to say this? I've led the SRv6-for-AI program since inception (first education/mindshare-building workshop Dec 2024) to the present day. The OCP 2024 kickoff was more the kickoff of a general Cisco-as-credible-vendor for OCI AI backend fabrics — for the general engagement I'm SONiC on Cisco 8000 SME, for the specific SRv6 engagement I'm lead architect
 - Delivered the SRv6 customer requirements document, the VXR lab, the SRv6 SONiC image, and the SRv6 GRT implementation that made the architecture testable
-- Conducted the Hoffman–Singleton low-diameter topology study with Chris Martin (Jun 2024), producing the lab and design document evaluating fabric diameter against GPU-scale requirements
-- Built the Polarfly and uSID-on-XRd AI-backend demonstration with Jag Brar (Jan 2025)
+- Conducted low-diameter topology studies (Hoffman-Singleton, PolarFly) with OCI architect Christian Martin (Jun 2024 — late 2025), producing the lab and design document evaluating fabric diameter against GPU-scale requirements
+// the collaboration with Christian has continued since he joined Cisco MIG's Hyperscaler architect's team and includes recent sonic/srv6 topology and fabric modeling at https://github.com/segmentrouting/polarfly, and a whitepaper comparing Weighted Multi-Path PolarFly (with SRv6) vs. Amazon's recently announced RNG flat/random topology architecture — to be added to Innovation. a copy of the paper is in the ./projects folder
+
+- Built and demonstrated an IOS-XR based SRv6 uSID AI-backend demonstration for Oracle VP Jag Brar and his architecture team (Jan 2025)
 - Took SRv6 ownership on the 1,000-GPU POC (Aug 2025), having entered the engagement as SONiC advisor
-- Delivered a two-part SRv6 tutorial to Oracle engineering (Mar–Apr 2026) and supported Asoka on SONiC 8122 lab configurations (Jun 2025)
-- Served as consultant and software advisor on Oracle's ONOS / Cloud OS strategy alignment, including the April 2025 EBC with the SONiC and Solar-OS teams
+- Delivered a two-part SRv6 tutorial to Oracle engineering (Mar–Apr 2026) and supported the SE team on SONiC 8122 lab configurations (Jun 2025)
+- Served as consultant and software advisor on Oracle's Solar-OS (SONiC on Oracle Secure Linux), including the April 2025 EBC with the Cisco SONiC and Solar-OS teams
 
 OCI was running SRv6 in limited production by the end of 2025. Oracle's own 2026 public blog cites SRv6 static routing for MRC — the same architectural pattern Bruce drove at Microsoft, now published by the customer as their design of record.
 
 **Financial impact:** $446M in segment bookings 2022–2026, with ~$20M attributed to Bruce's engagement scope and a 2026–2028 projection `[verify]`.
-**Competitive impact:** As at Microsoft, Oracle's initial SRv6-for-AI deployment ran on competitor hardware. Cisco's SRv6-on-SONiC path for the 8122 and G200 — which Bruce secured — is the recovery vehicle, and OCI's published commitment to the architecture makes the market real rather than speculative.
+**Competitive impact:** As at Microsoft, Oracle's current SRv6-for-AI deployments run on competitor hardware. Cisco's SRv6-on-SONiC path for the 8122 and future G300 platform — which Bruce secured — is the recovery vehicle, and OCI's published commitment to the architecture makes the market real rather than speculative.
 **Strategic impact:** Two independent hyperscalers converging on the same SRv6-for-AI architecture, one of them publishing it publicly, converted Bruce's internal position from a contested opinion into industry evidence — and directly supported the SONiC investment case detailed in the Innovation section.
 **Overall customer impact:** A source-routed multiplanar AI fabric that reaches limited production inside a single year of the first architecture workshop.
 
 **Evidence:** [ASP Web FY20-26 Product Bookings](https://cisco.sharepoint.com/:x:/r/sites/GSPWEB-SalesandFinance/Shared%20Documents/ASP%20Web%20Finance/Adhoc/Q4%2726/ASP%20Web%20FY20-26%20Product%20Bookings.xlsx?d=wf735385979d541b6bdda11cfd8c7993f&csf=1&web=1&e=LUS3pf); Oracle public blog 2026 `[add URL]`; GitHub `segmentrouting/srv6-oci`; vault `customers/Oracle-SRv6.md`, `customers/Oracle-800g-roce.md`; `projects/wmp-polarfly-whitepaper-v07.md`.
 
 **Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
-The multi-tenant specification and the Hoffman–Singleton study are detailed in the Innovation section of this document.
+The multi-tenant specification and the flat-topology studies are detailed in the Innovation section of this document.
 
 ---
 
