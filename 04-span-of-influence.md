@@ -40,7 +40,7 @@ Bruce's involvement and influence include:
 - Consulted with Humberto La Roche of the IM&I CTO team on **L4S**
 - Sustained a multi-year fabric-topology collaboration with **Christian Martin** that began when Martin was an OCI architect and continued after he **joined Cisco's MIG hyperscaler architecture team** — an external research partnership that converted into an internal one, now published as SONiC and SRv6 fabric modeling at [github.com/segmentrouting/polarfly](https://github.com/segmentrouting/polarfly)
 
-A recurring pattern across the Web and hyperscale accounts is that Bruce's engagement is designed to be handed off: he builds the architecture, the lab, and the field capability, and then the account team scales the engagement without him. That is visible at Microsoft (SONiC training enabling the account team across expanding use cases), Meta (Asoka DeSaram and Leif Berntsson reusing the VXR lab pattern independently), CoreWeave (self-service Containerlab environments), and Videotron (SE Philippe Vaillancourt self-training ahead of a customer workshop).
+A recurring pattern across the Web and hyperscale accounts is that Bruce's engagement is designed to be handed off: he builds the architecture, the lab, and the field capability, and then the account team runs the customer engagement without him. At **Meta he never presented to the customer at all** — he pioneered the SL-API technique at Microsoft, taught it to the account team, built the labs they validated it in, and they carried it to a $17M backbone re-entry themselves. The same shape appears at Microsoft (SONiC training that let the account team scale across expanding use cases), CoreWeave (self-service Containerlab environments), and Videotron (SE Philippe Vaillancourt self-training ahead of a customer workshop). Measuring Bruce's influence by the meetings he attends would understate it substantially.
 
 Bruce's influence here operates at architecture-organization altitude rather than account-SE scope: he shapes what SR engineering builds, not merely which features his accounts receive. By 2025–2026 that influence extended into platform investment alignment across ISE, IOS-XE, Nexus, SONiC, SD-WAN, SASE, and Cilium.
 
@@ -60,6 +60,7 @@ Bruce's involvement and influence include:
 - Delivered the Isovalent presentation to the **Cisco AI tiger team** (Nov 2024) and built the **Isovalent SEVT lab** for field enablement
 - Partnered with EMEA DSE **Virginia Teixeira** (Sep 2025) on SRv6 inside the data center with Cilium, SRv6 headend controller scale, and DCN business entity alignment
 - Compiled worldwide account data into the **Cilium-SP feature investment case** — ~$34M Isovalent and ~$323M MIG pullthrough — used for product investment prioritization
+- Authored the **multi-use-case Cilium customer requirements document** positioning Cilium as the host-networking policy execution engine for Kubernetes and non-Kubernetes workloads alike; **Cisco engineering has accepted it and is working to prioritize** the roadmap items it defines
 
 Security, data center, and service provider teams now share a common host-networking vocabulary that did not exist inside Cisco in 2021, and the SD-WAN and SSE organizations cite SRv6 as a roadmap differentiator. Thomas Graf, Cilium co-creator and Isovalent founder, has provided a letter of recommendation covering the acquisition advocacy and subsequent enablement.
 
@@ -94,6 +95,7 @@ Bruce's involvement and influence include:
 - Authored Sprint 3 recommendations on protocol sprawl and established **SGT as the normalized identity gate** for attribute-based access control, working with Marina Ferreira, Errol Roberts, Steven Chimes, Steven Moore, and Tjerk Bijlsma
 - Developed the *Embedding Services in the Network* and Service SID concepts (Mar 2022) with Josh Merrill, John Mullooly, and Kamran Raza
 - Presented **SRv6 with SGT to Matt Gillies** (Apr 2025) with Josh Merrill, establishing the unified policy model spanning ISE, SSE, and SD-WAN
+- Carried the SRv6-with-SGT architecture into Verizon executive conversations, designing the majority of the architecture and intellectual property while Cisco PSE **Josh Merrill delivered the executive presentations** — deliberately putting a colleague in front of the customer's leadership
 - Co-led the **SRv6 end-to-end DC/NX-OS tiger team** (Feb 2026) with Brenden Buresh, Marina Ferreira, and Varun, extending SRv6 from SP transport into enterprise data center switching, following the DC/campus end-to-end EVPN tiger team (Dec 2025)
 
 By **December 2025 the ISE organization had committed** to SRv6 SGT and a unified policy model — the culmination of three years of multi-business-entity work connecting enterprise segmentation discourse to SRv6 uSID as a single programming construct.

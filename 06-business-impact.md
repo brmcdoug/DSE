@@ -17,10 +17,11 @@ https://cisco.sharepoint.com/:x:/r/sites/GSPWEB-SalesandFinance/Shared%20Documen
 
 ## Business Impact Model — Co-Development, Mindshare, and Relationships
 
-Bruce’s ASP+Web business impact follows a repeatable pattern: **train SE teams and customer engineers on architectures and products before they need them**, build POC labs and emulators (SONiC, SRv6, SL-API, host-networking), then co-develop with hyperscalers and tier-1 SPs until the revenue pipeline matures. Account notes describe this as multiyear **partnership**, not a traditional sales cycle — Bruce often serves as internal strategy consultant, the SONiC, SRv6, linux, or scaled routing SME, and lead architect while grade-12 SEs run production engagements.
+Bruce’s ASP+Web business impact follows a repeatable pattern: **train SE teams and customer engineers on architectures and products before they need them**, build POC labs and emulators (SONiC, SRv6, SL-API, host-networking), then co-develop with hyperscalers and tier-1 SPs until the revenue pipeline matures. Account notes describe this as multiyear **partnership**, not a traditional sales cycle — Bruce often serves as internal strategy consultant, the SONiC, SRv6, Linux, or scaled-routing SME, and lead architect while grade-12 SEs run production engagements.
+
+**A significant share of the revenue below was earned without Bruce in the room.** His most common mode is not customer-facing: he consults with account SEs and account managers on technical strategy, gives them the architectural background and education, hands over resources — repositories, code, labs, reference designs — and they carry it to their customers themselves. The **$17M Meta backbone re-entry** is the clearest case: Bruce pioneered the SL-API technique at Microsoft, taught it to the Meta account team, built the labs they validated it in, and **never presented it to Meta himself**. The same pattern recurs at Microsoft, CoreWeave, Videotron, and across the accounts documented in Global Impact. Attributing this work by who stood in front of the customer would miss most of it.
 
 **Web culture influence:** Bruce aligned Cisco’s Web selling motion with hyperscaler-style thinking — open NOS, disaggregation, Linux tool-chains, and API-driven forwarding — which underpins the strategic investments in SONiC and Silicon One behind multiple accounts below.
-// I'm not used to seeing a hyphen linking phrases without spaces between the words. For example, I've changed "cycle—Bruce" to "cycle — Bruce". However, has long form or academic/research-style writing changed to reflect the hyphens-without-spaces?
 
 ---
 
@@ -60,7 +61,6 @@ Finance-provided **Americas Web/Hyperscale segment bookings** by customer (USD).
 | **Salesforce** | NG DC / SR | `[verify]` | **Sep 2020:** A9K POC co-led w/ Asoka; SR/SRv6 mindshare (Oct 2023 exec preso) |
 | **Americas SP** | Bell, Verizon, AT&T, T-Mobile, Dish/Boost, Comcast, Equinix, Videotron, Riot | ~$100M+ partial | SR/SRv6, SP Cloud, K8s+Cilium, NaaS architecture, DC architecture, host-networking |
 
-// added and editing some lines, numerous `verify` followups
 
 **Aggregate (ASP+Web Web/Hyperscale segment, finance):** **$10.9B** booked **2022–2026** (table above). Tier-1 SP and Global Impact revenue tracked separately.
 
@@ -75,7 +75,6 @@ Finance-provided **Americas Web/Hyperscale segment bookings** by customer (USD).
 *Americas Web/Hyperscale segment bookings. Bruce-attributed scope: ~$2.0B DC/DCI/Metro and ~$500M WAN `[verify]`.*
 
 Microsoft operates Azure, one of the two largest public cloud platforms in the world, and is Cisco's single largest Web/Hyperscale customer by bookings. Its AI infrastructure program spans a continent-scale super-factory WAN `[verify route-mile figure]`, backbone growth from ~1,800 toward ~3,000 nodes, and a data center estate being re-architected around disaggregated hardware and open network operating systems. Bruce has been Cisco's primary field architect across Microsoft's SONiC, SRv6, and AI-backend programs since 2021, working directly with Microsoft's network engineering leadership while account SEs ran production engagements.
-// what is the 120k fiber miles reference? Is it total WAN route miles globally? I believe Fairwater is phoenix to milwaukee, ~2000 miles?
 
 **SRv6 for the AI Backend and SONiC on the Cisco 8122:** Beginning in 2024, Bruce argued inside Cisco that SRv6 for the AI backend was a production requirement rather than a research topic. Cisco engineering was skeptical, and the investment case for SRv6 on SONiC was not funded. Bruce built the technical and customer evidence that changed that position and led to Cisco support in 2026. Bruce's involvement and accomplishments include:
 
@@ -85,12 +84,10 @@ Microsoft operates Azure, one of the two largest public cloud platforms in the w
 - Delivered SONiC training to Microsoft account SEs from 2024 forward, enabling the account team to scale its engagement across Microsoft's expanding SONiC use cases
 - Secured MIG commitment for SRv6 on SONiC G200 in Q1 FY26 to unblock Microsoft and Oracle testing paths
 
-// made some changes, i think an important one is the 'enabling account team to scale its engagement' as that is a repeated pattern i have across Web/Hyperscale accounts. Also, the OCP session proposal was declined, so i'm thinking just delete the entry
 
 The June 2026 release of **SRv6 on SONiC for the Cisco 8122 (G200 51.2T ASIC)** (202511 codebase) was the direct product outcome.
 
 The architecture was validated; the timing was not. Cisco has arrived late across successive switch-silicon generations — 12.8T, 25.6T, and 51.2T — and lateness at this layer does not cost a feature comparison, it removes Cisco from consideration entirely. Microsoft and Oracle had both begun SRv6-for-AI deployments on competitor hardware before Cisco shipped, on the architecture Bruce had specified. The recurring pattern is the strategic argument: articulating the superior architecture does not recover the opportunity if the silicon is not there to carry it. FY2027 TAM recovery projection `[pending finance validation]`.
-// I'm not sure about 'and quantifies the internal delay he spent two years arguing against'. I think more broadly Cisco being late to market across silicon generations (12.8T, 25.6T, 51.2T, etc.) leads to massive loss of opportunity and TAM as Cisco is simply dropped from consideration, even when Bruce has spelled out the optimal/superior architectural solution/vision
 
 **PhyNet, Project Octans, disaggregated T2 and Regional Hubs:** Bruce is a primary Cisco SME on Microsoft's Frontend DC (PhyNet) and DCI/Metro (Regional Network Gateway or RNG), and on Project Octans, the disaggregation of chassis-based T2 and DCI fabric layers into upper and lower pizza-box Clos tiers. Bruce's involvement and accomplishments include:
 
@@ -109,7 +106,6 @@ The architecture was validated; the timing was not. Cisco has arrived late acros
 **Overall customer impact:** A repeatable disaggregated, open-NOS data center and backbone architecture that scales Microsoft's AI infrastructure without the route-scale and convergence ceilings of the prior design.
 
 **Evidence:** [ASP Web FY20-26 Product Bookings](https://cisco.sharepoint.com/:x:/r/sites/GSPWEB-SalesandFinance/Shared%20Documents/ASP%20Web%20Finance/Adhoc/Q4%2726/ASP%20Web%20FY20-26%20Product%20Bookings.xlsx?d=wf735385979d541b6bdda11cfd8c7993f&csf=1&web=1&e=LUS3pf); GitHub `segmentrouting/srv6-msft`, `segmentrouting/srv6-mrc-emulator`; vault `customers/Microsoft AI-Backend.md`, `customers/Microsoft SRv6.md`, `customers/MSFT octans-drh.md`, `customers/Microsoft-WAN.md`, `innovation/SRv6-MultiTenant-Design-rev3.md`; Talent Assessment 1HFY26; published SWAN architecture reference — [ACM 10.1145/3603269.3604860](https://dl.acm.org/doi/pdf/10.1145/3603269.3604860) `[confirm this paper documents the SL-API/SDN forwarding technique Bruce pioneered]`.
-// this is meta data that can be deleted?
 
 **Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
 The productization of SRv6-on-SONiC and the multi-tenant specification are detailed in the Innovation section of this document. The internal advocacy that funded them is detailed in Span of Influence.
@@ -123,16 +119,15 @@ The productization of SRv6-on-SONiC and the multi-tenant specification are detai
 | $277M | $367M | $54M | $510M | $1.91B | **$3.11B** |
 
 *Americas Web/Hyperscale segment bookings. First BBF production order — **$17M booked, Feb 2026** `[verify]`.*
-// should this be made into a short table for readability?
 
-Meta operates one of the largest private backbones in the world, connecting a global data center estate that serves more than three billion daily users. Cisco had been displaced from Meta's backbone and was competing to re-enter against Arista and Broadcom Jericho silicon. Bruce served as internal strategy consultant on Meta positioning from 2021 and as the architect of the technical enablement that returned Cisco to the backbone.
+Meta operates one of the largest private backbones in the world, connecting a global data center estate that serves more than three billion daily users. Cisco had been displaced from Meta's backbone and was competing to re-enter against Arista and Broadcom Jericho silicon. Bruce never presented to Meta. He served as internal strategy consultant from 2021, equipping the account team with the architecture, the technique, and the labs, and they carried it to the customer themselves — the clearest instance in this package of impact delivered entirely through other people.
 
 **Backbone Fabric (BBF) re-entry:** In April 2024 Meta opened what became a roughly two-year Express Backbone / Backbone Fabric evaluation cycle. Cisco needed to prove P200 silicon in an account where Arista was incumbent and where the customer validates independently rather than accepting vendor test results. Bruce's involvement and accomplishments include:
 
 - Account strategy and architecture consultant since 2021
 - Pioneered the SL-API technique in the Microsoft SWAN co-development context and transferred it to Meta, where it became the key technical differentiator in the backbone win
-- Delivered SL-API, SDN, and Segment Routing enablement sessions to the Meta account team and customer engineers, modeled on the Microsoft SWAN engagement (2022–2024)
-- Built VXR-based POC labs that allowed Cisco SEs and Meta engineers to co-validate the EBB, BBF, and RBB architectures before hardware was available
+- Delivered SL-API, SDN, and Segment Routing enablement sessions **to the Cisco account team**, modeled on the Microsoft SWAN engagement (2022–2024), together with the technical background, reference material, repositories, and code they needed to run the customer conversation without him
+- Built VXR-based POC labs that let the account SEs co-validate the EBB, BBF, and RBB architectures with Meta engineers before hardware was available
 - Obtained an 8223 patch through his VXR team relationships in March 2026 when the hardware was not yet GA, unblocking account SEs Asoka DeSaram and Leif Berntsson at a critical point in the evaluation
 - Asoka and Leif reused the VXR lab pattern in their participation in the Web-wide AI hackathon (May 2026)
 
@@ -142,9 +137,7 @@ Meta booked a **$17M** first production order for Cisco 8223-64EH (P200) on the 
 
 **Financial impact:** $17M first production order booked Feb 2026; BBF estimated at ~$300M over two years and RBB pipeline at ~$350M/year `[verify]`; $3.11B in total segment bookings 2022–2026, including $1.91B in FY26.
 **Competitive impact:** Countered Arista's incumbency on the backbone and established Cisco as a credible second source in a multi-vendor global deployment — the re-entry point for a franchise Cisco had previously lost `[confirm framing with account team]`.
-// need to verify 'displaced' vs. countered Arista's dominance and became equal/credible second vendor in multi-vendor global deployment
-**Strategic impact:** Proved that a technique developed at one hyperscaler (SL-API at Microsoft) transfers directly to another, and established the VXR co-validation lab as a repeatable pre-GA sales motion now reused across the Web segment. It also demonstrated the return on sustained internal architectural consultancy: five years of education and advocacy on SRv6 and SL-API, carrying no attributable revenue at the time, converted into a backbone franchise.
-// also proved that multi-year internal architectural consultancy, education, and advocacy on topics like SRv6 and SL-API will eventually bear massive fruit
+**Strategic impact:** Proved that a technique developed at one hyperscaler (SL-API at Microsoft) transfers directly to another, and established the VXR co-validation lab as a repeatable pre-GA sales motion now reused across the Web segment. It also demonstrated the return on sustained internal architectural consultancy: five years of education and advocacy on SRv6 and SL-API, carrying no attributable revenue at the time, converted into a backbone franchise won by a team Bruce equipped rather than led.
 **Overall customer impact:** A validated backbone fabric architecture and a committed SRv6 path for RBB, with pre-GA access that let account SEs and Meta's engineers evaluate on their own terms rather than on vendor timelines.
 
 **Evidence:** [ASP Web FY20-26 Product Bookings](https://cisco.sharepoint.com/:x:/r/sites/GSPWEB-SalesandFinance/Shared%20Documents/ASP%20Web%20Finance/Adhoc/Q4%2726/ASP%20Web%20FY20-26%20Product%20Bookings.xlsx?d=wf735385979d541b6bdda11cfd8c7993f&csf=1&web=1&e=LUS3pf); vault `customers/Meta.md`; DSE General MOC (Mar 2026 Asoka 8223 thread); SWAN architecture reference — [ACM 10.1145/3603269.3604860](https://dl.acm.org/doi/pdf/10.1145/3603269.3604860).
@@ -163,19 +156,15 @@ The origination of the SL-API technique is detailed in the Innovation section of
 | $4M | $45M | $230M | $146M | $21M | **$446M** |
 
 *Americas Web/Hyperscale segment bookings. Bruce-attributed scope: ~$20M `[verify]`; 2026–2028 projection `[verify]`.*
-// same table comment
 
 Oracle Cloud Infrastructure is the fastest-growing of the major public clouds and has committed to one of the industry's largest AI training buildouts. Its Acceleron program re-architects the AI fabric around multiplanar fabrics with source routing originating at the NIC — an approach that requires exactly the host-based SRv6 model Bruce had been advocating inside Cisco since 2019, when SRv6 uSID first made it practical. Bruce is Cisco's lead architect for SRv6 for AI at OCI.
-// what is stronger, since before the Isovalent acquisition, or since the advent of SRv6 uSID in 2019?
 
 **SRv6 for AI — Acceleron and MRC:** Oracle needed N-diverse path selection with multipath reliable connection (MRC) running on GPU hosts in their Stargate and Abilene DCs, with source routing pushed to the NIC rather than computed in the fabric. Bruce's involvement and accomplishments include:
 
 - Serves as SONiC-on-Cisco-8000 SME for the wider OCI account engagement, and as **lead architect for the SRv6-for-AI program** — which he has led from its first education and mindshare workshop in December 2024 to the present
 - Opened the general Cisco-as-credible-vendor conversation for OCI AI backend fabrics at OCP in October 2024
-// is there a simpler way to say this? I've led the SRv6-for-AI program since inception (first education/mindshare-building workshop Dec 2024) to the present day. The OCP 2024 kickoff was more the kickoff of a general Cisco-as-credible-vendor for OCI AI backend fabrics — for the general engagement I'm SONiC on Cisco 8000 SME, for the specific SRv6 engagement I'm lead architect
 - Delivered the SRv6 customer requirements document, the VXR lab, the SRv6 SONiC image, and the SRv6 GRT implementation that made the architecture testable
 - Conducted low-diameter topology studies (Hoffman-Singleton, PolarFly) with OCI architect Christian Martin (Jun 2024 — late 2025), producing the lab and design document evaluating fabric diameter against GPU-scale requirements
-// the collaboration with Christian has continued since he joined Cisco MIG's Hyperscaler architect's team and includes recent sonic/srv6 topology and fabric modeling at https://github.com/segmentrouting/polarfly, and a whitepaper comparing Weighted Multi-Path PolarFly (with SRv6) vs. Amazon's recently announced RNG flat/random topology architecture — to be added to Innovation. a copy of the paper is in the ./projects folder
 
 - Built and demonstrated an IOS-XR based SRv6 uSID AI-backend demonstration for Oracle VP Jag Brar and his architecture team (Jan 2025)
 - Took SRv6 ownership on the 1,000-GPU POC (Aug 2025), having entered the engagement as SONiC advisor
@@ -207,10 +196,8 @@ CoreWeave is the largest of the neo-cloud AI providers and a primary compute par
 - Led the backend fabric architecture covering adaptive routing, ECN behavior, and MRC/SRv6 path metrics, including Vera Rubin Ultra path analysis
 - Advisor and reviewer of the WAN backbone architecture — DSE David Smith was assigned as lead architect (Apr 2026) — ~196 edge routers, 42 TLRs, DSR stitching for AI-DC fabrics, and 32 D-pops for data center interconnect
 - Built Containerlab and VXR lab environments with documentation for CoreWeave's NetDev engineering team (Mar 2026), offering virtual Cisco 8000 routers running either IOS-XR or SONiC and giving the customer a self-service evaluation path
-// these included options to run either virtual Cisco 8000 routers running either IOS-XR or SONiC
 - Served as technical lead for backend data center, SONiC, and simulation environments (VXR, Containerlab) at the CoreWeave EBC (Feb 2026)
 - Bruce demonstrated his SRv6-MRC-Emulator tool to CoreWeave VP Shiv Patel. He emphasized the tool being open-source and Shiv has encouraged his internal team to use it
-// srv6-mrc-emulator definitely needs mentioning in Innovation if not already there. I've also demo'd it internally to both account teams and Cisco product engineering teams who find it very useful as a learning tool for MRC architecture, multi-planar fabric design, host-encap options, and SRv6 numbering scheme
 
 Following the lab enablement, EBCs, and mindshare-building, the opportunity scope expanded to **~10,000–12,000 switches**.
 
@@ -227,23 +214,22 @@ Following the lab enablement, EBCs, and mindshare-building, the opportunity scop
 
 ### Bell Canada, 2020 – Present
 
-**Revenue Impact:** 500-unit first order for C8231-G2, May 2026. ~$20M cumulative SRv6 and host-networking engagement `[verify]`
+**Revenue Impact:** 500-unit first order for C8231-G2, May 2026. ~$20M cumulative SRv6 and host-networking engagement `[verify]`, Isovalent revenue `[verify]`, Cisco NCS5500 and 8000 revenue tied to SRv6 `[verify]`
 
-Bell Canada is Canada's largest telecommunications operator, serving the country's national wireline, wireless, and media infrastructure. Bell has been one of Cisco's most technically demanding Segment Routing partners and one of the earliest tier-1 operators to commit to end-to-end SRv6 with host-based extension. Bruce led the multi-year architecture work behind that commitment.
+Bell Canada is Canada's largest telecommunications operator, serving the country's national wireline, wireless, and media infrastructure. Bell has been one of Cisco's most technically advanced Segment Routing partners and one of the earliest tier-1 operators to commit to end-to-end SRv6 with host-based extension. Bruce led the multi-year architecture work behind that commitment.
 
 **End-to-end SRv6, host networking, and NaaS:** Bruce's involvement and accomplishments include:
 
-- Architected the end-to-end SRv6 design spanning core, edge, and host, establishing Bell as a reference tier-1 SRv6 operator
-- Drove host-based Cilium integration, extending SRv6 to the server where Bell's workloads terminate
+- Partnered with Dan Bernier, Bell Canada Senior Architect, on a multi-year vision and architecture to transform a traditional Tier-1 service provider into a Cloud-like Network-as-a-Service company that operates more like a Hyperscaler. The Architecture was built around a truly end-to-end SRv6 design spanning core, edge, metro, DC, Kubernetes hosts, and customer premise equipment (CPE)
+- Bruce's Jalapeño and host-based SR/SRv6 session at Kubecon (Nov 2019) led directly to the multi-year partnership with Bernier. Over the course of 2020 and 2021 (one onsite workshop in Montreal, bi-weekly sessions) the host-based SRv6 discussions led to Bell investing in Cilium and driving their SRv6 integration all prior to the Cisco Isovalent acquisition — Bruce's mindshare building meant Cilium arrived in Cisco's portfolio with SRv6 already built in.
 - Developed the network-as-a-service architecture framing that positioned SRv6 as a service-delivery platform rather than a transport upgrade
-- Presented the SRv6-for-data-center architecture alongside Bell at the OCP 2024 kickoff cohort with Microsoft, Oracle, and Cloudflare
 
-Bell placed a **500-unit first order for C8231-G2** routers on May 4, 2026 (Helene Roy).
+Bell placed a **500-unit first order for C8231-G2** routers for their initial NaaS deployment on May 4, 2026 (Helene Roy).
 
 **Financial impact:** 500-unit C8231-G2 first order (May 2026); ~$20M cumulative engagement `[verify]`.
 **Competitive impact:** Secured the platform franchise for Bell's SRv6 build-out at the point of first production commitment.
 **Strategic impact:** Produced a tier-1 operator reference for end-to-end SRv6 with host-based Cilium — the architecture Bruce advocated internally for a decade, validated in a production carrier network.
-**Overall customer impact:** A programmable, service-oriented network architecture that extends consistent policy from the core to the workload.
+**Overall customer impact:** A programmable, service-oriented network architecture that extends consistent forwarding and network policy from the core to the workload.
 
 **Evidence:** Vault `technologies/Bell Canada.md`; OCP 2024 SRv6-for-AI cohort.
 
@@ -260,19 +246,19 @@ Bruce's host-networking and Isovalent/Cilium advocacy is detailed in the Span of
 
 *Americas Web/Hyperscale segment bookings. Bruce-attributed scope: ~$20M `[verify]`.*
 
-Google operates B4, one of the largest and most-studied private WANs in the world, and Google Distributed Cloud extends that infrastructure into customer and edge environments. Cisco holds a significant share of Google's backbone, and the account requires engineers who can engage Google's network software teams as peers. Bruce served as strategy consultant, SRv6 architect, and — during a period of account SE leave — interim lead SE.
+Google operates one of the world's largest data center and AI footprints, and GCP (Google Compute Platform) is a rapidly growing competitor to AWS and Azure. Google's B4 transport network is one of the largest and most-studied private WANs in the world. Google Distributed Cloud extends their cloud services into customer and edge environments. Cisco holds a significant share of Google's backbone and GDC footprint, and the account requires engineers who can engage Google's network software teams as peers. Bruce served as strategy consultant, SRv6 architect, and — during a period of account SE leave — interim lead SE for WAN.
 
 **GDC SRv6 and B4:** Bruce's involvement and accomplishments include:
 
 - Developed the end-to-end SRv6 proposal and training program for Google Distributed Cloud, and led the GDCE onsite SRv6 design session (May 2024)
 - Stepped in as interim lead SE on B4 SR-MPLS during account SE leave, maintaining continuity on Cisco's largest Google engagement
 - Opened the SRv6 for Google AI Backend program (Mar 2026), running introductions and kickoff with Nick Sischo, Pablo Camarillo, and Clarence Filsfils
-- Positioned SL-API for Alphanet, extending the technique proven at Microsoft and Meta to a third hyperscaler
+- Positioned SL-API for Alphanet, extending the custom SDN programming technique proven at Microsoft and Meta to a third hyperscaler
 
-**Financial impact:** $1.95B in segment bookings 2022–2026, including $1.05B in FY26; ~$20M attributed to Bruce's engagement scope `[verify]`.
-**Competitive impact:** Maintained Cisco's backbone position through an account SE transition and established SRv6 as the forward architecture in the AI-backend conversation.
-**Strategic impact:** Third independent hyperscaler engaged on SL-API and SRv6-for-AI, reinforcing the pattern established at Microsoft and Oracle.
-**Overall customer impact:** A defined SRv6 path for GDC and the AI backend, developed with Cisco's SR engineering leadership directly involved.
+**Financial impact:** $1.95B in segment bookings 2022–2026, including $1.05B in FY26; ~$250M attributed to Bruce's engagement scope `[verify]`.
+**Competitive impact:** Maintained Cisco's backbone position through an account SE transition, and opened the SRv6 conversation in the AI backend — an account Cisco is still working into rather than one it has won.
+**Strategic impact:** A third independent hyperscaler engaged on SL-API, reinforcing that the technique transfers; the SRv6-for-AI thread is early and running with Cisco's SR engineering leadership directly involved.
+**Overall customer impact:** A defined SL-API path for Alphanet and an opening position on SRv6 for GDC and the AI backend.
 
 **Evidence:** [ASP Web FY20-26 Product Bookings](https://cisco.sharepoint.com/:x:/r/sites/GSPWEB-SalesandFinance/Shared%20Documents/ASP%20Web%20Finance/Adhoc/Q4%2726/ASP%20Web%20FY20-26%20Product%20Bookings.xlsx?d=wf735385979d541b6bdda11cfd8c7993f&csf=1&web=1&e=LUS3pf); vault `customers/Google.md`.
 
@@ -294,13 +280,13 @@ AWS is the largest public cloud provider in the world and one of the few custome
 
 - Built the 12.8T → 25.6T → 51.2T TAM model with the account team and the customer, sizing the multi-generation silicon opportunity
 - Project-managed feature development tracking between AWS and Cisco engineering, keeping roadmap commitments aligned to customer qualification timelines
-- Opened the SRv6-for-AWS-telco-customers thread with Riggs and Chris Martin (Feb 2023), extending the silicon relationship into architecture
+- Opened the SRv6-for-AWS-telco-customers thread with Riggs and Christian Martin (Feb 2023), extending the silicon relationship into architecture. That thread did not convert
 
 Cisco leadership recognized the foundational silicon deals at VP level in Q1 FY23 `[verify $]`.
 
 **Financial impact:** $1.41B in segment bookings 2022–2026, including $717M in FY26; ~$20M Direct Connect / Silicon One attributed to Bruce's scope `[verify]`.
-**Competitive impact:** Established Cisco as a merchant silicon supplier to the largest cloud operator, a position Broadcom had held uncontested.
-**Strategic impact:** The TAM model became the basis for Silicon One generational planning across the Web segment.
+**Competitive impact:** Opened a merchant-silicon position at the largest cloud operator, in a category Broadcom had held uncontested. The position is real but under-realized: Silicon One has lost addressable market to the same late-to-market pattern seen across the AI accounts, and the revenue booked is plausibly one to two orders of magnitude below what a closed time-to-market gap would have produced.
+**Strategic impact:** The generational TAM model became the basis for Silicon One planning across the Web segment, and remains the reference for sizing the recovery.
 **Overall customer impact:** A multi-generation silicon roadmap aligned to AWS's own qualification cadence.
 
 **Evidence:** [ASP Web FY20-26 Product Bookings](https://cisco.sharepoint.com/:x:/r/sites/GSPWEB-SalesandFinance/Shared%20Documents/ASP%20Web%20Finance/Adhoc/Q4%2726/ASP%20Web%20FY20-26%20Product%20Bookings.xlsx?d=wf735385979d541b6bdda11cfd8c7993f&csf=1&web=1&e=LUS3pf); vault `xarchive-2021-2022/AWS-may-2021.md`, `dse/04-Span-of-Influence-MOC.md`, `dse/DSE General MOC.md`.
@@ -311,7 +297,7 @@ Cisco leadership recognized the foundational silicon deals at VP level in Q1 FY2
 
 ### Verizon, 2024 – Present
 
-**Revenue Impact:** Strategic A3PO/CX engagement; Project Yukon and service-chain revenue `[verify]`
+**Revenue Impact:** Strategic A3PO/CX engagement; Project Yukon (NaaS) and service-chain revenue `[verify]`
 
 Verizon operates the largest wireless network in the United States alongside a national wireline and FIOS footprint, with 52 packet-core data centers. Verizon was evaluating whether to carry MPLS forward or commit to SRv6 across wireless switching centers, data centers, VCP, FIOS, and XRAN — a decision affecting the entire estate. Bruce led the architecture consulting behind that evaluation.
 
@@ -320,13 +306,13 @@ Verizon operates the largest wireless network in the United States alongside a n
 - Built the architecture decision matrices comparing NX-OS, IOS-XR, SONiC, and SRv6 across Verizon's domains, quantifying prefix-summarization value against stitching cost
 - Produced the internal SRv6 business case quantification and the seamless MPLS-to-SRv6 transition path
 - Developed the Project Yukon network-as-a-service revenue framing
-- Architected Service Bus stateful scaling across millions of flows and 52 packet-core data centers
 - Drove 400G server fabric, SONiC/SRv6, and SRv6-in-host (FRR/Cilium) threads for converged 5G and AI data centers, including AI pod deployment in existing facilities
-- Ran AI and LLM network-automation workshops with Luay, Josh, and Jasbir
-
+- Ran AI and LLM network-automation and host-based SRv6 workshops with VZ Fellow Luay Jalil, VZ Senior Architect Nick Morris, Cisco PSE Josh Merrill, and senior account SE Jasbir Sidhu
 Verizon's April 2024 MPLS World Congress presentation was built on Bruce's `srv6-labs` material.
 
-**Financial impact:** Strategic A3PO/CX engagement; Yukon and service-chain revenue `[verify]`.
+The **SRv6-with-SGT** work has not yet produced revenue, but is generating substantial mindshare at Verizon executive level. Bruce designed the majority of the architecture and the underlying intellectual property; Cisco PSE Josh Merrill has carried most of the executive presentation — an intentional division that puts a colleague in front of the customer's leadership.
+
+**Financial impact:** Strategic A3PO/CX engagement; Yukon NaaS revenue `[verify]`.
 **Competitive impact:** Positioned SRv6 and SONiC as the forward architecture ahead of a formal RFP cycle.
 **Strategic impact:** Extended the host-networking and SRv6-in-host model from hyperscale into a tier-1 mobile operator, and produced a NaaS revenue framing reusable across the SP segment.
 **Overall customer impact:** A quantified transition path from MPLS to SRv6 across a national estate, with the business case attached.
@@ -345,15 +331,13 @@ Akamai operates the world's largest content delivery network and, through its Li
 
 **Backbone SR/SRv6 transition:** Bruce's involvement and accomplishments include:
 
-- Drove the RSVP-to-SR transition on the backbone alongside the 800G deployment, and gave a direct assessment of Silicon One SRv6-TE strengths and limitations rather than a positioning pitch — establishing the credibility the rest of the engagement ran on
-- Opened the H.Insert.Preserve thread with John Leddy (Jul 2023)
+- Drove the RSVP-to-SR transition on the backbone alongside the 800G deployment, and gave a direct assessment of Silicon One SRv6-TE strengths and limitations rather than a positioning pitch — establishing the credibility the rest of the engagement ran on 
 - Built the FRR SRv6 L3VPN image and lab for Russ White (Oct 2023) and ran SRv6 use-case workshops with both Leddy and White (Feb 2024)
-- Delivered the static uSID POC with Leddy (Mar 2025) and the Prolexic-over-ADC lab, demo, and POC (Jun 2025)
-- Demonstrated `srctl` and Jalapeno (May 2025)
-- Built a demonstration SDN controller programming SRv6 L3VPN routes onto a custom Linux forwarder for the redirect-to-scrubber use case (2025 PDP) `[follow up on production status with account team]`
+- Multiple SRv6 innovation threads with John Leddy (2023 - 2025) including the static uSID POC (Mar 2025) and the Prolexic-over-ADC lab, demo, and POC (Jun 2025)
+- Built a POC multi-use case SDN controller (leveraging Bruce's open-source Jalapeno backend), which programmed SRv6 L3VPN routes onto a custom Linux forwarder for Prolexic's redirect-to-scrubber use case (2025 PDP) `[follow up on production status with account team]`
 
 **Financial impact:** `[verify]`.
-**Competitive impact:** Established SRv6 as the backbone direction and positioned Cisco on the Linode and Prolexic paths.
+**Competitive impact:** Established SRv6 as the backbone direction and positioned Cisco on the Linode and Prolexic paths. `[verify]`
 **Strategic impact:** The redirect-to-scrubber controller demonstrated host-based SRv6 policy on commodity Linux forwarding — the clearest customer-facing proof of the host-networking thesis, and a direct antecedent to the Cilium SRv6 product path.
 **Overall customer impact:** A validated SRv6 transition path for the backbone and a working DDoS-redirect prototype built on open forwarding.
 
@@ -371,7 +355,7 @@ Akamai operates the world's largest content delivery network and, through its Li
 
 ### Videotron — SRv6 Regional Backhaul — Feb–Apr 2026
 
-Videotron is Quebec's largest cable operator and, following its Freedom Mobile acquisition, a national wireless challenger. Bruce architected the SRv6 backhaul interconnecting four MPLS-LDP regions over an IPv6 core with SRv6 gateways, and enabled SE Philippe Vaillancourt by giving him access to his Containerlab SRv6 lab to self-train ahead of the customer workshop. He coordinated Ianik, Jakub, and Dan Voyer for the onsite SRv6 update. **Revenue:** ~$25M `[verify]`.
+Videotron is Quebec's largest cable operator and, following its Freedom Mobile acquisition, a national wireless challenger. Bruce consulted as SRv6 subject-matter expert on the backhaul design interconnecting four MPLS-LDP regions over an IPv6 core with SRv6 gateways, and enabled SE Philippe Vaillancourt by giving him access to his Containerlab SRv6 lab to self-train ahead of the customer workshop. He coordinated Ianik, Jakub, and Dan Voyer for the onsite SRv6 update. **Revenue:** ~$25M `[verify]`.
 
 **Vault:** `customers/Videotron SRv6.md`
 
@@ -379,7 +363,7 @@ Videotron is Quebec's largest cable operator and, following its Freedom Mobile a
 
 ### T-Mobile — Magenta Cloud Segmentation & Cilium — 2024–2025
 
-T-Mobile is the second-largest US wireless operator. Bruce built the macro/micro/nano segmentation architecture narrative — Cilium policy, zone-based firewalling, eBPF/Tetragon, and ACI-versus-Cilium positioning — and supported the Overlay RFP (Nov 2024) and Magenta Cloud RFP (Dec 2024). He drove greenfield DC opportunities (Polaris, Tortugas), the OpenShift-everywhere direction, v6-only underlay design, and Hypershield/Cilium adoption in MagentaCloud.
+T-Mobile is the second-largest US wireless operator. Bruce built the macro/micro/nano segmentation architecture narrative — Cilium policy, zone-based firewalling, eBPF/Tetragon, and ACI-versus-Cilium positioning — and supported the Overlay RFP (Nov 2024) and Magenta Cloud RFP (Dec 2024). He drove greenfield DC opportunities (Polaris, Tortugas), v6-only underlay design, and Hypershield/Cilium evaluation in MagentaCloud. `[verify which elements T-Mobile adopted versus deferred before this entry is final]`
 
 **Vault:** `customers/T-Mobile.md`
 
@@ -387,7 +371,9 @@ T-Mobile is the second-largest US wireless operator. Bruce built the macro/micro
 
 ### Dish / Boost Mobile — SRv6 L3VPN on AWS — 2025–2026
 
-Boost Mobile runs the first US cloud-native 5G network, built on public cloud infrastructure. Bruce designed SRv6 L3VPN overlays on the AWS underlay to replace GRE tunnels — Cilium SRv6 uSID, cloud-native L3VPN at the pod level, and a "dark default" IPv6 fabric (`Boost-Cilium-SRv6.pptx`, Jan 2026). This is the package's clearest example of end-to-end SRv6 and Cilium running entirely in public cloud.
+Boost Mobile runs the first US cloud-native 5G network, built on public cloud infrastructure. Bruce developed the SRv6 L3VPN over AWS architecture and proposal as a replacement for GRE tunnels — Cilium SRv6 uSID, cloud-native L3VPN at the pod level (`Boost-Cilium-SRv6.pptx`, Jan 2026). Recognizing that Cilium cannot directly address SR-IOV kernel-bypass networking, Bruce authored a **multi-use-case Cilium customer requirements document** that Cisco engineering has accepted and is working to prioritize — a proposal to position Cilium as the host-networking policy execution engine for both Kubernetes and non-Kubernetes workloads, including transit gateway and service-chain functions. This is the package's clearest example of end-to-end SRv6 and Cilium running entirely in public cloud.
+
+The same Cilium CRD underpins the Verizon and Viasat engagements; it is detailed in the Innovation section of this document.
 
 **Vault:** `customers/Boost SRv6.md`, `customers/cilium-srv6.md`
 
@@ -395,7 +381,7 @@ Boost Mobile runs the first US cloud-native 5G network, built on public cloud in
 
 ### Equinix — NGN / Disaggregation / SRv6 — 2023–2026
 
-Equinix operates the world's largest interconnection and colocation platform. Bruce drove the universal packet fabric evolution — SR to SRv6, disaggregation, and SONiC/PINS POCs — along with the AI/ML reference architecture with NVIDIA, telemetry and SAI work, and Alibaba SRv6 alignment. At the November 2023 EBC he positioned SL-API as Equinix's bridge to disaggregation.
+Equinix operates the world's largest interconnection and colocation platform. Bruce serves as SONiC, disaggregation, and SRv6 consultant and subject-matter expert on an ongoing engagement covering universal packet fabric evolution, SONiC/PINS POCs, and AI/ML reference architecture. At the November 2023 EBC he positioned SL-API as Equinix's bridge to disaggregation. The engagement has not yet produced a deployment decision.
 
 **Vault:** `customers/Equinix.md`
 
@@ -403,7 +389,7 @@ Equinix operates the world's largest interconnection and colocation platform. Br
 
 ### AT&T — NaaS / Inference Pods — Aug 2025
 
-Bruce framed the inference pod and private AI cloud POC with Jim Durkin and Josh Fleishman, covering IPE cloud-connect routers and a phased go-to-market leveraging the AT&T network.
+Bruce framed the inference pod and private AI cloud POC with Jim Durkin and Josh Fleishman, covering IPE cloud-connect routers and a phased go-to-market leveraging the AT&T network. The engagement ran through 2025 without advancing beyond discussion. `[Bruce decision — retain as breadth evidence or cut]`
 
 **Vault:** `customers/AT&T NaaS.md`
 
@@ -415,15 +401,17 @@ Bruce's Web AI Fabrics calculator and rail architecture diagrams (Jun 2024) beca
 
 ---
 
-### Digital Realty — SRv6 POC — Oct 2025
+### Digital Realty — SRv6 POC — Oct 2025-present
 
-Digital Realty is one of the two largest global colocation providers. Bruce drove the SRv6 POC exploring colo fabric options and Arista displacement, stood up the Cilium/SRv6 deployment in the DLR POC lab (PDP Dec 2025), and ran the Jalapeno workshop (Jun 2025) `[verify $]`. The second-generation Jalapeno RPO SDN application was deployed in this engagement.
+Digital Realty is one of the two largest global colocation providers. Bruce drove the host-based and Cilium SRv6 component of the POC, standing up the deployment in the DLR lab (PDP Dec 2025), and served as subject-matter expert and evangelist for true end-to-end SRv6 — including the proposal that Digital Realty construct **federated SRv6 partnerships** with third-party service providers and neo-clouds, extending programmable transport across organizational boundaries rather than only within its own footprint. He presented Jalapeno at the Denver EBC and workshop (Jun 2025), where the second-generation RPO SDN application was deployed. `[verify $]`
+
+On seeing Jalapeno, the customer remarked that they *"would have paid millions of dollars for something like this a couple of years ago — and here it is, open source."* `[confirm wording with account team before quoting]`
 
 ---
 
 ### Viasat — SRv6 Service Chaining & Slicing — 2024
 
-Bruce designed the SRv6 service function chaining architecture with Don Ewald (May 2024), delivered the slicing and service-chain SRv6 demo with Chris Olson (Jul 2024), and opened the open-source controller thread at the October 2024 EBC.
+Bruce designed the SRv6 service function chaining architecture with Don Ewald (May 2024), delivered the slicing and service-chain SRv6 demo with Chris Olson (Jul 2024), and opened the open-source controller thread at the October 2024 EBC. The same Cilium host-networking CRD proposal applies here. `[verify current status with account team]`
 
 ---
 
@@ -435,7 +423,7 @@ Bruce consulted on the Comcast load-balancing architecture; ~$5M opportunity sco
 
 ### Groq — SR-TE POC — Sep 2025
 
-Bruce ran the SR-TE POC for this AI inference silicon provider, demonstrating Flex-Algo and data-sovereignty steering. The POC succeeded; Groq was subsequently acquired by NVIDIA (Sep 2025).
+Bruce ran the SR-TE POC for this AI inference silicon provider, demonstrating Flex-Algo and traffic steering for data-sovereignty. The POC succeeded, the opportunity was worth $10s of millions; however Groq was subsequently acquired by NVIDIA before they could make any purchases (Sep 2025).
 
 ---
 
@@ -445,15 +433,9 @@ Bruce presented host-based SRv6 and consulted on data center design at the Lambd
 
 ---
 
-### Cloudflare — BMP Enhancements — Mar 2026
-
-Bruce drove the BGP Monitoring Protocol enhancement path with Cisco engineering; features targeted for the 26.4.x release.
-
----
-
 ### eBay — SONiC EBC — Mar 2025
 
-Bruce led the SONiC EBC with account team member Ken Truong, supporting eBay's open-NOS evaluation.
+Bruce led the SONiC EBC with account team member Ken Truong, supporting eBay's open-NOS evaluation. `[verify revenue if any]`
 
 ---
 
@@ -499,20 +481,6 @@ Ordered by strategic and financial weight, matching the body above. Segment book
 | Cloudflare | Web | 2026 | — | BMP enhancements targeted 26.4.x | Engineering consultation |
 | eBay | Web | 2025 | — | SONiC evaluation | SONiC EBC lead |
 | Voltage Park | Neo-cloud | 2024 | — | Did not convert to deployment | SRv6-for-DC architecture |
-
----
-
-## Explicitly Excluded from This Section (re-filtered June 2026)
-
-| Item | Route to |
-| :--- | :--- |
-| Geico, Fiserv, Adobe, Honeywell, TI, Disney, NYU, TTD, NSight | **03-global-impact.md** |
-| Rakuten, Evroc, NTT East, MTN/DU | **03-global-impact.md** |
-| James Munroe / Province of NB (CLEU lab outcome) | **03-global-impact.md** |
-| Patents, Bold Bets, srv6-labs LinkedIn stats | **07-innovation.md** / **05-industry-impact.md** |
-| CLEU/Stay Ready Friday (generic SE training) | **10-se-community-leadership.md** |
-| Isovalent acquisition advocacy | **04-span-of-influence.md** / **07-innovation.md** |
-| Pre–Aug 2020-only engagements | Exec overview thru-narrative only |
 
 ---
 

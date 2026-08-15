@@ -39,6 +39,19 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 - [ ] **New account rows** — Apple (~$30M), Nvidia (~$30M), Netflix (~$30M) all `[verify]`; each needs a short-form entry in the body or should stay table-only
 - [ ] **OCP 2026 session was declined** — removed from Business Impact; confirm nothing else in the package still implies it was delivered
 
+### From Bruce's second review pass (Aug 15, 2026)
+- [ ] **Exec Overview — force multiplier framing:** a significant share of Business Impact revenue was earned without Bruce in the room. He equips account SEs and AMs with strategy, education, repositories, code, and labs, and they run it with their customers. **Meta ($17M backbone re-entry) is the proof — he never presented to Meta.** Now stated at the top of Business Impact and in Span of Influence; carry it into the Executive Overview
+- [ ] **Exec Overview framing (Bruce's words):** five years ago SP and hyperscale operators largely dismissed SRv6 as not ready; today SPs almost universally name it their strategic direction, and most hyperscalers agree. Bruce has been at the centre of that conversation since day one — **use this as the opening move of the Executive Overview**
+- [ ] **Digital Realty customer quote** — confirm wording with account team before it is quoted
+- [ ] **Meta competitive framing** — "countered Arista's incumbency / credible second source" still needs account-team sign-off
+- [ ] **T-Mobile** — verify which elements were adopted versus deferred
+- [ ] **Viasat** — current status with account team
+- [ ] **AT&T** — Bruce decision: retain as breadth evidence or cut (ran through 2025 without advancing)
+- [ ] **Google** — ~$250M attributed scope (revised up from ~$20M) needs finance validation
+- [ ] **Bell Canada** — Isovalent revenue, NCS5500/8000 SRv6-tied revenue
+- [ ] **Dan Bernier** — confirm he is comfortable being named, and confirm the KubeCon 2022–2023 / MPLS-WC 2023 presentation dates
+- [ ] **Groq** — confirm the "$10s of millions" opportunity figure is quotable
+
 ### Business Impact case studies (new — Aug 2026 drafting pass)
 - [ ] **Microsoft stakes opener** — confirm Azure scale / Fortune rank figures before final PDF
 - [ ] **OCP Summit 2026** — confirm SRv6 multi-tenant AI fabric co-presentation was delivered

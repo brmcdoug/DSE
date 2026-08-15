@@ -87,7 +87,7 @@ The **2025 Pinnacle Award** for SRv6 uSID market impact recognized this arc at c
 
 ### Publications — 2021 – 2026
 
-Bruce published the **[first public description and demonstration of SRv6 uSID on SONiC](https://www.segment-routing.net/blogs/srv6-usid-on-sonic/)** (segment-routing.net, May 2023) — the first SRv6-for-data-center-on-SONiC narrative in the industry, and the reference point for the multi-vendor open-NOS uSID conversation that followed. He publishes regularly to segment-routing.net, Cisco SP360 (evolved connectivity, ML/AI in service provider networking, and the *Future of SP Networking* NaaS framing), and LinkedIn.
+Bruce published the **[first public description and demonstration of SRv6 uSID on SONiC](https://www.segment-routing.net/blogs/srv6-usid-on-sonic/)** (segment-routing.net, May 2023) — the first SRv6-for-data-center-on-SONiC narrative in the industry, and the reference point for the multi-vendor open-NOS uSID conversation that followed. He publishes regularly to segment-routing.net, Cisco SP360, and LinkedIn. His May 2022 SP360 post *Perspectives on the Future of Service Provider Networking: Evolved Connectivity* introduced the term **cloud-like consumption of network services** — framing that predated by two to three years the network-as-a-service movement that took hold across the service provider industry in 2024–2025.
 
 *Phoenix Wing context:* the multi-vendor SRv6 uSID on SONiC initiative is Alibaba-led. Bruce is not on Alibaba account teams. He published the May 2023 description that preceded it and drove the Cisco-side engineering validation the cross-vendor narrative rests on.
 
@@ -95,9 +95,13 @@ Bruce published the **[first public description and demonstration of SRv6 uSID o
 
 ## 4. Operator Community
 
-### MPLS World Congress — 2023 – 2025
+### Operators Carrying the Architecture — 2019 – Present
 
-Bruce's strongest form of operator visibility is not Cisco presenting as a vendor — it is **tier-1 operators presenting Bruce's architecture as their own** on the main stage.
+Bruce's strongest form of industry influence is not Cisco presenting as a vendor — it is **operators presenting architecture Bruce developed, or co-developed with them, as their own**. As he puts it: for an architect working for a vendor, it is almost universally more impactful when a customer presents the idea at an industry conference than when the vendor does.
+
+The clearest case is **Dan Bernier, Senior Architect at Bell Canada**. The partnership began when Bruce's Jalapeno and host-based SR/SRv6 session at KubeCon (Nov 2019) drew Bernier in, and developed over years of onsite workshops and bi-weekly sessions into a shared vision for turning a traditional tier-1 operator into a cloud-like network-as-a-service business. Bernier has since used slides and concepts Bruce developed — or that the two developed together — in his own industry presentations at **KubeCon (2022–2023)** and **MPLS World Congress (2023)**, evangelizing end-to-end SRv6 including host-based SRv6. Cisco's architecture reached the industry through the mouth of an operator rather than a vendor.
+
+### MPLS World Congress — 2023 – 2025
 
 | Year | Bruce's role | Industry outcome |
 | :--- | :--- | :--- |
@@ -126,7 +130,7 @@ Two sessions produced documented external outcomes: a Meet-the-Expert conversati
 
 ### O'Reilly — *Open Source Labbing* — 2024 – 2025
 
-Bruce co-developed a **four-hour O'Reilly training course** with **Russ White of Akamai**, covering Containerlab, FRR, SRv6, and open-source lab methodology. It was delivered live twice to hundreds of engineers worldwide, and both sessions are recorded in the O'Reilly catalog for subscribers. Course materials are public at [github.com/brmcdoug/open-source-labbing](https://github.com/brmcdoug/open-source-labbing). Co-authorship with Russ White — one of the industry's most recognized networking authors — is independent validation of the reproducible-lab method Bruce established with srv6-labs. `[verify catalog link/title]`
+The collaboration began in Bruce's Akamai engagement: the FRR SRv6 L3VPN image and lab he built for Russ White (Oct 2023) led directly to this course. Bruce co-developed a **four-hour O'Reilly training course** with **Russ White** — author of some of the most influential IP networking books in the industry — covering Containerlab, FRR, SRv6, and open-source lab methodology. It was delivered live twice to hundreds of engineers worldwide, and both sessions are recorded in the O'Reilly catalog for subscribers. Course materials are public at [github.com/brmcdoug/open-source-labbing](https://github.com/brmcdoug/open-source-labbing). Co-authorship with Russ White — one of the industry's most recognized networking authors — is independent validation of the reproducible-lab method Bruce established with srv6-labs. `[verify catalog link/title]`
 
 ### Pour-Man's Networking Podcast — May 2022
 
