@@ -32,17 +32,24 @@ As we work through things let's also try and maintain a list of open items that 
 
 ## Data, notes, outlines, etc.
 
-[00 overview and themes of my candidacy](./01-overview-themes.md)
-[01 Exec overview and general candidate info](./02-exec-summary.md)
-[02 Direct Leader Recommendation](./03-direct-leader-recommendation.md)
-[03 global impact](./03-global-impact.md)
-[04 span of influence](./04-span-of-influence.md)
-[05 industry impact](./05-industry-impact.md)
-[06 business impact](./02-business-impact.md)
-[07 innovation](./03-innovation.md)
-[08 sponsorship](./08-sponsorship.md)
-[09 personal development](./09-personal-development.md)
-[10 se community leadership](./10-se-community-leadership.md)
+**Working rules for drafting:** [AGENTS.md](./AGENTS.md) — section scope, routing, date floor, voice.
+**Section-by-section plan:** [00-outline.md](./00-outline.md)
+**Open items:** [todo.md](./todo.md)
+
+| # | Section | File |
+| :--- | :--- | :--- |
+| 00 | Overview and themes of my candidacy | [00-overview-themes.md](./00-overview-themes.md) |
+| 01 | Exec overview and general candidate info | [01-exec-summary-draft.md](./01-exec-summary-draft.md) *(canonical)* |
+| 02 | Direct Leader Recommendation | [02-direct-leader-recommendation.md](./02-direct-leader-recommendation.md) |
+| 03 | Global Impact | [03-global-impact.md](./03-global-impact.md) |
+| 04 | Span of Influence | [04-span-of-influence.md](./04-span-of-influence.md) |
+| 05 | Industry Impact | [05-industry-impact.md](./05-industry-impact.md) |
+| 06 | Business Impact | [06-business-impact.md](./06-business-impact.md) |
+| 07 | Innovation | [07-innovation.md](./07-innovation.md) |
+| 08 | Sponsorship | [08-sponsorship.md](./08-sponsorship.md) |
+| 09 | Personal Development | [09-personal-development.md](./09-personal-development.md) |
+| 10 | SE Community Leadership | [10-se-community-leadership.md](./10-se-community-leadership.md) |
+| 11 | Appendix — awards, CL scores, recognition | [11-appendix.md](./11-appendix.md) |
 
 Rough structure, section weighting (scale of 1-5, 5 is highest), and page count:
 

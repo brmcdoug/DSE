@@ -11,7 +11,10 @@ This repo is the **publication layer** for a ~50-page Distinguished Systems Engi
 **Obsidian vault:** `/Users/brucemcdougall/go/notes/` (see that vault’s `AGENTS.md` for wikilink/MOC conventions)
 
 **Gold-standard reference:** `reference/Brenden Buresh Distinguished Architect Final 040122.pdf`  
-**Template analysis:** `reference/brenden-dse-package-template-outline.md`
+**Template analysis (structure):** `reference/brenden-dse-package-template-outline.md`  
+**Voice & claim strength (prose):** `voice-guide.md` — **read before drafting**
+
+**Candidate background:** `about-me/` — 2020 PSE nomination package (writing sample), StandOut assessment, speaker bio, writing-style notes.
 
 ---
 
@@ -97,7 +100,7 @@ ASP + Web works primarily with **MIG** (Mass-Scale Infrastructure Group) product
 
 **Span of Influence** = expanding impact **inside Cisco** beyond the ASP+Web + MIG orbit—other BUs, other theaters’ leaders, and peer **DSE/PSE** collaborators.
 
-**Key cross-org peers (Span):** Brenden Buresh, Craig Hill, David Jansen, Brian Meaney, Virginia Teixeira, Mike McPhee, Rob Murphy *(extend list as needed)*.
+**Key cross-org peers (Span):** Brenden Buresh, Craig Hill, David Jansen, Brian Meaney, Virginia Teixeira, Mike McPhee, Rob Murphy, Clarence Filsfils, David Jansen, Marina Ferreira *(extend list as needed)*.
 
 **Innovation** often **follows** Span: internal advocacy outside MIG → patents, product features, architectural direction, acquisition influence (e.g., Isovalent).
 
@@ -107,8 +110,8 @@ ASP + Web works primarily with **MIG** (Mass-Scale Infrastructure Group) product
 
 **In-scope (home territory)** — primary home for **Business Impact** and day-to-day PSE account work:
 
-- **Web / Hyperscale:** Americas-based cloud providers, neo-clouds, and large internet/web operators (e.g., Microsoft, Meta, CoreWeave).
-- **Service Provider:** Americas-based telecom and cable operators (e.g., Verizon, Bell Canada, Videotron).
+- **Web / Hyperscale:** Americas-based cloud providers, neo-clouds, and large internet/web operators (e.g., Microsoft, Oracle, Meta, CoreWeave, Google, Amazon, Apple, OpenAI, Anthropic, xAI, Nvidia, Lambda Labs).
+- **Service Provider:** Americas-based telecom and cable operators (e.g., Verizon, AT&T, Bell Canada, Digital Realty, Equinix, Videotron).
 
 **Out-of-scope for Business Impact → belongs in Global Impact:**
 
@@ -128,21 +131,29 @@ Global Impact is **not** “other geographies.” It is **any customer/revenue e
 
 ## Package structure and page budget
 
+See also: `00-outline.md`
+
+**Section order follows Brenden's package** (README order) — reviewers expect this sequence. `00-outline.md` shows a different order for sections 8–10; README/AGENTS order governs.
+
+**Page budget: README weighting governs.** Earlier "2–3 body pages" estimates for Global / Span / Industry are superseded.
+
 | Order | Section | Repo file | Weight (1–5) | Target pages |
 | :---: | :--- | :--- | :---: | :---: |
-| 1 | Executive Overview | `01-exec-summary-draft.md` / `01-exec-summary.md` | 6 | 7 |
+| 1 | Executive Overview | `01-exec-summary-draft.md` **(canonical)** | 6 | 7 |
 | 2 | Direct Leader Recommendation | `02-direct-leader-recommendation.md` | — | 1–2 |
-| 3 | **Global Impact** | `03-global-impact.md` | 5 | 2–3 body *(7 weighted in README)* |
-| 4 | Span of Influence | `04-span-of-influence.md` | 4 | 2–3 |
-| 5 | Industry Impact | `05-industry-impact.md` | 3 | 2–3 |
-| 6 | Business Impact | `06-business-impact.md` | 5 | ~7 |
-| 7 | Innovation | `07-innovation.md` | 4 | ~6 |
-| 8 | Sponsorship | `08-sponsorship.md` | 2 | ~1 |
-| 9 | Personal Development | `09-personal-development.md` | 1 | ~1 |
-| 10 | SE Community Leadership | `10-se-community-leadership.md` | 4 | ~6 |
+| 3 | **Global Impact** | `03-global-impact.md` | 5 | 7 |
+| 4 | Span of Influence | `04-span-of-influence.md` | 4 | 6 |
+| 5 | Industry Impact | `05-industry-impact.md` | 3 | 3 |
+| 6 | Business Impact | `06-business-impact.md` | 5 | 7 |
+| 7 | Innovation | `07-innovation.md` | 4 | 6 |
+| 8 | Sponsorship | `08-sponsorship.md` | 2 | 1 |
+| 9 | Personal Development | `09-personal-development.md` | 1 | 1 |
+| 10 | SE Community Leadership | `10-se-community-leadership.md` | 4 | 6 |
 | — | Appendix (optional) | `11-appendix.md` | — | as needed |
 
-**Max package length:** ~50 pages.
+**Max package length:** ~50 pages. Body total above is ~45–46, leaving room for cover, TOC, timeline graphic, and appendix.
+
+**Canonical exec file:** `01-exec-summary-draft.md`. `01-exec-summary.md` is retired working notes — do not draft into it.
 
 ---
 
@@ -197,7 +208,7 @@ Global Impact is **not** “other geographies.” It is **any customer/revenue e
 **Belongs here (examples):**
 
 *Americas — enterprise / financial / education (not ASP+Web):*
-- **Geico** — SONiC DC fabric SME (~118 racks Colorado; $1.6M cited May 2024 `[verify]`)
+- **Geico** — SONiC DC fabric SME (~118 nodes Colorado; $1.6M cited May 2024 `[verify]`)
 - **Fiserv** — SRv6 TOI (Jan 2026); WAN→DC overlay; geo-fencing; Isovalent/WPA assessment
 - **Adobe** — Cilium egress/ingress gateway POC; Cloud-Native SRv6 concept (global multi-cloud footprint)
 - **Honeywell** — backbone/SRv6-Flex-Algo architecture consulting (Apr 2024)
@@ -374,7 +385,7 @@ Global Impact is **not** “other geographies.” It is **any customer/revenue e
 - Chronological, most recent first
 
 **Belongs here:**
-- **Mentoring:** Nacho (PSE), Christopher Luciano, Dan Stacks (STLDP), Satoshi Yamashita, Rodney, Nico, Bob, Kartik, Rob Murphy, etc.
+- **Mentoring:** **Official PSE mentor:** Ignacio (“Nacho”) Sanchez (promoted Jun 2026); **Christopher Luciano (in progress, since Dec 2024)**. **PSE candidate extended team** (advisor / package reviewer): Rob Murphy & Roberta Maglione (**2023**); Masiuddin Mohammed, Marina Ferreira & Alessandro Breccia (**2024**). Dan Stacks (STLDP), Satoshi Yamashita, etc.
 - **Enablement:** Stay Ready Friday, Tech Elevate, TMC innovation hours, SONiC/SRv6/Cilium dCloud labs, MIG specialist walkthroughs
 - **Cisco Live:** instructor-led labs (scores), breakouts, panels (BTSP 2026)
 - **PSE review committee** (3 years)
@@ -491,9 +502,11 @@ Embed in relevant sections, not a standalone section:
 
 | File | Purpose |
 | :--- | :--- |
+| `voice-guide.md` | **Voice & claim strength — read before drafting** |
+| `00-outline.md` | Section-by-section content plan |
 | `00-overview-themes.md` | Brand, themes, candidacy positioning |
-| `01-exec-summary.md` | Working notes for executive section |
-| `01-exec-summary-draft.md` | Polished executive draft |
+| `01-exec-summary.md` | *Retired* working notes — do not draft into |
+| `01-exec-summary-draft.md` | **Canonical** executive section |
 | `02-direct-leader-recommendation.md` | Leader letter placeholder |
 | `03-global-impact.md` | **Outside ASP+Web** impact |
 | `04-span-of-influence.md` | **Internal Cisco** influence outside ASP+Web / MIG |
@@ -539,8 +552,14 @@ Embed in relevant sections, not a standalone section:
 
 ### Writing conventions
 
-- Third person: “Bruce led…”, “McDougall authored…”
-- **Tone (final PDF):** Friendly, collaborative—pioneering thought leader who is also exceptional to work with (not stiff corporate prose)
+**Read [voice-guide.md](./voice-guide.md) before drafting any section.** It governs claim strength, verb choice, case-study openings, and the four labeled impact types, and it documents the candidate's known failure mode (understating his own claims). The rules below are the summary; the guide is the authority.
+
+- Third person: “Bruce led…”, “McDougall authored…” — first person only in **Becoming a DSE**
+- **Register:** Flat, declarative, factual — Brenden's register throughout. "Friendly and collaborative" is a **finding demonstrated by evidence** (mentee promotions, 22 Connected Recognition awards given, peer quotes), *not* a prose style. Do not soften sentences to sound collaborative.
+- **Bruce is the grammatical subject** of every sentence describing his work. Banned verbs: helped, contributed to, was part of, was involved in, assisted, played a role in.
+- **Claim first, quote second.** A quote corroborates a claim already stated in Bruce's own sentence; it is never the first place the reader learns it.
+- **Every case study:** ≤2 sentences of customer stakes (rank, scale, revenue) → problem/competition → Bruce's actions (bullets) → four labeled impact types → evidence pointer.
+- **Report setbacks in the same flat voice as wins** — the gold-standard package does this repeatedly and it is what makes the wins credible.
 - **Date floor:** Aug 1, 2020 except exec thru-narrative
 - Active verbs; separate **financial / competitive / strategic / customer** impact where possible
 - Mark unverified claims: `[verify]` or `[pending finance validation]`

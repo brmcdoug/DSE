@@ -14,7 +14,7 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 - [ ] **Aggregate headline number** for exec summary (finance-approved ASP+Web total)
 - [ ] **Direct Leader Recommendation(s)** — Brook Crossman (ASP/Web, ~5 yrs) and/or **Matt Gillies** (Global, from Jun 2026); edit [02-direct-leader-recommendation.md](./02-direct-leader-recommendation.md). LoR typically same letter or co-authored w/ **John Dorval** / **Tim Carnes**
 - [ ] **[Brook] 2HFY26 Talent Assessment** — manager section when cycle closes
-- [ ] **Sponsorship table** — [08-sponsorship.md](./08-sponsorship.md)
+- [ ] **Sponsorship** — [08-sponsorship.md](./08-sponsorship.md) restructured Aug 2026 (package table + priority list + tracker). Blocking: **prioritize capped categories** (BE/Sales/Customer each have 2–3× the Kit target); **verify "Former Cisco" list** — several may still be at Cisco; **reconcile name spellings**; quantify global DSE headcount for the ">50%" claim; convert **James Munroe** volunteered testimonial → LoR
 
 ---
 
@@ -28,14 +28,32 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 - [ ] **MSFT/OCI SRv6-for-AI** — document **FY2027 TAM** projection (competitor hardware deployments validate architecture; Cisco late to market)
 - [ ] **Akamai** — follow up on SRv6 L3VPN controller POC status (redirect-to-scrubber demo)
 
+### Business Impact case studies (new — Aug 2026 drafting pass)
+- [ ] **Microsoft stakes opener** — confirm Azure scale / Fortune rank figures before final PDF
+- [ ] **OCP Summit 2026** — confirm SRv6 multi-tenant AI fabric co-presentation was delivered
+- [ ] **Oracle public blog (2026)** — add URL citing SRv6 static routing for MRC (strong external validation)
+- [ ] **FY2027 TAM recovery projection** — SRv6-for-AI, Microsoft + Oracle (finance)
+- [ ] **Meta BBF / RBB** — validate ~$300M over two years and ~$350M/yr RBB pipeline
+- [ ] **Salesforce $38M A9K/Juniper displacement (2022)** — confirm ASP+Web classification, or route to Global Impact
+- [ ] **CoreWeave FY27–29 projections** — validate $150M/$245M FY27 and $400M/$600M FY28–29 with finance (largest unvalidated forward number in the section)
+- [ ] **Bell Canada cumulative $** — finance validate; C8231-G2 500-unit order value
+- [ ] **Akamai revenue** — no figure at all currently; confirm whether any is attributable
+- [ ] **Akamai redirect-to-scrubber controller** — production status with account team (strongest host-networking customer proof point)
+- [ ] **AWS Q1FY23 VP-level silicon recognition** — confirm and attach $
+- [ ] **Verizon Project Yukon / service-chain $** — quantify
+- [ ] **Digital Realty** — confirm ASP+Web vs Global Impact assignment (currently drafted in both)
+
 ### Career, awards, IP
-- [ ] **Patents / CPOLs** — reconcile counts; add CPOL portal links ([07-innovation.md](./07-innovation.md))
+- [ ] **Patents / CPOLs** — **counts corrected upward:** tables yield **36 lifetime disclosures / 24 since Aug 2020 / 9 approved**, vs. "18 total" in prior notes. Still needed: issued-vs-pending split per filing, CPOL portal links, and confirmation that no filing is described as an issued patent ([07-innovation.md](./07-innovation.md))
+- [ ] **Policy Plane** — PM attribution; Carlos Pereira / OTel influence confirmation; publication ("need to publish" per MOC)
+- [ ] **SONiC + Cisco Secure Workload** — productization status after Jan–Feb 2026 follow-ons
+- [ ] **GitHub-first CL labs** — SGM stats on how many ILTs now use the model (quantifies the innovation)
 - [ ] **Pearson course** — catalog link/title for Russ White co-developed 4-hour lab course
 
 ### Customer / engagement gaps
 - [ ] Softbank, Telstra, Swisscom, Telia, Iliad — confirm post-2020 outcomes or remove from lists
 - [ ] **Adobe / Dan Stacks** — testimonial on Cilium EGW/LB impact
-- [ ] **Nacho** — panel decision outcome
+- [x] **Ignacio (“Nacho”) Sanchez** — promoted to PSE (Jun 2026)
 
 ---
 
@@ -43,13 +61,13 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 
 | Section | Open work |
 | :--- | :--- |
-| [03-global-impact.md](./03-global-impact.md) | Finance $; Applied Digital / Digital Realty assignment clarity |
-| [04-span-of-influence.md](./04-span-of-influence.md) | SD-WAN/SSE PM quotes; Policy Plane / Carlos Pereira OTel; Will Etherton report; extend peer table |
-| [05-industry-impact.md](./05-industry-impact.md) | Refresh srv6-labs metrics; NANOG/OCP URLs/dates; MPLS-WC 2023 session titles |
+| [03-global-impact.md](./03-global-impact.md) | **Drafted Aug 2026.** Remaining: finance $ (Geico, Honeywell, Adobe, Fiserv, Evroc); Adobe/Dan Stacks testimonial; MTN/DU figures via Sanjay Nanda; Province of NB quote or LoR; **page-budget decision — section runs 4–5pp vs. 7pp README target** |
+| [04-span-of-influence.md](./04-span-of-influence.md) | **Drafted Aug 2026.** Remaining: SD-WAN/SSE PM quotes; Policy Plane / Carlos Pereira OTel; Will Etherton report; confirm **$500M Edgecore leakage** figure is quotable; confirm VP citations (Knipp, Dorval, Morrissey) attributable by name |
+| [05-industry-impact.md](./05-industry-impact.md) | **Drafted Aug 2026** (page target corrected 5–6 → 3 per README). Remaining: refresh srv6-labs metrics; OCP URLs/dates + confirm 2026 session delivered; MPLS-WC 2023 session titles (confirm Bell/Verizon/Rakuten attribution quotable); Pearson catalog link; **confirm `draft-srv6ops-addressing-guidelines` status and co-editors** |
 | [06-business-impact.md](./06-business-impact.md) | Revenue placeholders; FY2027 TAM |
 | [07-innovation.md](./07-innovation.md) | CPOL links; Policy Plane publication |
-| [09-personal-development.md](./09-personal-development.md) | OCP 2026; Nacho outcome; Akamai follow-up |
-| [10-se-community-leadership.md](./10-se-community-leadership.md) | Tech Elevate scores; P5G SDWAN & SL-OnDemand outcomes; Luciano / Stacks outcomes; **PSE log `[verify]` rows** (attendee counts, revenue checks) |
+| [09-personal-development.md](./09-personal-development.md) | OCP 2026; Akamai follow-up |
+| [10-se-community-leadership.md](./10-se-community-leadership.md) | **Drafted Aug 2026** (leads with **6 PSE promotions**). Remaining: Tech Elevate session list/scores/counts; **GitHub-first CL lab adoption count from SGM**; DCN Champions bootcamp metrics; IMI VT scores (Alex Lanin); P5G SDWAN & SL-OnDemand outcomes; **Kaliwoda quote or LoR** |
 | **PSE-time-log.csv** | Full-fidelity 2024+ rows + Notes; May–Jun 2026 entries added |
 
 ---
@@ -72,6 +90,19 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 
 ## Done
 
+- [x] **Voice calibration pass** (Aug 2026) — [voice-guide.md](./voice-guide.md) created from Brenden PDF + `about-me/`; AGENTS.md writing conventions, page budget, section order, and canonical exec file reconciled; README links fixed
+- [x] **Business Impact — full section drafted** (Aug 2026): 9 flagship case studies + 16 short-form entries, impact-ordered, summary table rebuilt
+- [x] **Innovation — full section drafted** (Aug 2026): 8 flagship innovations on Customer Problem / Solution / Business Impact template + IP narrative
+- [x] **Span of Influence — full section drafted** (Aug 2026): 5 themes, before/after expansion table, signature-themes close with outcomes attached
+- [x] **Industry Impact — full section drafted** (Aug 2026): MRC authorship boundary stated explicitly; IETF draft-editor role and SONiC "industry first" elevated
+- [x] **Global Impact — full section drafted** (Aug 2026): restructured by expansion pattern; "field multiplier" chapter added for impact without customer contact
+- [x] **SE Community Leadership — full section drafted** (Aug 2026): leads with **6 PSE promotions**; Kaliwoda second-order multiplier promoted to full narrative; "Programs Bruce Built" chapter added
+- [x] **All six body sections drafted** — ~22,200 words / ~34 pages
+- [x] **Personal Development drafted** (Aug 2026) — compressed to ~1.5pp; **development areas named directly with actions taken** (exec communication; filtering/delegation)
+- [x] **Sponsorship restructured** (Aug 2026) — package table, priority-letter recommendations tied to specific claims, solicitation tracker by category
+- [ ] **Executive Overview rewrite** — [01-exec-summary-draft.md](./01-exec-summary-draft.md) against finished bodies (**draft last**)
+- [ ] **Direct Leader Recommendation** — [02-direct-leader-recommendation.md](./02-direct-leader-recommendation.md); draft the brief Brook/Matt work from
+- [x] **Digital Realty assignment resolved** → Business Impact (removed from Global Impact and exec summary)
 - [x] Align exec summary with [AGENTS.md](./AGENTS.md) segment rules
 - [x] Harvest body sections 03–07, 09–10
 - [x] Integrate Talent Assessments 1HFY24–1HFY26 (Brook comments)
@@ -86,10 +117,13 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 - [x] **Pearson** → 4-hour Russ White lab course (not a book)
 - [x] **Education:** BA, University of Washington (1996)
 - [x] **Phoenix Wing** scope clarified (Alibaba-led; Bruce = Cisco SRv6/SONiC engineering partner)
-- [x] PDP: exec coach, Conversational Intelligence, SRF sessions, MRC (replaces Ultra Ethernet), Adobe Cilium POC, Nacho through panel
+- [x] PDP: exec coach, Conversational Intelligence, SRF sessions, MRC (replaces Ultra Ethernet), Adobe Cilium POC, **Nacho promoted to PSE (Jun 2026)**
 - [x] DLR Cilium/SRv6 POC + Akamai controller demo (Jalapeno item reframed)
 - [x] **Virginia Teixeira** spelling confirmed
 - [x] **PSE time log third pass** — full 2024+ Notes integrated into CSV + section narratives (Jun 7 2026)
+- [x] **Span of Influence** — thematic restructure (5 chapters, Jun 2026)
+- [x] **Industry Impact** — thematic restructure (5 chapters, Jun 2026)
+- [x] **Patent wording** — “patent application” → “patent” in exec + innovation CPOL table
 
 ---
 

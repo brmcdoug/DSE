@@ -1,0 +1,191 @@
+﻿Date,Strengths,Value,Loves,Loathes,Needs,Priorities
+6/29/2026,5,5,"Delivered SRv6/MRC tutorial at the Web Sales Edge training in SJ: 70-80 attendees in person, another 50-60 on webex. A3PO/Jalapeno/knowledge-graphs demo w/Josh Merrill for Verizon. Evroc and Megaport conversations with Johan G. Learned that Fiserv is planning to go SRv6 (I presented on SRv6 E2E to them a couple months ago).  Also helped Skyler find an apartment in Campbell CA for her move later this summer!",,"The SRv6 team is planning an operator workshop in Barcelona in Sept. Oracle and MSFT will have folks there. I'm hoping to get Coreweave, Evroc, Megaport, and possibly Fiserv and RiotGames to send someone.  Can I go ahead and book travel? Most likely I'll present on MRC and/or Host-Based SRv6.","MSFT & OCI SRv6 engagements"
+6/22/2026,,,"Had a great chat with Chuck D about OS convergence. Coreweave sync up with Bob Gisiger. Lunch with MSFT architect designing SRv6 multi-tenancy for AI backend. Prepped MRC/SRv6 PPT and demo for next week's Web SE training.",,,"MSFT & OCI SRv6 engagements"
+6/15/2026,5,5,"Am getting congrats across the board about the move! Cranking aware on Coreweave/MSFT/OCI data center/AI/SRv6 efforts. Getting re-plugged in with Evroc. Working with Brian Shlisky to POC Tetragon on SONiC (Live Protect as sonic differentiator for us at places like IBM or Liberty Mutual)",,"Clarence and team are putting together a 2-day SRv6 customer workshop in September in Barcelona. Am going to try and get one or more folks from Microsoft, Oracle, Coreweave, etc. to go. Mind if I go as well?","Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+6/8/2026,,,"CL - sessions, MTEs, hanging with good friends...great week!",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+6/1/2026,5,5,"I built an MRC simulator tool and mostly got my sh** together for CLUS. Also Nacho had his panel interview...I was more nervous for that than I was for my own panel interview a few years back",,"At least one cheers at RiRa!","Be the company's MRC SME
+
+Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+5/25/2026,5,5,"SR consulting with Riot Games, continued SRv6 design discussion with MSFT folks. MRC simulator works for allreduce-ring simulation, but hitting probe/perf limits with all-to-all sim. Recorded a session with Josh (almost like a fake podcast) where he'll feed the audio and our very rough slides to Circuit to create a new, polished preso and whitepaper on project Glue/SRv6/SGT.",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+5/18/2026,5,5,"Building an MRC/SRv6 simulation tool that operates over a 4-plane 8x16 sonic cluster. Shared SRv6 multi-tenancy paper with OCI and MSFT with positive feedback.",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+5/11/2026,5,5,"Built scaled 4-plane version of the SRv6 AI fabric POCs for both MSFT and Oracle. If time allows will add it to our Cisco Live lab",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+5/4/2026,5,5,"Built a scaled sonic srv6 frontend DC POC for Microsoft - first rev had 11 nodes, scaled rev has 68 nodes and automation to test/validate the key srv6 tunnel backups use case. Shared Multi-Tenant SRv6 AI Backend design with the team, and with MSFT and Oracle; good feedback, agreement with the framing and security discussion, etc.. Have built accompanying POCs for both MSFT and OCI that explore the scenarios outlined in the paper.",,"My (and the team's) todo list includes ""build a snappy AI demo for execs""...I gave you a quick look at ""syd"" last week, would an integration of that with Marty's setup do the trick?","Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+4/27/2026,5,5,"Continued building! Presented multi-tenant SRv6 design for AI backend to internal SR team. Will share w/MSFT and OCI this week. Restarted Polarfly-SRv6 topology research/feasibility project with Christian Martin.",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+4/20/2026,5,5,"Building stuff for MSFT and Oracle is fun! I also rebuilt Jalapeno over a couple weekends...I haven't solved the N*(N-1)/2 scaling problem - aka, its current architecture won't support anything more than a small fabric, but the demo/UI is snappy :) ... happy to show it to you anytime. Marty and I have a todo item to get together and figure out how to integrate his and my stuff for the overall AI demonstrator",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+4/13/2026,5,5,"Continued SRv6 work with Oracle and MSFT - now working with both DC frontend and backend folks at MSFT. Delivered containerlab sonic POC to Oracle. Almost done with SRv6 multi-tenancy whitepaper.",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+4/6/2026,5,5,"Cranking away on MSFT SRv6 frontend DC POCs - running two in parallel, one for Mohan/NetEng in Virginia, other for SONiC devs in the Bay. Also hosted a very well received SRv6 Part2 education session for Oracle NetEng/developers",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+3/30/2026,5,5,"Things are busy, but its all fun busy! Built out multiple sonic SRv6 scenarios for MSFT, building a couple VXR/containerlab scenarios for Coreweave. Sonic training for Web coming up. CLUS is rapidly approaching...",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+3/16/2026,5,5,"No real milestones last week, chugging away at MSFT and OCI. Worked on DSE package outline.",,"Jag, Dave, Marty and I were assigned ownership of a couple BE Interlock slides for an effort Anne S is running for Matt. I owned the Web/AI slide. In it we highlighted that Scale-up is a massive and growing market and that are woefully missing out. However, the problem is worse than that...as the scale-up domain increases (NVL72, NVL144, NVL576) it directly cannibalizes scale out. Example: 8-GPU hosts can operate with a single-tier fabric until the GPU count hits 2049, at that point the fabric needs a spine layer. NVL72 can operate with a single-tier fabric up to 18432 GPUs before a spine is introduced. NVL576 won't need a spine till after 148k GPUs. There are pockets within Cisco that understand this dynamic (certainly KW, etc.). I hope the ELT understands it and is investing accordingly. Do you know?","Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+3/9/2026,5,5,"SONiC SE workshop planning. Working with Nick Sischo to get SRv6 engagement going at Google...at long last :)",,"Full transparency, I've been invited to join Matt Gillies' team as he's looking to add an SP/Web person and a Splunk person. I'm torn. Its definitely a good opportunity, but I'm not sure its a great opportunity. And my two stints being on your team have been the two best stints of my career; and the place I'm at now may be the best possible place for me. Can we chat about it in our 1:1 today?","Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+3/2/2026,5,5,"MSFT frontend SRv6 design/use case. Getting closer on AI-demonstrator project. Coreweave EBC and previewing what we can do for sonic simulation with VXR and containerlab.",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+2/23/2026,5,5,"Modeling a new frontend DC SRv6 use case for Microsoft. Prep for Coreweave EBC and handing over VXR simulators for both XR and SONiC",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+2/16/2026,5,5,"Cisco live lab went beautifully. 
+Had a great time meeting up with customers, friends, etc.",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+2/9/2026,5,5,"Pulled an all-nighter to watch the (glorious) Superbowl in Amsterdam!",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+2/2/2026,5,5,"Finishing up CLEU lab with Rob and Nico. SRv6 and Graph theory stuff with Josh.",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+1/26/2026,5,5,"OCI workshop and SRv6 brainstorming over dinner. Finished my 'creative' multi-tenant SRv6 design. Jalapeno and graphs work with Josh - getting closer to demo.",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+1/19/2026,5,5,"Cloud native SRv6 brainstorming and workshopping with Boost/Dish. 1/2 day onsite with Oracle and dinner where I got to have a really close conversation with the architects ears on SRv6 for AI backend. They're still coming up to speed on the tech, but continue to sound receptive.",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+1/12/2026,5,5,"Prep for CLEU - our SRv6 ""AI Backend"" is now a 6 sonic node fabric with 3 ""hosts"" running k8s, Cilium on frontend interfaces, Multus for backend interfaces, and loaded with my SRv6 plugin for PyTorch! Will definitely be sharing this broadly within the SE community when I get a chance.",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+1/5/2026,3,3,"Hanging out with the family!",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+12/22/2025,5,5,"The Web holiday gathering at the Seattle office was great. My AI friend and I figured out how to get Multus installed for a Cilium k8s cluster to assign backend NICs to containers...after the new year I'll work with Marty to deploy with actual GPUs & NICs",,"Hope you and the crew have a great holiday!","Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+12/15/2025,5,5,"The Pinnacle award ceremony itself was awesome! Running around SJC and meeting people also awesome. Hosted a very successful SRv6-for-DC workshop with 12-15 in the room and 80+ attendees online.",,"I'll do some brainstorming on the SRv6 / PQC patent idea this week","Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+12/8/2025,5,5,"Organizing SRv6-for-DC workshop. Got Multus working with Cilium for a PyTorch + SRv6 frontend/backend demo/simulation we'll use at Cisco Live and which can be ported to demos/POCs for DLR, AT&T, VZ, hopefully some NeoClouds, and the AI-Demonstrator lab with Marty, Brent, Josh, etc. Will get that OCI multi-tenant design to you later this week.",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+12/1/2025,5,5,"Continued digging into OCI backend SRv6 segmentation/multi-tenancy design. Brainstorming with Lokesh and Joe Rockwell on how to leverage SRv6 for MSFT disagg T2 and RH architectures.",,"If you're around, I'll be in SJ next week for the Pinnacle Awards and am hosting an SRv6 workshop for Bay Area SEs","Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+11/24/2025,5,5,"Still working on OCI SRv6 multi-tenancy. Also digging into MSFT disagg of T2 and RH, and how that changes (hopefully for the better) the SRv6 use case",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+11/17/2025,5,5,"Working on OCI multi-tenant design for SRv6 backend. SRv6/SGT ideas exchange with Darrin Miller, Josh, Craig Hill.  AI technology demonstrator planning w/Marty, Brent, Josh, etc.",,,"Comprehensive SRv6 AI technology demonstrator
+
+MSFT & OCI SRv6 engagements"
+11/10/2025,5,5,"Connecting with DanB from Bell and Brent and the VZ architects at IETF. More graphDB/knowledge-graph scheming with Josh. Another couple CIPOL drafts started. Traveling Air Canada from Vancouver - cheaper flight and no worries about US Govt shutdown :D",,"How does this sound for SRv6 for AI technology demonstrator:
+1. Brief PPT outlining SRv6 as game-changer for use cases (Inference, Training, RPO, cross-domain)
+2. Design options/considerations for each
+3. RPO demo (UI & Cilium CRD options)
+4. Training/fabric demo - PyTorch SRv6 plugin, SONiC
+5. Knowledge graph demo with Josh
+
+Phase 1: using virtual/containerlab and with my PyTorch plugin I pretend to have GPUs, could be ready by end of week
+Phase 2: coordinate with Marty/Chris Olson to demo with real routers, AI-pods, GPU hardware, etc. - sometime after Thanksgiving, but hopefully before shutdown","SRv6 for AI backend fabrics - POC with MSFT and Oracle, determine if its really real
+
+changing this one to be: figure out the ""eBPF as gateway to network value"" demo
+
+Multi-domain traffic self-steering via SRv6"
+11/3/2025,5,5,"RPO/Jalapeno brainstorming with Josh. Continued Cilium-SP lobbying/partnering with MIG.",,,"SRv6 for AI backend fabrics - POC with MSFT and Oracle, determine if its really real
+
+changing this one to be: figure out the ""eBPF as gateway to network value"" demo
+
+Multi-domain traffic self-steering via SRv6"
+10/27/2025,5,5,"Being with the Seattle team for the two-day MIG training/workshop; it felt like an abbreviated SEVT tailored to Web. Met with OCI infra folks and demo'd SONiC SRv6. They asked great questions, and are thinking thru how to do the control architecture. Am hoping we can get multiple followup sessions with them.",,,"SRv6 for AI backend fabrics - POC with MSFT and Oracle, determine if its really real
+
+changing this one to be: figure out the ""eBPF as gateway to network value"" demo
+
+Multi-domain traffic self-steering via SRv6"
+10/13/2025,5,5,"Built and delivered POC/Lab setup to Groq. Worked with Mohan at MSFT on more detailed SRv6-TE design for inter-DC TE. Very successful demo of RPO for the A&T product team.",,"Going to be running around at OCP this week. Have a good one!","SRv6 for AI backend fabrics - POC with MSFT and Oracle, determine if its really real
+
+changing this one to be: figure out the ""eBPF as gateway to network value"" demo
+
+Multi-domain traffic self-steering via SRv6"
+10/6/2025,5,5,"Nice SRv6 workshop debrief with the SR Eng team - captured further Oracle interest including beyond AI backend. Continued Cilium-SP case building. Am developing an SRv6 addressing scheme for MSFT that would minimize overhead for AI backend (and other deployments), including analysis of whether the RoCEv2 header stack might be compress-able...speculative right now, but prob worth a CIPOL if I can work something out :)",,"Will be in SJ for OCP next week if you're around","SRv6 for AI backend fabrics - POC with MSFT and Oracle, determine if its really real
+
+changing this one to be: figure out the ""eBPF as gateway to network value"" demo
+
+Multi-domain traffic self-steering via SRv6"
+9/29/2025,5,5,"MSFT team gathering was awesome; great to see everyone and spend time in person. Working on/thinking thru scaled SRv6 BGP underlay design for MSFT that would be resilient to large scale failures such as conduit breaks. SRv6 vs. Disagg presentation went very well. Developing a Cisco 8000 POC lab for fun startup Groq. POC is running SR/SRv6, and collaborating with Bob G and Marcin K.  Working with Dish/Boost to validate whether Cilium-SRv6 can be a viable replacement for XRd/XRv9k dataplane platforms' EOL",,,"SRv6 for AI backend fabrics - POC with MSFT and Oracle, determine if its really real
+
+changing this one to be: figure out the ""eBPF as gateway to network value"" demo
+
+Multi-domain traffic self-steering via SRv6"
+9/22/2025,5,5,"Co-led a pair of 1/2 day SRv6 workshops with Pablo at MSFT. Cilium SP use case & potential revenue gathering (including MIG pull through) from across the company.",,,"SRv6 for AI backend fabrics - POC with MSFT and Oracle, determine if its really real
+
+changing this one to be: figure out the ""eBPF as gateway to network value"" demo
+
+Multi-domain traffic self-steering via SRv6"
+9/15/2025,5,5,"Gathering Cilium-SP opportunities from across ASP and contacts in Ent/PS/Emea/APJ. SONiC SRv6 update for MSFT.",,,"changing this one to be: figure out the ""eBPF as gateway to network value"" demo
+
+SRv6 for AI backend fabrics - POC with MSFT and Oracle, determine if its really real
+
+Multi-domain traffic self-steering via SRv6"
+9/8/2025,5,5,"Sync'ing up with Lokesh on all things MSFT. Dish/Cilium-SRv6 scoping. Working thru OCI/SONiC config with Shelly.",,,"SRv6 for AI backend fabrics - POC with MSFT and Oracle, determine if its really real
+
+changing this one to be: figure out the ""eBPF as gateway to network value"" demo
+
+Multi-domain traffic self-steering via SRv6"
+9/1/2025,5,5,"Seeing everyone and catching up",,,"SRv6 for AI backend fabrics - POC with MSFT and Oracle, determine if its really real
+
+changing this one to be: figure out the ""eBPF as gateway to network value"" demo
+
+Multi-domain traffic self-steering via SRv6"
+8/25/2025,5,5,"Intro'ing Clarence to Bob G and reviewing NeoCloud potential use cases. Working thru MSFT frontend SRv6 use cases with Mohan.",,"See you in Vegas, yeeehawww!","SRv6 for AI backend fabrics - POC with MSFT and Oracle, determine if its really real
+
+changing this one to be: figure out the ""eBPF as gateway to network value"" demo
+
+Multi-domain traffic self-steering via SRv6"
+8/18/2025,5,5,"OCI prod trial meetings in SJ - OCI confirmed the SRv6 requirement is being driven by OpenAI; huge validation and enough to truly prioritize delivery on G200. Meeting with Groq and disucssing Isovalent. Afternoon gathering with Vahini's team. SONiC lab work for OCI with Shelly",,,"SRv6 for AI backend fabrics - POC with MSFT and Oracle, determine if its really real
+
+changing this one to be: figure out the ""eBPF as gateway to network value"" demo
+
+Multi-domain traffic self-steering via SRv6"
+8/11/2025,5,5,"G200 prod trial meeting with OCI ONOS team. SRv6 + SGT/RPO + Cilium design brainstorms with Josh/Chris Olson",,,"SRv6 for AI backend fabrics - POC with MSFT and Oracle, determine if its really real
+
+changing this one to be: figure out the ""eBPF as gateway to network value"" demo
+
+Multi-domain traffic self-steering via SRv6"
+8/4/2025,5,5,"Delivered to MSFT demo and configs to suit their frontend DC SRv6 use cases - customer was very happy with the progress and hoping we can expand the SRv6 feature set to SONiC at Tier-1.  Oracle AI Backend G200 POC prep with Asoka and team.",,,"SRv6 for AI backend fabrics - POC with MSFT and Oracle, determine if its really real
+
+changing this one to be: figure out the ""eBPF as gateway to network value"" demo
+
+Multi-domain traffic self-steering via SRv6"
+7/28/2025,5,5,"Connecting w/MSFT and OCI teams at the Seattle office. Another great CIPOL brainstorm with Rob.",,"I know this is a tough week with travel and all, but I've been doing some thinking about career path, my ability to impact the business, my compensation, etc. Would like to chat w/you at some point about how the org chart (and my place in it) affects all that.","SRv6 for AI backend fabrics - POC with MSFT and Oracle, determine if its really real
+
+changing this one to be: figure out the ""eBPF as gateway to network value"" demo
+
+Multi-domain traffic self-steering via SRv6"
+7/21/2025,5,5,"MSFT FE SRv6 POC development. Assisting Asoka with standup of his G200 POC for OCI.",,,"SRv6 for AI backend fabrics - POC with MSFT and Oracle, determine if its really real
+
+changing this one to be: figure out the ""eBPF as gateway to network value"" demo
+
+Multi-domain traffic self-steering via SRv6"
+7/14/2025,5,5,"Helped Asoka spin up his SONiC G200 lab for Oracle POC. Internal VZ SONiC discussion. Brainstorm with Brent F. on how to combat DriveNets/disagg.  Routed PON consulting w/Commercial SE Ryan Lake on an opportunity with Lummi Nation north of Seattle. Co-hosted SRF with Rob and Nico Michel.",,,"SRv6 for AI backend fabrics - POC with MSFT and Oracle, determine if its really real
+
+changing this one to be: figure out the ""eBPF as gateway to network value"" demo
+
+Multi-domain traffic self-steering via SRv6"
+7/7/2025,5,5,"Getting to be a judge in John M's Splunk contest - the teams put together some really great projects! Introduced Matt Birkner (newly returned from Intel) to Jalapeno. Caught up with old friend and mentor Phil Kippen (newly returned from VMWare/other)",,"Have a great time in NZ!","SRv6 for AI backend fabrics - POC with MSFT and Oracle, determine if its really real
+
+changing this one to be: figure out the ""eBPF as gateway to network value"" demo
+
+Multi-domain traffic self-steering via SRv6"
