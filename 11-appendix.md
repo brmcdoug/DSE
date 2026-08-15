@@ -1,52 +1,14 @@
 ## Appendix
 
+Supporting detail referenced from the body sections: Cisco awards, and the full Connected Recognition record — both awards Bruce has **given** to colleagues and awards **received**, with verbatim citations.
 
-Cisco Live
-
-CLEU2025
-Lab – full house, overflow participants. Had a couple dcloud-related bugs.   
-Lab score: 4.72  
-Personal score: 4.94 availability, 4.89 technical knowledge  
-4 new linkedin connections  
-3 engineers expressed interest in joining/contributing to Jalapeno open-source community  
-2 engineers expressed "best CL lab I've ever taken!"  
-Iliad, Bechtel engineers expressed interest in further evaluating Cilium-SRv6  
-
-CLEU24 lab: session 4.88, speaker 4.94 
-CLEU23 lab: session 5.0, speaker 5.0 
-
-*Track overflow material here for optional appendix inclusion (page budget ~50 pages).*
-
-| Item | Candidate for appendix |
-| :--- | :--- |
-| Full CLEU score history (2023–2026) | Yes — partial scores in body |
-| Connected Recognition (given + received) | Yes — see below |
-| ASP Lightning Talks program (25th session upcoming) | Yes |
-| Detailed timeline archive (`todo.md`) | Reference only |
-| **PSE time log** (`PSE-time-log.csv`) | Primary harvest source 2020–2023 detail; 2024+ rows in progress |
-| Full CPOL/patent list | Primary in **07-innovation.md**; overflow here if needed |
-| Talent Assessment PDF extracts | Source in `./talent-assessment/` |
+Cisco Live instructor-led lab and session scores (2023–2026) are tabulated in the **SE Community Leadership** section. Semiannual talent assessments are summarized in **Personal Development**; source PDFs are in the external SharePoint repository.
 
 ---
 
-## Talent Assessments *(manager: Brook Crossman)*
-
-PDFs in `./talent-assessment/`; text extracts in `./talent-assessment/extracted/`. Integrated into package **June 7, 2026**.
-
-| Assessment | Period | Manager comments | Integrated into |
-| :--- | :--- | :--- | :--- |
-| 1HFY24 | May–Nov 2023 | Yes | [02-direct-leader-recommendation.md](./02-direct-leader-recommendation.md), [10-se-community-leadership.md](./10-se-community-leadership.md) |
-| 2HFY24 | Feb–Jul 2024 | Yes | [02](./02-direct-leader-recommendation.md), [03-global-impact.md](./03-global-impact.md), [07-innovation.md](./07-innovation.md), [09-personal-development.md](./09-personal-development.md) |
-| 1HFY25 | Jul 2024–Jan 2025 | Yes | [02](./02-direct-leader-recommendation.md), [09-personal-development.md](./09-personal-development.md), [10-se-community-leadership.md](./10-se-community-leadership.md) |
-| 2HFY25 | Feb–Jul 2025 | Yes | [02](./02-direct-leader-recommendation.md), [07-innovation.md](./07-innovation.md), [09](./09-personal-development.md), [10](./10-se-community-leadership.md) |
-| 1HFY26 | Jul 2025–Jan 2026 | Yes | [01-exec-summary-draft.md](./01-exec-summary-draft.md), [02](./02-direct-leader-recommendation.md), [04-span-of-influence.md](./04-span-of-influence.md), [07-innovation.md](./07-innovation.md) |
-| 2HFY26 | Jan–Jul 2026 | **Pending** | Employee sections empty in export; await Brook |
-
-**Not duplicated here:** Full employee self-assessment text lives in PDFs; package files cite outcomes only.
-
 ## Connected Recognition Awards
 
-*Exported from Cisco Connected Recognition. Most recent first. Source export: [awards-and-recognition/readme.md](./awards-and-recognition/readme.md).*
+*Exported from Cisco Connected Recognition. Most recent first.*
 
 ### Cisco awards (beyond Connected Recognition)
 
@@ -54,76 +16,78 @@ PDFs in `./talent-assessment/`; text extracts in `./talent-assessment/extracted/
 | :--- | :--- | :--- |
 | 2025 | **Pinnacle Award** | SRv6 uSID — technical depth and teamwork; cited in [02-direct-leader-recommendation.md](./02-direct-leader-recommendation.md) |
 
-### People I have recognized
+### Recognition given to colleagues
 
-| Date | Award type | Recipient | Status | Award amount | Action |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Feb 25, 2026 | You Inspire 4 | Wai Joe-Myint | Approved | USD 175 | View |
-| Sep 18, 2025 | You Inspire 3 | Dongling Duan | Approved | USD 100 | View |
-| Apr 11, 2025 | You Inspire 4 | Jen Tyler | Approved | USD 175 | View |
-| Nov 22, 2024 | You Inspire 4 | Nicolas Michel | Approved | USD 175 | View |
-| May 13, 2024 | You Inspire 3 | Kamran Raza | Approved | CAD 120 | View |
-| Apr 22, 2024 | You Inspire 3 | Nicolas Michel | Approved | USD 100 | View |
-| Apr 22, 2024 | You Inspire 3 | Jeremy Moschner | Approved | USD 100 | View |
-| Jul 21, 2023 | You Inspire 3 | Sadiq Yakasai | Approved | GBP 80 | View |
-| Jul 21, 2023 | You Inspire 3 | Hernan Contreras | Approved | CLP 59000 | View |
-| Jul 21, 2023 | You Inspire 4 | Rafal Skorka | Approved | USD 175 | View |
-| Jun 16, 2023 | Recognition Challenge | Pablo Camarillo | Approved | EUR 20 | View |
-| Jun 16, 2023 | Recognition Challenge | Michel Le Vieux | Approved | AUD 36 | View |
-| Feb 3, 2023 | You Inspire 4 | Kamran Raza | Approved | CAD 190 | View |
-| Feb 3, 2023 | You Inspire 4 | Arnis Slempers | Approved | CAD 190 | View |
-| Feb 3, 2023 | You Inspire 4 | Kevin Echols II | Approved | USD 175 | View |
-| Nov 23, 2022 | You Inspire 3 | Vijaya Laxmi | Approved | USD 100 | View |
-| Nov 23, 2022 | You Inspire 3 | Masiuddin Mohammed | Approved | USD 100 | View |
-| Nov 23, 2022 | You Inspire 3 | Rodney Moodley | Approved | USD 100 | View |
-| Jan 21, 2022 | You Inspire 3 | Aaron Millisor | Approved | USD 100 | View |
-| Jan 21, 2022 | You Inspire 3 | Mohit Vashisht | Approved | USD 100 | View |
-| Jan 21, 2022 | You Inspire 3 | Vijaya Laxmi | Approved | USD 100 | View |
-| Jan 8, 2021 | You Amaze 2 | Serguei Bezverkhi | Approved | CAD 500 | View |
+*Bruce has issued **22** Connected Recognition awards to peers across Cisco and partner teams since 2021 — unprompted recognition of others' work, and the most direct evidence of the collaborative record described in the body sections.*
+
+| Date | Award type | Recipient | Value |
+| :--- | :--- | :--- | ---: |
+| Feb 25, 2026 | You Inspire 4 | Wai Joe-Myint | USD 175 |
+| Sep 18, 2025 | You Inspire 3 | Dongling Duan | USD 100 |
+| Apr 11, 2025 | You Inspire 4 | Jen Tyler | USD 175 |
+| Nov 22, 2024 | You Inspire 4 | Nicolas Michel | USD 175 |
+| May 13, 2024 | You Inspire 3 | Kamran Raza | CAD 120 |
+| Apr 22, 2024 | You Inspire 3 | Nicolas Michel | USD 100 |
+| Apr 22, 2024 | You Inspire 3 | Jeremy Moschner | USD 100 |
+| Jul 21, 2023 | You Inspire 3 | Sadiq Yakasai | GBP 80 |
+| Jul 21, 2023 | You Inspire 3 | Hernan Contreras | CLP 59000 |
+| Jul 21, 2023 | You Inspire 4 | Rafal Skorka | USD 175 |
+| Jun 16, 2023 | Recognition Challenge | Pablo Camarillo | EUR 20 |
+| Jun 16, 2023 | Recognition Challenge | Michel Le Vieux | AUD 36 |
+| Feb 3, 2023 | You Inspire 4 | Kamran Raza | CAD 190 |
+| Feb 3, 2023 | You Inspire 4 | Arnis Slempers | CAD 190 |
+| Feb 3, 2023 | You Inspire 4 | Kevin Echols II | USD 175 |
+| Nov 23, 2022 | You Inspire 3 | Vijaya Laxmi | USD 100 |
+| Nov 23, 2022 | You Inspire 3 | Masiuddin Mohammed | USD 100 |
+| Nov 23, 2022 | You Inspire 3 | Rodney Moodley | USD 100 |
+| Jan 21, 2022 | You Inspire 3 | Aaron Millisor | USD 100 |
+| Jan 21, 2022 | You Inspire 3 | Mohit Vashisht | USD 100 |
+| Jan 21, 2022 | You Inspire 3 | Vijaya Laxmi | USD 100 |
+| Jan 8, 2021 | You Amaze 2 | Serguei Bezverkhi | CAD 500 |
 
 ### Awards received (Bruce McDougall)
 
-*Current value = balance at export. PSE period (Aug 2020–present): **37** awards, **USD 15,900** initial value.*
+*PSE period (Aug 2020 – present): **37** awards received, **USD 15,900** total initial value.*
 
-| Date | Award type | Award ID | Initial value | Current value |
-| :--- | :--- | :--- | ---: | ---: |
-| Jul 15, 2026 | You Inspire 3 | 7QSW-TWQZCS-MZCCKK | USD 100 | USD 0 |
-| Jun 9, 2026 | You Inspire 1 | HF59-7K95MR-HYZCR4 | USD 25 | USD 0 |
-| Oct 7, 2025 | You Inspire 5 | LKJZ-F9JCD6-QDWDQ9 | USD 250 | USD 0 |
-| Sep 2, 2025 | You Inspire 2 | RWWD-KP42KG-XC253C | USD 50 | USD 0 |
-| Jul 23, 2025 | You Inspire 3 | 2DCC-C378KH-4HCMVJ | USD 100 | USD 0 |
-| Jul 17, 2025 | You Inspire 3 | JM8C-8FQQ2R-BGQPBD | USD 100 | USD 0 |
-| Jul 15, 2025 | You Amaze 1 | GHVG-CM2ZQY-QDFWC4 | USD 500 | — |
-| May 9, 2025 | Recognition Challenge | C8B4-ZZD32J-VFMSCC | USD 25 | USD 0 |
-| May 6, 2025 | Recognition Challenge | HCDW-JQCJ7V-Z7NQ6B | USD 25 | USD 0 |
-| Feb 20, 2025 | You Amaze 1 | 4BP7-NZRQZV-PZ7JJT | USD 500 | — |
-| Nov 6, 2024 | You Inspire 4 | WZ76-M86D4M-QXZ6WB | USD 175 | USD 0 |
-| Jul 23, 2024 | You Amaze 1 | LQ37-9W7HPZ-3ZFD2G | USD 500 | — |
-| Jun 25, 2024 | You Inspire 5 | JCZ8-2P7JVM-GBRLRZ | USD 250 | USD 0 |
-| May 28, 2024 | You Inspire 5 | B6WM-R3C9XW-WWG483 | USD 250 | USD 0 |
-| Apr 27, 2024 | You Inspire 3 | H2T6-RQQX8T-6PMWBD | USD 100 | USD 0 |
-| Apr 26, 2024 | You Inspire 3 | ZDXD-VXRXFZ-4GC2ZQ | USD 100 | USD 0 |
-| Apr 26, 2024 | You Amaze 1 | CGMT-DPQBTW-H5K4LK | USD 500 | — |
-| Apr 3, 2024 | You Inspire 5 | J2CM-QK3VCW-RJY72R | USD 250 | USD 0 |
-| Apr 2, 2024 | You Inspire 3 | 3WWZ-RXHMNF-YHDSV4 | USD 100 | USD 0 |
-| Feb 6, 2024 | You Inspire 4 | QWTF-5KSX52-ZWSDRC | USD 175 | USD 0 |
-| Jul 10, 2023 | You Inspire 2 | 4K7Z-QDY3SL-ZXSHZM | USD 50 | USD 0 |
-| Feb 17, 2023 | You Inspire 4 | RCXY-FFZDQ3-6CSMGK | USD 175 | USD 0 |
-| Dec 19, 2022 | You Inspire 5 | XRV6-66S9DQ-JH29TH | USD 250 | USD 0 |
-| Nov 25, 2022 | 15 Years of Service | WLC3-YHXRKS-JHXPMW | USD 250 | USD 0 |
-| Oct 25, 2022 | You Inspire 3 | RXKD-4B6QRR-RQB4ZD | USD 100 | USD 0 |
-| Oct 25, 2022 | You Inspire 5 | BMKR-YQR4DR-9XPLZW | USD 250 | USD 0 |
-| Oct 13, 2022 | You Inspire 2 | N6ZV-RV7LXR-52RMDJ | USD 50 | USD 0 |
-| Jul 28, 2022 | You Amaze 1 | RWFP-NHZYDQ-CQCT2X | USD 250 | USD 0 |
-| Jul 20, 2022 | You Amaze 1 | F86F-SFD8PK-KLKQ4P | USD 250 | USD 0 |
-| Jul 18, 2022 | You Accelerate 3 | P57T-8DGP4K-4BXW2R | USD 3000 | — |
-| Jun 14, 2022 | You Inspire 3 | TQT7-Z9NZWM-ZRCZ4W | USD 100 | USD 0 |
-| Jul 16, 2021 | You Amaze 1 | — | USD 250 | USD 0 |
-| Apr 7, 2021 | You Accelerate 4 | — | USD 5000 | — |
-| Jan 29, 2021 | You Amaze 2 | — | USD 500 | USD 0 |
-| Dec 17, 2020 | You Inspire 3 | — | USD 100 | USD 0 |
-| Dec 4, 2020 | You Amaze 3 | — | USD 1000 | USD 0 |
-| Nov 17, 2020 | You Amaze 1 | — | USD 250 | USD 0 |
+| Date | Award type | Value |
+| :--- | :--- | ---: |
+| Jul 15, 2026 | You Inspire 3 | USD 100 |
+| Jun 9, 2026 | You Inspire 1 | USD 25 |
+| Oct 7, 2025 | You Inspire 5 | USD 250 |
+| Sep 2, 2025 | You Inspire 2 | USD 50 |
+| Jul 23, 2025 | You Inspire 3 | USD 100 |
+| Jul 17, 2025 | You Inspire 3 | USD 100 |
+| Jul 15, 2025 | You Amaze 1 | USD 500 |
+| May 9, 2025 | Recognition Challenge | USD 25 |
+| May 6, 2025 | Recognition Challenge | USD 25 |
+| Feb 20, 2025 | You Amaze 1 | USD 500 |
+| Nov 6, 2024 | You Inspire 4 | USD 175 |
+| Jul 23, 2024 | You Amaze 1 | USD 500 |
+| Jun 25, 2024 | You Inspire 5 | USD 250 |
+| May 28, 2024 | You Inspire 5 | USD 250 |
+| Apr 27, 2024 | You Inspire 3 | USD 100 |
+| Apr 26, 2024 | You Inspire 3 | USD 100 |
+| Apr 26, 2024 | You Amaze 1 | USD 500 |
+| Apr 3, 2024 | You Inspire 5 | USD 250 |
+| Apr 2, 2024 | You Inspire 3 | USD 100 |
+| Feb 6, 2024 | You Inspire 4 | USD 175 |
+| Jul 10, 2023 | You Inspire 2 | USD 50 |
+| Feb 17, 2023 | You Inspire 4 | USD 175 |
+| Dec 19, 2022 | You Inspire 5 | USD 250 |
+| Nov 25, 2022 | 15 Years of Service | USD 250 |
+| Oct 25, 2022 | You Inspire 3 | USD 100 |
+| Oct 25, 2022 | You Inspire 5 | USD 250 |
+| Oct 13, 2022 | You Inspire 2 | USD 50 |
+| Jul 28, 2022 | You Amaze 1 | USD 250 |
+| Jul 20, 2022 | You Amaze 1 | USD 250 |
+| Jul 18, 2022 | You Accelerate 3 | USD 3000 |
+| Jun 14, 2022 | You Inspire 3 | USD 100 |
+| Jul 16, 2021 | You Amaze 1 | USD 250 |
+| Apr 7, 2021 | You Accelerate 4 | USD 5000 |
+| Jan 29, 2021 | You Amaze 2 | USD 500 |
+| Dec 17, 2020 | You Inspire 3 | USD 100 |
+| Dec 4, 2020 | You Amaze 3 | USD 1000 |
+| Nov 17, 2020 | You Amaze 1 | USD 250 |
 
 **Summary by type (PSE period, Aug 2020–present):**
 
@@ -138,7 +102,7 @@ PDFs in `./talent-assessment/`; text extracts in `./talent-assessment/extracted/
 
 ### Connected Recognition quotes (received)
 
-*Verbatim from Cisco Connected Recognition exports. Source: [awards-and-recognition/quotes.md](./awards-and-recognition/quotes.md). Most recent first. One entry (Jun 2020) predates PSE promotion (Aug 2020) — retained for career context.*
+*Verbatim from Cisco Connected Recognition exports. Most recent first. One entry (Jun 2020) predates PSE promotion (Aug 2020) — retained for career context.*
 
 | Date | Award type | Visibility | From | Subject | Quote |
 | :--- | :--- | :--- | :--- | :--- | :--- |

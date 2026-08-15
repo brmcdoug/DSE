@@ -97,7 +97,7 @@ Bruce’s industry impact extends beyond Cisco account boundaries through **open
 - **Open source:** Admin/curator of [github.com/segmentrouting](https://github.com/segmentrouting) and [srv6-labs](https://github.com/segmentrouting/srv6-labs) (Dec 2023; ~38K LinkedIn views Jan 2024 `[verify current]`); [cisco-open/jalapeno](https://github.com/cisco-open/jalapeno); [srv6-mrc-emulator](https://github.com/segmentrouting/srv6-mrc-emulator). Extended by engineers at Verizon, Oracle, and others.
 - **Conferences & speaking:** Cisco Live ILT/breakouts/panels (**5.0** scores; **Distinguished Speaker** CLEU 2023); MPLS World Congress operator community (2023); **OCP Summit 2026** (planned, multi-tenant AI fabric); SRv6 operator roadshow (Dec 2025); Pour-Man's Networking podcast (May 2022).
 - **Publications:** [segment-routing.net SRv6 uSID on SONiC](https://www.segment-routing.net/blogs/srv6-usid-on-sonic/); Cisco SP360 blogs; ipspace.net citation of srv6-labs; May 2023 SRv6-on-SONiC blog.
-- **Pearson training — “open-source labbing”:** 4-hour course co-developed with Russ White; delivered live twice to hundreds of engineers around the world; recordings in the Pearson catalog.
+- **O'Reilly training — *Open Source Labbing*:** 4-hour course co-developed with Russ White; delivered live twice to hundreds of engineers around the world; recordings in the O'Reilly catalog.
 - **Industry alignment:** **MRC+SRv6** in OpenAI/Microsoft/NVIDIA/Broadcom/AMD and Oracle Acceleron materials; multi-vendor SONiC uSID narrative; IETF Vancouver 2024 — *“the 2030 guys”* (Ianik Semko).
 - **Thought-leadership arc (exec thru-line):** Host-based Segment Routing CIPOL (2015), elephant-flow balancer proposal (2016), Jalapeño & re-thinking SDN (APIs and databases rather than protocols), and srv6-labs—converging with tier-1 AI fabric designs in 2024–2026.
 
@@ -107,7 +107,7 @@ Bruce’s industry impact extends beyond Cisco account boundaries through **open
 
 ## Business Impact Summary
 
-Bruce has helped build and mentor a **senior team of grade-12 SEs** leading hyperscale production network engagements across data center (frontend and backend), DCI, metro, cloud direct connect, and WAN/backbone architectures. These are multiyear **co-development partnerships**, not transactional sales cycles: Bruce trains teams on architectures and technologies that do not yet exist in product form, giving them confidence to co-develop with customers until the revenue pipeline matures.
+Bruce has helped build and mentor a **senior team of grade-12 SEs** leading hyperscale production network engagements across data center (frontend and backend), DCI, metro, cloud direct connect, and WAN/backbone architectures. These are multiyear **co-development partnerships**, not transactional sales cycles: Bruce trains teams on architectures and capabilities before they ship on Cisco platforms, giving them confidence to co-develop with customers until the revenue pipeline matures.
 
 ### Finance-validated Web/Hyperscale segment bookings *(2022–2026)*
 
@@ -225,12 +225,12 @@ Promoting to Distinguished Systems Engineer would be the formal recognition of w
 
 When I prepared my PSE package, I realized the architectures I cared about could alter Cisco’s trajectory — and the networking industry’s. That is still my goal: networks should be a delight to the operators and applications that depend on them, not a snowflake tax on every new workload. The network exists to serve; my job is to make that service scalable, programmable, and easy to consume.
 
-I have pursued that mission through host-networking, SRv6, open NOS, and AI-fabric architectures—often years before product caught up. DSE would expand the platform from which I teach peers and customers not what is for sale today but where we need to be in three years; it would not change the mission.
+I have pursued that mission through host-networking, SRv6, open NOS, and AI-fabric architectures—often years before the products caught up. DSE would expand the platform from which I teach peers and customers not what is for sale today but where we need to be in three years; it would not change the mission.
 
 As a DSE I would:
 
 - **For Cisco:** Continue bridging IMI, SONiC, cloud-native security (Cilium/eBPF), and SP transport into one coherent story—especially for AI factories and open NOS adoption
-- **For the SE community:** Scale the lab-and-github enablement model so grade-12 SEs can co-develop with hyperscalers before products exist
+- **For the SE community:** Scale the lab-and-github enablement model so grade-12 SEs can co-develop with hyperscalers ahead of feature availability
 - **For customers and partners:** Remain a trusted peer architect on horizon-2/3 problems—host networking, SRv6 end-to-end, MRC/multi-tenancy, and cloud-like consumption of network services
 - **For the industry:** Keep publishing open artifacts (labs, POCs, whitepapers, and architectures) that accelerate adoption and hold Cisco accountable to the future we claim
 

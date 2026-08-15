@@ -1,0 +1,10 @@
+# Python virtualenvs
+.venv*/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Scratch
+*.tmp

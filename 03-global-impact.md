@@ -46,6 +46,8 @@ Geico is the second-largest auto insurer in the United States and a Berkshire Ha
 
 **Evidence:** Vault `customers/Geico.md`; 2HFY24 talent assessment.
 
+**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
+
 ---
 
 ### Honeywell, 2024
@@ -62,6 +64,8 @@ Honeywell is a Fortune 100 industrial conglomerate operating a global network sp
 **Overall customer impact:** A controller-free path selection architecture aligned to Honeywell's global colocation footprint.
 
 **Evidence:** Vault `customers/Honeywell.md`.
+
+**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
 
 ---
 
@@ -87,6 +91,8 @@ The proof of concept completed in October 2025.
 **Overall customer impact:** A working egress and load-balancing architecture that moves Adobe-to-Adobe traffic off the public internet.
 
 **Evidence:** Vault `customers/Adobe Cilium.md`, `customers/Adobe CN-SRv6.md`. `[Adobe / Dan Stacks testimonial pending]`
+
+**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
 **Cross-reference:** Cilium SRv6 product path is detailed in the Innovation section; Dan Stacks mentoring in SE Community Leadership.
 
 ---
@@ -105,6 +111,8 @@ Fiserv is one of the largest financial technology providers in the world, operat
 **Overall customer impact:** A staged simplification path from RSVP-TE to end-to-end Segment Routing without a forklift program.
 
 **Evidence:** Vault `customers/Fiserv SRv6.md`.
+
+**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
 
 ---
 
@@ -162,6 +170,8 @@ Bruce serves as architecture advisor on colocation-2 readiness, covering SONiC s
 
 **Evidence:** Vault `customers/Evroc.md`.
 
+**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
+
 ---
 
 ### Rakuten, Jul 2025
@@ -175,6 +185,8 @@ Bruce produced the SRv6 SD-WAN underlay high-level design, evaluating Cisco mode
 **Strategic impact:** Direct architecture influence on a tier-1 APJC operator's WAN evolution without account ownership, in a theater twelve time zones from his own.
 
 **Evidence:** Vault `customers/Rakuten SRv6-SDWAN.md`.
+
+**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
 
 ---
 

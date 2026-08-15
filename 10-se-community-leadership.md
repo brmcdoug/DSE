@@ -9,7 +9,7 @@
 
 ## The Multiplier Model
 
-Bruce's enablement method mirrors his customer method: build the working artifact first, then teach from it. He constructs GitHub, Containerlab, and dCloud assets for horizon-2 architectures before the products exist, trains Web and SP systems engineers to use them, and then stays engaged through co-development until the account revenue matures.
+Bruce's enablement method mirrors his customer method: build the working artifact first, then teach from it. He constructs GitHub, Containerlab, and dCloud assets for horizon-2 architectures before the capability ships on Cisco platforms, trains Web and SP systems engineers to use them, and then stays engaged through co-development until the account revenue matures.
 
 The measure of that work is not sessions delivered. It is **six PSE promotions, an EMEA systems engineer who became an independent contributor to the Cilium open-source project, and a $17M production order that traced back to a lab Bruce built for someone else to use.**
 
@@ -160,7 +160,7 @@ Three enablement institutions exist because Bruce created them rather than volun
 
 | Asset | Date | SE leadership angle |
 | :--- | :--- | :--- |
-| **Pearson lab course** with Russ White | 2024–2025 | Four-hour course; two live deliveries; recordings in the Pearson catalog `[verify catalog link]` |
+| **O'Reilly *Open Source Labbing*** with Russ White | 2024–2025 | Four-hour course; two live deliveries; recordings in the O'Reilly catalog; materials at [github.com/brmcdoug/open-source-labbing](https://github.com/brmcdoug/open-source-labbing) |
 | **Vidcast training series** | 2026 | Jenelle Lee, Apr 23 2026: *"AMAZED… I want to send them to everyone"* |
 | **SP360 blogs** | 2022–2024 | [Evolved connectivity](https://blogs.cisco.com/sp/perspectives-on-the-future-of-service-provider-networking-evolved-connectivity); [ML/AI in SP networking](https://blogs.cisco.com/sp/perspectives-on-the-future-of-service-provider-networking-the-role-of-machine-learning-and-artificial-intelligence) |
 
@@ -224,7 +224,7 @@ The test of enablement is whether it produced results Bruce did not personally d
 
 - [ ] **Tech Elevate** — full session list, dates, scores, attendee counts
 - [ ] **GitHub-first CL lab model** — adoption count from SGM (quantifies a pioneered methodology)
-- [ ] Pearson course catalog link and title
+- [ ] O'Reilly catalog link and exact course title
 - [ ] IMI VT BYO Lab part 2 scores (Alex Lanin)
 - [ ] DCN Champions Bootcamp attendee count and scores
 - [ ] Confirm whether Kaliwoda would provide a quote or LoR — strongest multiplier evidence in the package

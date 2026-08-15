@@ -15,7 +15,7 @@ Bruce's external work follows one sustained argument, advanced publicly since be
 | :--- | :--- | :--- |
 | **2020–2022** | SRv6 uSID simplification; programmability as API | First public uSID presentation (NANOG); SR-Apps; Jalapeno open source; OST Zurich |
 | **2023** | Reproducible SRv6 labs; SONiC uSID narrative | **srv6-labs** launch; first public SRv6-on-SONiC publication; MPLS-WC operator IPR |
-| **2024–2025** | Host networking and eBPF; MRC industry alignment | Cisco Live Distinguished Speaker; OCP AI-backend kickoff; Pearson lab course; IETF draft editor |
+| **2024–2025** | Host networking and eBPF; MRC industry alignment | Cisco Live Distinguished Speaker; OCP AI-backend kickoff; O'Reilly lab course; IETF draft editor |
 | **2025–2026** | SRv6 for AI; multi-tenant fabrics; operator roadshow | **2025 Pinnacle Award**; MRC emulator; OCP 2026; MPLS-WC AI backend |
 
 ---
@@ -124,9 +124,9 @@ Two sessions produced documented external outcomes: a Meet-the-Expert conversati
 
 *Session preparation, ILT delivery mechanics, and full score tables are located in the SE Community Leadership section of this document.*
 
-### Pearson — *Build Your Own Networking Lab* — 2024 – 2025
+### O'Reilly — *Open Source Labbing* — 2024 – 2025
 
-Bruce co-developed a **four-hour Pearson training course** with **Russ White of Akamai**, covering Containerlab, FRR, SRv6, and open-source lab methodology. It was delivered live twice to hundreds of engineers worldwide, and both sessions are recorded in the Pearson training catalog for subscribers. Co-authorship with Russ White — one of the industry's most recognized networking authors — is independent validation of the reproducible-lab method Bruce established with srv6-labs. `[verify catalog link/title]`
+Bruce co-developed a **four-hour O'Reilly training course** with **Russ White of Akamai**, covering Containerlab, FRR, SRv6, and open-source lab methodology. It was delivered live twice to hundreds of engineers worldwide, and both sessions are recorded in the O'Reilly catalog for subscribers. Course materials are public at [github.com/brmcdoug/open-source-labbing](https://github.com/brmcdoug/open-source-labbing). Co-authorship with Russ White — one of the industry's most recognized networking authors — is independent validation of the reproducible-lab method Bruce established with srv6-labs. `[verify catalog link/title]`
 
 ### Pour-Man's Networking Podcast — May 2022
 
@@ -153,7 +153,7 @@ Bruce established the collaboration with **OST Zurich**, open-sourcing the Jalap
 | MPLS-WC 2023–2025 | Conference | Bell, Verizon, and Rakuten delivered the architecture |
 | OCP Summit 2024 / 2026 | Conference | Hyperscale AI fabric audience |
 | Cisco Live EMEA 2023 | Recognition | **Distinguished Speaker**, 5.00 / 5.00 |
-| Pearson lab course (with Russ White) | Training | Global practitioner catalog; delivered live twice |
+| [O'Reilly *Open Source Labbing*](https://github.com/brmcdoug/open-source-labbing) (with Russ White) | Training | O'Reilly catalog; delivered live twice |
 | **2025 Pinnacle Award** | Recognition | SRv6 uSID global market impact |
 
 ---
@@ -175,7 +175,7 @@ Bruce established the collaboration with **OST Zurich**, open-sourcing the Jalap
 
 - [ ] Refresh srv6-labs LinkedIn and GitHub metrics for 2026
 - [ ] OCP 2024 confirmed dates/URLs; confirm OCP 2026 session delivered
-- [ ] Pearson catalog link and title for citation
+- [ ] O'Reilly catalog link and exact course title for citation
 - [ ] MPLS-WC 2023 session titles — confirm Bell/Verizon/Rakuten attribution is quotable
 - [ ] Confirm `draft-srv6ops-addressing-guidelines` status and co-editors
 - [ ] Optional timeline graphic for final PDF

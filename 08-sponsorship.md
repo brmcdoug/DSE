@@ -63,7 +63,7 @@ Based on the evidence in the body sections, these letters would carry the most w
 | **John Dorval** | Sales Leadership | Microsoft WAN/SWAN claims — flagged in Business Impact as requiring his validation |
 | **Arkadiusz Kaliwoda** | Fellow/PSE/DSE | Second-order enablement: dCloud lab → MPLS-WC booth → Cilium code contributions → **SE Leadership** |
 | **Mohan Nanduri** | Customer (Microsoft) | dRH / Project Octans and SRv6 AI backend → **Business Impact** |
-| **Russ White** | Customer (Akamai) | Pearson course co-author and SRv6 backbone work; external industry credibility → **Industry Impact** |
+| **Russ White** | Customer (Akamai) | O'Reilly course co-author and SRv6 backbone work; external industry credibility → **Industry Impact** |
 | **Brenden Buresh** | DSE | SOSIE co-founder; DC/NX-OS tiger team; Adobe POC → **Span**, **Global Impact** |
 | **Vaughn Suazo** | DSE | DSE mentor since 2HFY25 → **Personal Development** |
 

@@ -9,7 +9,10 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 
 ## Package completion (blocking)
 
-- [ ] **Final PDF assembly** — merge sections, page-weight targets; **tone:** friendly, collaborative (pioneering thought leader + great collaborator)
+- [ ] **Word package assembly** — `Bruce-McDougall-DSE-Package-Aug2026.docx` is the official deliverable. Insert with `scripts/md_to_docx.py`. **Done:** Business Impact, Appendix. **Remaining:** Global Impact, Span of Influence, Industry Impact, Innovation, Personal Development, SE Community Leadership, Sponsorship, Exec Overview
+- [ ] **Workflow (Aug 2026):** **markdown is source of truth; Word is a build artifact.** Review and comment in the `.md` files using line-initial `//`; collect with `scripts/review_comments.py`; regenerate Word with `scripts/md_to_docx.py`. Word-side tools (`read_docx_review.py`, `edit_docx.py`) are for the last mile and external reviewers
+- [ ] **Strip `[verify]` markers** before submission — they render in **red** in the Word doc so they are easy to find
+- [ ] **Decide the evidence pointer convention** for the Word package — vault paths are filtered out on insert; Brenden used "Documents are accessible in the external SharePoint repository"
 - [ ] **Finance-validated revenue** — replace `[verify]` placeholders in [06-business-impact.md](./06-business-impact.md) and [03-global-impact.md](./03-global-impact.md); reconcile Meta pipeline vs **$17M BBF booked**
 - [ ] **Aggregate headline number** for exec summary (finance-approved ASP+Web total)
 - [ ] **Direct Leader Recommendation(s)** — Brook Crossman (ASP/Web, ~5 yrs) and/or **Matt Gillies** (Global, from Jun 2026); edit [02-direct-leader-recommendation.md](./02-direct-leader-recommendation.md). LoR typically same letter or co-authored w/ **John Dorval** / **Tim Carnes**
@@ -48,7 +51,10 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 - [ ] **Policy Plane** — PM attribution; Carlos Pereira / OTel influence confirmation; publication ("need to publish" per MOC)
 - [ ] **SONiC + Cisco Secure Workload** — productization status after Jan–Feb 2026 follow-ons
 - [ ] **GitHub-first CL labs** — SGM stats on how many ILTs now use the model (quantifies the innovation)
-- [ ] **Pearson course** — catalog link/title for Russ White co-developed 4-hour lab course
+- [ ] **O'Reilly catalog link and exact course title** for *Open Source Labbing* — repo link now cited: [github.com/brmcdoug/open-source-labbing](https://github.com/brmcdoug/open-source-labbing)
+- [x] Russ White course corrected **Pearson → O'Reilly** across `01`, `05`, `08`, `09`, `10`
+- [ ] **Fold remaining `publications/readme.md` content** (blog exec summaries) into `05-industry-impact.md`, then archive it
+- [ ] **Confirm ACM 10.1145/3603269.3604860** documents the SL-API/SDN forwarding technique before citing it as evidence in `06-business-impact.md`
 
 ### Customer / engagement gaps
 - [ ] Softbank, Telstra, Swisscom, Telia, Iliad — confirm post-2020 outcomes or remove from lists
@@ -63,7 +69,7 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 | :--- | :--- |
 | [03-global-impact.md](./03-global-impact.md) | **Drafted Aug 2026.** Remaining: finance $ (Geico, Honeywell, Adobe, Fiserv, Evroc); Adobe/Dan Stacks testimonial; MTN/DU figures via Sanjay Nanda; Province of NB quote or LoR; **page-budget decision — section runs 4–5pp vs. 7pp README target** |
 | [04-span-of-influence.md](./04-span-of-influence.md) | **Drafted Aug 2026.** Remaining: SD-WAN/SSE PM quotes; Policy Plane / Carlos Pereira OTel; Will Etherton report; confirm **$500M Edgecore leakage** figure is quotable; confirm VP citations (Knipp, Dorval, Morrissey) attributable by name |
-| [05-industry-impact.md](./05-industry-impact.md) | **Drafted Aug 2026** (page target corrected 5–6 → 3 per README). Remaining: refresh srv6-labs metrics; OCP URLs/dates + confirm 2026 session delivered; MPLS-WC 2023 session titles (confirm Bell/Verizon/Rakuten attribution quotable); Pearson catalog link; **confirm `draft-srv6ops-addressing-guidelines` status and co-editors** |
+| [05-industry-impact.md](./05-industry-impact.md) | **Drafted Aug 2026** (page target corrected 5–6 → 3 per README). Remaining: refresh srv6-labs metrics; OCP URLs/dates + confirm 2026 session delivered; MPLS-WC 2023 session titles (confirm Bell/Verizon/Rakuten attribution quotable); O'Reilly catalog link; **confirm `draft-srv6ops-addressing-guidelines` status and co-editors** |
 | [06-business-impact.md](./06-business-impact.md) | Revenue placeholders; FY2027 TAM |
 | [07-innovation.md](./07-innovation.md) | CPOL links; Policy Plane publication |
 | [09-personal-development.md](./09-personal-development.md) | OCP 2026; Akamai follow-up |
@@ -114,7 +120,7 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 - [x] **ASP+Web account classification** (Akamai, Equinix, Salesforce, Lambda, etc.)
 - [x] **Visa** → Global Impact
 - [x] **Province of NB / James Munroe** → Global Impact (CLEU 2026)
-- [x] **Pearson** → 4-hour Russ White lab course (not a book)
+- [x] **O'Reilly** *Open Source Labbing* → 4-hour Russ White lab course (not a book; corrected from "Pearson" Aug 2026)
 - [x] **Education:** BA, University of Washington (1996)
 - [x] **Phoenix Wing** scope clarified (Alibaba-led; Bruce = Cisco SRv6/SONiC engineering partner)
 - [x] PDP: exec coach, Conversational Intelligence, SRF sessions, MRC (replaces Ultra Ethernet), Adobe Cilium POC, **Nacho promoted to PSE (Jun 2026)**

@@ -13,7 +13,7 @@ Bruce received direct feedback from the PSE review committee at promotion: expan
 
 Over the following six years he built capability and relationships deliberately outside the ASP+Web and MIG orbit — enterprise SD-WAN and Cisco Secure Access, the Future Enterprise Segmentation tiger team, co-founding the Single OS (SOSIE) working group, Isovalent and security engineering, ThousandEyes, the EMEA peer network, CX, the SL-OnDemand tiger team, and the OST Zurich university collaboration. Each is documented in Span of Influence; the point here is that none of it was assigned.
 
-The second deliberate choice was technical rather than organizational. Rather than remaining a routing-protocol expert who presents architecture, Bruce invested in **production-grade builder skills** — Kubernetes, Cilium and eBPF, Containerlab, GitHub workflows, dCloud publishing, and agent-assisted development. That is why the labs, emulators, and POC repositories in this package exist as running code that account teams and customer engineers reuse, rather than as slides. It is also why he can stay ahead of product general availability: the 8122 SRv6-on-SONiC work, the MRC emulator, and the Cilium POCs were all built without a dedicated engineering team.
+The second deliberate choice was technical rather than organizational. Rather than remaining a routing-protocol expert who presents architecture, Bruce invested in **production-grade builder skills** — Kubernetes, Cilium and eBPF, Containerlab, GitHub workflows, dCloud publishing, and agent-assisted development. That is why the labs, emulators, and POC repositories in this package exist as running code that account teams and customer engineers reuse, rather than as slides. It is also why he can move at the speed the market does: the 8122 SRv6-on-SONiC work, the MRC emulator, and the Cilium POCs were all built without a dedicated engineering team.
 
 In **June 2026** Bruce transferred from Brook Crossman's ASP/Web organization, where he had spent roughly five years, to **Matt Gillies' Global Solutions Engineering team as lead Cloud-SP architect** — the same horizon-2 and horizon-3 mission at global scope.
 
@@ -51,7 +51,7 @@ Bruce's talent assessments identify two consistent development areas. Both are n
 | :--- | :--- | :--- |
 | **BA**, University of Washington | 1996 | Undergraduate foundation |
 | **CCIE Service Provider #35169** | 2012 | Foundation for SR/SRv6 field leadership; peer credibility with SP and hyperscaler operators |
-| **Pearson — *Build Your Own Networking Lab*** (co-developed with Russ White, Akamai) | 2024–2025 | Four-hour course delivered live twice; both sessions in the Pearson catalog. Co-authorship with one of the industry's most recognized networking authors → **Industry Impact** `[verify catalog link]` |
+| **O'Reilly — *Open Source Labbing*** (co-developed with Russ White, Akamai) | 2024–2025 | Four-hour course delivered live twice; both sessions in the O'Reilly catalog; materials at [github.com/brmcdoug/open-source-labbing](https://github.com/brmcdoug/open-source-labbing). Co-authorship with one of the industry's most recognized networking authors → **Industry Impact** `[verify catalog link]` |
 | **Executive conversation coaching** | Completed Mar 2026 | Applied in cross-BU workshops and executive readouts |
 | **Conversational Intelligence** | Completed Jul 2025 | Communication method for multi-BU persuasion work |
 
@@ -94,7 +94,7 @@ Bruce's talent assessments identify two consistent development areas. Both are n
 
 Bruce describes his current working model as **vibe-labbing**: agent-assisted tooling to compress lab and demo cycles while holding architectural rigor through Containerlab, GitHub Actions, and reproducible topologies. He characterized AI tooling as a "brain-extender" in the 1HFY26 assessment.
 
-This is not adjacent to the impact in this package — it is the mechanism. It is how a field systems engineer with no engineering team ships POC repositories ahead of product general availability, and why grade-12 SEs and customer engineers can run the same environments in hours rather than quarters.
+This is not adjacent to the impact in this package — it is the mechanism. It is how a field systems engineer with no engineering team ships POC repositories ahead of feature availability, and why grade-12 SEs and customer engineers can run the same environments in hours rather than quarters.
 
 ---
 
@@ -105,7 +105,7 @@ This is not adjacent to the impact in this package — it is the mechanism. It i
 | **Business Impact** | SONiC and SRv6 builder skills applied at Microsoft, Meta, Oracle, CoreWeave |
 | **Global Impact** | EMEA and APJC peer relationships; enterprise and SD-WAN depth for Geico, Adobe, and Fiserv-class accounts |
 | **Span of Influence** | SOSIE, FE Segmentation, Isovalent engineering literacy, PSE committee service |
-| **Industry Impact** | GitHub open-source curation; conference speaking; Pearson course with Russ White |
+| **Industry Impact** | GitHub open-source curation; conference speaking; O'Reilly course with Russ White |
 | **Innovation** | Cilium fork and POC path; Jalapeno; sustained CPOL pipeline |
 | **SE Community Leadership** | dCloud and Cisco Live lab authorship; six PSE promotions mentored or advised |
 | **Personal Development** | Executive communication program; continuous cross-domain learning |
@@ -117,7 +117,7 @@ This is not adjacent to the impact in this package — it is the mechanism. It i
 - [ ] **Brook / Matt** — 2HFY26 talent assessment manager section when the cycle closes
 - [ ] Akamai SRv6 controller POC — production status with account team
 - [ ] Adobe / Dan Stacks testimonial
-- [ ] Pearson catalog link and title
+- [ ] O'Reilly catalog link and exact course title
 - [ ] OCP 2026 delivery confirmation
 
 **Vault:** `dse/09-Personal-Development-MOC.md`, `dse/DSE General MOC.md`. **Last body pass:** Aug 2026 — rewritten to [voice-guide.md](./voice-guide.md) register; development areas stated directly with actions taken.

@@ -33,7 +33,6 @@ As we work through things let's also try and maintain a list of open items that 
 ## Data, notes, outlines, etc.
 
 **Working rules for drafting:** [AGENTS.md](./AGENTS.md) — section scope, routing, date floor, voice.
-**Section-by-section plan:** [00-outline.md](./00-outline.md)
 **Open items:** [todo.md](./todo.md)
 
 | # | Section | File |

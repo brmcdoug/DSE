@@ -114,6 +114,26 @@ That last row matters. Pending finance validation should never leak into hedged 
 
 ---
 
+## Accuracy guardrail: prescience claims
+
+The "saw it early" argument is this package's strongest asset **and** its highest-risk one. A prescience claim is the most checkable thing in the document — dates are public, product ship dates are internal record, and a reviewer who catches one overstatement will discount the rest.
+
+**The failure mode is generalizing from a true specific to a false general.** Two cases caught in review (Aug 2026):
+
+| Overstated | Actual | Accurate framing |
+| :--- | :--- | :--- |
+| "trained the field on products that did not yet exist" | SONiC had existed for years and Cisco shipped a SONiC product; the **SRv6 feature set** did not exist on it | "before the capability shipped on Cisco platforms" |
+| MRC emulator built "before any product existed" | Built the **week after** OpenAI publicly announced MRC | "within a week of OpenAI's public MRC announcement" — a speed claim, not a prescience claim |
+
+**Rules:**
+
+1. **Name the specific thing that did not exist** — a feature, a capability, a supported platform — never "the product."
+2. **A fast-response claim is not weaker than a prescience claim.** Building a working emulator within a week of a spec publishing is verifiable, impressive, and unassailable. Reach for it when it is what actually happened.
+3. **Before writing "years ahead," check the date.** The host-networking arc (2013 advocacy → 2021 Isovalent push → 2024 acquisition → 2026 MRC convergence) genuinely supports it. Individual artifacts usually do not.
+4. **Declined CPOLs are the safest prescience evidence available** — a filing date cannot be retrofitted. Prefer them to narrative assertions.
+
+---
+
 ## What NOT to sand off
 
 Brenden's package has real weaknesses Bruce should not import. Bruce's PSE package is **better** than Brenden's on three dimensions, and those are the differentiators:

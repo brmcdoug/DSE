@@ -15,9 +15,9 @@ https://cisco.sharepoint.com/:x:/r/sites/GSPWEB-SalesandFinance/Shared%20Documen
 https://cisco.sharepoint.com/:x:/r/sites/GSPWEB-SalesandFinance/Shared%20Documents/ASP%20Web%20Finance/Adhoc/Q4%2726/ASP%20Web%20FY20-26%20Product%20Bookings.xlsx?d=wf735385979d541b6bdda11cfd8c7993f&csf=1&web=1&e=RNbkFw
 
 
-## Business Impact Model — Co-Development, Not Transactional Sales
+## Business Impact Model — Co-Development, Mindshare, and Relationships
 
-Bruce’s ASP+Web business impact follows a repeatable pattern: **train SE teams and customer engineers on architectures and products that do not yet exist**, build POC labs and emulators (SONiC, SRv6, SL-API, host-networking), then co-develop with hyperscalers and tier-1 SPs until the revenue pipeline matures. Account notes describe this as multiyear **partnership**, not a traditional sales cycle—Bruce often serves as internal strategy consultant, SONiC/SRv6 SME, and lead architect while grade-12 SEs run production engagements.
+Bruce’s ASP+Web business impact follows a repeatable pattern: **train SE teams and customer engineers on architectures and products before they need them**, build POC labs and emulators (SONiC, SRv6, SL-API, host-networking), then co-develop with hyperscalers and tier-1 SPs until the revenue pipeline matures. Account notes describe this as multiyear **partnership**, not a traditional sales cycle—Bruce often serves as internal strategy consultant, SONiC/SRv6 SME, and lead architect while grade-12 SEs run production engagements.
 
 **Web culture influence:** Bruce aligned Cisco’s Web selling motion with hyperscaler-style thinking—open NOS, disaggregation, and API-driven forwarding—which underpins the strategic investments in SONiC and Silicon One behind multiple accounts below.
 
@@ -102,7 +102,9 @@ The June 2026 release of **SRv6 on SONiC for the Cisco 8122** (202511 codebase) 
 **Strategic impact:** The multi-tenant AI fabric specification became the reusable reference architecture for Oracle and CoreWeave; SRv6-on-SONiC productization opened the open-NOS AI-backend market across the entire hyperscale segment.
 **Overall customer impact:** A disaggregated, open-NOS data center and backbone architecture that scales Microsoft's AI infrastructure without the route-scale and convergence ceilings of the prior design.
 
-**Evidence:** [ASP Web FY20-26 Product Bookings](https://cisco.sharepoint.com/:x:/r/sites/GSPWEB-SalesandFinance/Shared%20Documents/ASP%20Web%20Finance/Adhoc/Q4%2726/ASP%20Web%20FY20-26%20Product%20Bookings.xlsx?d=wf735385979d541b6bdda11cfd8c7993f&csf=1&web=1&e=LUS3pf); GitHub `segmentrouting/srv6-msft`, `segmentrouting/srv6-mrc-emulator`; vault `customers/Microsoft AI-Backend.md`, `customers/Microsoft SRv6.md`, `customers/MSFT octans-drh.md`, `customers/Microsoft-WAN.md`, `innovation/SRv6-MultiTenant-Design-rev3.md`; Talent Assessment 1HFY26.
+**Evidence:** [ASP Web FY20-26 Product Bookings](https://cisco.sharepoint.com/:x:/r/sites/GSPWEB-SalesandFinance/Shared%20Documents/ASP%20Web%20Finance/Adhoc/Q4%2726/ASP%20Web%20FY20-26%20Product%20Bookings.xlsx?d=wf735385979d541b6bdda11cfd8c7993f&csf=1&web=1&e=LUS3pf); GitHub `segmentrouting/srv6-msft`, `segmentrouting/srv6-mrc-emulator`; vault `customers/Microsoft AI-Backend.md`, `customers/Microsoft SRv6.md`, `customers/MSFT octans-drh.md`, `customers/Microsoft-WAN.md`, `innovation/SRv6-MultiTenant-Design-rev3.md`; Talent Assessment 1HFY26; published SWAN architecture reference — [ACM 10.1145/3603269.3604860](https://dl.acm.org/doi/pdf/10.1145/3603269.3604860) `[confirm this paper documents the SL-API/SDN forwarding technique Bruce pioneered]`.
+
+**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
 **Cross-reference:** Productization of SRv6-on-SONiC and the multi-tenant specification are detailed in the Innovation section. Internal advocacy against skeptical engineering leadership is detailed in the Span of Influence section.
 
 ---
@@ -130,7 +132,11 @@ Meta booked a **$17M** first production order for P200 on the BBF architecture i
 **Strategic impact:** Proved that a technique developed at one hyperscaler (SL-API at Microsoft) transfers directly to another, and established the VXR co-validation lab as a repeatable pre-GA sales motion now reused across the Web segment.
 **Overall customer impact:** A validated backbone fabric architecture and a committed SRv6 path for RBB, with pre-GA access that let Meta's engineers evaluate on their own terms rather than on vendor timelines.
 
-**Evidence:** [ASP Web FY20-26 Product Bookings](https://cisco.sharepoint.com/:x:/r/sites/GSPWEB-SalesandFinance/Shared%20Documents/ASP%20Web%20Finance/Adhoc/Q4%2726/ASP%20Web%20FY20-26%20Product%20Bookings.xlsx?d=wf735385979d541b6bdda11cfd8c7993f&csf=1&web=1&e=LUS3pf); vault `customers/Meta.md`; DSE General MOC (Mar 2026 Asoka 8223 thread).
+**Evidence:** [ASP Web FY20-26 Product Bookings](https://cisco.sharepoint.com/:x:/r/sites/GSPWEB-SalesandFinance/Shared%20Documents/ASP%20Web%20Finance/Adhoc/Q4%2726/ASP%20Web%20FY20-26%20Product%20Bookings.xlsx?d=wf735385979d541b6bdda11cfd8c7993f&csf=1&web=1&e=LUS3pf); vault `customers/Meta.md`; DSE General MOC (Mar 2026 Asoka 8223 thread); SWAN architecture reference — [ACM 10.1145/3603269.3604860](https://dl.acm.org/doi/pdf/10.1145/3603269.3604860).
+
+**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
+
+**Note:** Meta was the **second** customer after Microsoft to adopt the SL-API/SDN/SR technique Bruce pioneered — the transfer is the strategic point, and Google (Alphanet) is now the third.
 **Cross-reference:** SL-API origination is detailed in the Innovation section. The VXR lab enablement pattern is detailed in the SE Community Leadership section.
 
 ---
@@ -159,6 +165,8 @@ OCI was running SRv6 in limited production by the end of 2025. Oracle's own 2026
 **Overall customer impact:** A source-routed multiplanar AI fabric that reaches limited production inside a single year of the first architecture workshop.
 
 **Evidence:** [ASP Web FY20-26 Product Bookings](https://cisco.sharepoint.com/:x:/r/sites/GSPWEB-SalesandFinance/Shared%20Documents/ASP%20Web%20Finance/Adhoc/Q4%2726/ASP%20Web%20FY20-26%20Product%20Bookings.xlsx?d=wf735385979d541b6bdda11cfd8c7993f&csf=1&web=1&e=LUS3pf); Oracle public blog 2026 `[add URL]`; GitHub `segmentrouting/srv6-oci`; vault `customers/Oracle-SRv6.md`, `customers/Oracle-800g-roce.md`; `projects/wmp-polarfly-whitepaper-v07.md`.
+
+**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
 **Cross-reference:** The multi-tenant specification and Hoffman–Singleton study are detailed in the Innovation section.
 
 ---
@@ -185,6 +193,8 @@ Following the lab enablement, the opportunity scope expanded to **~10,000–12,0
 
 **Evidence:** [CoreWeave DC Back-End Switching CRD v1](https://cisco-my.sharepoint.com/:w:/r/personal/bgisiger_cisco_com/Documents/Desktop/Old%20Desktop/Web%20Operation%20Accounts/Big%20Projects/AI%20start-ups/CoreWeave/DC%20Switching/Back-end/CRD/CoreWeave%20DC%20Back-End%20Switching%20-%20Customer%20Requirements%20Document%20(CRD)%20v1.docx?d=w302ef71e18cc47529beaeb9e213af6a1&csf=1&web=1&e=mO6m5O); vault `customers/Coreweave DC.md`, `customers/Coreweave backbone.md`, `customers/Coreweave lab.md`; PSE time log Mar 2026.
 
+**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
+
 ---
 
 ### Bell Canada, 2020 – Present
@@ -208,6 +218,8 @@ Bell placed a **500-unit first order for C8231-G2** routers on May 4, 2026 (Hele
 **Overall customer impact:** A programmable, service-oriented network architecture that extends consistent policy from the core to the workload.
 
 **Evidence:** Vault `technologies/Bell Canada.md`; OCP 2024 SRv6-for-AI cohort.
+
+**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
 **Cross-reference:** Host-networking and Isovalent/Cilium advocacy are detailed in the Span of Influence and Innovation sections.
 
 ---
@@ -232,6 +244,8 @@ Google operates B4, one of the largest and most-studied private WANs in the worl
 
 **Evidence:** [ASP Web FY20-26 Product Bookings](https://cisco.sharepoint.com/:x:/r/sites/GSPWEB-SalesandFinance/Shared%20Documents/ASP%20Web%20Finance/Adhoc/Q4%2726/ASP%20Web%20FY20-26%20Product%20Bookings.xlsx?d=wf735385979d541b6bdda11cfd8c7993f&csf=1&web=1&e=LUS3pf); vault `customers/Google.md`.
 
+**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
+
 ---
 
 ### Amazon Web Services, 2021 – Present
@@ -254,6 +268,8 @@ Cisco leadership recognized the foundational silicon deals at VP level in Q1 FY2
 **Overall customer impact:** A multi-generation silicon roadmap aligned to AWS's own qualification cadence.
 
 **Evidence:** [ASP Web FY20-26 Product Bookings](https://cisco.sharepoint.com/:x:/r/sites/GSPWEB-SalesandFinance/Shared%20Documents/ASP%20Web%20Finance/Adhoc/Q4%2726/ASP%20Web%20FY20-26%20Product%20Bookings.xlsx?d=wf735385979d541b6bdda11cfd8c7993f&csf=1&web=1&e=LUS3pf); vault `xarchive-2021-2022/AWS-may-2021.md`, `dse/04-Span-of-Influence-MOC.md`, `dse/DSE General MOC.md`.
+
+**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
 
 ---
 
@@ -280,6 +296,8 @@ Verizon's April 2024 MPLS World Congress presentation was built on Bruce's `srv6
 **Overall customer impact:** A quantified transition path from MPLS to SRv6 across a national estate, with the business case attached.
 
 **Evidence:** Vault `customers/Verizon.md`; MPLS-WC Apr 2024.
+
+**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
 **Cross-reference:** `srv6-labs` external reach is detailed in the Industry Impact section.
 
 ---
@@ -305,6 +323,8 @@ Akamai operates the world's largest content delivery network and, through its Li
 **Overall customer impact:** A validated SRv6 transition path for the backbone and a working DDoS-redirect prototype built on open forwarding.
 
 **Evidence:** Vault `customers/Akamai.md`, `customers/Akamai SRv6.md`, `customers/Akamai-Prolexic SRv6.md`; Talent Assessment (May 2025 Jalapeno demo).
+
+**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
 **Cross-reference:** Jalapeno is detailed in the Innovation section.
 
 ---
@@ -467,7 +487,7 @@ Ordered by strategic and financial weight, matching the body above. Segment book
 **Entry:** `dse/06-Business-Impact-MOC.md`  
 **Hubs:** `Hyperscale-Customers-Hub.md`, `SP-Customers-Hub.md`, `AI-Factory-Hub.md`, `SONiC-Hub.md`, `SRv6-Master-Hub.md`  
 **Customer notes read:** Microsoft (SRv6, AI-Backend, WAN, octans-drh), Meta, Oracle-SRv6, Coreweave (DC, backbone, lab), Bell Canada, Videotron SRv6, Verizon, Akamai (+ SRv6, Prolexic), T-Mobile, AT&T NaaS, Boost SRv6, Google, Equinix, cilium-srv6  
-**Revenue placeholders:** `01-exec-summary.md`, `01-exec-summary-draft.md` (all **`[verify]`**)
+**Revenue placeholders:** `01-exec-summary-draft.md` (all **`[verify]`**)
 
 **Vault harvest log — PSE time log (2024–2026, full Notes):** Third pass Jun 7 2026 — Adobe rescue story, Geico Berkshire pricing, Meta 8223/VXR, MSFT AI-lab generation + dRH, OCI production by end-2025, Jalapeno RPO lineage, May–Jun 2026 MRC/multi-tenant/global transition.
 

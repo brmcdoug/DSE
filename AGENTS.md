@@ -131,9 +131,7 @@ Global Impact is **not** “other geographies.” It is **any customer/revenue e
 
 ## Package structure and page budget
 
-See also: `00-outline.md`
-
-**Section order follows Brenden's package** (README order) — reviewers expect this sequence. `00-outline.md` shows a different order for sections 8–10; README/AGENTS order governs.
+**Section order follows Brenden's package** (README order) — reviewers expect this sequence.
 
 **Page budget: README weighting governs.** Earlier "2–3 body pages" estimates for Global / Span / Industry are superseded.
 
@@ -153,13 +151,13 @@ See also: `00-outline.md`
 
 **Max package length:** ~50 pages. Body total above is ~45–46, leaving room for cover, TOC, timeline graphic, and appendix.
 
-**Canonical exec file:** `01-exec-summary-draft.md`. `01-exec-summary.md` is retired working notes — do not draft into it.
+**Canonical exec file:** `01-exec-summary-draft.md`. Earlier working notes were archived to `xarchive/01-exec-summary.md` (Aug 2026) — do not draft from them.
 
 ---
 
 ## Section criteria (what belongs where)
 
-### 1. Executive Overview — `01-exec-summary.md`
+### 1. Executive Overview — `01-exec-summary-draft.md`
 
 **Suggested length:** 3–4 pages in criteria text; **~7 pages** in README weighting.
 
@@ -503,10 +501,11 @@ Embed in relevant sections, not a standalone section:
 | File | Purpose |
 | :--- | :--- |
 | `voice-guide.md` | **Voice & claim strength — read before drafting** |
-| `00-outline.md` | Section-by-section content plan |
 | `00-overview-themes.md` | Brand, themes, candidacy positioning |
-| `01-exec-summary.md` | *Retired* working notes — do not draft into |
 | `01-exec-summary-draft.md` | **Canonical** executive section |
+| `Bruce-McDougall-DSE-Package-Aug2026.docx` | **Official Word package template** — final deliverable |
+| `scripts/md_to_docx.py` | Inserts a drafted section into the Word template (see below) |
+| `xarchive/` | Superseded material — do not draft from |
 | `02-direct-leader-recommendation.md` | Leader letter placeholder |
 | `03-global-impact.md` | **Outside ASP+Web** impact |
 | `04-span-of-influence.md` | **Internal Cisco** influence outside ASP+Web / MIG |
@@ -549,6 +548,50 @@ Embed in relevant sections, not a standalone section:
 | Patent / AI fabric spec | Innovation |
 | PSE committee, Single OS WG | Span of Influence |
 | Post-2020 skills → cross-BU work | Personal Development |
+
+### Review workflow
+
+**Markdown is the source of truth. The Word document is a build artifact.** Bruce reviews, edits, and comments in the `.md` files; sections are regenerated into Word from there. This is one-directional — never edit prose in Word and expect it to survive.
+
+**Comment notation:** a line beginning with `//` (line-initial only, so `https://` in prose is safe). HTML comments on their own line work too.
+
+```markdown
+Bruce served as SONiC subject-matter expert for the Colorado colocation architecture.
+// is "subject-matter expert" right here? I was effectively the lead architect
+```
+
+Place the comment **after** the paragraph or table it refers to. Comments are stripped automatically on insert and never reach the Word document.
+
+**Collect them with:**
+
+```
+scripts/review_comments.py            # all sections, with heading + anchor paragraph
+scripts/review_comments.py --count    # tally only
+```
+
+**Word-side tools** remain for the last mile — page counts, table widths, and external reviewers:
+
+- `scripts/read_docx_review.py` — read comments and tracked changes from a `.docx` (works while Word is open). Use for feedback from Brook, Matt, and sponsors.
+- `scripts/edit_docx.py` — surgical find/replace inside a `.docx`, preserving comments and formatting. Use for late fixes once the document is final.
+
+### Assembling the Word package
+
+The official deliverable is `Bruce-McDougall-DSE-Package-Aug2026.docx`. Insert a drafted section with:
+
+```
+scripts/md_to_docx.py <section.md> Bruce-McDougall-DSE-Package-Aug2026.docx \
+    --after "<template Heading 1>" --before "<next template Heading 1>"
+```
+
+**Close the file in Word first** — a `~$…docx` lock file means Word has it open and edits will be lost.
+
+The converter maps `##`→Heading 2, `###`→Heading 3, renders bold/italic/code/hyperlinks, converts markdown tables to `Table Grid`, and bullets to `List Paragraph`. It **filters repo-internal scaffolding**: scope blockquotes, "Suggested package length", vault paths, `**Evidence:**` lines, harvest logs, open items, and "Explicitly Excluded" tables. Cross-reference lines are **kept** — they are the gold-standard package pattern. `[verify]` markers render in **red** so they are obvious during final cleanup.
+
+Use `--before END` to append to the end of the document (used for the Appendix).
+
+Re-running against the same anchors **fully replaces** the section — paragraphs *and* tables — so it is safe to iterate.
+
+> **Once a section has been edited in Word, Word is the source of truth for it. Do not re-insert that section — it will discard those edits.** Late global changes (find/replace, stripping `[verify]` markers) can be scripted against the `.docx` directly instead.
 
 ### Writing conventions
 
