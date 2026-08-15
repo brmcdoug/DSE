@@ -68,9 +68,13 @@ Finance-provided **Americas Web/Hyperscale segment bookings** by customer (USD).
 
 ### Microsoft, 2021 – Present
 
-**Revenue Impact:** Americas Web/Hyperscale segment bookings — $603M FY22, $714M FY23, $226M FY24, $861M FY25, $1.57B FY26. **Total segment bookings — $3.97B.** Bruce-attributed scope: ~$2.0B DC/DCI/Metro and ~$500M WAN `[verify]`
+| FY22 | FY23 | FY24 | FY25 | FY26 | **Total** |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| $603M | $714M | $226M | $861M | $1.57B | **$3.97B** |
 
-Microsoft operates Azure, one of the two largest public cloud platforms in the world, and is Cisco's single largest Web/Hyperscale customer by bookings. Its AI infrastructure program spans a super-factory WAN of 120,000+ fiber miles, backbone growth from ~1,800 toward ~3,000 nodes, and a data center estate being re-architected around disaggregated hardware and open network operating systems. Bruce has been Cisco's primary field architect across Microsoft's SONiC, SRv6, and AI-backend programs since 2021, working directly with Microsoft's network engineering leadership while account SEs ran production engagements.
+*Americas Web/Hyperscale segment bookings. Bruce-attributed scope: ~$2.0B DC/DCI/Metro and ~$500M WAN `[verify]`.*
+
+Microsoft operates Azure, one of the two largest public cloud platforms in the world, and is Cisco's single largest Web/Hyperscale customer by bookings. Its AI infrastructure program spans a continent-scale super-factory WAN `[verify route-mile figure]`, backbone growth from ~1,800 toward ~3,000 nodes, and a data center estate being re-architected around disaggregated hardware and open network operating systems. Bruce has been Cisco's primary field architect across Microsoft's SONiC, SRv6, and AI-backend programs since 2021, working directly with Microsoft's network engineering leadership while account SEs ran production engagements.
 // what is the 120k fiber miles reference? Is it total WAN route miles globally? I believe Fairwater is phoenix to milwaukee, ~2000 miles?
 
 **SRv6 for the AI Backend and SONiC on the Cisco 8122:** Beginning in 2024, Bruce argued inside Cisco that SRv6 for the AI backend was a production requirement rather than a research topic. Cisco engineering was skeptical, and the investment case for SRv6 on SONiC was not funded. Bruce built the technical and customer evidence that changed that position and led to Cisco support in 2026. Bruce's involvement and accomplishments include:
@@ -80,11 +84,12 @@ Microsoft operates Azure, one of the two largest public cloud platforms in the w
 - Built the first SRv6-for-AI elephant-flow path-pinning demonstration (Nov 2024) as an internal proof point ahead of customer-scale POCs
 - Delivered SONiC training to Microsoft account SEs from 2024 forward, enabling the account team to scale its engagement across Microsoft's expanding SONiC use cases
 - Secured MIG commitment for SRv6 on SONiC G200 in Q1 FY26 to unblock Microsoft and Oracle testing paths
-- Co-presented the architecture at OCP Summit 2026 `[verify — confirm delivery]`
 
 // made some changes, i think an important one is the 'enabling account team to scale its engagement' as that is a repeated pattern i have across Web/Hyperscale accounts. Also, the OCP session proposal was declined, so i'm thinking just delete the entry
 
-The June 2026 release of **SRv6 on SONiC for the Cisco 8122 (G200 51.2T ASIC)** (202511 codebase) was the direct product outcome. Cisco's 51.2T ASIC was late to market, leading to franchise and TAM loss across the board. Microsoft and Oracle had both begun initial SRv6-for-AI deployments on competitor hardware before Cisco shipped. That sequence validates the architecture Bruce championed and quantifies the cost of the internal delay he spent two years arguing against; the FY2027 TAM recovery projection is `[pending finance validation]`.
+The June 2026 release of **SRv6 on SONiC for the Cisco 8122 (G200 51.2T ASIC)** (202511 codebase) was the direct product outcome.
+
+The architecture was validated; the timing was not. Cisco has arrived late across successive switch-silicon generations — 12.8T, 25.6T, and 51.2T — and lateness at this layer does not cost a feature comparison, it removes Cisco from consideration entirely. Microsoft and Oracle had both begun SRv6-for-AI deployments on competitor hardware before Cisco shipped, on the architecture Bruce had specified. The recurring pattern is the strategic argument: articulating the superior architecture does not recover the opportunity if the silicon is not there to carry it. FY2027 TAM recovery projection `[pending finance validation]`.
 // I'm not sure about 'and quantifies the internal delay he spent two years arguing against'. I think more broadly Cisco being late to market across silicon generations (12.8T, 25.6T, 51.2T, etc.) leads to massive loss of opportunity and TAM as Cisco is simply dropped from consideration, even when Bruce has spelled out the optimal/superior architectural solution/vision
 
 **PhyNet, Project Octans, disaggregated T2 and Regional Hubs:** Bruce is a primary Cisco SME on Microsoft's Frontend DC (PhyNet) and DCI/Metro (Regional Network Gateway or RNG), and on Project Octans, the disaggregation of chassis-based T2 and DCI fabric layers into upper and lower pizza-box Clos tiers. Bruce's involvement and accomplishments include:
@@ -113,7 +118,11 @@ The productization of SRv6-on-SONiC and the multi-tenant specification are detai
 
 ### Meta, 2021 – Present
 
-**Revenue Impact:** Americas Web/Hyperscale segment bookings — $277M FY22, $367M FY23, $54M FY24, $510M FY25, $1.91B FY26. **Total segment bookings — $3.11B.** First BBF production order — **$17M booked, Feb 2026** `[verify]`
+| FY22 | FY23 | FY24 | FY25 | FY26 | **Total** |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| $277M | $367M | $54M | $510M | $1.91B | **$3.11B** |
+
+*Americas Web/Hyperscale segment bookings. First BBF production order — **$17M booked, Feb 2026** `[verify]`.*
 // should this be made into a short table for readability?
 
 Meta operates one of the largest private backbones in the world, connecting a global data center estate that serves more than three billion daily users. Cisco had been displaced from Meta's backbone and was competing to re-enter against Arista and Broadcom Jericho silicon. Bruce served as internal strategy consultant on Meta positioning from 2021 and as the architect of the technical enablement that returned Cisco to the backbone.
@@ -132,9 +141,9 @@ Asoka on the March 2026 lab support: *"Thank you for helping us with the VXR set
 Meta booked a **$17M** first production order for Cisco 8223-64EH (P200) on the BBF architecture in February 2026. BBF is estimated at **~$300M over two years**, with the RBB pipeline cited at **~$350M/year** `[verify]`. In February and March 2026 Meta committed RBB to SRv6, building on the same SL-API foundation.
 
 **Financial impact:** $17M first production order booked Feb 2026; BBF estimated at ~$300M over two years and RBB pipeline at ~$350M/year `[verify]`; $3.11B in total segment bookings 2022–2026, including $1.91B in FY26.
-**Competitive impact:** Displaced Arista from strategic P200 insertion, returning Cisco to a backbone franchise it had previously lost.
+**Competitive impact:** Countered Arista's incumbency on the backbone and established Cisco as a credible second source in a multi-vendor global deployment — the re-entry point for a franchise Cisco had previously lost `[confirm framing with account team]`.
 // need to verify 'displaced' vs. countered Arista's dominance and became equal/credible second vendor in multi-vendor global deployment
-**Strategic impact:** Proved that a technique developed at one hyperscaler (SL-API at Microsoft) transfers directly to another, and established the VXR co-validation lab as a repeatable pre-GA sales motion now reused across the Web segment.
+**Strategic impact:** Proved that a technique developed at one hyperscaler (SL-API at Microsoft) transfers directly to another, and established the VXR co-validation lab as a repeatable pre-GA sales motion now reused across the Web segment. It also demonstrated the return on sustained internal architectural consultancy: five years of education and advocacy on SRv6 and SL-API, carrying no attributable revenue at the time, converted into a backbone franchise.
 // also proved that multi-year internal architectural consultancy, education, and advocacy on topics like SRv6 and SL-API will eventually bear massive fruit
 **Overall customer impact:** A validated backbone fabric architecture and a committed SRv6 path for RBB, with pre-GA access that let account SEs and Meta's engineers evaluate on their own terms rather than on vendor timelines.
 
@@ -149,15 +158,20 @@ The origination of the SL-API technique is detailed in the Innovation section of
 
 ### Oracle Cloud Infrastructure, 2023 – Present
 
-**Revenue Impact:** Americas Web/Hyperscale segment bookings — $4M FY22, $45M FY23, $230M FY24, $146M FY25, $21M FY26. **Total segment bookings — $446M.** Bruce-attributed scope: ~$20M `[verify]`; 2026–2028 projection `[verify]`
+| FY22 | FY23 | FY24 | FY25 | FY26 | **Total** |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| $4M | $45M | $230M | $146M | $21M | **$446M** |
+
+*Americas Web/Hyperscale segment bookings. Bruce-attributed scope: ~$20M `[verify]`; 2026–2028 projection `[verify]`.*
 // same table comment
 
-Oracle Cloud Infrastructure is the fastest-growing of the major public clouds and has committed to one of the industry's largest AI training buildouts. Its Acceleron program re-architects the AI fabric around multiplanar fabrics with source routing originating at the NIC — an approach that requires exactly the host-based SRv6 model Bruce had been advocating inside Cisco since before the Isovalent acquisition. Bruce is Cisco's lead architect for SRv6 for AI at OCI.
+Oracle Cloud Infrastructure is the fastest-growing of the major public clouds and has committed to one of the industry's largest AI training buildouts. Its Acceleron program re-architects the AI fabric around multiplanar fabrics with source routing originating at the NIC — an approach that requires exactly the host-based SRv6 model Bruce had been advocating inside Cisco since 2019, when SRv6 uSID first made it practical. Bruce is Cisco's lead architect for SRv6 for AI at OCI.
 // what is stronger, since before the Isovalent acquisition, or since the advent of SRv6 uSID in 2019?
 
 **SRv6 for AI — Acceleron and MRC:** Oracle needed N-diverse path selection with multipath reliable connection (MRC) running on GPU hosts in their Stargate and Abilene DCs, with source routing pushed to the NIC rather than computed in the fabric. Bruce's involvement and accomplishments include:
 
-- Led the Cisco/OCI SRv6-for-AI program from kickoff at OCP in October 2024 — the first public customer discussions of the architecture — through the December 2024 OCI SRv6 workshop he led
+- Serves as SONiC-on-Cisco-8000 SME for the wider OCI account engagement, and as **lead architect for the SRv6-for-AI program** — which he has led from its first education and mindshare workshop in December 2024 to the present
+- Opened the general Cisco-as-credible-vendor conversation for OCI AI backend fabrics at OCP in October 2024
 // is there a simpler way to say this? I've led the SRv6-for-AI program since inception (first education/mindshare-building workshop Dec 2024) to the present day. The OCP 2024 kickoff was more the kickoff of a general Cisco-as-credible-vendor for OCI AI backend fabrics — for the general engagement I'm SONiC on Cisco 8000 SME, for the specific SRv6 engagement I'm lead architect
 - Delivered the SRv6 customer requirements document, the VXR lab, the SRv6 SONiC image, and the SRv6 GRT implementation that made the architecture testable
 - Conducted low-diameter topology studies (Hoffman-Singleton, PolarFly) with OCI architect Christian Martin (Jun 2024 — late 2025), producing the lab and design document evaluating fabric diameter against GPU-scale requirements
@@ -192,7 +206,7 @@ CoreWeave is the largest of the neo-cloud AI providers and a primary compute par
 
 - Led the backend fabric architecture covering adaptive routing, ECN behavior, and MRC/SRv6 path metrics, including Vera Rubin Ultra path analysis
 - Advisor and reviewer of the WAN backbone architecture — DSE David Smith was assigned as lead architect (Apr 2026) — ~196 edge routers, 42 TLRs, DSR stitching for AI-DC fabrics, and 32 D-pops for data center interconnect
-- Built Containerlab and VXR lab environments with documentation for CoreWeave's NetDev engineering team (Mar 2026), giving the customer a self-service evaluation path
+- Built Containerlab and VXR lab environments with documentation for CoreWeave's NetDev engineering team (Mar 2026), offering virtual Cisco 8000 routers running either IOS-XR or SONiC and giving the customer a self-service evaluation path
 // these included options to run either virtual Cisco 8000 routers running either IOS-XR or SONiC
 - Served as technical lead for backend data center, SONiC, and simulation environments (VXR, Containerlab) at the CoreWeave EBC (Feb 2026)
 - Bruce demonstrated his SRv6-MRC-Emulator tool to CoreWeave VP Shiv Patel. He emphasized the tool being open-source and Shiv has encouraged his internal team to use it
@@ -240,7 +254,11 @@ Bruce's host-networking and Isovalent/Cilium advocacy is detailed in the Span of
 
 ### Google, 2021 – Present
 
-**Revenue Impact:** Americas Web/Hyperscale segment bookings — $404M FY22, $103M FY23, $108M FY24, $287M FY25, $1.05B FY26. **Total segment bookings — $1.95B.** Bruce-attributed scope: ~$20M `[verify]`
+| FY22 | FY23 | FY24 | FY25 | FY26 | **Total** |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| $404M | $103M | $108M | $287M | $1.05B | **$1.95B** |
+
+*Americas Web/Hyperscale segment bookings. Bruce-attributed scope: ~$20M `[verify]`.*
 
 Google operates B4, one of the largest and most-studied private WANs in the world, and Google Distributed Cloud extends that infrastructure into customer and edge environments. Cisco holds a significant share of Google's backbone, and the account requires engineers who can engage Google's network software teams as peers. Bruce served as strategy consultant, SRv6 architect, and — during a period of account SE leave — interim lead SE.
 
@@ -264,7 +282,11 @@ Google operates B4, one of the largest and most-studied private WANs in the worl
 
 ### Amazon Web Services, 2021 – Present
 
-**Revenue Impact:** Americas Web/Hyperscale segment bookings — $127M FY22, $69M FY23, $196M FY24, $296M FY25, $717M FY26. **Total segment bookings — $1.41B.** Bruce-attributed scope: ~$20M Direct Connect / Silicon One `[verify]`
+| FY22 | FY23 | FY24 | FY25 | FY26 | **Total** |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| $127M | $69M | $196M | $296M | $717M | **$1.41B** |
+
+*Americas Web/Hyperscale segment bookings. Bruce-attributed scope: ~$20M Direct Connect / Silicon One `[verify]`.*
 
 AWS is the largest public cloud provider in the world and one of the few customers with the scale to justify merchant silicon partnerships. Silicon One is Cisco's entry into that market, and the AWS relationship is the proof point that determines whether Cisco competes as a silicon supplier rather than only a systems vendor. Bruce served as internal consultant on Silicon One strategy for the account.
 

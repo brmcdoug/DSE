@@ -38,6 +38,9 @@ Bruce's involvement and influence include:
 - Compiled the **Web encapsulations customer requirements document** with Bob Gisiger (2023), converting scattered hyperscaler host-networking requirements into an engineering backlog
 - Edited four chapters of the **SRv6 book** with Clarence's team (2024)
 - Consulted with Humberto La Roche of the IM&I CTO team on **L4S**
+- Sustained a multi-year fabric-topology collaboration with **Christian Martin** that began when Martin was an OCI architect and continued after he **joined Cisco's MIG hyperscaler architecture team** — an external research partnership that converted into an internal one, now published as SONiC and SRv6 fabric modeling at [github.com/segmentrouting/polarfly](https://github.com/segmentrouting/polarfly)
+
+A recurring pattern across the Web and hyperscale accounts is that Bruce's engagement is designed to be handed off: he builds the architecture, the lab, and the field capability, and then the account team scales the engagement without him. That is visible at Microsoft (SONiC training enabling the account team across expanding use cases), Meta (Asoka DeSaram and Leif Berntsson reusing the VXR lab pattern independently), CoreWeave (self-service Containerlab environments), and Videotron (SE Philippe Vaillancourt self-training ahead of a customer workshop).
 
 Bruce's influence here operates at architecture-organization altitude rather than account-SE scope: he shapes what SR engineering builds, not merely which features his accounts receive. By 2025–2026 that influence extended into platform investment alignment across ISE, IOS-XE, Nexus, SONiC, SD-WAN, SASE, and Cilium.
 

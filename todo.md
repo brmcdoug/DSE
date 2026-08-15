@@ -31,6 +31,14 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 - [ ] **MSFT/OCI SRv6-for-AI** — document **FY2027 TAM** projection (competitor hardware deployments validate architecture; Cisco late to market)
 - [ ] **Akamai** — follow up on SRv6 L3VPN controller POC status (redirect-to-scrubber demo)
 
+### From Bruce's review pass (Aug 15, 2026)
+- [ ] **Microsoft route-miles** — the "120,000 fiber miles" figure had no source and is now `[verify route-mile figure]`; Fairwater Phoenix–Milwaukee is ~2,000 miles. Supply the real number or leave it qualitative
+- [ ] **Meta competitive framing** — "countered Arista's incumbency / credible second source in a multi-vendor deployment" needs account-team confirmation before it is final
+- [ ] **WMP-PolarFly paper** — confirm publication path (internal review, external whitepaper, or conference submission); v0.7 dated Aug 2026
+- [ ] **Christian Martin** — confirm he is comfortable being named, and confirm his Cisco MIG title
+- [ ] **New account rows** — Apple (~$30M), Nvidia (~$30M), Netflix (~$30M) all `[verify]`; each needs a short-form entry in the body or should stay table-only
+- [ ] **OCP 2026 session was declined** — removed from Business Impact; confirm nothing else in the package still implies it was delivered
+
 ### Business Impact case studies (new — Aug 2026 drafting pass)
 - [ ] **Microsoft stakes opener** — confirm Azure scale / Fortune rank figures before final PDF
 - [ ] **OCP Summit 2026** — confirm SRv6 multi-tenant AI fabric co-presentation was delivered

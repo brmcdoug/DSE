@@ -151,7 +151,7 @@ Three enablement institutions exist because Bruce created them rather than volun
 | **Intro to SONiC dCloud lab** | [dCloud 357554](https://dcloud2-sjc.cisco.com/content/demo/357554) | SONiC 101, published with Rob Murphy (Dec 2023) |
 | **srv6-labs** | [GitHub](https://github.com/segmentrouting/srv6-labs) | Primary ILT content; reused by Verizon and Oracle engineers → **Industry Impact** |
 | **srv6-msft / srv6-oci** | [GitHub](https://github.com/segmentrouting) | Account SE and customer engineer co-validation |
-| **srv6-mrc-emulator** | [GitHub](https://github.com/segmentrouting/srv6-mrc-emulator) | AI hackathon enablement; Microsoft and OCI executive demos |
+| **srv6-mrc-emulator** | [GitHub](https://github.com/segmentrouting/srv6-mrc-emulator) | Primary teaching tool for MRC architecture, multi-planar fabric design, host-encapsulation options, and SRv6 numbering. Demonstrated internally to Web account teams and to **Cisco product engineering**; Microsoft and OCI executive demos; CoreWeave VP directed his own team to adopt it |
 | **SONiC Nuggets hub** | SharePoint / vidcast | Phase-1 Web enablement (Apr 2026) |
 
 ---
@@ -185,7 +185,7 @@ The test of enablement is whether it produced results Bruce did not personally d
 
 | Enablement activity | Downstream outcome |
 | :--- | :--- |
-| VXR and SRv6 labs built for Meta account SEs | **Meta $17M BBF production order** → Business Impact |
+| VXR and SRv6 labs built for Meta account SEs | **Meta $17M BBF production order** → Business Impact; SEs Asoka DeSaram and Leif Berntsson reused the pattern independently for the Web-wide AI hackathon |
 | SL-API training pattern transferred from Microsoft SWAN | Meta RBB commitment to SRv6 → Business Impact |
 | CLEU 2026 Meet-the-Expert with James Munroe | **Province of New Brunswick SRv6 migration** → Global Impact |
 | Cilium dCloud lab + DCN Champions overview | **Kaliwoda → MPLS-WC booth → Cilium code contributions** |
