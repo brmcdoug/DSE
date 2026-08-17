@@ -46,6 +46,7 @@ New Global Impact chapter drafted with attribution discipline: intervention → 
 - [ ] **SONiC global run rate and attach**; count of Cisco 8000 units shipping SONiC vs IOS-XR — SONiC product team
 - [ ] **Cilium / Isovalent run rate since acquisition** — Isovalent / Security BE
 - [ ] **NaaS-attributed pipeline** across the SP segment
+- [ ] **Fixed vs. modular market data** — Dell'Oro / Omdia / 650 Group, SP routing and DC switching, by year back to ~2017 so the **crossover year** is visible. Cisco licenses these; ask MIG product or Competitive Intelligence rather than sourcing externally. **Use it to date the inflection against Bruce's 2017–2018 framing, not to claim revenue share**
 - [ ] Confirm which product/engineering leaders will **attest in writing** (Filsfils, Wollenweber, Graf are already sponsorship candidates — an attestation sentence in their LoR is worth more than any figure)
 
 ### From Bruce's Global Impact review (Aug 16, 2026)

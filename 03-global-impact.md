@@ -268,7 +268,9 @@ Bruce's account work is documented above and in Business Impact. The broader cla
 
 **Intervention.** Bruce articulated the hyperscaler shift toward building massive fabrics from fixed-form-factor routers — the *Fabrics and Planes* framing — which fed the SP Compass Designs effort and the decision to release the Cisco 8000 initially as a fixed-chassis platform. The origination predates PSE promotion; the franchise it produced is post-2020 and global.
 
-**Global adoption.** Cisco 8000 fixed-platform share of MIG revenue `[pending]`. At Microsoft the same shift is now visible as Project Octans, disaggregating chassis T2 into pizza-box Clos tiers — an engagement Bruce leads (see Business Impact).
+**Global adoption.** Cisco 8000 fixed-platform share of MIG revenue `[pending]`. Industry fixed-versus-modular split for SP routing, with the crossover year identified `[pending — Dell'Oro / Omdia via MIG or Competitive Intelligence]`. At Microsoft the same shift is now visible as Project Octans, disaggregating chassis T2 into pizza-box Clos tiers — an engagement Bruce leads (see Business Impact).
+
+> **Drafting note — how to use the market data.** The industry trend is not evidence of Bruce's influence; the fixed-form-factor shift has many drivers. Its value here is **establishing when the market inflected**, so that Bruce's 2017–2018 framing can be shown to precede it. Write the claim as *"Bruce framed the shift in 2017–2018; Cisco prioritized pizza-box platforms on that framing; the market crossed over in [year]"* — never as a share of the resulting revenue.
 
 **Attestation.** Tim Carnes, quoted in Bruce's 2020 PSE package: *"Bruce made major contributions to 2017's Fretta use-cases business assessment. His 'fabric architectures' concepts helped jumpstart the Compass Design effort and led to BU prioritization of pizzabox platforms from both the Fretta and Spitfire product lines."*
 
