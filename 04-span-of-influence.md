@@ -189,7 +189,9 @@ Bruce served **three years as a voting member of the Principal Systems Engineer 
 
 ### Cross-Organization Peer Network
 
-Bruce's standing collaborators outside the ASP+Web and MIG orbit — the practical measure of span:
+Bruce's span rests on a habit rather than an assignment: over two decades he has built and maintained working relationships with senior SEs, PSEs, and DSEs across Cisco without regard to geography or vertical alignment. He sustains them for the learning and idea exchange as much as for any engagement — and the consequence is that when an APJC systems engineer, an EMEA data centre specialist, or a public-sector architect needs expertise their own organization lacks, they know who to call. Most of the Global Impact section is downstream of this.
+
+His standing collaborators outside the ASP+Web and MIG orbit — the practical measure of span:
 
 | Peer | Role / organization | Shared work |
 | :--- | :--- | :--- |

@@ -39,6 +39,14 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 - [ ] **New account rows** — Apple (~$30M), Nvidia (~$30M), Netflix (~$30M) all `[verify]`; each needs a short-form entry in the body or should stay table-only
 - [ ] **OCP 2026 session was declined** — removed from Business Impact; confirm nothing else in the package still implies it was delivered
 
+### From Bruce's Global Impact review (Aug 16, 2026)
+- [ ] **Fiserv** — single Jan 2026 TOI session, or continued into 2026? Entry can claim more if continued
+- [ ] **Texas Instruments** — did revenue follow the workshop? (now a narrative entry; TI tried to recruit Bruce)
+- [ ] **NYU / Carnegie Mellon** — any documented outcome (deployment, paper, alumni in operator roles)? Without one this stays two lines
+- [ ] **Evroc** — revenue or committed pipeline; the one EMEA account that could carry a number
+- [ ] **Adobe** — confirm no Nexus/cloud-native pull-through revenue; confirm re-engagement timeframe
+- [ ] **Exec Overview:** Bruce's cross-Cisco relationship habit (senior SEs/PSEs/DSEs, any geography or vertical, sustained for learning and idea exchange) — now in Global Impact and Span of Influence; carry into the Executive Overview
+
 ### New accounts to capture — Apple, OpenAI, Anthropic, Google SRv6-for-AI
 Bruce is running the same force-multiplier motion (equip the account team; they carry it to the customer) at **Google (SRv6 for AI)**, **Apple**, **OpenAI**, and **Anthropic**. Apple currently appears only as a revenue-table row; **OpenAI and Anthropic appear nowhere in the package**. Both are in the ASP+Web account list in AGENTS.md, and both are principals in the MRC specification this package builds on — engagements there materially strengthen Business Impact and Industry Impact.
 
