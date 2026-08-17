@@ -228,6 +228,52 @@ Bruce delivers SRv6, SONiC, and Cilium enablement workshops to **World Wide Tech
 
 ---
 
+## 5. Global Technology Adoption
+
+> **Drafting note — attribution discipline.** Bruce does not own these product lines and this section does not claim their revenue. Each entry states **a specific, dated intervention**, then cites **global adoption as context** for the scale at which that intervention operated, then names **who can attest**. That is the only form of this argument a review panel will accept; a run-rate figure presented as personal attainment would undermine the rest of the package. Figures below are `[pending]` until sourced from finance or the relevant product team.
+
+Bruce's account work is documented above and in Business Impact. The broader claim is that his sustained advocacy — for Segment Routing and SRv6, for host-based networking, for open network operating systems, and for disaggregated fabrics — helped move Cisco and its customers toward technology positions that are now global businesses. He has worked closest with four organizations: the **Segment Routing product and engineering team** under Clarence Filsfils, the **MIG / Cisco 8000** product team, the **SONiC** product team, and the **Isovalent** team following acquisition.
+
+### Segment Routing and SRv6
+
+**Intervention.** Bruce delivered *Scaling the Cloud to a Billion Servers* at an internal SRv6 workshop in 2020, after which Clarence Filsfils tasked him with leading Cisco's hyperscale SRv6 market entry. He has served as field lead in the SR brain trust since, editing four chapters of the SRv6 book, editing the `draft-srv6ops-addressing-guidelines` IETF draft, curating `github.com/segmentrouting`, and driving product decisions including 256 uSID blocks per node in IOS-XR.
+
+**Global adoption.** Cisco's global SR and SRv6 run rate `[pending — finance or SR product team]`. Cisco 8000 global run rate `[pending — MIG]`.
+
+**Attestation.** In **2025 Cisco awarded Bruce a Pinnacle Award as part of the team recognized for SRv6 uSID's market impact** — Cisco's own attribution of global market outcome to that work, and rare recognition for a member of the sales organization. Clarence Filsfils is a sponsorship candidate.
+
+### Open network operating systems — SONiC
+
+**Intervention.** Bruce published the first public description and demonstration of SRv6 uSID on SONiC (May 2023), drove the internal investment case for SONiC SRv6 against sustained engineering scepticism, secured the MIG commitment for SRv6-on-SONiC G200 in Q1 FY26, and led the Americas PA/DA SONiC forum (Dec 2023) that built field-architect consensus on open-NOS strategy.
+
+**Global adoption.** SONiC attach and global run rate `[pending — SONiC product team]`; growth in Cisco 8000 platforms shipped running SONiC rather than IOS-XR `[pending]`.
+
+**Outcome.** SRv6 on SONiC shipped for the Cisco 8122 in June 2026. **Attestation:** Kevin Wollenweber is a sponsorship candidate.
+
+### Host-based networking — Cilium and Isovalent
+
+**Intervention.** Bruce identified Cilium and eBPF as a strategic control point and advocated Cisco acquire Isovalent from 2021, three years before the acquisition closed. Post-acquisition he built the Cilium-SP feature investment case (**~$34M Isovalent and ~$323M MIG pullthrough**, already finance-validated) and authored the multi-use-case Cilium CRD that Cisco engineering has accepted.
+
+**Global adoption.** Cilium and Isovalent global run rate since acquisition `[pending — Isovalent/Security BE]`.
+
+**Attestation.** **Thomas Graf**, Cilium co-creator and Isovalent founder, is a sponsorship candidate and can speak to both the acquisition advocacy and the subsequent SRv6 enablement.
+
+### Network-as-a-Service and the architectural shift
+
+**Intervention.** Bruce's May 2022 SP360 post introduced **cloud-like consumption of network services**, framing that predated the industry NaaS movement of 2024–2025 by two to three years. He carried it into Project Yukon at Verizon and AT&T, the SRv6 SD-WAN underlay work at Rakuten, and the Bell Canada NaaS architecture that produced a 500-unit first order.
+
+**Global adoption.** NaaS-attributed pipeline across the SP segment `[pending]`.
+
+### Chassis to pizza-box fabrics
+
+**Intervention.** Bruce articulated the hyperscaler shift toward building massive fabrics from fixed-form-factor routers — the *Fabrics and Planes* framing — which fed the SP Compass Designs effort and the decision to release the Cisco 8000 initially as a fixed-chassis platform. The origination predates PSE promotion; the franchise it produced is post-2020 and global.
+
+**Global adoption.** Cisco 8000 fixed-platform share of MIG revenue `[pending]`. At Microsoft the same shift is now visible as Project Octans, disaggregating chassis T2 into pizza-box Clos tiers — an engagement Bruce leads (see Business Impact).
+
+**Attestation.** Tim Carnes, quoted in Bruce's 2020 PSE package: *"Bruce made major contributions to 2017's Fretta use-cases business assessment. His 'fabric architectures' concepts helped jumpstart the Compass Design effort and led to BU prioritization of pizzabox platforms from both the Fretta and Spitfire product lines."*
+
+---
+
 ## Summary Table — Global Impact Accounts
 
 | Customer | Theater | Segment | Signature outcome | Revenue / status |

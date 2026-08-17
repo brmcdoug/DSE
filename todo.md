@@ -39,6 +39,15 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 - [ ] **New account rows** — Apple (~$30M), Nvidia (~$30M), Netflix (~$30M) all `[verify]`; each needs a short-form entry in the body or should stay table-only
 - [ ] **OCP 2026 session was declined** — removed from Business Impact; confirm nothing else in the package still implies it was delivered
 
+### Global Technology Adoption — data needed (new chapter, Aug 16 2026)
+New Global Impact chapter drafted with attribution discipline: intervention → global adoption as context → who attests. **Every figure is `[pending]`.** To source:
+- [ ] **Global SR / SRv6 run rate** — finance or SR product team (Clarence Filsfils' org)
+- [ ] **Cisco 8000 global run rate**, and fixed-platform share of MIG revenue — MIG
+- [ ] **SONiC global run rate and attach**; count of Cisco 8000 units shipping SONiC vs IOS-XR — SONiC product team
+- [ ] **Cilium / Isovalent run rate since acquisition** — Isovalent / Security BE
+- [ ] **NaaS-attributed pipeline** across the SP segment
+- [ ] Confirm which product/engineering leaders will **attest in writing** (Filsfils, Wollenweber, Graf are already sponsorship candidates — an attestation sentence in their LoR is worth more than any figure)
+
 ### From Bruce's Global Impact review (Aug 16, 2026)
 - [ ] **Fiserv** — single Jan 2026 TOI session, or continued into 2026? Entry can claim more if continued
 - [ ] **Texas Instruments** — did revenue follow the workshop? (now a narrative entry; TI tried to recruit Bruce)
