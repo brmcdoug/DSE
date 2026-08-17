@@ -146,7 +146,9 @@ Texas Instruments operates a global manufacturing and design network spanning fa
 
 The Province of New Brunswick operates the provincial government network for Canada's eighth-largest province. Lead architect **James Munroe** attended Bruce's Cisco Live Europe 2026 session with a conventional SR-MPLS migration already planned — the safe, well-trodden path that most operators of that scale were taking.
 
-Bruce spent a single architecture conversation with him at a Meet-the-Expert session, working through the design tradeoffs of adopting SRv6 directly versus staging through SR-MPLS first.
+Bruce spent a single architecture conversation with him at a Meet-the-Engineer session, working through the design tradeoffs of adopting SRv6 directly versus staging through SR-MPLS first.
+
+Bruce and Munroe have stayed in contact since.
 
 **Financial impact:** Migration in progress; platform revenue `[verify]`.
 **Competitive impact:** Converted a planned legacy-transport deployment into a next-generation architecture at the design stage.
@@ -159,8 +161,9 @@ The Cisco Live session itself is detailed in the SE Community Leadership section
 
 ### NYU and Carnegie Mellon, 2024
 
-Bruce advised **New York University** on the HSRN SONiC research network (Aug 2024) and delivered a SONiC education session to **Carnegie Mellon**.
-// NYU/CMU: is there any documented outcome — a deployment, a paper, students who went on to operator roles? Without one this stays a two-line entry. Research and higher-education networks are early adopters of disaggregated platforms and function as a credibility channel into the operator community — the engineers running them frequently move into industry roles carrying their platform preferences with them.
+**New York University** and **Carnegie Mellon** were considering deploying SONiC in their high speed research networks. Bruce delivered SONiC education sessions and architectural/operational advice to both (Aug 2024).
+Research and higher-education networks are early adopters of disaggregated platforms and function as a credibility channel into the operator community — the engineers running them frequently move into industry roles carrying their platform preferences with them.
+// Bruce to follow up with both account teams on documented outcomes (deployment, paper, alumni placements)
 
 ---
 
@@ -202,7 +205,9 @@ Bruce produced the SRv6 SD-WAN underlay high-level design, evaluating Cisco mode
 
 ### NTT East, 2025
 
-Bruce served as SRv6 and Cilium subject-matter expert for the APJC account team at **NTT East**, one of Japan's two incumbent regional carriers, delivering SRv6 and Cilium introductions that produced study-level SRv6 L3VPN interest.
+NTT East is one of Japan's two incumbent regional carriers. Its architects were weighing a move from SR-MPLS to SRv6 and considering whether to extend SRv6 into the data center — a decision the APJC account team had no local SRv6 depth to support.
+
+The account team routed the customer to Bruce directly. NTT East architects attended his SRv6 lab and met with him at **Cisco Live US 2025** and again at **Cisco Live Europe 2026**, where he served as consulting architect on SRv6 and Cilium and introduced the team to SRv6 extended to the host. Two Cisco Live sessions became a two-year architecture consultation with a tier-1 Japanese carrier that has no Americas relationship. `[verify revenue or pipeline]`
 
 ---
 
@@ -214,7 +219,7 @@ The purest measure of global reach is impact on customers Bruce never met, achie
 
 **Revenue Impact:** ~$85K customer lab savings; 2,300-node POC topology `[verify]`
 
-**MTN Nigeria** is the largest mobile operator in Africa, and **DU** is one of two national operators in the United Arab Emirates. Neither is an ASP+Web account and neither is in Bruce's theater. APJC systems engineer **Sanjay Nanda** engaged Bruce for SRv6 topology and migration expertise he could not source locally.
+**MTN Nigeria** is the largest mobile operator in Africa, and **DU** is one of two national operators in the United Arab Emirates. APJC systems engineer **Sanjay Nanda** engaged Bruce for SRv6 topology and migration expertise he could not source locally.
 
 Bruce built the topology and migration designs Sanjay carried into both accounts, producing approximately **$85,000 in avoided customer lab expenditure at MTN Nigeria** and a **2,300-node SRv6 POC topology at DU** — POC scale that would not have been attempted without the design work `[verify]`.
 
@@ -232,15 +237,15 @@ Bruce delivers SRv6, SONiC, and Cilium enablement workshops to **World Wide Tech
 
 > **Drafting note — attribution discipline.** Bruce does not own these product lines and this section does not claim their revenue. Each entry states **a specific, dated intervention**, then cites **global adoption as context** for the scale at which that intervention operated, then names **who can attest**. That is the only form of this argument a review panel will accept; a run-rate figure presented as personal attainment would undermine the rest of the package. Figures below are `[pending]` until sourced from finance or the relevant product team.
 
-Bruce's account work is documented above and in Business Impact. The broader claim is that his sustained advocacy — for Segment Routing and SRv6, for host-based networking, for open network operating systems, and for disaggregated fabrics — helped move Cisco and its customers toward technology positions that are now global businesses. He has worked closest with four organizations: the **Segment Routing product and engineering team** under Clarence Filsfils, the **MIG / Cisco 8000** product team, the **SONiC** product team, and the **Isovalent** team following acquisition.
+Bruce's account work is documented above and in Business Impact. The broader claim is that his sustained advocacy — for Segment Routing and SRv6, for host-based networking, for open network operating systems, and for disaggregated fabrics — helped move Cisco and its customers toward technology positions that are now global businesses. He has worked closest with four organizations: the **Segment Routing product and engineering team** under Clarence Filsfils, the **MIG / Cisco 8000 and MIG SONiC** product teams, and the **Isovalent / Cisco Security** product team following acquisition.
 
 ### Segment Routing and SRv6
 
-**Intervention.** Bruce delivered *Scaling the Cloud to a Billion Servers* at an internal SRv6 workshop in 2020, after which Clarence Filsfils tasked him with leading Cisco's hyperscale SRv6 market entry. He has served as field lead in the SR brain trust since, editing four chapters of the SRv6 book, editing the `draft-srv6ops-addressing-guidelines` IETF draft, curating `github.com/segmentrouting`, and driving product decisions including 256 uSID blocks per node in IOS-XR.
+**Intervention.** Bruce delivered *Scaling the Cloud to a Billion Servers* at an internal SRv6 workshop in 2020, after which Clarence Filsfils tasked him with leading Cisco's hyperscale SRv6 market entry. He has served as field lead in the SR brain trust since, editing four chapters of the SRv6 book, editing the `draft-srv6ops-addressing-guidelines` IETF draft, curating `github.com/segmentrouting`, and driving product decisions including SRv6 uSID support in SONiC and uSID block scale and static uSIDs in IOS-XR platforms.
 
 **Global adoption.** Cisco's global SR and SRv6 run rate `[pending — finance or SR product team]`. Cisco 8000 global run rate `[pending — MIG]`.
 
-**Attestation.** In **2025 Cisco awarded Bruce a Pinnacle Award as part of the team recognized for SRv6 uSID's market impact** — Cisco's own attribution of global market outcome to that work, and rare recognition for a member of the sales organization. Clarence Filsfils is a sponsorship candidate.
+**Attestation.** In **2025 Cisco awarded a Pinnacle Award to the team recognized for SRv6 uSID's market impact** — Cisco's own attribution of global market outcome to that work. The team numbered roughly 40, almost entirely Cisco engineering; **Bruce and DSE Craig Hill were the only two recipients from the sales organization**. Clarence Filsfils is a sponsorship candidate.
 
 ### Open network operating systems — SONiC
 
@@ -252,7 +257,7 @@ Bruce's account work is documented above and in Business Impact. The broader cla
 
 ### Host-based networking — Cilium and Isovalent
 
-**Intervention.** Bruce identified Cilium and eBPF as a strategic control point and advocated Cisco acquire Isovalent from 2021, three years before the acquisition closed. Post-acquisition he built the Cilium-SP feature investment case (**~$34M Isovalent and ~$323M MIG pullthrough**, already finance-validated) and authored the multi-use-case Cilium CRD that Cisco engineering has accepted.
+**Intervention.** Bruce identified Cilium and eBPF as a strategic control point and advocated Cisco acquire Isovalent from 2021, three years before the acquisition closed. Post-acquisition he built the Cilium-SP feature investment case (**~$34M Isovalent and ~$323M MIG pullthrough**) and authored the multi-use-case Cilium CRD that Cisco engineering has accepted.
 
 **Global adoption.** Cilium and Isovalent global run rate since acquisition `[pending — Isovalent/Security BE]`.
 
@@ -260,7 +265,7 @@ Bruce's account work is documented above and in Business Impact. The broader cla
 
 ### Network-as-a-Service and the architectural shift
 
-**Intervention.** Bruce's May 2022 SP360 post introduced **cloud-like consumption of network services**, framing that predated the industry NaaS movement of 2024–2025 by two to three years. He carried it into Project Yukon at Verizon and AT&T, the SRv6 SD-WAN underlay work at Rakuten, and the Bell Canada NaaS architecture that produced a 500-unit first order.
+**Intervention.** Bruce's May 2022 SP360 post introduced **cloud-like consumption of network services**, framing that predated the industry NaaS movement of 2024–2025 by two to three years. He carried it into Project Yukon at Verizon and AT&T, the SRv6 SD-WAN underlay work at Rakuten, and the Bell Canada NaaS architecture that produced a 500-unit first order and run rate of `[verify]`.
 
 **Global adoption.** NaaS-attributed pipeline across the SP segment `[pending]`.
 

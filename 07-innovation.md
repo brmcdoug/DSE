@@ -20,7 +20,7 @@ This method produces a distinctive pattern in the record below. Bruce's inventio
 
 | Category | Evidence (Aug 2020 – present) |
 | :--- | :--- |
-| **Awards** | **2025 Pinnacle Award** — SRv6 uSID team; rare recognition for a member of the sales organization |
+| **Awards** | **2025 Pinnacle Award** — SRv6 uSID team of ~40, almost entirely Cisco engineering; Bruce and DSE Craig Hill were the only two recipients from sales |
 | **Invention disclosures** | **24 CPOL submissions since Aug 2020** (36 lifetime); **9 approved** for patent filing, defensive publication, or merge |
 | **Patent filings** | **10 filings across 4 families**, including **5 continuations** on the SmartTOR / NIC-based segment routing family `[verify granted vs. pending]` |
 | **Products shipped** | **SRv6 on SONiC, Cisco 8122** (Jun 2026); Cilium SRv6 CRD; SGT-in-uSID unified policy model |
@@ -74,7 +74,7 @@ Most recently he authored the **multi-use-case Cilium customer requirements docu
 
 **Customer Solution:** Bruce built the argument as a thought experiment. His presentation *Scaling the Cloud to a Billion Servers*, delivered at an early internal SRv6 workshop in 2020, reframed uSID from a protocol optimization into the only addressing architecture that survives hyperscale growth. He then spent five years doing the unglamorous work: the first public NANOG presentation of uSID, the `segmentrouting` GitHub organization, customer workshops, and the sustained engineering partnership with Clarence Filsfils and the SR team. He drove internal confirmation of IOS-XR support for 256 uSID blocks per node (Oct 2023), the locator scale hyperscale designs require, and found and drove remediation of broken End.USD behavior in IOS-XR with Kamran Raza (Jan 2023).
 
-**Business Impact:** The 2020 presentation led **Clarence Filsfils to task Bruce with leading SRv6 hyperscale market entry** — a mandate validated by the tier-1 and hyperscale wins documented in Business Impact. In **2025 Bruce received Cisco's Pinnacle Award** as part of the team recognized for SRv6 uSID's market impact, citing unified forwarding architecture, network-as-API programmability, and cross-domain automation readiness. Pinnacle recognition rarely reaches the sales organization; it confirms field-led SRv6 advocacy as company-level innovation rather than account support.
+**Business Impact:** The 2020 presentation led **Clarence Filsfils to task Bruce with leading SRv6 hyperscale market entry** — a mandate validated by the tier-1 and hyperscale wins documented in Business Impact. In **2025 Cisco awarded a Pinnacle Award to the SRv6 uSID team** for the technology's market impact, citing unified forwarding architecture, network-as-API programmability, and cross-domain automation readiness. The team numbered roughly 40 and was almost entirely Cisco engineering; **Bruce and DSE Craig Hill were the only two recipients from the sales organization**. That composition is the point — Cisco recognized field-led SRv6 advocacy as company-level innovation alongside the engineers who built it.
 
 ---
 

@@ -69,7 +69,7 @@ Bruce named and evangelized the **host-networking air-gap** and **host-based SRv
 
 Bob Gisiger, May 2026: *"this is super cool, it's your vision for years of host based SRv6 coming to life in a big way…"*
 
-The **2025 Pinnacle Award** for SRv6 uSID market impact recognized this arc at company level; detail in the Innovation section.
+The **2025 Pinnacle Award** for SRv6 uSID market impact recognized this arc at company level — a team of roughly 40, almost entirely engineering, of whom Bruce was one of only two from sales. Detail in the Innovation section.
 
 ---
 
