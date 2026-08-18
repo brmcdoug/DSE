@@ -10,6 +10,26 @@ This repo is the **publication layer** for a ~50-page Distinguished Systems Engi
 
 **Obsidian vault:** `/Users/brucemcdougall/go/notes/` (see that vault’s `AGENTS.md` for wikilink/MOC conventions)
 
+**OFFICIAL SOURCES — cite these, do not paraphrase from memory:**
+- `reference/Template for DSE candidacy Jan2025.docx` — section order, suggested lengths, formatting rules
+- `reference/PSE DSE Nomination Kit FY26.pptx` — criteria on **slide 15** (LoR requirements), **slides 21–22** (PSE criteria), **slides 24–25** (DSE criteria)
+- **Audit of package vs. these sources:** [criteria-audit.md](./criteria-audit.md) (Aug 2026)
+
+**Role name:** the official title is **Solutions** Engineer (PSE / DSE), not *Systems* Engineer. `[package-wide correction pending]`
+
+**Section 10 is named "Leadership"**, not "SE Community Leadership" (template change note, 01092025).
+
+**Formatting (official):** ≤50 pages including cover, **excluding index and appendix**; **CiscoSansTT**; **no smaller than 10 pt**; single spaced; working hyperlinks.
+
+**The DSE general guideline — the panel's own framing device (Nomination Kit slide 25, first row):**
+> *"Demonstrate how you have been a **force multiplier** throughout the organization (covering multiple criteria aspects). For example: identification of new technology and industry trends, building the necessary field enablement, aligning strategic stakeholders (engineering and sales exec.) and investment, leading lighthouse customers and driving field adoption."*
+
+This sits **above** Global Impact, Span of Influence, and Industry Impact in the criteria table. Use its four examples as the structure of the Executive Overview.
+
+**Industry Impact (slide 25):** *"Influencing and leading not just internally within Cisco, but also externally. **Participate and/or lead standards bodies and represent Cisco within such.**"* Standards work is a named criterion — lead with the IETF draft editorship.
+
+**Innovation evidence types the criteria name explicitly (slide 22):** *patent # granted, GitHub stars, sales data, event registration/attendees and speaker score, adoption, endorsement from sponsor and community.*
+
 **Gold-standard reference:** `reference/Brenden Buresh Distinguished Architect Final 040122.pdf`  
 **Template analysis (structure):** `reference/brenden-dse-package-template-outline.md`  
 **Voice & claim strength (prose):** `voice-guide.md` — **read before drafting**

@@ -9,6 +9,9 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 
 ## Package completion (blocking)
 
+- [ ] **Work through [criteria-audit.md](./criteria-audit.md)** (Aug 18, 2026) — ten findings from the official template and Nomination Kit, now in `reference/`. Priority order at the end of that file. Highest value: the **force-multiplier framing** is the panel's own assessment structure and the package does not currently use it
+- [ ] **Bruce to gather:** US **patent numbers** (we have Cisco asset IDs only) and **GitHub star/fork counts** — both explicitly named as evidence in Nomination Kit slide 22
+
 - [ ] **Word package assembly** — `Bruce-McDougall-DSE-Package-Aug2026.docx` is the official deliverable. Insert with `scripts/md_to_docx.py`. **Done:** Business Impact, Appendix. **Remaining:** Global Impact, Span of Influence, Industry Impact, Innovation, Personal Development, SE Community Leadership, Sponsorship, Exec Overview
 - [ ] **Workflow (Aug 2026):** **markdown is source of truth; Word is a build artifact.** Review and comment in the `.md` files using line-initial `//`; collect with `scripts/review_comments.py`; regenerate Word with `scripts/md_to_docx.py`. Word-side tools (`read_docx_review.py`, `edit_docx.py`) are for the last mile and external reviewers
 - [ ] **Strip `[verify]` markers** before submission — they render in **red** in the Word doc so they are easy to find
