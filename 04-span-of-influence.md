@@ -20,7 +20,6 @@
 | **2023–2024** | Architecture-organization altitude | SR brain trust field lead; SONiC investment case; Americas PA/DA SONiC forum; Future Enterprise Segmentation; corporate development advisory |
 | **2024–present** | Cross-platform engineering engagement | SRv6 feature development across **IOS-XR, IOS-XE, NX-OS, SONiC, SD-WAN, SASE, ThousandEyes** (Synthetic Path Tracing patent) **and Cilium** — eight platforms, five business entities |
 | **2025–2026** | Company and executive altitude | SOSIE co-founder; Web/Hyperscale representative for executive BU interlocks; FY26 Global Sales Technical Roadmap owner; EVPN readout to CPO Jeetu Patel; Cilium CRD accepted by engineering |
-// 2024 - present: SRv6 engineering and feature development engagement across IOS-XE, NX-OS, SONiC, IOS-XR, SDWAN, SASE, Thousand-Eyes (see synthetic path tracing patent), and Cilium
 
 None of this influence came with authority attached. Business entities outside Bruce's own engage him because he settles an architecture on its merits first, and works out Cisco's position from there.
 
