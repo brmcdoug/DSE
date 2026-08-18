@@ -246,7 +246,7 @@ Bruce's account work is documented above and in Business Impact. The broader cla
 
 **Global adoption.** Cisco's global SR and SRv6 run rate `[pending — finance or SR product team]`. Cisco 8000 global run rate `[pending — MIG]`.
 
-**Attestation.** In **2025 Cisco awarded a Pinnacle Award to the team recognized for SRv6 uSID's market impact** — Cisco's own attribution of global market outcome to that work. The team numbered roughly 40, almost entirely Cisco engineering; **Bruce and DSE Craig Hill were the only two recipients from the sales organization**. Clarence Filsfils is a sponsorship candidate.
+**Attestation.** Cisco awarded a **2025 Pinnacle Award to the team recognized for SRv6 uSID's market impact** (presented at the ceremony in early 2026) — Cisco's own attribution of global market outcome to that work. The team numbered roughly 40, almost entirely Cisco engineering; **Bruce and DSE Craig Hill were the only two recipients from the sales organization**. Clarence Filsfils is a sponsorship candidate.
 
 ### Open network operating systems — SONiC
 
