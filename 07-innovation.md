@@ -183,14 +183,14 @@ The declined disclosures are listed alongside the approved ones deliberately. Se
 
 *Source: Cisco Inventor Portfolio Stats, US, 17 Aug 2026 (`projects/Inventor Portfolio Stats - US-2026-08-17-20-21-52.xlsx`). Six issued US patents; **four issued during the PSE period**.*
 
-| Title | Position | Co-inventors | Filed | **Issued** |
+| Title | Patent Number | Co-inventors | Filed | **Issued** |
 | :--- | :--- | :--- | :--- | :--- |
-| **Underlay Network Traffic Steering** | **First inventor** | Saswat Praharaj, Fabio Maino, Alberto Rodriguez-Natal, Jeff Byzek, Steve Wood | Nov 2022 | **Oct 2024** |
-| **Scheduled FIB to Account for Intermittent Connectivity Due to Orbital Dynamics** | Second | Plamen Nedeltchev | Jan 2023 | **Dec 2025** |
-| **Core Network Support for Application-Requested Network Service Level Objectives** | Co-inventor | Saswat Praharaj, Fabio Maino, Alberto Rodriguez-Natal, Pradeep Kathail | May 2023 | **Jun 2024** |
-| **Synthetic Path Tracing of Segment Routed Networks** | Second | Hans Ashlock, Ben Haddox | Jul 2023 | **Apr 2025** |
-| **Segment Routing Label Switch Paths in NFV Communications Networks** *(original)* | Co-inventor | Clarence Filsfils, Sami Boutros, Rex Fernando, Siva Sivabalan, Lakshmi Sharma, Santiago Freitas, Rob Fielding | Mar 2015 | **Nov 2016** |
-| **Segment Routing Label Switch Paths in NFV Communications Networks** *(continuation)* | Co-inventor | *as above* | Oct 2016 | **Apr 2019** |
+| **Underlay Network Traffic Steering** | 12,120,027 | Saswat Praharaj, Fabio Maino, Alberto Rodriguez-Natal, Jeff Byzek, Steve Wood | Nov 2022 | **Oct 2024** |
+| **Scheduled FIB to Account for Intermittent Connectivity Due to Orbital Dynamics** | 12,494,999 | Plamen Nedeltchev | Jan 2023 | **Dec 2025** |
+| **Core Network Support for Application-Requested Network Service Level Objectives** | 12,009,998 | Saswat Praharaj, Fabio Maino, Alberto Rodriguez-Natal, Pradeep Kathail | May 2023 | **Jun 2024** |
+| **Synthetic Path Tracing of Segment Routed Networks** | 12,289,210 | Hans Ashlock, Ben Haddox | Jul 2023 | **Apr 2025** |
+| **Segment Routing Label Switch Paths in NFV Communications Networks** *(original)* | 9,503,363 | Clarence Filsfils, Sami Boutros, Rex Fernando, Siva Sivabalan, Lakshmi Sharma, Santiago Freitas, Rob Fielding | Mar 2015 | **Nov 2016** |
+| **Segment Routing Label Switch Paths in NFV Communications Networks** *(continuation)* | 10,250,494 | *as above* | Oct 2016 | **Apr 2019** |
 
 Three things are worth drawing out of that table. Bruce is the **first-named inventor on Underlay Network Traffic Steering** — the SD-WAN filing, granted October 2024 — alongside SD-WAN engineering staff, in a business entity outside his own. The **Scheduled FIB** grant covers delay-tolerant networking for orbital dynamics, a domain unrelated to his day work and evidence of the breadth DSE requires. And the oldest family, **Segment Routing in NFV**, was filed in 2015 with **Clarence Filsfils** and the SR engineering leadership — the earliest documentary record of the partnership that runs through this package.
 
