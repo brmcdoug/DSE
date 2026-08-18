@@ -7,11 +7,29 @@
 
 ---
 
-> **Proposed framing (Aug 18, 2026) — for Bruce's review.** The official criterion names standards bodies: *"Participate and/or lead standards bodies and represent Cisco within such."* Bruce's position is that the locus of industry influence has shifted — OCP and open source now drive innovation faster than standards processes, though standards still matter. The evidence supports him: **MRC** was published by OpenAI with AMD, Broadcom, and Intel as an open specification rather than through a standards body; **RNG** was published by Amazon as a paper; **SONiC** is an open-source project; **Cilium and eBPF** run through CNCF and the kernel community. Rather than working around the criterion, propose stating this directly and showing presence in **all three venues** — standards (IETF draft editor, SRv6-Ops, SRv6 book), open source (`srv6-labs`, Jalapeno, MRC emulator, upstream Cilium contribution catalysed), and open hardware (OCP). That satisfies the named criterion and tells the panel something the criteria have not caught up with. `[Bruce decision]`
-
 ## Industry Impact Arc
 
-Bruce's external work follows one sustained argument, advanced publicly since before the market was ready for it: that the network's control point is moving to the host, that programmable source routing is how operators will reach it, and that open network operating systems are how they will run it. He has made that case in open-source repositories, operator conferences, standards drafts, and practitioner training — building artifacts that practitioners use independently of any Cisco account team.
+Bruce's external work advances a **sustained vision** rather than a single argument, and it rests on three elements he has carried publicly since before the market was ready for any of them.
+
+**Host networking.** The network's control point has moved to where the workload runs. Cisco's participation there is not optional.
+
+**Open source.** Not only for network operating systems, but for tooling, automation, and SDN — and because a visible commitment to open source earns the industry trust and credibility that ultimately drives product revenue. On open NOS specifically Bruce is both evangelist and realist: *Linux is the operating system; routing is an application* — and mainstream adoption is still four to six years out.
+
+**Source routing.** SRv6 simplifies network architecture, improves operator agility, and — the part most vendors miss — gives the operator a **platform for their own network service innovation** rather than a catalogue of vendor features. Bruce presented this case as *Combatting Disaggregation with Network Service Innovation (SRv6)* to the Americas SP organization at the TMC Innovation Hour in September 2025, repeated by request in December 2025 (`projects/TMC-Innovation-Hour-SRv6.pptx`).
+
+He has advanced all three in open-source repositories, open hardware forums, standards drafts, operator conferences, and practitioner training — building artifacts practitioners use independently of any Cisco account team.
+
+### Where industry influence now happens
+
+The official criterion names standards bodies, and Bruce has standards credentials — he edits the `draft-srv6ops-addressing-guidelines` IETF draft, participates in IETF SRv6-Ops, and edited four chapters of the SRv6 book. But the venues that now set direction in this field are open source and open hardware consortia, and the MRC timeline demonstrates it precisely:
+
+| Date | Event |
+| :--- | :--- |
+| **2024** | MRC work begins — OpenAI convening AMD, Broadcom, and Intel |
+| **Nov 2024** | SRv6 for the AI backend discussed publicly at **OCP** |
+| **Jul 2025** | First IETF draft appears — **largely in response to work already well under way** |
+
+The standards process trailed the open forums by roughly eight months on the defining transport architecture of the AI era. **RNG** was published by Amazon as a paper; **SONiC** is an open-source project; **Cilium** and **eBPF** run through CNCF and the kernel community. Bruce operates in all three venues, and the weight of his record sits where the industry's weight has moved.
 
 | Era | Industry-facing theme | Representative artifacts |
 | :--- | :--- | :--- |
@@ -114,9 +132,11 @@ The clearest case is **Dan Bernier, Senior Architect at Bell Canada**. The partn
 
 Cisco SR engineering subsequently invited Bruce to join the MPLS-WC lead operators workshop alongside Microsoft and OCI peers (CLEU 2025).
 
-### SRv6 Operator Roadshow — Dec 2025
+### SRv6 for DC and AI Workshops — 2025
 
-Bruce built the SRv6 operator workshop program in Austin — deliberately structured at 50% customer and 50% Cisco content across hyperscale, enterprise, public sector, and service provider segments, with a companion SE enablement workshop covering platforms, gaps, objections, and competition. The design scales the SRv6 adoption narrative across operator segments rather than through individual account engagements.
+Bruce coordinated and hosted the **SRv6-for-AI workshop in San Jose (April 2025)** for an audience of Cisco MIG engineering and their leadership together with the Web SE teams, presenting host-based SRv6 and Cilium himself. Guest speakers came from the two operators furthest ahead on open-NOS SRv6: **Rita Hue**, SONiC Principal Software Engineering Manager at Microsoft, and **Eddie Ruan**, Director of Network System Software at Alibaba Cloud. A smaller follow-up session in December 2025 took the same audience deeper into use cases and roadmap — by then there was a roadmap to discuss.
+
+Convening Microsoft and Alibaba engineering leadership in front of Cisco's own product organization is industry influence pointed inward: the customers made the case for the architecture more effectively than Cisco could make it to itself.
 
 ---
 
@@ -124,25 +144,23 @@ Bruce built the SRv6 operator workshop program in Austin — deliberately struct
 
 ### Cisco Live — Industry-Facing Sessions — 2023 – 2026
 
-Bruce's Cisco Live work reaches global practitioners rather than Cisco field teams alone. He was named **Distinguished Speaker at Cisco Live EMEA 2023**, scoring **5.00 / 5.00**, and has sustained scores between 4.72 and 5.00 across CLEU and CLUS sessions since. Sessions with industry reach include LTRSPG-2212 (2023–2026), *Beyond the Switchport* with Chris Lapp (CLUS 2026), the BTSP panel (CLUS 2026, 5.0), and IBOSPG-2013 (CLUS 2025, 5.00). Following CLUS 2025 he coded a demonstration **SRv6 PyTorch plugin**, highlighted by Bob Gisiger in the November 2025 SRF session.
+Bruce's Cisco Live work reaches global practitioners rather than Cisco field teams alone. He was named **Distinguished Speaker at Cisco Live EMEA 2023**, scoring **5.00 / 5.00**, and has sustained scores between 4.72 and 5.00 across CLEU and CLUS sessions since. Sessions with industry reach include LTRSPG-2212 (2023–2026), *Beyond the Switchport* with Chris Lapp (CLUS 2026), and IBOSPG-2013 (CLUS 2025, 5.00). The CLUS 2025 lab used a demonstration **SRv6 PyTorch plugin** that he coded, and was highlighted by Bob Gisiger as a unique highlight in the November 2025 "Stay Ready Friday" training  session where Bruce, Rob, and Nico proctored the lab for about 80 Cisco ASP/Web SEs.
 
 Two sessions produced documented external outcomes: a Meet-the-Expert conversation at CLEU 2026 led the Province of New Brunswick to abandon its SR-MPLS plan for an immediate SRv6 migration (Global Impact), and Boost Mobile ran an SRv6 POC after CLUS 2025 (Business Impact).
 
-*Session preparation, ILT delivery mechanics, and full score tables are located in the SE Community Leadership section of this document.*
+Several sessions have been invited back year after year on the strength of their scores — **LTRSPG-2212 ran at Cisco Live EMEA in 2023, 2024, 2025, and 2026**; the *Future of Service Provider Networking* panel (IBOSPG-2013) at CLUS in 2023 and 2025; LTRMSI-3000 at CLUS in 2025 and 2026. Full session log, attendance, and scores: `projects/conferences.md`.
 
-### O'Reilly — *Open Source Labbing* — 2024 – 2025
+*Session preparation, ILT delivery mechanics, and full score tables are located in the Leadership section of this document.*
 
-The collaboration began in Bruce's Akamai engagement: the FRR SRv6 L3VPN image and lab he built for Russ White (Oct 2023) led directly to this course. Bruce co-developed a **four-hour O'Reilly training course** with **Russ White** — author of some of the most influential IP networking books in the industry — covering Containerlab, FRR, SRv6, and open-source lab methodology. It was delivered live twice to hundreds of engineers worldwide, and both sessions are recorded in the O'Reilly catalog for subscribers. Course materials are public at [github.com/brmcdoug/open-source-labbing](https://github.com/brmcdoug/open-source-labbing). Co-authorship with Russ White — one of the industry's most recognized networking authors — is independent validation of the reproducible-lab method Bruce established with srv6-labs. `[verify catalog link/title]`
+### O'Reilly Training — *Open Source Labbing* — 2024 – 2025
 
-### Pour-Man's Networking Podcast — May 2022
-
-Guest on the inaugural episode, providing early external visibility for the SRv6 and programmability narrative.
+Bruce co-developed a **four-hour O'Reilly training course** with **Russ White**, author of some of the most influential IP networking books in the industry — independent validation of the reproducible-lab method Bruce established with `srv6-labs`. The collaboration grew directly out of the FRR SRv6 L3VPN image and lab he built for White during the Akamai engagement (Oct 2023). The course covers Containerlab, FRR, SRv6, and open-source lab methodology; it was delivered live twice to hundreds of engineers worldwide, both sessions are in the O'Reilly catalog, and the materials are public at [github.com/brmcdoug/open-source-labbing](https://github.com/brmcdoug/open-source-labbing). `[verify catalog link/title]`
 
 ---
 
 ## Academic Partnership — OST Zurich, 2020 – 2022
 
-Bruce established the collaboration with **OST Zurich**, open-sourcing the Jalapeno API gateway (2021) and producing an SRv6 service-chaining demonstration (2022). He advised master's thesis work with Professor Laurent Metzger; student Severin Dellsperger went on to build **Hawkv6**, a distributed controller application, with Bart Van De Velde and Andreas Enotiadis. The partnership operates as a pipeline from operator-relevant academic research into field architecture validation.
+Bruce established the collaboration with **OST University in Zurich**. Under his guidance the students used Jalapeno as a development platform. They developed and open-sourced the Jalapeno API gateway (2021) and produced a demo SRv6 service-chaining App (2022). He advised master's thesis work with Professor Laurent Metzger; student Severin Dellsperger went on to build **Hawkv6**, a distributed controller application, which Cisco EU CTO team Bart Van De Velde and Andreas Enotiadis have expressed interest in productizing. The partnership operates as a pipeline from operator-relevant academic research into field architecture validation.
 
 ---
 
@@ -159,8 +177,18 @@ Bruce established the collaboration with **OST Zurich**, open-sourcing the Jalap
 | MPLS-WC 2023–2025 | Conference | Bell, Verizon, and Rakuten delivered the architecture |
 | OCP Summit 2024 / 2026 | Conference | Hyperscale AI fabric audience |
 | Cisco Live EMEA 2023 | Recognition | **Distinguished Speaker**, 5.00 / 5.00 |
-| [O'Reilly *Open Source Labbing*](https://github.com/brmcdoug/open-source-labbing) (with Russ White) | Training | O'Reilly catalog; delivered live twice |
+| [O'Reilly Training *Open Source Labbing*](https://github.com/brmcdoug/open-source-labbing) (with Russ White) | Training | O'Reilly catalog; delivered live twice |
+| [jalapeno/SRv6_dCloud_Lab](https://github.com/jalapeno/SRv6_dCloud_Lab) | Open source | **16 stars, 7 forks** — the Cisco Live lab Bruce open-sourced |
+| [github.com/jalapeno](https://github.com/jalapeno) | Open source org | Owner and maintainer, **15+ repositories** of supplemental Jalapeno functionality |
 | **2025 Pinnacle Award** | Recognition | SRv6 uSID global market impact |
+
+### The open-source Cisco Live lab
+
+Bruce and Rob Murphy's **LTRSPG-2212** pioneered using GitHub as both the lab guide and the configuration and code store — the model now common across instructor-led sessions. They went further and **declared the lab itself open source**, encouraging attendees to clone or fork it, run it in their own environments, and use it to train their colleagues. The repository has **16 stars and 7 forks** from customers doing exactly that: [github.com/jalapeno/SRv6_dCloud_Lab](https://github.com/jalapeno/SRv6_dCloud_Lab).
+
+Bruce also owns and maintains the **[github.com/jalapeno](https://github.com/jalapeno)** organization, **15+ repositories** of supplemental functionality extending `cisco-open/jalapeno`.
+
+
 
 ---
 
