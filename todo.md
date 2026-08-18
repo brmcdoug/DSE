@@ -10,6 +10,9 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 ## Package completion (blocking)
 
 - [ ] **Work through [criteria-audit.md](./criteria-audit.md)** (Aug 18, 2026) — ten findings from the official template and Nomination Kit, now in `reference/`. Priority order at the end of that file. Highest value: the **force-multiplier framing** is the panel's own assessment structure and the package does not currently use it
+- [x] **US patent numbers** added; patents table re-sorted most-recent-first; **GitHub stars captured** — jalapeno 78/15, srv6-labs 74/15, srv6-mrc-emulator 5. Now cited in Innovation and Industry Impact
+- [ ] **Web segment revenue trajectory** — Bruce cites "a couple hundred million annually" in ~2015 growing to $10.9B booked 2022–2026. Get the early-period figure from finance so the before/after is quotable
+- [ ] **Arkadiusz Kaliwoda** — confirm the MPLS World Congress demo year (2024 or 2025); he is now a Cilium SME, evangelist, and contributor in EMEA — strongest second-order enablement evidence, LoR candidate
 - [ ] **Bruce to gather:** US **patent numbers** (we have Cisco asset IDs only) and **GitHub star/fork counts** — both explicitly named as evidence in Nomination Kit slide 22
 
 - [ ] **Word package assembly** — `Bruce-McDougall-DSE-Package-Aug2026.docx` is the official deliverable. Insert with `scripts/md_to_docx.py`. **Done:** Business Impact, Appendix. **Remaining:** Global Impact, Span of Influence, Industry Impact, Innovation, Personal Development, SE Community Leadership, Sponsorship, Exec Overview

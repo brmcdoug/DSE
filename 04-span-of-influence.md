@@ -18,15 +18,19 @@
 | **2020** | Production routing and data centre SME for Web and SP accounts | Account and theater engagements through MIG engineering |
 | **2021–2022** | Cross-BU advisor without mandate | SD-WAN product direction with CNWAN; SP Edge tiger team co-lead; PSE review subcommittee |
 | **2023–2024** | Architecture-organization altitude | SR brain trust field lead; SONiC investment case; Americas PA/DA SONiC forum; Future Enterprise Segmentation; corporate development advisory |
+| **2024–present** | Cross-platform engineering engagement | SRv6 feature development across **IOS-XR, IOS-XE, NX-OS, SONiC, SD-WAN, SASE, ThousandEyes** (Synthetic Path Tracing patent) **and Cilium** — eight platforms, five business entities |
 | **2025–2026** | Company and executive altitude | SOSIE co-founder; Web/Hyperscale representative for executive BU interlocks; FY26 Global Sales Technical Roadmap owner; EVPN readout to CPO Jeetu Patel; Cilium CRD accepted by engineering |
+// 2024 - present: SRv6 engineering and feature development engagement across IOS-XE, NX-OS, SONiC, IOS-XR, SDWAN, SASE, Thousand-Eyes (see synthetic path tracing patent), and Cilium
 
-None of that influence came with authority attached. It was earned by being right early and staying persistent — and by a specific discipline: Bruce settles an architecture on its merits, as an operator would judge it, and only then works out how Cisco gets to the centre of it. Business entities outside his own engage him because the architecture arrives before the pitch does.
+None of this influence came with authority attached. Business entities outside Bruce's own engage him because he settles an architecture on its merits first, and works out Cisco's position from there.
 
 ### How he thinks about it
 
-Bruce approaches networks philosophically, and topologically. He does not accept that a data centre platform is a switching platform and a backbone platform is a routing platform — **it is all just moving data.** In some places the topology is highly symmetric and concentrated into a small physical space; in others it is asymmetric, with far lower available bandwidth per square kilometre. The difference is one of degree, not of kind.
+Bruce reasons about networks the way a hyperscale architect does: **topologically, rather than by product category.** A data centre platform and a backbone platform are not different kinds of thing — both move data. In some places the topology is highly symmetric and concentrated into a small physical space; in others it is asymmetric, with far lower available bandwidth per square kilometre. The difference is one of degree, not of kind.
 
-That view is why he moves between data centre, metro, WAN, and host without changing frameworks, and it is the source of most of the positions in this section: unified SRv6 forwarding end to end, chassis giving way to fixed-form-factor fabrics, flat low-diameter topologies, and the host as a first-class network participant.
+Cisco's portfolio, like every large vendor's, is organized into places in the network, and its engineering organizations mirror that division — Conway's law at work. Operating outside that framing is what lets Bruce see the seams: **unified SRv6 forwarding** end to end rather than per-domain encapsulations, **fixed-form-factor fabrics** in roles that convention reserved for chassis, **flat low-diameter topologies** in place of hierarchy, and **the host as a first-class network participant**.
+
+He applies the same reduction to policy. There is nothing categorically distinct about a firewall, an access control list, or a Layer 3 VPN — each is a way of forwarding data *intentionally* rather than blindly. Recognizing them as one problem is what produced the **Policy Plane** and the SRv6-with-SGT architecture.
 
 ### Technology domains (DSE requires ≥2)
 

@@ -47,7 +47,7 @@ The through-line is a single conviction, formed while writing his Principal Arch
 | **Architecture and policy** | Cilium SRv6 CRD — host-networking policy execution engine; **SRv6 + SGT** unified policy model (*Locator : Function : SGT*), adopted by ISE Dec 2025 |
 | **Acquisition influence** | **Isovalent / Cilium** — early advocate from 2021; acquisition closed 2024 |
 | **Bold Bets** | **Jalapeno** — the only field-submitted project to advance past the first evaluation round |
-| **Open source** | [cisco-open/jalapeno](https://github.com/cisco-open/jalapeno); [segmentrouting](https://github.com/segmentrouting) org — srv6-labs, srv6-msft, srv6-oci, srv6-mrc-emulator |
+| **Open source** | [cisco-open/jalapeno](https://github.com/cisco-open/jalapeno) — **78 stars, 15 forks**; [segmentrouting/srv6-labs](https://github.com/segmentrouting/srv6-labs) — **74 stars, 15 forks**; [srv6-mrc-emulator](https://github.com/segmentrouting/srv6-mrc-emulator) — **5 stars** *(published 2026)*; plus srv6-msft, srv6-oci, polarfly |
 | **Architectural specs** | SRv6 uSID multi-tenancy for AI factories (Apr 2026); **WMP-PolarFly** flat-fabric paper contesting Amazon's RNG (Aug 2026); Policy Plane |
 | **Cross-company strategy** | **Single OS (SOSIE)** working group — co-founded with DSE/PSE peers to address NOS fragmentation and argue the Linux-NOS case |
 | **Hackathon** | Cisco EN Hackathon 2022 winner — SD-WAN + SRv6 (Team 6 / Group 14) |
@@ -185,14 +185,14 @@ The declined disclosures are listed alongside the approved ones deliberately. Se
 
 | Title | Patent Number | Co-inventors | Filed | **Issued** |
 | :--- | :--- | :--- | :--- | :--- |
-| **Underlay Network Traffic Steering** | 12,120,027 | Saswat Praharaj, Fabio Maino, Alberto Rodriguez-Natal, Jeff Byzek, Steve Wood | Nov 2022 | **Oct 2024** |
 | **Scheduled FIB to Account for Intermittent Connectivity Due to Orbital Dynamics** | 12,494,999 | Plamen Nedeltchev | Jan 2023 | **Dec 2025** |
-| **Core Network Support for Application-Requested Network Service Level Objectives** | 12,009,998 | Saswat Praharaj, Fabio Maino, Alberto Rodriguez-Natal, Pradeep Kathail | May 2023 | **Jun 2024** |
 | **Synthetic Path Tracing of Segment Routed Networks** | 12,289,210 | Hans Ashlock, Ben Haddox | Jul 2023 | **Apr 2025** |
-| **Segment Routing Label Switch Paths in NFV Communications Networks** *(original)* | 9,503,363 | Clarence Filsfils, Sami Boutros, Rex Fernando, Siva Sivabalan, Lakshmi Sharma, Santiago Freitas, Rob Fielding | Mar 2015 | **Nov 2016** |
-| **Segment Routing Label Switch Paths in NFV Communications Networks** *(continuation)* | 10,250,494 | *as above* | Oct 2016 | **Apr 2019** |
+| **Underlay Network Traffic Steering** | 12,120,027 | Saswat Praharaj, Fabio Maino, Alberto Rodriguez-Natal, Jeff Byzek, Steve Wood | Nov 2022 | **Oct 2024** |
+| **Core Network Support for Application-Requested Network Service Level Objectives** | 12,009,998 | Saswat Praharaj, Fabio Maino, Alberto Rodriguez-Natal, Pradeep Kathail | May 2023 | **Jun 2024** |
+| **Segment Routing Label Switch Paths in NFV Communications Networks** *(continuation)* | 10,250,494 | Clarence Filsfils, Sami Boutros, Rex Fernando, Siva Sivabalan, Lakshmi Sharma, Santiago Freitas, Rob Fielding | Oct 2016 | **Apr 2019** |
+| **Segment Routing Label Switch Paths in NFV Communications Networks** *(original)* | 9,503,363 | *as above* | Mar 2015 | **Nov 2016** |
 
-Three things are worth drawing out of that table. Bruce is the **first-named inventor on Underlay Network Traffic Steering** — the SD-WAN filing, granted October 2024 — alongside SD-WAN engineering staff, in a business entity outside his own. The **Scheduled FIB** grant covers delay-tolerant networking for orbital dynamics, a domain unrelated to his day work and evidence of the breadth DSE requires. And the oldest family, **Segment Routing in NFV**, was filed in 2015 with **Clarence Filsfils** and the SR engineering leadership — the earliest documentary record of the partnership that runs through this package.
+Three things are worth drawing out of that table. **Underlay Network Traffic Steering** (12,120,027) was filed by SD-WAN engineering — a business entity outside Bruce's own — alongside Praharaj, Maino, Rodriguez-Natal, Byzek, and Wood; granted IP in another BU's portfolio is the least arguable evidence of cross-organizational influence in this package. The **Scheduled FIB** grant (12,494,999) covers delay-tolerant networking for orbital dynamics, a domain unrelated to Bruce's day work and evidence of the breadth DSE requires. And the oldest family, **Segment Routing in NFV** (9,503,363 and 10,250,494), was filed in 2015 with **Clarence Filsfils** and the SR engineering leadership — the earliest documentary record of the partnership that runs through this package.
 
 ### All CIPOL Innovation Disclosures
 

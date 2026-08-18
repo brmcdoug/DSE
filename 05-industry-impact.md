@@ -148,12 +148,12 @@ Bruce established the collaboration with **OST Zurich**, open-sourcing the Jalap
 
 | Artifact | Type | Industry reach |
 | :--- | :--- | :--- |
-| [segmentrouting/srv6-labs](https://github.com/segmentrouting/srv6-labs) | Open source | ~40K first-week views; ipspace.net citation; Verizon and Oracle contributors |
+| [segmentrouting/srv6-labs](https://github.com/segmentrouting/srv6-labs) | Open source | **74 stars, 15 forks**; ~40K first-week views; ipspace.net citation; Verizon and Oracle contributors |
 | [SRv6 uSID on SONiC](https://www.segment-routing.net/blogs/srv6-usid-on-sonic/) | Publication | **First public SRv6-for-DC-on-SONiC description in the industry** |
 | **draft-srv6ops-addressing-guidelines** | IETF draft | **Editor** |
 | **SRv6 book**, chapters 12–14 | Publication | Editor/contributor with Cisco SR engineering |
-| [cisco-open/jalapeno](https://github.com/cisco-open/jalapeno) | Open source | Independent automation landscape listings |
-| [srv6-mrc-emulator](https://github.com/segmentrouting/srv6-mrc-emulator) | Open source | MRC + SRv6 teaching implementation |
+| [cisco-open/jalapeno](https://github.com/cisco-open/jalapeno) | Open source | **78 stars, 15 forks**; independent automation landscape listings |
+| [srv6-mrc-emulator](https://github.com/segmentrouting/srv6-mrc-emulator) | Open source | **5 stars** (published 2026); MRC + SRv6 teaching implementation |
 | MPLS-WC 2023–2025 | Conference | Bell, Verizon, and Rakuten delivered the architecture |
 | OCP Summit 2024 / 2026 | Conference | Hyperscale AI fabric audience |
 | Cisco Live EMEA 2023 | Recognition | **Distinguished Speaker**, 5.00 / 5.00 |
