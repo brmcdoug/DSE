@@ -261,7 +261,9 @@ Detail goes where the **strongest evidence** sits. Worked example — **SR-Apps*
 
 **Suggested length:** 2–3 pages.
 
-**Primary lens:** Impact on the **broader networking industry** — **direct revenue outcome not required** (Aug 2020–present).
+**Official length:** 2–3 pages. **Standalone section** — unlike Global Impact and Span, it neither summarizes into other sections nor receives detail from them; its references point to **external links**.
+
+**Primary lens:** influence and leadership **externally**, not only inside Cisco; the criterion explicitly names **standards bodies**. The template asks for *"the impact to Cisco's businesses in terms of revenue and/or strategy in a factual, verifiable way"* — the same wording as Business Impact. **Earlier guidance in this file said "direct revenue not required"; that was wrong.** Where revenue is absent, state the **strategy** impact explicitly.
 
 **Must include:**
 - Leadership and visibility **outside Cisco** among operators, architects, open-source community, standards-adjacent forums

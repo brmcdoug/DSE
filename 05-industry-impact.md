@@ -7,6 +7,8 @@
 
 ---
 
+> **Proposed framing (Aug 18, 2026) — for Bruce's review.** The official criterion names standards bodies: *"Participate and/or lead standards bodies and represent Cisco within such."* Bruce's position is that the locus of industry influence has shifted — OCP and open source now drive innovation faster than standards processes, though standards still matter. The evidence supports him: **MRC** was published by OpenAI with AMD, Broadcom, and Intel as an open specification rather than through a standards body; **RNG** was published by Amazon as a paper; **SONiC** is an open-source project; **Cilium and eBPF** run through CNCF and the kernel community. Rather than working around the criterion, propose stating this directly and showing presence in **all three venues** — standards (IETF draft editor, SRv6-Ops, SRv6 book), open source (`srv6-labs`, Jalapeno, MRC emulator, upstream Cilium contribution catalysed), and open hardware (OCP). That satisfies the named criterion and tells the panel something the criteria have not caught up with. `[Bruce decision]`
+
 ## Industry Impact Arc
 
 Bruce's external work follows one sustained argument, advanced publicly since before the market was ready for it: that the network's control point is moving to the host, that programmable source routing is how operators will reach it, and that open network operating systems are how they will run it. He has made that case in open-source repositories, operator conferences, standards drafts, and practitioner training — building artifacts that practitioners use independently of any Cisco account team.

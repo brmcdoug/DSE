@@ -45,6 +45,10 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 - [ ] **New account rows** — Apple (~$30M), Nvidia (~$30M), Netflix (~$30M) all `[verify]`; each needs a short-form entry in the body or should stay table-only
 - [ ] **OCP 2026 session was declined** — removed from Business Impact; confirm nothing else in the package still implies it was delivered
 
+### Industry Impact — framing decision (Aug 18, 2026)
+- [ ] **Standards vs. open source framing** — criterion names standards bodies; Bruce's view is that OCP and open source now drive innovation faster. Proposal recorded at the top of [05-industry-impact.md](./05-industry-impact.md): state the shift explicitly and show presence in all three venues (standards / open source / open hardware) rather than inflating the standards record. **Bruce decision**
+- [ ] Industry Impact rework once framing is settled: lead with standards to satisfy the criterion, reverse-chronological order per the template, add a **strategy-impact line to every entry** (criterion asks for revenue and/or strategy), trim ~500 words to the official 2–3 pages, move Cisco Live scores to Leadership
+
 ### From Bruce's Innovation review (Aug 17, 2026)
 - [x] **Pinnacle Award year** — resolved: **2025 award, ceremony early 2026**. Applied consistently across `01`, `03`, `07`
 - [x] **6 patent grants confirmed** — Cisco Inventor Portfolio report (`projects/Inventor Portfolio Stats - US-2026-08-17...xlsx`); issued-patents table rebuilt with dates. Four of six issued during the PSE period; Bruce first-named inventor on *Underlay Network Traffic Steering* (Oct 2024)
