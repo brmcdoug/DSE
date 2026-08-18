@@ -10,6 +10,7 @@
 
 ## How Global Impact Expanded Beyond ASP + Web
 
+
 Everything in this section sits outside Bruce's Americas Service Provider and Web assignment — enterprise, financial services, education, public sector, and operators in APJC and EMEA.
 
 The pattern is consistent: field teams, APJC and EMEA peers, and enterprise theaters often request Bruce by name for SONiC, SRv6, Cilium/eBPF, and cloud-scale architecture, when they need a higher level of expertise than they have in their own organization. As in Business Impact, much of this work is delivered **through other engineers rather than in front of customers** — Bruce supplies the architecture, the designs, the new or creative ideas, and the labs, and the local team runs the engagement. Two national operators on two continents advanced their SRv6 programs this way without Bruce ever meeting them. What he transfers is not product knowledge but the horizon-2 architecture patterns developed on hyperscale accounts — open network operating systems, host-based networking, unified SRv6 forwarding, and cloud-style consumption models — applied to insurers, banks, media companies, manufacturers, universities, provincial governments, and operators in three theaters.

@@ -92,7 +92,7 @@ Cisco carried identity in the enterprise portfolio through Security Group Tags, 
 
 Bruce's involvement and influence include:
 
-- Authored Sprint 3 recommendations on protocol sprawl and established **SGT as the normalized identity gate** for attribute-based access control, working with Marina Ferreira, Errol Roberts, Steven Chimes, Steven Moore, and Tjerk Bijlsma
+- Authored Sprint 3 recommendations on protocol sprawl and established **SGT as the normalized identity gate** for attribute-based access control, working with Marina Ferreira, Errol Roberts, Steven Chimes, Steven Moore, and Tjerk Bijlsma. Investigating SGT for that work produced the insight behind SRv6+SGT — a Security Group Tag and an SRv6 uSID are both 16 bits — detailed in the Innovation section of this document
 - Developed the *Embedding Services in the Network* and Service SID concepts (Mar 2022) with Josh Merrill, John Mullooly, and Kamran Raza
 - Presented **SRv6 with SGT to Matt Gillies** (Apr 2025) with Josh Merrill, establishing the unified policy model spanning ISE, SSE, and SD-WAN
 - Carried the SRv6-with-SGT architecture into Verizon executive conversations, designing the majority of the architecture and intellectual property while Cisco PSE **Josh Merrill delivered the executive presentations** — deliberately putting a colleague in front of the customer's leadership

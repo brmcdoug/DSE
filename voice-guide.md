@@ -114,6 +114,20 @@ That last row matters. Pending finance validation should never leak into hedged 
 
 ---
 
+## Framing guardrail: what drives the innovation record
+
+An early draft of the Innovation section made **declined disclosures the centrepiece** of Bruce's innovation philosophy. He corrected it (Aug 2026), and the correction matters because it changes what the section argues.
+
+**Wrong framing:** *inventions appear as declined disclosures, then reappear years later as products.* This is true sometimes, but it makes the record look like a story about institutional resistance.
+
+**Right framing:** Bruce **was the operator first** — a network engineer and Cisco customer at Expedia before he was a vendor architect. He chooses what to work on by asking *what would I want if I were still the operator: the simplest, most cost-effective, longest-lasting architecture?* — and beyond the single operator, *what fosters a thriving ecosystem, since that is what produces durable growth.* He does **not** start from how Cisco sells more. Being ahead of Cisco, ahead of customers, and occasionally ahead of the hyperscalers is a *consequence* of that starting point, not the point itself.
+
+Most ideas begin as a brainstorm — his own or with a peer — and become an approved disclosure, a paper, or a working demo. Declines are part of the record, not the spine of it.
+
+**Rule:** when framing Bruce's motivation anywhere in the package, start from operator empathy and architectural durability. Institutional resistance is context, never the thesis.
+
+---
+
 ## Accuracy guardrail: prescience claims
 
 The "saw it early" argument is this package's strongest asset **and** its highest-risk one. A prescience claim is the most checkable thing in the document — dates are public, product ship dates are internal record, and a reviewer who catches one overstatement will discount the rest.

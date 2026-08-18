@@ -164,20 +164,25 @@ Innovation is a defining strength of Bruce’s candidacy. He combines **influenc
 
 ### Innovation Timeline *(optional graphic for final package)*
 
+This innovation timeline is more what I consider large career-changing insights or intellectual property milestones in my journey
+
+
+
 | Year | Insight / Innovation |
 | :--- | :--- |
 | 2006 | MPLS in the DC (Expedia) — early scale thinking |
 | 2013 | SR to the host; first SR/NFV patents |
-| 2015 | Host-networking CIPOL; cloud control-point shift |
-| 2017 | Elephant flow balancer (precursor to AI fabric load balancing) |
+| 2015 | Host-networking Patent; cloud control-point shift |
+| 2017 | SR Elephant flow balancer (precursor to AI fabric load balancing) |
+| 2018 - present | Jalapeno open SDN, APIs not protocols, SR/SRv6 empower applications |
 | 2019 | SRv6: scale the cloud to a billion servers |
-| 2020 | APIs not protocols; Policy Plane; **Billion Servers** workshop → hyperscale SRv6 mandate |
-| 2021 | Isovalent acquisition advocacy begins |
-| 2022 | SRv6 beyond last-hop; cloud-native SRv6 |
+| 2020 | Jalapeno Bold Bets project; Policy Plane; **Billion Servers** workshop → hyperscale SRv6 mandate, SR-Apps collaboration with Clarence and team |
+| 2021 | Isovalent acquisition advocacy begins (industry leading eBPF technology, strategic host-networking asset) |
+| 2022 | SRv6 beyond last-hop; cloud-native SRv6, cloud-like consumption of network services |
 | 2023 | uSID→TEP; SONiC inflection; srv6-labs launch |
 | 2024 | SGT+uSID unified programming; SRv6 for AI industry convergence |
 | 2025 | **Pinnacle Award (2025)**; SONiC uSID field/engineering partnership; Meta BBF path |
-| 2026 | MRC emulator; multi-tenant AI fabric; **8122 SRv6-on-SONiC** ship; Global team transfer |
+| 2026 | SRv6 MRC emulator; multi-tenant AI fabric; **8122 SRv6-on-SONiC** ship; Global team transfer |
 
 **Innovation arc (summary):** From early scale thinking (MPLS in the DC) through SR/SRv6 patents (e.g., US9503363, US10250494), host-networking and the **host networking air-gap** (2012–2023), and applied SRv6 across SD-WAN, SASE, and ThousandEyes-class platforms, Bruce’s post-2020 work converges on **AI-era fabrics**: **MRC+SRv6** industry alignment, the [srv6-mrc-emulator](https://github.com/segmentrouting/srv6-mrc-emulator), and multi-tenant AI POC repos ([srv6-msft](https://github.com/segmentrouting/srv6-msft), [srv6-oci](https://github.com/segmentrouting/srv6-oci)) used with Microsoft and Oracle engineering.
 

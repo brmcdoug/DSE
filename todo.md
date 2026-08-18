@@ -39,6 +39,13 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 - [ ] **New account rows** — Apple (~$30M), Nvidia (~$30M), Netflix (~$30M) all `[verify]`; each needs a short-form entry in the body or should stay table-only
 - [ ] **OCP 2026 session was declined** — removed from Business Impact; confirm nothing else in the package still implies it was delivered
 
+### From Bruce's Innovation review (Aug 17, 2026)
+- [ ] **Pinnacle Award year** — package says **2025**; Bruce's notes say he was named *"in early 2026"*. Likely an FY25 award presented early 2026. Fix to one form and use it consistently across `01`, `03`, `05`, `07`, `11`
+- [ ] **Confirm the 6 patent grants** — Bruce's authoritative count is 6 patents / 9 pending / 1 defensive publication; filing tables carry no issue dates, so attach CPOL portal links per grant
+- [ ] **Future Enterprise Segmentation tiger team records** — Bruce to dig up his participation detail; the SGT/uSID 16-bit insight originated there and now anchors the SRv6+SGT entry
+- [ ] **SRv6 on Cisco SD-WAN** — listed as forthcoming in the Innovation summary; confirm the release vehicle and timing
+- [ ] **SRv6 uSID on Nexus** — confirm shipping status
+
 ### Global Technology Adoption — data needed (new chapter, Aug 16 2026)
 New Global Impact chapter drafted with attribution discipline: intervention → global adoption as context → who attests. **Every figure is `[pending]`.** To source:
 - [ ] **Global SR / SRv6 run rate** — finance or SR product team (Clarence Filsfils' org)
