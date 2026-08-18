@@ -11,6 +11,8 @@
 
 Bruce entered the Principal Systems Engineer role in August 2020 as a Segment Routing subject-matter expert serving Web and service provider accounts through MIG engineering. He now operates as a cross-business-entity architect whose positions shape product roadmaps in organizations that have no reporting relationship to his own, and whose technical judgment is solicited by corporate development, security, enterprise networking, and the office of the CTO.
 
+None of that influence came with authority attached. It was earned by being right early and staying persistent — and by a specific discipline described in the Innovation section: Bruce settles an architecture on its merits as an operator would judge it, then works out how Cisco gets to the centre of it. Business entities outside MIG engage him because the architecture arrives before the pitch does.
+
 | Dimension | Horizon 1 — early PSE (2020) | Horizon 2–3 — current (2026) |
 | :--- | :--- | :--- |
 | **Engineering orbit** | SRv6 feature SME within MIG and Web transport | Cross-BU advisor: **Cilium/Isovalent**, **SD-WAN**, **SSE / Cisco Secure Access**, **Nexus/DC**, **ISE**, **ThousandEyes**, **Future Enterprise Segmentation**, **Single OS (SOSIE)** |
@@ -31,7 +33,7 @@ Cisco's Segment Routing engineering organization under Fellow Clarence Filsfils 
 Bruce's involvement and influence include:
 
 - Delivered *Scaling the Cloud to a Billion Servers* at an early internal SRv6 workshop (2020), after which **Clarence Filsfils tasked Bruce with leading Cisco's hyperscale SRv6 market entry** — a mandate validated by the 2025 Pinnacle Award and the tier-1 deployments documented in Business Impact
-- Served as **SR-Apps field lead** (2020–2024), co-developing with SR and MIG engineering on path tracing into IPM, NaaS, and host-based SRv6 direction
+- Served as **SR-Apps field lead** (2020–2024), co-developing with SR and MIG engineering on path tracing into IPM, NaaS, and host-based SRv6 direction; SR engineering subsequently adopted his Jalapeno project as the SR-Apps platform (see Innovation)
 - Acts as the **SRv6 engineering field broker**, introducing field SEs directly to Clarence's team (Gisiger, Olson, Vashisht, Sischo, Rockwell, Khanna, and others) rather than routing requests through account channels
 - Briefed **MIG and Silicon leadership** (Mar 2026) on SRv6 use cases at Microsoft and Oracle, setting AI-backend and frontend data center priorities
 - Drove product prioritization decisions including **256 uSID blocks per node in IOS-XR** (Oct 2023), which unblocked the hyperscale SRv6 designs Bruce had been advocating, and remediation of broken End.USD behavior with Kamran Raza (Jan 2023)
@@ -80,7 +82,7 @@ Bruce's involvement and influence include:
 - Reached architectural agreement with **Rupak Chandra** on SRv6 for Cisco Secure Access (Aug 2024)
 - Serves as **cloud-native SME on demand to business entity leaders** including Steve Wood and Errol Roberts (from Jan 2025), providing Kubernetes, Cilium, and eBPF depth these organizations lack internally
 
-The influence is documented in intellectual property rather than only in relationships: the SD-WAN patent family — *SP Underlay Services for SD-WAN*, *Core Network Support for Application-Requested Network Service Level Objectives*, *Underlay Network Traffic Steering*, and *Authoritative IPv6 Traffic Marking in SD-WAN* — carries Bruce as a named inventor alongside SD-WAN engineering staff.
+The influence is documented in issued intellectual property rather than only in relationships. **Bruce is the first-named inventor on *Underlay Network Traffic Steering*, granted October 2024**, alongside SD-WAN engineering staff — Saswat Praharaj, Fabio Maino, Alberto Rodriguez-Natal, Jeff Byzek, and Steve Wood. *Core Network Support for Application-Requested Network Service Level Objectives* issued in June 2024 with substantially the same team, and *Authoritative IPv6 Traffic Marking in SD-WAN* is pending. First inventor position on a granted patent, filed by a business entity Bruce does not belong to, is the least arguable evidence of cross-BU influence in this package.
 
 *More details are located in the Innovation section of this document.*
 
