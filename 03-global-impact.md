@@ -1,330 +1,68 @@
 ## Global Impact
 
-> **Scope ([AGENTS.md](./AGENTS.md)):** Customer and revenue impact **outside the ASP + Web assignment** since **August 1, 2020**.  
-> **Global Impact ≠ "outside Americas."** Geico, Fiserv, Adobe, and similar North American enterprise accounts belong here because they are **not** Web/hyperscale or assigned SP accounts.  
-> **Route elsewhere:** Microsoft, Meta, OCI, CoreWeave, Verizon, Bell, Videotron, Digital Realty → **[06-business-impact.md](./06-business-impact.md)**; srv6-labs, NANOG, CLEU labs → **Industry / SE Leadership**; Isovalent acquisition advocacy → **Span / Innovation**.
+> **Official criteria (DSE nomination PPT):**
+> - *Demonstrate global impact outside the immediate area*
+> - *Examples include leading global accounts, creating and delivering global training, developing new architectures that are adopted globally*
+>
+> **Official guidance (DSE nomination Word guide):** *"Provide a high-level summary of how your impact moved from regional / theater to global, using a bulleted list or a table to show the transition. A detailed version of the global impact can be added to the appropriate section of the package (business impact, innovation, SE leadership etc.). Chronological format with most recent global impact first."*
 
-**Suggested package length:** 7 pages per README weighting — see note at end of section. Third person; organized by expansion pattern. Voice and claim-strength rules: [voice-guide.md](./voice-guide.md).
+**Structure:** per the guidance above and Brenden Buresh's package, this section is a **summary that points to detail elsewhere**, in two-column table form. Official suggested length is **2–3 pages**. Named customer engagements — including out-of-territory Americas enterprise accounts — are detailed in **[06-business-impact.md](./06-business-impact.md)**. Voice and claim-strength rules: [voice-guide.md](./voice-guide.md).
 
 ---
 
-## How Global Impact Expanded Beyond ASP + Web
+## How Bruce's Impact Moved from Regional to Global
 
-
-Everything in this section sits outside Bruce's Americas Service Provider and Web assignment — enterprise, financial services, education, public sector, and operators in APJC and EMEA.
-
-The pattern is consistent: field teams, APJC and EMEA peers, and enterprise theaters often request Bruce by name for SONiC, SRv6, Cilium/eBPF, and cloud-scale architecture, when they need a higher level of expertise than they have in their own organization. As in Business Impact, much of this work is delivered **through other engineers rather than in front of customers** — Bruce supplies the architecture, the designs, the new or creative ideas, and the labs, and the local team runs the engagement. Two national operators on two continents advanced their SRv6 programs this way without Bruce ever meeting them. What he transfers is not product knowledge but the horizon-2 architecture patterns developed on hyperscale accounts — open network operating systems, host-based networking, unified SRv6 forwarding, and cloud-style consumption models — applied to insurers, banks, media companies, manufacturers, universities, provincial governments, and operators in three theaters.
-That reach rests on a deliberate habit: over two decades Bruce has built and maintained working relationships with senior SEs, PSEs, and DSEs across Cisco without regard to geography or vertical alignment — relationships he sustains for the learning and idea exchange as much as for any engagement. It is why an APJC systems engineer, an EMEA data centre specialist, or a public-sector architect knows to call him.
-
-| Period | Expansion | Representative accounts |
+| Period | Scope of impact | Evidence |
 | :--- | :--- | :--- |
-| **2020–2023** | Enterprise cloud-native and education | Adobe Cilium threads; SONiC at NTY and Carnegie Mellon; Morgan Stanley SRv6 |
-| **2024** | Americas Enterprise SONiC and SR direct engagements | **Geico** (~$1.6M); **Honeywell** (~$2M); Texas Instruments; The Trade Desk |
-| **2025** | APJC and EMEA operators | **Rakuten** SRv6-SDWAN HLD; **Evroc** colo-2; NTT East; Softbank |
-| **2025** | Media and finanacial | Disney DGN; Visa |
-| **2025–2026** | Financial services, public sector, partner multiplier | **Fiserv** SRv6 TOI; **Adobe** POC complete; **Province of NB** migration; WWT enablement |
-
-*Dollar figures marked `[verify]` pending finance validation.*
+| **2008–2014** | Account, then Americas region | SP routing, Carrier Ethernet, and Unified MPLS across US service provider accounts |
+| **2015–2020** | Americas Web / hyperscale segment | Hyperscale production networks; first public NANOG presentation of SRv6 uSID |
+| **2020–2023** | Cross-theater technology lead | **Global field lead for SR-Apps**; `github.com/segmentrouting`; global SRv6 workshops; APJC and EMEA operator support |
+| **2023–2025** | Global architecture and product direction | SONiC investment case; Isovalent acquisition advocacy; SRv6+SGT across business entities; IETF draft editor; four SRv6 book chapters |
+| **2025–2026** | Global role | **Lead Cloud-SP architect, Global Solutions Engineering** (Matt Gillies, from Jun 2026); Pinnacle Award for SRv6 uSID market impact; WMP-PolarFly paper |
 
 ---
 
-## 1. Americas Enterprise and Financial Services
+## Global Initiatives
 
-### Geico, 2024
-
-**Revenue Impact:** ~$1.6M SONiC on Cisco 8000 `[verify finance]`
-
-Geico is the second-largest auto insurer in the United States and a Berkshire Hathaway company, expanding on-premises data center capacity in Colorado at roughly 118 racks with 32×100G top-of-rack in a leaf-spine design. Geico's infrastructure leadership intended the facility to serve as a shared resource across Berkshire Hathaway companies, which meant enterprise scale with hyperscale architectural and commercial expectations — and no Cisco architect in the enterprise theater with SONiC depth.
-
-**SONiC data center fabric:** Geico had made a strategic decision to go Open-Source wherever possible and planned to deploy SONiC in a greenfield DC. Cisco Nexus was the incumbent, however, Geico had signaled a willingness to go with a competitor SONiC platform and demanded commercial terms that matched cloud-scale buying rather than traditional enterprise switching quotes. Bruce's involvement and accomplishments include:
-
-- Served as SONiC subject-matter expert for the enagement, leading the data center architecture sessions (Mar 2024)
-- Advocated directly with the business entity for a **cloud and hyperscale-style pricing model** to support Berkshire-wide infrastructure sharing — a commercial argument, not a technical one, made on behalf of an account he did not own
-- Enabled the account team on leaf-spine design, the Q2 production timeline, and workload migration framing
-
-**Financial impact:** ~$1.6M Cisco 8000 win `[verify finance]`.
-**Competitive impact:** Established SONiC on Cisco 8000 as viable for enterprise data center at a customer evaluating white-box alternatives.
-**Strategic impact:** Proved the hyperscale consumption model transfers to enterprise, and created a Berkshire Hathaway shared-infrastructure reference.
-**Overall customer impact:** A credible open-NOS data center path for a major insurer, with commercial terms matched to how they actually buy.
-
-**Evidence:** Vault `customers/Geico.md`; 2HFY24 talent assessment.
-
-**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
+| Initiative and date | Impact |
+| :--- | :--- |
+| **Global field lead, SR-Apps** — 2020 – present | Bruce is Cisco's global field lead for SR-Apps, co-developing with Clarence Filsfils' Segment Routing engineering organization. The work put an application layer on Segment Routing and shaped IPM, path tracing, the NaaS direction, and host-based SRv6 extensibility — deliberately landing in the platform rather than behind a licence. SR engineering subsequently adopted his open-source Jalapeno project as the SR-Apps platform. He also built and maintains the university research channel (CNRS; OST Zurich with Professor Laurent Metzger), which produced the Hawkv6 distributed controller. *More details are located in the Innovation section of this document.* |
+| **End-to-end SRv6, including host-based and cloud-native** — 2015 – present | Bruce identified that hyperscale operators had moved the network control point into the host, named the resulting gap the **host-networking air-gap**, and spent a decade arguing that Cisco needed a credible presence there. The architecture he advocated — SRv6 extended past the last-hop router to the host, the endpoint, and the application — is now Cisco's direction across IOS-XR, IOS-XE, NX-OS, SONiC, SD-WAN, and Cilium, has been adopted by operators on four continents, and underpins the MRC-plus-SRv6 convergence in AI infrastructure. *More details are located in the Innovation and Industry Impact sections of this document.* |
+| **Architectures adopted globally — open NOS and SONiC** — 2023 – present | Bruce published the first public description and demonstration of SRv6 uSID on SONiC (May 2023), drove the internal investment case against sustained engineering scepticism, secured MIG's commitment for SRv6-on-SONiC G200 in Q1 FY26, and led the Americas PA/DA SONiC forum that built field-architect consensus on open-NOS strategy. **SRv6 on SONiC shipped for the Cisco 8122 in June 2026.** Global SONiC run rate `[pending]`. Sustained engineering relationships with **Vijay Tapaskar** and **Mani Veerachamy** (SONiC on Cisco 8000) and Cisco Fellow **Praveen Bhagwatula**. *More details are located in the Innovation section of this document.* |
+| **Architectures adopted globally — host networking and Cilium** — 2021 – present | Bruce identified Cilium and eBPF as a strategic control point and advocated that Cisco acquire Isovalent from 2021, three years before the acquisition closed. Post-acquisition he built the Cilium-SP feature investment case — **~$34M Isovalent and ~$323M MIG pullthrough** — and authored the multi-use-case Cilium customer requirements document, accepted by Cisco engineering, positioning Cilium as the host-networking policy execution engine for Kubernetes and non-Kubernetes workloads alike. Deployed or in POC at Bell Canada, Boost Mobile, Adobe, Digital Realty, NSight, and T-Mobile. **Thomas Graf**, Cilium co-creator and Isovalent founder, can attest. *More details are located in the Innovation and Span of Influence sections of this document.* |
+| **SP Network-as-a-Service as an architectural solution** — 2021 – present | Bruce's May 2022 SP360 publication introduced **cloud-like consumption of network services**, framing that predated the industry NaaS movement of 2024–2025 by two to three years. He carried it into Project Yukon at Verizon and AT&T, the SRv6 SD-WAN underlay design at Rakuten, and the Bell Canada NaaS architecture that produced a 500-unit first order for Bell's initial NaaS deployment. *More details are located in the Business Impact section of this document.* |
+| **SRv6 with SGT — unified identity and policy** — 2022 – present | Working the Future Enterprise Segmentation tiger team, Bruce recognized that a Security Group Tag and an SRv6 uSID are both 16 bits, so an SGT fits as a trailing argument after locator and function — extending the network programming model to *Locator : Function : SGT*. The architecture spans ISE, SASE, SD-WAN, and MIG transport; **by December 2025 the ISE organization had committed** to SRv6 SGT and a unified policy model. *More details are located in the Innovation and Span of Influence sections of this document.* |
+| **Chassis to pizza-box fabrics** — 2017 – present | Bruce articulated the hyperscaler shift toward building fabrics from fixed-form-factor routers — the *Fabrics and Planes* framing — which fed SP Compass Designs and Cisco's decision to release the 8000 initially as a fixed-chassis platform. Tim Carnes, then VP Worldwide Systems Engineering: *"His 'fabric architectures' concepts helped jumpstart the Compass Design effort and led to BU prioritization of pizzabox platforms from both the Fretta and Spitfire product lines."* The same shift is now visible at Microsoft as Project Octans. Industry fixed-versus-modular crossover year `[pending — Dell'Oro / Omdia via MIG or Competitive Intelligence]`. *More details are located in the Business Impact section of this document.* |
+| **Global training and enablement** — 2020 – present | Bruce delivers SRv6, SONiC, and cloud-native enablement across all three theaters: Tech Elevate sessions in NA, EMEA, and APJC; the December 2025 SRv6 operator roadshow and companion SE enablement workshop; SRv6 DC/AI workshops drawing ~80 attendees across Sales and BU; and the public `srv6-labs` and dCloud assets used by Cisco SEs and customer engineers worldwide. His Cilium dCloud lab prompted an EMEA systems engineer to build a demonstration that reached the Cisco booth at MPLS World Congress, after which that engineer contributed production code to the Cilium project. *More details are located in the SE Community Leadership section of this document.* |
+| **Cross-theater operator engagements** — 2024 – present | Bruce serves as architecture consultant to operators outside the Americas where local SRv6 and cloud-native depth does not exist: **Evroc** (EMEA sovereign cloud — SONiC spine and leaf, Cilium, inter-site design without Layer 2 stretch), **Rakuten** (APJC — SRv6 SD-WAN underlay high-level design and the Unified SRv6 Fabric case), **NTT East** (APJC — SRv6 and Cilium consultation across two Cisco Live engagements), and **MTN Nigeria** and **DU UAE**, where topology and migration designs delivered through APJC systems engineer Sanjay Nanda produced approximately **$85,000 in avoided customer lab expenditure** and a **2,300-node SRv6 POC** — two national operators on two continents, for customers Bruce never met. `[verify figures with Sanjay Nanda]` *More details are located in the Business Impact section of this document.* |
+| **Systems integrator enablement — WWT** — 2026 | Bruce delivers SRv6, SONiC, and Cilium enablement workshops to World Wide Technology with Dave Clough. Capability built at one of Cisco's largest integration partners propagates across that partner's entire customer base rather than a single account. `[verify scope; LoR candidate]` |
 
 ---
 
-### Honeywell, 2024
-
-**Revenue Impact:** ~$2M Segment Routing / Cisco 8000 `[verify finance]`
-
-Honeywell is a Fortune 100 industrial conglomerate operating a global network spanning six colocation facilities and two private data centers on an NCS 5501 backbone, with SD-WAN headend integration and IoT transport segmentation requirements. Arista was positioning against Cisco in the backbone.
-
-**Segment Routing backbone architecture:** Honeywell needed path preference from SD-WAN into the private backbone, an assessment of Flex-Algo for IGP-based path selection without a controller, and an SR/SRv6 roadmap. Bruce served as architecture subject-matter expert on the backbone design, SD-WAN integration options, and Flex-Algo use cases (Apr 2024), and consulted on future IoT transport segmentation and internal chargeback models.
-
-**Financial impact:** ~$2M Segment Routing / Cisco 8000 win `[verify finance]`.
-**Competitive impact:** Held the backbone franchise against Arista. `[verify — confirm Arista was actively competing and displaced]`
-**Strategic impact:** Demonstrated that MIG transport expertise transfers directly to enterprise private backbones outside the SP segment.
-**Overall customer impact:** A controller-free path selection architecture aligned to Honeywell's global colocation footprint.
-
-**Evidence:** Vault `customers/Honeywell.md`.
-
-**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
-
----
-
-### Adobe, 2024 – 2025
-
-**Revenue Impact:** Nexus and cloud-native pull-through `[verify finance]`
-
-Adobe is a global technology enterprise with a multi-cloud footprint, migrating to Kubernetes under its Adobe Ethos program. Adobe's infrastructure had grown rapidly through acquisitions and remained a patchwork of overlapping RFC1918 space, and simply NAT'ing site-to-site traffic over the Internet. They wanted to simplify their architecture and bring the traffic back onto their private WAN and engaged Cisco's Isovalent team in a Cilium Egress Gateway POC. In April 2024 the Isovalent SE had left the company and the proof of concept was failing during its critical validation window. The account systems engineer, Dan Stacks, needed Isovalent technical depth that did not exist on his team.
-
-**Cilium egress gateway rescue and cloud-native SRv6:** Bruce's involvement and accomplishments include:
-
-- **Simulated Adobe's POC topology in his own lab (Apr 2024)** to diagnose the failing proof of concept, despite having no prior hands-on experience with Isovalent egress gateway or load balancing, and resolved the configuration and deployment faults
-- Served as core technical SME on the Cilium POC with Brenden Buresh and Dan Stacks through 2024–2025, providing critical-path egress gateway validation support throughout
-- Proved egress gateway and load balancer functionality against Adobe performance requirements at the June 2025 onsite workshop
-- Developed and presented a Cloud-Native SRv6 architecture (Feb 2025) — SRv6 L3VPN CNI-to-CNI, elimination of VXLAN and MPLS stitching at both top-of-rack and DCI/PE, eBPF visibility, and transit gateway cost reduction
-
-The proof of concept completed successfully in October 2025 — and Adobe did not adopt. They judged the Isovalent product not yet ready for their environment, specifically its lack of support for non-Kubernetes workloads, and elected to stay with their incumbent load balancer. Adobe responded well to the SRv6 architecture and concepts but considered them premature for their roadmap; Cisco expects to re-engage within one to two years.
-
-The gap Adobe identified is the one Bruce then wrote up: the multi-use-case Cilium customer requirements document — extending Cilium to carry networking and policy for non-Kubernetes workloads — which Cisco engineering has since accepted and is working to prioritize. A lost proof of concept produced the product requirement.
-
-**Financial impact:** No booked revenue; Adobe retained its incumbent load balancer `[verify any Nexus or cloud-native pull-through]`.
-**Competitive impact:** Preserved a Cilium proof point that was failing and would otherwise have closed the opportunity outright, keeping Cisco positioned for re-engagement rather than displaced.
-**Strategic impact:** Validated the post-acquisition Isovalent product path in a live enterprise engagement. The Cloud-Native SRv6 concept reviewed here is the same architecture Bruce co-developed with Dan Bernier at Bell Canada and later evaulated and tested at Boost Mobile and Digital Realty.
-**Overall customer impact:** A working egress and load-balancing architecture that moves Adobe-to-Adobe traffic off the public internet.
-
-**Evidence:** Vault `customers/Adobe Cilium.md`, `customers/Adobe CN-SRv6.md`. `[Adobe / Dan Stacks testimonial pending]`
-
-**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
-The Cilium SRv6 product path is detailed in the Innovation section of this document. Bruce's mentoring of Dan Stacks is detailed in SE Community Leadership.
-
----
-
-### Fiserv, Jan 2026
-
-**Revenue Impact:** Pipeline `[verify finance]`
-
-Fiserv is one of the largest financial technology providers in the world, operating payment and banking infrastructure for thousands of institutions. The account sits outside ASP+Web; Bruce was engaged because the Enterprise team needed a top-level SME for the effort.
-
-**SRv6 WAN and data center architecture:** Fiserv runs a Juniper RSVP-TE WAN overlay with VXLAN EVPN in the data center, and needed a credible path to extend a Segment Routing overlay end to end, simplify WAN-to-DC stitching, and evaluate geo-fencing and data-sovereignty steering — the same patterns Bruce had developed and fostered in numerous hyperscaler engagements — without a rip-and-replace program. Bruce delivered the SRv6 transfer of information to Fiserv's infrastructure team (Jan 2026), framed the WAN-to-DC extension with SD-WAN-to-SR anchor points and slice/shard/pinning in the data center, assessed Isovalent and Cilium relevance for the wireless private access context, and positioned SRv6 for AI backends for roadmap alignment.
-
-**Financial impact:** Pipeline `[verify finance]`.
-**Competitive impact:** Opened an SRv6 displacement conversation against an incumbent Juniper RSVP-TE overlay. `[early — verify whether Fiserv has committed to a direction]`
-**Strategic impact:** Demonstrated that hyperscaler WAN patterns transfer to tier-1 financial services infrastructure.
-**Overall customer impact:** A staged simplification path from RSVP-TE to end-to-end Segment Routing without a forklift program.
-
-**Evidence:** Vault `customers/Fiserv SRv6.md`.
-// Fiserv: was this a single TOI session, or has it continued into 2026? If it has continued, the entry can claim more than it currently does.
-
-**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
-
----
-
-### Texas Instruments, 2024
-
-Texas Instruments operates a global manufacturing and design network spanning fabs, design centres, and points of presence on four continents. Bruce led an onsite architecture workshop covering the global Segment Routing network and the SRv6 roadmap, against Arista competitive framing. The workshop went well enough that TI attempted to recruit him. `[verify whether revenue followed]`
-
----
-
-### Additional Americas Enterprise Engagements
-
-| Customer | Period | Bruce's contribution | Outcome |
-| :--- | :--- | :--- | :--- |
-| **Visa** | 2025 | Isovalent introduction; SR/SRv6 + Demo of Jalapeño Resource Path Optimization App | Financial services pipeline `[verify]` |
-| **Disney** | 2025 | Led a pair of SR-MPLS architecture discussions | Media enterprise; micro-segmentation and DPU considerations |
-| **The Trade Desk** | 2024 | SONiC and IOS-XR platform diversity evaluation | Ad-tech data center at neo-cloud scale |
-| **Morgan Stanley** | 2023 | SRv6 architecture presentation | Financial services enablement |
-| **NSight** *(regional SP)* | 2025–2026 | Cilium, Kubernetes, and AI-services architecture for the packet core team; same host-networking policy model as the Cilium CRD. A small engagement, but one only Bruce could staff — he is effectively the sole Cilium and Kubernetes SME across Americas SP and Web | Regional service provider (Green Bay) |
-
----
-
-## 2. Public Sector and Education
-
-### Province of New Brunswick — Cisco Live Europe 2026
-
-**Revenue Impact:** Migration underway; platform revenue `[verify]`
-
-The Province of New Brunswick operates the provincial government network for Canada's eighth-largest province. Lead architect **James Munroe** attended Bruce's Cisco Live Europe 2026 session with a conventional SR-MPLS migration already planned — the safe, well-trodden path that most operators of that scale were taking.
-
-Bruce spent a single architecture conversation with him at a Meet-the-Engineer session, working through the design tradeoffs of adopting SRv6 directly versus staging through SR-MPLS first.
-
-Bruce and Munroe have stayed in contact since.
-
-**Financial impact:** Migration in progress; platform revenue `[verify]`.
-**Competitive impact:** Converted a planned legacy-transport deployment into a next-generation architecture at the design stage.
-**Strategic impact:** This is the clearest single measure of Bruce's reach as a field multiplier — no account assignment, no follow-on engagement, no proposal. One conversation.
-**Overall customer impact:** **James Munroe abandoned the planned SR-MPLS migration, authored a complete SRv6 design document within approximately two weeks of the conference, and began the migration** — an unusually fast operator decision from a single conference conversation.
-
-The Cisco Live session itself is detailed in the SE Community Leadership section of this document, and its industry visibility in Industry Impact.
-
----
-
-### NYU and Carnegie Mellon, 2024
-
-**New York University** and **Carnegie Mellon** were considering deploying SONiC in their high speed research networks. Bruce delivered SONiC education sessions and architectural/operational advice to both (Aug 2024).
-Research and higher-education networks are early adopters of disaggregated platforms and function as a credibility channel into the operator community — the engineers running them frequently move into industry roles carrying their platform preferences with them.
-// Bruce to follow up with both account teams on documented outcomes (deployment, paper, alumni placements)
-
----
-
-## 3. APJC and EMEA Operators
-
-### Evroc, 2024 – 2026 *(ongoing)*
-
-**Revenue Impact:** `[verify finance]`
-
-Evroc is a European sovereign-cloud provider building hyperscale capacity in the EU, and is exactly the kind of operator Cisco needs as a reference in the EMEA neo-cloud market. Evroc faced a startup-scale engineering organization against production-grade multi-site fabric requirements, with no Cisco architect in theater carrying both SONiC and cloud-native depth.
-
-Bruce serves as architecture advisor on colocation-2 readiness, covering SONiC spine and leaf design with 8201 border routers, host multi-homing, Kubernetes-centric segmentation across Cilium and Calico, and inter-site design without Layer 2 stretch. He framed the tradeoff between short-term EVPN-to-host and long-term pure IP with VPC-in-host, and drove WAN, frontend data center, SRv6, and host-overlay direction.
-
-**Strategic impact:** Reuses the CoreWeave and Microsoft-class architecture patterns in the EMEA theater, on an account with no Americas relationship. Evroc engagement originated from Cisco Live Europe.
-// Evroc: any revenue or committed pipeline yet? This is the one EMEA account that could carry a number.
-**Overall customer impact:** A production-grade multi-site fabric design an early-stage engineering team can actually execute.
-
-**Evidence:** Vault `customers/Evroc.md`.
-
-**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
-
----
-
-### Rakuten, Jul 2025
-
-**Revenue Impact:** `[verify finance]`
-
-Rakuten Mobile operates the world's first fully virtualized, cloud-native mobile network and is among the most architecturally aggressive operators in APJC. The APJC account team requested Bruce for high-level design work on extending the SD-WAN underlay with SRv6.
-
-Bruce produced the SRv6 SD-WAN underlay high-level design, evaluating Cisco models for SRv6 CPE-to-CPE and private-cloud host integration through Cilium, documenting the customer's stated preference for traditional PE models, and building the **Unified SRv6 Fabric** value case for the APJC account team.
-
-**Strategic impact:** Direct architecture influence on a tier-1 APJC operator's WAN evolution without account ownership, in a theater twelve time zones from his own.
-
-**Evidence:** Vault `customers/Rakuten SRv6-SDWAN.md`.
-
-**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
-
----
-
-### NTT East, 2025
-
-NTT East is one of Japan's two incumbent regional carriers. Its architects were weighing a move from SR-MPLS to SRv6 and considering whether to extend SRv6 into the data center — a decision the APJC account team had no local SRv6 depth to support.
-
-The account team routed the customer to Bruce directly. NTT East architects attended his SRv6 lab and met with him at **Cisco Live US 2025** and again at **Cisco Live Europe 2026**, where he served as consulting architect on SRv6 and Cilium and introduced the team to SRv6 extended to the host. Two Cisco Live sessions became a two-year architecture consultation with a tier-1 Japanese carrier that has no Americas relationship. `[verify revenue or pipeline]`
-
----
-
-## 4. Field Multiplier — Impact Without Customer Contact
-
-The purest measure of global reach is impact on customers Bruce never met, achieved by making another theater's systems engineer more capable.
-
-### MTN Nigeria and DU UAE — via APJC Field Enablement, 2024
-
-**Revenue Impact:** ~$85K customer lab savings; 2,300-node POC topology `[verify]`
-
-**MTN Nigeria** is the largest mobile operator in Africa, and **DU** is one of two national operators in the United Arab Emirates. APJC systems engineer **Sanjay Nanda** engaged Bruce for SRv6 topology and migration expertise he could not source locally.
-
-Bruce built the topology and migration designs Sanjay carried into both accounts, producing approximately **$85,000 in avoided customer lab expenditure at MTN Nigeria** and a **2,300-node SRv6 POC topology at DU** — POC scale that would not have been attempted without the design work `[verify]`.
-
-**Strategic impact:** Two national operators on two continents advanced their SRv6 programs on architecture Bruce authored, through a systems engineer he enabled rather than an account he covered.
-
----
-
-### WWT — Systems Integrator Enablement, 2026
-
-Bruce delivers SRv6, SONiC, and Cilium enablement workshops to **World Wide Technology** with Dave Clough. WWT is one of Cisco's largest systems integration partners; capability built there propagates across the partner's entire customer base rather than a single account. `[verify scope; LoR candidate]`
-
----
-
-## 5. Global Technology Adoption
-
-> **Drafting note — attribution discipline.** Bruce does not own these product lines and this section does not claim their revenue. Each entry states **a specific, dated intervention**, then cites **global adoption as context** for the scale at which that intervention operated, then names **who can attest**. That is the only form of this argument a review panel will accept; a run-rate figure presented as personal attainment would undermine the rest of the package. Figures below are `[pending]` until sourced from finance or the relevant product team.
-
-Bruce's account work is documented above and in Business Impact. The broader claim is that his sustained advocacy — for Segment Routing and SRv6, for host-based networking, for open network operating systems, and for disaggregated fabrics — helped move Cisco and its customers toward technology positions that are now global businesses. He has worked closest with four organizations: the **Segment Routing product and engineering team** under Clarence Filsfils, the **MIG / Cisco 8000 and MIG SONiC** product teams, and the **Isovalent / Cisco Security** product team following acquisition.
-
-### Segment Routing and SRv6
-
-**Intervention.** Bruce delivered *Scaling the Cloud to a Billion Servers* at an internal SRv6 workshop in 2020, after which Clarence Filsfils tasked him with leading Cisco's hyperscale SRv6 market entry. He has served as field lead in the SR brain trust since, editing four chapters of the SRv6 book, editing the `draft-srv6ops-addressing-guidelines` IETF draft, curating `github.com/segmentrouting`, and driving product decisions including SRv6 uSID support in SONiC and uSID block scale and static uSIDs in IOS-XR platforms.
-
-**Global adoption.** Cisco's global SR and SRv6 run rate `[pending — finance or SR product team]`. Cisco 8000 global run rate `[pending — MIG]`.
-
-**Attestation.** Cisco awarded a **2025 Pinnacle Award to the team recognized for SRv6 uSID's market impact** (presented at the ceremony in early 2026) — Cisco's own attribution of global market outcome to that work. The team numbered roughly 40, almost entirely Cisco engineering; **Bruce and DSE Craig Hill were the only two recipients from the sales organization**. Clarence Filsfils is a sponsorship candidate.
-
-### Open network operating systems — SONiC
-
-**Intervention.** Bruce published the first public description and demonstration of SRv6 uSID on SONiC (May 2023), drove the internal investment case for SONiC SRv6 against sustained engineering scepticism, secured the MIG commitment for SRv6-on-SONiC G200 in Q1 FY26, and led the Americas PA/DA SONiC forum (Dec 2023) that built field-architect consensus on open-NOS strategy.
-
-**Global adoption.** SONiC attach and global run rate `[pending — SONiC product team]`; growth in Cisco 8000 platforms shipped running SONiC rather than IOS-XR `[pending]`.
-
-**Outcome.** SRv6 on SONiC shipped for the Cisco 8122 in June 2026. **Attestation:** Kevin Wollenweber is a sponsorship candidate.
-
-### Host-based networking — Cilium and Isovalent
-
-**Intervention.** Bruce identified Cilium and eBPF as a strategic control point and advocated Cisco acquire Isovalent from 2021, three years before the acquisition closed. Post-acquisition he built the Cilium-SP feature investment case (**~$34M Isovalent and ~$323M MIG pullthrough**) and authored the multi-use-case Cilium CRD that Cisco engineering has accepted.
-
-**Global adoption.** Cilium and Isovalent global run rate since acquisition `[pending — Isovalent/Security BE]`.
-
-**Attestation.** **Thomas Graf**, Cilium co-creator and Isovalent founder, is a sponsorship candidate and can speak to both the acquisition advocacy and the subsequent SRv6 enablement.
-
-### Network-as-a-Service and the architectural shift
-
-**Intervention.** Bruce's May 2022 SP360 post introduced **cloud-like consumption of network services**, framing that predated the industry NaaS movement of 2024–2025 by two to three years. He carried it into Project Yukon at Verizon and AT&T, the SRv6 SD-WAN underlay work at Rakuten, and the Bell Canada NaaS architecture that produced a 500-unit first order and run rate of `[verify]`.
-
-**Global adoption.** NaaS-attributed pipeline across the SP segment `[pending]`.
-
-### Chassis to pizza-box fabrics
-
-**Intervention.** Bruce articulated the hyperscaler shift toward building massive fabrics from fixed-form-factor routers — the *Fabrics and Planes* framing — which fed the SP Compass Designs effort and the decision to release the Cisco 8000 initially as a fixed-chassis platform. The origination predates PSE promotion; the franchise it produced is post-2020 and global.
-
-**Global adoption.** Cisco 8000 fixed-platform share of MIG revenue `[pending]`. Industry fixed-versus-modular split for SP routing, with the crossover year identified `[pending — Dell'Oro / Omdia via MIG or Competitive Intelligence]`. At Microsoft the same shift is now visible as Project Octans, disaggregating chassis T2 into pizza-box Clos tiers — an engagement Bruce leads (see Business Impact).
-
-> **Drafting note — how to use the market data.** The industry trend is not evidence of Bruce's influence; the fixed-form-factor shift has many drivers. Its value here is **establishing when the market inflected**, so that Bruce's 2017–2018 framing can be shown to precede it. Write the claim as *"Bruce framed the shift in 2017–2018; Cisco prioritized pizza-box platforms on that framing; the market crossed over in [year]"* — never as a share of the resulting revenue.
-
-**Attestation.** Tim Carnes, quoted in Bruce's 2020 PSE package: *"Bruce made major contributions to 2017's Fretta use-cases business assessment. His 'fabric architectures' concepts helped jumpstart the Compass Design effort and led to BU prioritization of pizzabox platforms from both the Fretta and Spitfire product lines."*
-
----
-
-## Summary Table — Global Impact Accounts
-
-| Customer | Theater | Segment | Signature outcome | Revenue / status |
-| :--- | :--- | :--- | :--- | :--- |
-| **Geico** | Americas | Insurance | SONiC DC fabric; Berkshire-wide pricing model | **~$1.6M** `[verify]` |
-| **Honeywell** | Global ent. | Industrial | SR backbone; Flex-Algo; held off Arista | **~$2M** `[verify]` |
-| **Adobe** | Global ent. | Technology | Rescued failing Cilium POC; completed Oct 2025 | Pull-through `[verify]` |
-| **Fiserv** | Americas | Financial | SRv6 TOI; RSVP-TE displacement path | Pipeline `[verify]` |
-| **Province of NB** | Americas | Public sector | One conversation → SRv6 design + migration in ~2 weeks | Migration begun |
-| **Evroc** | EMEA | Sovereign cloud | Colo-2 SONiC/Cilium architecture | Ongoing `[verify]` |
-| **Rakuten** | APJC | Mobile/cloud SP | SRv6-SDWAN underlay HLD; Unified SRv6 Fabric case | HLD `[verify]` |
-| **MTN Nigeria / DU** | EMEA/APJC | Mobile SP | ~$85K lab savings; 2,300-node POC | Enablement `[verify]` |
-| **Visa** | Global | Financial | Isovalent introduction; RPO demo | Pipeline `[verify]` |
-| **Disney** | Americas | Media | DGN / SR-MPLS architecture | Collaboration `[verify]` |
-| **Texas Instruments** | Global ent. | Manufacturing | Global POP / SRv6 roadmap | Architecture `[verify]` |
-| **NTT East** | APJC | Tier-1 SP | SRv6 / Cilium introductions | Study `[verify]` |
-| **The Trade Desk** | Americas | Ad-tech | SONiC and XR evaluation | Mindshare `[verify]` |
-| **Morgan Stanley** | Americas | Financial | SRv6 architecture presentation | Enablement |
-| **NSight** | Americas | Regional SP | Cilium / K8s / AI services | Early `[verify]` |
-| **NYU / CMU** | Americas | Education | SONiC advisory and education | Enablement |
-| **WWT** | Americas | SI partner | SRv6/SONiC/Cilium workshops | `[verify]` |
-
-**Pre-2020 / early-PSE mindshare only (exec thru-line):** Telstra, Indosat, Goldman and Wells Jalapeno threads, Brussels SR workshop (2022) — not expanded as body case studies per [AGENTS.md](./AGENTS.md) time scope.
-
----
-
-## Note on Page Budget
-
-README weighting allocates **7 pages** to Global Impact, equal to Business Impact. This draft runs closer to **4–5 pages**, and expanding it further would require padding engagements that are honestly summarized in the table above.
-
-For reference, Brenden's package allocates **2 pages** to Global Impact against **17 pages** for Business Impact — the README weighting is generic guidance rather than an observed pattern in a successful package. **Recommendation:** hold Global Impact at its natural length and reallocate the surplus to Business Impact and SE Community Leadership, where the evidence supports the volume. `[Bruce decision]`
+## Global Product and Technology Run Rate
+
+> **Attribution discipline.** Bruce does not own these product lines and this section does not claim their revenue. Each initiative above states a specific dated intervention; the figures below establish **the scale at which that intervention operated**. Figures are `[pending]` until sourced from finance or the relevant product team.
+
+| Technology area | Global run rate | Source |
+| :--- | :--- | :--- |
+| Segment Routing / SRv6 | `[pending]` | Finance or SR product team |
+| Cisco 8000 | `[pending]` | MIG |
+| SONiC | `[pending]` | SONiC product team |
+| Cilium / Isovalent since acquisition | `[pending]` | Isovalent / Security BE |
+| **Cilium-SP pullthrough** *(validated)* | **~$34M Isovalent / ~$323M MIG** | Bruce's business case |
+| NaaS-attributed SP pipeline | `[pending]` | — |
+
+**Cisco's own attribution.** Cisco awarded a **2025 Pinnacle Award to the SRv6 uSID team** for the technology's global market impact, presented at the ceremony in early 2026. The team numbered roughly 40 and was almost entirely Cisco engineering; **Bruce and DSE Craig Hill were the only two recipients from the sales organization.**
 
 ---
 
 ## Open Items
 
-- [ ] Finance validate: Geico **~$1.6M**, Honeywell **~$2M**, Adobe pull-through, Fiserv pipeline
-- [ ] Adobe / Dan Stacks testimonial on Cilium EGW/LB impact — strongest available customer quote for this section
-- [ ] MTN Nigeria **~$85K** and DU **2,300-node** figures — confirm with Sanjay Nanda
-- [ ] Province of NB — confirm migration status and whether James Munroe would provide a quote or LoR
-- [x] Digital Realty assignment resolved — **ASP+Web**, drafted in [06-business-impact.md](./06-business-impact.md)
-- [ ] Softbank, Telstra, Swisscom, Telia — confirm post-2020 outcomes or omit from lists
-- [ ] WWT / Dave Clough — scope and LoR
-- [ ] Evroc — confirm revenue or pipeline figure
+- [ ] Global run-rate figures per the table above — and confirm which product and engineering leaders will **attest in writing**. Filsfils, Wollenweber, Graf, Tapaskar, Veerachamy, and Bhagwatula are all sponsorship candidates; an attestation sentence in a letter is worth more than any figure
+- [ ] **Fixed vs. modular market data** — Dell'Oro / Omdia, SP routing and DC switching, back to ~2017 so the crossover year is visible. Use it to date the inflection against Bruce's 2017–2018 framing, not to claim revenue share
+- [ ] **MTN Nigeria ~$85K / DU 2,300-node** — confirm with Sanjay Nanda
+- [ ] **Evroc** — revenue or committed pipeline
+- [ ] **WWT** — scope and LoR
+- [ ] Add the **DSE nomination PPT and Word guide** to `reference/` so scope questions are citable rather than remembered
 
-**Vault harvest:** `dse/03-Global-Impact-MOC.md`, enterprise customer notes (Geico, Fiserv, Adobe, Honeywell, Rakuten, Evroc, NTT East). **Last body pass:** Aug 2026 — rewritten to [voice-guide.md](./voice-guide.md) register; restructured by expansion pattern.
+**Restructured Aug 17, 2026** to the official criteria and the two-column summary format. Named customer engagements previously held here — Geico, Honeywell, Adobe, Fiserv, Texas Instruments, Province of New Brunswick, NYU and Carnegie Mellon, Disney, Visa, The Trade Desk, Morgan Stanley, NSight — moved to [06-business-impact.md](./06-business-impact.md) under out-of-territory engagements.

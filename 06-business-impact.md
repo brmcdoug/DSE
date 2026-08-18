@@ -451,6 +451,166 @@ Bruce co-led the SFDC A9K POC development and execution with Asoka (Sep 2020), l
 
 ---
 
+## Out-of-Territory Engagements
+
+The engagements below sit outside Bruce's Americas Service Provider and Web assignment — enterprise, financial services, media, manufacturing, education, public sector, and regional operators. Field teams and enterprise theaters requested him by name for SONiC, SRv6, Cilium and eBPF, and cloud-scale architecture, when they needed a higher level of expertise than they had in their own organization. As with the in-territory accounts, much of this work was delivered **through other engineers rather than in front of customers** — Bruce supplied the architecture, the designs, the new or creative ideas, and the labs, and the local team ran the engagement.
+
+That reach rests on a deliberate habit: over two decades Bruce has built and maintained working relationships with senior SEs, PSEs, and DSEs across Cisco without regard to geography or vertical alignment — relationships he sustains for the learning and idea exchange as much as for any engagement. It is why an APJC systems engineer, an EMEA data centre specialist, or a public-sector architect knows to call him.
+
+---
+
+### Geico, 2024
+
+**Revenue Impact:** ~$1.6M SONiC on Cisco 8000 `[verify finance]`
+
+Geico is the second-largest auto insurer in the United States and a Berkshire Hathaway company, expanding on-premises data center capacity in Colorado at roughly 118 racks with 32×100G top-of-rack in a leaf-spine design. Geico's infrastructure leadership intended the facility to serve as a shared resource across Berkshire Hathaway companies, which meant enterprise scale with hyperscale architectural and commercial expectations — and no Cisco architect in the enterprise theater with SONiC depth.
+
+**SONiC data center fabric:** Geico had made a strategic decision to go Open-Source wherever possible and planned to deploy SONiC in a greenfield DC. Cisco Nexus was the incumbent, however, Geico had signaled a willingness to go with a competitor SONiC platform and demanded commercial terms that matched cloud-scale buying rather than traditional enterprise switching quotes. Bruce's involvement and accomplishments include:
+
+- Served as SONiC subject-matter expert for the enagement, leading the data center architecture sessions (Mar 2024)
+- Advocated directly with the business entity for a **cloud and hyperscale-style pricing model** to support Berkshire-wide infrastructure sharing — a commercial argument, not a technical one, made on behalf of an account he did not own
+- Enabled the account team on leaf-spine design, the Q2 production timeline, and workload migration framing
+
+**Financial impact:** ~$1.6M Cisco 8000 win `[verify finance]`.
+**Competitive impact:** Established SONiC on Cisco 8000 as viable for enterprise data center at a customer evaluating white-box alternatives.
+**Strategic impact:** Proved the hyperscale consumption model transfers to enterprise, and created a Berkshire Hathaway shared-infrastructure reference.
+**Overall customer impact:** A credible open-NOS data center path for a major insurer, with commercial terms matched to how they actually buy.
+
+**Evidence:** Vault `customers/Geico.md`; 2HFY24 talent assessment.
+
+**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
+
+---
+
+---
+
+### Honeywell, 2024
+
+**Revenue Impact:** ~$2M Segment Routing / Cisco 8000 `[verify finance]`
+
+Honeywell is a Fortune 100 industrial conglomerate operating a global network spanning six colocation facilities and two private data centers on an NCS 5501 backbone, with SD-WAN headend integration and IoT transport segmentation requirements. Arista was positioning against Cisco in the backbone.
+
+**Segment Routing backbone architecture:** Honeywell needed path preference from SD-WAN into the private backbone, an assessment of Flex-Algo for IGP-based path selection without a controller, and an SR/SRv6 roadmap. Bruce served as architecture subject-matter expert on the backbone design, SD-WAN integration options, and Flex-Algo use cases (Apr 2024), and consulted on future IoT transport segmentation and internal chargeback models.
+
+**Financial impact:** ~$2M Segment Routing / Cisco 8000 win `[verify finance]`.
+**Competitive impact:** Held the backbone franchise against Arista. `[verify — confirm Arista was actively competing and displaced]`
+**Strategic impact:** Demonstrated that MIG transport expertise transfers directly to enterprise private backbones outside the SP segment.
+**Overall customer impact:** A controller-free path selection architecture aligned to Honeywell's global colocation footprint.
+
+**Evidence:** Vault `customers/Honeywell.md`.
+
+**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
+
+---
+
+---
+
+### Adobe, 2024 – 2025
+
+**Revenue Impact:** Nexus and cloud-native pull-through `[verify finance]`
+
+Adobe is a global technology enterprise with a multi-cloud footprint, migrating to Kubernetes under its Adobe Ethos program. Adobe's infrastructure had grown rapidly through acquisitions and remained a patchwork of overlapping RFC1918 space, and simply NAT'ing site-to-site traffic over the Internet. They wanted to simplify their architecture and bring the traffic back onto their private WAN and engaged Cisco's Isovalent team in a Cilium Egress Gateway POC. In April 2024 the Isovalent SE had left the company and the proof of concept was failing during its critical validation window. The account systems engineer, Dan Stacks, needed Isovalent technical depth that did not exist on his team.
+
+**Cilium egress gateway rescue and cloud-native SRv6:** Bruce's involvement and accomplishments include:
+
+- **Simulated Adobe's POC topology in his own lab (Apr 2024)** to diagnose the failing proof of concept, despite having no prior hands-on experience with Isovalent egress gateway or load balancing, and resolved the configuration and deployment faults
+- Served as core technical SME on the Cilium POC with Brenden Buresh and Dan Stacks through 2024–2025, providing critical-path egress gateway validation support throughout
+- Proved egress gateway and load balancer functionality against Adobe performance requirements at the June 2025 onsite workshop
+- Developed and presented a Cloud-Native SRv6 architecture (Feb 2025) — SRv6 L3VPN CNI-to-CNI, elimination of VXLAN and MPLS stitching at both top-of-rack and DCI/PE, eBPF visibility, and transit gateway cost reduction
+
+The proof of concept completed successfully in October 2025 — and Adobe did not adopt. They judged the Isovalent product not yet ready for their environment, specifically its lack of support for non-Kubernetes workloads, and elected to stay with their incumbent load balancer. Adobe responded well to the SRv6 architecture and concepts but considered them premature for their roadmap; Cisco expects to re-engage within one to two years.
+
+The gap Adobe identified is the one Bruce then wrote up: the multi-use-case Cilium customer requirements document — extending Cilium to carry networking and policy for non-Kubernetes workloads — which Cisco engineering has since accepted and is working to prioritize. A lost proof of concept produced the product requirement.
+
+**Financial impact:** No booked revenue; Adobe retained its incumbent load balancer `[verify any Nexus or cloud-native pull-through]`.
+**Competitive impact:** Preserved a Cilium proof point that was failing and would otherwise have closed the opportunity outright, keeping Cisco positioned for re-engagement rather than displaced.
+**Strategic impact:** Validated the post-acquisition Isovalent product path in a live enterprise engagement. The Cloud-Native SRv6 concept reviewed here is the same architecture Bruce co-developed with Dan Bernier at Bell Canada and later evaulated and tested at Boost Mobile and Digital Realty.
+**Overall customer impact:** A working egress and load-balancing architecture that moves Adobe-to-Adobe traffic off the public internet.
+
+**Evidence:** Vault `customers/Adobe Cilium.md`, `customers/Adobe CN-SRv6.md`. `[Adobe / Dan Stacks testimonial pending]`
+
+**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
+The Cilium SRv6 product path is detailed in the Innovation section of this document. Bruce's mentoring of Dan Stacks is detailed in SE Community Leadership.
+
+---
+
+---
+
+### Fiserv, Jan 2026
+
+**Revenue Impact:** Pipeline `[verify finance]`
+
+Fiserv is one of the largest financial technology providers in the world, operating payment and banking infrastructure for thousands of institutions. The account sits outside ASP+Web; Bruce was engaged because the Enterprise team needed a top-level SME for the effort.
+
+**SRv6 WAN and data center architecture:** Fiserv runs a Juniper RSVP-TE WAN overlay with VXLAN EVPN in the data center, and needed a credible path to extend a Segment Routing overlay end to end, simplify WAN-to-DC stitching, and evaluate geo-fencing and data-sovereignty steering — the same patterns Bruce had developed and fostered in numerous hyperscaler engagements — without a rip-and-replace program. Bruce delivered the SRv6 transfer of information to Fiserv's infrastructure team (Jan 2026), framed the WAN-to-DC extension with SD-WAN-to-SR anchor points and slice/shard/pinning in the data center, assessed Isovalent and Cilium relevance for the wireless private access context, and positioned SRv6 for AI backends for roadmap alignment.
+
+**Financial impact:** Pipeline `[verify finance]`.
+**Competitive impact:** Opened an SRv6 displacement conversation against an incumbent Juniper RSVP-TE overlay. `[early — verify whether Fiserv has committed to a direction]`
+**Strategic impact:** Demonstrated that hyperscaler WAN patterns transfer to tier-1 financial services infrastructure.
+**Overall customer impact:** A staged simplification path from RSVP-TE to end-to-end Segment Routing without a forklift program.
+
+**Evidence:** Vault `customers/Fiserv SRv6.md`.
+// Fiserv: was this a single TOI session, or has it continued into 2026? If it has continued, the entry can claim more than it currently does.
+
+**Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
+
+---
+
+---
+
+### Texas Instruments, 2024
+
+Texas Instruments operates a global manufacturing and design network spanning fabs, design centres, and points of presence on four continents. Bruce led an onsite architecture workshop covering the global Segment Routing network and the SRv6 roadmap, against Arista competitive framing. The workshop went well enough that TI attempted to recruit him. `[verify whether revenue followed]`
+
+---
+
+---
+
+### Additional Americas Enterprise Engagements
+
+| Customer | Period | Bruce's contribution | Outcome |
+| :--- | :--- | :--- | :--- |
+| **Visa** | 2025 | Isovalent introduction; SR/SRv6 + Demo of Jalapeño Resource Path Optimization App | Financial services pipeline `[verify]` |
+| **Disney** | 2025 | Led a pair of SR-MPLS architecture discussions | Media enterprise; micro-segmentation and DPU considerations |
+| **The Trade Desk** | 2024 | SONiC and IOS-XR platform diversity evaluation | Ad-tech data center at neo-cloud scale |
+| **Morgan Stanley** | 2023 | SRv6 architecture presentation | Financial services enablement |
+| **NSight** *(regional SP)* | 2025–2026 | Cilium, Kubernetes, and AI-services architecture for the packet core team; same host-networking policy model as the Cilium CRD. A small engagement, but one only Bruce could staff — he is effectively the sole Cilium and Kubernetes SME across Americas SP and Web | Regional service provider (Green Bay) |
+
+---
+
+---
+
+### Province of New Brunswick — Cisco Live Europe 2026
+
+**Revenue Impact:** Migration underway; platform revenue `[verify]`
+
+The Province of New Brunswick operates the provincial government network for Canada's eighth-largest province. Lead architect **James Munroe** attended Bruce's Cisco Live Europe 2026 session with a conventional SR-MPLS migration already planned — the safe, well-trodden path that most operators of that scale were taking.
+
+Bruce spent a single architecture conversation with him at a Meet-the-Engineer session, working through the design tradeoffs of adopting SRv6 directly versus staging through SR-MPLS first.
+
+Bruce and Munroe have stayed in contact since.
+
+**Financial impact:** Migration in progress; platform revenue `[verify]`.
+**Competitive impact:** Converted a planned legacy-transport deployment into a next-generation architecture at the design stage.
+**Strategic impact:** This is the clearest single measure of Bruce's reach as a field multiplier — no account assignment, no follow-on engagement, no proposal. One conversation.
+**Overall customer impact:** **James Munroe abandoned the planned SR-MPLS migration, authored a complete SRv6 design document within approximately two weeks of the conference, and began the migration** — an unusually fast operator decision from a single conference conversation.
+
+The Cisco Live session itself is detailed in the SE Community Leadership section of this document, and its industry visibility in Industry Impact.
+
+---
+
+---
+
+### NYU and Carnegie Mellon, 2024
+
+**New York University** and **Carnegie Mellon** were considering deploying SONiC in their high speed research networks. Bruce delivered SONiC education sessions and architectural/operational advice to both (Aug 2024).
+Research and higher-education networks are early adopters of disaggregated platforms and function as a credibility channel into the operator community — the engineers running them frequently move into industry roles carrying their platform preferences with them.
+// Bruce to follow up with both account teams on documented outcomes (deployment, paper, alumni placements)
+
+---
+
+---
+
 ## Summary Table — ASP+Web Engagements (draft)
 
 Ordered by strategic and financial weight, matching the body above. Segment bookings are org-level finance figures for Bruce's assigned theater, not individual attribution.

@@ -61,11 +61,13 @@ The DSE package documents work and impact **since becoming PSE** — from **Augu
   CUSTOMER / REVENUE              INTERNAL CISCO              EXTERNAL INDUSTRY
         │                             │                             │
    ┌────┴────┐                   Span of Influence              Industry Impact
-   │         │                   (outside ASP+Web)            (may have no direct $)
-Business   Global                      │                             │
+   │         │                   (higher altitude,             (may have no direct $)
+Business   Global                   ≥2 domains, H2-3)                │
 Impact     Impact                      │                             │
-(ASP+Web   (non-ASP+Web                ▼                             │
- customers) customers)            Innovation ◄── often led by Span
+(all named  (global reach:             ▼                             │
+ accounts)  initiatives,          Innovation ◄── often led by Span
+            architectures,
+            training)
         │         │               (IPR, product/strategy)            │
         └────┬────┘                      │                             │
              │    cross-reference when Span / Innovation /           │
@@ -113,17 +115,37 @@ ASP + Web works primarily with **MIG** (Mass-Scale Infrastructure Group) product
 - **Web / Hyperscale:** Americas-based cloud providers, neo-clouds, and large internet/web operators (e.g., Microsoft, Oracle, Meta, CoreWeave, Google, Amazon, Apple, OpenAI, Anthropic, xAI, Nvidia, Lambda Labs).
 - **Service Provider:** Americas-based telecom and cable operators (e.g., Verizon, AT&T, Bell Canada, Digital Realty, Equinix, Videotron).
 
-**Out-of-scope for Business Impact → belongs in Global Impact:**
+> **RETIRED RULE (Aug 17, 2026).** Earlier versions of this file stated that *"Global Impact is not 'other geographies.' It is any customer/revenue engagement outside the ASP + Web assignment."* **No citation exists for that rule** and it contradicts the official criteria. It has been removed. Two sections were drafted on it and were restructured on 2026-08-17.
 
-Global Impact is **not** “other geographies.” It is **any customer/revenue engagement outside the ASP + Web assignment**—including **Americas enterprise, financial services, education, and regional operators** that are not Web/hyperscale or assigned SP accounts.
+## Official criteria — quote these, do not paraphrase
 
-| Business Impact (ASP + Web) | Global Impact (non–ASP+Web) |
-| :--- | :--- |
-| Microsoft, Meta, AWS, Google, OCI, CoreWeave | **Geico**, **Fiserv**, **Adobe**, **Honeywell**, **Texas Instruments**, **Disney** |
-| Verizon, Bell Canada, Videotron, AT&T, T-Mobile, Dish/Boost, Viasat | **NYU**, **The Trade Desk**, **NSight** *(regional SP)* |
-| Assigned Americas hyperscale / tier-1 SP | **Rakuten**, **NTT East** (APJC); **Evroc** (EMEA); **MTN/DU** via APJC field SE enablement |
+**Global Impact (DSE nomination PPT):**
+- *Demonstrate global impact outside the immediate area*
+- *Examples include leading global accounts, creating and delivering global training, developing new architectures that are adopted globally*
 
-**Examples (Americas, but Global Impact):** Geico (insurance, Colorado SONiC DC) and Fiserv (financial, SRv6 TOI)—both in North America, neither ASP+Web.
+**Span of Influence (DSE nomination PPT):**
+- *Interact and impact at higher levels internally in Cisco and externally with customers and partners*
+- *Specialization and focus for at least two technology domains / architectures*
+- *The impact is more strategic and focuses on horizon 2–3*
+
+**Structural rule (DSE nomination Word guide, applies to BOTH sections):** *"Provide a high-level summary… using a bulleted list or a table to show the transition. **A detailed version can be added to the appropriate section of the package (business impact, innovation, SE leadership, etc.)**"*
+
+**Consequence:** Global Impact and Span of Influence are **summary sections that index into the detail sections**, in two-column table form (initiative + date | impact prose ending with a cross-reference). This is exactly Brenden's structure, and it explains his page split: ~2 pages Global, ~2 pages Span, ~17 pages Business Impact.
+
+## Which section does a project go in?
+
+Detail lives in **exactly one** section; every other section gets a short entry pointing there. That is not double-counting — it is the intended structure.
+
+| Section | Question it answers | Axis |
+| :--- | :--- | :--- |
+| **Business Impact** | Did it produce revenue at a named account? | Money |
+| **Global Impact** | Did it reach outside the immediate area, or get adopted globally? | Reach |
+| **Span of Influence** | Did it lift Bruce to higher altitude, across ≥2 domains, at horizon 2–3? | Altitude + breadth |
+| **Innovation** | Is there an invention, artifact, or product outcome? | Novelty |
+| **Industry Impact** | Did it land outside Cisco? | External |
+| **SE Community Leadership** | Did it make other SEs more capable? | Multiplier |
+
+Detail goes where the **strongest evidence** sits. Worked example — **SR-Apps**: detail in Innovation (invention, artifact, SR engineering adoption); one-entry pointers from Global Impact (global field lead), Span (co-development with Filsfils' org), Industry Impact (open source), and Business Impact (account outcomes it enabled).
 
 **Do not double-count:** A single engagement should appear in **one** primary section. Summaries in the Executive Overview may reference both; detail lives in one body section.
 
@@ -133,15 +155,15 @@ Global Impact is **not** “other geographies.” It is **any customer/revenue e
 
 **Section order follows Brenden's package** (README order) — reviewers expect this sequence.
 
-**Page budget: README weighting governs.** Earlier "2–3 body pages" estimates for Global / Span / Industry are superseded.
+**Page budget: the official Word template governs.** It specifies **2–3 pages** for Global Impact, Span of Influence, and Industry Impact, and *no page limit* for Business Impact, Innovation, Sponsorship, Personal Development, and SE Community Leadership. README's weighting (7 pages Global, 6 Span) is Bruce's own and is **superseded**.
 
 | Order | Section | Repo file | Weight (1–5) | Target pages |
 | :---: | :--- | :--- | :---: | :---: |
 | 1 | Executive Overview | `01-exec-summary-draft.md` **(canonical)** | 6 | 7 |
 | 2 | Direct Leader Recommendation | `02-direct-leader-recommendation.md` | — | 1–2 |
-| 3 | **Global Impact** | `03-global-impact.md` | 5 | 7 |
-| 4 | Span of Influence | `04-span-of-influence.md` | 4 | 6 |
-| 5 | Industry Impact | `05-industry-impact.md` | 3 | 3 |
+| 3 | **Global Impact** | `03-global-impact.md` | 5 | **2–3** *(official)* |
+| 4 | Span of Influence | `04-span-of-influence.md` | 4 | **2–3** *(official)* |
+| 5 | Industry Impact | `05-industry-impact.md` | 3 | **2–3** *(official)* |
 | 6 | Business Impact | `06-business-impact.md` | 5 | 7 |
 | 7 | Innovation | `07-innovation.md` | 4 | 6 |
 | 8 | Sponsorship | `08-sponsorship.md` | 2 | 1 |
@@ -189,77 +211,29 @@ Global Impact is **not** “other geographies.” It is **any customer/revenue e
 
 ### 3. Global Impact — `03-global-impact.md`
 
-**Suggested length:** 2–3 pages (body).
+**Official length:** 2–3 pages.
 
-**Primary lens:** **Customer and revenue impact on accounts outside the ASP + Web assignment** (Aug 2020–present)—**any theater**, including **Americas enterprise/financial/education** that is not Web or assigned SP.
+**Primary lens:** impact **outside the immediate area** — global accounts, global training, and architectures adopted globally (quote the PPT bullets above).
 
-**Scope (critical):**
-- **Not** Web/hyperscale or assigned SP accounts (those → Business Impact)—even if the customer is in North America.
-- **Yes:** Enterprise (Geico, Fiserv, Adobe), education (NYU), media (Disney), manufacturing (Honeywell, TI), regional operators (NSight), APJC/EMEA operators (Rakuten, Evroc, NTT East), and **field enablement** on non-assigned accounts with documented customer/pipeline outcome (MTN Nigeria, DU UAE).
-- May **cross-reference** Span of Influence, Innovation, or SE Community Leadership when those activities **caused or accelerated** the customer outcome.
+**Format:** a transition table (regional → theater → global) plus a two-column initiative table. Each entry ends with *"More details are located in the X section of this document."*
 
-**Must include:**
-- High-level summary of how impact expanded **beyond ASP+Web accounts** (table or bullets)
-- Chronological format, **most recent first** (post–Aug 2020)
-- Factual, verifiable customer/revenue or pipeline claims
+**Belongs here:** global initiatives and globally adopted architectures — SR-Apps global field lead, end-to-end SRv6, SONiC, Cilium, SP NaaS, SRv6+SGT, chassis-to-pizzabox, global training and enablement, and operators outside the Americas (Rakuten, Evroc, NTT East, MTN, DU).
 
-**Belongs here (examples):**
-
-*Americas — enterprise / financial / education (not ASP+Web):*
-- **Geico** — SONiC DC fabric SME (~118 nodes Colorado; $1.6M cited May 2024 `[verify]`)
-- **Fiserv** — SRv6 TOI (Jan 2026); WAN→DC overlay; geo-fencing; Isovalent/WPA assessment
-- **Adobe** — Cilium egress/ingress gateway POC; Cloud-Native SRv6 concept (global multi-cloud footprint)
-- **Honeywell** — backbone/SRv6-Flex-Algo architecture consulting (Apr 2024)
-- **Texas Instruments** — global POP/SR roadmap; 16×100G N. Texas; EMEA/APJC expansion planned (May 2024)
-- **Disney** — DGN/SR-MPLS architecture collaboration (2025)
-- **NYU** — HSRN SONiC research network advisory (Aug 2024)
-- **The Trade Desk** — SONiC + XR diversity presentation (Oct 2024)
-- **NSight** (Green Bay) — Cilium/container security intro for packet-core team (2025–2026)
-
-*Other theaters — operators (not ASP+Web):*
-- **Evroc** architecture engagement (EMEA hyperscaler)
-- **MTN Nigeria / DU UAE** via APJC field SE enablement → customer savings / POC scale
-- **NTT East**, **Indosat Ooredoo** *(verify)* — APJC/ASEAN operators
-- **Enterprise / SP outside assignment** where Bruce was SME and outcomes are documented
-
-**Does NOT belong here (route elsewhere):**
-- **Microsoft, Meta, Oracle, CoreWeave, Verizon, Bell Canada**, etc. — home **Business Impact** (unless enabling *another theater’s* SE on a *different* customer is the story)
-- **Open source, blogs, LinkedIn, NANOG/OCP** without a customer revenue thread → **Industry Impact**
-- **CLEU labs, Stay Ready Friday, mentoring Nacho** without non-assigned customer outcome → **SE Community Leadership**
-- **Isovalent advocacy, SD-WAN/SSE SRv6, Single OS** → **Span of Influence** / **Innovation**
-- **Pre-2020 engagements** → omit (except exec thru-narrative)
-
-**Agent notes:** Re-filter `03-global-impact.md` (June 2026 harvest mixed territories and non-revenue items).
+**Does NOT belong here:** named customer case studies of any territory — those go to **Business Impact**, marked in-territory or out-of-territory. Americas enterprise accounts with no global dimension (Geico, Honeywell, Fiserv, Disney, TI, The Trade Desk, Morgan Stanley, NSight) were moved out on 2026-08-17.
 
 ---
 
 ### 4. Span of Influence — `04-span-of-influence.md`
 
-**Suggested length:** 2–3 pages.
+**Official length:** 2–3 pages.
 
-**Primary lens:** Impact **internal to Cisco** — expanding influence **beyond ASP + Web** and beyond the **MIG** engineering orbit (Aug 2020–present).
+**Primary lens:** interaction and impact at **higher levels** internally and externally; **≥2 technology domains**; strategic, **horizon 2–3**.
 
-**This is not a customer/revenue section.** It documents how Bruce widened his circle inside Cisco: other BUs, other theaters’ technical leaders, DSE/PSE peers, SWAT/working groups, and executive relationships.
+**Format:** a transition table (altitude over time) plus a two-column initiative table, same as Global Impact. Name the technology domains explicitly — the PPT requires at least two. Bruce has four: programmable transport, cloud-native/host networking, open NOS, enterprise identity and policy.
 
-**Must include:**
-- How span of influence **expanded** (table: from ASP+Web/MIG SME → cross-BU horizon 2/3 advisor)
-- Chronological, most recent first
-- **≥2 technology domains** / architectures (PSE/DSE requirement)
-- Strategic, **horizon 2–3** impact
-- Close tie to **Innovation**: many Span stories **led to** patents, product direction, or acquisition influence **outside MIG**
+**Frame it around horizon 2–3 architecture leadership, not organizational boundaries.** Per Bruce (Aug 2026): do not lead with what was or was not his area of responsibility; lead with the architectural visionary working three to five years ahead, the executive and Fellow relationships, and the named initiatives.
 
-**Belongs here:**
-- **Non-MIG engineering:** Cilium/Isovalent, SD-WAN, SASE/SSE, Catalyst/Nexus, security BEs, ThousandEyes, Single OS (SOSIE) working group
-- **Cross-org collaboration:** Brenden Buresh, Craig Hill, David Jansen, Brian Meaney, Virginia Teixeira, Mike McPhee, PSE committee, Future Enterprise Segmentation
-- **SR brain trust** with Clarence Filsfils / SR engineering (when framing **company-wide** SRv6 strategy, not single MIG feature)
-- **SD-WAN and SSE teams** adopting SRv6 as differentiator (internal product strategy)
-- **Executive / VP relationships** outside Web sales chain (Knipp, Dorval, Morrissey, Gillies, Carnes — when documenting internal influence)
-- **“2030 guy”** positioning inside Cisco
-
-**Does NOT belong here:**
-- Raw **revenue tables** → Business Impact / Global Impact
-- **External** NANOG/blog/GitHub reach without internal Cisco outcome → Industry Impact
-- **Patent detail / CPOL numbers** → Innovation (summarize link: “Span advocacy led to CPOL X”)
+**Does NOT belong here:** revenue tables → Business Impact; external reach → Industry Impact; patent and product detail → Innovation.
 
 ---
 
