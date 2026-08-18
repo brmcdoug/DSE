@@ -12,7 +12,7 @@ Bruce's enablement method mirrors his customer method: build the working artifac
 
 The measure of that work is not sessions delivered. It is **six PSE promotions, an EMEA systems engineer who became an independent contributor to the Cilium open-source project, a mentee who won Distinguished Speaker, and a $17M production order that traced back to a lab Bruce built for someone else to use.**
 
-The official criteria scope leadership more broadly than the SE community — technology programmes, investment cases built from multi-stakeholder data, executive presence, and community work all count. Those are covered in sections 8 and 9 below, with detail cross-referenced from Span of Influence and Innovation.
+The official criteria scope leadership more broadly than the SE community — technology programmes, investment cases built from multi-stakeholder data, executive presence, and community work all count. On the last of those, Bruce has served on the **Anacortes City Council since 2017**, as **Mayor Pro Tem since 2020**, and the city has built **the only community-owned fibre-to-the-home ISP in Washington State**. Those are covered in sections 8 and 9 below, with detail cross-referenced from Span of Influence and Innovation.
 
 ---
 
@@ -203,7 +203,23 @@ That last entry is the pattern in miniature: Bruce built the demonstration and h
 
 ---
 
-## 10. Tiger Teams and Cross-Community Programs
+## 10. Community Leadership — Elected Public Service
+
+The criteria name **community and volunteer** leadership explicitly. Bruce's is unusual in that it is the same work: he has served on the **Anacortes City Council since November 2017**, elected **Mayor Pro Tem in January 2020**, and in that time the city built and now operates **the only community-owned fibre-to-the-home internet service provider in the State of Washington.**
+
+| Contribution | Date | Outcome |
+| :--- | :--- | :--- |
+| **Anacortes City Council**, elected | Nov 2017 – present | Nine years of elected public service |
+| **Mayor Pro Tem**, City of Anacortes | Jan 2020 – present | |
+| **Community-owned fibre-to-the-home ISP** | Built and operating | The **only one in Washington State**. Delivers affordable, high-availability, high-bandwidth service to residents, and gives the city a **new revenue stream that is not based on taxation** |
+| Advisory on municipal fibre policy | | Advised the offices of **US Representative Rick Larsen** (WA-02) and **Washington Governor Jay Inslee** on internet and OTT trends and the impact municipal fibre networks can have in small communities `[confirm whether this advisory work continued post-2020]` |
+| **NANOG member** | Since 2015 | Professional affiliation |
+
+The relevance is not incidental. The council decision to build municipal fibre is the same judgment Bruce applies professionally — choose the architecture that is most affordable, most durable, and most useful to the people who depend on it, and treat the network as a platform rather than a product. He made that case to a city, to a congressional office, and to a governor's office, then helped deliver it. It is also leadership in the form the criteria describe most directly: **business outcomes and investment driven through collaboration and influence, with inputs consolidated from many stakeholders** — which is what a city council does.
+
+---
+
+## 11. Tiger Teams and Cross-Community Programs
 
 | Program | Date | Role and outcome |
 | :--- | :--- | :--- |
@@ -216,7 +232,7 @@ That last entry is the pattern in miniature: Bruce built the demonstration and h
 
 ---
 
-## 11. Enablement Outcomes Linked to Business and Global Impact
+## 12. Enablement Outcomes Linked to Business and Global Impact
 
 The test of enablement is whether it produced results Bruce did not personally deliver.
 
@@ -234,7 +250,7 @@ The test of enablement is whether it produced results Bruce did not personally d
 
 ---
 
-## 12. Awards and Recognition
+## 13. Awards and Recognition
 
 | Award | Year | Relevance |
 | :--- | :--- | :--- |

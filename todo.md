@@ -49,7 +49,9 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 - [x] Renamed **SE Community Leadership → Leadership**; cross-references updated in 5 files; AGENTS.md and README updated
 - [x] Cisco Live table rebuilt from `projects/conferences.md` — attendance, scores, repeat-invitation pattern, and the two mentee outcomes (Nico Michel's Distinguished Speaker, Chris Lapp co-developed breakout)
 - [x] Added **Technology Programme Leadership** (Cilium-SP, SONiC, Silicon One TAM, SOSIE, Cilium CRD) and **Executive Presence and Communication** — both named in the criteria and previously absent
-- [ ] **Community / Volunteer** work — the criteria name it explicitly and the section has none. Anything to include? (US/China Web Hyperscalers lunch co-host is the closest current item)
+- [x] **Community / Volunteer** — added: Anacortes City Council since Nov 2017, **Mayor Pro Tem** since Jan 2020, and the city built **the only community-owned FTTH ISP in Washington State** — affordable high-bandwidth service plus a non-tax revenue stream. Also recovered from the PSE package: advisory to **Rep. Rick Larsen's** and **Governor Inslee's** offices on municipal fibre
+- [ ] **Municipal fibre advisory** — confirm whether the Larsen / Inslee advisory work continued post-2020 (PSE package cites it as of 2020)
+- [ ] **FTTH details** — subscriber count, launch year, or revenue figure would strengthen the entry; confirm what is quotable in a Cisco document
 - [ ] **GSX 2026** — confirm the IMI Design Workshop delivered and the ~200 attendee figure; confirm David Jansen presented the AI Scale-Across demo and the ~10,000 audience figure
 - [ ] Section is now ~3,800 words but has **no official page limit** — no trim required
 

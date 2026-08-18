@@ -17,6 +17,8 @@ The second deliberate choice was technical rather than organizational. Rather th
 
 In **June 2026** Bruce transferred from Brook Crossman's ASP/Web organization, where he had spent roughly five years, to **Matt Gillies' Global Solutions Engineering team as lead Cloud-SP architect** — the same horizon-2 and horizon-3 mission at global scope.
 
+Bruce has also held **elected public office since 2017** — Anacortes City Council, and Mayor Pro Tem since January 2020 — during which the city built the only community-owned fibre-to-the-home ISP in Washington State. Governing a municipal network build is an unusual form of professional development: it puts him on the buying and operating side of the industry he sells into, which is the same perspective his architecture work starts from. Detail in the Leadership section.
+
 **DSE mentor:** Vaughn Suazo, formally selected 2HFY25, meeting bi-weekly against defined deliverables. **Unofficial mentor:** David Jansen. **Managers:** Brook Crossman (ASP/Web through Jun 2026); Matt Gillies (Global, from Jun 2026).
 
 ---
