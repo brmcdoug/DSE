@@ -188,7 +188,7 @@ Detail goes where the **strongest evidence** sits. Worked example — **SR-Apps*
 | 7 | Innovation | `07-innovation.md` | 4 | 6 |
 | 8 | Sponsorship | `08-sponsorship.md` | 2 | 1 |
 | 9 | Personal Development | `09-personal-development.md` | 1 | 1 |
-| 10 | SE Community Leadership | `10-se-community-leadership.md` | 4 | 6 |
+| 10 | **Leadership** | `10-se-community-leadership.md` | 4 | no limit *(official)* |
 | — | Appendix (optional) | `11-appendix.md` | — | as needed |
 
 **Max package length:** ~50 pages. Body total above is ~45–46, leaving room for cover, TOC, timeline graphic, and appendix.
@@ -365,7 +365,11 @@ Detail goes where the **strongest evidence** sits. Worked example — **SR-Apps*
 
 ---
 
-### 10. SE Community Leadership — `10-se-community-leadership.md`
+### 10. Leadership — `10-se-community-leadership.md`
+
+**Renamed** from "SE Community Leadership" per the template change note (01092025). **No official page limit.** Table format is explicitly requested. This is a **detail-target** section — it receives detail summarized in Global Impact and Span of Influence.
+
+**Official scope is broader than the SE community** (slide 22): programmes around **Technology, SE Community, Technical Enablement, Community, Volunteer**; **executive presence and communication** as named attributes; driving **business outcomes and investments** through data consolidated from multiple stakeholders; and career mentorship with evidence or endorsement.
 
 **Suggested length:** No page limit; **~6 pages** weighted.
 

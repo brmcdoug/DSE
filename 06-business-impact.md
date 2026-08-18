@@ -595,7 +595,7 @@ Bruce and Munroe have stayed in contact since.
 **Strategic impact:** This is the clearest single measure of Bruce's reach as a field multiplier — no account assignment, no follow-on engagement, no proposal. One conversation.
 **Overall customer impact:** **James Munroe abandoned the planned SR-MPLS migration, authored a complete SRv6 design document within approximately two weeks of the conference, and began the migration** — an unusually fast operator decision from a single conference conversation.
 
-The Cisco Live session itself is detailed in the SE Community Leadership section of this document, and its industry visibility in Industry Impact.
+The Cisco Live session itself is detailed in the Leadership section of this document, and its industry visibility in Industry Impact.
 
 ---
 

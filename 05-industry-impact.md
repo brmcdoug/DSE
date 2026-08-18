@@ -1,7 +1,7 @@
 ## Industry Impact
 
 > **Scope ([AGENTS.md](./AGENTS.md)):** Leadership and visibility **outside Cisco** among operators, architects, open-source communities, and standards-adjacent forums since **August 1, 2020**. **Direct revenue not required.**  
-> **Cross-ref:** Same artifact drove account $ → **06-business-impact.md** / **03-global-impact.md**. Internal BU persuasion → **04-span-of-influence.md**. Patents/CPOL detail → **07-innovation.md**. CL **ILT scores and SE training delivery** → **10-se-community-leadership.md**.
+> **Cross-ref:** Same artifact drove account $ → **06-business-impact.md** / **03-global-impact.md**. Internal BU persuasion → **04-span-of-influence.md**. Patents/CPOL detail → **07-innovation.md**. CL **ILT scores and SE training delivery** → **Leadership** ([10-se-community-leadership.md](./10-se-community-leadership.md)).
 
 **Suggested package length:** ~3 pages weighted (README). Organized by industry theme; third person, most recent activity first. Voice and claim-strength rules: [voice-guide.md](./voice-guide.md).
 

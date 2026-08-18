@@ -47,7 +47,7 @@ As we work through things let's also try and maintain a list of open items that 
 | 07 | Innovation | [07-innovation.md](./07-innovation.md) |
 | 08 | Sponsorship | [08-sponsorship.md](./08-sponsorship.md) |
 | 09 | Personal Development | [09-personal-development.md](./09-personal-development.md) |
-| 10 | SE Community Leadership | [10-se-community-leadership.md](./10-se-community-leadership.md) |
+| 10 | Leadership *(renamed from SE Community Leadership)* | [10-se-community-leadership.md](./10-se-community-leadership.md) |
 | 11 | Appendix — awards, CL scores, recognition | [11-appendix.md](./11-appendix.md) |
 
 Rough structure, section weighting (scale of 1-5, 5 is highest), and page count:

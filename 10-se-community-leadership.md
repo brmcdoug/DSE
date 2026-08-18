@@ -1,17 +1,18 @@
-## SE Community Leadership
+## Leadership
 
-> **Scope ([AGENTS.md](./AGENTS.md)):** **Force multiplier** for the SE community since **August 1, 2020**—training, mentoring, enablement that helps SEs grow capabilities, careers, and account impact.  
-> **Split:** Public **srv6-labs** / NANOG industry reach → **05-industry-impact.md**. **PSE committee** governance → primary home **04-span-of-influence.md**; mentoring outcomes here.
-
-**Suggested package length:** ~6 pages weighted. Third person, outcomes first. Voice and claim-strength rules: [voice-guide.md](./voice-guide.md).
-
----
+> **Official criteria (Nomination Kit slide 22):** *"Demonstrate leadership by driving business outcomes and investments, through collaboration and influence, consolidated inputs from multiple stakeholders based on data. Lead different programs, teams or initiatives (internally and externally to Cisco) around: **Technology, SE Community, Technical Enablement, Community, Volunteer** etc. Demonstrate leadership attributes: **Executive Presence and Communication skills**. Mentors and develops capabilities within others (career mentorship with clear evidence/endorsement)."*
+>
+> **Official guidance (template):** **no page limit**; use **table format** for initiatives, programs, mentorships, and enablement, with description, date, and external links; describe impact on Cisco's business in terms of revenue and/or strategy and mentees' career paths; chronological, most recent first. *"This is an opportunity to provide more details on items you have summarized in the Global Impact and Span of Influence sections."*
+>
+> **Section renamed from "SE Community Leadership" to "Leadership"** per the template change note (01092025) — the official scope is broader than the SE community and includes technology programs, executive presence, and community work.
 
 ## The Multiplier Model
 
 Bruce's enablement method mirrors his customer method: build the working artifact first, then teach from it. He constructs GitHub, Containerlab, and dCloud assets for horizon-2 architectures before the capability ships on Cisco platforms, trains Web and SP systems engineers to use them, and then stays engaged through co-development until the account revenue matures.
 
-The measure of that work is not sessions delivered. It is **six PSE promotions, an EMEA systems engineer who became an independent contributor to the Cilium open-source project, and a $17M production order that traced back to a lab Bruce built for someone else to use.**
+The measure of that work is not sessions delivered. It is **six PSE promotions, an EMEA systems engineer who became an independent contributor to the Cilium open-source project, a mentee who won Distinguished Speaker, and a $17M production order that traced back to a lab Bruce built for someone else to use.**
+
+The official criteria scope leadership more broadly than the SE community — technology programmes, investment cases built from multi-stakeholder data, executive presence, and community work all count. Those are covered in sections 8 and 9 below, with detail cross-referenced from Span of Influence and Innovation.
 
 ---
 
@@ -73,30 +74,30 @@ Bruce built an asset and gave a talk. An engineer he had never worked with becam
 
 ## 3. Cisco Live Instruction
 
-Bruce has delivered instructor-led labs, breakouts, and Meet-the-Expert sessions at Cisco Live US and Europe continuously since 2023, earning **Distinguished Speaker** recognition at CLEU 2023 with a perfect **5.00 / 5.00**.
+Bruce has delivered instructor-led labs, breakouts, panels, and Meet-the-Expert sessions at Cisco Live US and Europe continuously since 2023, earning **Distinguished Speaker** recognition at CLEU 2023 with a perfect **5.00 / 5.00**. Full log: `projects/conferences.md`.
 
-| Year | Event | Session | Attendees | Session score | Personal score | Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **2026** | CLEU | LTRSPG-2212 (SRv6 lab) | 18/26 responses | **4.94** | **4.94** | Nico Michel 5.0; Distinguished Speaker |
+| Year | Event | Session | Attendees | Session | Personal | Notes |
+| :--- | :--- | :--- | ---: | ---: | ---: | :--- |
+| **2026** | CLUS | **BRKNWT-2620** *Beyond the Switchport* — new breakout on the evolution and future of host networking, with SE Chris Lapp | 44 | 4.64 | 4.68 / 4.73 | Built the session and the co-presenter together |
+| **2026** | CLUS | LTRMSI-3000, with Rob Murphy and Nico Michel | 16 | 4.70 | 4.80 | *"Best experience I've had in a CiscoLive."* |
+| **2026** | CLUS | IBOSPG-2013 panel | 10 | **5.00** | **5.00** | Perfect scores; below the survey threshold for Distinguished Speaker |
+| **2026** | CLEU | LTRSPG-2212, with Nico Michel | 26 | **4.94** | **4.94** | **Nico scored 5.0 and won Distinguished Speaker** |
 | **2026** | CLEU | MTE — Province of New Brunswick | — | — | — | → SRv6 migration within ~2 weeks (**Global Impact**) |
-| **2026** | CLUS | Panel with Vaughn Suazo, Rob Murphy, Nico Michel, Masi Mohammed, Chris Lapp | 10 | **5.0** | **5.0** | |
-| **2026** | CLUS | BTSP panel | 44 | 4.64 | 4.68 pres. / 4.73 SME | GPU economy; SP security |
-| **2026** | CLUS | SRv6 lab | 16 | 4.7 | 4.8 pres. / SME | |
-| **2025** | CLEU | LTRSPG-2212 | Full house, overflow | **4.72** | **4.94** avail. / 4.89 tech | "Best CL lab ever" ×2; Jalapeno open-source interest ×3 |
-| **2025** | CLEU | MTE — GlobalConnect with Tejas Lad | — | **5.0** | — | CNC |
-| **2025** | CLUS | IBOSPG-2013 panel | — | **5.00** | **5.00** | AI-ops; hyperscale standards; security |
-| **2025** | CLUS | LTRMSI-3000 | — | 4.64 | 4.82 / 4.91 | |
-| **2024** | CLEU | LTRSPG-2212 | — | **4.88** | **4.94** | Plus 4 MTEs |
-| **2023** | CLEU | LTRSPG-2212 | — | **5.00** | **5.00** | **Distinguished Speaker** |
-| **2023** | CLUS | Breakouts (incl. BRKSP-2133 with Josh Merrill) | — | 4.26 / 4.50 | | SP panel |
+| **2025** | CLUS | **LTRMSI-3000** — rebuilt LTRSPG-2212 incorporating SONiC and a pre-MRC form of host-based SRv6 over a simulated AI backend | 30 | 4.64 | 4.82 / 4.91 | With Rob Murphy and Nico Michel |
+| **2025** | CLUS | IBOSPG-2013 *Future of SP Networking* panel | 26 | **5.00** | **5.00** | Perfect scores; below survey threshold for the award |
+| **2025** | CLEU | LTRSPG-2212, with Rob Murphy | 26 | 4.72 | **4.94** | Full house with overflow; *"best CL lab ever"* ×2 |
+| **2025** | CLEU | MTE — GlobalConnect, with TME Tejas Lad | — | **5.00** | — | Subject: CNC |
+| **2024** | CLEU | LTRSPG-2212, with Rob Murphy | 22 | **4.88** | **4.94** | Plus 6 Meet-the-Expert sessions |
+| **2023** | CLEU | **LTRSPG-2212** — first on GitHub; used XRd; first host-based SRv6 with both Linux and VPP; Jalapeno as SDN database | 14 | **5.00** | **5.00** | **Distinguished Speaker** |
+| **2023** | CLEU | IBOSPG-2001 *Future of SP Networking* panel — grew out of the FOSPN blog series Bruce's team of SP DSEs and PSEs developed through 2022 | 37 | 4.32 | 4.50 / 4.59 | With 5 other PSEs and DSEs |
+| **2023** | CLUS | BRKSP-2133 *Next Generation SP Service Edge Transformation* | 73 | 4.26 | 4.44 / 4.47 | Bruce and Josh Merrill stepped in as substitute speakers for EMEA DSEs unable to travel |
+| **2023** | CLUS | IBOSPG-2013 FOSPN panel | 30 | 4.50 | 4.78 / 4.67 | |
 
 *Bruce did not attend CLUS 2024 due to injury.*
 
-Bruce delivered the **first host-based SRv6 lab at Cisco Live** in 2023, and co-developed the **CLUS 2026 host-networking breakout** with Chris Lapp, a PSE-track SE on his development team — building the session and the presenter at the same time.
+**Sessions invited back on their scores:** LTRSPG-2212 ran at **CLEU 2023, 2024, 2025, and 2026**; the FOSPN panel at CLUS in 2023, 2025, and 2026; LTRMSI-3000 at CLUS in 2025 and 2026.
 
-**Vault:** `conferences/CLEU 2023.md` – `CLEU 2026.md`, `CLUS 2023.md`, `CLUS 2025.md`, `CLUS 2026.md`
-
----
+**Two mentee outcomes.** Bruce delivered the **first host-based SRv6 lab at Cisco Live** in 2023 and has since used the session as a development vehicle: **Nico Michel won Distinguished Speaker at CLEU 2026** co-presenting LTRSPG-2212, and Bruce co-developed the CLUS 2026 *Beyond the Switchport* breakout with **Chris Lapp**, a PSE-track SE on his development team — building the session and the presenter at the same time.
 
 ## 4. Programs Bruce Built
 
@@ -166,7 +167,43 @@ Three enablement institutions exist because Bruce created them rather than volun
 
 ---
 
-## 8. Tiger Teams and Cross-Community Programs
+## 8. Technology Programme Leadership
+
+The criteria ask for leadership of programmes around **technology**, and for **driving business outcomes and investments through collaboration and influence, consolidating inputs from multiple stakeholders based on data**. Three of Bruce's investment cases fit that description precisely: each assembled data from stakeholders who had no obligation to supply it, and each moved a funding decision.
+
+| Programme | Date | What Bruce led | Outcome |
+| :--- | :--- | :--- | :--- |
+| **Cilium-SP feature investment case** | 1HFY26 | Gathered and compiled account data **worldwide** — telco and SP use cases across every theater — into a quantified pullthrough model, and maintains the opportunity and TAM tracker | **~$34M Isovalent / ~$323M MIG** pullthrough, finance-validated; used for product investment prioritization |
+| **SONiC SRv6 investment case** | 2024–2026 | Built the technical and customer evidence that reversed sustained engineering scepticism about the AI-backend use case | **SRv6 on SONiC shipped for the Cisco 8122** (Jun 2026); MIG committed G200 in Q1 FY26 |
+| **Silicon One generational TAM model** | 2023–2024 | Built the 12.8T → 25.6T → 51.2T model with the account team and the customer | Became the basis for Silicon One generational planning across the Web segment |
+| **Single OS (SOSIE) working group** | 2024–present | **Co-founded** with DSE and PSE peers Brenden Buresh, Craig Hill, Virginia Teixeira, and Rob Murphy; framed the Linux-NOS path against an estimated $500M of Edgecore leakage | Created the cross-BU forum for NOS strategy that had not previously existed `[verify figure quotable]` |
+| **Multi-use-case Cilium CRD** | Mar 2026 | Authored the requirements document positioning Cilium as the host-networking policy execution engine for Kubernetes and non-Kubernetes workloads | **Accepted by Cisco engineering**, being prioritized |
+
+*More details are located in the Innovation and Span of Influence sections of this document.*
+
+---
+
+## 9. Executive Presence and Communication
+
+The criteria name **executive presence and communication skills** as leadership attributes in their own right. This was also Bruce's stated development area in the 2HFY25 talent assessment, and the record since shows the response.
+
+| Engagement | Date | Audience |
+| :--- | :--- | :--- |
+| **EVPN Least Complexity readout** | Jan–Jun 2026 | Cisco executives including Chief Product Officer **Jeetu Patel** |
+| ***Combatting Disaggregation with Network Service Innovation (SRv6)*** | Sep 2025 | The **full ASP organization**; repeated by request at TMC Innovation Hour, Oct 2025 |
+| **SRv6 for DC and AI workshop** | Apr 2025 | Cisco MIG engineering **and its leadership**, with Microsoft and Alibaba Cloud engineering leaders as guest speakers |
+| **Cross-Domain Broker readout** | Oct 2023 | Beesely, Mohit Lad, **Eric Knipp** |
+| **SL-OnDemand executive presentation** | Mar 2024 | CX and BE executives — Bruce the only sales-organization member on the team |
+| **SRv6 with SGT to Matt Gillies** | Apr 2025 | Global Solutions Engineering leadership, with Josh Merrill |
+| **Executive conversation coaching** | Completed Mar 2026 | Formal programme, plus *Conversational Intelligence* (Jul 2025) |
+| **GSX IMI Design Workshop** | 2026 | Built the session with a team of PSEs and DSEs; co-presenter and facilitator — **~200 attendees expected** |
+| **AI Scale-Across demo for the SE global session** | 2026 | Developed the simulated Scale-Across WAN demo (Cisco 8223-64EH P200, SRv6-TE, and a POC traffic generator Bruce wrote) for **DSE David Jansen** to present — **~10,000 attendees expected** |
+
+That last entry is the pattern in miniature: Bruce built the demonstration and handed the stage to someone else.
+
+---
+
+## 10. Tiger Teams and Cross-Community Programs
 
 | Program | Date | Role and outcome |
 | :--- | :--- | :--- |
@@ -179,7 +216,7 @@ Three enablement institutions exist because Bruce created them rather than volun
 
 ---
 
-## Enablement Outcomes Linked to Business and Global Impact
+## 11. Enablement Outcomes Linked to Business and Global Impact
 
 The test of enablement is whether it produced results Bruce did not personally deliver.
 
@@ -197,7 +234,7 @@ The test of enablement is whether it produced results Bruce did not personally d
 
 ---
 
-## Awards and Recognition (SE-facing)
+## 12. Awards and Recognition
 
 | Award | Year | Relevance |
 | :--- | :--- | :--- |

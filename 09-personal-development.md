@@ -64,7 +64,7 @@ Bruce's talent assessments identify two consistent development areas. Both are n
 | **2026** | Agent-assisted coding; **MRC** study, labs, and emulator (superseded the Ultra Ethernet plan when the industry moved) | MRC emulator and srv6-msft repos → **Innovation**, **Industry Impact** |
 | **2025–2026** | Deep **Cilium and eBPF** hands-on | Adobe egress gateway POC rescue → **Global Impact**; host networking across BUs → **Span** |
 | **2024–2025** | **SONiC** depth ahead of mainstream field adoption; dCloud lab publication | SONiC SME on Microsoft, CoreWeave, Geico → **Business** and **Global Impact** |
-| **2023–2024** | **Containerlab** early adoption; GitHub-first lab guides | srv6-labs launch; CLEU 5.0 Distinguished Speaker → **SE Community Leadership** |
+| **2023–2024** | **Containerlab** early adoption; GitHub-first lab guides | srv6-labs launch; CLEU 5.0 Distinguished Speaker → **Leadership** |
 | **2021–2023** | **Kubernetes** and the cloud-native stack; Jalapeno open-source maintenance | Bold Bets; EN Hackathon win → **Innovation** |
 | **2020–2022** | Cross-BU exposure: SD-WAN, SSE, FE Segmentation, PSE committee | SRv6 on enterprise platforms; promotion standards → **Span of Influence** |
 

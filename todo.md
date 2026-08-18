@@ -45,6 +45,14 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 - [ ] **New account rows** — Apple (~$30M), Nvidia (~$30M), Netflix (~$30M) all `[verify]`; each needs a short-form entry in the body or should stay table-only
 - [ ] **OCP 2026 session was declined** — removed from Business Impact; confirm nothing else in the package still implies it was delivered
 
+### Leadership — remaining (Aug 18, 2026)
+- [x] Renamed **SE Community Leadership → Leadership**; cross-references updated in 5 files; AGENTS.md and README updated
+- [x] Cisco Live table rebuilt from `projects/conferences.md` — attendance, scores, repeat-invitation pattern, and the two mentee outcomes (Nico Michel's Distinguished Speaker, Chris Lapp co-developed breakout)
+- [x] Added **Technology Programme Leadership** (Cilium-SP, SONiC, Silicon One TAM, SOSIE, Cilium CRD) and **Executive Presence and Communication** — both named in the criteria and previously absent
+- [ ] **Community / Volunteer** work — the criteria name it explicitly and the section has none. Anything to include? (US/China Web Hyperscalers lunch co-host is the closest current item)
+- [ ] **GSX 2026** — confirm the IMI Design Workshop delivered and the ~200 attendee figure; confirm David Jansen presented the AI Scale-Across demo and the ~10,000 audience figure
+- [ ] Section is now ~3,800 words but has **no official page limit** — no trim required
+
 ### Industry Impact — remaining (Aug 18, 2026)
 - [x] **Standards vs. open-source framing resolved** — stated directly in-section, anchored on the MRC timeline: work began 2024, SRv6-for-AI discussed at OCP Nov 2024, first IETF draft Jul 2025 *in response to work already under way*. Standards trailed the open forums by ~8 months on the defining transport architecture of the AI era
 - [ ] **Reverse-chronological reorder** — template asks for most-recent-first; section is still thematic. Decide whether to reorder or keep thematic with dated entries
