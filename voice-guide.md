@@ -114,6 +114,16 @@ That last row matters. Pending finance validation should never leak into hedged 
 
 ---
 
+## Accuracy guardrail: do not upgrade plans into accomplishments
+
+Caught in review (Aug 2026): the Personal Development draft asserted that Bruce *"engaged an executive conversation coach and completed the program by March 2026."* The source was a **personal development plan action item recorded as "in progress"** — a goal, not an event. Bruce did not recall it because it had not happened as written.
+
+This is a distinct failure mode from overstating impact. A plan, a target date, or an intention sitting in a status table reads like a fact once the status column is dropped.
+
+**Rule:** when drafting from `todo.md`, a PDP table, or any tracker, carry the status forward. If an item says *in progress*, *planned*, or *target*, the prose must say so too. Only mark something complete when there is an event, a date, and evidence.
+
+---
+
 ## Framing guardrail: what drives the innovation record
 
 An early draft of the Innovation section made **declined disclosures the centrepiece** of Bruce's innovation philosophy. He corrected it (Aug 2026), and the correction matters because it changes what the section argues.

@@ -45,6 +45,11 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 - [ ] **New account rows** — Apple (~$30M), Nvidia (~$30M), Netflix (~$30M) all `[verify]`; each needs a short-form entry in the body or should stay table-only
 - [ ] **OCP 2026 session was declined** — removed from Business Impact; confirm nothing else in the package still implies it was delivered
 
+### Personal Development — remaining (Aug 18, 2026)
+- [ ] **Executive coaching claim corrected** — I had asserted Bruce "engaged an executive conversation coach and completed the program by March 2026." The source was a PDP action item recorded as *in progress*, not a completed engagement. Now states what is supported: Brook Crossman coached directly on upleveled messaging (2HFY25–1HFY26) and Bruce read *Conversational Intelligence* on Brook's recommendation. **Confirm whether a formal external coach was engaged, or whether Brook's coaching plus the Vaughn Suazo DSE mentorship satisfied the PDP item**
+- [x] Council service removed from Personal Development — as an elected official Bruce sets policy, he does not operate the municipal network. Stays in Leadership
+- [ ] **`12-quotes.md`** — new file with Brook Crossman's quote on innovation and impact. Decide placement (Exec Overview, Innovation, or Direct Leader Recommendation) and add remaining quotes
+
 ### Leadership — remaining (Aug 18, 2026)
 - [x] Renamed **SE Community Leadership → Leadership**; cross-references updated in 5 files; AGENTS.md and README updated
 - [x] Cisco Live table rebuilt from `projects/conferences.md` — attendance, scores, repeat-invitation pattern, and the two mentee outcomes (Nico Michel's Distinguished Speaker, Chris Lapp co-developed breakout)

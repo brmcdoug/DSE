@@ -11,13 +11,14 @@
 
 Bruce received direct feedback from the PSE review committee at promotion: expand beyond the Web and service provider comfort zone. He treated that as a work plan rather than a note.
 
-Over the following six years he built capability and relationships deliberately outside the ASP+Web and MIG orbit — enterprise SD-WAN and Cisco Secure Access, the Future Enterprise Segmentation tiger team, co-founding the Single OS (SOSIE) working group, Isovalent and security engineering, ThousandEyes, the EMEA peer network, CX, the SL-OnDemand tiger team, and the OST Zurich university collaboration. Each is documented in Span of Influence; the point here is that none of it was assigned.
+Over the following six years he built capability and relationships deliberately outside the ASP+Web and MIG orbit — enterprise SD-WAN and Cisco Secure Access, the Future Enterprise Segmentation tiger team, co-founding the Single OS (SOSIE) working group with DSEs from Cisco Enterprise, Public Sector, Web/ASP, and EMEA, Isovalent and security engineering, ThousandEyes, the EMEA peer network, CX, the SL-OnDemand tiger team, and the OST Zurich university collaboration. Each is documented in Span of Influence; the point here is that none of it was assigned.
 
-The second deliberate choice was technical rather than organizational. Rather than remaining a routing-protocol expert who presents architecture, Bruce invested in **production-grade builder skills** — Kubernetes, Cilium and eBPF, Containerlab, GitHub workflows, dCloud publishing, and agent-assisted development. That is why the labs, emulators, and POC repositories in this package exist as running code that account teams and customer engineers reuse, rather than as slides. It is also why he can move at the speed the market does: the 8122 SRv6-on-SONiC work, the MRC emulator, and the Cilium POCs were all built without a dedicated engineering team.
+The second deliberate choice was technical rather than organizational. Rather than remaining a routing architect, Bruce invested in **production-grade builder skills** — Linux, Kubernetes, Cilium and eBPF, Containerlab, GitHub workflows, dCloud publishing, Python, Golang, and agent-assisted development. That is why the labs, emulators, and POC repositories in this package exist as running code that account teams and customer engineers reuse, rather than as slides. It is also why he can move at the speed the market does: the 8122 SRv6-on-SONiC work, the MRC emulator, and the Cilium POCs were all built without a dedicated engineering team.
+
+That investment compounds in an unexpected place. Years of self-training in Python, Go, Kubernetes, DevOps practice, and Git have made Bruce markedly more effective with **agent-assisted development** — because he knows precisely what he is trying to build, he can describe it accurately and iterate with an agent as a development partner rather than hoping for a usable result. The engineers who get the most out of these tools are the ones who could have written the code themselves.
 
 In **June 2026** Bruce transferred from Brook Crossman's ASP/Web organization, where he had spent roughly five years, to **Matt Gillies' Global Solutions Engineering team as lead Cloud-SP architect** — the same horizon-2 and horizon-3 mission at global scope.
 
-Bruce has also held **elected public office since 2017** — Anacortes City Council, and Mayor Pro Tem since January 2020 — during which the city built the only community-owned fibre-to-the-home ISP in Washington State. Governing a municipal network build is an unusual form of professional development: it puts him on the buying and operating side of the industry he sells into, which is the same perspective his architecture work starts from. Detail in the Leadership section.
 
 **DSE mentor:** Vaughn Suazo, formally selected 2HFY25, meeting bi-weekly against defined deliverables. **Unofficial mentor:** David Jansen. **Managers:** Brook Crossman (ASP/Web through Jun 2026); Matt Gillies (Global, from Jun 2026).
 
@@ -27,9 +28,18 @@ Bruce has also held **elected public office since 2017** — Anacortes City Coun
 
 Bruce's talent assessments identify two consistent development areas. Both are named here directly, with the actions taken against them.
 
-**Executive communication.** Brook Crossman's 2HFY25 assessment called for stronger executive communications and more live SE engagements. Bruce engaged an executive conversation coach and completed the program by March 2026, worked through *Conversational Intelligence*, and applied the upleveled messaging in cross-BU workshops, the Combatting Disaggregation presentation to the full ASP organization, and executive readouts including the EVPN Least Complexity presentation to Jeetu Patel.
+**Executive communication.** Brook Crossman's 2HFY25 assessment called for stronger executive communications and more live SE engagements, and coached Bruce directly on upleveled messaging through 2HFY25 and 1HFY26. On Brook's recommendation Bruce worked through *Conversational Intelligence* (Jul 2025). He then applied it in volume: cross-BU workshops, the *Combatting Disaggregation* presentation to the full ASP organization, the April 2025 SRv6-for-AI workshop in front of MIG engineering leadership, and executive readouts including the EVPN Least Complexity presentation to Chief Product Officer Jeetu Patel. `[the PDP item "engage exec conversation coach/mentor" was recorded as in progress — confirm whether a formal external coach was engaged, or whether Brook's coaching and the DSE mentorship with Vaughn Suazo satisfied it]`
 
-**Filtering demand and delegating for others' visibility.** The 1HFY26 assessment identified the consequence of being the person everyone calls: Bruce needed to filter inbound requests and hand projects to others so they gain the exposure. He has begun routing work deliberately — presenting Dan Stacks' AI tool to HQ Architecture Staff rather than his own, co-developing the CLUS 2026 host-networking breakout with Chris Lapp as co-presenter, and recruiting John McCleod as a SONiC Nuggets co-presenter. This remains active work rather than a closed item.
+**Filtering demand and delegating for others' visibility.** The 1HFY26 assessment identified the consequence of being the person everyone calls: Bruce can work on filtering inbound requests and handing projects to others so they gain the exposure.
+
+His response has taken a consistent shape — spot something good an engineer is already doing, then find them a stage for it:
+
+- Saw **Dan Stacks'** AI tool and presented it to HQ Architecture Staff, giving Stacks the exposure rather than taking the slot himself
+- Took **Santosh's** SONiC Nuggets idea, made it deliverable, and put Santosh's name on a visible programme — recruiting **John McCleod** as co-presenter, who was building SONiC skills for his own customer anyway
+- Built the CLUS 2026 *Beyond the Switchport* breakout jointly with **Chris Lapp** so Lapp would have a Cisco Live breakout of his own
+- Backed **Nico Michel's** interest in lab collaboration: handed him development of a Containerlab version of the SONiC Sales Edge training, and plans to have him extend `srv6-mrc-emulator` with a Containerlab UI and Edgeshark traffic-capture tooling. Michel won **Distinguished Speaker at CLEU 2026** co-presenting Bruce's lab
+
+This remains active work rather than a closed item, but the mechanism is now deliberate rather than incidental.
 
 ---
 
@@ -54,7 +64,7 @@ Bruce's talent assessments identify two consistent development areas. Both are n
 | **BA**, University of Washington | 1996 | Undergraduate foundation |
 | **CCIE Service Provider #35169** | 2012 | Foundation for SR/SRv6 field leadership; peer credibility with SP and hyperscaler operators |
 | **O'Reilly — *Open Source Labbing*** (co-developed with Russ White, Akamai) | 2024–2025 | Four-hour course delivered live twice; both sessions in the O'Reilly catalog; materials at [github.com/brmcdoug/open-source-labbing](https://github.com/brmcdoug/open-source-labbing). Co-authorship with one of the industry's most recognized networking authors → **Industry Impact** `[verify catalog link]` |
-| **Executive conversation coaching** | Completed Mar 2026 | Applied in cross-BU workshops and executive readouts |
+| **Executive communication development** | 2HFY25 – present | Direct coaching from Brook Crossman on upleveled messaging; applied in cross-BU workshops and executive readouts `[confirm formal coaching engagement]` |
 | **Conversational Intelligence** | Completed Jul 2025 | Communication method for multi-BU persuasion work |
 
 ---
@@ -76,7 +86,7 @@ Bruce's talent assessments identify two consistent development areas. Both are n
 
 | Action | Due | Status |
 | :--- | :--- | :--- |
-| Engage executive conversation coach | Mar 2026 | **Complete** |
+| Engage executive conversation coach or mentor | Mar 2026 | **In progress** — Brook Crossman coached directly on upleveled messaging (2HFY25–1HFY26); *Conversational Intelligence* completed Jul 2025; DSE mentorship with Vaughn Suazo ongoing `[confirm whether a formal external coach was engaged]` |
 | Fork Cilium; POC SRv6 feature | Oct 2025 | **Complete** — Adobe EGW/LB POC |
 | MRC study and customer enablement *(replaced Ultra Ethernet)* | Aug 2025 | **Complete** — presentation, lab, emulator, SE and customer enablement |
 | Read *Conversational Intelligence* | Jul 2025 | **Complete** |

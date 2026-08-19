@@ -233,6 +233,7 @@ The relevance is not incidental. The council decision to build municipal fibre i
 | **SL-OnDemand tiger team** | Sep 2023 – Mar 2024 | Member with CX (Subha Dhesikan); delivered the executive presentation |
 | **Future Enterprise Segmentation** | 2022–2024 | Sprint contributor; recommendations reused in SE and customer conversations → **Span of Influence** |
 | **Engineering hackathons** | 2022, 2024 | Bruce sits in sales but was **recruited onto engineering hackathon teams by friends in engineering** — the Sep 2022 enterprise networking hackathon with DE Darrin Dukes and others on SD-WAN SRv6 underlay steering, **which won the SD-WAN group**, and the Nov 2024 team with DE **Zafar Ali** on SRv6 for AI that produced the first Jalapeno RPO SDN application |
+// maybe characterize it as unique or very rare that sales engineers are asked to join engineering hackathons
 | **KubeCon CFP** | Apr 2026 | Session proposal with Jesus Guzman Farjado `[awaiting selection]` |
 
 ---
