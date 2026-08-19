@@ -186,11 +186,17 @@ The declined disclosures are listed alongside the approved ones deliberately. Se
 | Title | Patent Number | Co-inventors | Filed | **Issued** |
 | :--- | :--- | :--- | :--- | :--- |
 | **Scheduled FIB to Account for Intermittent Connectivity Due to Orbital Dynamics** | 12,494,999 | Plamen Nedeltchev | Jan 2023 | **Dec 2025** |
+// filer: Bruce, Plamen was co-inventor - also a member of Cisco internal IT CTO org, not sales or product engineering, further proof of my wide span
 | **Synthetic Path Tracing of Segment Routed Networks** | 12,289,210 | Hans Ashlock, Ben Haddox | Jul 2023 | **Apr 2025** |
+// filer: Bruce
 | **Underlay Network Traffic Steering** | 12,120,027 | Saswat Praharaj, Fabio Maino, Alberto Rodriguez-Natal, Jeff Byzek, Steve Wood | Nov 2022 | **Oct 2024** |
+// filer: Bruce
 | **Core Network Support for Application-Requested Network Service Level Objectives** | 12,009,998 | Saswat Praharaj, Fabio Maino, Alberto Rodriguez-Natal, Pradeep Kathail | May 2023 | **Jun 2024** |
+// filer: Saswat / SDWAN Eng
 | **Segment Routing Label Switch Paths in NFV Communications Networks** *(continuation)* | 10,250,494 | Clarence Filsfils, Sami Boutros, Rex Fernando, Siva Sivabalan, Lakshmi Sharma, Santiago Freitas, Rob Fielding | Oct 2016 | **Apr 2019** |
+// I brought the idea of Clarence and team, Sami did the writeup
 | **Segment Routing Label Switch Paths in NFV Communications Networks** *(original)* | 9,503,363 | *as above* | Mar 2015 | **Nov 2016** |
+
 
 Three things are worth drawing out of that table. **Underlay Network Traffic Steering** (12,120,027) was filed by SD-WAN engineering — a business entity outside Bruce's own — alongside Praharaj, Maino, Rodriguez-Natal, Byzek, and Wood; granted IP in another BU's portfolio is the least arguable evidence of cross-organizational influence in this package. The **Scheduled FIB** grant (12,494,999) covers delay-tolerant networking for orbital dynamics, a domain unrelated to Bruce's day work and evidence of the breadth DSE requires. And the oldest family, **Segment Routing in NFV** (9,503,363 and 10,250,494), was filed in 2015 with **Clarence Filsfils** and the SR engineering leadership — the earliest documentary record of the partnership that runs through this package.
 
