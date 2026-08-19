@@ -143,7 +143,7 @@ Tier-1 SP bookings and out-of-territory accounts are not in this extract.
 | **Bell Canada** | **500× C8231-G2** first order (May 2026) | End-to-end SRv6, Cilium, and NaaS architecture — a partnership dating to 2019 |
 | **Out-of-territory** | Geico ~$1.6M; Honeywell ~$2M; Province of New Brunswick migrated to SRv6 after one conversation | SONiC and SRv6 SME to theaters and accounts outside his assignment |
 
-**Beyond bookings.** Bruce also helped build the foundation the segment runs on: when he joined the Web team Cisco was barely selling into hyperscale production networks and was read as an enterprise networking company. He established Cisco's credibility with those operators and built the bench alongside it — the Web team now has three PSEs and multiple grade-12 SEs on each major account. He does not claim the revenue; he built part of what it stands on.
+**Beyond bookings.** Bruce built part of the foundation the segment runs on: when he joined the Web team Cisco was barely selling into hyperscale production networks and was read as an enterprise networking company. He established Cisco's credibility with those operators and built the bench alongside it — the Web team now has three PSEs and multiple grade-12 SEs on each major account. He does not claim the revenue; he built part of what it stands on.
 
 **Stated plainly:** Cisco has arrived late across successive switch-silicon generations — 12.8T, 25.6T, 51.2T — and lateness at that layer removes Cisco from consideration entirely rather than costing a feature comparison. Microsoft and Oracle both began SRv6-for-AI deployments on competitor hardware, on the architecture Bruce had specified. The architecture was validated; the timing was not.
 
