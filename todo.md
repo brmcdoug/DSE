@@ -27,6 +27,11 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 
 ---
 
+### Quote distribution — after Exec Overview
+- [ ] **Distribute quotes from [12-quotes.md](./12-quotes.md)** into sections. Table there lists each quote, source, date, and proposed placement, marking which are already placed. To do **after** the Executive Overview is drafted, since the strongest quotes may be wanted there
+- [x] Brook Crossman's innovation-and-impact quote placed in the Executive Overview
+- [ ] Two quotes recovered from the 2020 PSE package worth reusing: **Brian Shoda** on collaboration (corroborates the Leadership opening) and **David Lucey** of Salesforce on hyperscale credibility (external operator validation for Industry Impact)
+
 ## Validation & fact-check
 
 ### Revenue & accounts

@@ -229,11 +229,12 @@ The relevance is not incidental. The council decision to build municipal fibre i
 
 | Program | Date | Role and outcome |
 | :--- | :--- | :--- |
-| **EVPN Least Complexity tiger team** | Jan–Jun 2026 | Multi-DSE/PSE readout to executives including **Jeetu Patel (CPO)**; validated that siloed management platforms add complexity and that firewalls lack VXLAN-EVPN support |
-| **SL-OnDemand tiger team** | Sep 2023 – Mar 2024 | Member with CX (Subha Dhesikan); delivered the executive presentation |
+| **EVPN Least Complexity tiger team** | Jan–Jun 2026 | Multi-DSE/PSE readout to executives including **Brook Crossman and Jeetu Patel (CPO)**; validated that siloed management platforms add complexity and that firewalls lack VXLAN-EVPN support |
+// this is an interesting one because to many engineers the problem is obvious, but sometimes in very large organizations that doesn't bubble up to senior leadership, so the trick is communicating the message in a way that is impactful on the senior exec's understanding
+| **SL-OnDemand tiger team** | Sep 2023 – Mar 2024 | Recruited to join a CX tiger team (not sales) led by Distinguished Engineer Subha Dhesikan as innovator and SME for a project very similar to cloud-like consumption of network services (Service Level on Demand); delivered the executive presentation |
 | **Future Enterprise Segmentation** | 2022–2024 | Sprint contributor; recommendations reused in SE and customer conversations → **Span of Influence** |
 | **Engineering hackathons** | 2022, 2024 | Bruce sits in sales but was **recruited onto engineering hackathon teams by friends in engineering** — the Sep 2022 enterprise networking hackathon with DE Darrin Dukes and others on SD-WAN SRv6 underlay steering, **which won the SD-WAN group**, and the Nov 2024 team with DE **Zafar Ali** on SRv6 for AI that produced the first Jalapeno RPO SDN application |
-// maybe characterize it as unique or very rare that sales engineers are asked to join engineering hackathons
+// maybe characterize it not as Bruce sits in sales, but that it is unique or very rare that sales engineers are invited/recruited to join engineering hackathons
 | **KubeCon CFP** | Apr 2026 | Session proposal with Jesus Guzman Farjado `[awaiting selection]` |
 
 ---

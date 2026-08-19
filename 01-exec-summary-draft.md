@@ -37,6 +37,9 @@ His thru-line since the early SDN/NFV era (2012) centers around **host-networkin
 
 At each stage of his career Bruce has expanded his span of influence from regional technical SME to global architect of horizon-2 and horizon-3 initiatives. He has been described internally as a “2030 guy” — the person teams call when the goal is to demonstrate Cisco’s vision, or to solve a problem in a unique way. In **June 2026** he transferred from Brook Crossman’s **Americas ASP + Web** organization to **Matt Gillies’ Global** team as lead Cloud-SP architect—formal recognition that his impact already operated at global scale.
 
+> *"Bruce continues to have a significant impact leading frontier projects in AI forwarding and teaching others. His innovation is on pace to break (ASP) records with patents being filed and awarded and he sets the standard for teamwork and technical depth. The recent recognition he received in the Pinnacle awards speaks to his technical capabilities and his strong reputation for teamwork. Cisco is lucky to have him teaching our teams and customers, representing us externally and driving innovation in the portfolio."*
+> — **Brook Crossman**, VP Systems Engineering, ASP and Web *(Bruce's direct leader, ~5 years through Jun 2026)*
+
 ### Quantified highlights *(Aug 2020 – present)*
 
 | Dimension | Evidence |

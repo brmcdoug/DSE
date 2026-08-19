@@ -69,20 +69,12 @@ Based on the evidence in the body sections, these letters would carry the most w
 
 ---
 
-## Customer Quotes on Record
+## Quotes
 
-> *"It goes without saying that our meeting in Amsterdam supercharged my SRv6 implementation project and your guidance was instrumental in getting me this far. For that alone I am extremely grateful and the next time the beer is on me!!! Also if your group was looking to do any customer testimonials, references, speaking, etc… on SRv6 and our journey I'd definitely make time for that…"*
-> — **James Munroe**, Province of New Brunswick
+Quotes on record are collected in **[12-quotes.md](./12-quotes.md)** with proposed placements. Two carry sponsorship actions:
 
-**Action:** Munroe has explicitly volunteered for testimonials and references. Convert to a letter of recommendation.
-
-> *"Thank you for helping us with the VXR setup. That was huge!!"* — **Asoka**, on the Meta BBF production win (Mar 2026)
-
-> *"this is super cool, it's your vision for years of host based SRv6 coming to life in a big way…"* — **Bob Gisiger** (May 2026)
-
-> *"AMAZED… I want to send them to everyone"* — **Jenelle Lee**, on the vidcast training series (Apr 2026)
-
-*Additional quotes in `evidence-summaries/quotes.md`.*
+- **James Munroe** (Province of New Brunswick) has explicitly volunteered for testimonials and references — **convert to a letter of recommendation**
+- **Thomas Graf** (Cilium co-creator, Isovalent founder) is the only person who can externally confirm the acquisition advocacy
 
 ---
 
