@@ -168,7 +168,7 @@ Oracle Cloud Infrastructure is the fastest-growing of the major public clouds an
 
 - Built and demonstrated an IOS-XR based SRv6 uSID AI-backend demonstration for Oracle VP Jag Brar and his architecture team (Jan 2025)
 - Took SRv6 ownership on the 1,000-GPU POC (Aug 2025), having entered the engagement as SONiC advisor
-- Delivered a two-part SRv6 tutorial to Oracle engineering (Mar–Apr 2026) and supported the SE team on SONiC 8122 lab configurations (Jun 2025)
+- Delivered a three-hour onsite SRv6 tutorial to Oracle engineering (2025) and a three-part follow-on series (Mar, Apr, and Jun 2026) and supported the SE team on SONiC 8122 lab configurations (Jun 2025)
 - Served as consultant and software advisor on Oracle's Solar-OS (SONiC on Oracle Secure Linux), including the April 2025 EBC with the Cisco SONiC and Solar-OS teams
 
 OCI was running SRv6 in limited production by the end of 2025. Oracle's own 2026 public blog cites SRv6 static routing for MRC — the same architectural pattern Bruce drove at Microsoft, now published by the customer as their design of record.

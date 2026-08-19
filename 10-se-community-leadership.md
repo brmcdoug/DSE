@@ -8,24 +8,25 @@
 
 ## The Multiplier Model
 
-Bruce's enablement method mirrors his customer method: build the working artifact first, then teach from it. He constructs GitHub, Containerlab, and dCloud assets for horizon-2 architectures before the capability ships on Cisco platforms, trains Web and SP systems engineers to use them, and then stays engaged through co-development until the account revenue matures.
+Bruce is known inside Cisco as a collaborative partner who shares credit and looks for — and creates — opportunities for other engineers to succeed. That disposition, more than any single programme, is what makes the record below possible: colleagues bring him ideas because he amplifies them rather than absorbing them, and account teams hand him problems because he hands back capability rather than dependency.
 
-The measure of that work is not sessions delivered. It is **six PSE promotions, an EMEA systems engineer who became an independent contributor to the Cilium open-source project, a mentee who won Distinguished Speaker, and a $17M production order that traced back to a lab Bruce built for someone else to use.**
-
-The official criteria scope leadership more broadly than the SE community — technology programmes, investment cases built from multi-stakeholder data, executive presence, and community work all count. On the last of those, Bruce has served on the **Anacortes City Council since 2017**, as **Mayor Pro Tem since 2020**, and the city has built **the only community-owned fibre-to-the-home ISP in Washington State**. Those are covered in sections 8 and 9 below, with detail cross-referenced from Span of Influence and Innovation.
-
----
+The measure of the work is not sessions delivered. It is **six systems engineers promoted to PSE**, an EMEA systems engineer who became an independent contributor to the Cilium open-source project, a co-presenter who won **Distinguished Speaker**, and a **$17M production order** that traced back to a lab Bruce built for other people to use.
 
 ## 1. Mentoring and Career Development
 
-Since August 2020, **six systems engineers Bruce mentored or advised have been promoted to Principal Systems Engineer**, and a seventh candidacy is in progress. Over the same period he served **three years as a voting member of the PSE review subcommittee** — shaping the standard itself while preparing candidates to meet it. That combination is unusual: most mentors advocate for candidates, and most committee members judge them.
+PSE candidates have a single **official mentor** and, typically, an **extended team of advisors** around them. Since August 2020, **six systems engineers Bruce mentored or advised have been promoted to Principal Systems Engineer** — one as his official mentee, five as an extended-team advisor and package reviewer — with a seventh candidacy in progress:
+
+**Ignacio ("Nacho") Sanchez** (official mentee, promoted Jun 2026) · **Robert Murphy** (2023) · **Roberta Maglione** (2023) · **Masiuddin Mohammed** (2024) · **Marina Ferreira** (2024) · **Alessandro Breccia** (2024). **Christopher Luciano** is his current official mentee, in progress.
+
+Over the same period Bruce served **three years as a voting member of the PSE review subcommittee** — shaping the standard itself while preparing candidates to meet it. That combination is unusual: most mentors advocate for candidates, and most committee members judge them.
+
 
 ### Official PSE mentor
 
 | Mentee | Period | Bruce's role | Outcome |
 | :--- | :--- | :--- | :--- |
 | **Ignacio ("Nacho") Sanchez** | 2022–2026 | Official PSE mentor; mock panel preparation; co-authored SP360 blog as first development action (May 2022); drove two full package rewrites (Feb 2026); arranged outside reviews with Vaughn Suazo, Marina Ferreira, and Mike McPhee | **Promoted to PSE, Jun 2026** (May 2026 panel) |
-| **Christopher Luciano** | Dec 2024 – present | Official PSE mentor; host-networking and cloud-native security specialization | **In progress** |
+| **Christopher Luciano** | Dec 2024 – present | Official PSE mentor; Isovalent and Security specialization | **In progress** |
 
 ### PSE candidate extended team
 
@@ -49,10 +50,10 @@ Bruce was not the official mentor for the candidates below. He served on each ex
 | **Nico Michel** | 2024–2026 | Technical collaboration and Cisco Live co-delivery | CLEU 2026 **5.0** score; Distinguished Speaker |
 | **Arkadiusz Kaliwoda** | 2024–2025 | Enabled through DCN Champions and the Cilium dCloud lab | See *The Second-Order Multiplier* below |
 | **Hiroyuki Sugano** | Jan 2026 – present | Formal mentoring; prior NTT East and APJC SRv6/Cilium introductions | In progress |
-| **Amy Gerrie** | Jun–Jul 2023 | Isovalent grounding for STLDP track | Host-networking to security BU bridge |
-| **Aavrinder Singh, Keith Baldwin** | Jan 2024 | PSE package review (committee cycle) | Committee cycle support |
-| **Andrew Benhase, Federico Zilotto** | Various | Master PSE assessment support | — |
-| **Rodney, Bob, Kartik, Jeremy, Furong** | Various | Account SE support and technical interviewing for Web production network SE hiring | Meta VXR lab support; raised the hiring bar for grade-12 Web SEs |
+| **Rodney Moodley** | 2022 - present | Meta senior SE promoted to AE, monthly check-ins for years, taught him all about the MSFT SWAN SL-API solution, which he in turn sold to Meta for their EBB/RBB deployments |
+| **Bob Gisiger** | 2024 - present | senior SE promoted to Grade 12, defacto CTO for Emerging AI & Cloud sales team |
+| **Kartik Subramanian** | 2020 - 2023 | SE promoted to SE Manager on the Google team |
+| **Santosh Sharma** | 2026 | SE working on SONiC, wanted to create a set of short training videos: "SONiC Nuggets". I jumped at the idea, advised him and fellow SE John McLeod on structure, chapters (nuggets), etc., and created content for and recorded the intro video |
 
 **Vault:** `mentor/Nacho.md`, `mentor/Satoshi Yamashita – STLDP.md`, `mentor/Ignacio Committee Review Analysis.md`, `dse/Mentees and SE help.md`
 
@@ -68,13 +69,13 @@ Bruce published the **Cilium SRv6 dCloud lab** in August 2024 and delivered an *
 
 That demonstration reached the **Cisco booth at MPLS World Congress in March 2025**. Kaliwoda has since **contributed production code to the Cilium open-source project** and become **Cisco's lead EMEA advocate for the product**.
 
-Bruce built an asset and gave a talk. An engineer he had never worked with became an independent contributor to an upstream open-source project and a regional product leader. Neither outcome required Bruce's further involvement — which is precisely the point.
+Bruce built an asset and gave a talk, and an engineer he had never worked with became an independent contributor to an upstream open-source project and a regional product leader. He has stayed in touch with Kaliwoda since and continues to follow his work. That is the pattern: Bruce opens a path and then stays alongside the people who take it.
 
 ---
 
 ## 3. Cisco Live Instruction
 
-Bruce has delivered instructor-led labs, breakouts, panels, and Meet-the-Expert sessions at Cisco Live US and Europe continuously since 2023, earning **Distinguished Speaker** recognition at CLEU 2023 with a perfect **5.00 / 5.00**. Full log: `projects/conferences.md`.
+Bruce first spoke at Cisco Live in 2015–2017, then stepped back for several years to concentrate on growing the Web and hyperscale accounts and the talent on that team. He returned in 2023 and has delivered instructor-led labs, breakouts, panels, and Meet-the-Expert sessions at Cisco Live US and Europe every year since, earning **Distinguished Speaker** recognition at CLEU 2023 with a perfect **5.00 / 5.00**. Full log: `projects/conferences.md`.
 
 | Year | Event | Session | Attendees | Session | Personal | Notes |
 | :--- | :--- | :--- | ---: | ---: | ---: | :--- |
@@ -91,23 +92,23 @@ Bruce has delivered instructor-led labs, breakouts, panels, and Meet-the-Expert 
 | **2023** | CLEU | **LTRSPG-2212** — first on GitHub; used XRd; first host-based SRv6 with both Linux and VPP; Jalapeno as SDN database | 14 | **5.00** | **5.00** | **Distinguished Speaker** |
 | **2023** | CLEU | IBOSPG-2001 *Future of SP Networking* panel — grew out of the FOSPN blog series Bruce's team of SP DSEs and PSEs developed through 2022 | 37 | 4.32 | 4.50 / 4.59 | With 5 other PSEs and DSEs |
 | **2023** | CLUS | BRKSP-2133 *Next Generation SP Service Edge Transformation* | 73 | 4.26 | 4.44 / 4.47 | Bruce and Josh Merrill stepped in as substitute speakers for EMEA DSEs unable to travel |
-| **2023** | CLUS | IBOSPG-2013 FOSPN panel | 30 | 4.50 | 4.78 / 4.67 | |
+| **2023** | CLUS | IBOSPG-2013 *Future of SP Networking* panel | 30 | 4.50 | 4.78 / 4.67 | |
 
-*Bruce did not attend CLUS 2024 due to injury.*
+*Bruce did not attend CLUS 2024 due to a sports-related injury.*
 
 **Sessions invited back on their scores:** LTRSPG-2212 ran at **CLEU 2023, 2024, 2025, and 2026**; the FOSPN panel at CLUS in 2023, 2025, and 2026; LTRMSI-3000 at CLUS in 2025 and 2026.
 
-**Two mentee outcomes.** Bruce delivered the **first host-based SRv6 lab at Cisco Live** in 2023 and has since used the session as a development vehicle: **Nico Michel won Distinguished Speaker at CLEU 2026** co-presenting LTRSPG-2212, and Bruce co-developed the CLUS 2026 *Beyond the Switchport* breakout with **Chris Lapp**, a PSE-track SE on his development team — building the session and the presenter at the same time.
+**Two co-presenter outcomes.** Bruce delivered the **first host-based SRv6 lab at Cisco Live** in 2023, and has since used his sessions to give other engineers a stage. **Nico Michel won Distinguished Speaker at CLEU 2026** co-presenting LTRSPG-2212 with him. And he built the CLUS 2026 *Beyond the Switchport* breakout jointly with **Chris Lapp**, a PSE-track SE on his development team, so that Lapp would have a Cisco Live breakout of his own to point at — the session and the speaker developed together.
 
 ## 4. Programs Bruce Built
 
-Three enablement institutions exist because Bruce created them rather than volunteered for them.
+Three enablement institutions exist because Bruce created them rather than volunteered for them — and a fourth exists because he amplified someone else's idea.
 
-**ASP Lightning Talks — 2021 to present.** Co-developed with DSE John Mullooly, a quarterly forum giving systems engineers — and later CX engineers and architects — a venue to present short talks on work in progress. The program reached **Episode 23 in February 2026**, cited among the best sessions in the series. Five years of continuous operation, and it now serves a community wider than the one it was built for.
+**ASP Lightning Talks — 2021 to present.** Co-developed with DSE John Mullooly, a quarterly forum giving systems engineers — and later CX engineers and architects — a venue to present short talks on projects or work in progress. The program reached **Episode 25 in July 2026**, cited among the best sessions in the series. Five years of continuous operation, and it now serves a community wider than the one it was built for.
 
-**The GitHub-first Cisco Live lab model — 2022 to present.** Bruce pioneered publishing lab guides as GitHub repositories with configurations, code, and Containerlab topologies rather than static PDFs. The model is now common practice across instructor-led sessions. `[verify adoption count with SGM]`
+**The GitHub-first Cisco Live lab model — 2022 to present.** Bruce pioneered publishing lab guides as GitHub repositories with configurations, code, and Containerlab topologies rather than static Word Docs or PDFs. The model is now common practice across instructor-led sessions. `[verify adoption count with SGM]` He went a step further and **open-sourced the lab itself after the fact** — telling attendees to clone or fork it, run it in their own environments, and use it to train their colleagues (16 stars, 7 forks; see Industry Impact).
 
-**Practical SONiC Nuggets — Jan 2026 to present.** Originating from Santosh's idea, Bruce developed the format and recruited co-presenters including John McCleod, producing a short-video training series. The SharePoint and vidcast hub went live in April 2026 as the phase-1 Web enablement resource for SONiC.
+**Practical SONiC Nuggets — Jan 2026 to present.** This one was **Santosh's idea**, and he sold Bruce on it. Bruce advised on format and recruited **John McCleod** as co-presenter — McCleod was building SONiC skills anyway in support of his own customer's investment in it, so the series developed his capability at the same time as the audience's. The SharePoint and vidcast hub went live in April 2026 as the phase-1 Web enablement resource for SONiC. Bruce's contribution was to take a colleague's good idea, make it deliverable, and put Santosh's name on a visible programme.
 
 ---
 
@@ -119,28 +120,25 @@ Three enablement institutions exist because Bruce created them rather than volun
 | :--- | :--- | :--- | :--- |
 | **SRv6 DC/AI Workshop** | Dec 2025 | **Organizer, scheduler, and MC**; presented host-based SRv6 and Cilium | **~80 attendees** across Sales and BU, with SRv6 engineering guests |
 | **SRv6 AI Workshop** | Apr 2025 | Organizer and MC; presented host-based SRv6 and Cilium; guests included Microsoft and Alibaba | **40+ BU, 20+ SE/sales** attendees |
-| **SRv6 Roadshow** | Dec 2025 | Built the Pinnacle-aligned SE enablement workshop — platforms, gaps, objections, competition | Multi-segment SE audience with Kevin Wollenweber and customer guests |
-| **BE / Sales SRv6 Workshop** | Apr 2025 | Owned scheduling and logistics for the cross-BU workshop | Field and sales alignment on SRv6 |
 | **NYC SRv6 Workshop** | Jun 2023 | Co-organizer; coordinated Bell Canada's customer presentation on SRv6-to-host and Cilium | Operator and field enablement |
 
 ### Recurring enablement series
 
 | Program | Period | Contribution |
 | :--- | :--- | :--- |
-| **Stay Ready Friday** | 2024–2026 | Web CIPOL session; CLEU lab preparation; ASP Cilium lab; BYO-dCloud (Dec 2024); Cisco patent process (Dec 2024); SRv6 Part 1 (Cilium) and Part 2 (SONiC/PyTorch); Cisco Live SRv6 lab delivered twice (Jul and Nov 2025) |
-| **Tech Elevate** | Mar 2026+ | Delivered SRv6 and cloud-native content across **NA, EMEA, and APJC** timeslots; SRv6 lab drew ~25 morning attendees `[full session list, dates, scores]` |
-| **SEVT** | Jan 2025 | BYO Lab / Containerlab panel with Marty Fierbaugh and Brent — **highest-rated sessions of the entire SEVT**; Containerlab ask-the-expert scored **5.0** on presenter and content |
-| **IMI Virtual Teams** | 2024–2025 | Cilium SRv6 lab to a global SE audience (Nov 2024); BYO Lab part 2 with Marty Fierbaugh (Dec 2025) `[scores — Alex Lanin]` |
+| **Stay Ready Friday** | 2024–2026 | Delivered Cisco Live SRv6 lab to Web SEs (Nov 2024); Cilium lab for ASP SEs; BYO-dCloud - Building Your Own dCloud Lab (Dec 2024); Re-delivered Cisco Live lab in two parts: Part 1 - SRv6 on XRd, Cilium (Jul 2025) and Part 2 - SONiC/PyTorch (Nov 2025) |
+| **IMI Tech Elevate** | Mar 2026+ | Delivered SRv6 and cloud-native content across **NA, EMEA, and APJC** timeslots; SRv6 lab drew ~25 EMEA and ~30 APJC attendees `[full session list, dates, scores]` |
+| **IMI Tech Elevate** | 2025 | BYO Lab / Containerlab panel with Marty Fierbaugh and Brent Foster — **highest-rated sessions of the entire SEVT**; Containerlab ask-the-expert scored **5.0** on presenter and content; Re-delivered BYO Lab session with Marty Fierbaugh (Dec 2025) |
+| **IMI Tech Elevate** | 2024 | Cilium SRv6 lab to a global SE audience (Nov 2024) `[scores — Alex Lanin]` |
 | **DCN Champions** | 2021–2024 | **Cloud Networking 101** bootcamp (Jan 2021) on hyperscale architecture, operations philosophy, and mindset; Isovalent overview (Nov 2024) delivered to global PSE/DSE, the Web team, and SP DCN Champions |
 | **TMC Innovation Hours** | Sep–Oct 2025 | SRv6 session and *Combatting Disaggregation* — repeat requested |
 | **ASP 8K enablement series** | 2022–2024 | Use cases and migration strategies for SP sales |
 | **Web SONiC training** | Apr 2026 | Web-wide SONiC enablement supporting the hyperscaler co-development SE bench |
 | **MIG Specialists walkthrough** | Dec 2023 | SRv6 lab presentation with Rob Murphy — engineering-to-field alignment |
-| **Oracle onsite SRv6 tutorial** | 2025–2026 | Three-hour onsite tutorial (2025); two-part series (Mar–Apr 2026) |
-| **GSX IMI Design Clinic** | May 2026 | Co-leading design clinic training for SEs |
+| **GSX IMI Design Clinic** | May 2026 | Co-lead "Mastering Networking for AI with Cisco 8000, SRv6, and RON Designs" GSX training for SEs |
 | **CIPOL process for ASP** | Jan 2025 | Presented Cisco's patent process to the full ASP organization, raising field IPR filing literacy |
-| **US/China Web Hyperscalers lunch** | Aug 2025 | Co-hosted the second annual GSX lunch with global Web leadership |
-| **Journey to PSE** | Jan 2021 | Career-path presentation to the Web SE organization; candor about the path prompted several SEs to pursue new directions, including management |
+| **US/China Web Hyperscalers lunch** | Aug 2024, 2025, and 2026 | Co-hosted and organized annual GSX lunch with combined US/China Web and Hyperscale SE teams |
+| **Journey to PSE** | Jan 2021 | Career-path presentation to the Web SE organization |
 
 ---
 
@@ -154,15 +152,23 @@ Three enablement institutions exist because Bruce created them rather than volun
 | **srv6-msft / srv6-oci** | [GitHub](https://github.com/segmentrouting) | Account SE and customer engineer co-validation |
 | **srv6-mrc-emulator** | [GitHub](https://github.com/segmentrouting/srv6-mrc-emulator) | Primary teaching tool for MRC architecture, multi-planar fabric design, host-encapsulation options, and SRv6 numbering. Demonstrated internally to Web account teams and to **Cisco product engineering**; Microsoft and OCI executive demos; CoreWeave VP directed his own team to adopt it |
 | **SONiC Nuggets hub** | SharePoint / vidcast | Phase-1 Web enablement (Apr 2026) |
+| **[github.com/cisco-asp-web](https://github.com/cisco-asp-web)** | GitHub organization | **Co-owner**, 14 repositories serving the ASP and Web SE community |
+| **[cisco-asp-web/SONiC](https://github.com/cisco-asp-web/SONiC)** | GitHub | **Co-author** — SONiC training repository |
+| **[cisco-asp-web/8000e](https://github.com/cisco-asp-web/8000e)** | GitHub | **Sole author** — the Scale-Across lab used in the **GSX 2026 mainstage demo**: virtual Cisco 8223 routers, SRv6-TE, Splunk dashboards, and streaming telemetry | traffic generator I coded for srv6-mrc-emulator
 
+https://github.com/cisco-asp-web/sonic-tetragon - probably belongs in Innovation. POC Cilium Tetragon eBPF-based security protecting SONiC - presented/demoed for MIG leadership who agreed to work toward productization
+
+https://github.com/cisco-asp-web/meta-bbf - lab developed for the Meta SE team to help them get a leg up on BBF testing - probably belongs in Business development
+
+https://github.com/cisco-asp-web/oci-8122 - shared repo with Oracle SE team, training on sonic on cisco 8122
 ---
 
-## 7. Publications Used for SE Training
+## 7. Publications Used for SE and industry training
 
 | Asset | Date | SE leadership angle |
 | :--- | :--- | :--- |
 | **O'Reilly *Open Source Labbing*** with Russ White | 2024–2025 | Four-hour course; two live deliveries; recordings in the O'Reilly catalog; materials at [github.com/brmcdoug/open-source-labbing](https://github.com/brmcdoug/open-source-labbing) |
-| **Vidcast training series** | 2026 | Jenelle Lee, Apr 23 2026: *"AMAZED… I want to send them to everyone"* |
+| **Build your own dCloud Vidcast training series** | 2026 | Jenelle Lee, Apr 23 2026: *"AMAZED… I want to send them to everyone"* |
 | **SP360 blogs** | 2022–2024 | [Evolved connectivity](https://blogs.cisco.com/sp/perspectives-on-the-future-of-service-provider-networking-evolved-connectivity); [ML/AI in SP networking](https://blogs.cisco.com/sp/perspectives-on-the-future-of-service-provider-networking-the-role-of-machine-learning-and-artificial-intelligence) |
 
 ---
@@ -192,7 +198,7 @@ The criteria name **executive presence and communication skills** as leadership 
 | **EVPN Least Complexity readout** | Jan–Jun 2026 | Cisco executives including Chief Product Officer **Jeetu Patel** |
 | ***Combatting Disaggregation with Network Service Innovation (SRv6)*** | Sep 2025 | The **full ASP organization**; repeated by request at TMC Innovation Hour, Oct 2025 |
 | **SRv6 for DC and AI workshop** | Apr 2025 | Cisco MIG engineering **and its leadership**, with Microsoft and Alibaba Cloud engineering leaders as guest speakers |
-| **Cross-Domain Broker readout** | Oct 2023 | Beesely, Mohit Lad, **Eric Knipp** |
+| **Cross-Domain Broker readout** | Oct 2023 | Michael Beesely, Mohit Lad, **Eric Knipp** |
 | **SL-OnDemand executive presentation** | Mar 2024 | CX and BE executives — Bruce the only sales-organization member on the team |
 | **SRv6 with SGT to Matt Gillies** | Apr 2025 | Global Solutions Engineering leadership, with Josh Merrill |
 | **Executive conversation coaching** | Completed Mar 2026 | Formal programme, plus *Conversational Intelligence* (Jul 2025) |
@@ -205,17 +211,17 @@ That last entry is the pattern in miniature: Bruce built the demonstration and h
 
 ## 10. Community Leadership — Elected Public Service
 
-The criteria name **community and volunteer** leadership explicitly. Bruce's is unusual in that it is the same work: he has served on the **Anacortes City Council since November 2017**, elected **Mayor Pro Tem in January 2020**, and in that time the city built and now operates **the only community-owned fibre-to-the-home internet service provider in the State of Washington.**
+The criteria name **community and volunteer** leadership explicitly. Bruce's is unusual in that it is the same work: he has served on the **Anacortes City Council since November 2017**, elected by fellow councilmembers to two-year **Mayor Pro Tem in January 2020**, and in that time the city built and now operates **the only community-owned fibre-to-the-home internet service provider in the State of Washington.**
 
 | Contribution | Date | Outcome |
 | :--- | :--- | :--- |
 | **Anacortes City Council**, elected | Nov 2017 – present | Nine years of elected public service |
-| **Mayor Pro Tem**, City of Anacortes | Jan 2020 – present | |
-| **Community-owned fibre-to-the-home ISP** | Built and operating | The **only one in Washington State**. Delivers affordable, high-availability, high-bandwidth service to residents, and gives the city a **new revenue stream that is not based on taxation** |
-| Advisory on municipal fibre policy | | Advised the offices of **US Representative Rick Larsen** (WA-02) and **Washington Governor Jay Inslee** on internet and OTT trends and the impact municipal fibre networks can have in small communities `[confirm whether this advisory work continued post-2020]` |
+| **Mayor Pro Tem**, City of Anacortes | Jan 2020 – Dec 2021 |
+| **Community-owned fibre-to-the-home ISP** | Built and operating | The **only one in Washington State**. Delivers affordable, highly available, high-bandwidth service to residents, and gives the city a **new revenue stream that is not based on taxation** |
+| Advisory on municipal fibre policy | | A one-time advisory to the offices of **US Representative Rick Larsen** (WA-02) and **Washington Governor Jay Inslee** on internet and OTT trends and the impact municipal fibre networks can have in small communities |
 | **NANOG member** | Since 2015 | Professional affiliation |
 
-The relevance is not incidental. The council decision to build municipal fibre is the same judgment Bruce applies professionally — choose the architecture that is most affordable, most durable, and most useful to the people who depend on it, and treat the network as a platform rather than a product. He made that case to a city, to a congressional office, and to a governor's office, then helped deliver it. It is also leadership in the form the criteria describe most directly: **business outcomes and investment driven through collaboration and influence, with inputs consolidated from many stakeholders** — which is what a city council does.
+The relevance is not incidental. The council decision to build municipal fibre is the same judgment Bruce applies professionally — choose the architecture that is most affordable, most durable, and most useful to the people who depend on it, and treat the network as a platform rather than a product. He made that case to a city, and was asked to present it to a congressional office, and to a governor's office, then helped deliver it. It is also leadership in the form the criteria describe most directly: **business outcomes and investment driven through collaboration and influence, with inputs consolidated from many stakeholders** — which is what a city council does.
 
 ---
 
@@ -225,10 +231,9 @@ The relevance is not incidental. The council decision to build municipal fibre i
 | :--- | :--- | :--- |
 | **EVPN Least Complexity tiger team** | Jan–Jun 2026 | Multi-DSE/PSE readout to executives including **Jeetu Patel (CPO)**; validated that siloed management platforms add complexity and that firewalls lack VXLAN-EVPN support |
 | **SL-OnDemand tiger team** | Sep 2023 – Mar 2024 | Member with CX (Subha Dhesikan); delivered the executive presentation |
-| **Future Enterprise Segmentation** | 2022–2026 | Sprint contributor; recommendations reused in SE and customer conversations → **Span of Influence** |
-| **Engineering hackathon** | Nov 2024 | Hackathon with Zafar Ali — engineering-to-field innovation bridge |
+| **Future Enterprise Segmentation** | 2022–2024 | Sprint contributor; recommendations reused in SE and customer conversations → **Span of Influence** |
+| **Engineering hackathons** | 2022, 2024 | Bruce sits in sales but was **recruited onto engineering hackathon teams by friends in engineering** — the Sep 2022 enterprise networking hackathon with DE Darrin Dukes and others on SD-WAN SRv6 underlay steering, **which won the SD-WAN group**, and the Nov 2024 team with DE **Zafar Ali** on SRv6 for AI that produced the first Jalapeno RPO SDN application |
 | **KubeCon CFP** | Apr 2026 | Session proposal with Jesus Guzman Farjado `[awaiting selection]` |
-| **P5G SD-WAN** | — | Contributor `[extend]` |
 
 ---
 
@@ -257,7 +262,7 @@ The test of enablement is whether it produced results Bruce did not personally d
 | **Cisco Live Distinguished Speaker** | 2023 (CLEU) | Instructor-led lab excellence; 5.00 / 5.00 |
 | **STLDP Innovation Award** — as coach | 2023 | Mentored team win on Cilium/Jalapeno integration |
 | **EN Hackathon winner** | 2022 | SD-WAN / SRv6 → **Innovation** |
-| **Connected Recognition — 22 awards given** | 2020–2026 | Bruce recognizing peers, unprompted → **11-appendix.md** |
+| **Connected Recognition** | 2020–2026 | **37 awards received** (USD 15,900 total value) and **22 given** to peers — the second number is the more telling one. Full record → **11-appendix.md** |
 
 ---
 
