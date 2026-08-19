@@ -17,7 +17,7 @@ As we work through things let's also try and maintain a list of open items that 
   * Business Impact Summary
   * Innovation Summary 
   * Personal Development Summary 
-  * SE Community Leadership Summary 
+  * Leadership Summary
   * Becoming a Distinguished Architect Summary 
   * Direct Leader Summary 
 2. Direct Leader Recommendation - a letter from direct leader
@@ -28,7 +28,7 @@ As we work through things let's also try and maintain a list of open items that 
 7. Innovation
 8. Sponsorship - a table listing letters of recommendation
 9. Personal Development
-10. SE Community Leadership
+10. Leadership
 
 ## Data, notes, outlines, etc.
 

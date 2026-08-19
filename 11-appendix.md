@@ -2,7 +2,7 @@
 
 Supporting detail referenced from the body sections: Cisco awards, and the full Connected Recognition record — both awards Bruce has **given** to colleagues and awards **received**, with verbatim citations.
 
-Cisco Live instructor-led lab and session scores (2023–2026) are tabulated in the **SE Community Leadership** section. Semiannual talent assessments are summarized in **Personal Development**; source PDFs are in the external SharePoint repository.
+Cisco Live instructor-led lab and session scores (2023–2026) are tabulated in the **Leadership** section. Semiannual talent assessments are summarized in **Personal Development**; source PDFs are in the external SharePoint repository.
 
 ---
 

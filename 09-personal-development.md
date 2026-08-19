@@ -119,7 +119,7 @@ This is not adjacent to the impact in this package — it is the mechanism. It i
 | **Span of Influence** | SOSIE, FE Segmentation, Isovalent engineering literacy, PSE committee service |
 | **Industry Impact** | GitHub open-source curation; conference speaking; O'Reilly course with Russ White |
 | **Innovation** | Cilium fork and POC path; Jalapeno; sustained CPOL pipeline |
-| **SE Community Leadership** | dCloud and Cisco Live lab authorship; six PSE promotions mentored or advised |
+| **Leadership** | dCloud and Cisco Live lab authorship; six PSE promotions mentored or advised |
 | **Personal Development** | Executive communication program; continuous cross-domain learning |
 
 ---

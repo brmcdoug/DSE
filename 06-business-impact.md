@@ -1,10 +1,10 @@
 ## Business Impact
 
-> **Scope ([AGENTS.md](./AGENTS.md)):** Customer and revenue impact **within the ASP + Web assignment** since **August 1, 2020**.  
-> **In-scope:** Americas Web/hyperscale/neo-cloud (Microsoft, Meta, AWS, Google, OCI, CoreWeave, etc.) and **assigned tier-1 SP** (Verizon, Bell Canada, Videotron, AT&T, T-Mobile, Dish/Boost, etc.).  
-> **Route elsewhere:** Geico, Fiserv, Adobe, Rakuten, Evroc, MTN/DU, NTT East → **[03-global-impact.md](./03-global-impact.md)**. Pure open-source/NANOG/CLEU without account revenue → Industry / SE Leadership.
+> **Official criteria (template):** *"Describe the candidate's leadership role and the impact on Cisco's businesses in terms of revenue and/or strategy in a factual, verifiable way. Chronological format with most recent business impact first. **This is an opportunity to provide more details on items you have summarized in the Global Impact and Span of Influence sections.** Provide a summary and refer to external links for more details where appropriate."* **No page limit.**
 
-**Suggested package length:** ~7 pages weighted. Narratives are third-person and ordered by strategic and financial weight (see note below), ready to trim for the final PDF. Voice and claim-strength rules: [voice-guide.md](./voice-guide.md).
+**Scope:** all named customer engagements since **August 1, 2020**, both **in-territory** (Americas Web/hyperscale/neo-cloud and assigned tier-1 SP) and **out-of-territory** (enterprise, financial services, media, manufacturing, education, public sector, regional operators — see the section from *Out-of-Territory Engagements* onward).
+
+**Ordering:** accounts appear in descending order of strategic and financial weight rather than strictly chronologically — leading with Microsoft, Meta, and Oracle puts the strongest evidence on the first page a reviewer reads. Voice and claim-strength rules: [voice-guide.md](./voice-guide.md).
 
 ---
 
@@ -145,7 +145,7 @@ Meta booked a **$17M** first production order for Cisco 8223-64EH (P200) on the 
 **Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
 
 **Note:** Meta was the **second** customer after Microsoft to adopt the SL-API/SDN/SR technique Bruce pioneered — the transfer is the strategic point, and Google (Alphanet) is now the third.
-The origination of the SL-API technique is detailed in the Innovation section of this document. The VXR lab enablement pattern is detailed in SE Community Leadership.
+The origination of the SL-API technique is detailed in the Innovation section of this document. The VXR lab enablement pattern is detailed in the Leadership section.
 
 ---
 
@@ -530,7 +530,7 @@ The gap Adobe identified is the one Bruce then wrote up: the multi-use-case Cili
 **Evidence:** Vault `customers/Adobe Cilium.md`, `customers/Adobe CN-SRv6.md`. `[Adobe / Dan Stacks testimonial pending]`
 
 **Documents:** Supporting materials are accessible in the [external SharePoint repository](https://cisco-my.sharepoint.com/:f:/r/personal/brmcdoug_cisco_com/Documents/Bruce%20McDougall%20DSE%20Nomination?d=w4f5292c9f8444d96bc22a8e59bba44c5&csf=1&web=1&e=Hrh5ii).
-The Cilium SRv6 product path is detailed in the Innovation section of this document. Bruce's mentoring of Dan Stacks is detailed in SE Community Leadership.
+The Cilium SRv6 product path is detailed in the Innovation section of this document. Bruce's mentoring of Dan Stacks is detailed in the Leadership section.
 
 ---
 
