@@ -72,7 +72,7 @@ Finance-provided **Americas Web/Hyperscale segment bookings** by customer (USD).
 | ---: | ---: | ---: | ---: | ---: | ---: |
 | $603M | $714M | $226M | $861M | $1.57B | **$3.97B** |
 
-*Americas Web/Hyperscale segment bookings. Bruce-attributed scope: ~$2.0B DC/DCI/Metro and ~$500M WAN `[verify]`.*
+*Americas Web/Hyperscale segment bookings. Bruce-attributed scope: ~$2.0B DC/DCI/Metro and ~$500M WAN `[verify]`. **Cisco 8000 WAN revenue specifically: ~$65.9M (FY25) and ~$60M (FY26).***
 
 Microsoft operates Azure, one of the two largest public cloud platforms in the world, and is Cisco's single largest Web/Hyperscale customer by bookings. Its AI infrastructure program spans a continent-scale super-factory WAN `[verify route-mile figure]`, backbone growth from ~1,800 toward ~3,000 nodes, and a data center estate being re-architected around disaggregated hardware and open network operating systems. Bruce has been Cisco's primary field architect across Microsoft's SONiC, SRv6, and AI-backend programs since 2021, working directly with Microsoft's network engineering leadership while account SEs ran production engagements.
 
@@ -98,9 +98,11 @@ The architecture was validated; the timing was not. Cisco has arrived late acros
 - Ran the SRv6 DC-frontend POC (Aug 2025) across 4PE, DCIX, and a mixed IOS-XR/SONiC fabric, demonstrating prefix-hiding at scale and SRv6-TE for inter-DC traffic
 - Generated lab scenarios — configurations, topologies, and documentation — using agent-assisted tooling, compressing POC build time and enabling MSFT architects to install the setup in thier labs and demo internally
 
-**1.6T WAN backbone and SWAN:** Bruce developed the POC labs and field training for Microsoft's 1.6T backbone redesign, modeling node growth from ~1,800 to ~3,000, prefix expansion, sub-3-second convergence targets, and ISIS planes versus geographic domains. He positioned SRv6 uSID as the option that scales for decades — native IPv6 summarization, flow-label entropy, and extension to hosts and SmartNICs — and delivered two SRv6 WAN lunch-and-learn sessions to the Microsoft WAN team (Apr–May 2025). The SL-API technique Bruce pioneered in the Microsoft SWAN co-development context was subsequently reused to win Meta's backbone (see below).
+**1.6T WAN backbone and SWAN:** Cisco 8000 WAN revenue at Microsoft ran **~$65.9M in FY25 and ~$60M in FY26**. The relationship behind it began before Bruce's PSE promotion with the IOS-XR **SL-API SWAN controller integration**, and he has sustained it since in close partnership with **Senior SE Pan Chou** — delivering SR and SRv6 tutorials to the Microsoft WAN team and running a **multi-planar architecture design session** with them. Pan Chou owns the account relationship; Bruce supplies the architecture and the horizon-2 guidance behind it.
 
-**Financial impact:** $3.97B in Americas Web/Hyperscale segment bookings 2022–2026, of which ~$2.0B DC/DCI/Metro and ~$500M WAN fall within Bruce's engagement scope `[verify — includes John Dorval validation for SWAN claims]`.
+Bruce developed the POC labs and field training for Microsoft's 1.6T backbone redesign, modeling node growth from ~1,800 to ~3,000, prefix expansion, sub-3-second convergence targets, and ISIS planes versus geographic domains. He positioned SRv6 uSID as the option that scales for decades — native IPv6 summarization, flow-label entropy, and extension to hosts and SmartNICs — and delivered two SRv6 WAN lunch-and-learn sessions to the Microsoft WAN team (Apr–May 2025). The SL-API technique Bruce pioneered in the Microsoft SWAN co-development context was subsequently reused to win Meta's backbone (see below).
+
+**Financial impact:** $3.97B in Americas Web/Hyperscale segment bookings 2022–2026, of which ~$2.0B DC/DCI/Metro and ~$500M WAN fall within Bruce's engagement scope `[verify]`. **Cisco 8000 WAN revenue specifically: ~$65.9M (FY25) and ~$60M (FY26).** `[John Dorval validation for SWAN claims]`
 **Competitive impact:** Established SRv6-on-SONiC as a Cisco-supported path on the 8122 and G200, closing the gap against competitor hardware already deployed in Microsoft's AI backend and Frontend DC, and positioned SRv6 uSID against VXLAN in the dRH frontend re-architecture.
 **Strategic impact:** The multi-tenant AI fabric specification became the reusable reference architecture for Oracle and CoreWeave; SRv6-on-SONiC productization opened the open-NOS AI-backend market across the entire hyperscale and neocloud segment.
 **Overall customer impact:** A repeatable disaggregated, open-NOS data center and backbone architecture that scales Microsoft's AI infrastructure without the route-scale and convergence ceilings of the prior design.
@@ -523,6 +525,8 @@ The proof of concept completed successfully in October 2025 — and Adobe did no
 The gap Adobe identified is the one Bruce then wrote up: the multi-use-case Cilium customer requirements document — extending Cilium to carry networking and policy for non-Kubernetes workloads — which Cisco engineering has since accepted and is working to prioritize. A lost proof of concept produced the product requirement.
 
 **Financial impact:** No booked revenue; Adobe retained its incumbent load balancer `[verify any Nexus or cloud-native pull-through]`.
+// I got this from the Adobe SE: "came in to a customer in GES (when you were in SP). Led a POC for an emerging trend at Adobe with EGW and Cilium - combining their Nexus VXLAN fabric with container networking. And a year later, upon next renewal, the contract expanded and doubled from $750K ACV to $1.6M ACV"
+
 **Competitive impact:** Preserved a Cilium proof point that was failing and would otherwise have closed the opportunity outright, keeping Cisco positioned for re-engagement rather than displaced.
 **Strategic impact:** Validated the post-acquisition Isovalent product path in a live enterprise engagement. The Cloud-Native SRv6 concept reviewed here is the same architecture Bruce co-developed with Dan Bernier at Bell Canada and later evaulated and tested at Boost Mobile and Digital Realty.
 **Overall customer impact:** A working egress and load-balancing architecture that moves Adobe-to-Adobe traffic off the public internet.

@@ -69,7 +69,7 @@ He is also, by consistent report, exceptional to work with. Brook Crossman's ass
 | Dimension | Evidence |
 | :--- | :--- |
 | **Segment revenue** | **$10.9B** Americas Web/Hyperscale bookings **2022–2026** in Bruce's theater; **$5.3B** in 2026 alone. Org-level figures, not individual attribution |
-| **Sustained account growth** | Multi-year partnership with the **Microsoft** account team behind Cisco 8000 growth in both the **WAN** and the **frontend data centre with SONiC on Cisco 8000** `[finance figures pending]` |
+| **Sustained account growth** | **Microsoft Cisco 8000 WAN revenue of ~$65.9M (FY25) and ~$60M (FY26)**, sustained through a multi-year partnership with Senior SE Pan Chou and the Microsoft WAN team. Frontend data centre growth on SONiC and Cisco 8000 `[finance figures pending]` |
 | **Silicon One component sales** | Direct Silicon One ASIC sales of **$35.6M (FY25)** and **$44.3M (FY26)**. Bruce was SE technical lead with MIG and Amazon developing the silicon and SDK functionality to Amazon's specification; Amazon itself bought only a few hundred thousand dollars' worth, but the motion it matured went on to sell **~$80M combined to Meta and Alibaba** in 2025–2026 |
 | **Production wins** | Meta **$17M** BBF first production order (Feb 2026); Bell Canada **400 CPE initial purchase plus $1.8M core revenue** (May 2026) |
 | **Product delivery** | **SRv6 on SONiC, Cisco 8122** (Jun 2026); SRv6 uSID on Nexus; SRv6 on Cisco SD-WAN forthcoming |
@@ -143,7 +143,7 @@ Org-level figures for Bruce's theater. Not individual attribution.
 
 | Customer | Signature outcome | Bruce's role |
 | :--- | :--- | :--- |
-| **Microsoft** | SRv6 on SONiC **8122** shipped (Jun 2026); Cisco 8000 growth in the WAN and the SONiC frontend data centre; PhyNet, Octans, dRH; 1.6T WAN | Primary field architect since 2021; multi-tenant AI fabric specification; sustained partnership with the account team |
+| **Microsoft** | **Cisco 8000 WAN revenue ~$65.9M (FY25), ~$60M (FY26)**; SRv6 on SONiC **8122** shipped (Jun 2026); PhyNet, Octans, dRH; 1.6T WAN | Primary field architect since 2021; SL-API SWAN controller integration; multi-tenant AI fabric specification; sustained support to Senior SE Pan Chou and the WAN team |
 | **Meta** | **$17M** BBF production order (Feb 2026); RBB committed to SRv6 | SL-API pioneer; VXR co-validation environment; pre-GA 8223 patch — delivered entirely through the account team |
 | **Oracle** | SRv6 in limited production by end-2025; Acceleron and MRC | Lead SRv6-for-AI architect; low-diameter fabric studies |
 | **Amazon** | Silicon One SDK and silicon functionality to Amazon's specification | SE technical lead with MIG; matured a component sales motion that later sold ~$80M to Meta and Alibaba |

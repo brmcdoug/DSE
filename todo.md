@@ -34,7 +34,8 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 
 ### From Bruce's Exec Overview review (Aug 19, 2026)
 - [ ] **Patent filing attribution** — Bruce asks whether a breakdown of who filed each accepted patent matters. **It does**, and the overview now states it: Bruce filed 12,120,027; SD-WAN engineering filed 12,009,998 with him as co-inventor; 12,289,210 with ThousandEyes engineers. **Please supply the filer for the remaining grants and the 9 pending** so Span and Innovation state it accurately
-- [ ] **Microsoft Cisco 8000 revenue** — WAN and SONiC frontend DC growth attributable to the multi-year account-team partnership; needed to reduce reliance on the Meta $17M
+- [x] **Microsoft Cisco 8000 WAN revenue** — ~$65.9M (FY25), ~$60M (FY26); cited in `01`, `03`, `06` with the Pan Chou partnership
+- [ ] **Microsoft SONiC frontend DC revenue** — still needed; the WAN figure is in, the frontend DC figure is not
 - [ ] **More Silicon One-class data** — Bruce searching the internal DB. The Silicon One example is the strongest revenue story in the package: FY25 $35.6M and FY26 $44.3M direct ASIC sales, Amazon bought only a few hundred thousand, and the motion Bruce matured later sold ~$80M to Meta and Alibaba
 - [ ] **Labs over-rotation** — corrected in the Exec Overview and recorded in `voice-guide.md`. **Still to sweep:** `06`, `07`, `09`, `10` all lead with lab-building in at least one place; rework to the three-relationships framing
 - [x] Bell Canada figures aligned to **400 CPE + $1.8M core revenue** (May 2026) across `01`, `03`, `06`
