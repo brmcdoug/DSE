@@ -114,6 +114,28 @@ That last row matters. Pending finance validation should never leak into hedged 
 
 ---
 
+## Framing guardrail: what Bruce actually does
+
+Corrected by Bruce (Aug 2026). The package had over-rotated on lab building — *"he builds the labs and teaches from them"* appeared as the identity statement in four sections. Labs are an output, not the job.
+
+**The job is three relationships worked simultaneously:**
+
+1. **Account teams** (mostly hyperscale) — technical and architectural strategy; educating and guiding them on what is coming on a two-to-three-year horizon, while they run the near-term business
+2. **Customer architects** — understanding requirements at deep technical level, *including the operational and commercial pressures behind them*, and extracting horizon-2/3 intelligence
+3. **Cisco product engineering** (principally **MIG — Mass-Scale Infrastructure Group**) — long-term roadmap and product strategy, carrying what he learned from the first two into investment decisions
+
+POC and lab work, including customer co-development, is **how he makes those arguments testable**. Write it as a method, never as the identity.
+
+**Related correction — do not overstate the force-multiplier point.** Bruce is in the sales organization and is *supposed* to be customer-facing; he spends as much time with customers as he can. Enabling colleagues to sell on architectures he developed is one of his highest-leverage modes, not his entire operating model. Meta (where he never presented to the customer) is a striking instance, not the norm.
+
+**Other framings corrected in the same pass, for reference:**
+- **Jalapeno** was adopted by SR engineering as a **development platform during R&D** — not as "the SR-Apps platform"
+- **End-to-end SRv6** is an architecture Cisco's BUs **agreed to support and join** — alongside VXLAN and others they still support. Not "Cisco's direction"
+- **Cilium** — lead with Bruce as Cisco's persistent **Isovalent/Cilium evangelist**; the CRD is one artifact of that, not the headline
+- **SRv6+SGT** — Bruce and Josh Merrill **evangelized it across BUs and account teams to broad enthusiasm**, which produced the ISE commitment
+
+---
+
 ## Accuracy guardrail: do not upgrade plans into accomplishments
 
 Caught in review (Aug 2026): the Personal Development draft asserted that Bruce *"engaged an executive conversation coach and completed the program by March 2026."* The source was a **personal development plan action item recorded as "in progress"** — a goal, not an event. Bruce did not recall it because it had not happened as written.

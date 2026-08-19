@@ -32,6 +32,13 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 - [x] Brook Crossman's innovation-and-impact quote placed in the Executive Overview
 - [ ] Two quotes recovered from the 2020 PSE package worth reusing: **Brian Shoda** on collaboration (corroborates the Leadership opening) and **David Lucey** of Salesforce on hyperscale credibility (external operator validation for Industry Impact)
 
+### From Bruce's Exec Overview review (Aug 19, 2026)
+- [ ] **Patent filing attribution** — Bruce asks whether a breakdown of who filed each accepted patent matters. **It does**, and the overview now states it: Bruce filed 12,120,027; SD-WAN engineering filed 12,009,998 with him as co-inventor; 12,289,210 with ThousandEyes engineers. **Please supply the filer for the remaining grants and the 9 pending** so Span and Innovation state it accurately
+- [ ] **Microsoft Cisco 8000 revenue** — WAN and SONiC frontend DC growth attributable to the multi-year account-team partnership; needed to reduce reliance on the Meta $17M
+- [ ] **More Silicon One-class data** — Bruce searching the internal DB. The Silicon One example is the strongest revenue story in the package: FY25 $35.6M and FY26 $44.3M direct ASIC sales, Amazon bought only a few hundred thousand, and the motion Bruce matured later sold ~$80M to Meta and Alibaba
+- [ ] **Labs over-rotation** — corrected in the Exec Overview and recorded in `voice-guide.md`. **Still to sweep:** `06`, `07`, `09`, `10` all lead with lab-building in at least one place; rework to the three-relationships framing
+- [ ] Confirm Bell Canada figures: **400 CPE initial purchase + $1.8M core revenue** replaces the earlier 500-unit C8231-G2 framing — needs propagating to `06` and `03`
+
 ## Validation & fact-check
 
 ### Revenue & accounts
