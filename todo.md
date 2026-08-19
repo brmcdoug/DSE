@@ -37,7 +37,7 @@ Section files (`0x-*.md`) are the source of truth for narrative; this file track
 - [ ] **Microsoft Cisco 8000 revenue** — WAN and SONiC frontend DC growth attributable to the multi-year account-team partnership; needed to reduce reliance on the Meta $17M
 - [ ] **More Silicon One-class data** — Bruce searching the internal DB. The Silicon One example is the strongest revenue story in the package: FY25 $35.6M and FY26 $44.3M direct ASIC sales, Amazon bought only a few hundred thousand, and the motion Bruce matured later sold ~$80M to Meta and Alibaba
 - [ ] **Labs over-rotation** — corrected in the Exec Overview and recorded in `voice-guide.md`. **Still to sweep:** `06`, `07`, `09`, `10` all lead with lab-building in at least one place; rework to the three-relationships framing
-- [ ] Confirm Bell Canada figures: **400 CPE initial purchase + $1.8M core revenue** replaces the earlier 500-unit C8231-G2 framing — needs propagating to `06` and `03`
+- [x] Bell Canada figures aligned to **400 CPE + $1.8M core revenue** (May 2026) across `01`, `03`, `06`
 
 ## Validation & fact-check
 
@@ -142,7 +142,7 @@ To draft entries, need from Bruce:
 - [ ] **Meta BBF / RBB** — validate ~$300M over two years and ~$350M/yr RBB pipeline
 - [ ] **Salesforce $38M A9K/Juniper displacement (2022)** — confirm ASP+Web classification, or route to Global Impact
 - [ ] **CoreWeave FY27–29 projections** — validate $150M/$245M FY27 and $400M/$600M FY28–29 with finance (largest unvalidated forward number in the section)
-- [ ] **Bell Canada cumulative $** — finance validate; C8231-G2 500-unit order value
+- [ ] **Bell Canada cumulative $** — finance validate the multi-year SRv6/host-networking engagement total, plus Isovalent and NCS5500/8000 revenue tied to SRv6
 - [ ] **Akamai revenue** — no figure at all currently; confirm whether any is attributable
 - [ ] **Akamai redirect-to-scrubber controller** — production status with account team (strongest host-networking customer proof point)
 - [ ] **AWS Q1FY23 VP-level silicon recognition** — confirm and attach $

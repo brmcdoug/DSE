@@ -214,7 +214,7 @@ Following the lab enablement, EBCs, and mindshare-building, the opportunity scop
 
 ### Bell Canada, 2020 – Present
 
-**Revenue Impact:** 500-unit first order for C8231-G2, May 2026. ~$20M cumulative SRv6 and host-networking engagement `[verify]`, Isovalent revenue `[verify]`, Cisco NCS5500 and 8000 revenue tied to SRv6 `[verify]`
+**Revenue Impact:** **400 CPE initial purchase plus $1.8M core revenue**, May 2026. Cumulative SRv6 and host-networking engagement `[verify]`; Isovalent revenue `[verify]`; NCS5500 and Cisco 8000 revenue tied to SRv6 `[verify]`
 
 Bell Canada is Canada's largest telecommunications operator, serving the country's national wireline, wireless, and media infrastructure. Bell has been one of Cisco's most technically advanced Segment Routing partners and one of the earliest tier-1 operators to commit to end-to-end SRv6 with host-based extension. Bruce led the multi-year architecture work behind that commitment.
 
@@ -224,9 +224,9 @@ Bell Canada is Canada's largest telecommunications operator, serving the country
 - Bruce's Jalapeño and host-based SR/SRv6 session at Kubecon (Nov 2019) led directly to the multi-year partnership with Bernier. Over the course of 2020 and 2021 (one onsite workshop in Montreal, bi-weekly sessions) the host-based SRv6 discussions led to Bell investing in Cilium and driving their SRv6 integration all prior to the Cisco Isovalent acquisition — Bruce's mindshare building meant Cilium arrived in Cisco's portfolio with SRv6 already built in.
 - Developed the network-as-a-service architecture framing that positioned SRv6 as a service-delivery platform rather than a transport upgrade
 
-Bell placed a **500-unit first order for C8231-G2** routers for their initial NaaS deployment on May 4, 2026 (Helene Roy).
+Bell placed an initial purchase of **400 CPE** together with **$1.8M in core revenue** for their first NaaS deployment on May 4, 2026 (Helene Roy).
 
-**Financial impact:** 500-unit C8231-G2 first order (May 2026); ~$20M cumulative engagement `[verify]`.
+**Financial impact:** 400 CPE initial purchase plus $1.8M core revenue (May 2026); cumulative engagement `[verify]`.
 **Competitive impact:** Secured the platform franchise for Bell's SRv6 build-out at the point of first production commitment.
 **Strategic impact:** Produced a tier-1 operator reference for end-to-end SRv6 with host-based Cilium — the architecture Bruce advocated internally for a decade, validated in a production carrier network.
 **Overall customer impact:** A programmable, service-oriented network architecture that extends consistent forwarding and network policy from the core to the workload.
@@ -621,7 +621,7 @@ Ordered by strategic and financial weight, matching the body above. Segment book
 | Meta | Web | 2021–present | $3.11B | **$17M BBF booked Feb 2026**; BBF ~$300M/2yr, RBB ~$350M/yr `[verify]` | SL-API pioneer; VXR co-validation labs |
 | Oracle (OCI) | Web | 2023–present | $446M | SRv6 in limited production end-2025; Acceleron/MRC | Lead SRv6-for-AI architect |
 | CoreWeave | Neo-cloud | 2025–present | ~$20M FY26 | FY27 $150M switching + $245M optics `[verify]`; scope → 10–12k switches | SONiC SME; lead SRv6-for-AI architect |
-| Bell Canada | SP | 2020–present | `[verify]` | **500× C8231-G2 first order May 2026** | End-to-end SRv6 / Cilium / NaaS architect |
+| Bell Canada | SP | 2019–present | `[verify]` | **400 CPE + $1.8M core, May 2026** | End-to-end SRv6 / Cilium / NaaS architect |
 | Google | Web | 2021–present | $1.95B | GDC SRv6; B4 SR-MPLS; AI backend kickoff Mar 2026 | Strategy; interim lead SE; SL-API |
 | AWS | Web | 2021–present | $1.41B | Silicon One TAM model; feature program | TAM modeling; PM tracking |
 | Verizon | SP | 2024–present | `[verify]` | SRv6 roadmap; Project Yukon NaaS; Service Bus | Architecture consulting; business case |
