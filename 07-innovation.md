@@ -1,13 +1,5 @@
 ## Innovation
 
-> **Scope ([AGENTS.md](./AGENTS.md)):** **IPR and product/technology innovation** since **August 1, 2020**—often **downstream of Span of Influence** advocacy outside MIG.  
-> **Include:** patents/CPOLs (post-2020 submissions + post-2020 *impact* of earlier work), architectural artifacts, labs/repos that drove **product or strategy**.  
-> **Cross-ref:** Customer revenue from those products → **06-business-impact.md**. External blog/conference reach alone → **05-industry-impact.md**. Internal BU persuasion without IP artifact → **04-span-of-influence.md**.
-
-**Suggested package length:** ~6 pages weighted. Third-person; flagship innovations ordered by weight, supporting work in tables. Voice and claim-strength rules: [voice-guide.md](./voice-guide.md).
-
----
-
 ## Innovation Philosophy
 
 Bruce's innovation record starts from an unusual place for a vendor architect: **he was the operator first.** As a network engineer at the Expedia Group (2004–2007) he was hunting for scaling methods beyond the enterprise tooling of the era — which is why he was evaluating MPLS in the data centre in 2006, years before that was a normal thing to consider.
@@ -38,19 +30,19 @@ The through-line is a single conviction, formed while writing his Principal Arch
 
 ## Innovation Summary
 
-| Category | Evidence (Aug 2020 – present) |
-| :--- | :--- |
-| **Awards** | **2025 Pinnacle Award** — SRv6 uSID team of ~40, almost entirely Cisco engineering; Bruce and DSE Craig Hill were the only two recipients from sales |
-| **Patents** | **6 patents, 9 patents pending, 1 defensive publication** |
-| **Invention disclosures** | **24 CPOL submissions since Aug 2020** (36 lifetime) |
-| **Platform and product innovation** | **SRv6 on SONiC, Cisco 8122** (Jun 2026); **SRv6 uSID on Nexus**; **SRv6 on Cisco SD-WAN** (forthcoming) |
-| **Architecture and policy** | Cilium SRv6 CRD — host-networking policy execution engine; **SRv6 + SGT** unified policy model (*Locator : Function : SGT*), adopted by ISE Dec 2025 |
-| **Acquisition influence** | **Isovalent / Cilium** — early advocate from 2021; acquisition closed 2024 |
-| **Bold Bets** | **Jalapeno** — the only field-submitted project to advance past the first evaluation round |
-| **Open source** | [cisco-open/jalapeno](https://github.com/cisco-open/jalapeno) — **78 stars, 15 forks**; [segmentrouting/srv6-labs](https://github.com/segmentrouting/srv6-labs) — **74 stars, 15 forks**; [srv6-mrc-emulator](https://github.com/segmentrouting/srv6-mrc-emulator) — **5 stars** *(published 2026)*; plus srv6-msft, srv6-oci, polarfly |
-| **Architectural specs** | SRv6 uSID multi-tenancy for AI factories (Apr 2026); **WMP-PolarFly** flat-fabric paper contesting Amazon's RNG (Aug 2026); Policy Plane |
-| **Cross-company strategy** | **Single OS (SOSIE)** working group — co-founded with DSE/PSE peers to address NOS fragmentation and argue the Linux-NOS case |
-| **Hackathon** | Cisco EN Hackathon 2022 winner — SD-WAN + SRv6 (Team 6 / Group 14) |
+| Category                            | Evidence (Aug 2020 – present)                                                                                                                                                                            |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Awards**                          | **2025 Pinnacle Award** — SRv6 uSID team of ~40, almost entirely Cisco engineering; Bruce and DSE Craig Hill were the only two recipients from sales                                                     |
+| **Patents**                         | **6 patents, 9 patents pending, 1 defensive publication**                                                                                                                                                |
+| **Invention disclosures**           | **24 CPOL submissions since Aug 2020** (36 lifetime)                                                                                                                                                     |
+| **Platform and product innovation** | **SRv6 on SONiC, Cisco 8122** (Jun 2026); **SRv6 uSID on Nexus**; **SRv6 on Cisco SD-WAN** (forthcoming)                                                                                                 |
+| **Architecture and policy**         | Cilium SRv6 CRD — host-networking policy execution engine; **SRv6 + SGT** unified policy model (*Locator : Function : SGT*), adopted by ISE Dec 2025                                                     |
+| **Acquisition influence**           | **Isovalent / Cilium** — early advocate from 2021; acquisition closed 2024                                                                                                                               |
+| **Bold Bets**                       | **Jalapeno** — the only field-submitted project to advance past the first evaluation round                                                                                                               |
+| **Open source**                     | [cisco-open/jalapeno](https://github.com/cisco-open/jalapeno) — **78 stars, 15 forks**; [segmentrouting/srv6-labs](https://github.com/segmentrouting/srv6-labs) — **74 stars, 15 forks**; [srv6-mrc-emulator](https://github.com/segmentrouting/srv6-mrc-emulator) — **5 stars** *(published 2026)*; plus srv6-msft, srv6-oci, polarfly |
+| **Architectural specs**             | SRv6 uSID multi-tenancy for AI factories (Apr 2026); **WMP-PolarFly** flat-fabric paper contesting Amazon's RNG (Aug 2026); Policy Plane                                                                 |
+| **Cross-company strategy**          | **Single OS (SOSIE)** working group — co-founded with DSE/PSE peers to address NOS fragmentation and argue the Linux-NOS case                                                                            |
+| **Hackathon**                       | Cisco EN Hackathon 2022 winner — SD-WAN + SRv6 (Team 6 / Group 14)                                                                                                                                       |
 
 ---
 
@@ -84,9 +76,9 @@ Most recently he authored the **multi-use-case Cilium customer requirements docu
 
 **Customer Problem:** Traditional SDN controllers were monolithic, vendor-specific, and not extensible — a customer could not build on top of one. Hyperscalers had responded by building their own (Google Andromeda, Microsoft SWAN, Meta Express Backbone), and the rest of the market was offered dozens of use-case-specific controller products that could not be extended. What the market needed was a platform that treated network state as a queryable graph and let customers, application developers, and Cisco itself build services on top.
 
-**Customer Solution:** Bruce is inventor and lead architect of **Jalapeno**, a cloud-native, database-driven network service broker providing programmable multi-domain services, graph-database reachability, and Kubernetes integration. He submitted it as a Bold Bet in November 2020 and carried it to the Validate phase. He subsequently open-sourced it through Cisco Legal as [cisco-open/jalapeno](https://github.com/cisco-open/jalapeno). He built the `srctl` command-line interface (2025) and extended Jalapeno with the API, UI, and initial implementation for the AI load-balancing use case. In parallel he was field and co-development lead for Clarence Filsfils "SR-Apps" initiative (2020 - 2023), which influenced IPM, path tracing, NaaS, and host-based SRv6 extensibility without requiring a standalone application SKU, that preceded the current D-SDN (Distributed SDN) direction.
+**Customer Solution:** Bruce is inventor and lead architect of **Jalapeno**, a cloud-native, database-driven network service broker providing programmable multi-domain services, graph-database reachability, and Kubernetes integration. He submitted it as a Bold Bet in November 2020 and carried it to the Validate phase. He subsequently open-sourced it through Cisco Legal as [cisco-open/jalapeno](https://github.com/cisco-open/jalapeno). He built the `srctl` command-line interface (2025) and extended Jalapeno with the API, UI, and initial implementation for the AI load-balancing use case. In parallel he was field and co-development lead for Clarence Filsfils' "SR-Apps" initiative (2020–2023), which influenced IPM, path tracing, NaaS, and host-based SRv6 extensibility without requiring a standalone application SKU, and preceded the current D-SDN (Distributed SDN) direction.
 
-**Business Impact:** Jalapeno was **the only Bold Bets submission from the sales organization to advance past the first evaluation round** and reach the funding ask. Unfortunately the Bold Bets program was discontinued and Jalapeno was not funded. Cisco's Segment Routing engineering team adopted Jalapeno as the development platform for the SR-Apps initiative. The `srctl` demonstration ran at Akamai in May 2025. A Jalapeno RPO SDN application, built with Zafar Ali at the November 2024 AI hackathon and, reached a second version now used in the Verizon, AT&T, and Digital Realty engagements and feeding operator POC planning. Earlier field validation ran at Qwilt (Jan 2023) and Rackspace (Mar 2023). **Bell Canada installed Jalapeno in their own lab** and worked with its topology-modelling capability.
+**Business Impact:** Jalapeno was **the only Bold Bets submission from the sales organization to advance past the first evaluation round** and reach the funding ask. Unfortunately the Bold Bets program was discontinued and Jalapeno was not funded. Cisco's Segment Routing engineering team adopted Jalapeno as the development platform for the SR-Apps initiative. The `srctl` demonstration ran at Akamai in May 2025. A Jalapeno RPO SDN application, built with Zafar Ali at the November 2024 AI hackathon, reached a second version now used in the Verizon, AT&T, and Digital Realty engagements and feeding operator POC planning. Earlier field validation ran at Qwilt (Jan 2023) and Rackspace (Mar 2023). **Bell Canada installed Jalapeno in their own lab** and worked with its topology-modelling capability.
 
 ---
 
@@ -156,16 +148,16 @@ He also built and maintains the university research channel, serving as field le
 
 ## Additional Innovation Contributions
 
-| Innovation | Date | Contribution and outcome |
-| :--- | :--- | :--- |
-| **`srv6-mrc-emulator`** | 2026 | Built and published within a week of OpenAI's public MRC announcement. Bruce has demonstrated it internally to Web account teams and to Cisco product engineering, who use it to learn MRC architecture, multi-planar fabric design, host-encapsulation options, and SRv6 numbering schemes. Demonstrated to **CoreWeave VP Shiv Patel**, who directed his own team to use it — the tool being open source was central to that. [Repository](https://github.com/segmentrouting/srv6-mrc-emulator) |
-| **EN Hackathon winner** | 2022 | Cisco EN Hackathon winner (Team 6 / Group 14) — SD-WAN + SRv6 demonstration; preceded the SRv6-SGT work. [Winners page](https://cisco.sharepoint.com/sites/EN-Hackathon/SitePages/Hackathon2022-Winners.aspx) (internal) |
-| **GitHub-first Cisco Live labs** | 2022–2026 | Bruce pioneered GitHub-based lab guides — configs, code, Containerlab — now common practice across instructor-led sessions. Same method as his customer co-development: open, agile, and reproducible. `[SGM stats — how many ILTs now use the model]` |
-| **Adobe egress gateway POC rescue** | Oct 2024 | Bruce rebuilt the customer topology in his own lab after the engagement had failed, preserving the cloud-native egress-gateway proof point ahead of the Jun 2025 onsite workshop with Dan Stacks |
-| **Innovation referral funnel** | 2026 | Colleagues with horizon-3 ideas are routed to Bruce for refinement — CHCN full-NG/SDN proposal (Riccardo, Jan 2026), advised scaling back to SRv6 uSID; SmartSwitch SDN brainstorm with Don Ewald (Jan 2026) |
-| **BGP CURB controlled unicast replication** | 2023 | Two disclosures with Niall Masterson, Anbu Gunalan, and Anup Kumar Vasudevan; both declined |
-| **Quantum-resistant SRv6 path spraying** | 2026 | *Spraying Encrypted Traffic Across Multiple Disjoint SRv6 Paths to Mitigate Future Quantum Decryption*, with Brook Crossman; declined |
-| **BGP route-hijack prevention via NFTs** | 2025 | With Brian Shlisky, Jakob Heitz, and John Cuneo; declined |
+| Innovation                                  | Date      | Contribution and outcome                                                                                                                                                                                 |
+| ---------------------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **`srv6-mrc-emulator`**                     | 2026      | Built and published within a week of OpenAI's public MRC announcement. Bruce has demonstrated it internally to Web account teams and to Cisco product engineering, who use it to learn MRC architecture, multi-planar fabric design, host-encapsulation options, and SRv6 numbering schemes. Demonstrated to **CoreWeave VP Shiv Patel**, who directed his own team to use it — the tool being open source was central to that. [Repository](https://github.com/segmentrouting/srv6-mrc-emulator) |
+| **EN Hackathon winner**                     | 2022      | Cisco EN Hackathon winner (Team 6 / Group 14) — SD-WAN + SRv6 demonstration; preceded the SRv6-SGT work. [Winners page](https://cisco.sharepoint.com/sites/EN-Hackathon/SitePages/Hackathon2022-Winners.aspx) (internal) |
+| **GitHub-first Cisco Live labs**            | 2022–2026 | Bruce pioneered GitHub-based lab guides — configs, code, Containerlab — now common practice across instructor-led sessions. Same method as his customer co-development: open, agile, and reproducible. `[SGM stats — how many ILTs now use the model]` |
+| **Adobe egress gateway POC rescue**         | Oct 2024  | Bruce rebuilt the customer topology in his own lab after the engagement had failed, preserving the cloud-native egress-gateway proof point ahead of the Jun 2025 onsite workshop with Dan Stacks         |
+| **Innovation referral funnel**              | 2026      | Colleagues with horizon-3 ideas are routed to Bruce for refinement — CHCN full-NG/SDN proposal (Riccardo, Jan 2026), advised scaling back to SRv6 uSID; SmartSwitch SDN brainstorm with Don Ewald (Jan 2026) |
+| **BGP CURB controlled unicast replication** | 2023      | Two disclosures with Niall Masterson, Anbu Gunalan, and Anup Kumar Vasudevan; both declined                                                                                                              |
+| **Quantum-resistant SRv6 path spraying**    | 2026      | *Spraying Encrypted Traffic Across Multiple Disjoint SRv6 Paths to Mitigate Future Quantum Decryption*, with Brook Crossman; declined                                                                    |
+| **BGP route-hijack prevention via NFTs**    | 2025      | With Brian Shlisky, Jakob Heitz, and John Cuneo; declined                                                                                                                                                |
 
 ---
 
@@ -177,77 +169,58 @@ Those grants come out of **36 invention disclosures** submitted over his Cisco c
 
 The declined disclosures are listed alongside the approved ones deliberately. Several describe architectures the industry adopted later: *SRv6 uSID Scheduled Fabric for AI/ML Clusters* (declined 2023) anticipates the SRv6-for-AI direction Microsoft, Oracle, and the MRC specification took up in 2025–2026, and *Latency Equalization to Enable Spraying and Reordering Elephant Flow in a Data Center Fat Tree* (declined 2020) describes the problem MRC now solves industry-wide.
 
-> **Source note.** The six issued patents are confirmed against the Cisco Inventor Portfolio report of 17 Aug 2026 (US, excluding defensive publications). The pending count and the defensive publication are from the CPOL disclosure record below. `[optional — attach CPOL portal links per asset for the final package]`
+Source note: the six issued patents are confirmed against the Cisco Inventor Portfolio report of 17 Aug 2026 (US, excluding defensive publications). The pending count and the defensive publication are from the CPOL disclosure record below.
 
 ### Issued Patents
 
 *Source: Cisco Inventor Portfolio Stats, US, 17 Aug 2026 (`projects/Inventor Portfolio Stats - US-2026-08-17-20-21-52.xlsx`). Six issued US patents; **four issued during the PSE period**.*
 
-| Title | Patent Number | Co-inventors | Filed | **Issued** |
-| :--- | :--- | :--- | :--- | :--- |
-| **Scheduled FIB to Account for Intermittent Connectivity Due to Orbital Dynamics** | 12,494,999 | Plamen Nedeltchev | Jan 2023 | **Dec 2025** |
+| Title                                                                                | Patent Number | Co-inventors                                                                                                  | Filed    | **Issued**   |
+| ------------------------------------------------------------------------------------- | --------------- | ----------------------------------------------------------------------------------------------------------- | ---------- | -------------- |
+| **Scheduled FIB to Account for Intermittent Connectivity Due to Orbital Dynamics**   | 12,494,999    | Plamen Nedeltchev                                                                                             | Jan 2023 | **Dec 2025** |
 // filer: Bruce, Plamen was co-inventor - also a member of Cisco internal IT CTO org, not sales or product engineering, further proof of my wide span
-| **Synthetic Path Tracing of Segment Routed Networks** | 12,289,210 | Hans Ashlock, Ben Haddox | Jul 2023 | **Apr 2025** |
+| **Synthetic Path Tracing of Segment Routed Networks**                               | 12,289,210    | Hans Ashlock, Ben Haddox                                                                                      | Jul 2023 | **Apr 2025** |
 // filer: Bruce
-| **Underlay Network Traffic Steering** | 12,120,027 | Saswat Praharaj, Fabio Maino, Alberto Rodriguez-Natal, Jeff Byzek, Steve Wood | Nov 2022 | **Oct 2024** |
+| **Underlay Network Traffic Steering**                                               | 12,120,027    | Saswat Praharaj, Fabio Maino, Alberto Rodriguez-Natal, Jeff Byzek, Steve Wood                                 | Nov 2022 | **Oct 2024** |
 // filer: Bruce
-| **Core Network Support for Application-Requested Network Service Level Objectives** | 12,009,998 | Saswat Praharaj, Fabio Maino, Alberto Rodriguez-Natal, Pradeep Kathail | May 2023 | **Jun 2024** |
+| **Core Network Support for Application-Requested Network Service Level Objectives** | 12,009,998    | Saswat Praharaj, Fabio Maino, Alberto Rodriguez-Natal, Pradeep Kathail                                        | May 2023 | **Jun 2024** |
 // filer: Saswat / SDWAN Eng
-| **Segment Routing Label Switch Paths in NFV Communications Networks** *(continuation)* | 10,250,494 | Clarence Filsfils, Sami Boutros, Rex Fernando, Siva Sivabalan, Lakshmi Sharma, Santiago Freitas, Rob Fielding | Oct 2016 | **Apr 2019** |
-// I brought the idea of Clarence and team, Sami did the writeup
-| **Segment Routing Label Switch Paths in NFV Communications Networks** *(original)* | 9,503,363 | *as above* | Mar 2015 | **Nov 2016** |
-
+| **Segment Routing Label Switch Paths in NFV Communications Networks** *(continuation)* | 10,250,494    | Clarence Filsfils, Sami Boutros, Rex Fernando, Siva Sivabalan, Lakshmi Sharma, Santiago Freitas, Rob Fielding | Oct 2016 | **Apr 2019** |
+// I brought the idea to Clarence and team, Sami did the writeup
+| **Segment Routing Label Switch Paths in NFV Communications Networks** *(original)*    | 9,503,363     | *as above*                                                                                                    | Mar 2015 | **Nov 2016** |
 
 Three things are worth drawing out of that table. **Underlay Network Traffic Steering** (12,120,027) was filed by SD-WAN engineering — a business entity outside Bruce's own — alongside Praharaj, Maino, Rodriguez-Natal, Byzek, and Wood; granted IP in another BU's portfolio is the least arguable evidence of cross-organizational influence in this package. The **Scheduled FIB** grant (12,494,999) covers delay-tolerant networking for orbital dynamics, a domain unrelated to Bruce's day work and evidence of the breadth DSE requires. And the oldest family, **Segment Routing in NFV** (9,503,363 and 10,250,494), was filed in 2015 with **Clarence Filsfils** and the SR engineering leadership — the earliest documentary record of the partnership that runs through this package.
 
 ### All CIPOL Innovation Disclosures
 
-| Submitted | Status | Title | Innovators |
-| :--- | :--- | :--- | :--- |
-| 2026-05-06 | Declined | Spraying encrypted traffic across multiple disjoint SRv6 paths to mitigate the impact of future quantum decryption techniques | Bruce McDougall, Brook Crossman |
-| 2025-12-02 | Declined | Using Ethereum NonFungible Tokens to prevent BGP Route Hijacks | Brian S Shlisky, Bruce McDougall, Jakob Heitz, John N Cuneo |
-| 2025-11-23 | Declined | AI Scale Up Pod Design for 1000 XPU | Rob Murphy, Bruce McDougall, Pirooz Tooyserkani |
-| 2025-10-30 | Declined | Segment Routing SID and SGT state preservation for traffic traversing a nonSRSRv6 service chain | Bruce McDougall, Rupak Chandra, Joshua S Merrill |
-| 2025-10-02 | Declined | Virtualized Rail Architecture for AIML Ethernet fabrics | Bruce McDougall, Rob Murphy |
-| 2025-05-22 | Approved - Patent Application | System and Method for Authoritative IPv6 Traffic Marking in SDWAN Networks | Saswat Praharaj, Alberto Rodriguez-Natal, Bruce McDougall |
-| 2025-03-21 | Approved - Patent Application | SmartTOR Policy Orchestration based on NCCL topology | Clarence Filsfils, Pablo Camarillo, Ahmed Abdelsalam, Bruce McDougall |
-| 2025-03-21 | Approved - Defensive Publication | Avoiding Fabric Congestion Using an SRTE Agent for AI training using existing Data Centers | Zafar Ali, Clarence Filsfils, Francois Clad, Pablo Camarillo, Bruce McDougall |
-| 2025-03-21 | Merged | Optimizing an AI training cluster without GPU topology awareness | Pablo Camarillo, Clarence Filsfils, Ahmed Abdelsalam, Bruce McDougall |
-| 2025-03-21 | Merged | SRv6 uSID Carrier with Embedded Security Group Tag SGT to Identify AI Request | Bruce McDougall, Joshua S Merrill, Pablo Camarillo, Clarence Filsfils, Ahmed Abdelsalam |
-| 2023-09-11 | Declined | Network OS Elastic Network Policy Plane | Bruce McDougall, Joshua S Merrill |
-| 2023-08-25 | Declined | SRv6 uSID Scheduled Fabric for Artificial Intelligence and Machine Learning Clusters | Bruce McDougall, Pablo Camarillo, Clarence Filsfils, Praveen Bhagwatula |
-| 2023-07-18 | Declined | Controlled Unicast Replication using BGP CURB Large Community Bit Index | Niall C Masterson, Anbu Gunalan, Bruce McDougall, Anup Kumar Vasudevan |
-| 2023-07-06 | Declined | Controlled Unicast Replication using BGP CURB | Niall C Masterson, Anbu Gunalan, Anup Kumar Vasudevan, Bruce McDougall |
-| 2023-01-31 | Approved - Patent Application | Synthetic Path Trace of Segment Routed Networks | Hans Ashlock, Bruce McDougall, Ben Haddox |
-| 2022-10-12 | Approved - Patent Application | Network OS Scheduled FIB to account for intermittent connectivity due to orbital dynamics | PLAMEN Nedeltchev, Bruce McDougall |
-| 2022-08-23 | Declined | Methods for secure DTN full and partial mesh design in interplanetary networks | PLAMEN Nedeltchev, Bruce McDougall, Brian A Christensen, Jag Kahlon, Jason H Hsieh |
-| 2022-02-04 | Declined | A Generalized Software Defined Networking Infrastructure Platform | Bruce McDougall, Jeff Byzek |
-| 2022-02-04 | Approved - Patent Application | SP Underlay Services for SDWAN | Bruce McDougall, Jeff Byzek, Alberto Rodriguez-Natal, Saswat Praharaj, Fabio Maino, Steve Wood |
-| 2022-02-04 | Declined | Programmatic authenticated access control in a controllermediated SRv6 network | Jeff Byzek, Bruce McDougall |
-| 2022-02-01 | Draft | Customized Topology Modeling in a Generalized Software Defined Networking Infrastructure Platform | Jeff Byzek, Bruce McDougall |
-| 2021-12-30 | Approved - Patent Application | System and method for SDWAN tunnel provisioning via control plane based on application connectivity requirements | Saswat Praharaj, Fabio Maino, Alberto Rodriguez-Natal, Pradeep K Kathail, Bruce McDougall |
-| 2021-03-01 | Declined | Wireless Client experience optimization SDN Subscription Model for Application Aware Networking | Bruce McDougall, Zafar Ali |
-| 2020-12-14 | Declined | Latency Equalization to enable spraying and reordering elephant flow in a Data Center Fat Tree | Pascal Thubert, Francois Clad, Clarence Filsfils, Bruce McDougall |
+| Submitted  | Status                           | Title                                                                                                                         | Innovators                                                                                     |
+| ------------ | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| 2026-05-06 | Declined                         | Spraying encrypted traffic across multiple disjoint SRv6 paths to mitigate the impact of future quantum decryption techniques | Bruce McDougall, Brook Crossman                                                                |
+| 2025-12-02 | Declined                         | Using Ethereum NonFungible Tokens to prevent BGP Route Hijacks                                                                | Brian S Shlisky, Bruce McDougall, Jakob Heitz, John N Cuneo                                    |
+| 2025-11-23 | Declined                         | AI Scale Up Pod Design for 1000 XPU                                                                                           | Rob Murphy, Bruce McDougall, Pirooz Tooyserkani                                                |
+| 2025-10-30 | Declined                         | Segment Routing SID and SGT state preservation for traffic traversing a nonSRSRv6 service chain                               | Bruce McDougall, Rupak Chandra, Joshua S Merrill                                               |
+| 2025-10-02 | Declined                         | Virtualized Rail Architecture for AIML Ethernet fabrics                                                                       | Bruce McDougall, Rob Murphy                                                                    |
+| 2025-05-22 | Approved - Patent Application    | System and Method for Authoritative IPv6 Traffic Marking in SDWAN Networks                                                    | Saswat Praharaj, Alberto Rodriguez-Natal, Bruce McDougall                                      |
+| 2025-03-21 | Approved - Patent Application    | SmartTOR Policy Orchestration based on NCCL topology                                                                          | Clarence Filsfils, Pablo Camarillo, Ahmed Abdelsalam, Bruce McDougall                          |
+| 2025-03-21 | Approved - Defensive Publication | Avoiding Fabric Congestion Using an SRTE Agent for AI training using existing Data Centers                                    | Zafar Ali, Clarence Filsfils, Francois Clad, Pablo Camarillo, Bruce McDougall                  |
+| 2025-03-21 | Merged                           | Optimizing an AI training cluster without GPU topology awareness                                                              | Pablo Camarillo, Clarence Filsfils, Ahmed Abdelsalam, Bruce McDougall                          |
+| 2025-03-21 | Merged                           | SRv6 uSID Carrier with Embedded Security Group Tag SGT to Identify AI Request                                                 | Bruce McDougall, Joshua S Merrill, Pablo Camarillo, Clarence Filsfils, Ahmed Abdelsalam        |
+| 2023-09-11 | Declined                         | Network OS Elastic Network Policy Plane                                                                                       | Bruce McDougall, Joshua S Merrill                                                              |
+| 2023-08-25 | Declined                         | SRv6 uSID Scheduled Fabric for Artificial Intelligence and Machine Learning Clusters                                          | Bruce McDougall, Pablo Camarillo, Clarence Filsfils, Praveen Bhagwatula                        |
+| 2023-07-18 | Declined                         | Controlled Unicast Replication using BGP CURB Large Community Bit Index                                                       | Niall C Masterson, Anbu Gunalan, Bruce McDougall, Anup Kumar Vasudevan                         |
+| 2023-07-06 | Declined                         | Controlled Unicast Replication using BGP CURB                                                                                 | Niall C Masterson, Anbu Gunalan, Anup Kumar Vasudevan, Bruce McDougall                         |
+| 2023-01-31 | Approved - Patent Application    | Synthetic Path Trace of Segment Routed Networks                                                                               | Hans Ashlock, Bruce McDougall, Ben Haddox                                                      |
+| 2022-10-12 | Approved - Patent Application    | Network OS Scheduled FIB to account for intermittent connectivity due to orbital dynamics                                     | PLAMEN Nedeltchev, Bruce McDougall                                                             |
+| 2022-08-23 | Declined                         | Methods for secure DTN full and partial mesh design in interplanetary networks                                                | PLAMEN Nedeltchev, Bruce McDougall, Brian A Christensen, Jag Kahlon, Jason H Hsieh             |
+| 2022-02-04 | Declined                         | A Generalized Software Defined Networking Infrastructure Platform                                                             | Bruce McDougall, Jeff Byzek                                                                    |
+| 2022-02-04 | Approved - Patent Application    | SP Underlay Services for SDWAN                                                                                                | Bruce McDougall, Jeff Byzek, Alberto Rodriguez-Natal, Saswat Praharaj, Fabio Maino, Steve Wood |
+| 2022-02-04 | Declined                         | Programmatic authenticated access control in a controllermediated SRv6 network                                                | Jeff Byzek, Bruce McDougall                                                                    |
+| 2022-02-01 | Draft                            | Customized Topology Modeling in a Generalized Software Defined Networking Infrastructure Platform                             | Jeff Byzek, Bruce McDougall                                                                    |
+| 2021-12-30 | Approved - Patent Application    | System and method for SDWAN tunnel provisioning via control plane based on application connectivity requirements              | Saswat Praharaj, Fabio Maino, Alberto Rodriguez-Natal, Pradeep K Kathail, Bruce McDougall      |
+| 2021-03-01 | Declined                         | Wireless Client experience optimization SDN Subscription Model for Application Aware Networking                               | Bruce McDougall, Zafar Ali                                                                     |
+| 2020-12-14 | Declined                         | Latency Equalization to enable spraying and reordering elephant flow in a Data Center Fat Tree                                | Pascal Thubert, Francois Clad, Clarence Filsfils, Bruce McDougall                              |
 
 *24 disclosures submitted on or after Aug 1, 2020 (the DSE package window). A further 12 were submitted earlier in Bruce's career; full lifetime export retained in the repository source file.*
-
-
-| Date | Status | Title |
-| :--- | :--- | :--- |
-| 2025-12-02 | Declined | Using Ethereum NonFungible Tokens to prevent BGP Route Hijacks |
-| 2025-11-23 | Declined | AI Scale Up Pod Design for 1000 XPU |
-| 2025-10-30 | Submitted | Segment Routing SID and SGT state preservation for traffic traversing a non-SR SRv6 service chain |
-| 2025-10-02 | Declined | Virtualized Rail Architecture for AIML Ethernet fabrics |
-| 2025-05-22 | Approved — Patent | System and Method for Authoritative IPv6 Traffic Marking in SDWAN Networks |
-| 2025-03-21 | Approved — Patent | SmartTOR Policy Orchestration based on NCCL topology |
-| 2025-03-21 | Approved — Defensive Publication | Avoiding Fabric Congestion Using an SRTE Agent for AI training using existing Data Centers |
-| 2025-03-21 | Merged | SRv6 uSID Carrier with Embedded Security Group Tag (SGT) to Identify AI Request |
-| 2023-01-31 | Approved — Patent | Synthetic Path Trace of Segment Routed Networks |
-| 2022-10-12 | Approved — Patent | Network OS Scheduled FIB to account for intermittent connectivity due to orbital dynamics |
-| 2022-02-04 | Approved — Patent | SP Underlay Services for SDWAN |
-| 2021-12-30 | Approved — Patent | System and method for SDWAN tunnel provisioning via control plane based on application connectivity requirements |
-| 2019-05-28 | Approved — Defensive Publication | Dataplane-based DDoS mitigation and spoofing prevention via SRv6 network programming |
-| 2014-06-08 | Approved — Patent | Segment routing label switch paths in NFV communications networks |
 
 **Post–Aug 2020 focus for package body:** 2020-08-01 onward rows. Earlier filings appear in the executive thru-narrative only, unless impact landed after PSE promotion (e.g., defensive publications cited in SRv6 product strategy).
 
@@ -255,33 +228,8 @@ Three things are worth drawing out of that table. **Underlay Network Traffic Ste
 
 ## Pre-PSE Origins (exec thru-narrative only — not body case studies)
 
-| Year | Milestone | Package use |
-| :--- | :--- | :--- |
-| 2013–2015 | Host-networking CIPOLs; SR-to-host vision | Exec overview arc only |
+| Year      | Milestone                                          | Package use                          |
+| ----------- | ------------------------------------------------------ | --------------------------------------- |
+| 2013–2015 | Host-networking CIPOLs; SR-to-host vision          | Exec overview arc only               |
 | 2014–2019 | Early SR/NFV patents (e.g., US9503363, US10250494) | Cite impact post-2020 where realized |
-| 2017 | Elephant flow balancer (precursor AI fabric LB) | Exec timeline / Industry alignment |
-
----
-
-## Explicitly Excluded from This Section
-
-| Item | Route to |
-| :--- | :--- |
-| Raw account $ / bookings | **06-business-impact.md** |
-| NANOG/MPLS-WC talks without product/IP thread | **05-industry-impact.md** |
-| PSE committee service | **04-span-of-influence.md** / **10-se-community-leadership.md** |
-| Pure mentoring / CLEU scores | **10-se-community-leadership.md** |
-| Geico/Adobe customer wins without distinct invention | **03-global-impact.md** |
-
----
-
-## Vault Harvest Log — June 7, 2026
-
-**Entry:** `dse/07-Innovation-MOC.md`  
-**Also read:** `dse/Pinnacle-Award-2025-SRv6-uSID.md`, `innovation/SRv6-MultiTenant-Design-rev3.md`, `innovation/SOSIE.md`, `innovation/SGT, SRv6, NaaS Notes.md`, `innovation/yukon-glue.md`, `innovation/Hoffman-Singleton-Fabric-Design.md`, `customers/cilium-srv6.md`, `xarchive-2021-2022/BB-Jalapeno-Overview-20210820.md`, `dse/Pioneer Provider, Brag Book.md`
-
-**Gaps / Bruce to complete:**
-- [ ] CPOL portal links and correct issued/pending counts
-- [ ] Policy Plane publication (noted “need to publish” in MOC)
-- [ ] SGM stats: how many CL ILTs now use GitHub lab model
-- [ ] Carlos Pereira / OTel platform influence confirmation
+| 2017      | Elephant flow balancer (precursor AI fabric LB)    | Exec timeline / Industry alignment   |

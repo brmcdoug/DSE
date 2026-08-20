@@ -8,12 +8,13 @@ Instructions for AI agents (and humans) working on this repository. Read this fi
 
 This repo is the **publication layer** for a ~50-page Distinguished Systems Engineer (DSE) nomination package. Raw evidence lives in the Obsidian vault at `../../../go/notes/`. This repo holds polished, third-person, verifiable package text.
 
-**Obsidian vault:** `/Users/brucemcdougall/go/notes/` (see that vault’s `AGENTS.md` for wikilink/MOC conventions)
+**Obsidian vault:** `/Users/brucemcdougall/go/notes/` (see that vault's `AGENTS.md` for wikilink/MOC conventions)
 
 **OFFICIAL SOURCES — cite these, do not paraphrase from memory:**
+
 - `reference/Template for DSE candidacy Jan2025.docx` — section order, suggested lengths, formatting rules
 - `reference/PSE DSE Nomination Kit FY26.pptx` — criteria on **slide 15** (LoR requirements), **slides 21–22** (PSE criteria), **slides 24–25** (DSE criteria)
-- **Audit of package vs. these sources:** [criteria-audit.md](./criteria-audit.md) (Aug 2026)
+- **Audit of package vs. these sources:** [criteria-audit.md](https://github.com/brmcdoug/DSE/blob/main/criteria-audit.md) (Aug 2026)
 
 **Role name:** the official title is **Solutions** Engineer (PSE / DSE), not *Systems* Engineer. `[package-wide correction pending]`
 
@@ -26,7 +27,7 @@ This repo is the **publication layer** for a ~50-page Distinguished Systems Engi
 
 This sits **above** Global Impact, Span of Influence, and Industry Impact in the criteria table. Use its four examples as the structure of the Executive Overview.
 
-**Industry Impact (slide 25):** *"Influencing and leading not just internally within Cisco, but also externally. **Participate and/or lead standards bodies and represent Cisco within such.**"* Standards work is a named criterion — lead with the IETF draft editorship.
+**Industry Impact (slide 25):** *"Influencing and leading not just internally within Cisco, but also externally. **Participate and/or lead standards bodies and represent Cisco within such.**"* Standards work is a named criterion. **Bruce's actual standards-body record is thin (Aug 2026 audit): no verifiable IETF editorship or authorship credit exists.** The section states this gap plainly rather than working around it — do not draft toward a standards-leadership claim without a specific, independently verifiable credential in hand. (A prior version of this line instructed agents to "lead with the IETF draft editorship" — that credential was checked against the published IETF draft, found false, and removed from the package on 2026-08-19. This line is corrected accordingly.)
 
 **Innovation evidence types the criteria name explicitly (slide 22):** *patent # granted, GitHub stars, sales data, event registration/attendees and speaker score, adoption, endorsement from sponsor and community.*
 
@@ -36,21 +37,23 @@ This sits **above** Global Impact, Span of Influence, and Industry Impact in the
 
 **Candidate background:** `about-me/` — 2020 PSE nomination package (writing sample), StandOut assessment, speaker bio, writing-style notes.
 
+**Workflow (Aug 2026):** Numbered section files (`0x-*.md`) hold **narrative only** — occasional `[verify]` tags are fine, but no Scope/Cross-ref/Target-length header blocks, no Open Items lists, no "Explicitly Excluded" routing tables, and no changelog footers. All of that content lives in this file (section criteria, below) and in `todo.md` (open items, validation, changelog). This mirrors what `scripts/md_to_docx.py` already strips automatically on Word insert (see Assembling the Word Package, below) — the goal here is source-file readability, not a change to Word output.
+
 ---
 
 ## Candidate context
 
-| Field | Value |
-| :--- | :--- |
-| **Name** | Bruce McDougall |
-| **Current role** | Principal Systems Engineer (PSE) |
-| **Target** | Distinguished Systems Engineer (DSE) |
-| **Manager (DSE period)** | Brook Crossman (ASP/Web VP, Systems Engineering, ~5 years through Jun 2026); **Matt Gillies** (Global team, from Jun 2026) |
-| **Assignment** | **Americas Service Provider and Web (ASP + Web)** through Jun 2026; **Global** PSE from Jun 2026 |
-| **DSE mentor** | Vaughn Suazo |
-| **PSE start date (package time scope)** | **August 1, 2020** |
-| **Voice** | Third person throughout the package, except **“Becoming a DSE”** candidate statement (first person allowed) |
-| **Evidence standard** | SMART claims; factual, verifiable; chronology most-recent-first |
+| Field                                   | Value                                                                                                                      |
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| **Name**                                | Bruce McDougall                                                                                                            |
+| **Current role**                        | Principal Systems Engineer (PSE)                                                                                           |
+| **Target**                              | Distinguished Systems Engineer (DSE)                                                                                       |
+| **Manager (DSE period)**                | Brook Crossman (ASP/Web VP, Systems Engineering, ~5 years through Jun 2026); **Matt Gillies** (Global team, from Jun 2026) |
+| **Assignment**                          | **Americas Service Provider and Web (ASP + Web)** through Jun 2026; **Global** PSE from Jun 2026                           |
+| **DSE mentor**                          | Vaughn Suazo                                                                                                               |
+| **PSE start date (package time scope)** | **August 1, 2020**                                                                                                         |
+| **Voice**                               | Third person throughout the package, except **"Becoming a DSE"** candidate statement (first person allowed)                |
+| **Evidence standard**                   | SMART claims; factual, verifiable; chronology most-recent-first (see per-section exceptions below)                       |
 
 ---
 
@@ -58,12 +61,12 @@ This sits **above** Global Impact, Span of Influence, and Industry Impact in the
 
 The DSE package documents work and impact **since becoming PSE** — from **August 1, 2020** onward.
 
-| Rule | Guidance |
-| :--- | :--- |
-| **Default** | Include only activities, outcomes, and evidence **on or after 2020-08-01** |
-| **Executive Overview exception** | Pre-2020 references are OK in **high-level “thru-narrative”** only (career arc, origin of host-networking/SRv6 vision, patents rooted earlier). Keep to a few sentences—not full case studies |
-| **All other sections** | **No pre-2020 body content.** If a patent was filed earlier but *impact* landed after PSE promotion, document the post-2020 impact |
-| **Career path table** | May show roles before 2020 for context; narrative focus stays on PSE→DSE journey |
+| Rule                             | Guidance                                                                                                                                                                                      |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Default**                      | Include only activities, outcomes, and evidence **on or after 2020-08-01**                                                                                                                    |
+| **Executive Overview exception** | Pre-2020 references are OK in **high-level "thru-narrative"** only (career arc, origin of host-networking/SRv6 vision, patents rooted earlier). Keep to a few sentences—not full case studies |
+| **All other sections**           | **No pre-2020 body content.** If a patent was filed earlier but *impact* landed after PSE promotion, document the post-2020 impact                                                            |
+| **Career path table**            | May show roles before 2020 for context; narrative focus stays on PSE→DSE journey                                                                                                              |
 
 **Agent rule:** When harvesting Obsidian, check dates. Archive notes (`xarchive-2021-2022/`, etc.) may describe pre-2020 origins—extract only post-2020 impact unless writing exec overview thru-line.
 
@@ -71,7 +74,7 @@ The DSE package documents work and impact **since becoming PSE** — from **Augu
 
 ## How the criteria relate
 
-```text
+```
                     ┌─────────────────────────────────────┐
                     │     Executive Overview (all)        │
                     └─────────────────────────────────────┘
@@ -98,7 +101,7 @@ Impact     Impact                      │                             │
                     Sponsorship (letters of recommendation)
 ```
 
-**Cross-referencing:** Global Impact and Business Impact are **customer/revenue** sections. They may reference Span of Influence, Innovation, or SE Community Leadership when those activities **directly contributed** to a revenue or customer outcome (e.g., “Isovalent acquisition enabled Adobe engagement”—Innovation + Global/Business).
+**Cross-referencing:** Global Impact and Business Impact are **customer/revenue** sections. They may reference Span of Influence, Innovation, or SE Community Leadership when those activities **directly contributed** to a revenue or customer outcome (e.g., "Isovalent acquisition enabled Adobe engagement"—Innovation + Global/Business).
 
 **Do not double-count:** One story has one **primary** home; other sections get a cross-reference or one-line summary only.
 
@@ -108,19 +111,19 @@ Impact     Impact                      │                             │
 
 ASP + Web works primarily with **MIG** (Mass-Scale Infrastructure Group) product/engineering:
 
-| **In-scope / “home” (MIG)** | **Outside ASP+Web primary orbit (Span / Innovation)** |
-| :--- | :--- |
-| IOS-XR | Cilium / Isovalent (eBPF, host networking) |
-| NCS 5xxx | SD-WAN (Viptela / SD-WAN BE) |
-| Cisco 8000 | SASE / SSE / Cisco Secure Access |
-| SONiC | Catalyst, Nexus (DC/campus) |
-| Silicon One | Security portfolio (beyond transport) |
-| SR / SRv6 (MIG platforms) | ThousandEyes |
-| | Single OS (SOSIE) working group |
-| | Future Enterprise Segmentation, FE tiger teams |
-| | Enterprise BEs, cloud/security BEs generally |
+| **In-scope / "home" (MIG)** | **Outside ASP+Web primary orbit (Span / Innovation)** |
+| --------------------------- | ------------------------------------------------------ |
+| IOS-XR                      | Cilium / Isovalent (eBPF, host networking)             |
+| NCS 5xxx                    | SD-WAN (Viptela / SD-WAN BE)                           |
+| Cisco 8000                  | SASE / SSE / Cisco Secure Access                       |
+| SONiC                       | Catalyst, Nexus (DC/campus)                            |
+| Silicon One                 | Security portfolio (beyond transport)                  |
+| SR / SRv6 (MIG platforms)   | ThousandEyes                                           |
+|                              | Single OS (SOSIE) working group                        |
+|                              | Future Enterprise Segmentation, FE tiger teams         |
+|                              | Enterprise BEs, cloud/security BEs generally           |
 
-**Span of Influence** = expanding impact **inside Cisco** beyond the ASP+Web + MIG orbit—other BUs, other theaters’ leaders, and peer **DSE/PSE** collaborators.
+**Span of Influence** = expanding impact **inside Cisco** beyond the ASP+Web + MIG orbit—other BUs, other theaters' leaders, and peer **DSE/PSE** collaborators.
 
 **Key cross-org peers (Span):** Brenden Buresh, Craig Hill, David Jansen, Brian Meaney, Virginia Teixeira, Mike McPhee, Rob Murphy, Clarence Filsfils, David Jansen, Marina Ferreira *(extend list as needed)*.
 
@@ -128,7 +131,7 @@ ASP + Web works primarily with **MIG** (Mass-Scale Infrastructure Group) product
 
 ---
 
-### What “ASP + Web” means for this package
+### What "ASP + Web" means for this package
 
 **In-scope (home territory)** — primary home for **Business Impact** and day-to-day PSE account work:
 
@@ -140,15 +143,23 @@ ASP + Web works primarily with **MIG** (Mass-Scale Infrastructure Group) product
 ## Official criteria — quote these, do not paraphrase
 
 **Global Impact (DSE nomination PPT):**
+
 - *Demonstrate global impact outside the immediate area*
 - *Examples include leading global accounts, creating and delivering global training, developing new architectures that are adopted globally*
 
 **Span of Influence (DSE nomination PPT):**
+
 - *Interact and impact at higher levels internally in Cisco and externally with customers and partners*
 - *Specialization and focus for at least two technology domains / architectures*
 - *The impact is more strategic and focuses on horizon 2–3*
 
-**Structural rule (DSE nomination Word guide, applies to BOTH sections):** *"Provide a high-level summary… using a bulleted list or a table to show the transition. **A detailed version can be added to the appropriate section of the package (business impact, innovation, SE leadership, etc.)**"*
+**Business Impact (DSE nomination Word template):**
+
+- *"Describe the candidate's leadership role and the impact on Cisco's businesses in terms of revenue and/or strategy in a factual, verifiable way. Chronological format with most recent business impact first. This is an opportunity to provide more details on items you have summarized in the Global Impact and Span of Influence sections. Provide a summary and refer to external links for more details where appropriate."*
+- **No official page limit.**
+- **Ordering exception (Bruce decision, Aug 2026):** the template's own instruction is chronological, most-recent-first. This package instead orders accounts by descending strategic and financial weight — Microsoft, Meta, and Oracle lead regardless of date — so the strongest evidence is on the first page a reviewer reads. This is a deliberate, acknowledged deviation from the literal template instruction, not an oversight.
+
+**Structural rule (DSE nomination Word guide, applies to Global Impact AND Span of Influence):** *"Provide a high-level summary… using a bulleted list or a table to show the transition. **A detailed version can be added to the appropriate section of the package (business impact, innovation, SE leadership, etc.)**"*
 
 **Consequence:** Global Impact and Span of Influence are **summary sections that index into the detail sections**, in two-column table form (initiative + date | impact prose ending with a cross-reference). This is exactly Brenden's structure, and it explains his page split: ~2 pages Global, ~2 pages Span, ~17 pages Business Impact.
 
@@ -156,14 +167,14 @@ ASP + Web works primarily with **MIG** (Mass-Scale Infrastructure Group) product
 
 Detail lives in **exactly one** section; every other section gets a short entry pointing there. That is not double-counting — it is the intended structure.
 
-| Section | Question it answers | Axis |
-| :--- | :--- | :--- |
-| **Business Impact** | Did it produce revenue at a named account? | Money |
-| **Global Impact** | Did it reach outside the immediate area, or get adopted globally? | Reach |
-| **Span of Influence** | Did it lift Bruce to higher altitude, across ≥2 domains, at horizon 2–3? | Altitude + breadth |
-| **Innovation** | Is there an invention, artifact, or product outcome? | Novelty |
-| **Industry Impact** | Did it land outside Cisco? | External |
-| **SE Community Leadership** | Did it make other SEs more capable? | Multiplier |
+| Section                     | Question it answers                                                      | Axis               |
+| ---------------------------- | -------------------------------------------------------------------------- | ------------------- |
+| **Business Impact**         | Did it produce revenue at a named account?                               | Money              |
+| **Global Impact**           | Did it reach outside the immediate area, or get adopted globally?        | Reach              |
+| **Span of Influence**       | Did it lift Bruce to higher altitude, across ≥2 domains, at horizon 2–3? | Altitude + breadth |
+| **Innovation**              | Is there an invention, artifact, or product outcome?                     | Novelty            |
+| **Industry Impact**         | Did it land outside Cisco?                                               | External           |
+| **SE Community Leadership** | Did it make other SEs more capable?                                      | Multiplier         |
 
 Detail goes where the **strongest evidence** sits. Worked example — **SR-Apps**: detail in Innovation (invention, artifact, SR engineering adoption); one-entry pointers from Global Impact (global field lead), Span (co-development with Filsfils' org), Industry Impact (open source), and Business Impact (account outcomes it enabled).
 
@@ -177,19 +188,19 @@ Detail goes where the **strongest evidence** sits. Worked example — **SR-Apps*
 
 **Page budget: the official Word template governs.** It specifies **2–3 pages** for Global Impact, Span of Influence, and Industry Impact, and *no page limit* for Business Impact, Innovation, Sponsorship, Personal Development, and SE Community Leadership. README's weighting (7 pages Global, 6 Span) is Bruce's own and is **superseded**.
 
-| Order | Section | Repo file | Weight (1–5) | Target pages |
-| :---: | :--- | :--- | :---: | :---: |
-| 1 | Executive Overview | `01-exec-summary-draft.md` **(canonical)** | 6 | 7 |
-| 2 | Direct Leader Recommendation | `02-direct-leader-recommendation.md` | — | 1–2 |
-| 3 | **Global Impact** | `03-global-impact.md` | 5 | **2–3** *(official)* |
-| 4 | Span of Influence | `04-span-of-influence.md` | 4 | **2–3** *(official)* |
-| 5 | Industry Impact | `05-industry-impact.md` | 3 | **2–3** *(official)* |
-| 6 | Business Impact | `06-business-impact.md` | 5 | 7 |
-| 7 | Innovation | `07-innovation.md` | 4 | 6 |
-| 8 | Sponsorship | `08-sponsorship.md` | 2 | 1 |
-| 9 | Personal Development | `09-personal-development.md` | 1 | 1 |
-| 10 | **Leadership** | `10-se-community-leadership.md` | 4 | no limit *(official)* |
-| — | Appendix (optional) | `11-appendix.md` | — | as needed |
+| Order | Section                      | Repo file                                  | Weight (1–5) | Target pages          |
+| ----- | ----------------------------- | -------------------------------------------- | ------------ | ---------------------- |
+| 1     | Executive Overview           | `01-exec-summary-draft.md` **(canonical)** | 6            | 7                     |
+| 2     | Direct Leader Recommendation | `02-direct-leader-recommendation.md`       | —            | 1–2                   |
+| 3     | **Global Impact**            | `03-global-impact.md`                      | 5            | **2–3** *(official)*  |
+| 4     | Span of Influence            | `04-span-of-influence.md`                  | 4            | **2–3** *(official)*  |
+| 5     | Industry Impact              | `05-industry-impact.md`                    | 3            | **2–3** *(official)*  |
+| 6     | Business Impact              | `06-business-impact.md`                    | 5            | 7                     |
+| 7     | Innovation                   | `07-innovation.md`                         | 4            | 6                     |
+| 8     | Sponsorship                  | `08-sponsorship.md`                        | 2            | 1                     |
+| 9     | Personal Development         | `09-personal-development.md`               | 1            | 1                     |
+| 10    | **Leadership**               | `10-se-community-leadership.md`            | 4            | no limit *(official)* |
+| —     | Appendix (optional)          | `11-appendix.md`                           | —            | as needed             |
 
 **Max package length:** ~50 pages. Body total above is ~45–46, leaving room for cover, TOC, timeline graphic, and appendix.
 
@@ -204,6 +215,7 @@ Detail goes where the **strongest evidence** sits. Worked example — **SR-Apps*
 **Suggested length:** 3–4 pages in criteria text; **~7 pages** in README weighting.
 
 **Must include:**
+
 - Summary of body of work across **all** criteria categories
 - Candidate background and career path **table** (role/title, dates)
 - **Becoming a DSE** — what promotion means to candidate, SE community, Cisco, customers/partners
@@ -221,6 +233,7 @@ Detail goes where the **strongest evidence** sits. Worked example — **SR-Apps*
 **Time scope:** Focus on performance since **PSE promotion (Aug 2020)**.
 
 **Must include:**
+
 - Performance, achievements, progressive improvement since PSE promotion
 - Transparent areas of development and actions taken
 - **Future role plan** if promoted to DSE
@@ -259,25 +272,26 @@ Detail goes where the **strongest evidence** sits. Worked example — **SR-Apps*
 
 ### 5. Industry Impact — `05-industry-impact.md`
 
-**Suggested length:** 2–3 pages.
-
 **Official length:** 2–3 pages. **Standalone section** — unlike Global Impact and Span, it neither summarizes into other sections nor receives detail from them; its references point to **external links**.
 
-**Primary lens:** influence and leadership **externally**, not only inside Cisco; the criterion explicitly names **standards bodies**. The template asks for *"the impact to Cisco's businesses in terms of revenue and/or strategy in a factual, verifiable way"* — the same wording as Business Impact. **Earlier guidance in this file said "direct revenue not required"; that was wrong.** Where revenue is absent, state the **strategy** impact explicitly.
+**Primary lens:** influence and leadership **externally**, not only inside Cisco; the criterion names **standards bodies**, but Bruce's package does not lead with a standards-leadership claim (see the corrected note near the top of this file) — the strongest, most verifiable evidence here is open source, publications, and operator-community relationships. The template asks for *"the impact to Cisco's businesses in terms of revenue and/or strategy in a factual, verifiable way"* — the same wording as Business Impact. Where revenue is absent, state the **strategy** impact explicitly.
 
 **Must include:**
+
 - Leadership and visibility **outside Cisco** among operators, architects, open-source community, standards-adjacent forums
-- Chronological, most recent first
+- Chronological, most recent first (within themes — the section is organized thematically, dated within each theme)
 - External links and references
 
 **Belongs here:**
+
 - **Open source:** segmentrouting GitHub org, srv6-labs, Jalapeno (cisco-open), MRC emulator repos
-- **Conferences:** NANOG (e.g., uSID), **OCP**, MPLS World Congress, **Cisco Live** (breakouts/labs as industry-facing thought leadership)
-- **Publications:** SP360, segment-routing.net blogs, LinkedIn posts, whitepapers, vidcasts
-- **Industry alignment:** Phoenix Wing / multi-vendor SONiC uSID narrative, MRC/OpenAI/Microsoft/NVIDIA papers citing SRv6 direction
-- **IETF** participation, operator workshops where Bruce represented Cisco to the **industry**, not a single account win
+- **Conferences:** NANOG (e.g., uSID; pre-PSE NANOG 2020 entry was removed 2026-08-19 — out of date-floor scope), **OCP**, MPLS World Congress, **Cisco Live** (breakouts/labs as industry-facing thought leadership)
+- **Publications:** SP360 (part of the Future of SP Networking blog series curated by Brook Crossman's team), segment-routing.net blogs, LinkedIn posts, whitepapers, vidcasts
+- **Industry alignment:** the Alibaba-led multi-vendor SONiC uSID narrative (Bruce is not on that account team; his May 2023 publication preceded it — internal shorthand for this fact-check was previously "Phoenix Wing," a task-tracking label removed from body text 2026-08-19), MRC/OpenAI/Microsoft/NVIDIA papers citing SRv6 direction
+- **IETF** participation, operator workshops where Bruce represented Cisco to the **industry**, not a single account win — note that hallway/in-person relationship-building (e.g., the Nicklous Morris connection) counts here even without a formal working-group role
 
 **Relationship to other sections:**
+
 - If the **same activity** also drove **assigned customer revenue**, put revenue in Business Impact and industry visibility here (cross-reference).
 - Internal BU persuasion (SONiC investment **inside Cisco**) → Span + Innovation, not Industry.
 
@@ -289,17 +303,20 @@ Detail goes where the **strongest evidence** sits. Worked example — **SR-Apps*
 
 **Primary lens:** **Customer and revenue impact within ASP + Web assignment** (Aug 2020–present).
 
+**Ordering:** descending strategic/financial weight, not chronological — see the Official Criteria note above. This is a deliberate deviation from the template's literal instruction.
+
 **Must include:**
+
 - Leadership role and impact on Cisco **revenue and/or strategy** — factual, verifiable
-- Chronological, most recent first
 - Detail for in-territory accounts summarized in Executive Overview
 - May **cross-reference** Span / Innovation / SE Leadership when those enabled the account outcome (e.g., SONiC SRv6 productization → Microsoft AI backend win)
 
 **Belongs here:** All **ASP+Web** customers (see list below)—Microsoft, Meta, AWS, Google, OCI, CoreWeave, Verizon, Bell, Videotron, Dish/Boost, AT&T, T-Mobile, Viasat, etc.
 
-**Case study pattern:** Customer profile → problem/competition → Bruce’s actions (bullets) → financial / competitive / strategic / customer impact.
+**Case study pattern:** Customer profile → problem/competition → Bruce's actions (bullets) → financial / competitive / strategic / customer impact.
 
 **Does NOT belong here:**
+
 - Non-assigned theater customers → Global Impact
 - Pure industry visibility with no account tie → Industry Impact
 
@@ -312,11 +329,13 @@ Detail goes where the **strongest evidence** sits. Worked example — **SR-Apps*
 **Primary lens:** **IPR and Cisco product/technology innovation** (Aug 2020–present)—often **downstream of Span of Influence** advocacy outside MIG.
 
 **Must include:**
+
 - Leadership in innovation; impact on Cisco **strategy, product, or revenue** where verifiable
 - Chronological, most recent first
 - Tables OK; patent/CPOL links, architectural artifacts, labs
 
 **Belongs here:**
+
 - **Patents / CPOLs** (issued, pending, defensive publications) — post-2020 submissions and **impact** of earlier work if realized after PSE
 - **Architectural designs & labs:** SRv6 multi-tenant AI fabric spec, MRC emulator, srv6-msft/srv6-oci POC repos, Hoffman-Singleton study
 - **Product features & direction:** host-based networking, host-based SRv6, SRv6 on SONiC, Cisco **strategic investment in SONiC**, SRv6 for AI, **SRv6+SGT** end-to-end identity/policy (multi-BU)
@@ -324,11 +343,13 @@ Detail goes where the **strongest evidence** sits. Worked example — **SR-Apps*
 - **Whitepapers** when they drove **product or strategy** (not merely industry visibility—those also touch Industry Impact)
 
 **Span → Innovation examples:**
+
 - Host-networking advocacy → Isovalent acquisition → Cilium SRv6 product path
 - Single OS working group → company NOS strategy discourse
 - SD-WAN/SSE SRv6 positioning → engineering roadmap commitments
 
 **Does NOT belong here:**
+
 - Account revenue without inventive/IP component → Business Impact
 - External blog reach alone → Industry Impact
 
@@ -353,13 +374,14 @@ Detail goes where the **strongest evidence** sits. Worked example — **SR-Apps*
 **Primary lens:** **Journey from PSE (Aug 2020) toward DSE** — technical and personal growth that enabled broader impact.
 
 **Must include:**
+
 - How development increased **span and global influence beyond ASP+Web** (new BUs, open source, cloud-native tooling, exec communication)
 - How Bruce continued to **push the technical envelope** as an industry pioneer (not comfort-zone MIG-only depth)
 - Chronological, most recent first
 - **Table:** education & certifications (description, date, link)
 - Tie **learning → application → measurable impact** (even if impact is documented in other sections)
 
-**Belongs here:** Executive coaching, Cilium/K8s depth, Containerlab/GitHub labbing, Ultra Ethernet study, PSE-committee feedback response, cross-theater relationship building, “vibe-labbing” for faster customer POCs.
+**Belongs here:** Executive coaching, Cilium/K8s depth, Containerlab/GitHub labbing, Ultra Ethernet study, PSE-committee feedback response, cross-theater relationship building, "vibe-labbing" for faster customer POCs.
 
 **Not a bare cert laundry list** without impact narrative.
 
@@ -378,12 +400,14 @@ Detail goes where the **strongest evidence** sits. Worked example — **SR-Apps*
 **Closely related to:** Business Impact, Global Impact, and Span of Influence—document **outcomes** (mentee promotions, account wins enabled, labs reused globally) where possible.
 
 **Must include:**
+
 - **Tables:** initiatives, mentoring, enablement, internal speaking, publications used for SE training
 - Dates, links, survey scores, attendee counts
 - Chronological, most recent first
 
 **Belongs here:**
-- **Mentoring:** **Official PSE mentor:** Ignacio (“Nacho”) Sanchez (promoted Jun 2026); **Christopher Luciano (in progress, since Dec 2024)**. **PSE candidate extended team** (advisor / package reviewer): Rob Murphy & Roberta Maglione (**2023**); Masiuddin Mohammed, Marina Ferreira & Alessandro Breccia (**2024**). Dan Stacks (STLDP), Satoshi Yamashita, etc.
+
+- **Mentoring:** **Official PSE mentor:** Ignacio ("Nacho") Sanchez (promoted Jun 2026); **Christopher Luciano (in progress, since Dec 2024)**. **PSE candidate extended team** (advisor / package reviewer): Rob Murphy & Roberta Maglione (**2023**); Masiuddin Mohammed, Marina Ferreira & Alessandro Breccia (**2024**). Dan Stacks (STLDP), Satoshi Yamashita, etc.
 - **Enablement:** Stay Ready Friday, Tech Elevate, TMC innovation hours, SONiC/SRv6/Cilium dCloud labs, MIG specialist walkthroughs
 - **Cisco Live:** instructor-led labs (scores), breakouts, panels (BTSP 2026)
 - **PSE review committee** (3 years)
@@ -391,10 +415,12 @@ Detail goes where the **strongest evidence** sits. Worked example — **SR-Apps*
 - **Lightning talks**, SEVT panels, ASP 8K enablement series
 
 **Split with other sections:**
+
 - CL lab at **CLEU** with **Evroc customer** outcome → Global Impact for customer; SE Leadership for lab delivery metrics
 - **srv6-labs** as public artifact → Industry Impact; SE Leadership if framed as SE enablement asset
 
 **Embed throughout package where applicable:**
+
 - Publications & professional affiliations (README list)
 - External & internal speaking (CL, EBCs, bootcamps, VTs, tiger teams)
 - Awards & recognition (Connected Recognition, CL Distinguished Speaker, etc.) — also `11-appendix.md`
@@ -453,7 +479,7 @@ Embed in relevant sections, not a standalone section:
 
 ## Global Impact — seed list (outside ASP + Web assignment)
 
-*Not “outside Americas”—outside **ASP+Web segment**. Bruce to extend.*
+*Not "outside Americas"—outside **ASP+Web segment**. Bruce to extend.*
 
 ### Americas — Enterprise / Financial / Education / Regional
 
@@ -489,6 +515,7 @@ Embed in relevant sections, not a standalone section:
 - [ ] **SRv6 Roadshow** — if outcomes on non-ASP+Web customers *(otherwise SE Leadership / Industry)*
 
 *Moved to other sections by default:*
+
 - `segmentrouting` / srv6-labs → **Industry Impact** (+ SE Leadership if SE-training framed)
 - CLEU/CLUS labs without non-assigned customer win → **SE Community Leadership** / **Industry Impact**
 - MPLS-WC / NANOG / OCP → **Industry Impact**
@@ -498,27 +525,28 @@ Embed in relevant sections, not a standalone section:
 
 ## Repo file map
 
-| File | Purpose |
-| :--- | :--- |
-| `voice-guide.md` | **Voice & claim strength — read before drafting** |
-| `00-overview-themes.md` | Brand, themes, candidacy positioning |
-| `01-exec-summary-draft.md` | **Canonical** executive section |
-| `Bruce-McDougall-DSE-Package-Aug2026.docx` | **Official Word package template** — final deliverable |
-| `scripts/md_to_docx.py` | Inserts a drafted section into the Word template (see below) |
-| `xarchive/` | Superseded material — do not draft from |
-| `02-direct-leader-recommendation.md` | Leader letter placeholder |
-| `03-global-impact.md` | **Outside ASP+Web** impact |
-| `04-span-of-influence.md` | **Internal Cisco** influence outside ASP+Web / MIG |
-| `05-industry-impact.md` | **External industry** visibility (revenue optional) |
-| `06-business-impact.md` | **ASP+Web customers** and revenue |
-| `07-innovation.md` | Patents, products, acquisitions, inventions |
-| `08-sponsorship.md` | LoR table |
-| `09-personal-development.md` | Certs, training, growth |
-| `10-se-community-leadership.md` | Mentoring, enablement, CL |
-| `11-appendix.md` | CL scores, Connected Recognition |
-| `PSE-time-log.csv` | **Chronological activity log** (2020–present); route by DSE criteria column → section files |
-| `reference/` | Brenden package PDF + template outline |
-| `projects/` | Deep-dive project write-ups (MRC, SRv6 AI fabric) |
+| File                                       | Purpose                                                                                     |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| `voice-guide.md`                           | **Voice & claim strength — read before drafting**                                           |
+| `00-overview-themes.md`                    | Brand, themes, candidacy positioning                                                        |
+| `01-exec-summary-draft.md`                 | **Canonical** executive section                                                             |
+| `Bruce-McDougall-DSE-Package-Aug2026.docx` | **Official Word package template** — final deliverable                                      |
+| `scripts/md_to_docx.py`                    | Inserts a drafted section into the Word template (see below)                                |
+| `xarchive/`                                | Superseded material — do not draft from                                                     |
+| `02-direct-leader-recommendation.md`       | Leader letter placeholder                                                                   |
+| `03-global-impact.md`                      | **Outside ASP+Web** impact                                                                  |
+| `04-span-of-influence.md`                  | **Internal Cisco** influence outside ASP+Web / MIG                                          |
+| `05-industry-impact.md`                    | **External industry** visibility (revenue optional)                                         |
+| `06-business-impact.md`                    | **ASP+Web customers** and revenue                                                            |
+| `07-innovation.md`                         | Patents, products, acquisitions, inventions                                                 |
+| `08-sponsorship.md`                        | LoR table                                                                                   |
+| `09-personal-development.md`               | Certs, training, growth                                                                     |
+| `10-se-community-leadership.md`            | Mentoring, enablement, CL                                                                   |
+| `11-appendix.md`                           | CL scores, Connected Recognition                                                             |
+| `PSE-time-log.csv`                         | **Chronological activity log** (2020–present); route by DSE criteria column → section files |
+| `reference/`                               | Brenden package PDF + template outline                                                      |
+| `projects/`                                | Deep-dive project write-ups (MRC, SRv6 AI fabric)                                           |
+| `todo.md`                                  | **Open items, validation queue, and changelog for the whole package** — see workflow note above |
 
 ---
 
@@ -531,23 +559,23 @@ Embed in relevant sections, not a standalone section:
 3. Start from vault `dse/<Section>-MOC.md` and follow `[[wikilinks]]`.
 4. **Tag each finding:** `Business (ASP+Web)` | `Global (customer $)` | `Span (internal)` | `Industry` | `Innovation` | `SE Leadership` | `Personal Dev`.
 5. **Filter pre-2020** unless drafting exec overview thru-narrative.
-6. Write polished third-person narratives into the matching repo file.
-7. Append **open items** and **vault source paths** at bottom of section file.
+6. Write polished third-person narratives into the matching repo file — **narrative only** (see workflow note above).
+7. Append **open items** to `todo.md`, not to the section file.
 8. **Global Impact** = non-assigned customers with revenue/pipeline story only.
 9. **Span** = non-MIG / cross-BU / cross-peer influence inside Cisco.
 
 ### Section routing quick check
 
-| Evidence type | Primary section |
-| :--- | :--- |
-| MSFT account revenue | Business Impact |
-| Rakuten APJC engagement | Global Impact |
-| Isovalent acquisition advocacy | Span → Innovation |
-| srv6-labs LinkedIn views | Industry Impact |
-| CLEU lab scores + mentoring | SE Community Leadership |
-| Patent / AI fabric spec | Innovation |
-| PSE committee, Single OS WG | Span of Influence |
-| Post-2020 skills → cross-BU work | Personal Development |
+| Evidence type                    | Primary section         |
+| ----------------------------------- | -------------------------- |
+| MSFT account revenue             | Business Impact         |
+| Rakuten APJC engagement          | Global Impact            |
+| Isovalent acquisition advocacy   | Span → Innovation        |
+| srv6-labs LinkedIn views         | Industry Impact          |
+| CLEU lab scores + mentoring      | SE Community Leadership  |
+| Patent / AI fabric spec          | Innovation               |
+| PSE committee, Single OS WG      | Span of Influence         |
+| Post-2020 skills → cross-BU work | Personal Development     |
 
 ### Review workflow
 
@@ -555,7 +583,7 @@ Embed in relevant sections, not a standalone section:
 
 **Comment notation:** a line beginning with `//` (line-initial only, so `https://` in prose is safe). HTML comments on their own line work too.
 
-```markdown
+```
 Bruce served as SONiC subject-matter expert for the Colorado colocation architecture.
 // is "subject-matter expert" right here? I was effectively the lead architect
 ```
@@ -590,34 +618,23 @@ The converter maps `##`→Heading 2, `###`→Heading 3, renders bold/italic/code
 Use `--before END` to append to the end of the document (used for the Appendix).
 
 Re-running against the same anchors **fully replaces** the section — paragraphs *and* tables — so it is safe to iterate.
-
 > **Once a section has been edited in Word, Word is the source of truth for it. Do not re-insert that section — it will discard those edits.** Late global changes (find/replace, stripping `[verify]` markers) can be scripted against the `.docx` directly instead.
 
 ### Writing conventions
 
-**Read [voice-guide.md](./voice-guide.md) before drafting any section.** It governs claim strength, verb choice, case-study openings, and the four labeled impact types, and it documents the candidate's known failure mode (understating his own claims). The rules below are the summary; the guide is the authority.
+**Read [voice-guide.md](https://github.com/brmcdoug/DSE/blob/main/voice-guide.md) before drafting any section.** It governs claim strength, verb choice, case-study openings, and the four labeled impact types, and it documents the candidate's known failure mode (understating his own claims). The rules below are the summary; the guide is the authority.
 
-- Third person: “Bruce led…”, “McDougall authored…” — first person only in **Becoming a DSE**
+- Third person: "Bruce led…", "McDougall authored…" — first person only in **Becoming a DSE**
 - **Register:** Flat, declarative, factual — Brenden's register throughout. "Friendly and collaborative" is a **finding demonstrated by evidence** (mentee promotions, 22 Connected Recognition awards given, peer quotes), *not* a prose style. Do not soften sentences to sound collaborative.
 - **Bruce is the grammatical subject** of every sentence describing his work. Banned verbs: helped, contributed to, was part of, was involved in, assisted, played a role in.
 - **Claim first, quote second.** A quote corroborates a claim already stated in Bruce's own sentence; it is never the first place the reader learns it.
-- **Every case study:** ≤2 sentences of customer stakes (rank, scale, revenue) → problem/competition → Bruce's actions (bullets) → four labeled impact types → evidence pointer.
+- **Every case study:** ≤2 sentences of customer stakes (rank, scale, revenue) → problem/competition → Bruce's actions (bullets) → four labeled impact types (treat as a checklist to satisfy, not a paragraph template to repeat verbatim — vary sentence rhythm and opening fact across entries) → evidence pointer.
 - **Report setbacks in the same flat voice as wins** — the gold-standard package does this repeatedly and it is what makes the wins credible.
 - **Date floor:** Aug 1, 2020 except exec thru-narrative
 - Active verbs; separate **financial / competitive / strategic / customer** impact where possible
 - Mark unverified claims: `[verify]` or `[pending finance validation]`
-- Cross-reference: *“More details in the Innovation section.”*
+- Cross-reference: *"More details in the Innovation section."*
 - Prefer tables for career path, revenue summary, sponsorship, mentoring, speaking
-
-### Open items (maintain in section files or README)
-
-- Finance-validated revenue figures
-- Complete ASP+Web customer list (this file)
-- Re-filter `03-global-impact.md` for **customer/revenue-only, non-ASP+Web**
-- Re-filter `01-exec-summary-draft.md` for pre-2020 content outside thru-narrative
-- Career path dates; direct leader letters (Brook Crossman + Matt Gillies)
-- Broken vault wikilinks (`2023 sonic-blog-alibaba_msft`, etc.)
-- Confirm Virginia Teixeira spelling; extend cross-org peer list
 
 ---
 
