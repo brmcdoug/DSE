@@ -1,16 +1,43 @@
 ## Span of Influence
 
+// Notes:
+#### Interact and impact at higher levels internally in Cisco and externally with customers and partners.
+    * See note below about expansive network of DSE/PSE relationships. Have also developed relationships with BU leadership further up the chain: Kevin Wollenweber, SVP/GM Engineering (MIG and DC), Gurudatt Shenoy, SVP Product Management (MIG), Rakesh Chopra, SVP, Engineering (Silicon), Clarence Filsfils, Cisco Fellow (Cisco Engineering), Praveen Bhagwatula, Cisco Fellow (Cisco Engineering), Vijay Tapaskar, VP Engineering (MIG), Thomas Graf, VP Engineering (Security/Isovalent). Have begun developing relationships with Samir Parikh, VP, Product and Strategy, AI Infrastructure (MIG/DC/Cloud), Craig Connors, CTO of Infrastructure and Security Group). And sales leaders further up the chain: Marcus Moffett, VP Solutions Engineering (Americas), Mike Witzman, VP Solutions Engineering (Public Sector), Brad Bonin, VP Solutions Engineering (Enterprise), in addition to all the DSE/PSE folks mentioned below and in my Sponsorship list. With customers: Microsoft AI and Frontend DC architects Mohan Nanduri and Gaurav Thareja, Oracle Sr. architect Abderrahman Jouhari, Coreweave VP architecture Shiv Patel, Verizon Sr. Architects and Fellows (Luay Jalil, Gyan Mishra, Nick Morris), Dish/Boost VP Network Engineering Mike McNamara, and Dave Clough, Director Solutions Engineering at WWT
+#### Specialization & Focus (see PSE criteria) for at least two technology domains/architectures etc.
+    * PSE Criteria:
+        Deep but versatile technology/solution/architecture expertise, focused on applying it across multiple areas
+        Influences emerging technologies (including software), roadmaps, etc., with a 1-2 year horizon
+        Enhances existing solutions
+        Typically assigned at an area level with a 1-2 year focus
+
+  * My Specialization and Focus has gone from (when I became a PSE):
+    * SP and Web/Hyperscale routing architect with deep and versatile expertise 
+    * Influencing product and BU direction by helping move cisco to adopt a mix of platforms based on traditional high cost, highly featured silicon, and platforms targeted to hyperscale market with lower cost, lower feature depth but higher throughput commodity silicon
+    * Enhanced existing solutions through driving SR feature completeness and early SRv6 feature development
+    * Assigned to Web area, aligned with MIG BU
+  * To (today after 5 years of being PSE):
+    * Specialization and focus: I'm now a end-to-end hyperscale and SP architect (Data Center, WAN, host/k8s/cloud-native, AI networking (scale-up, scale-out, scale-across), open-source, SW development, SDN, and SP services such as SDWAN and NaaS) 
+    * Influencing emerging tech/roadmaps/etc. (on an even more strategic horizon 2-3): driving cisco investments in SONiC/open-NOS and AI architectures (advocating Cisco invest in AI host-networking by developing SmartNICs and a scale-up ethernet solution to compete with Nvidia, AMD, and Broadcom), advocacy for Isovalent acquisition and evangelization of Isovalent/Cilium as strategic network and policy asset, and ultimately working to change the direction of the company itself by co-founding the single-OS (SOSIE) tiger team and the Unified Forwarding Architecture (UFA) - SRv6 end-to-end -  and Unified Policy Model (UPM) - SRv6 + SGT for enterprise, campus, DC, WAN, ISE - tiger teams 
+    * Enhances existing solutions: SRv6 on Cisco 8000 SONiC, SONiC on both high end Cisco 8000 P200 silicon platforms (WAN/DCI use cases) and high-speed/commodity G200 silicon (DC fabric/AI backend) and forthcoming P300 and G300, SR-Apps Innovation effort 2020 - ~2023 led to development of SRv6 IPM/PT and the forthcoming D-SDN TE controller (FY27) 
+    * Working across BUs - MIG, DC, Security (Isovalent, ISE, SASE), Enterprise (SDWAN, IOS-XE), Visibility (ThousandEyes), and Cisco Data Fabric (Splunk)
+    * Working across sales theaters - I've developed strong relationships and regularly collaborate with Americas Enterprise and Public Sector DSEs/PSEs - see SOSIE,  - (and account SEs), as well as DSE/PSEs in EMEA and APJ, and I'm called upon by name as SME for SONiC, SRv6, host-networking, and any customer looking to learn about hyperscaler architecture or hyperscalers' operational approach and way of thinking 
+#### The impact is more strategic and focuses on horizon 2-3 
+    * I believe the previous set of bullets speak for themselves
+// end notes
+
 ## How Bruce's Span of Influence Expanded
 
 | Period           | Altitude and scope                                             | Evidence                                                                                                                                                                                    |
 | ------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **2020**         | Production routing and data centre SME for Web and SP accounts | Account and theater engagements through MIG engineering                                                                                                                                     |
-| **2021–2022**    | Cross-BU advisor without mandate                               | SD-WAN product direction with CNWAN; SP Edge tiger team co-lead; PSE review subcommittee                                                                                                    |
+| **2021–2022**    | Cross-BU advisor                               | SD-WAN product direction with SP-services API spec and CNWAN; SP Edge tiger team co-lead; PSE review subcommittee                                                                                                    |
 | **2023–2024**    | Architecture-organization altitude                             | SR brain trust field lead; SONiC investment case; Americas PA/DA SONiC forum; Future Enterprise Segmentation; corporate development advisory                                                |
 | **2024–present** | Cross-platform engineering engagement                          | SRv6 feature development across **IOS-XR, IOS-XE, NX-OS, SONiC, SD-WAN, SASE, ThousandEyes** (Synthetic Path Tracing patent) **and Cilium** — eight platforms, five business entities       |
-| **2025–2026**    | Company and executive altitude                                 | SOSIE co-founder; Web/Hyperscale representative for executive BU interlocks; FY26 Global Sales Technical Roadmap owner; EVPN readout to CPO Jeetu Patel; Cilium CRD accepted by engineering |
+| **2025–2026**    | Company and executive altitude                                 | co-found of Single-OS (SOSIE), UFA, and Unified Policy Model tiger teams; Web/Hyperscale representative for executive BU interlocks; FY26 Global Sales Technical Roadmap owner; EVPN readout to CPO Jeetu Patel; Cilium CRD accepted by engineering |
+// the EVPN readout was prepared by myself and an informal 'Least Complexity solution' group of PSE/DSEs for Brook Crossman who gave the readout to Jeetu. Jeetu committed to fixing the problem and scheduled regular check-ins with Brook
 
 None of this influence came with authority attached. Business entities outside Bruce's own engage him because he settles an architecture on its merits first, and works out Cisco's position from there.
+// is this adding anything or can we delete it?
 
 ### How he thinks about it
 
@@ -19,6 +46,8 @@ Bruce reasons about networks the way a hyperscale architect does: **topologicall
 Cisco's portfolio, like every large vendor's, is organized into places in the network, and its engineering organizations mirror that division — Conway's law at work. Operating outside that framing is what lets Bruce see the seams: **unified SRv6 forwarding** end to end rather than per-domain encapsulations, **fixed-form-factor fabrics** in roles that convention reserved for chassis, **flat low-diameter topologies** in place of hierarchy, and **the host as a first-class network participant**.
 
 He applies the same reduction to policy. There is nothing categorically distinct about a firewall, an access control list, or a Layer 3 VPN — each is a way of forwarding data *intentionally* rather than blindly. Recognizing them as one problem is what produced the **Policy Plane** and the SRv6-with-SGT architecture.
+
+// the whole previous section is a bit awkward, and its based upon notes I gave to the claude code agent. ultimately, what I'm trying to convey is my holistic/systems-thinking approach to networking, not tied to Cisco's org structure and product development silos, all of which is more aligned with hyperscaler (and network operator) thinking. Its a bit of a point about my internal-facing efforts to change the company (battling Conway's Law) to align with today's hyperscaler and AI-driven market: my advocacy for single-OS, UFA, UPM, investment in host-networking (Isovalent, SmartNICs/Scale-Up - both a work in progress), bringing future generations of silicon to market in line with competitors (so they don't eat up all our TAM), etc. Its not "because he settles an architecture on its merits first, and works out Cisco's position from there", its more that I'm deeply enmeshed in the architectures driving the industry today (and for the last decade), and because of that I've been right a lot of times about where things were going and today have a good sense for where things are headed
 
 ### Technology domains (DSE requires ≥2)
 

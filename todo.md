@@ -73,6 +73,64 @@ Checked the section against its own criteria in `AGENTS.md` (altitude + breadth 
 
 ---
 
+---
+
+## Span of Influence — second review pass (Aug 19, 2026, v2)
+
+Bruce's own review surfaced a real overclaim and a substantial content gap. Produced as `04-span-of-influence-v2.md`.
+
+- [x] **EVPN/Jeetu Patel corrected** — the draft said Bruce delivered the readout to the CPO directly. He co-prepared it with an informal PSE/DSE group; **Brook Crossman delivered it**; outcome was Jeetu committing to fix the issue with regular check-ins with Brook. Corrected in the Internal Influence table and removed the standalone (inaccurate) Jeetu Patel row from the relationships table.
+- [ ] **Propagate the same EVPN/Jeetu correction to `01-exec-summary-draft.md`** (Span of Influence Summary) **and `10-se-community-leadership.md`** (Executive Presence table and Tiger Teams table) — both currently say or imply Bruce delivered the readout directly to Jeetu Patel.
+- [x] **"How he thinks about it" rewritten** — the causal claim was wrong ("settles architecture on its merits") and has been replaced with Bruce's actual framing: deeply enmeshed in the industry's defining architectures for a decade, hence early and often right. Also now names the three co-founded tiger teams (SOSIE, UFA, UPM) explicitly and adds the in-progress SmartNIC/scale-up Ethernet advocacy.
+- [x] **UPM formally named** — the "Policy Plane" entry is now framed as the co-founded Unified Policy Model tiger team.
+- [ ] **Naming reconciliation needed:** `07-innovation.md` and `10-se-community-leadership.md` still use "Policy Plane" as the name for this work, not "Unified Policy Model (UPM)." Decide whether to rename throughout for consistency, or treat "Policy Plane" as the internal/informal name and UPM as the tiger-team's formal name (in which case both can coexist, but should say so explicitly wherever both appear).
+- [x] **Added a Customer and Partner Relationships table** — this file previously had zero external relationships despite the criterion explicitly asking for "internally *and externally* with customers and partners." Added Microsoft (Nanduri, Thareja), Oracle (Jouhari), CoreWeave (Shiv Patel), Verizon (Jalil — Fellow, Mishra — Associate Fellow, Morris), Dish/Boost (McNamara), and WWT (Clough), from Bruce's own notes.
+- [x] **Expanded the executive relationships table** with more precise/senior titles from Bruce's notes (Wollenweber, Tapaskar) and added Rakesh Chopra, Gurudatt Shenoy, Samir Parikh, and Craig Connors — the latter two marked explicitly as *developing* relationships, not established ones.
+- [x] **Added a Sales Leadership Relationships table** — Marcus Moffett, Mike Witzman, Brad Bonin.
+- [ ] **New Sponsorship candidates surfaced, not yet added to `08-sponsorship.md`:** Mohan Nanduri, Gaurav Thareja, Abderrahman Jouhari, Mike McNamara, Rakesh Chopra, Gurudatt Shenoy, Samir Parikh, Craig Connors, Marcus Moffett, Mike Witzman, Brad Bonin. Several overlap with names already in `08`'s solicitation tracker under different titles — reconcile before adding.
+- [ ] **SmartNIC / scale-up Ethernet advocacy is work in progress** — no outcome to report yet. Revisit once there's a product or roadmap commitment to point to.
+- [ ] **Samir Parikh and Craig Connors relationships are early-stage** — revisit the "developing relationship" framing as they mature; don't let it calcify into an overclaim later.
+
+---
+
+---
+
+## Span of Influence — third review pass (Aug 19, 2026, v3)
+
+Produced as `04-span-of-influence-v3.md`. This pass was mostly precision and framing fixes rather than structural ones — the section is close to final per Bruce.
+
+- [x] **Conway's Law framing corrected** — the old version claimed "like every large vendor's," which is factually wrong; Arista, Juniper, and Nokia actively exploit Cisco's siloed structure with a unified-architecture pitch. Reframed to name that competitive reality directly rather than softening it into a generic industry statement.
+- [x] **SOSIE renamed to Single-Secure-OS (SSOS)** throughout this file.
+- [ ] **Propagate the SOSIE → SSOS rename package-wide** — `01-exec-summary-draft.md`, `07-innovation.md`, `09-personal-development.md`, and `10-se-community-leadership.md` all still say "SOSIE."
+- [x] **"Host-networking air-gap" removed from this file** — Bruce coined the term and wants it mentioned once, likely in the Executive Overview, and referred to as plain "host networking" everywhere else.
+- [ ] **Propagate the air-gap wording fix package-wide** — confirm/add the single canonical mention (with attribution) in `01-exec-summary-draft.md`, and sweep `03-global-impact-v1.md` (still has "coined the term Cisco's host-networking air-gap"), `07-innovation.md`, `09-personal-development.md`, and `10-se-community-leadership.md` for the same phrase, replacing with plain "host networking."
+- [x] **UPM entry reframed** around "Cisco's identity architecture has been fragmented," with SRv6's scale/extensibility positioned as the bonus UPM ties into, per Bruce's framing.
+- [x] **"First inventor position" question answered, not just resolved** — see cover note above; kept the claim but made the reasoning explicit (inventor order reflects conception credit) rather than just asserting it matters.
+- [x] **Cross-Domain Broker/Beesely reference dropped** from the NaaS/Yukon entry — produced no outcome.
+- [x] **Executive-interlocks overclaim fixed** — "owned" → "co-owns," naming Tyler Nielson, Rob Murphy, and Masi Mohammed as co-owners.
+- [ ] **New:** Bruce to confirm the corporate-development advisory outcome with Ryan Houska and Vladimirs Sazonovs.
+- [x] **PSE review subcommittee softened** — "shaping the promotion standard" (implies authored/changed it) → "evaluating candidates against the promotion standard" (voting member applying it).
+- [x] **Cross-Organization Peer Network corrected** — removed Rob Murphy and Josh Merrill, both same-org (ASP/Web) as Bruce, which undercut the table's own "cross-organization" claim. Their contributions are still captured correctly in the Internal Influence table entries (SSOS, UPM) where they were already named. Added Brian Shlisky and Jeffry Handel, both genuinely cross-org (DSE, outside ASP/Web).
+- [x] **Signature Themes renumbered 1–6** (source had a numbering duplicate) and de-branded #1 to plain "Host networking" per the air-gap decision above.
+- [ ] **Flag, not yet resolved:** the Eric Knipp / John Dorval / Patrick Morrissey ">$1B" sales-VP row was present in the pre-v2 draft and is now missing — it was dropped during the v2 restructuring into three separate relationship tables, not deliberately cut. Confirm whether that was intentional or should be restored (it was already marked `[verify attributable by name]` before it disappeared).
+
+---
+
+---
+
+## Executive Overview — Four Big Rocks frame added (Aug 19, 2026, v1)
+
+Bruce's own synthesis: four architectural campaigns (not five — cut the silicon-cadence idea as engineering execution, not company redirection) that describe what his Span of Influence and Innovation work actually adds up to. Added as a new section in `01-exec-summary-draft-v1.md`, positioned right after "The Case in Brief" and before Career Path, so it functions as the master frame for the rest of the document.
+
+**The four rocks:** (1) Unified NOS — SSOS tiger team, SONiC as proof of concept, not the whole scope; (2) Unified Forwarding Architecture (UFA) — SRv6 end to end; (3) Unified Policy Model (UPM) — SRv6+SGT, one identity/policy model; (4) Closing the host-networking air-gap — Isovalent/Cilium as the first move, SmartNIC and scale-up Ethernet advocacy to complete it.
+
+- [x] **Synced three stale references while in this file** (all previously flagged): Candidate Portrait's topological-reasoning paragraph (removed the "like every large vendor's" inaccuracy, added the Arista/Juniper/Nokia competitive framing, matching Span v3), Span of Influence Summary paragraph (SOSIE → SSOS, added UFA/UPM by name, corrected the EVPN/Jeetu Patel attribution to match the Business/Span correction, corrected "owned" → "co-owns" the roadmap with named co-owners), Personal Development Summary (SOSIE → SSOS).
+- [x] **Consolidated "host-networking air-gap" to a single mention** — it now appears once, in Rock 4, with the coining attribution. The Quantified Highlights table's reference was rewritten to point to Rock 4 instead of repeating the branded term.
+- [ ] **Not yet done, flagged for next passes:** restructure `04-span-of-influence.md` itself explicitly around the Four Big Rocks (three of the four already exist there as tiger teams — this would make the connection explicit rather than implicit); light-touch tagging in `07-innovation.md` noting which patents/products serve which rock; decide whether Rock 4's "SmartNIC and scale-up Ethernet" advocacy should also get a one-line mention in Business Impact's "Cisco arrived late on 12.8T/25.6T/51.2T" passages, since that's the retrospective evidence the *urgency* of Rock 4 rests on even though the formal advocacy itself isn't part of the four-rocks frame.
+- [ ] **Confirm the SOSIE → SSOS and air-gap-wording sweep is now fully done in `01`** — still outstanding in `07-innovation.md`, `09-personal-development.md`, and `10-se-community-leadership.md` per the last tracker entry.
+
+---
+
 ## Package completion (blocking)
 
 - [ ] **Work through [criteria-audit.md](https://github.com/brmcdoug/DSE/blob/main/criteria-audit.md)** (Aug 18, 2026) — ten findings from the official template and Nomination Kit, now in `reference/`. Priority order at the end of that file. Highest value: the **force-multiplier framing** is the panel's own assessment structure and the package does not currently use it
