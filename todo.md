@@ -41,6 +41,38 @@ Every numbered section file (00–11) plus `AGENTS.md` and this file were review
 
 ---
 
+---
+
+## Global Impact — theater-scope correction (Aug 19, 2026, v1)
+
+Bruce's review caught something the previous drafting pass missed: several "Global Initiatives" entries were ASP+Web or Business Impact content relabeled as global, rather than genuine cross-geography reach. Produced as `03-global-impact-v1.md`.
+
+- [x] **Cut "Building the Web segment's technical foundation"** — this is literally the assigned theater, not outside it, and duplicates Business Impact's "Beyond bookings" paragraph verbatim. No content lost; it already has a proper home.
+- [x] **Cut "Architectures adopted globally — open NOS and SONiC"** — the described activity (PA/DA SONiC forum, Tapaskar/Veerachamy relationships) is ASP/Web field advocacy, not global reach. Already covered properly in Span of Influence and Innovation. Could return as a genuine one-line Global Impact entry once a real global SONiC run-rate figure exists.
+- [x] **Cut "Architecture that outlives the engagement" (SL-API)** — three named ASP+Web accounts (Microsoft, Meta, Google), no geography crossed. Pure Business Impact content, already told there in full.
+- [x] **Tightened "End-to-end SRv6"** to lead with the actual global markers (four continents, six product lines/five business entities) instead of restating Innovation/Industry Impact detail.
+- [x] **Shortened "Isovalent and Cilium evangelism"** per Bruce's instruction.
+- [ ] **Open categorization question, not resolved:** the Isovalent/Cilium entry's "global" claim rests on cross-business-entity breadth (Bell, Boost, Adobe, Digital Realty, NSight, T-Mobile — all Americas accounts), not cross-geography. That's Span of Influence's axis, not Global Impact's. Decide whether this entry belongs here at all, or should move to Span with only a cross-reference left in Global Impact.
+- [x] **Strengthened "SRv6 with SGT"** to lead with cross-vertical reach (enterprise, public sector, not just SP).
+- [x] **Reframed WWT entry** as a collaboration with Dave Clough building WWT's own bench, not a one-off workshop.
+- [x] **Rewrote the Run Rate section intro** in a positive, achievement-oriented frame (Bruce pushing the technologies forward, at global scale) rather than the defensive "does not own / does not claim" framing.
+- [ ] **New:** find NaaS citations outside North America — the entry currently has one (Rakuten, Japan) but could use more
+- [ ] **New:** find non-North America citations of large-scale pizza-box/fixed-form-factor fabric adoption for the Chassis-to-Pizzabox entry's pending marker
+
+---
+
+---
+
+## Span of Influence — scope check against AGENTS.md (Aug 19, 2026, v1)
+
+Checked the section against its own criteria in `AGENTS.md` (altitude + breadth across ≥2 domains, horizon 2–3; explicitly not revenue tables, external reach, or patent/product detail). Produced as `04-span-of-influence-v1.md`.
+
+- [x] **Cut the duplicate "Global field lead, SR-Apps" row** — near-verbatim copy of Global Impact's SR-Apps entry, and redundant within this same file with the "SR brain trust field lead" row just above it (both cover Filsfils' org, Jalapeno, hyperscale SRv6). `AGENTS.md`'s own SR-Apps worked example calls for *different facets* in each section, not the same text twice — SR-Apps' Span-of-Influence angle (co-development altitude with Filsfils' org) is already carried by "SR brain trust field lead."
+- [x] **Everything else checked out** — the four technology domains, the "how he thinks about it" framing, the executive/Fellow relationships, and the peer network are all genuinely altitude-and-breadth material, not revenue or external-reach content mislabeled. No further miscategorization found.
+- [ ] **New:** find citations of the Isovalent/Cilium evangelism reaching outside Bruce's own theater — flagged in the Global Impact pass (Aug 19, 2026) as resting entirely on cross-BU breadth rather than geography; left in Global Impact for now per Bruce's decision, but citations outside-theater would strengthen it there or justify a fuller Span entry instead
+
+---
+
 ## Package completion (blocking)
 
 - [ ] **Work through [criteria-audit.md](https://github.com/brmcdoug/DSE/blob/main/criteria-audit.md)** (Aug 18, 2026) — ten findings from the official template and Nomination Kit, now in `reference/`. Priority order at the end of that file. Highest value: the **force-multiplier framing** is the panel's own assessment structure and the package does not currently use it
