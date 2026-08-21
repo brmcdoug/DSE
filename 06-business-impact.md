@@ -54,6 +54,14 @@ Finance-provided **Americas Web/Hyperscale segment bookings** by customer (USD).
 
 **Aggregate (ASP+Web Web/Hyperscale segment, finance):** $10.9B booked 2022–2026 (table above). Tier-1 SP and Global Impact revenue tracked separately.
 
+// Total Meta Silicon-1 revenue since 2021:  $178,275,649.89 
+// Total Meta Cisco 8000 revenue since 2021:  $579,891,328.84  - I'm working to separate DC and WAN/Metro as I won't take credit for DC
+
+// Total Microsoft WAN revenue since 2021:  $306,442,256.97 
+// Total Microsoft AI/DC Cisco 8000 revenue since 2021:  $1,743,557,527.06  - I will speak with the account team to get their take on my contribution
+
+// more to come
+
 ---
 
 ### Microsoft, 2021 – Present
@@ -64,21 +72,25 @@ Finance-provided **Americas Web/Hyperscale segment bookings** by customer (USD).
 
 *Americas Web/Hyperscale segment bookings. Bruce-attributed scope: ~$2.0B DC/DCI/Metro and ~$500M WAN `[verify]`. Cisco 8000 WAN revenue specifically: ~$65.9M (FY25) and ~$60M (FY26).*
 
-Microsoft operates Azure, one of the two largest public cloud platforms in the world, and is Cisco's single largest Web/Hyperscale customer by bookings. Its AI infrastructure program spans a continent-scale super-factory WAN `[verify route-mile figure]`, backbone growth from ~1,800 toward ~3,000 nodes, and a data center estate being re-architected around disaggregated hardware and open network operating systems. Bruce has served as architect and advisor across Microsoft's Frontend DC, WAN/Metro/DCI, SONiC, SRv6, and AI-backend programs since 2021, working directly with Microsoft's network engineering leadership while account SEs drive production engagements. This account carries the pattern that recurs across the rest of this section: Bruce equips the field and the customer with architecture, education, and labs, and the revenue is realized by others running with it.
+Microsoft operates Azure, one of the two largest public cloud platforms in the world, and is Cisco's single largest Web/Hyperscale customer by bookings. Its AI infrastructure program spans a continent-scale super-factory WAN linking Fairwater DC sites in Wisconsin and Georgia, backbone growth from ~1,800 toward ~3,000 nodes, and a data center estate being re-architected around disaggregated hardware and open network operating systems. Bruce has served as architect and advisor across Microsoft's Frontend DC, WAN/Metro/DCI, SONiC, SRv6, and AI-backend programs since 2021, working directly with Microsoft's network engineering leadership while account SEs drive production engagements. This account carries the pattern that recurs across the rest of this section: Bruce equips the field and the customer with thought leadership, architecture, education, and labs, and the revenue is realized by others running with it.
 
-**SRv6 for the AI Backend and SONiC on the Cisco 8122:** Beginning in 2024, Bruce argued inside Cisco that SRv6 for the AI backend was a production requirement rather than a research topic. Cisco engineering was skeptical, and the investment case for SRv6 on SONiC was not funded. Bruce built the technical and customer evidence that changed that position and led to Cisco support in 2026. Bruce's involvement and accomplishments include:
+**SRv6 for the AI Backend and SONiC on the Cisco 8122:** Beginning in 2024, Bruce argued inside Cisco that SRv6 for the AI backend was a production requirement rather than a research topic. Cisco engineering was skeptical, and the investment case for SRv6 on SONiC was not initially funded. Bruce built the technical and customer evidence that changed that position and led to Cisco support in 2026. Bruce's involvement and accomplishments include:
 
-- Authored the SRv6 uSID multi-tenant AI fabric specification, which became the reference architecture for both the Microsoft and Oracle AI-backend engagements
+- Authored the SRv6 uSID multi-tenant AI fabric specification, which became the reference architecture for both the Microsoft and Oracle AI-backend engagements `[todo - upload a copy of the paper to Bruce's DSE onedrive folder and link here]`
 - Built and published the [srv6-msft](https://github.com/segmentrouting/srv6-msft) and [srv6-mrc-emulator](https://github.com/segmentrouting/srv6-mrc-emulator) POC repositories, which Microsoft engineers used in their own internal executive presentations
-- Built the first SRv6-for-AI elephant-flow path-pinning demonstration (Nov 2024) as an internal proof point ahead of customer-scale POCs // further developed later and leveraged in Cisco Live srv6 lab
+// the srv6-msft repo is private and shared between myself and Microsoft architects. Would it make sense to take a screenshot of the github and upload it to the DSE onedrive and link here?
+- Built the first SRv6-for-AI elephant-flow path-pinning demonstration (Nov 2024) as an internal proof point ahead of customer-scale POCs 
+// further developed later and leveraged in Cisco Live srv6 lab
 - Delivered SONiC training to Microsoft account SEs from 2024 forward, enabling the account team to scale its engagement across Microsoft's expanding SONiC use cases
-- Secured MIG commitment for SRv6 on SONiC G200 in Q1 FY26 to unblock Microsoft and Oracle testing paths
+- Secured MIG commitment for SRv6 on Cisco 8000 SONiC platforms in Q1 FY26 to unblock Microsoft and Oracle testing paths
 
-The June 2026 release of **SRv6 on SONiC for the Cisco 8122 (G200 51.2T ASIC)** (202511 codebase) was the direct product outcome. // let's adjust this to SONiC on Cisco 8000 platforms (G-series and P-series silicon)
+The June 2026 release of **SRv6 on SONiC for the Cisco 8122 (G200 51.2T ASIC)** (202511 codebase) was the direct product outcome. 
+// let's adjust this to SONiC on Cisco 8000 platforms (G-series and P-series silicon)
+// also, this point and the last bullet in the list above are redundant
 
-The architecture was validated; unfortunately the timing was not. Cisco has been late to market across successive switch-silicon generations — 12.8T, 25.6T, and 51.2T — and considering the speed at which the hyperscale market is currently moving, it removes Cisco from consideration entirely. Microsoft and Oracle had both begun SRv6-for-AI deployments on competitor hardware before Cisco shipped, on the architecture Bruce had specified. The recurring pattern is the strategic argument: articulating the superior architecture does not recover the opportunity if the silicon is not there to carry it. FY2027 TAM recovery projection on G300 102.4T silicon: `[pending finance validation]`.
+The architecture was validated; unfortunately the timing was not. Cisco has been late to market across successive switch-silicon generations — 12.8T, 25.6T, and 51.2T — and considering the speed at which the hyperscale market is currently moving, it often removes Cisco from consideration entirely. Microsoft and Oracle had both begun SRv6-for-AI deployments on competitor hardware before Cisco shipped, on the architecture Bruce had specified. The recurring pattern is the strategic argument: articulating the superior architecture does not recover the opportunity if the silicon is not there to carry it. FY2027 TAM recovery projection on G300 102.4T silicon: `[pending finance validation]`.
 
-**PhyNet, Project Octans, disaggregated T2 and Regional Hubs:** Bruce is a primary Cisco SME on Microsoft's Frontend DC (PhyNet) and DCI/Metro (Regional Network Gateway or RNG), and on Project Octans, the disaggregation of chassis-based T2 and DCI fabric layers into upper and lower pizza-box Clos tiers. Bruce's involvement and accomplishments include:
+**PhyNet, disaggregated T2 and Regional Hubs:** Bruce is a primary Cisco SME on Microsoft's Frontend DC (PhyNet) and DCI/Metro (Regional Network Gateway or RNG), and on Microsoft's initiatives to disaggregate their chassis-based T2/Spine and DCI fabric layers into upper and lower pizza-box Clos tiers. Bruce's involvement and accomplishments include:
 
 - Designed SRv6 tunnel-mesh architecture between disaggregated Regional Hubs, covering Ti-LFA, micro-loop avoidance, and selective FIB download at ~120k v4/v6 route scale // allowing Microsoft to deploy lower cost platforms with smaller fib scale
 - Solved anchor-route, DCIX T2-to-T2 bypass, and IPv4 containment requirements against sub-second convergence targets
@@ -86,13 +98,15 @@ The architecture was validated; unfortunately the timing was not. Cisco has been
   // this project was highlighted on the global PSE/DSE call (June 2026 - verify) as the 9-POCs-at-once project, where Bruce was lauded for his use of agent-assisted-work enabling him to rapidly iterate through topologies and scenarios
 - Developed and delivered the dRH SRv6-versus-VXLAN architecture comparison and a SONiC GRT lab POC to Microsoft lead architects Abhishek Dosi and Mohan Nanduri with Cisco engineering (Mar 2026)
 - Ran the SRv6 DC-frontend POC (Aug 2025) across 4PE, DCIX, and a mixed IOS-XR/SONiC fabric, demonstrating prefix-hiding at scale and SRv6-TE for inter-DC traffic
-- Generated lab scenarios — configurations, topologies, and documentation — using agent-assisted tooling, compressing POC build time and enabling MSFT architects to install the setup in their labs and demo internally
+- Generated lab scenarios — configurations, topologies, and documentation — using agent-assisted tooling, compressing POC development time and enabling MSFT architects to install the setup in their labs and demo internally
 
 **1.6T WAN backbone and SWAN:** Cisco 8000 WAN revenue at Microsoft ran ~$65.9M in FY25 and ~$60M in FY26. The relationship behind it began before Bruce's PSE promotion with the IOS-XR **SL-API SWAN controller integration** — the technique that later transferred to Meta's backbone win and Google's Alphanet program, both detailed at their own entries below — and he has sustained it since in close partnership with **Senior SE Pan Chou**, delivering SR and SRv6 tutorials to the Microsoft WAN team and running a multi-planar architecture design session with them. Pan Chou owns the account relationship; Bruce supplies the architecture and the horizon-2 guidance behind it.
+// see new $300M+ number above
 
 Bruce developed the POC labs and field training for Microsoft's 1.6T backbone redesign, modeling node growth from ~1,800 to ~3,000, prefix expansion, sub-3-second convergence targets, and ISIS planes versus geographic domains. He positioned SRv6 uSID as the option that scales for decades — native IPv6 summarization, flow-label entropy, and extension to hosts and SmartNICs — and delivered two SRv6 WAN lunch-and-learn sessions to the Microsoft WAN team (Apr–May 2025).
 
 **Financial impact:** $3.97B in Americas Web/Hyperscale segment bookings 2022–2026, of which ~$2.0B DC/DCI/Metro and ~$500M WAN fall within Bruce's engagement scope `[verify]`. Cisco 8000 WAN revenue specifically: ~$65.9M (FY25) and ~$60M (FY26). **Competitive impact:** Established SRv6-on-SONiC as a supported path on the Cisco 8000, closing the gap against competitor hardware already deployed in Microsoft's AI backend and Frontend DC, and positioned SRv6 uSID against VXLAN in the dRH frontend re-architecture. **Strategic impact:** The multi-tenant AI fabric specification became the reusable reference architecture for Oracle and CoreWeave; SRv6-on-SONiC productization opened the open-NOS AI-backend market across the entire hyperscale and neocloud segment. **Overall customer impact:** A repeatable disaggregated, open-NOS data center and backbone architecture that scales Microsoft's AI infrastructure without the route-scale and convergence ceilings of the prior design.
+// see new high level revenue numbers commented in toward the top of the document
 
 **Evidence:** [ASP Web FY20-26 Product Bookings](https://cisco.sharepoint.com/:x:/r/sites/GSPWEB-SalesandFinance/Shared%20Documents/ASP%20Web%20Finance/Adhoc/Q4%2726/ASP%20Web%20FY20-26%20Product%20Bookings.xlsx?d=wf735385979d541b6bdda11cfd8c7993f&csf=1&web=1&e=LUS3pf); GitHub `segmentrouting/srv6-msft`, `segmentrouting/srv6-mrc-emulator`; vault `customers/Microsoft AI-Backend.md`, `customers/Microsoft SRv6.md`, `customers/MSFT octans-drh.md`, `customers/Microsoft-WAN.md`, `innovation/SRv6-MultiTenant-Design-rev3.md`; Talent Assessment 1HFY26; published SWAN architecture reference — [ACM 10.1145/3603269.3604860](https://dl.acm.org/doi/pdf/10.1145/3603269.3604860) `[confirm this paper documents the SL-API/SDN forwarding technique Bruce pioneered]`.
 
@@ -102,6 +116,7 @@ The productization of SRv6-on-SONiC and the multi-tenant specification are detai
 ---
 
 ### Meta, 2021 – Present
+// see updated revenue numbers commented in at the top of document
 
 | FY22  | FY23  | FY24 | FY25  | FY26   | **Total**  |
 | ----- | ----- | ---- | ----- | ------ | ---------- |
@@ -109,7 +124,7 @@ The productization of SRv6-on-SONiC and the multi-tenant specification are detai
 
 *Americas Web/Hyperscale segment bookings. First BBF production order — $17M booked, Feb 2026 `[verify]`.*
 
-Meta operates one of the largest private backbones in the world, connecting a global data center estate that serves more than three billion daily users. Cisco had been displaced from Meta's backbone and was competing to re-enter against Arista and Broadcom Jericho silicon. Bruce never presented to Meta. He served as internal strategy consultant from 2021, equipping the account team with the architecture, the technique, and the labs, and they carried it to the customer themselves — the clearest instance in this package of impact delivered entirely through other people.
+Meta operates one of the largest private backbones in the world, connecting a global data center estate that serves more than three billion daily users. Cisco had been displaced from Meta's backbone and was competing to re-enter against Arista and Broadcom Jericho silicon. Bruce has served the Meta account team as architecture and strategy consultant from 2021, equipping the account team with the architecture, the technique, and the labs, and they carried it to the customer themselves — enormous revenue impact delivered entirely through other people.
 
 **Backbone Fabric (BBF) re-entry:** In April 2024 Meta opened what became a roughly two-year Express Backbone / Backbone Fabric evaluation cycle. Cisco needed to prove P200 silicon in an account where Arista was incumbent and where the customer validates independently rather than accepting vendor test results. Bruce's involvement and accomplishments include:
 
@@ -147,12 +162,11 @@ Oracle Cloud Infrastructure is the fastest-growing of the major public clouds an
 
 **SRv6 for AI — Acceleron and MRC:** Oracle needed N-diverse path selection with multipath reliable connection (MRC) running on GPU hosts in their Stargate and Abilene DCs, with source routing pushed to the NIC rather than computed in the fabric. Bruce's involvement and accomplishments include:
 
-- Serves as SONiC-on-Cisco-8000 SME for the wider OCI account engagement, and as lead architect for the SRv6-for-AI program — which he has led from its first education and mindshare workshop in December 2024 to the present
+- Serves as SONiC-on-Cisco-8000 SME for the wider OCI account engagement, and as lead architect for the SRv6-for-AI program since December 2024 
 - Opened the general Cisco-as-credible-vendor conversation for OCI AI backend fabrics at OCP in October 2024
 - Delivered the SRv6 customer requirements document, the VXR lab, the SRv6 SONiC image, and the SRv6 GRT implementation that made the architecture testable
 - Conducted low-diameter topology studies (Hoffman-Singleton, PolarFly) with OCI architect Christian Martin (Jun 2024 — late 2025), producing the lab and design document evaluating fabric diameter against GPU-scale requirements
 - Built and demonstrated an IOS-XR based SRv6 uSID AI-backend demonstration for Oracle VP Jag Brar and his architecture team (Jan 2025)
-- Took SRv6 ownership on the 1,000-GPU POC (Aug 2025), having entered the engagement as SONiC advisor
 - Delivered a three-hour onsite SRv6 tutorial to Oracle engineering (2025) and a three-part follow-on series (Mar, Apr, and Jun 2026) and supported the SE team on SONiC 8122 lab configurations (Jun 2025)
 - Served as consultant and software advisor on Oracle's Solar-OS (SONiC on Oracle Secure Linux), including the April 2025 EBC with the Cisco SONiC and Solar-OS teams
 

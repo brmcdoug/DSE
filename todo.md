@@ -131,6 +131,73 @@ Bruce's own synthesis: four architectural campaigns (not five — cut the silico
 
 ---
 
+---
+
+## Executive Overview — fourth pass (Aug 19, 2026, v2)
+
+Produced as `01-exec-summary-draft-v2.md`.
+
+- [x] **Reframed the "unusual record" opening** — the previous version led with "a significant share was earned without Bruce in the room," which understated how genuinely customer-facing he is. Now leads with both truths: he's deeply customer-facing and enjoys it, *and* he's a force multiplier whose tools and knowledge transfer produces wins he's not present for. The Meta example now illustrates the second mode rather than standing in for the whole record.
+- [x] **Big Rocks closing paragraph rewritten** — the old framing ("persuading business entities Bruce does not belong to... no organizational authority") was wrong on the facts: Bruce is in sales and doesn't belong to any BE. Corrected to the real story: building relationships outside his traditional MIG alignment, and — the stronger point — that he already assumed DSE-level scope and authority before having the title, which is literally what the promotion standard asks for.
+- [x] **Candidate Portrait tightened**: "why his positions survive customer scrutiny" → "why he is so credible with the most technologically sophisticated customers in the world"; "rare" → **"unique"**.
+- [x] **Career Path date corrected** — Mayor Pro Tem was a fixed 2020–2021 term, not open-ended "since January 2020."
+- [ ] **Propagate the Mayor Pro Tem date correction** — `10-se-community-leadership.md` and any other file citing "Mayor Pro Tem since January 2020" or similar open-ended phrasing need the same fix (it's a two-year term, not an ongoing role).
+- [ ] **Quantified Highlights table not yet updated** — Bruce is still reviewing Business Impact (through Oracle as of this pass) and asked for a full revenue/major-item review before this table gets touched. Holding until that review is complete rather than updating piecemeal.
+- [ ] **Flag, not resolved:** Rock 1 now says "Cisco 8000" (Bruce's edit) while the Quantified Highlights table two sections later still says "Cisco 8122" specifically, as do `05`, `06`, and `07`. These may both be correct at different levels of precision (8000 is the platform family, 8122 the specific box) — confirm whether that's intentional or whether one should change to match the other.
+
+---
+
+---
+
+## Business Impact — first review pass, through Microsoft (Aug 19, 2026, v1)
+
+Bruce's review is in progress and has reached Oracle; produced as `06-business-impact-v1.md`. Only the top framing and the Microsoft entry were edited — Meta through the Vault Harvest Log are carried forward unchanged pending his continued review.
+
+- [x] **Same customer-facing reframe as the Executive Overview** applied to the top-of-section framing paragraph — Bruce is genuinely customer-facing, and is also a force multiplier; the two aren't in tension.
+- [x] **srv6-msft repo accuracy fix** — the repo is private, shared only with Microsoft architects, not public like srv6-mrc-emulator. The body previously implied both were "published," and the private one was hyperlinked as if publicly accessible. Corrected, and answered Bruce's question directly: yes, a screenshot in the DSE OneDrive evidence folder is the right move since a reviewer can't reach a private repo — added as an action item.
+- [x] **New evidence added:** the "9-POCs-at-once" recognition on the global PSE/DSE call, crediting Bruce's agent-assisted development speed — folded into the dRH bullet it was attached to.
+- [x] **Microsoft platform naming generalized** from "Cisco 8122 (G200 51.2T ASIC)" to "Cisco 8000 platforms (G-series and P-series silicon)" throughout the Microsoft entry, and trimmed the redundancy between the last bullet and the paragraph announcing the June 2026 release.
+- [x] **Cisco 8000 vs 8122 — now resolved**, at least for Microsoft: Bruce's own instruction settles the ambiguity flagged in the last Exec Overview pass. **Propagate this generalization**: `01-exec-summary-draft-v2.md`'s Quantified Highlights table, `05-industry-impact.md`, `07-innovation.md`, and the Summary Table at the bottom of this same file (already fixed there) all still say "8122" in places — sweep for consistency once Bruce confirms this should apply package-wide and not just to Microsoft.
+- [x] **Microsoft WAN revenue updated** with Bruce's precise figure — Cisco 8000 WAN revenue has totaled $306.4M since 2021 (previously only the FY25/FY26 individual-year figures were shown). Applied to the italic scope line, the "1.6T WAN backbone and SWAN" paragraph, and the Financial Impact line.
+- [ ] **New precise figures provided, not yet integrated into body text (see the bracketed note at the bottom of the Revenue Summary table for exact numbers):**
+  - Meta Silicon One since 2021: $178,275,649.89
+  - Meta Cisco 8000 since 2021: $579,891,328.84 — **Bruce is separating DC from WAN/Metro and will not claim credit for the DC portion**; hold until that split is done
+  - Microsoft AI/DC Cisco 8000 since 2021: $1,743,557,527.06 — **Bruce to confirm his attributable contribution with the account team** before this is stated as his scope (vs. the current ~$2.0B placeholder)
+- [ ] **Reconciliation flag:** the Microsoft entry's italic scope line still says "~$500M WAN" as a placeholder estimate, sitting right next to the new, more precise "$306.4M since 2021" actual figure — these aren't the same thing (estimate vs. actual) and should be reconciled once Bruce is ready, rather than left as two different numbers for the same claim.
+- [ ] **Not yet reached:** Meta, Oracle, CoreWeave, Bell, Google, AWS, Verizon, Akamai, all Additional/Out-of-Territory entries, the Summary Table, and the Vault Harvest Log are unchanged from the prior draft. Continue the review from Oracle onward next pass.
+
+---
+
+---
+
+## Executive Overview — diff/reconciliation pass (Aug 19, 2026, v3)
+
+Bruce flagged that a direct-edit pass may not have been fully captured in v2 — confirmed, and re-diffed the whole file line by line against his pasted version rather than re-scanning for `//` comments only. Produced as `01-exec-summary-draft-v3.md`.
+
+- [x] **Missed edit found and applied:** the "Identify new technology and industry trends" row — Bruce had replaced "Contested Amazon's published flat-fabric architecture in 2026" with the 2021 Cilium/eBPF recognition and Isovalent advocacy. v2 still had the old sentence; this was a genuine miss, not a judgment call.
+- [x] **Two internal inconsistencies found and fixed (not Bruce edits — my own incomplete propagation):** Span of Influence Summary's "Four technology domains" sentence still said "the Policy Plane" instead of "the Unified Policy Model," and the Leadership Summary bullet still said "Mayor Pro Tem since 2020" instead of the corrected 2020–2021 term fixed elsewhere in the same file.
+- [ ] **Flagged, not changed:** the Span of Influence Summary paragraph ("None of that influence came with authority attached...") uses the same framing Bruce corrected in the Big Rocks closing paragraph last pass, but this specific occurrence wasn't commented on this round. Confirm whether it should get the same treatment for tone consistency, since it now reads differently from the paragraph just above it.
+- [x] **Confirmed no other misses** — diffed Global Impact, Industry Impact, Business Impact, Innovation, Personal Development, Becoming a DSE, Direct Leader, and Sponsorship summaries word-for-word against the pasted version; all matched v2 exactly.
+
+---
+
+---
+
+## Executive Overview — targeted comment pass (Aug 19, 2026, v4)
+
+Bruce's instruction this round was explicit: touch only paragraphs with a `//` comment, preserve everything else exactly as pasted (including his own direct edits made without comments — the Five domains update, the Leadership bullet rewrites, dropping "Octans" from Microsoft's row, etc.). Produced as `01-exec-summary-draft-v4.md`.
+
+- [x] **"Two things about how he works" paragraph 1** — de-heavied per Bruce's note; now leads with "Bruce loves working directly with customers" rather than framing the force-multiplier pattern as the headline fact.
+- [x] **Big Rocks closing paragraph** — replaced "he assumed the scope and the authority a DSE is expected to carry" with lighter language ("took the initiative," "collaborating with peers... to build each into a real, ongoing effort").
+- [ ] **Open question, not resolved:** Bruce deleted the SD-WAN patent sentence (12,120,027) from the Span of Influence Summary and noted he was lead author/filer on it — meaning it may be a weaker "outside-BU credited him" example than patent **12009998** (*Core Network Support for Application-Requested Network Service Level Objectives*, filed by SD-WAN engineering with Praharaj as lead per `07-innovation.md`'s filer note), which he offered as an alternative if a patent citation is wanted here. Left the sentence out entirely for now, per the letter of his edit — confirm whether either patent should be reintroduced in this summary paragraph, and whether the "first inventor position" claim on 12,120,027 in `04-span-of-influence.md` and `07-innovation.md` needs a second look given he says he was lead author on it (that actually *supports* the "he originated it" reading, but worth him confirming the framing still lands the way he wants there).
+- [x] **Standards-body paragraph deleted** from Industry Impact Summary, per Bruce's note that he'd already asked for this and it may not have been carried through.
+- [x] **"Beyond bookings" paragraph reframed** — "He does not claim the revenue" replaced with Bruce's suggested positive framing (Cisco's Web revenue growth, Bruce built the foundation).
+- [x] **"Stated plainly" paragraph reframed** — confirmed Bruce's read of the intent (the revenue is real and could be larger with better silicon timing) and rewrote the opening to say that directly instead of the unexplained "Stated plainly:" lead-in.
+- [x] **Innovation Summary opener rewritten** — "operator empathy rather than product strategy" (which didn't reflect how Bruce describes his own process) replaced with "mental connections and insights he reaches before others do."
+- [x] **Personal Development's "Two development areas" paragraph deleted**, per Bruce's request.
+
+---
+
 ## Package completion (blocking)
 
 - [ ] **Work through [criteria-audit.md](https://github.com/brmcdoug/DSE/blob/main/criteria-audit.md)** (Aug 18, 2026) — ten findings from the official template and Nomination Kit, now in `reference/`. Priority order at the end of that file. Highest value: the **force-multiplier framing** is the panel's own assessment structure and the package does not currently use it
