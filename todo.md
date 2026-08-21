@@ -198,6 +198,38 @@ Bruce's instruction this round was explicit: touch only paragraphs with a `//` c
 
 ---
 
+---
+
+## Executive Overview — fifth pass (Aug 19, 2026, v5)
+
+Produced as `01-exec-summary-draft-v5.md`. All of Bruce's uncommented direct edits carried forward verbatim (date changes to 2016, the Rock 1/2/3/4 trims and additions, the rewritten Global Impact and Industry Impact paragraphs, the Becoming a DSE rewrite, etc.) — one silent typo fix only ("Telsta" → "Telstra").
+
+- [x] **Candidate Portrait's "how he thinks about it" paragraph cut** — this was a genuine judgment call, not a comment resolution. It substantially restated ground the Big Rocks section now covers in more detail with the tiger teams named explicitly; keeping both meant hitting the same point twice in quick succession. Cut rather than trimmed.
+- [x] **"Carry his architecture" clarified** in Industry Impact Summary — now explicitly states operators presenting ideas/concepts Bruce heavily influenced at major conferences as their own, per his clarifying question.
+- [x] **Business Impact intro replaced** — Bruce asked for a suggested alternative or a cut; wrote a new opener leading with the actual numbers ($10.9B / $5.3B) instead of an abstract "pattern" statement. Worth Bruce's own read since I made a specific creative call here rather than just following an instruction.
+- [x] **Becoming a DSE closing reframed around "force multiplier"** — replaced the "most satisfying" framing with an explicit force-multiplier statement carrying the same underlying content (account teams, SEs, operators), tying back to the DSE criteria's own language used throughout the package.
+
+---
+
+---
+
+## Span of Influence — fourth pass (Aug 19, 2026, v4)
+
+Produced as `04-span-of-influence-v4.md`.
+
+- [ ] **Version-drift flag for Bruce:** this pass's pasted document had reverted to a pre-v3 state on several points already fixed in v3 — the "like every large vendor's" line, the FY26 roadmap "owned" vs "co-owns" wording, "shaping the promotion standard," Rob Murphy/Josh Merrill still on the Cross-Org peer table, the air-gap wording rule, and "SOSIE" surviving in the transition table and Signature Themes even though the rest of that same document correctly said "SSOS." All reapplied in v4. Worth checking which local copy is the working one before the next round, so fixes don't keep getting lost.
+- [x] **Conway's Law / "like every large vendor's" refixed** — same correction as v3 (removed the inaccurate claim, named Arista/Juniper/Nokia's exploitation, softened the framing so it doesn't read as blaming current Cisco execs for an inherited structure).
+- [x] **New todo, per Bruce's request:** flagging that the Executive Overview restates significant Span of Influence detail (the Isovalent/Cilium paragraph is the clearest example) — this points to the Exec Overview needing a tightening pass for brevity once the body sections are more settled, rather than Span needing to change. **Action:** revisit `01-exec-summary-draft-v5.md` for a length/redundancy pass once more sections are stable.
+- [x] **"First-named inventor" claim on patent 12,120,027 confirmed incorrect by Bruce** — removed the ordinal claim from this file (now just "a named inventor... filed by SD-WAN engineering, a business entity he does not belong to," no "first" and no "reflects conception" reasoning). **New: audit `07-innovation.md`'s patents table and prose for the same claim** — the table's co-inventor listing doesn't explicitly say "first" but check the actual inventor order is represented accurately. Confirmed already absent from `01-exec-summary-draft` (removed in an earlier pass and not reintroduced).
+- [x] **UPM/SGT entry** — Bruce's own edits preserved (Josh Merrill named as UPM co-founder, Verizon/AT&T/T-Mobile mindshare-building outcome replacing the narrower Verizon-only sentence); fixed a duplicate "the the" typo.
+- [x] **Executive interlocks "owned" → "co-owns"** — refixed (see version-drift note above).
+- [x] **PSE review subcommittee "oversell" wording refixed** — refixed (see version-drift note above).
+- [x] **Cross-Org Peer Network — Rob Murphy and Josh Merrill removed again** (same-org as Bruce, undercuts the table's cross-org claim; see version-drift note).
+- [x] **Air-gap wording refixed** in Signature Themes / new Four Rocks section (see version-drift note); also silently corrected "SOSIE" → "SSOS" in the transition table and theme list for internal consistency, since the rest of the document already used SSOS correctly.
+- [x] **"Signature Internal Influence Themes" replaced with "The Four Rocks, from the Inside"** — collapsed from 5 items to 4, aligned names and order exactly with the Executive Overview's Four Big Rocks, and compressed each to a single outcome line rather than a full paragraph, since the full explanation now lives in the Exec Overview and doesn't need restating here.
+
+---
+
 ## Package completion (blocking)
 
 - [ ] **Work through [criteria-audit.md](https://github.com/brmcdoug/DSE/blob/main/criteria-audit.md)** (Aug 18, 2026) — ten findings from the official template and Nomination Kit, now in `reference/`. Priority order at the end of that file. Highest value: the **force-multiplier framing** is the panel's own assessment structure and the package does not currently use it

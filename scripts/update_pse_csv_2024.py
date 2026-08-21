@@ -135,7 +135,7 @@ ROWS_2024_PLUS = [
     ("Nov-25", "BGP NFT/Ethereum CPOL filing", "medium", "innov", "", "collaboration with CAI SE John Cuneo, Ent DSE Brian Shlisky. CIPOL/Patent was denied."),
     ("Nov-25", "SRF LTRMSI 3000 part 2 - Bob loved the pytorch plugin", "High", "lead, biz", "", "delivered Cisco live lab training to Web SE team - continued development of SRv6, cloud native, sonic, and AI knowledge within the SE community"),
     ("Nov-25", "Isovalent and Telcos - Cilium SP business case/opportunity tracker", "High", "biz, span, global", "", "Cilium-SP use cases and opportunity/TAM tracker capturing opportunities from around the globe"),
-    ("Dec-25", "ISE fully on board with SRv6 SGT and unified policy model", "High", "Innov, Span, Global, Biz", "", ""),
+    ("Dec-25", "ISE fully on board with SRv6 SGT and Secure Network Policy Framework", "High", "Innov, Span, Global, Biz", "", ""),
     ("Dec-25", "Pinnacle Award!", "High", "Innov, Span, Global, Biz", "", ""),
     ("Dec-25", "SRv6 DC workshop - hosted and organized workshop for bay area SEs and BU - followup from April with latest updates (80 attendees)", "High", "Span, Biz", "", ""),
     ("Dec-25", "STDLP - Satoshi Yamashita - my capstone project introduction", "High", "Lead", "", "mentor Satoshi through STLDP program"),
