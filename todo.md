@@ -1,16 +1,75 @@
 # DSE Package — TODO
 
+## Aug 21, 2026 — end-of-session state
+
+**Page count: 56 total, 3 of them TOC → 53 counted. Limit is 50, so ~3 pages still to find.** Started the session at 97.
+
+Build command sequence (both scripts are idempotent; re-run after any `.md` edit):
+
+```
+scripts/md_to_docx.py <section>.md Bruce-McDougall-DSE-Package-Aug2026.docx \
+    --after "<H1 anchor>" --before "<next H1>" --title "<section title>"
+scripts/format_docx.py Bruce-McDougall-DSE-Package-Aug2026.docx \
+    --margin 0.9 --body-pt 10 --toc-levels 1-2
+```
+
+Then in Word: **Ctrl+A, F9** to refresh the TOC before reading the page count.
+
+**Where the last ~3 pages are most likely to come from, easiest first:**
+
+1. **Business Impact short-form entries** (~1,400 words across 12 entries). Videotron, T-Mobile, Boost, Applied Digital, Digital Realty, Comcast, Groq, Lambda Labs, Salesforce, Texas Instruments, Fiserv, NYU/CMU. Several carry no revenue beyond `[verify]`. Collapsing the six weakest into one table would likely cover the whole gap in a single move.
+2. **Leadership §9, Enablement Outcomes** (9 rows, ~184 words + table overhead). Every row cross-references an outcome documented in Business, Global, or Span. Recommended *keep* — it is the clearest single artifact of the force-multiplier claim — but it is the obvious next cut if needed.
+3. **Exec Overview Quantified Highlights** (6 rows). Duplicates figures that appear in the category summaries below it. Cheap to cut, but it is also the densest evidence-per-line block in the package.
+
+**Do not re-cut:** the segment revenue table (Exec Overview only), the Innovation summary table (Exec Overview only), and the CIPOL disclosure table (Appendix, excluded from the limit). Those consolidations are already done — re-check before assuming a duplicate.
+
+## Aug 21, 2026 — EBC and customer-presentation tracker
+
+Entries removed from `06-business-impact.md` as standalone writeups (no revenue attached) and parked here. Several are worth naming in Leadership or Industry Impact as EBC/speaking volume — Brenden cites **47 EBCs** as a headline number, and a comparable count for Bruce would carry more weight than the individual writeups did.
+
+| Customer | Event | Date | Bruce's role |
+| :--- | :--- | :--- | :--- |
+| Viasat | EBC — open-source controller thread | Oct 2024 | SRv6 service-function-chaining architecture with Don Ewald (May 2024); slicing and service-chain demo with Chris Olson (Jul 2024) |
+| eBay | SONiC EBC | Mar 2025 | Led the EBC with account team member Ken Truong, supporting eBay's open-NOS evaluation |
+| Voltage Park | EBC, plus OCP 2024 kickoff cohort | Jan 2024 | Presented SRv6-for-data-center to lead architect Drew Pletcher; repeated at OCP alongside Microsoft, Oracle, Bell, and Cloudflare. Did not convert |
+| Visa | Isovalent introduction; SR/SRv6 + Jalapeno RPO demo | 2025 | Financial services pipeline `[verify]` |
+| Disney | Pair of SR-MPLS architecture discussions | 2025 | Micro-segmentation and DPU considerations |
+| The Trade Desk | SONiC and IOS-XR platform diversity evaluation | 2024 | Ad-tech data center at neo-cloud scale |
+| Morgan Stanley | SRv6 architecture presentation | 2023 | Financial services enablement |
+| NSight *(regional SP)* | Cilium, Kubernetes, and AI-services architecture for the packet core team | 2025–2026 | Small engagement, but one only Bruce could staff. **The "sole Cilium and Kubernetes SME across Americas SP and Web" claim has been preserved** in the Out-of-Territory intro paragraph |
+
+- [ ] **Decide where the EBC count lands.** Compile the full EBC and customer-presentation total (these eight plus the ones still written up in `06`, plus anything not yet captured) and put the number in Leadership alongside the SE enablement figures.
+
+## Aug 21, 2026 — Bruce to compile
+
+- [ ] **`srv6-msft` screenshot (Bruce's question — yes, do this).** The repo is private, so the live link is now removed from `06`. Take a screenshot of the repo and upload it to the DSE OneDrive folder, then link the screenshot. A 404 in the package is worse than no link, and the official rules require working hyperlinks.
+- [ ] **Confirm the "nine POCs at once" recognition date** — currently `[verify date — June 2026]` for the global PSE/DSE call callout in the Microsoft entry.
+- [ ] **Microsoft $1.744B attribution** — Bruce is speaking with the account team about his contribution to the Cisco 8000 AI/DC figure. Marked `[Bruce to confirm attribution with account team]` in `06` and needs resolution before submission; it is the single largest number in the package attributed to Bruce's own scope.
+- [ ] **Meta / AWS Silicon One $178.3M** *(clarified Aug 21)* — AWS bought only a few hundred thousand dollars of Silicon One; the analysis, feature, and SDK work built for AWS was inherited by the Meta Silicon One engagement, which booked **$178.3M since 2021**. Written up as a portability story in the **AWS** entry (where the work happened) and cross-referenced in Meta's scope line. Confirm the figure with finance, and confirm the two entries are not read as two separate $178.3M.
+
+- [ ] **SE enablement inventory (Bruce).** The Leadership Summary had over-rotated on mentoring; SE enablement is now the lead bullet but needs real numbers. Compile the full list with dates and attendance/scores where available:
+  - **Tech Elevate** sessions — which theaters, which years, topics, attendance
+  - **Stay Ready Friday** — the custom Web-team Cilium and SRv6 training sessions
+  - SRv6 DC/AI workshops (~80 attendees across Sales and BU — confirm)
+  - dCloud lab catalog — titles, publication dates, usage counts if dCloud reports them
+  - Anything else in the same family: bootcamps, VTs, roadshow enablement workshops, GSX
+  Placeholder marker `[Bruce to supply full SE enablement list and attendee counts]` is live in `01-exec-summary.md` Leadership Summary until this lands. Slide 22 names *"event registration/attendees and speaker score"* as requested evidence, so numbers here are worth chasing.
+
+- [ ] **Candidate statement (Becoming a DSE)** — restructured Aug 21 onto Bruce's own who / why / how spine. Personal section; needs his voice on a pass, not more drafting from me.
+
+- [ ] **Global Product and Technology Run Rate table (`03`)** — kept per Bruce's note, but five of six rows are still `[pending]`. Either source the figures (SR/SRv6, Cisco 8000, SONiC, Cilium since acquisition, NaaS pipeline) or cut the table before submission; a table of pending values reads as unfinished.
+
 ## Aug 19, 2026 (evening) — Package-wide scaffolding migration
 
 Removed the scope/criteria header blockquote, "Explicitly Excluded" tables, "Vault Harvest Log" blocks, and Open Items sections from **every remaining numbered file** (`01, 02, 03, 04, 07, 08, 09, 10`) — same treatment already applied to `05` and `06` earlier today. `AGENTS.md`'s "Section criteria" section already documents scope/routing for each file in more detail, so nothing is lost; `00-overview-themes.md` and `11-appendix.md` were left untouched (00 is brainstorm material with no such scaffolding; 11 was already clean). All items below are migrated from those files' Open Items blocks, consolidated with what already existed here.
 
 **Cross-file accuracy fixes (same false claim, found in five places):** The `draft-srv6ops-addressing-guidelines` IETF editor credit — already removed from `05-industry-impact.md` in an earlier pass this session — was still live in **`01-exec-summary-draft.md`** (Quantified Highlights table's "Standards" row, and the Industry Impact Summary paragraph) and **`03-global-impact.md`** (2023–2025 transition-table row) and **`04-span-of-influence.md`** (SR brain trust field lead row). All four fixed to match `05`: Bruce is credited as editor/contributor on four *Segment Routing Part III: SRv6* book chapters (contributor acknowledgements, not cover author), with no standalone IETF draft-editor claim anywhere in the package now. **Recommend a final repo-wide text search for "draft-srv6ops" before submission**, in case it surfaces in a file not touched today (`00`, `08`, `11`, or the vault).
 
-**O'Reilly course title** — corrected from the stale "Open Source Labbing" to the actual title, **Build Your Own Networking Lab**, in `09-personal-development.md` and `10-se-community-leadership.md` (already fixed in `05` earlier this session).
+**O'Reilly course title** — corrected from the stale "Open Source Labbing" to the actual title, **Build Your Own Networking Lab**, in `09-personal-development.md` and `10-leadership.md` (already fixed in `05` earlier this session).
 
 **Pinnacle Award duplicate detail** — the "~40-person team, almost entirely engineering, Bruce and Craig Hill the only two from sales" breakdown was stated in full in `01`, `03`, and originally `05`. Left the full version in the Executive Overview (Candidate Portrait and Quantified Highlights); trimmed `03`'s "Cisco's own attribution" note to a one-line pointer back to it. Innovation (`07`) still states it in full in its own flagship entry, which is its primary home per the routing table — that one's correctly placed, not a duplicate.
 
-**One item deliberately left unresolved, flagged rather than silently changed:** `10-se-community-leadership.md` had an inline `//` comment on the EVPN Least Complexity tiger team row — good color about the challenge of surfacing an "obvious to engineers" problem to senior leadership — that would improve that entry but requires turning a table row into prose to use properly. Not applied; worth a look next time that section's open.
+**One item deliberately left unresolved, flagged rather than silently changed:** `10-leadership.md` had an inline `//` comment on the EVPN Least Complexity tiger team row — good color about the challenge of surfacing an "obvious to engineers" problem to senior leadership — that would improve that entry but requires turning a table row into prose to use properly. Not applied; worth a look next time that section's open.
 
 **02's "Package criteria / section description" block** (the official Direct Leader Recommendation guidance, quoted from the Nomination Kit) was removed the same way as the others — full text preserved in `AGENTS.md`'s Section 2 criteria if it's ever needed for reference.
 
@@ -80,10 +139,10 @@ Checked the section against its own criteria in `AGENTS.md` (altitude + breadth 
 Bruce's own review surfaced a real overclaim and a substantial content gap. Produced as `04-span-of-influence-v2.md`.
 
 - [x] **EVPN/Jeetu Patel corrected** — the draft said Bruce delivered the readout to the CPO directly. He co-prepared it with an informal PSE/DSE group; **Brook Crossman delivered it**; outcome was Jeetu committing to fix the issue with regular check-ins with Brook. Corrected in the Internal Influence table and removed the standalone (inaccurate) Jeetu Patel row from the relationships table.
-- [ ] **Propagate the same EVPN/Jeetu correction to `01-exec-summary-draft.md`** (Span of Influence Summary) **and `10-se-community-leadership.md`** (Executive Presence table and Tiger Teams table) — both currently say or imply Bruce delivered the readout directly to Jeetu Patel.
+- [ ] **Propagate the same EVPN/Jeetu correction to `01-exec-summary-draft.md`** (Span of Influence Summary) **and `10-leadership.md`** (Executive Presence table and Tiger Teams table) — both currently say or imply Bruce delivered the readout directly to Jeetu Patel.
 - [x] **"How he thinks about it" rewritten** — the causal claim was wrong ("settles architecture on its merits") and has been replaced with Bruce's actual framing: deeply enmeshed in the industry's defining architectures for a decade, hence early and often right. Also now names the three co-founded tiger teams (SOSIE, UFA, UPM) explicitly and adds the in-progress SmartNIC/scale-up Ethernet advocacy.
 - [x] **UPM formally named** — the "Policy Plane" entry is now framed as the co-founded Unified Policy Model tiger team.
-- [ ] **Naming reconciliation needed:** `07-innovation.md` and `10-se-community-leadership.md` still use "Policy Plane" as the name for this work, not "Unified Policy Model (UPM)." Decide whether to rename throughout for consistency, or treat "Policy Plane" as the internal/informal name and UPM as the tiger-team's formal name (in which case both can coexist, but should say so explicitly wherever both appear).
+- [ ] **Naming reconciliation needed:** `07-innovation.md` and `10-leadership.md` still use "Policy Plane" as the name for this work, not "Unified Policy Model (UPM)." Decide whether to rename throughout for consistency, or treat "Policy Plane" as the internal/informal name and UPM as the tiger-team's formal name (in which case both can coexist, but should say so explicitly wherever both appear).
 - [x] **Added a Customer and Partner Relationships table** — this file previously had zero external relationships despite the criterion explicitly asking for "internally *and externally* with customers and partners." Added Microsoft (Nanduri, Thareja), Oracle (Jouhari), CoreWeave (Shiv Patel), Verizon (Jalil — Fellow, Mishra — Associate Fellow, Morris), Dish/Boost (McNamara), and WWT (Clough), from Bruce's own notes.
 - [x] **Expanded the executive relationships table** with more precise/senior titles from Bruce's notes (Wollenweber, Tapaskar) and added Rakesh Chopra, Gurudatt Shenoy, Samir Parikh, and Craig Connors — the latter two marked explicitly as *developing* relationships, not established ones.
 - [x] **Added a Sales Leadership Relationships table** — Marcus Moffett, Mike Witzman, Brad Bonin.
@@ -101,9 +160,9 @@ Produced as `04-span-of-influence-v3.md`. This pass was mostly precision and fra
 
 - [x] **Conway's Law framing corrected** — the old version claimed "like every large vendor's," which is factually wrong; Arista, Juniper, and Nokia actively exploit Cisco's siloed structure with a unified-architecture pitch. Reframed to name that competitive reality directly rather than softening it into a generic industry statement.
 - [x] **SOSIE renamed to Single-Secure-OS (SSOS)** throughout this file.
-- [ ] **Propagate the SOSIE → SSOS rename package-wide** — `01-exec-summary-draft.md`, `07-innovation.md`, `09-personal-development.md`, and `10-se-community-leadership.md` all still say "SOSIE."
+- [ ] **Propagate the SOSIE → SSOS rename package-wide** — `01-exec-summary-draft.md`, `07-innovation.md`, `09-personal-development.md`, and `10-leadership.md` all still say "SOSIE."
 - [x] **"Host-networking air-gap" removed from this file** — Bruce coined the term and wants it mentioned once, likely in the Executive Overview, and referred to as plain "host networking" everywhere else.
-- [ ] **Propagate the air-gap wording fix package-wide** — confirm/add the single canonical mention (with attribution) in `01-exec-summary-draft.md`, and sweep `03-global-impact-v1.md` (still has "coined the term Cisco's host-networking air-gap"), `07-innovation.md`, `09-personal-development.md`, and `10-se-community-leadership.md` for the same phrase, replacing with plain "host networking."
+- [ ] **Propagate the air-gap wording fix package-wide** — confirm/add the single canonical mention (with attribution) in `01-exec-summary-draft.md`, and sweep `03-global-impact-v1.md` (still has "coined the term Cisco's host-networking air-gap"), `07-innovation.md`, `09-personal-development.md`, and `10-leadership.md` for the same phrase, replacing with plain "host networking."
 - [x] **UPM entry reframed** around "Cisco's identity architecture has been fragmented," with SRv6's scale/extensibility positioned as the bonus UPM ties into, per Bruce's framing.
 - [x] **"First inventor position" question answered, not just resolved** — see cover note above; kept the claim but made the reasoning explicit (inventor order reflects conception credit) rather than just asserting it matters.
 - [x] **Cross-Domain Broker/Beesely reference dropped** from the NaaS/Yukon entry — produced no outcome.
@@ -127,7 +186,7 @@ Bruce's own synthesis: four architectural campaigns (not five — cut the silico
 - [x] **Synced three stale references while in this file** (all previously flagged): Candidate Portrait's topological-reasoning paragraph (removed the "like every large vendor's" inaccuracy, added the Arista/Juniper/Nokia competitive framing, matching Span v3), Span of Influence Summary paragraph (SOSIE → SSOS, added UFA/UPM by name, corrected the EVPN/Jeetu Patel attribution to match the Business/Span correction, corrected "owned" → "co-owns" the roadmap with named co-owners), Personal Development Summary (SOSIE → SSOS).
 - [x] **Consolidated "host-networking air-gap" to a single mention** — it now appears once, in Rock 4, with the coining attribution. The Quantified Highlights table's reference was rewritten to point to Rock 4 instead of repeating the branded term.
 - [ ] **Not yet done, flagged for next passes:** restructure `04-span-of-influence.md` itself explicitly around the Four Big Rocks (three of the four already exist there as tiger teams — this would make the connection explicit rather than implicit); light-touch tagging in `07-innovation.md` noting which patents/products serve which rock; decide whether Rock 4's "SmartNIC and scale-up Ethernet" advocacy should also get a one-line mention in Business Impact's "Cisco arrived late on 12.8T/25.6T/51.2T" passages, since that's the retrospective evidence the *urgency* of Rock 4 rests on even though the formal advocacy itself isn't part of the four-rocks frame.
-- [ ] **Confirm the SOSIE → SSOS and air-gap-wording sweep is now fully done in `01`** — still outstanding in `07-innovation.md`, `09-personal-development.md`, and `10-se-community-leadership.md` per the last tracker entry.
+- [ ] **Confirm the SOSIE → SSOS and air-gap-wording sweep is now fully done in `01`** — still outstanding in `07-innovation.md`, `09-personal-development.md`, and `10-leadership.md` per the last tracker entry.
 
 ---
 
@@ -141,7 +200,7 @@ Produced as `01-exec-summary-draft-v2.md`.
 - [x] **Big Rocks closing paragraph rewritten** — the old framing ("persuading business entities Bruce does not belong to... no organizational authority") was wrong on the facts: Bruce is in sales and doesn't belong to any BE. Corrected to the real story: building relationships outside his traditional MIG alignment, and — the stronger point — that he already assumed DSE-level scope and authority before having the title, which is literally what the promotion standard asks for.
 - [x] **Candidate Portrait tightened**: "why his positions survive customer scrutiny" → "why he is so credible with the most technologically sophisticated customers in the world"; "rare" → **"unique"**.
 - [x] **Career Path date corrected** — Mayor Pro Tem was a fixed 2020–2021 term, not open-ended "since January 2020."
-- [ ] **Propagate the Mayor Pro Tem date correction** — `10-se-community-leadership.md` and any other file citing "Mayor Pro Tem since January 2020" or similar open-ended phrasing need the same fix (it's a two-year term, not an ongoing role).
+- [ ] **Propagate the Mayor Pro Tem date correction** — `10-leadership.md` and any other file citing "Mayor Pro Tem since January 2020" or similar open-ended phrasing need the same fix (it's a two-year term, not an ongoing role).
 - [ ] **Quantified Highlights table not yet updated** — Bruce is still reviewing Business Impact (through Oracle as of this pass) and asked for a full revenue/major-item review before this table gets touched. Holding until that review is complete rather than updating piecemeal.
 - [ ] **Flag, not resolved:** Rock 1 now says "Cisco 8000" (Bruce's edit) while the Quantified Highlights table two sections later still says "Cisco 8122" specifically, as do `05`, `06`, and `07`. These may both be correct at different levels of precision (8000 is the platform family, 8122 the specific box) — confirm whether that's intentional or whether one should change to match the other.
 
@@ -431,7 +490,7 @@ To draft entries, need from Bruce:
 | [06-business-impact.md](https://github.com/brmcdoug/DSE/blob/main/06-business-impact.md)                 | **Editing pass complete (Aug 19, 2026).** Revenue placeholders; FY2027 TAM; Verizon POC and Adobe ACV figure both need confirmation (see above); Fiserv single-session-vs-continued question open; consider consolidating this file's own "Vault Harvest Log" section here in a future pass, same as Industry Impact |
 | [07-innovation.md](https://github.com/brmcdoug/DSE/blob/main/07-innovation.md)                           | CPOL links; Policy Plane publication                                                                                                                                                                     |
 | [09-personal-development.md](https://github.com/brmcdoug/DSE/blob/main/09-personal-development.md)       | OCP 2026; Akamai follow-up                                                                                                                                                                               |
-| [10-se-community-leadership.md](https://github.com/brmcdoug/DSE/blob/main/10-se-community-leadership.md) | **Drafted Aug 2026** (leads with **6 PSE promotions**). Remaining: Tech Elevate session list/scores/counts; **GitHub-first CL lab adoption count from SGM**; DCN Champions bootcamp metrics; IMI VT scores (Alex Lanin); P5G SDWAN & SL-OnDemand outcomes; **Kaliwoda quote or LoR** |
+| [10-leadership.md](https://github.com/brmcdoug/DSE/blob/main/10-leadership.md) | **Drafted Aug 2026** (leads with **6 PSE promotions**). Remaining: Tech Elevate session list/scores/counts; **GitHub-first CL lab adoption count from SGM**; DCN Champions bootcamp metrics; IMI VT scores (Alex Lanin); P5G SDWAN & SL-OnDemand outcomes; **Kaliwoda quote or LoR** |
 | **PSE-time-log.csv**                                                                   | Full-fidelity 2024+ rows + Notes; May–Jun 2026 entries added                                                                                                                                             |
 
 ---

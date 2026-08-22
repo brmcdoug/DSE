@@ -103,9 +103,10 @@ def emit_runs(p, text):
             p.add_run(chunk[2:-2]).bold = True
             continue
         if chunk.startswith("`") and chunk.endswith("`"):
-            r = p.add_run(chunk[1:-1])
-            r.font.name = "Consolas"
-            r.font.size = Pt(9)
+            # Backticks in the source mark repo and org names, not code. Render them
+            # in the body font: the official rules require CiscoSansTT throughout,
+            # and a monospace switch mid-sentence reads as a formatting error.
+            p.add_run(chunk[1:-1])
             continue
         if chunk.startswith("*") and chunk.endswith("*") and len(chunk) > 2:
             p.add_run(chunk[1:-1]).italic = True
@@ -131,7 +132,7 @@ def parse_blocks(md, title=None):
         line = lines[i].rstrip()
         stripped = line.strip()
 
-        m = re.match(r"^(#{2,4})\s+(.*)$", stripped)
+        m = re.match(r"^(#{1,4})\s+(.*)$", stripped)
         if m:
             level, text = len(m.group(1)), m.group(2).strip()
             low = text.lower()
@@ -142,14 +143,21 @@ def parse_blocks(md, title=None):
                 skip_level = level
                 i += 1
                 while i < len(lines):
-                    nm = re.match(r"^(#{2,4})\s+(.*)$", lines[i].strip())
+                    nm = re.match(r"^(#{1,4})\s+(.*)$", lines[i].strip())
                     if nm and len(nm.group(1)) <= skip_level:
                         break
                     i += 1
                 continue
+            if level == 1:
+                # A level-1 heading is the document title; the template already
+                # carries it as Heading 1. Drop it, or demote if it differs.
+                if not title or text.strip().lower() == title.strip().lower():
+                    i += 1
+                    continue
+                level = 2
             if level == 2 and title and text.strip().lower() == title.strip().lower():
                 i += 1
-                continue  # document title — the template already carries it
+                continue  # section title — the template already carries it
             blocks.append(("h%d" % level, text))
             i += 1
             continue
@@ -162,8 +170,22 @@ def parse_blocks(md, title=None):
             i += 1
             continue
 
-        if stripped.startswith(">") or stripped in ("---", "***", "___"):
+        if stripped in ("---", "***", "___"):
             i += 1
+            continue
+
+        # Blockquote. These carry the leader-assessment and customer quotes, so they
+        # must render -- an earlier version dropped them along with the horizontal
+        # rules and silently lost five Brook Crossman quotes from the package.
+        if stripped.startswith(">"):
+            # One quote per line. Consecutive '>' lines in these files are separate
+            # attributed quotes (e.g. four manager assessments in a row), not one
+            # wrapped paragraph, so joining them would merge distinct quotes.
+            while i < len(lines) and lines[i].strip().startswith(">"):
+                text = re.sub(r"^\s*>\s?", "", lines[i].rstrip()).strip()
+                if text:
+                    blocks.append(("quote", text))
+                i += 1
             continue
         if not stripped:
             i += 1
@@ -228,6 +250,15 @@ def build(doc, blocks, anchor):
             emit_runs(p, payload)
             place(p._p)
 
+        elif kind == "quote":
+            p = doc.add_paragraph()
+            p.paragraph_format.left_indent = Inches(0.25)
+            p.paragraph_format.right_indent = Inches(0.25)
+            p.paragraph_format.space_before = Pt(3)
+            p.paragraph_format.space_after = Pt(3)
+            emit_runs(p, payload)
+            place(p._p)
+
         elif kind == "ul":
             for item in payload:
                 p = doc.add_paragraph(style="List Paragraph")
@@ -253,7 +284,7 @@ def build(doc, blocks, anchor):
                     cp.paragraph_format.space_after = Pt(1)
                     emit_runs(cp, text)
                     for r in cp.runs:
-                        r.font.size = Pt(8.5)
+                        r.font.size = Pt(10)   # official minimum: no smaller than 10 pt
                         if ri == 0:
                             r.bold = True
             place(t._tbl)
@@ -276,11 +307,13 @@ def main():
     to_end = a.before.strip().upper() == "END"
 
     def find(text):
+        # Match Heading 1 only. Inserted section content contains Heading 2s such as
+        # "Global Impact Summary" that would otherwise capture the anchor.
         for idx, p in enumerate(paras):
-            if p.text.strip().rstrip().lower().startswith(text.lower()) and \
-               p.style.name.startswith("Heading"):
+            if p.style.name in ("Heading 1", "Heading1") and \
+               p.text.strip().rstrip().lower().startswith(text.lower()):
                 return idx
-        raise SystemExit("anchor not found: %r" % text)
+        raise SystemExit("anchor not found as a Heading 1: %r" % text)
 
     start_el = paras[find(a.after)]._p
     if to_end:

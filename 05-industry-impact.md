@@ -1,8 +1,6 @@
 ## Industry Impact
 
-## Industry Impact Arc
-
-Bruce's external work rests on three key pillars: the network's primary control point has moved to the host, so Cisco's presence there is a must; investing in open source — for NOS, tooling, and automation — earns industry credibility that drives product revenue, often faster than closed development does; and SRv6 is much more than a feature set, it's a platform for operator service innovation. His partnership with the SR engineering team includes many examples of this thinking (SR-Apps, etc.), and he presented the argument directly to the Americas SP organization as *Combatting Disaggregation with Network Service Innovation (SRv6)* at the TMC Innovation Hour (Sep 2025, repeated by request Dec 2025).
+Bruce's external work argues three things: the network's primary control point has moved to the host, so Cisco must be present there; open source earns the industry credibility that drives product revenue, often faster than closed development does; and SRv6 is a platform for operator service innovation rather than a vendor feature set.
 
 ---
 

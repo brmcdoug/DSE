@@ -199,7 +199,7 @@ Detail goes where the **strongest evidence** sits. Worked example — **SR-Apps*
 | 7     | Innovation                   | `07-innovation.md`                         | 4            | 6                     |
 | 8     | Sponsorship                  | `08-sponsorship.md`                        | 2            | 1                     |
 | 9     | Personal Development         | `09-personal-development.md`               | 1            | 1                     |
-| 10    | **Leadership**               | `10-se-community-leadership.md`            | 4            | no limit *(official)* |
+| 10    | **Leadership**               | `10-leadership.md`            | 4            | no limit *(official)* |
 | —     | Appendix (optional)          | `11-appendix.md`                           | —            | as needed             |
 
 **Max package length:** ~50 pages. Body total above is ~45–46, leaving room for cover, TOC, timeline graphic, and appendix.
@@ -387,7 +387,7 @@ Detail goes where the **strongest evidence** sits. Worked example — **SR-Apps*
 
 ---
 
-### 10. Leadership — `10-se-community-leadership.md`
+### 10. Leadership — `10-leadership.md`
 
 **Renamed** from "SE Community Leadership" per the template change note (01092025). **No official page limit.** Table format is explicitly requested. This is a **detail-target** section — it receives detail summarized in Global Impact and Span of Influence.
 
@@ -541,7 +541,7 @@ Embed in relevant sections, not a standalone section:
 | `07-innovation.md`                         | Patents, products, acquisitions, inventions                                                 |
 | `08-sponsorship.md`                        | LoR table                                                                                   |
 | `09-personal-development.md`               | Certs, training, growth                                                                     |
-| `10-se-community-leadership.md`            | Mentoring, enablement, CL                                                                   |
+| `10-leadership.md`            | Mentoring, enablement, CL                                                                   |
 | `11-appendix.md`                           | CL scores, Connected Recognition                                                             |
 | `PSE-time-log.csv`                         | **Chronological activity log** (2020–present); route by DSE criteria column → section files |
 | `reference/`                               | Brenden package PDF + template outline                                                      |
